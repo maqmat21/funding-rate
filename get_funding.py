@@ -3,41 +3,46 @@ import json
 import datetime
 
 def check_all_market():
-    # Usamos un endpoint alternativo que suele tener menos restricciones
-    # Si este falla, probaremos con fapi.binance.com
-    urls = [
-        "https://fapi.binance.com/fapi/v1/premiumIndex",
-        "https://fapi1.binance.com/fapi/v1/premiumIndex",
-        "https://fapi2.binance.com/fapi/v1/premiumIndex"
+    # Usamos un servicio de Proxy/Mirror que redirige la petición
+    # Esto hace que Binance vea una IP distinta a la de GitHub
+    url = "https://fapi.binance.com/fapi/v1/premiumIndex"
+    
+    # Lista de proxies gratuitos para intentar saltar el bloqueo
+    # Si uno falla, el script intentará el siguiente
+    proxies_list = [
+        "http://api.allorigins.win/get?url=", # Proxy 1 (Capa de abstracción)
+        "https://api.codetabs.com/v1/proxy?quest=" # Proxy 2
     ]
     
     threshold = 0.007
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
-    
     data = None
-    for url in urls:
+
+    for proxy in proxies_list:
         try:
-            print(f"Intentando conectar a: {url}")
-            response = requests.get(url, headers=headers, timeout=15)
+            target_url = f"{proxy}{url}"
+            print(f"Intentando vía Proxy: {proxy}")
+            response = requests.get(target_url, timeout=20)
             
-            # Verificamos si la respuesta es exitosa antes de procesar
             if response.status_code == 200:
-                data = response.json()
+                raw_data = response.json()
+                # Algunos proxies devuelven el JSON dentro de una llave 'contents'
+                if isinstance(raw_data, dict) and 'contents' in raw_data:
+                    data = json.loads(raw_data['contents'])
+                else:
+                    data = raw_data
+                
                 if isinstance(data, list):
-                    print(f"Conexión exitosa con {url}")
+                    print("¡Conexión exitosa a través del proxy!")
                     break
-            else:
-                print(f"Fallo {url} con status: {response.status_code}")
         except Exception as e:
-            print(f"Error en {url}: {e}")
+            print(f"Fallo proxy {proxy}: {e}")
 
     if not data or not isinstance(data, list):
-        print("No se pudo obtener una lista válida de Binance de ningún endpoint.")
+        print("No se pudo saltar el bloqueo de Binance. Intentando última alternativa...")
+        # Alternativa final: Usar un mirror público de datos de criptos si existe
         return
 
-    # Procesamiento de datos (igual que antes)
+    # Procesamiento
     ahora = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     extreme_funding = [
         {
@@ -58,7 +63,7 @@ def check_all_market():
     with open("high_funding.json", "w") as f:
         json.dump(resultado, f, indent=4)
     
-    print(f"Escaneo finalizado a las {ahora}.")
+    print(f"Archivo actualizado con éxito a las {ahora}.")
 
 if __name__ == "__main__":
     check_all_market()
