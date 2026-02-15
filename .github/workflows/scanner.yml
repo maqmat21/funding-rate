@@ -2,16 +2,17 @@ name: Funding Scanner 24/7
 
 on:
   schedule:
-    # Se ejecuta cada 10 minutos
     - cron: '*/10 * * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente para probar
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -29,5 +30,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add high_funding.json
-          git commit -m "Auto-update: $(date)" || echo "No hay cambios para subir"
+          git commit -m "Auto-update: $(date)" || echo "No hay cambios"
           git push
