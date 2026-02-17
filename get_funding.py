@@ -24,21 +24,29 @@ def fetch_via_proxy(url):
 def get_open_interest(symbol):
     url = f"https://fapi.binance.com/fapi/v1/openInterest?symbol={symbol}"
     data = fetch_via_proxy(url)
-    if data and "openInterest" in data:
-        return float(data["openInterest"])
+    try:
+        if data and "openInterest" in data:
+            return float(data["openInterest"])
+    except:
+        return None
     return None
 
 def get_oi_change_1h(symbol):
-    url = f"https://fapi.binance.com/futures/data/openInterestHist?symbol={symbol}&period=1h&limit=2"
+    url = f"https://fapi.binance.com/futures/data/openInterestHist?symbol={symbol}&period=1h&limit=5"
     data = fetch_via_proxy(url)
+    
     try:
-        if data and isinstance(data, list) and len(data) == 2:
+        if data and isinstance(data, list) and len(data) >= 2:
+            # Tomamos el más antiguo y el más reciente disponibles
             oi_old = float(data[0]["sumOpenInterest"])
-            oi_new = float(data[1]["sumOpenInterest"])
+            oi_new = float(data[-1]["sumOpenInterest"])
+            
             if oi_old != 0:
-                return round(((oi_new - oi_old) / oi_old) * 100, 4)
+                change = ((oi_new - oi_old) / oi_old) * 100
+                return round(change, 4)
     except:
         return None
+    
     return None
 
 def get_24h_ticker(symbol):
