@@ -2,7 +2,7 @@ name: Funding Scanner 24/7
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
