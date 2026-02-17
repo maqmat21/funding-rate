@@ -1,11 +1,14 @@
 import requests
 import json
 import datetime
+import os
 
 proxies_list = [
     "http://api.allorigins.win/get?url=",
     "https://api.codetabs.com/v1/proxy?quest="
 ]
+
+HISTORY_FILE = "oi_history.json"
 
 def fetch_via_proxy(url):
     for proxy in proxies_list:
@@ -31,23 +34,34 @@ def get_open_interest(symbol):
         return None
     return None
 
-def get_oi_change_1h(symbol):
-    url = f"https://fapi.binance.com/futures/data/openInterestHist?symbol={symbol}&period=1h&limit=5"
-    data = fetch_via_proxy(url)
-    
-    try:
-        if data and isinstance(data, list) and len(data) >= 2:
-            # Tomamos el más antiguo y el más reciente disponibles
-            oi_old = float(data[0]["sumOpenInterest"])
-            oi_new = float(data[-1]["sumOpenInterest"])
-            
-            if oi_old != 0:
-                change = ((oi_new - oi_old) / oi_old) * 100
-                return round(change, 4)
-    except:
-        return None
-    
-    return None
+def load_history():
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r") as f:
+            return json.load(f)
+    return {}
+
+def save_history(history):
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=4)
+
+def calculate_oi_change(symbol, current_oi):
+    history = load_history()
+    previous_oi = history.get(symbol, {}).get("open_interest")
+
+    oi_change_pct = None
+
+    if previous_oi and previous_oi != 0:
+        oi_change_pct = round(((current_oi - previous_oi) / previous_oi) * 100, 4)
+
+    # Guardamos el valor actual para próxima ejecución
+    history[symbol] = {
+        "open_interest": current_oi,
+        "last_update": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+
+    save_history(history)
+
+    return oi_change_pct
 
 def get_24h_ticker(symbol):
     url = f"https://fapi.binance.com/fapi/v1/ticker/24hr?symbol={symbol}"
@@ -82,7 +96,11 @@ def check_all_market():
             symbol = item["symbol"]
             
             oi = get_open_interest(symbol)
-            oi_change = get_oi_change_1h(symbol)
+            oi_change = None
+
+            if oi is not None:
+                oi_change = calculate_oi_change(symbol, oi)
+
             ticker_data = get_24h_ticker(symbol)
 
             enriched = {
