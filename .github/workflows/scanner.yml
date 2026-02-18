@@ -31,7 +31,7 @@ jobs:
           # Ejecutamos el script 5 veces con esperas de 60s para cumplir el requisito de 1 min
           for i in {1..5}
           do
-            python macro_engine.py
+            python DXY.py
             git config --global user.name "MacroBot"
             git config --global user.email "bot@macro-engine.com"
             git add macro_engine.json macro_history_state.json
