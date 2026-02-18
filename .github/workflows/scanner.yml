@@ -1,42 +1,39 @@
-name: Funding Scanner 24/7
+name: Funding Scanner 1 Minuto
 
 on:
   schedule:
-    # Intenta ejecutar cada minuto (Sujeto a disponibilidad de GitHub)
+    # Se ejecuta cada 1 minuto (el máximo permitido por GitHub Actions)
     - cron: '* * * * *'
-  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
+  workflow_dispatch: # Permite ejecutarlo manualmente para probar
 
 jobs:
   scan:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Permiso crucial para que el bot pueda subir los JSON
+      contents: write
     
     steps:
-      - name: Checkout repo
+      - name: Checkout repositorio
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
+      - name: Instalar librerías
+        run: pip install requests
 
-      - name: Run Funding Script
+      - name: Ejecutar Scanner
         run: python get_funding.py
 
-      - name: Commit and Push Changes
+      - name: Guardar y subir cambios
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Agregamos los dos archivos generados por el script
-          # Si alguno no existe aún (primera corrida), git no fallará gracias al git add dinámico
-          git add high_funding.json history_db.json || echo "Archivos no encontrados"
+          # Añadimos los archivos generados
+          git add high_funding.json history_db.json
           
-          # Realizamos el commit solo si hay cambios detectados
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
+          # Solo hacemos el commit si los datos realmente cambiaron
+          git diff --staged --quiet || (git commit -m "Actualización Funding: $(date)" && git push)
