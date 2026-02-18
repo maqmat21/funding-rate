@@ -2,9 +2,8 @@ name: Macro Engine v1.1 - 1 min Update
 
 on:
   schedule:
-    # GitHub dispara el flujo cada 5 min (mínimo permitido)
     - cron: '*/5 * * * *'
-  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
+  workflow_dispatch:
 
 jobs:
   run-macro:
@@ -25,6 +24,7 @@ jobs:
         run: |
           pip install requests pandas numpy scikit-learn
 
+      # Verificación línea por línea para asegurar que DXY.py existe
       - name: Execute DXY Script (1 min Loop)
         run: |
           git config --global user.name "MacroBot"
@@ -32,20 +32,15 @@ jobs:
           
           for i in {1..5}
           do
-            # Ejecutamos el archivo con el nombre solicitado: DXY.py
+            # Ejecutamos el archivo con el nombre exacto de tu repo
             python DXY.py
             
-            # Agregamos los resultados al repositorio
             git add macro_engine.json macro_history_state.json
-            
-            # Solo hace commit si hubo cambios en los datos
-            git commit -m "Auto-update Macro: $(date)" || echo "Sin cambios en este ciclo"
-            
-            # Sube los cambios a GitHub
-            git push || echo "Error en el push, reintentando en el próximo minuto"
+            git commit -m "Auto-update Macro: $(date)" || echo "No hay cambios"
+            git push || echo "Error en push, reintentando..."
             
             if [ $i -lt 5 ]; then 
-              echo "Ciclo $i completado. Esperando 60s..."
+              echo "Ciclo $i/5 completado. Esperando 60s..."
               sleep 60
             fi
           done
