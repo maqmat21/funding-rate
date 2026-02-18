@@ -1,39 +1,41 @@
-name: Funding Scanner 1 Minuto
+name: Macro Engine v1.1 - 1 min Update
 
 on:
   schedule:
-    # Se ejecuta cada 1 minuto (el máximo permitido por GitHub Actions)
-    - cron: '* * * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente para probar
+    # GitHub permite mínimo cada 5 min, el script interno manejará la frecuencia de 1 min
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
 
 jobs:
-  scan:
+  run-macro:
     runs-on: ubuntu-latest
+    # Permisos necesarios para que el Bot pueda escribir en el repositorio
     permissions:
       contents: write
-    
+
     steps:
-      - name: Checkout repositorio
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Configurar Python
+      - name: Setup Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
-      - name: Instalar librerías
-        run: pip install requests
-
-      - name: Ejecutar Scanner
-        run: python get_funding.py
-
-      - name: Guardar y subir cambios
+      - name: Install Dependencies
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Añadimos los archivos generados
-          git add high_funding.json history_db.json
-          
-          # Solo hacemos el commit si los datos realmente cambiaron
-          git diff --staged --quiet || (git commit -m "Actualización Funding: $(date)" && git push)
+          pip install requests pandas numpy scikit-learn
+
+      - name: Execute Macro Engine (1 min Loop)
+        run: |
+          # Ejecutamos el script 5 veces con esperas de 60s para cumplir el requisito de 1 min
+          for i in {1..5}
+          do
+            python macro_engine.py
+            git config --global user.name "MacroBot"
+            git config --global user.email "bot@macro-engine.com"
+            git add macro_engine.json macro_history_state.json
+            git commit -m "Auto-update Macro: $(date)" || echo "No changes to commit"
+            git push || echo "Push failed, retrying next cycle"
+            if [ $i -lt 5 ]; then sleep 60; fi
+          done
