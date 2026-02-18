@@ -4,57 +4,40 @@ import time
 import os
 
 def check_all_market():
-    # Cambiamos a dominios mirror menos saturados
-    base_urls = [
-        "https://fapi.binance.com/fapi/v1",
-        "https://fapi1.binance.com/fapi/v1"
-    ]
-    
-    # Proxy alternativo: 'scrapingant' o similares suelen ser la solucion, 
-    # pero intentaremos con este bridge de alto rendimiento:
-    proxies = [
-        "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
-        "https://api.allorigins.win/raw?url="
-    ]
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-        'Accept': 'application/json'
-    }
-
-    def fetch_with_retry(endpoint):
-        # Intentamos primero con un bridge de Cloudflare que suele saltar el bloqueo de GitHub
-        bridges = [
-            "https://cors-anywhere.herokuapp.com/", 
-            "https://thingproxy.freeboard.io/fetch/",
-            "" # Directo
-        ]
-        
-        for bridge in bridges:
-            for base in base_urls:
-                try:
-                    url = f"{bridge}{base}{endpoint}"
-                    print(f"Probando conexion: {base}{endpoint} via {bridge if bridge else 'Direct'}")
-                    response = requests.get(url, headers=headers, timeout=12)
-                    if response.status_code == 200:
-                        return response.json()
-                except:
-                    continue
-        return None
-
-    # 1. Obtencion de datos
-    data_funding = fetch_with_retry("/premiumIndex")
-    time.sleep(1) # Pausa para evitar rate limit
-    data_tickers = fetch_with_retry("/ticker/24hr")
-    
-    if not data_funding or not isinstance(data_funding, list):
-        print("ERROR CRITICO: Binance sigue bloqueando la conexion. Intentando metodo de emergencia...")
-        # Metodo de emergencia: Si falla el funding, no podemos seguir.
+    # Obtenemos la API KEY desde las variables de entorno de GitHub
+    api_key = os.getenv("SCRAPER_API_KEY")
+    if not api_key:
+        print("ERROR: No se encontró la SCRAPER_API_KEY en los Secrets de GitHub.")
         return
 
-    tickers = {t['symbol']: t for t in data_tickers if isinstance(t, dict)} if data_tickers else {}
+    def fetch_professional(endpoint):
+        target_url = f"https://fapi.binance.com/fapi/v1{endpoint}"
+        # ScraperAPI funciona pasando la URL de Binance como un parámetro
+        proxy_url = f"http://api.scraperapi.com?api_key={api_key}&url={target_url}"
+        
+        try:
+            print(f"Pidiendo datos vía ScraperAPI: {endpoint}")
+            response = requests.get(proxy_url, timeout=30)
+            if response.status_code == 200:
+                return response.json()
+            else:
+                print(f"Error {response.status_code}: {response.text}")
+                return None
+        except Exception as e:
+            print(f"Fallo de conexión: {e}")
+            return None
 
-    # 2. Historial
+    # 1. Obtención de datos masivos
+    data_funding = fetch_professional("/premiumIndex")
+    data_tickers = fetch_professional("/ticker/24hr")
+    
+    if not data_funding or not isinstance(data_funding, list):
+        print("CRÍTICO: ScraperAPI no pudo obtener los datos.")
+        return
+
+    tickers = {t['symbol']: t for t in data_tickers if isinstance(t, dict)}
+    
+    # 2. Gestión de Historial
     history_file = "history_db.json"
     history = {}
     if os.path.exists(history_file):
@@ -65,17 +48,18 @@ def check_all_market():
     final_list = []
     now_ts = int(time.time())
 
-    # 3. Procesamiento (Mismo formato solicitado)
+    # 3. Procesamiento
     for item in data_funding:
         symbol = item.get("symbol", "")
         if not symbol.endswith('USDT'): continue
         
-        f_rate = float(item.get("lastFundingRate", 0))
+        f_rate = float(item.get("last_funding_rate", item.get("lastFundingRate", 0)))
         f_pct = round(f_rate * 100, 4)
 
         if abs(f_pct) >= 0.7:
-            # Para el OI, limitamos peticiones para no ser baneados
-            oi_data = fetch_with_retry(f"/openInterest?symbol={symbol}")
+            # IMPORTANTE: Para ahorrar créditos de ScraperAPI, no pediremos el OI por separado 
+            # en cada vuelta si no es necesario. Por ahora lo dejamos directo.
+            oi_data = fetch_professional(f"/openInterest?symbol={symbol}")
             oi_raw = float(oi_data.get('openInterest', 0)) if (oi_data and isinstance(oi_data, dict)) else 0
             
             if symbol not in history: history[symbol] = []
@@ -110,7 +94,7 @@ def check_all_market():
 
     with open(history_file, "w") as f: json.dump(history, f)
     with open("high_funding.json", "w") as f: json.dump(final_list, f, indent=4)
-    print(f"Finalizado: {len(final_list)} monedas.")
+    print(f"Finalizado con éxito: {len(final_list)} monedas.")
 
 if __name__ == "__main__":
     check_all_market()
