@@ -3,54 +3,86 @@ import json
 import time
 import os
 import urllib3
+import random
 from concurrent.futures import ThreadPoolExecutor
 
 # Silenciar advertencias de SSL
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def check_all_market():
-    # Puente para evitar bloqueos de IP en GitHub Actions
-    PROXY_BRIDGE = "https://api.codetabs.com/v1/proxy?quest="
+    # Lista extendida de mirrors de Binance y Proxies de respaldo
+    # Usar variaciones de subdominios ayuda a saltar bloqueos de IP
     endpoints = [
         "https://fapi.binance.com/fapi/v1",
         "https://fapi1.binance.com/fapi/v1",
-        "https://fapi2.binance.com/fapi/v1"
+        "https://fapi2.binance.com/fapi/v1",
+        "https://fapi3.binance.com/fapi/v1",
+        "https://fapi4.binance.com/fapi/v1",
+        "https://fapi5.binance.com/fapi/v1"
     ]
     
-    # Umbral mínimo para entrar en el radar (0.7%)
+    # Umbral de radar (0.7%)
     THRESHOLD_RADAR = 0.007 
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    
+    # Rotación de User-Agents para evitar detección de bot
+    user_agents = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
+    ]
 
     def smart_fetch(path):
-        """Intenta conexión directa y recurre al proxy si falla."""
-        for base in endpoints:
+        """Intenta conexión rotando mirrors y agentes."""
+        # Mezclamos los endpoints para no atacar siempre el mismo primero
+        current_endpoints = endpoints.copy()
+        random.shuffle(current_endpoints)
+        
+        for base in current_endpoints:
             target_url = f"{base}{path}"
+            headers = {
+                'User-Agent': random.choice(user_agents),
+                'Accept': 'application/json'
+            }
             try:
-                res = requests.get(target_url, headers=headers, timeout=10, verify=False)
-                if res.status_code == 200: return res.json()
+                # Reducimos el timeout para rotar más rápido si un nodo falla
+                res = requests.get(target_url, headers=headers, timeout=5, verify=False)
+                if res.status_code == 200: 
+                    return res.json()
+                elif res.status_code == 429:
+                    print(f"Rate limit en {base}, saltando...")
+                    continue
             except:
-                try:
-                    res = requests.get(f"{PROXY_BRIDGE}{target_url}", headers=headers, timeout=12)
-                    if res.status_code == 200: return res.json()
-                except: continue
+                continue
+        
+        # Último recurso: Proxy AllOrigins si los directos fallan
+        try:
+            proxy_url = f"https://api.allorigins.win/raw?url={random.choice(endpoints)}{path}"
+            res = requests.get(proxy_url, timeout=10)
+            if res.status_code == 200: return res.json()
+        except: pass
+            
         return None
 
-    print("--- INICIANDO ESCANEO PROFESIONAL (1 MIN CYCLE) ---")
+    print("--- INICIANDO ESCANEO PROFESIONAL (DYNAMIC ROTATION) ---")
     
-    # Obtención de datos maestros de Binance
+    # Paso 1: Obtención de datos maestros
     data_funding = smart_fetch("/premiumIndex")
+    # Si falla el primero, damos un pequeño respiro y reintentamos
+    if not data_funding:
+        time.sleep(2)
+        data_funding = smart_fetch("/premiumIndex")
+
     data_tickers = smart_fetch("/ticker/24hr")
     data_liq = smart_fetch("/allForceOrders")
 
     if not data_funding or not data_tickers:
-        print("CRÍTICO: Fallo de conexión con los nodos de datos.")
+        print("CRÍTICO: Fallo total de conexión. Binance bloqueó los nodos.")
         return
 
-    # Indexación para acceso rápido (O(1))
     tickers = {t['symbol']: t for t in data_tickers if isinstance(t, dict) and 'symbol' in t}
     liq_symbols = {l['symbol'] for l in data_liq} if isinstance(data_liq, list) else set()
 
-    # Cargar base de datos histórica
+    # Cargar Historial
     history_file = "history_db.json"
     if os.path.exists(history_file):
         try:
@@ -60,7 +92,7 @@ def check_all_market():
 
     now_ts = int(time.time())
     
-    # Filtrar candidatos iniciales (abs(funding) >= 0.7%)
+    # Filtrar candidatos (abs(funding) >= 0.7%)
     candidates = [item for item in data_funding if isinstance(item, dict) and 
                   item.get("symbol", "").endswith('USDT') and 
                   abs(float(item.get("lastFundingRate", 0))) >= THRESHOLD_RADAR]
@@ -68,8 +100,8 @@ def check_all_market():
     print(f"Analizando {len(candidates)} candidatos de {len(data_funding)} pares totales...")
 
     def fetch_oi_data(item):
-        """Descarga de Open Interest para procesamiento paralelo."""
         symbol = item.get("symbol")
+        # Para OI usamos una rotación individual
         oi_data = smart_fetch(f"/openInterest?symbol={symbol}")
         if oi_data and isinstance(oi_data, dict):
             return {
@@ -79,15 +111,14 @@ def check_all_market():
             }
         return None
 
-    # Paralelización de peticiones de red (I/O Bound)
+    # Procesamiento en paralelo
     downloaded_data = []
-    with ThreadPoolExecutor(max_workers=15) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         results = list(executor.map(fetch_oi_data, candidates))
         downloaded_data = [r for r in results if r is not None]
 
     final_results = []
     
-    # Procesamiento de lógica de trading y flags
     for data in downloaded_data:
         symbol = data['symbol']
         oi_raw = data['oi_raw']
@@ -97,36 +128,31 @@ def check_all_market():
         ticker = tickers.get(symbol, {})
         price = float(ticker.get('lastPrice', 0)) if ticker else 0.0
 
-        # Mantenimiento de historial para cálculos de cambio %
         if symbol not in history or not isinstance(history[symbol], list):
             history[symbol] = []
         
         history[symbol].append({"ts": now_ts, "oi": oi_raw, "funding": f_pct})
-        # Limpiar datos antiguos (>24h)
         history[symbol] = [r for r in history[symbol] if now_ts - r['ts'] <= 86400]
 
         def get_pct_change(records, seconds):
             if len(records) < 2: return 0.0
             target_time = now_ts - seconds
-            # Encontrar el registro más cercano al punto objetivo
             past_record = min(records, key=lambda x: abs(x['ts'] - target_time))
-            if now_ts - past_record['ts'] > (seconds * 1.5): return 0.0 # Data gap too large
+            if now_ts - past_record['ts'] > (seconds * 1.6): return 0.0 
             return round(((oi_raw - past_record['oi']) / past_record['oi'] * 100), 2) if past_record['oi'] > 0 else 0.0
 
         oi_4h_change = get_pct_change(history[symbol], 14400)
         oi_24h_change = get_pct_change(history[symbol], 86400)
         
-        # Determinación de tendencia de Funding
         trend = "STABLE"
         if len(history[symbol]) > 1:
             prev_f = history[symbol][-2]['funding']
             if f_pct > prev_f: trend = "INCREASING"
             elif f_pct < prev_f: trend = "DECREASING"
 
-        # REGLA PROFESIONAL: Candidate Squeeze Flag
+        # REGLA PROFESIONAL SOLICITADA
         candidate_squeeze = abs(f_pct) >= 1.8 and oi_4h_change >= -5
 
-        # Construcción del JSON solicitado
         final_results.append({
             "symbol": symbol,
             "timestamp": now_ts,
@@ -143,14 +169,12 @@ def check_all_market():
             "type": "POSITIVE" if f_rate > 0 else "NEGATIVE"
         })
 
-    # Ordenar por severidad de funding (más alto primero)
     final_results = sorted(final_results, key=lambda x: abs(x['funding_rate_pct']), reverse=True)
 
-    # Persistencia de datos
     with open(history_file, "w") as f: json.dump(history, f)
     with open("high_funding.json", "w") as f: json.dump(final_results, f, indent=4)
     
-    print(f"--- ESCANEO FINALIZADO: {len(final_results)} ACTIVOS IDENTIFICADOS ---")
+    print(f"--- ESCANEO FINALIZADO: {len(final_results)} MONEDAS ---")
 
 if __name__ == "__main__":
     check_all_market()
