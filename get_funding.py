@@ -6,7 +6,7 @@ import urllib3
 import threading
 import customtkinter as ctk
 from datetime import datetime
-import pyperclip  # Necesario para copiar al portapapeles: pip install pyperclip
+import pyperclip
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -22,16 +22,14 @@ class CryptoScannerApp(ctk.CTk):
 
         self.running_loop = False
         
-        # Fuentes
         self.font_button = ("Segoe UI", 18, "bold")
         self.font_status = ("Segoe UI", 16)
         self.font_json = ("Consolas", 20)
 
-        # --- DISEÑO DE INTERFAZ ---
+        # --- INTERFAZ ---
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
 
-        # Panel Superior
         self.top_frame = ctk.CTkFrame(self)
         self.top_frame.grid(row=0, column=0, padx=20, pady=20, sticky="ew")
 
@@ -48,22 +46,19 @@ class CryptoScannerApp(ctk.CTk):
         self.status_label = ctk.CTkLabel(self.top_frame, text="Estado: Esperando...", font=self.font_status)
         self.status_label.grid(row=0, column=2, padx=30)
 
-        # Contenedor del JSON y Botón Copiar
         self.container = ctk.CTkFrame(self)
         self.container.grid(row=1, column=0, padx=20, pady=(0, 20), sticky="nsew")
         self.container.grid_columnconfigure(0, weight=1)
         self.container.grid_rowconfigure(0, weight=1)
 
-        # Cuadro de Texto JSON
         self.txt_output = ctk.CTkTextbox(self.container, font=self.font_json, border_width=2)
         self.txt_output.grid(row=0, column=0, sticky="nsew")
 
-        # Botón Copiar (Posicionado arriba a la derecha del cuadro)
         self.btn_copy = ctk.CTkButton(self.container, text="📋 Copiar JSON", 
                                       font=("Segoe UI", 12, "bold"), width=100, height=30,
                                       fg_color="#34495e", hover_color="#2c3e50",
                                       command=self.copy_to_clipboard)
-        self.btn_copy.place(relx=0.98, rely=0.02, anchor="ne") # Esquina superior derecha
+        self.btn_copy.place(relx=0.98, rely=0.02, anchor="ne")
 
     def copy_to_clipboard(self):
         content = self.txt_output.get("1.0", ctk.END).strip()
@@ -87,7 +82,7 @@ class CryptoScannerApp(ctk.CTk):
         def loop():
             while self.running_loop:
                 self.check_all_market_logic()
-                time.sleep(60) # Actualización cada 1 minuto
+                time.sleep(60)
         threading.Thread(target=loop, daemon=True).start()
 
     def check_all_market_logic(self):
@@ -97,7 +92,7 @@ class CryptoScannerApp(ctk.CTk):
         TICKER_URL = "https://fapi.binance.com/fapi/v1/ticker/24hr"
         LIQ_URL = "https://fapi.binance.com/fapi/v1/allForceOrders"
         
-        THRESHOLD = 0.005 # 0.5% (Tus ajustes)
+        THRESHOLD = 0.005 # 0.5%
         headers = {'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'}
 
         data_funding = None
@@ -123,12 +118,16 @@ class CryptoScannerApp(ctk.CTk):
             liq_symbols = {l['symbol'] for l in liq_res}
         except: liq_symbols = set()
 
+        # --- CARGA SEGURA DEL HISTORIAL ---
         history_file = "history_db.json"
+        history = {}
         if os.path.exists(history_file):
             try:
-                with open(history_file, "r") as f: history = json.load(f)
+                with open(history_file, "r") as f:
+                    temp_history = json.load(f)
+                    if isinstance(temp_history, dict):
+                        history = temp_history
             except: history = {}
-        else: history = {}
 
         now_ts = int(time.time())
         final_results = []
@@ -153,13 +152,19 @@ class CryptoScannerApp(ctk.CTk):
                 vol_24h = float(t_info.get('quoteVolume', 0)) if t_info else 0.0
                 price_chg = float(t_info.get('priceChangePercent', 0)) if t_info else 0.0
 
-                if symbol not in history: history[symbol] = []
+                # --- CORRECCIÓN DEL ATRIBUTO APPEND ---
+                if symbol not in history or not isinstance(history[symbol], list):
+                    history[symbol] = []
+                
                 history[symbol].append({"ts": now_ts, "oi": oi_usd, "funding": f_pct})
+                
+                # Limpiar registros de más de 24h
                 history[symbol] = [r for r in history[symbol] if now_ts - r['ts'] <= 86400]
 
                 def get_change(records, seconds):
                     if len(records) < 2: return 0.0
                     target = now_ts - seconds
+                    # Buscar el registro más cercano al tiempo objetivo
                     past = min(records, key=lambda x: abs(x['ts'] - target))
                     if now_ts - past['ts'] > (seconds * 2): return 0.0
                     return round(((oi_usd - past['oi']) / past['oi'] * 100), 2) if past['oi'] > 0 else 0.0
@@ -183,7 +188,11 @@ class CryptoScannerApp(ctk.CTk):
                 })
 
         final_results = sorted(final_results, key=lambda x: abs(x['funding_rate_pct']), reverse=True)
-        with open(history_file, "w") as f: json.dump(history, f)
+        
+        # Guardar historial actualizado
+        try:
+            with open(history_file, "w") as f: json.dump(history, f)
+        except: pass
         
         self.update_ui(json.dumps(final_results, indent=4))
         self.status_label.configure(text=f"Estado: OK ({datetime.now().strftime('%H:%M:%S')})")
