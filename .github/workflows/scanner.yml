@@ -1,12 +1,12 @@
-name: Macro Engine v1.1 - 1 min Update
+name: Macro & Portfolio Analysis v1.2
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 jobs:
-  run-macro:
+  run-pipeline:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,25 +22,33 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests pandas numpy scikit-learn
+          pip install requests pandas numpy scikit-learn yfinance beautifulsoup4
 
-      # Verificación línea por línea para asegurar que DXY.py existe
-      - name: Execute DXY Script (1 min Loop)
+      - name: Execute Pipeline and Scripts
         run: |
           git config --global user.name "MacroBot"
           git config --global user.email "bot@macro-engine.com"
           
+          # 1. Ejecutar DXY Script con el bucle solicitado (5 min total)
+          echo "Ejecutando DXY.py..."
           for i in {1..5}
           do
-            # Ejecutamos el archivo con el nombre exacto de tu repo
             python DXY.py
-            
             git add macro_engine.json macro_history_state.json
-            git commit -m "Auto-update Macro: $(date)" || echo "No hay cambios"
-            git push || echo "Error en push, reintentando..."
+            git commit -m "Auto-update Macro: $(date)" || echo "No hay cambios en DXY"
             
             if [ $i -lt 5 ]; then 
-              echo "Ciclo $i/5 completado. Esperando 60s..."
               sleep 60
             fi
           done
+
+          # 2. Ejecutar Pipeline Sirena v2 (corre una vez)
+          echo "Ejecutando sirena/run_full_analysis_v2.py..."
+          python sirena/run_full_analysis_v2.py
+          
+          # 3. Commit y Push final de todos los resultados
+          git add full_analysis_output_v2/
+          git commit -m "Auto-update Portfolio Analysis: $(date)" || echo "No hay cambios en Sirena"
+          
+          # Push único al final
+          git push || echo "Error en push, reintentando..."
