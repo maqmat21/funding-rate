@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T19:49:29.548397+00:00",
+    "generated_at_utc": "2026-03-28T20:02:37.683976+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.193,
+        "price": 100.184,
         "trend": "alcista"
       },
       "US10Y": {
@@ -27,33 +27,33 @@
     "'Magnificent 7' stocks wipe more than $850 billion in value as stock market sell-off hits AI winners hard",
     "Almost everything is going wrong for markets right now",
     "Dow Jones Futures: Market Dives As Oil Prices Hit $100 In Iran War; What To Do Now",
-    "Analyst Report: Paychex Inc",
+    "Analyst Report: Campbell's Company/The",
     "Ray Dalio Declares Cash Will 'Lose A Lot Of Purchasing Power' And Explains The 'All Weather' Portfolio He Thinks Beats 60/40"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66799.1875,
-        "perp_last_price": 66799.1875,
-        "mark_price": 66799.1875,
-        "index_price": 66799.1875,
+        "spot_price": 66853.859375,
+        "perp_last_price": 66853.859375,
+        "mark_price": 66853.859375,
+        "index_price": 66853.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66799.1875,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 66195.49609375,
-        "target_2": 65591.8046875,
+        "entry_ideal": 66853.859375,
+        "stop_loss_technical": 65851.05148437,
+        "target_1": 68358.07121094,
+        "target_2": 69862.28304688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66799.1875,
-        "stop_loss_technical": 65797.1996875,
-        "target_1": 68302.16921875,
-        "target_2": 69805.1509375,
+        "entry_ideal": 66853.859375,
+        "stop_loss_technical": 65851.05148437,
+        "target_1": 68358.07121094,
+        "target_2": 69862.28304688,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
