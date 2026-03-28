@@ -218,7 +218,11 @@ def analyze_timeframe(klines: List[Dict[str, Any]], oi_hist: List[float]) -> Dic
 def score_and_levels(tf_map: Dict[str, Any], intervals: List[str], macro_bias: str) -> Dict[str, Any]:
     primary = tf_map[intervals[0]]
     cur = primary["price"]
-    if cur is None: return {"semaphore": "rojo", "bias": "no_trade", "prob": 0, "reasons": ["Faltan datos"]}
+    if cur is None: return {
+        "semaphore": "rojo", "bias": "no_trade", "probability_pct": 0, 
+        "technical_reasoning": ["Faltan datos"], "note": "Sin datos suficientes para operar.",
+        "entry_ideal": None, "stop_loss_technical": None, "target_1": None, "target_2": None
+    }
     
     bull = 0; bear = 0; reasons = []
     e20 = primary["ema20"]; e50 = primary["ema50"]; rs = primary["rsi"]; mb = primary["macd_bull"]; os = primary["oi_slope"]
