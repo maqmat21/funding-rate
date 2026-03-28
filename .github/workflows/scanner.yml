@@ -29,26 +29,17 @@ jobs:
           git config --global user.name "MacroBot"
           git config --global user.email "bot@macro-engine.com"
           
-          # 1. Ejecutar DXY Script con el bucle solicitado (5 min total)
+          # 1. Ejecutar DXY Script (una vez)
           echo "Ejecutando DXY.py..."
-          for i in {1..5}
-          do
-            python DXY.py
-            git add macro_engine.json macro_history_state.json
-            git commit -m "Auto-update Macro: $(date)" || echo "No hay cambios en DXY"
-            
-            if [ $i -lt 5 ]; then 
-              sleep 60
-            fi
-          done
-
-          # 2. Ejecutar Pipeline Sirena v2 (corre una vez)
+          python DXY.py
+          
+          # 2. Ejecutar Pipeline Sirena v2 (una vez)
           echo "Ejecutando sirena/run_full_analysis_v2.py..."
           python sirena/run_full_analysis_v2.py
           
           # 3. Commit y Push final de todos los resultados
-          git add full_analysis_output_v2/
-          git commit -m "Auto-update Portfolio Analysis: $(date)" || echo "No hay cambios en Sirena"
+          git add macro_engine.json macro_history_state.json full_analysis_output_v2/
+          git commit -m "Auto-update Macro & Portfolio: $(date)" || echo "No hay cambios para subir"
           
           # Push único al final
-          git push || echo "Error en push, reintentando..."
+          git push || echo "Error en push"
