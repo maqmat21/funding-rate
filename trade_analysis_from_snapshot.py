@@ -291,8 +291,14 @@ def choose_levels_micro(intervals: Dict[str, Any], direction: str) -> Dict[str, 
     p1h = intervals["1h"]
 
     current = last_close(p5)
-    high_ref = max(x for x in [high20(p5), high20(p15), high20(p1h)] if x is not None)
-    low_ref = min(x for x in [low20(p5), low20(p15), low20(p1h)] if x is not None)
+    
+    high_candidates = [high20(p5), high20(p15), high20(p1h)]
+    high_vals = [x for x in high_candidates if x is not None]
+    high_ref = max(high_vals) if high_vals else current
+
+    low_candidates = [low20(p5), low20(p15), low20(p1h)]
+    low_vals = [x for x in low_candidates if x is not None]
+    low_ref = min(low_vals) if low_vals else current
     e20_5 = ema20(p5)
     e20_15 = ema20(p15)
 
@@ -304,9 +310,13 @@ def choose_levels_micro(intervals: Dict[str, Any], direction: str) -> Dict[str, 
     notes = []
 
     if direction == "long":
-        entry = max(v for v in [current, e20_5, e20_15] if v is not None)
+        v_entry = [v for v in [current, e20_5, e20_15] if v is not None]
+        entry = max(v_entry) if v_entry else current
+        
         invalidation_candidates = [low20(p5), low20(p15), e20_15]
-        invalidation = min(v for v in invalidation_candidates if v is not None)
+        v_inv = [v for v in invalidation_candidates if v is not None]
+        invalidation = min(v_inv) if v_inv else current
+        
         stop = invalidation
         risk = entry - stop if entry is not None and stop is not None else None
         if risk is not None and risk > 0:
@@ -315,9 +325,13 @@ def choose_levels_micro(intervals: Dict[str, Any], direction: str) -> Dict[str, 
         notes.append("Entrada ideal tras defensa/aceptación sobre EMA20 5m-15m")
         notes.append("Invalidación bajo estructura corta y/o pérdida de EMA20 15m")
     elif direction == "short":
-        entry = min(v for v in [current, e20_5, e20_15] if v is not None)
+        v_entry = [v for v in [current, e20_5, e20_15] if v is not None]
+        entry = min(v_entry) if v_entry else current
+        
         invalidation_candidates = [high20(p5), high20(p15), e20_15]
-        invalidation = max(v for v in invalidation_candidates if v is not None)
+        v_inv = [v for v in invalidation_candidates if v is not None]
+        invalidation = max(v_inv) if v_inv else current
+        
         stop = invalidation
         risk = stop - entry if entry is not None and stop is not None else None
         if risk is not None and risk > 0:
@@ -343,8 +357,14 @@ def choose_levels_macro(intervals: Dict[str, Any], direction: str) -> Dict[str, 
     p1d = intervals["1d"]
 
     current = last_close(p4h)
-    high_ref = max(x for x in [high20(p4h), high20(p1d)] if x is not None)
-    low_ref = min(x for x in [low20(p4h), low20(p1d)] if x is not None)
+
+    high_candidates = [high20(p4h), high20(p1d)]
+    high_vals = [x for x in high_candidates if x is not None]
+    high_ref = max(high_vals) if high_vals else current
+
+    low_candidates = [low20(p4h), low20(p1d)]
+    low_vals = [x for x in low_candidates if x is not None]
+    low_ref = min(low_vals) if low_vals else current
     e20_4 = ema20(p4h)
     e50_4 = ema50(p4h)
     e20_1d = ema20(p1d)
@@ -357,8 +377,12 @@ def choose_levels_macro(intervals: Dict[str, Any], direction: str) -> Dict[str, 
     notes = []
 
     if direction == "long":
-        entry = max(v for v in [current, e20_4, e50_4] if v is not None)
-        invalidation = min(v for v in [low20(p4h), e50_4, e20_1d] if v is not None)
+        v_entry = [v for v in [current, e20_4, e50_4] if v is not None]
+        entry = max(v_entry) if v_entry else current
+        
+        v_inv = [v for v in [low20(p4h), e50_4, e20_1d] if v is not None]
+        invalidation = min(v_inv) if v_inv else current
+        
         stop = invalidation
         risk = entry - stop if entry is not None and stop is not None else None
         if risk is not None and risk > 0:
@@ -367,8 +391,12 @@ def choose_levels_macro(intervals: Dict[str, Any], direction: str) -> Dict[str, 
         notes.append("Entrada ideal tras confirmación de continuidad sobre estructura 4H")
         notes.append("Invalidación por pérdida de soporte 4H / EMA estructural")
     elif direction == "short":
-        entry = min(v for v in [current, e20_4, e50_4] if v is not None)
-        invalidation = max(v for v in [high20(p4h), e50_4, e20_1d] if v is not None)
+        v_entry = [v for v in [current, e20_4, e50_4] if v is not None]
+        entry = min(v_entry) if v_entry else current
+        
+        v_inv = [v for v in [high20(p4h), e50_4, e20_1d] if v is not None]
+        invalidation = max(v_inv) if v_inv else current
+        
         stop = invalidation
         risk = stop - entry if entry is not None and stop is not None else None
         if risk is not None and risk > 0:
