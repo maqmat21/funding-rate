@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T12:52:53.460582+00:00",
+    "generated_at_utc": "2026-03-28T13:42:19.906083+00:00",
     "notes": [
       "Mirror rotation x15",
       "yfinance fallback enabled",
@@ -23,11 +23,11 @@
   },
   "events_considered_titles": [
     "Economic News and Analysis",
+    "2 Energy Stocks to Buy Before Oil Hits $150 a Barrel",
     "Did Fed Chair Jerome Powell Throw President Donald Trump Under the Bus Concerning Inflation for a Second Straight FOMC Meeting?",
     "Iran War Leaves Global Economic Leaders Searching for Answers",
     "As oil prices rise, airfares are surging and some airlines might not survive",
     "Look Beyond Skyrocketing Gas Prices! If a Stock Market Crash Takes Shape Under President Donald Trump, the Fed Is Likely to Be the Catalyst.",
-    "Oil prices threaten to blow up a $3tn market",
     "The market is starting to think the Federal Reserve's next move is raising interest rates",
     "Consumer sentiment hits lowest level since December as Americans begin feeling war's effects",
     "Fed's Jefferson sees higher inflation from Iran war near term, signals toward holding rates steady",
@@ -37,10 +37,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66353.734375,
-        "perp_last_price": 66353.734375,
-        "mark_price": 66353.734375,
-        "index_price": 66353.734375,
+        "spot_price": 66606.40625,
+        "perp_last_price": 66606.40625,
+        "mark_price": 66606.40625,
+        "index_price": 66606.40625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -51,13 +51,14 @@
         "technical_reasoning": [
           "Precio > EMA20",
           "Precio > EMA50",
+          "RSI Bullish",
           "MACD Bullish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66353.734375,
-        "stop_loss_technical": 66512.9765625,
-        "target_1": 66114.87109375,
-        "target_2": 65876.0078125,
+        "entry_ideal": 66606.40625,
+        "stop_loss_technical": 66643.4296875,
+        "target_1": 66550.87109375,
+        "target_2": 66495.3359375,
         "note": "Operativa adaptativa con Stop Técnico."
       },
       "final_macro": {
@@ -65,16 +66,15 @@
         "bias": "short",
         "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Precio < EMA50",
-          "RSI Bearish",
           "MACD Bearish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66353.734375,
+        "entry_ideal": 66606.40625,
         "stop_loss_technical": 75988.3984375,
-        "target_1": 51901.73828125,
-        "target_2": 37449.7421875,
+        "target_1": 52533.41796875,
+        "target_2": 38460.4296875,
         "note": "Operativa adaptativa con Stop Técnico."
       }
     },
