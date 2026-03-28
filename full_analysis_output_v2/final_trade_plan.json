@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "generator": "final_trade_orchestrator.py",
+    "generated_at_utc": "2026-03-28T00:14:01.831408+00:00",
+    "source_snapshot_captured_at_utc": "2026-03-28T00:13:41.252077+00:00",
+    "notes": [
+      "El resultado se emite automáticamente sin requerir aceptación previa.",
+      "Los eventos macro/noticiosos se muestran solo como títulos.",
+      "Si luego aparece un evento relevante no contemplado, debe analizarse en línea fuera del script.",
+      "El stop loss siempre se interpreta como técnico; si el PnL/riesgo es excesivo, se reduce tamaño o no se entra."
+    ]
+  },
+  "macro_context_auto": {
+    "timestamp": "2026-03-28T00:13:58.883625+00:00",
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
+    "dxy": {
+      "price": 100.193001,
+      "ema20": 100.028074,
+      "ema50": 99.867551,
+      "ema_trend": "alcista",
+      "structure_1h": "alcista",
+      "structure_4h": "alcista",
+      "momentum_slope": 0.076004,
+      "momentum_state": "alcista",
+      "breakout_24h": "none",
+      "state_summary": "tendencia_fuerte",
+      "history_source_rows": 113
+    },
+    "us10y": {
+      "price": 4.44,
+      "direction_1h": "alcista",
+      "momentum_state": "alcista",
+      "ema20": 4.406506,
+      "ema50": null,
+      "structure_4h": "alcista",
+      "state_summary": "tendencia_fuerte",
+      "history_source_rows": 35
+    },
+    "risk_environment": {
+      "btc_probability_bias": "bajista",
+      "altcoins_probability_bias": "bajista",
+      "confidence_level": "alta"
+    },
+    "alerts": {
+      "macro_shift": true,
+      "volatility_expansion": false
+    }
+  },
+  "events_considered_titles": [],
+  "assets": {
+    "BTCUSDT": {
+      "context": {
+        "asset": "BTCUSDT",
+        "spot_price": 66314.44,
+        "perp_last_price": null,
+        "mark_price": null,
+        "index_price": null,
+        "basis_pct_perp_minus_spot": null,
+        "funding_rate": null,
+        "notes": [
+          "BTC aporta contexto interno mixto"
+        ]
+      },
+      "events_considered_titles": [],
+      "final_micro": {
+        "timeframes_used": [
+          "3m",
+          "5m",
+          "15m",
+          "1h"
+        ],
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 50,
+        "technical_reasoning": [],
+        "macro_context_alignment": "neutral",
+        "entry_ideal": null,
+        "invalidation_level": null,
+        "stop_loss_technical": null,
+        "target_1": null,
+        "target_2": null,
+        "execution_notes": [
+          "Sin ventaja clara; mejor no operar hasta nueva confirmación"
+        ],
+        "discipline_note": "El stop loss es técnico. Si el PnL/riesgo es demasiado alto para el tamaño deseado, se reduce tamaño o no se entra.",
+        "macro_overlay": [
+          "Macro bias: RISK_OFF (80/100)",
+          "DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista",
+          "US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista",
+          "Sin ventaja suficiente; preservar capital tiene prioridad."
+        ]
+      },
+      "final_macro": {
+        "timeframes_used": [
+          "1h",
+          "4h",
+          "1d"
+        ],
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 50,
+        "technical_reasoning": [],
+        "macro_context_alignment": "neutral",
+        "entry_ideal": null,
+        "invalidation_level": null,
+        "stop_loss_technical": null,
+        "target_1": null,
+        "target_2": null,
+        "execution_notes": [
+          "Sin ventaja estructural clara en 4H"
+        ],
+        "discipline_note": "El stop loss es técnico. Si el stop estructural correcto implica demasiada pérdida, se reduce tamaño o no se entra.",
+        "macro_overlay": [
+          "Macro bias: RISK_OFF (80/100)",
+          "DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista",
+          "US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista",
+          "Sin ventaja suficiente; preservar capital tiene prioridad."
+        ]
+      }
+    },
+    "SIRENUSDT": {
+      "context": {
+        "asset": "SIRENUSDT",
+        "spot_price": null,
+        "perp_last_price": null,
+        "mark_price": null,
+        "index_price": null,
+        "basis_pct_perp_minus_spot": null,
+        "funding_rate": null,
+        "notes": [
+          "BTC aporta contexto interno mixto"
+        ]
+      },
+      "events_considered_titles": [],
+      "final_micro": {
+        "timeframes_used": [
+          "3m",
+          "5m",
+          "15m",
+          "1h"
+        ],
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 50,
+        "technical_reasoning": [],
+        "macro_context_alignment": "neutral",
+        "entry_ideal": null,
+        "invalidation_level": null,
+        "stop_loss_technical": null,
+        "target_1": null,
+        "target_2": null,
+        "execution_notes": [
+          "Sin ventaja clara; mejor no operar hasta nueva confirmación"
+        ],
+        "discipline_note": "El stop loss es técnico. Si el PnL/riesgo es demasiado alto para el tamaño deseado, se reduce tamaño o no se entra.",
+        "macro_overlay": [
+          "Macro bias: RISK_OFF (80/100)",
+          "DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista",
+          "US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista",
+          "Sin ventaja suficiente; preservar capital tiene prioridad."
+        ]
+      },
+      "final_macro": {
+        "timeframes_used": [
+          "1h",
+          "4h",
+          "1d"
+        ],
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 50,
+        "technical_reasoning": [],
+        "macro_context_alignment": "neutral",
+        "entry_ideal": null,
+        "invalidation_level": null,
+        "stop_loss_technical": null,
+        "target_1": null,
+        "target_2": null,
+        "execution_notes": [
+          "Sin ventaja estructural clara en 4H"
+        ],
+        "discipline_note": "El stop loss es técnico. Si el stop estructural correcto implica demasiada pérdida, se reduce tamaño o no se entra.",
+        "macro_overlay": [
+          "Macro bias: RISK_OFF (80/100)",
+          "DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista",
+          "US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista",
+          "Sin ventaja suficiente; preservar capital tiene prioridad."
+        ]
+      }
+    }
+  }
+}

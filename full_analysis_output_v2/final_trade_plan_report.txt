@@ -1,0 +1,146 @@
+REPORTE DETALLADO - FULL ANALYSIS V2
+========================================================================
+Generated at UTC: 2026-03-28T00:14:01.831408+00:00
+Source snapshot captured at UTC: 2026-03-28T00:13:41.252077+00:00
+
+BLOQUE MACRO AUTOMÁTICO
+------------------------------------------------------------------------
+Timestamp: 2026-03-28T00:13:58.883625+00:00
+Macro bias: RISK_OFF
+Macro score: 80
+DXY:
+  - Price: 100.193001
+  - EMA20: 100.028074
+  - EMA50: 99.867551
+  - EMA trend: alcista
+  - Structure 1H: alcista
+  - Structure 4H: alcista
+  - Momentum slope: 0.076004
+  - Momentum state: alcista
+  - Breakout 24H: none
+  - State summary: tendencia_fuerte
+US10Y:
+  - Price: 4.44
+  - Direction 1H: alcista
+  - Momentum state: alcista
+  - EMA20: 4.406506
+  - EMA50: N/A
+  - Structure 4H: alcista
+  - State summary: tendencia_fuerte
+Risk environment:
+  - BTC probability bias: bajista
+  - Altcoins probability bias: bajista
+  - Confidence level: alta
+Alerts:
+  - Macro shift: True
+  - Volatility expansion: False
+
+TÍTULOS DE EVENTOS MACRO CONSIDERADOS
+------------------------------------------------------------------------
+- No se detectaron títulos de eventos en esta ejecución.
+
+ACTIVO: BTCUSDT
+------------------------------------------------------------------------
+CONTEXTO DEL ACTIVO
+Spot price: 66,314.4400
+Perp last price: N/A
+Mark price: N/A
+Index price: N/A
+Basis % perp-spot: N/A
+Funding rate: N/A
+Notas de contexto:
+- BTC aporta contexto interno mixto
+
+MICRO
+Semáforo: rojo
+Sesgo: no_trade
+Probabilidad %: 50
+Temporalidades: 3m, 5m, 15m, 1h
+Entrada ideal: N/A
+Nivel de invalidación: N/A
+Stop loss técnico: N/A
+Target 1: N/A
+Target 2: N/A
+Overlay macro:
+- Macro bias: RISK_OFF (80/100)
+- DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista
+- US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista
+- Sin ventaja suficiente; preservar capital tiene prioridad.
+Notas de ejecución:
+- Sin ventaja clara; mejor no operar hasta nueva confirmación
+Disciplina: El stop loss es técnico. Si el PnL/riesgo es demasiado alto para el tamaño deseado, se reduce tamaño o no se entra.
+
+MACRO
+Semáforo: rojo
+Sesgo: no_trade
+Probabilidad %: 50
+Temporalidades: 1h, 4h, 1d
+Entrada ideal: N/A
+Nivel de invalidación: N/A
+Stop loss técnico: N/A
+Target 1: N/A
+Target 2: N/A
+Overlay macro:
+- Macro bias: RISK_OFF (80/100)
+- DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista
+- US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista
+- Sin ventaja suficiente; preservar capital tiene prioridad.
+Notas de ejecución:
+- Sin ventaja estructural clara en 4H
+Disciplina: El stop loss es técnico. Si el stop estructural correcto implica demasiada pérdida, se reduce tamaño o no se entra.
+
+ACTIVO: SIRENUSDT
+------------------------------------------------------------------------
+CONTEXTO DEL ACTIVO
+Spot price: N/A
+Perp last price: N/A
+Mark price: N/A
+Index price: N/A
+Basis % perp-spot: N/A
+Funding rate: N/A
+Notas de contexto:
+- BTC aporta contexto interno mixto
+
+MICRO
+Semáforo: rojo
+Sesgo: no_trade
+Probabilidad %: 50
+Temporalidades: 3m, 5m, 15m, 1h
+Entrada ideal: N/A
+Nivel de invalidación: N/A
+Stop loss técnico: N/A
+Target 1: N/A
+Target 2: N/A
+Overlay macro:
+- Macro bias: RISK_OFF (80/100)
+- DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista
+- US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista
+- Sin ventaja suficiente; preservar capital tiene prioridad.
+Notas de ejecución:
+- Sin ventaja clara; mejor no operar hasta nueva confirmación
+Disciplina: El stop loss es técnico. Si el PnL/riesgo es demasiado alto para el tamaño deseado, se reduce tamaño o no se entra.
+
+MACRO
+Semáforo: rojo
+Sesgo: no_trade
+Probabilidad %: 50
+Temporalidades: 1h, 4h, 1d
+Entrada ideal: N/A
+Nivel de invalidación: N/A
+Stop loss técnico: N/A
+Target 1: N/A
+Target 2: N/A
+Overlay macro:
+- Macro bias: RISK_OFF (80/100)
+- DXY 100.193001 | trend=alcista | 1H=alcista | 4H=alcista
+- US10Y 4.44 | 1H=alcista | momentum=alcista | 4H=alcista
+- Sin ventaja suficiente; preservar capital tiene prioridad.
+Notas de ejecución:
+- Sin ventaja estructural clara en 4H
+Disciplina: El stop loss es técnico. Si el stop estructural correcto implica demasiada pérdida, se reduce tamaño o no se entra.
+
+NOTA OPERATIVA
+------------------------------------------------------------------------
+Este reporte está diseñado para copy/paste y análisis posterior.
+Si se identifica un evento relevante no contemplado, debe analizarse fuera del script sobre la base de este resultado.
+El stop loss siempre debe leerse como técnico; si el riesgo PnL es excesivo, se reduce tamaño o no se entra.
