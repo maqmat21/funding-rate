@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T20:02:37.683976+00:00",
+    "generated_at_utc": "2026-03-28T20:45:29.507109+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "The Sneaky Reason Your Medicare Costs Could Double",
+    "Inside ‘Project Eagle,’ JPMorgan’s high-wire act to fund EA deal",
     "Rising gas prices could be good news for EVs",
     "'Magnificent 7' stocks wipe more than $850 billion in value as stock market sell-off hits AI winners hard",
     "Almost everything is going wrong for markets right now",
     "Dow Jones Futures: Market Dives As Oil Prices Hit $100 In Iran War; What To Do Now",
-    "Analyst Report: Campbell's Company/The",
-    "Ray Dalio Declares Cash Will 'Lose A Lot Of Purchasing Power' And Explains The 'All Weather' Portfolio He Thinks Beats 60/40"
+    "Analyst Report: Paychex Inc",
+    "Oklo's AI tailwind fades as fuel and financing risks grow"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66853.859375,
-        "perp_last_price": 66853.859375,
-        "mark_price": 66853.859375,
-        "index_price": 66853.859375,
+        "spot_price": 66875.03125,
+        "perp_last_price": 66875.03125,
+        "mark_price": 66875.03125,
+        "index_price": 66875.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66853.859375,
-        "stop_loss_technical": 65851.05148437,
-        "target_1": 68358.07121094,
-        "target_2": 69862.28304688,
+        "entry_ideal": 66875.03125,
+        "stop_loss_technical": 67201.6484375,
+        "target_1": 66385.10546875,
+        "target_2": 65895.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +61,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66853.859375,
-        "stop_loss_technical": 65851.05148437,
-        "target_1": 68358.07121094,
-        "target_2": 69862.28304688,
+        "entry_ideal": 66875.03125,
+        "stop_loss_technical": 65871.90578125,
+        "target_1": 68379.71945312,
+        "target_2": 69884.40765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
