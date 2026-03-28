@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T11:19:02.409328+00:00",
+    "generated_at_utc": "2026-03-28T11:44:55.563800+00:00",
     "notes": [
       "Mirror rotation x15",
       "yfinance fallback enabled",
@@ -37,27 +37,28 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66205.6484375,
-        "perp_last_price": 66205.6484375,
-        "mark_price": 66205.6484375,
-        "index_price": 66205.6484375,
+        "spot_price": 66279.484375,
+        "perp_last_price": 66279.484375,
+        "mark_price": 66279.484375,
+        "index_price": 66279.484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Precio < EMA50",
-          "MACD Bearish",
+          "Precio > EMA50",
+          "RSI Bullish",
+          "MACD Bullish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66205.6484375,
+        "entry_ideal": 66279.484375,
         "stop_loss_technical": 66512.9765625,
-        "target_1": 65744.65625,
-        "target_2": 65283.6640625,
+        "target_1": 65929.24609375,
+        "target_2": 65579.0078125,
         "note": "Operativa adaptativa con Stop Técnico."
       },
       "final_macro": {
@@ -71,10 +72,10 @@
           "MACD Bearish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66205.6484375,
+        "entry_ideal": 66279.484375,
         "stop_loss_technical": 75988.3984375,
-        "target_1": 51531.5234375,
-        "target_2": 36857.3984375,
+        "target_1": 51716.11328125,
+        "target_2": 37152.7421875,
         "note": "Operativa adaptativa con Stop Técnico."
       }
     },
