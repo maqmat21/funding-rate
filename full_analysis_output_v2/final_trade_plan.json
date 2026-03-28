@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T21:57:33.676898+00:00",
+    "generated_at_utc": "2026-03-28T22:22:42.030496+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Could Investing $10,000 in NOBL Make You a Millionaire?",
+    "Oracle stock dividend under threat amid massive AI push",
     "Jim Cramer Says Stocks Like Generac (GNRC) “Make a Ton of Sense to Own Right Here” in Theory",
     "Jim Cramer Provides the “Bear Case” for Paychex, Inc. (PAYX)",
     "Jim Cramer Says He Likes Cheniere More Than Expand Energy Corporation (EXE)",
     "Jim Cramer on Aris Mining (ARIS): “You’re Never Going to See Me Recommend a Vancouver Miner”",
     "Analyst Report: Paychex Inc",
-    "Jim Cramer on Reddit (RDDT): “I Want to Buy Reddit Right Here”"
+    "Toronto-Dominion Bank Conference: TD Touts Record Card Sign-Ups, Deposit Gains, NIM Upside Ahead"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66608.4609375,
-        "perp_last_price": 66608.4609375,
-        "mark_price": 66608.4609375,
-        "index_price": 66608.4609375,
+        "spot_price": 66670.96875,
+        "perp_last_price": 66670.96875,
+        "mark_price": 66670.96875,
+        "index_price": 66670.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66608.4609375,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 65718.6796875,
-        "target_2": 64828.8984375,
+        "entry_ideal": 66670.96875,
+        "stop_loss_technical": 65670.90421875,
+        "target_1": 68171.06554688,
+        "target_2": 69671.16234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66608.4609375,
-        "stop_loss_technical": 71985.7421875,
-        "target_1": 58542.5390625,
-        "target_2": 50476.6171875,
+        "entry_ideal": 66670.96875,
+        "stop_loss_technical": 65670.90421875,
+        "target_1": 68171.06554688,
+        "target_2": 69671.16234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
