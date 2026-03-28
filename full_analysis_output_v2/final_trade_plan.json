@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T18:02:24.117811+00:00",
+    "generated_at_utc": "2026-03-28T18:09:20.335531+00:00",
     "notes": [
-      "Mirror rotation x15",
-      "yfinance fallback enabled",
-      "No nulls policy"
+      "Mirror Shuffle Active",
+      "History Persitence Enabled",
+      "No Nulls Policy 3.0"
     ]
   },
   "macro_context_auto": {
@@ -37,53 +37,52 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66807.7421875,
-        "perp_last_price": 66807.7421875,
-        "mark_price": 66807.7421875,
-        "index_price": 66807.7421875,
+        "spot_price": 66866.46875,
+        "perp_last_price": 66866.46875,
+        "mark_price": 66866.46875,
+        "index_price": 66866.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Precio < EMA50",
-          "MACD Bearish",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull",
+          "MACD Bull",
+          "Macro RISK_OFF"
         ],
-        "entry_ideal": 66804.546875,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 66208.89453125,
-        "target_2": 65613.2421875,
-        "note": "Operativa adaptativa con Stop Técnico."
+        "entry_ideal": 66866.46875,
+        "stop_loss_technical": 67288.94,
+        "target_1": 66232.761875,
+        "target_2": 65599.055,
+        "note": "Operativa adaptativa."
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 86,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Precio < EMA50",
-          "MACD Bearish",
-          "Macro RISK_OFF (Presión)"
+          "MACD Bear",
+          "Macro RISK_OFF"
         ],
-        "entry_ideal": 66807.7421875,
+        "entry_ideal": 66890.74,
         "stop_loss_technical": 75988.3984375,
-        "target_1": 53036.7578125,
-        "target_2": 39265.7734375,
-        "note": "Operativa adaptativa con Stop Técnico."
+        "target_1": 53244.25234375,
+        "target_2": 39597.7646875,
+        "note": "Operativa adaptativa."
       }
     },
     "SIRENUSDT": {
       "context": {
         "asset": "SIRENUSDT",
-        "spot_price": null,
-        "perp_last_price": null,
-        "mark_price": null,
-        "index_price": null,
+        "spot_price": 0.0,
+        "perp_last_price": 0.0,
+        "mark_price": 0.0,
+        "index_price": 0.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": null
       },
@@ -92,9 +91,9 @@
         "bias": "no_trade",
         "probability_pct": 0,
         "technical_reasoning": [
-          "API bloqueada / Faltan datos"
+          "Sin datos"
         ],
-        "note": "Sin datos analíticos.",
+        "note": "Bloqueo extremo.",
         "entry_ideal": null,
         "stop_loss_technical": null,
         "target_1": null,
@@ -105,9 +104,9 @@
         "bias": "no_trade",
         "probability_pct": 0,
         "technical_reasoning": [
-          "API bloqueada / Faltan datos"
+          "Sin datos"
         ],
-        "note": "Sin datos analíticos.",
+        "note": "Bloqueo extremo.",
         "entry_ideal": null,
         "stop_loss_technical": null,
         "target_1": null,
