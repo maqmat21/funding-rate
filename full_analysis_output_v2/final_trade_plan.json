@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T21:03:57.981874+00:00",
+    "generated_at_utc": "2026-03-28T21:39:59.747892+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "TransAlta Investor Day: CEO Transition, 2026 EBITDA View, and Growth Bets on Data Centers & Centralia",
-    "UnitedHealth Group (UNH) Launches AI Companion Avery",
-    "Tightening Credit Conditions and Evolving Regulatory Tailwinds Shaping Analyst Narrative Around JPMorgan Chase (JPM)",
-    "Evercore Bullish on Union Pacific (UNP) Amid Strong Volume Growth and Robust Margins",
-    "Merck & Co. (MRK) to Acquire Terns Pharma for $6.7 Billion",
+    "Jim Cramer Says Stocks Like Generac (GNRC) “Make a Ton of Sense to Own Right Here” in Theory",
+    "Jim Cramer Provides the “Bear Case” for Paychex, Inc. (PAYX)",
+    "Jim Cramer Says He Likes Cheniere More Than Expand Energy Corporation (EXE)",
+    "Jim Cramer on Aris Mining (ARIS): “You’re Never Going to See Me Recommend a Vancouver Miner”",
+    "Jim Cramer on Reddit (RDDT): “I Want to Buy Reddit Right Here”",
     "Analyst Report: Paychex Inc",
-    "Jefferies Bullish on The Home Depot (HD) Following Mingledorff Acquisition"
+    "Jim Cramer on Tower Semiconductor (TSEM): “I Would Take a Little Off Just Because It’s Had, It’s Had a Parabolic Move in the Last Few Weeks”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66886.671875,
-        "perp_last_price": 66886.671875,
-        "mark_price": 66886.671875,
-        "index_price": 66886.671875,
+        "spot_price": 66769.390625,
+        "perp_last_price": 66769.390625,
+        "mark_price": 66769.390625,
+        "index_price": 66769.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66886.671875,
+        "entry_ideal": 66769.390625,
         "stop_loss_technical": 67201.6484375,
-        "target_1": 66414.20703125,
-        "target_2": 65941.7421875,
+        "target_1": 66121.00390625,
+        "target_2": 65472.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66886.671875,
-        "stop_loss_technical": 65883.37179687,
-        "target_1": 68391.62199219,
-        "target_2": 69896.57210938,
+        "entry_ideal": 66769.390625,
+        "stop_loss_technical": 65767.84976562,
+        "target_1": 68271.70191406,
+        "target_2": 69774.01320312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
