@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T22:53:09.880903+00:00",
+    "generated_at_utc": "2026-03-28T23:20:22.041058+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.193,
+        "price": 100.184,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "SpaceX And Anthropic IPO Frenzy Begins Early As REX Shares, Tuttle Capital File For 2x Leveraged ETFs",
+    "Telefonica AGM OKs All Board Proposals, Confirms €0.15 Dividend and Transformation Strategy",
     "Jim Cramer Says Stocks Like Generac (GNRC) “Make a Ton of Sense to Own Right Here” in Theory",
     "Jim Cramer Provides the “Bear Case” for Paychex, Inc. (PAYX)",
     "Jim Cramer Says He Likes Cheniere More Than Expand Energy Corporation (EXE)",
     "Jim Cramer on Aris Mining (ARIS): “You’re Never Going to See Me Recommend a Vancouver Miner”",
-    "Analyst Report: Paychex Inc",
-    "They Have 7 Figures Invested In Stocks And Can Afford '40 Years Worth Of Rent Up Front.' Here's Why Landlords Still Refuse To Rent To Them"
+    "SpaceX And Anthropic IPO Frenzy Begins Early As REX Shares, Tuttle Capital File For 2x Leveraged ETFs",
+    "Jim Cramer on Reddit (RDDT): “I Want to Buy Reddit Right Here”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66709.5234375,
-        "perp_last_price": 66709.5234375,
-        "mark_price": 66709.5234375,
-        "index_price": 66709.5234375,
+        "spot_price": 66305.125,
+        "perp_last_price": 66305.125,
+        "mark_price": 66305.125,
+        "index_price": 66305.125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66709.5234375,
-        "stop_loss_technical": 65708.88058594,
-        "target_1": 68210.48771484,
-        "target_2": 69711.45199219,
+        "entry_ideal": 66254.78125,
+        "stop_loss_technical": 67201.6484375,
+        "target_1": 64834.48046875,
+        "target_2": 63414.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66709.5234375,
-        "stop_loss_technical": 65708.88058594,
-        "target_1": 68210.48771484,
-        "target_2": 69711.45199219,
+        "entry_ideal": 66305.125,
+        "stop_loss_technical": 71985.7421875,
+        "target_1": 57784.19921875,
+        "target_2": 49263.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
