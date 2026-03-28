@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T10:17:08.671568+00:00",
+    "generated_at_utc": "2026-03-28T10:52:39.623081+00:00",
     "notes": [
       "Mirror rotation x15",
       "yfinance fallback enabled",
@@ -12,7 +12,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.184,
+        "price": 100.193,
         "trend": "alcista"
       },
       "US10Y": {
@@ -26,8 +26,8 @@
     "As oil prices rise, airfares are surging and some airlines might not survive",
     "Look Beyond Skyrocketing Gas Prices! If a Stock Market Crash Takes Shape Under President Donald Trump, the Fed Is Likely to Be the Catalyst.",
     "Oil prices threaten to blow up a $3tn market",
+    "An uneasy mix of celebration and anxiety dominates the ‘Davos of energy’ as the month-long Iran war further disrupts the global economy",
     "Oil, energy and food: Which countries in Europe are most exposed to higher food prices?",
-    "Sony PS5 Price Hikes: Why Raised Prices Could Signal a Red Flag for the Global Economy",
     "The market is starting to think the Federal Reserve's next move is raising interest rates",
     "Consumer sentiment hits lowest level since December as Americans begin feeling war's effects",
     "Fed's Jefferson sees higher inflation from Iran war near term, signals toward holding rates steady",
@@ -37,10 +37,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66284.1484375,
-        "perp_last_price": 66284.1484375,
-        "mark_price": 66284.1484375,
-        "index_price": 66284.1484375,
+        "spot_price": 66141.0703125,
+        "perp_last_price": 66141.0703125,
+        "mark_price": 66141.0703125,
+        "index_price": 66141.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -51,13 +51,14 @@
         "technical_reasoning": [
           "Precio < EMA20",
           "Precio < EMA50",
-          "MACD Bullish",
+          "RSI Bearish",
+          "MACD Bearish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66284.1484375,
+        "entry_ideal": 66141.0703125,
         "stop_loss_technical": 66552.0546875,
-        "target_1": 65882.2890625,
-        "target_2": 65480.4296875,
+        "target_1": 65524.59375,
+        "target_2": 64908.1171875,
         "note": "Operativa adaptativa con Stop Técnico."
       },
       "final_macro": {
@@ -71,10 +72,10 @@
           "MACD Bearish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66284.1484375,
+        "entry_ideal": 66141.0703125,
         "stop_loss_technical": 75988.3984375,
-        "target_1": 51727.7734375,
-        "target_2": 37171.3984375,
+        "target_1": 51370.078125,
+        "target_2": 36599.0859375,
         "note": "Operativa adaptativa con Stop Técnico."
       }
     },
