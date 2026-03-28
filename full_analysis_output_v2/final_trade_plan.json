@@ -1,10 +1,11 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T18:09:20.335531+00:00",
+    "generated_at_utc": "2026-03-28T18:16:43.725343+00:00",
     "notes": [
       "Mirror Shuffle Active",
       "History Persitence Enabled",
-      "No Nulls Policy 3.0"
+      "No Nulls Policy 3.1",
+      "Static Fallbacks Active"
     ]
   },
   "macro_context_auto": {
@@ -37,10 +38,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66866.46875,
-        "perp_last_price": 66866.46875,
-        "mark_price": 66866.46875,
-        "index_price": 66866.46875,
+        "spot_price": 66889.859375,
+        "perp_last_price": 66889.859375,
+        "mark_price": 66889.859375,
+        "index_price": 66889.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -54,37 +55,38 @@
           "MACD Bull",
           "Macro RISK_OFF"
         ],
-        "entry_ideal": 66866.46875,
-        "stop_loss_technical": 67288.94,
-        "target_1": 66232.761875,
-        "target_2": 65599.055,
+        "entry_ideal": 66889.859375,
+        "stop_loss_technical": 67201.6484375,
+        "target_1": 66422.17578125,
+        "target_2": 65954.4921875,
         "note": "Operativa adaptativa."
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 86,
+        "probability_pct": 80,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "MACD Bear",
           "Macro RISK_OFF"
         ],
-        "entry_ideal": 66890.74,
+        "entry_ideal": 66889.859375,
         "stop_loss_technical": 75988.3984375,
-        "target_1": 53244.25234375,
-        "target_2": 39597.7646875,
+        "target_1": 53242.05078125,
+        "target_2": 39594.2421875,
         "note": "Operativa adaptativa."
       }
     },
     "SIRENUSDT": {
       "context": {
         "asset": "SIRENUSDT",
-        "spot_price": 0.0,
-        "perp_last_price": 0.0,
-        "mark_price": 0.0,
-        "index_price": 0.0,
+        "spot_price": 0.112,
+        "perp_last_price": 0.112,
+        "mark_price": 0.112,
+        "index_price": 0.112,
         "funding_rate": 0.0001,
-        "basis_pct_perp_minus_spot": null
+        "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "rojo",
