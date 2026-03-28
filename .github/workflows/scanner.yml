@@ -24,16 +24,20 @@ jobs:
         run: |
           pip install requests pandas numpy scikit-learn yfinance beautifulsoup4
 
-      - name: Execute Full Trading Analysis
+      - name: Execute Pipeline and Scripts
         run: |
           git config --global user.name "MacroBot"
           git config --global user.email "bot@macro-engine.com"
           
-          # Ejecutar el pipeline consolidado (DXY, Noticias, Binance y Reporte)
+          # 1. Ejecutar DXY Script (Macro Engine independiente)
+          echo "Ejecutando DXY.py..."
+          python DXY.py
+          
+          # 2. Ejecutar el pipeline consolidado (DXY, Noticias, Binance y Reporte)
           echo "Ejecutando run_full_analysis.py..."
           python run_full_analysis.py --output-dir full_analysis_output_v2
           
-          # Commit y Push del reporte generado
+          # 3. Commit y Push de todos los resultados
           git add full_analysis_output_v2/ macro_engine.json macro_history_state.json
-          git commit -m "Auto-update Analysis: $(date)" || echo "No hay cambios para subir"
+          git commit -m "Auto-update Analysis & Macro: $(date)" || echo "No hay cambios para subir"
           git push || echo "Error en push"
