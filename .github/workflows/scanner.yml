@@ -34,8 +34,8 @@ jobs:
           python DXY.py
           
           # 2. Ejecutar Pipeline Sirena v2 (una vez)
-          echo "Ejecutando sirena/run_full_analysis_v2.py..."
-          python sirena/run_full_analysis_v2.py
+          echo "Ejecutando run_full_analysis_v2.py..."
+          python run_full_analysis_v2.py
           
           # 3. Commit y Push final de todos los resultados
           git add macro_engine.json macro_history_state.json full_analysis_output_v2/
