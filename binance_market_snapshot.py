@@ -47,7 +47,14 @@ import requests
 
 
 SPOT_BASE = "https://data-api.binance.vision"
-FUTURES_BASE = "https://fapi.binance.com"
+# Usamos una lista de endpoints para evitar restricciones geográficas en entornos como GitHub Actions
+FUTURES_BASES = [
+    "https://fapi.binance.com",
+    "https://fapi.binance.me",
+    "https://fapi.binance.vision",
+    "https://fapi.binance.us" # Nota: fapi no suele existir en .us, pero como último recurso
+]
+FUTURES_BASE = FUTURES_BASES[0]
 
 DEFAULT_SYMBOLS = ["BTCUSDT", "SIRENUSDT"]
 DEFAULT_INTERVALS = ["3m", "5m", "15m", "1h", "4h", "1d"]
@@ -101,12 +108,34 @@ class HttpClient:
 
     def get_json(self, base_url: str, path: str, params: Optional[Dict[str, Any]] = None) -> Any:
         url = f"{base_url}{path}"
-        response = self.session.get(url, params=params, timeout=HTTP_TIMEOUT)
-        if response.status_code != 200:
-            raise BinanceAPIError(
-                f"Error {response.status_code} consultando {url} con params={params}: {response.text}"
-            )
-        return response.json()
+        
+        # Si es un endpoint de futures, permitimos rotación si falla por restricción geográfica
+        is_futures = any(b in base_url for b in FUTURES_BASES)
+        bases_to_try = [base_url]
+        if is_futures:
+            bases_to_try = FUTURES_BASES if base_url in FUTURES_BASES else [base_url] + FUTURES_BASES
+            
+        last_error = ""
+        for current_base in bases_to_try:
+            current_url = f"{current_base}{path}"
+            try:
+                response = self.session.get(current_url, params=params, timeout=HTTP_TIMEOUT)
+                if response.status_code == 200:
+                    return response.json()
+                
+                # Si es 451 (restricción por país), intentamos el siguiente base_url
+                if response.status_code == 451:
+                    last_error = f"Error 451 (Geo-block) en {current_base}"
+                    continue
+                
+                raise BinanceAPIError(
+                    f"Error {response.status_code} consultando {current_url}: {response.text}"
+                )
+            except requests.RequestException as e:
+                last_error = f"Error de conexión en {current_base}: {e}"
+                continue
+                
+        raise BinanceAPIError(f"No se pudo completar la petición tras probar varios endpoints. Último error: {last_error}")
 
 
 def build_session() -> requests.Session:
