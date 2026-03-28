@@ -1,9 +1,10 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T01:02:19.094513+00:00",
+    "generated_at_utc": "2026-03-28T01:19:50.936143+00:00",
     "notes": [
-      "Bypass bloqueos activo",
-      "Fallbacks habilitados"
+      "Mirror rotation x15",
+      "yfinance fallback enabled",
+      "No nulls policy"
     ]
   },
   "macro_context_auto": {
@@ -36,38 +37,46 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66368.88,
-        "perp_last_price": 66376.828125,
-        "mark_price": 66376.828125,
-        "index_price": 66376.828125,
-        "funding_rate": null,
-        "basis_pct_perp_minus_spot": 0.01197568046951424
+        "spot_price": 66139.90625,
+        "perp_last_price": 66139.90625,
+        "mark_price": 66139.90625,
+        "index_price": 66139.90625,
+        "funding_rate": 0.0001,
+        "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 0,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Faltan datos de Binance"
+          "Precio < EMA20",
+          "Precio < EMA50",
+          "RSI Bearish",
+          "MACD Bearish",
+          "Macro RISK_OFF (Presión)"
         ],
-        "note": "Sin datos suficientes.",
-        "entry_ideal": null,
-        "stop_loss_technical": null,
-        "target_1": null,
-        "target_2": null
+        "entry_ideal": 66139.90625,
+        "stop_loss_technical": 68907.578125,
+        "target_1": 61988.3984375,
+        "target_2": 57836.890625,
+        "note": "Operativa adaptativa con Stop Técnico."
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 0,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Faltan datos de Binance"
+          "Precio < EMA20",
+          "Precio < EMA50",
+          "RSI Bearish",
+          "MACD Bearish",
+          "Macro RISK_OFF (Presión)"
         ],
-        "note": "Sin datos suficientes.",
-        "entry_ideal": null,
-        "stop_loss_technical": null,
-        "target_1": null,
-        "target_2": null
+        "entry_ideal": 66139.90625,
+        "stop_loss_technical": 75988.3984375,
+        "target_1": 51367.16796875,
+        "target_2": 36594.4296875,
+        "note": "Operativa adaptativa con Stop Técnico."
       }
     },
     "SIRENUSDT": {
@@ -77,7 +86,7 @@
         "perp_last_price": null,
         "mark_price": null,
         "index_price": null,
-        "funding_rate": null,
+        "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": null
       },
       "final_micro": {
@@ -85,9 +94,9 @@
         "bias": "no_trade",
         "probability_pct": 0,
         "technical_reasoning": [
-          "Faltan datos de Binance"
+          "API bloqueada / Faltan datos"
         ],
-        "note": "Sin datos suficientes.",
+        "note": "Sin datos analíticos.",
         "entry_ideal": null,
         "stop_loss_technical": null,
         "target_1": null,
@@ -98,9 +107,9 @@
         "bias": "no_trade",
         "probability_pct": 0,
         "technical_reasoning": [
-          "Faltan datos de Binance"
+          "API bloqueada / Faltan datos"
         ],
-        "note": "Sin datos suficientes.",
+        "note": "Sin datos analíticos.",
         "entry_ideal": null,
         "stop_loss_technical": null,
         "target_1": null,
