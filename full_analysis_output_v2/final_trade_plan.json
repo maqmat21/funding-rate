@@ -1,11 +1,9 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T18:16:43.725343+00:00",
+    "generated_at_utc": "2026-03-28T18:23:49.944456+00:00",
     "notes": [
-      "Mirror Shuffle Active",
-      "History Persitence Enabled",
-      "No Nulls Policy 3.1",
-      "Static Fallbacks Active"
+      "Zero Nulls v3.2",
+      "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
@@ -23,25 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "Economic News and Analysis",
-    "2 Energy Stocks to Buy Before Oil Hits $150 a Barrel",
-    "The stay-at-home boyfriend is now an economic trend as more women than men go to work",
-    "Did Fed Chair Jerome Powell Throw President Donald Trump Under the Bus Concerning Inflation for a Second Straight FOMC Meeting?",
-    "Iran war leaves global economic leaders searching for answers",
-    "As oil prices rise, airfares are surging and some airlines might not survive",
-    "The market is starting to think the Federal Reserve's next move is raising interest rates",
-    "Consumer sentiment hits lowest level since December as Americans begin feeling war's effects",
-    "Fed's Jefferson sees higher inflation from Iran war near term, signals toward holding rates steady",
-    "Worker productivity is on the rise. How much is because of AI is hard to say."
+    "News from the Yahoo Finance Network",
+    "MercadoLibre Stock Is on Sale. Here's What $5,000 Invested Today Could Do for Your Portfolio.",
+    "'Magnificent 7' stocks wipe more than $850 billion in value as stock market sell-off hits AI winners hard",
+    "Almost everything is going wrong for markets right now",
+    "Dow Jones Futures: Market Dives As Oil Prices Hit $100 In Iran War; What To Do Now",
+    "My financial advisor overcharged me $15K  over 10 years — how can I get my money back?",
+    "Analyst Report: Paychex Inc",
+    "Adobe’s AI growth takes center stage after guidance raise"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66889.859375,
-        "perp_last_price": 66889.859375,
-        "mark_price": 66889.859375,
-        "index_price": 66889.859375,
+        "spot_price": 66869.1953125,
+        "perp_last_price": 66869.1953125,
+        "mark_price": 66869.1953125,
+        "index_price": 66869.1953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -52,30 +48,28 @@
         "technical_reasoning": [
           "Precio > EMA20",
           "RSI Bull",
-          "MACD Bull",
-          "Macro RISK_OFF"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66889.859375,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 66422.17578125,
-        "target_2": 65954.4921875,
-        "note": "Operativa adaptativa."
+        "entry_ideal": 66869.1953125,
+        "stop_loss_technical": 65866.15738281,
+        "target_1": 68373.75220703,
+        "target_2": 69878.30910156,
+        "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 80,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
           "RSI Bull",
-          "MACD Bear",
-          "Macro RISK_OFF"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66889.859375,
-        "stop_loss_technical": 75988.3984375,
-        "target_1": 53242.05078125,
-        "target_2": 39594.2421875,
-        "note": "Operativa adaptativa."
+        "entry_ideal": 66869.1953125,
+        "stop_loss_technical": 65866.15738281,
+        "target_1": 68373.75220703,
+        "target_2": 69878.30910156,
+        "note": "Operativa adaptativa basada en indicadores"
       }
     },
     "SIRENUSDT": {
@@ -89,30 +83,32 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 0,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Sin datos"
+          "Macro RISK_OFF (Presión)",
+          "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
-        "note": "Bloqueo extremo.",
-        "entry_ideal": null,
-        "stop_loss_technical": null,
-        "target_1": null,
-        "target_2": null
+        "entry_ideal": 0.112,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
+        "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 0,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Sin datos"
+          "Macro RISK_OFF (Presión)",
+          "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
-        "note": "Bloqueo extremo.",
-        "entry_ideal": null,
-        "stop_loss_technical": null,
-        "target_1": null,
-        "target_2": null
+        "entry_ideal": 0.112,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
+        "note": "Operativa adaptativa basada en contexto macro"
       }
     }
   }
