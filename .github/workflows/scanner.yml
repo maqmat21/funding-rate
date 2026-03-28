@@ -38,6 +38,6 @@ jobs:
           python run_full_analysis.py --output-dir full_analysis_output_v2
           
           # 3. Commit y Push de todos los resultados
-          git add full_analysis_output_v2/ macro_engine.json macro_history_state.json
+          git add full_analysis_output_v2/ macro_engine.json macro_history_state.json price_history_v3.json
           git commit -m "Auto-update Analysis & Macro: $(date)" || echo "No hay cambios para subir"
           git push || echo "Error en push"
