@@ -52,7 +52,10 @@ FUTURES_BASES = [
     "https://fapi.binance.com",
     "https://fapi.binance.me",
     "https://fapi.binance.vision",
-    "https://fapi.binance.us" # Nota: fapi no suele existir en .us, pero como último recurso
+    "https://fapi.binance.co",
+    "https://fapi.binance.org",
+    "https://fapi1.binance.com",
+    "https://fapi2.binance.com"
 ]
 FUTURES_BASE = FUTURES_BASES[0]
 
@@ -123,19 +126,21 @@ class HttpClient:
                 if response.status_code == 200:
                     return response.json()
                 
-                # Si es 451 (restricción por país), intentamos el siguiente base_url
-                if response.status_code == 451:
-                    last_error = f"Error 451 (Geo-block) en {current_base}"
+                # Si es 403 o 451 (restricción por país), intentamos el siguiente base_url
+                if response.status_code in (403, 451):
+                    last_error = f"Error {response.status_code} (Geo-block/Forbidden) en {current_base}"
                     continue
                 
-                raise BinanceAPIError(
-                    f"Error {response.status_code} consultando {current_url}: {response.text}"
-                )
+                # Para otros errores, imprimimos y seguimos probando o fallamos
+                last_error = f"Error {response.status_code} en {current_base}: {response.text[:200]}"
+                continue
             except requests.RequestException as e:
                 last_error = f"Error de conexión en {current_base}: {e}"
                 continue
                 
-        raise BinanceAPIError(f"No se pudo completar la petición tras probar varios endpoints. Último error: {last_error}")
+        # En lugar de lanzar excepción, devolvemos None y que el llamador decida cómo proceder
+        print(f"[!] Aviso: No se pudo completar la petición a {path}. Último error: {last_error}")
+        return None
 
 
 def build_session() -> requests.Session:
@@ -150,8 +155,8 @@ def build_session() -> requests.Session:
 
 
 def get_server_times(client: HttpClient) -> Dict[str, Any]:
-    spot = client.get_json(SPOT_BASE, "/api/v3/time")
-    futures = client.get_json(FUTURES_BASE, "/fapi/v1/time")
+    spot = client.get_json(SPOT_BASE, "/api/v3/time") or {}
+    futures = client.get_json(FUTURES_BASE, "/fapi/v1/time") or {}
     return {
         "captured_at_utc": now_utc_iso(),
         "spot_server_time_ms": spot.get("serverTime"),
@@ -163,10 +168,10 @@ def get_server_times(client: HttpClient) -> Dict[str, Any]:
 
 def get_exchange_info(client: HttpClient, market: str) -> Dict[str, Any]:
     if market == "spot":
-        return client.get_json(SPOT_BASE, "/api/v3/exchangeInfo")
+        return client.get_json(SPOT_BASE, "/api/v3/exchangeInfo") or {"symbols": []}
     if market == "futures":
-        return client.get_json(FUTURES_BASE, "/fapi/v1/exchangeInfo")
-    raise ValueError("market debe ser 'spot' o 'futures'")
+        return client.get_json(FUTURES_BASE, "/fapi/v1/exchangeInfo") or {"symbols": []}
+    return {"symbols": []}
 
 
 def symbol_exists(exchange_info: Dict[str, Any], symbol: str) -> bool:
@@ -183,11 +188,11 @@ def get_spot_price(client: HttpClient, symbol: str) -> Optional[float]:
 
 def get_futures_last_price(client: HttpClient, symbol: str) -> Optional[float]:
     data = client.get_json(FUTURES_BASE, "/fapi/v2/ticker/price", {"symbol": symbol})
-    return safe_float(data.get("price"))
+    return safe_float(data.get("price")) if data else None
 
 
 def get_premium_index(client: HttpClient, symbol: str) -> Dict[str, Any]:
-    data = client.get_json(FUTURES_BASE, "/fapi/v1/premiumIndex", {"symbol": symbol})
+    data = client.get_json(FUTURES_BASE, "/fapi/v1/premiumIndex", {"symbol": symbol}) or {}
     return {
         "symbol": data.get("symbol"),
         "mark_price": safe_float(data.get("markPrice")),
@@ -203,7 +208,7 @@ def get_premium_index(client: HttpClient, symbol: str) -> Dict[str, Any]:
 
 
 def get_latest_funding_history(client: HttpClient, symbol: str, limit: int = 10) -> List[Dict[str, Any]]:
-    rows = client.get_json(FUTURES_BASE, "/fapi/v1/fundingRate", {"symbol": symbol, "limit": limit})
+    rows = client.get_json(FUTURES_BASE, "/fapi/v1/fundingRate", {"symbol": symbol, "limit": limit}) or []
     result = []
     for row in rows:
         result.append(
@@ -219,7 +224,7 @@ def get_latest_funding_history(client: HttpClient, symbol: str, limit: int = 10)
 
 
 def get_open_interest_current(client: HttpClient, symbol: str) -> Dict[str, Any]:
-    data = client.get_json(FUTURES_BASE, "/fapi/v1/openInterest", {"symbol": symbol})
+    data = client.get_json(FUTURES_BASE, "/fapi/v1/openInterest", {"symbol": symbol}) or {}
     return {
         "symbol": data.get("symbol"),
         "open_interest": safe_float(data.get("openInterest")),
@@ -229,11 +234,12 @@ def get_open_interest_current(client: HttpClient, symbol: str) -> Dict[str, Any]
 
 
 def get_open_interest_hist(client: HttpClient, symbol: str, period: str, limit: int = OI_HIST_LIMIT) -> List[Dict[str, Any]]:
-    rows = client.get_json(
+    data = client.get_json(
         FUTURES_BASE,
         "/futures/data/openInterestHist",
         {"symbol": symbol, "period": period, "limit": limit},
     )
+    rows = data if isinstance(data, list) else []
     result = []
     for row in rows:
         result.append(
@@ -249,11 +255,12 @@ def get_open_interest_hist(client: HttpClient, symbol: str, period: str, limit: 
 
 
 def get_futures_klines(client: HttpClient, symbol: str, interval: str, limit: int = KLINE_LIMIT) -> List[Dict[str, Any]]:
-    rows = client.get_json(
+    data = client.get_json(
         FUTURES_BASE,
         "/fapi/v1/klines",
         {"symbol": symbol, "interval": interval, "limit": limit},
     )
+    rows = data if isinstance(data, list) else []
     result = []
     for row in rows:
         result.append(
@@ -503,8 +510,12 @@ def build_symbol_snapshot(
     intervals: List[str],
 ) -> Dict[str, Any]:
     futures_exists = symbol_exists(futures_info, symbol)
-    if not futures_exists:
+    if not futures_exists and futures_info.get("symbols"):
+        # Solo fallar si el exchange_info fue exitoso pero el símbolo realmente no existe
         raise BinanceAPIError(f"El símbolo {symbol} no existe en USDⓈ-M Futures de Binance.")
+    
+    if not futures_exists:
+        print(f"[!] Aviso: No se pudo verificar la existencia de {symbol} en Futures (posible bloqueo). Continuando con datos parciales.")
 
     spot_exists = symbol_exists(spot_info, symbol)
 
