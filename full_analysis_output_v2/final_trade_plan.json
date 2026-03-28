@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T08:26:11.717940+00:00",
+    "generated_at_utc": "2026-03-28T09:02:49.179483+00:00",
     "notes": [
       "Mirror rotation x15",
       "yfinance fallback enabled",
@@ -23,11 +23,11 @@
   },
   "events_considered_titles": [
     "Economic News and Analysis",
+    "Look Beyond Skyrocketing Gas Prices! If a Stock Market Crash Takes Shape Under President Donald Trump, the Fed Is Likely to Be the Catalyst.",
     "Oil, energy and food: Which countries in Europe are most exposed to higher food prices?",
     "Sony PS5 Price Hikes: Why Raised Prices Could Signal a Red Flag for the Global Economy",
     "Fed Officials Warn that Iran War Threatens Inflation, Job Market Outlook",
     "American attitudes on the U.S. economy near rock-bottom",
-    "Markets plunge and U.S. oil hits $100 as Trump fails to reassure Wall Street",
     "The market is starting to think the Federal Reserve's next move is raising interest rates",
     "Consumer sentiment hits lowest level since December as Americans begin feeling war's effects",
     "Fed's Jefferson sees higher inflation from Iran war near term, signals toward holding rates steady",
@@ -37,28 +37,28 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66489.890625,
-        "perp_last_price": 66489.890625,
-        "mark_price": 66489.890625,
-        "index_price": 66489.890625,
+        "spot_price": 66358.8046875,
+        "perp_last_price": 66358.8046875,
+        "mark_price": 66358.8046875,
+        "index_price": 66358.8046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Precio > EMA50",
-          "RSI Bullish",
-          "MACD Bullish",
+          "Precio < EMA20",
+          "Precio < EMA50",
+          "RSI Bearish",
+          "MACD Bearish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66489.890625,
-        "stop_loss_technical": 66672.3125,
-        "target_1": 66216.2578125,
-        "target_2": 65942.625,
+        "entry_ideal": 66358.8046875,
+        "stop_loss_technical": 66552.0546875,
+        "target_1": 66068.9296875,
+        "target_2": 65779.0546875,
         "note": "Operativa adaptativa con Stop Técnico."
       },
       "final_macro": {
@@ -66,16 +66,16 @@
         "bias": "short",
         "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Precio < EMA50",
           "RSI Bearish",
           "MACD Bearish",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66489.890625,
+        "entry_ideal": 66358.8046875,
         "stop_loss_technical": 75988.3984375,
-        "target_1": 52242.12890625,
-        "target_2": 37994.3671875,
+        "target_1": 51914.4140625,
+        "target_2": 37470.0234375,
         "note": "Operativa adaptativa con Stop Técnico."
       }
     },
