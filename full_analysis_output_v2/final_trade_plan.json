@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T14:49:30.174036+00:00",
+    "generated_at_utc": "2026-03-29T15:16:49.041788+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Ramsey Calls $800K Net Worth Husband’s Burger King Frugality ‘Just Weird’",
-    "Mortgage giant Fannie Mae will soon accept crypto-backed homebuying loans",
-    "What Does the New Google TurboQuant Compressor Really Mean for Micron Stock?",
-    "As Claude Deals Yet Another Blow, Here’s Why HP and Intel Are the Lowest-Rated IT Stocks to Buy",
-    "Warren Buffett once said 2 investments 'will probably increase' his family's income generation. How to follow suit",
-    "6 Big Ways ChatGPT Can Help With Your 2026 Tax Filing",
-    "SoundHound AI (SOUN) Stock Down After Jim Cramer Said It Was “a Little Elevated”"
+    "Goldman Sachs draws 3 major conclusions from oil supply shocks",
+    "Dow Jones Futures, Oil Prices Loom As U.S. Mulls Ground Troops In Iran",
+    "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war",
+    "Teradyne (TER) Stock Up Significantly After Jim Cramer Was Hesistant",
+    "NVIDIA (NVDA) Shares Higher After Jim Cramer Criticized Sellers",
+    "Visa vs. Mastercard: One Is Built for a Recession. Here's Which One to Own.",
+    "Tesla (TSLA) Shares Up After Jim Cramer Said It Had Options"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66485.90625,
-        "perp_last_price": 66485.90625,
-        "mark_price": 66485.90625,
-        "index_price": 66485.90625,
+        "spot_price": 66472.8515625,
+        "perp_last_price": 66472.8515625,
+        "mark_price": 66472.8515625,
+        "index_price": 66472.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66485.90625,
+        "entry_ideal": 66472.8515625,
         "stop_loss_technical": 67000.8125,
-        "target_1": 65713.546875,
-        "target_2": 64941.1875,
+        "target_1": 65680.91015625,
+        "target_2": 64888.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66485.90625,
+        "entry_ideal": 66472.8515625,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58236.15234375,
-        "target_2": 49986.3984375,
+        "target_1": 58203.515625,
+        "target_2": 49934.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
