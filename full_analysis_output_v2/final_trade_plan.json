@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T09:59:43.084329+00:00",
+    "generated_at_utc": "2026-03-29T10:34:04.766355+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Is a Reverse Stock Split Coming for Beyond Meat?",
-    "Unity Software (U) Soars 13.6% on Higher Revenue Outlook",
-    "ADMA Biologics (ADMA) Soars 11.6% as Firm Denies Short Seller Allegations",
-    "Cboe Global (Nasdaq:Cboe) Introduces a New Prediction Markets Framework",
-    "F5 (FFIV) Partners With Skyfire To Enable Secure Agentic Commerce",
-    "VCX Fund Crashes over 30% — 3 Risks Every Investor Should Know",
-    "Zoom Communications (ZM) Announces Agentic AI Platform Expansion"
+    "What's the Better Buy to Save for Retirement: Bitcoin vs. Gold",
+    "Morgan Stanley Raises East West Bancorp (EWBC) Price Target to $141",
+    "Jack Henry (JKHY) Financial Crimes Defender™ Added to ICBA’s Preferred Service Provider Program",
+    "This Trump account hack could turn small savings into a tax-free fortune — here’s how it works and who can benefit",
+    "Total Wireless Launch New Device Protection Plan Developed in Partnership With Assurant (AIZ)",
+    "Murphy Oil Details Vietnam PSC Mechanics, Cost Recovery and Entitlement Production in Offshore Webinar",
+    "Wells Fargo Lowers Monster Beverage (MNST) Price Target to $90"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66568.078125,
-        "perp_last_price": 66568.078125,
-        "mark_price": 66568.078125,
-        "index_price": 66568.078125,
+        "spot_price": 66432.828125,
+        "perp_last_price": 66432.828125,
+        "mark_price": 66432.828125,
+        "index_price": 66432.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66568.078125,
+        "entry_ideal": 66432.828125,
         "stop_loss_technical": 67201.6484375,
-        "target_1": 65617.72265625,
-        "target_2": 64667.3671875,
+        "target_1": 65279.59765625,
+        "target_2": 64126.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66568.078125,
+        "entry_ideal": 66432.828125,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58441.58203125,
-        "target_2": 50315.0859375,
+        "target_1": 58103.45703125,
+        "target_2": 49774.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
