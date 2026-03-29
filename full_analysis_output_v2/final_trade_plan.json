@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T12:37:54.518641+00:00",
+    "generated_at_utc": "2026-03-29T13:37:42.965645+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "IRS issues tax refund update: Average check drops from $3,700 — but there’s a silver lining for Americans",
+    "What Your Employer Doesn’t Tell You About Your 401(k) Match",
+    "Marvell, Caterpillar Lead Five Stocks To Watch In Weak Market",
+    "How can a surgeon struggle on a $665K salary? Ramit Sethi blames a certain financial mistake — here’s how to avoid it",
+    "On Canada's tariff frontline, business stalls over US trade deal jitters",
     "My ex opened a credit card using our son's Social Security number and he's now been denied student loans. What now?",
-    "Meet a 29-year-old blue-collar founder who used AI to triple his revenue in 3 years",
-    "How you use your credit card could be costing you. Here’s 3 ways millionaires use them to maximize the benefits",
-    "A 44-year-old nurse paid off nearly $1M in debt from student loans and mortgages in under 3 years. Here’s how she did it",
-    "After a Florida woman's house fire, her insurer declared it a total loss — here's who decides if it gets rebuilt",
-    "How can a surgeon struggle on a $665K salary? Ramit Sethi blames a certain financial mistake — here’s how to avoid it"
+    "President Donald Trump Has Dug a Nearly $169 Billion Hole for Social Security",
+    "How you use your credit card could be costing you. Here’s 3 ways millionaires use them to maximize the benefits"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66656.234375,
-        "perp_last_price": 66656.234375,
-        "mark_price": 66656.234375,
-        "index_price": 66656.234375,
+        "spot_price": 66597.0,
+        "perp_last_price": 66597.0,
+        "mark_price": 66597.0,
+        "index_price": 66597.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66656.234375,
+        "entry_ideal": 66597.0,
         "stop_loss_technical": 67000.8125,
-        "target_1": 66139.3671875,
-        "target_2": 65622.5,
+        "target_1": 65991.28125,
+        "target_2": 65385.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66656.234375,
-        "stop_loss_technical": 65656.39085937,
-        "target_1": 68155.99964844,
-        "target_2": 69655.76492188,
+        "entry_ideal": 66597.0,
+        "stop_loss_technical": 71985.7421875,
+        "target_1": 58513.88671875,
+        "target_2": 50430.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
