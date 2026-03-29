@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T08:05:00.410801+00:00",
+    "generated_at_utc": "2026-03-29T08:55:03.001956+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,40 +22,26 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Every Magnificent Seven Stock Is Down This Year. This One Is a Screaming Buy",
+    "Is Schwab U.S. Dividend Equity ETF Becoming a Crowded Trade That Smart Investors Should Avoid?",
     "Hecla Mining (HL) Jumps 4.3% on Silver, Gold Rush",
     "Equinox (EQX) Climbs 4.57% on Gold, Silver Surge",
     "IAMGOLD (IAG) Shines 4.9% Brighter on Gold Surge",
     "Campbell’s (CPB) Rallies 5% Ahead of Dividends",
-    "Helios Technologies Unveils CORE 2030 at Investor Day: Double Sales, 25%+ EBITDA, M&A Ahead",
+    "When Will SpaceX Complete Its IPO? Here's When Prediction Market Thinks Elon Musk's Company Will Go Public",
     "Brown-Forman (BF-B) Climbs 5.6% on JPMorgan Upgrade"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66631.9296875,
-        "perp_last_price": 66631.9296875,
-        "mark_price": 66631.9296875,
-        "index_price": 66631.9296875,
+        "spot_price": 66651.734375,
+        "perp_last_price": 66651.734375,
+        "mark_price": 66651.734375,
+        "index_price": 66651.734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 66631.9296875,
-        "stop_loss_technical": 65632.45074219,
-        "target_1": 68131.14810547,
-        "target_2": 69630.36652344,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -63,10 +49,24 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66631.9296875,
-        "stop_loss_technical": 71985.7421875,
-        "target_1": 58601.2109375,
-        "target_2": 50570.4921875,
+        "entry_ideal": 66651.734375,
+        "stop_loss_technical": 67201.6484375,
+        "target_1": 65826.86328125,
+        "target_2": 65001.9921875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 66651.734375,
+        "stop_loss_technical": 65651.95835937,
+        "target_1": 68151.39839844,
+        "target_2": 69651.06242188,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
