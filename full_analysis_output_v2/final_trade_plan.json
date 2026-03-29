@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T05:49:12.655447+00:00",
+    "generated_at_utc": "2026-03-29T06:47:03.960156+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Soybeans Sell the Fact Following RVO Release",
-    "Could a Stock Split Be Coming for Sandisk Amid the AI Memory Chip Supercycle?",
+    "ANI Pharma Insider Sells 4,772 Shares as Revenue Hits $883 Million in 2025",
+    "Only 1 of These Top 2 REITs Is Built to Pay You for Generations",
+    "Stock market today: S&P 500 clinches longest losing streak since 2022 as oil surges, 'Magnificent 7' stocks shed $300 billion",
+    "Supernus Pharma Insider Sells $5.4 Million as Stock Surges 53% in a Year",
     "Corn Fades Lower into the Weekend",
-    "Best same-day emergency loans for April 2026: Get fast funding after approval",
-    "Textron Inc. (TXT) Strengthens H‑1 Fleet Through Structural and Power Enhancements",
-    "Outdoor Holding Company (POWW) Expands GunBroker With AI Innovation",
-    "Equitable, Corebridge Unveil Transformational All-Stock Merger, Target $500M Synergies by 2028"
+    "Soybeans Sell the Fact Following RVO Release",
+    "Best same-day emergency loans for April 2026: Get fast funding after approval"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66627.5234375,
-        "perp_last_price": 66627.5234375,
-        "mark_price": 66627.5234375,
-        "index_price": 66627.5234375,
+        "spot_price": 66621.1640625,
+        "perp_last_price": 66621.1640625,
+        "mark_price": 66621.1640625,
+        "index_price": 66621.1640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66627.5234375,
+        "entry_ideal": 66621.1640625,
         "stop_loss_technical": 67201.6484375,
-        "target_1": 65766.3359375,
-        "target_2": 64905.1484375,
+        "target_1": 65750.4375,
+        "target_2": 64879.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66627.5234375,
+        "entry_ideal": 66621.1640625,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58590.1953125,
-        "target_2": 50552.8671875,
+        "target_1": 58574.296875,
+        "target_2": 50527.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
