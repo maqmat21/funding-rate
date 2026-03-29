@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T17:17:39.559993+00:00",
+    "generated_at_utc": "2026-03-29T17:50:01.500386+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "History Says You'll Want to Buy 1 of These Top ETFs and Never Look Back",
-    "Philippines declares Iran war poses 'imminent danger' — now it must lean on coal. Does the US face the same shockwave?",
-    "Dow Jones Futures, Oil Prices Loom As U.S. Mulls Ground Troops In Iran",
-    "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war",
-    "Meta and Google lost a major social media addiction lawsuit. Their troubles are far from over.",
-    "Your Artificial Intelligence (AI) Portfolio Probably Looks Very Different Than It Did 6 Months Ago. Here's Why That's OK.",
-    "Meta Platforms Just Cut Jobs. Does That Make META Stock a Buy, Sell, or Hold Before Q2 Starts?"
+    "Strong Analyst Sentiment on NICE (NICE) Amid AI Push Acceleration",
+    "Parsons (PSN) Announces Expansion of Its iNET Smart Mobility Platform",
+    "Analysts Remain Bullish on SailPoint. (SAIL) Amid Strong Q4 and Full-Year Results",
+    "Goldman Sachs Raises PT on Navan (NAVN) to $23, Reiterates “Buy” Rating Following Strong Q4 Results",
+    "Analysts Remain Bullish on Pattern Group (PTRN) Following Recent Earnings Call",
+    "NIQ Global Intelligence (NIQ) Launches Packaging Strategic Planner Global (SPG) Solution to Streamline Packaging Tracking Process",
+    "Netskope (NTSK) Still Seen As “Strong Buy” By Wall Street Analysts"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66359.2890625,
-        "perp_last_price": 66359.2890625,
-        "mark_price": 66359.2890625,
-        "index_price": 66359.2890625,
+        "spot_price": 66307.84375,
+        "perp_last_price": 66307.84375,
+        "mark_price": 66307.84375,
+        "index_price": 66307.84375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66359.2890625,
-        "stop_loss_technical": 67000.8125,
-        "target_1": 65397.00390625,
-        "target_2": 64434.71875,
+        "entry_ideal": 66307.84375,
+        "stop_loss_technical": 65313.22609375,
+        "target_1": 67799.77023437,
+        "target_2": 69291.69671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66359.2890625,
+        "entry_ideal": 66307.84375,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 57919.609375,
-        "target_2": 49479.9296875,
+        "target_1": 57790.99609375,
+        "target_2": 49274.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
