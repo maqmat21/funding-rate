@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T09:26:38.102273+00:00",
+    "generated_at_utc": "2026-03-29T09:59:43.084329+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Is a Reverse Stock Split Coming for Beyond Meat?",
     "Unity Software (U) Soars 13.6% on Higher Revenue Outlook",
     "ADMA Biologics (ADMA) Soars 11.6% as Firm Denies Short Seller Allegations",
-    "First Majestic (AG) Climbs 7% on Silver Rush",
-    "3 Technology Stocks That Belong in Every Long-Term Portfolio",
-    "Entergy (ETR) Rallies 6.8% on Meta Deal",
-    "Coeur Mining (CDE) Jumps 5.9% on Precious Metals Surge",
-    "Brown-Forman (BF-B) Climbs 5.6% on JPMorgan Upgrade"
+    "Cboe Global (Nasdaq:Cboe) Introduces a New Prediction Markets Framework",
+    "F5 (FFIV) Partners With Skyfire To Enable Secure Agentic Commerce",
+    "VCX Fund Crashes over 30% — 3 Risks Every Investor Should Know",
+    "Zoom Communications (ZM) Announces Agentic AI Platform Expansion"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66604.6171875,
-        "perp_last_price": 66604.6171875,
-        "mark_price": 66604.6171875,
-        "index_price": 66604.6171875,
+        "spot_price": 66568.078125,
+        "perp_last_price": 66568.078125,
+        "mark_price": 66568.078125,
+        "index_price": 66568.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66604.6171875,
+        "entry_ideal": 66568.078125,
         "stop_loss_technical": 67201.6484375,
-        "target_1": 65709.0703125,
-        "target_2": 64813.5234375,
+        "target_1": 65617.72265625,
+        "target_2": 64667.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66604.6171875,
+        "entry_ideal": 66568.078125,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58532.9296875,
-        "target_2": 50461.2421875,
+        "target_1": 58441.58203125,
+        "target_2": 50315.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
