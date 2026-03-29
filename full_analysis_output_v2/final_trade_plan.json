@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T13:37:42.965645+00:00",
+    "generated_at_utc": "2026-03-29T14:07:58.393991+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "What Your Employer Doesn’t Tell You About Your 401(k) Match",
-    "Marvell, Caterpillar Lead Five Stocks To Watch In Weak Market",
-    "How can a surgeon struggle on a $665K salary? Ramit Sethi blames a certain financial mistake — here’s how to avoid it",
+    "Cintas Corporation: The Deep Value Opportunity in Plain Sight",
+    "Warren Buffett once said 2 investments 'will probably increase' his family's income generation. How to follow suit",
+    "What Does the New Google TurboQuant Compressor Really Mean for Micron Stock?",
     "On Canada's tariff frontline, business stalls over US trade deal jitters",
-    "My ex opened a credit card using our son's Social Security number and he's now been denied student loans. What now?",
-    "President Donald Trump Has Dug a Nearly $169 Billion Hole for Social Security",
-    "How you use your credit card could be costing you. Here’s 3 ways millionaires use them to maximize the benefits"
+    "Marvell, Caterpillar Lead Five Stocks To Watch In Weak Market",
+    "3 Artificial Intelligence (AI) Stocks to Buy at a Discount",
+    "How can a surgeon struggle on a $665K salary? Ramit Sethi blames a certain financial mistake — here’s how to avoid it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66597.0,
-        "perp_last_price": 66597.0,
-        "mark_price": 66597.0,
-        "index_price": 66597.0,
+        "spot_price": 66444.7734375,
+        "perp_last_price": 66444.7734375,
+        "mark_price": 66444.7734375,
+        "index_price": 66444.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66597.0,
+        "entry_ideal": 66444.7734375,
         "stop_loss_technical": 67000.8125,
-        "target_1": 65991.28125,
-        "target_2": 65385.5625,
+        "target_1": 65610.71484375,
+        "target_2": 64776.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66597.0,
+        "entry_ideal": 66444.7734375,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58513.88671875,
-        "target_2": 50430.7734375,
+        "target_1": 58133.3203125,
+        "target_2": 49821.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
