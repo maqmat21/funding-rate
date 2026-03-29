@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T22:46:16.072107+00:00",
+    "generated_at_utc": "2026-03-29T23:16:04.632497+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.315,
+        "price": 100.317,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Dow Jones Futures Fall, Oil Prices Run Past $100 Amid Latest Iran News; Market At Six-Month Lows",
-    "Why Buying the Market Dip Right Now Could Be the Best Financial Decision of 2026",
+    "Stock market today: Dow, S&P 500, Nasdaq futures fall entering shortened week ahead of jobs report",
+    "ASX Small Ordinaries to slip as companies progress financing, resources and project milestones",
     "How to get a business loan",
     "Why Rocket Pharmaceuticals (RCKT) Got a Commercial Boost From FDA Approval of KRESLADI",
     "How Datavault AI (DVLT) Reached Its First Profitable Quarter and Set a 2026 Growth Target",
-    "Why Vertical Aerospace (EVTL) Is Expanding Its Valo Supplier Network Ahead of Certification",
-    "Oil and Fertilizer Prices May Soon Have Ripple Effects on These 3 Commodities Stocks"
+    "Why Vertical Aerospace (EVTL) Is Expanding Its Valo Supplier Network Ahead of Certification"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65647.484375,
-        "perp_last_price": 65647.484375,
-        "mark_price": 65647.484375,
-        "index_price": 65647.484375,
+        "spot_price": 66063.453125,
+        "perp_last_price": 66063.453125,
+        "mark_price": 66063.453125,
+        "index_price": 66063.453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65647.484375,
-        "stop_loss_technical": 67000.8125,
-        "target_1": 63617.4921875,
-        "target_2": 61587.5,
+        "entry_ideal": 66063.453125,
+        "stop_loss_technical": 65072.50132812,
+        "target_1": 67549.88082031,
+        "target_2": 69036.30851563,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65647.484375,
+        "entry_ideal": 66063.453125,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 56140.09765625,
-        "target_2": 46632.7109375,
+        "target_1": 57180.01953125,
+        "target_2": 48296.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
