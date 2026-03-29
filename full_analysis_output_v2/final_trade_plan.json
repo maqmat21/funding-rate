@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T20:01:21.500332+00:00",
+    "generated_at_utc": "2026-03-29T20:47:27.584116+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,53 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Surging oil, the March jobs report, and anxious consumers: What to watch this week",
-    "Meta and Google lost a major social media addiction lawsuit. Their troubles are far from over.",
-    "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war",
-    "Worried Market Volatility Will Hurt Your Retirement Savings? Here's the 1 Important Thing to Know.",
-    "Halozyme Therapeutics (HALO) Appoints Interim CFO Amid Growth Plans",
-    "Pan American Silver Corp. (PAAS) Plans $1.9B Investment to Enable The Largest Silver Mine",
-    "Jim Cramer on NVIDIA: “To Me, You’re Only Being Given a Chance to Buy a High-Quality Stock at a Lower Price Than You Normally Expect”"
+    "IWM vs. QQQ: How Small-Cap Diversification Compares to Large-Cap Growth for Investors",
+    "ACM Research (ACMR) Shanghai Unit Outlines Profit Distribution Plan For Fiscal 2025",
+    "Silicon Laboratories (SLAB) and BANF Introduces In-Tire Sensor Platform",
+    "Lattice Semiconductor (LSCC) Partners With Nvidia to Join Halos AI Systems Inspection Lab Ecosystem",
+    "Dow Jones Futures, Oil Prices Loom As U.S. Mulls Ground Troops In Iran",
+    "How High Can Disney's Streaming Profit Go?",
+    "nLIGHT (LASR) Hits an All-Time High, Here’s What You Need to Know"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66304.0234375,
-        "perp_last_price": 66304.0234375,
-        "mark_price": 66304.0234375,
-        "index_price": 66304.0234375,
+        "spot_price": 66545.5078125,
+        "perp_last_price": 66545.5078125,
+        "mark_price": 66545.5078125,
+        "index_price": 66545.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66290.3046875,
+        "entry_ideal": 66545.5078125,
         "stop_loss_technical": 67000.8125,
-        "target_1": 65224.54296875,
-        "target_2": 64158.78125,
+        "target_1": 65862.55078125,
+        "target_2": 65179.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66304.0234375,
-        "stop_loss_technical": 71985.7421875,
-        "target_1": 57781.4453125,
-        "target_2": 49258.8671875,
+        "entry_ideal": 66545.5078125,
+        "stop_loss_technical": 65547.32519531,
+        "target_1": 68042.78173828,
+        "target_2": 69540.05566406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
