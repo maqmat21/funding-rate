@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T06:47:03.960156+00:00",
+    "generated_at_utc": "2026-03-29T07:40:07.344726+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "ANI Pharma Insider Sells 4,772 Shares as Revenue Hits $883 Million in 2025",
-    "Only 1 of These Top 2 REITs Is Built to Pay You for Generations",
+    "Why Argan Stock Was a Winner This Week",
     "Stock market today: S&P 500 clinches longest losing streak since 2022 as oil surges, 'Magnificent 7' stocks shed $300 billion",
-    "Supernus Pharma Insider Sells $5.4 Million as Stock Surges 53% in a Year",
-    "Corn Fades Lower into the Weekend",
-    "Soybeans Sell the Fact Following RVO Release",
-    "Best same-day emergency loans for April 2026: Get fast funding after approval"
+    "Only 1 of These Top 2 REITs Is Built to Pay You for Generations",
+    "Hecla Mining (HL) Jumps 4.3% on Silver, Gold Rush",
+    "Equinox (EQX) Climbs 4.57% on Gold, Silver Surge",
+    "Musk Richer Than Bezos, Zuckerberg, Ellison Combined: SpaceX IPO Could Create First Trillionaire",
+    "IAMGOLD (IAG) Shines 4.9% Brighter on Gold Surge"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66621.1640625,
-        "perp_last_price": 66621.1640625,
-        "mark_price": 66621.1640625,
-        "index_price": 66621.1640625,
+        "spot_price": 66606.453125,
+        "perp_last_price": 66606.453125,
+        "mark_price": 66606.453125,
+        "index_price": 66606.453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66621.1640625,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 65750.4375,
-        "target_2": 64879.7109375,
+        "entry_ideal": 66606.453125,
+        "stop_loss_technical": 65607.35632812,
+        "target_1": 68105.09832031,
+        "target_2": 69603.74351562,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66621.1640625,
+        "entry_ideal": 66606.453125,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58574.296875,
-        "target_2": 50527.4296875,
+        "target_1": 58537.51953125,
+        "target_2": 50468.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
