@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T17:50:01.500386+00:00",
+    "generated_at_utc": "2026-03-29T18:21:06.073440+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "1 Stock That Benefits No Matter Which Way the Economy Goes",
+    "A bold 2011 market call is echoed in 2026",
+    "Dow Jones Futures, Oil Prices Loom As U.S. Mulls Ground Troops In Iran",
     "Strong Analyst Sentiment on NICE (NICE) Amid AI Push Acceleration",
     "Parsons (PSN) Announces Expansion of Its iNET Smart Mobility Platform",
-    "Analysts Remain Bullish on SailPoint. (SAIL) Amid Strong Q4 and Full-Year Results",
-    "Goldman Sachs Raises PT on Navan (NAVN) to $23, Reiterates “Buy” Rating Following Strong Q4 Results",
-    "Analysts Remain Bullish on Pattern Group (PTRN) Following Recent Earnings Call",
-    "NIQ Global Intelligence (NIQ) Launches Packaging Strategic Planner Global (SPG) Solution to Streamline Packaging Tracking Process",
-    "Netskope (NTSK) Still Seen As “Strong Buy” By Wall Street Analysts"
+    "Why a $500,000 401(k) Still Isn’t Enough for a Surgeon’s Retirement",
+    "Analysts Remain Bullish on SailPoint. (SAIL) Amid Strong Q4 and Full-Year Results"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66307.84375,
-        "perp_last_price": 66307.84375,
-        "mark_price": 66307.84375,
-        "index_price": 66307.84375,
+        "spot_price": 66388.3359375,
+        "perp_last_price": 66388.3359375,
+        "mark_price": 66388.3359375,
+        "index_price": 66388.3359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66307.84375,
-        "stop_loss_technical": 65313.22609375,
-        "target_1": 67799.77023437,
-        "target_2": 69291.69671875,
+        "entry_ideal": 66388.3359375,
+        "stop_loss_technical": 65392.51089844,
+        "target_1": 67882.07349609,
+        "target_2": 69375.81105469,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66307.84375,
+        "entry_ideal": 66388.3359375,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 57790.99609375,
-        "target_2": 49274.1484375,
+        "target_1": 57992.2265625,
+        "target_2": 49596.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
