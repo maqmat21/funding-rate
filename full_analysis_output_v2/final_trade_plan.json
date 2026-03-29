@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T11:57:00.538149+00:00",
+    "generated_at_utc": "2026-03-29T12:37:54.518641+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "I Asked ChatGPT If I Can Get the Same Tax Deductions as the Rich — Here’s What It Said",
+    "IRS issues tax refund update: Average check drops from $3,700 — but there’s a silver lining for Americans",
+    "My ex opened a credit card using our son's Social Security number and he's now been denied student loans. What now?",
+    "Meet a 29-year-old blue-collar founder who used AI to triple his revenue in 3 years",
+    "How you use your credit card could be costing you. Here’s 3 ways millionaires use them to maximize the benefits",
     "A 44-year-old nurse paid off nearly $1M in debt from student loans and mortgages in under 3 years. Here’s how she did it",
     "After a Florida woman's house fire, her insurer declared it a total loss — here's who decides if it gets rebuilt",
-    "Accenture (ACN) Sees Record Bookings and AI Investment Momentum Despite Price Target Cuts",
-    "BlackLine, Inc. (BL) Expands Board, Boosts Buyback to $500M as AI Growth Accelerates",
-    "The 1 Number That Tells You Everything About ExxonMobil Right Now",
-    "Asure Software (ASUR) Delivers Strong Q4 Revenue Growth and Raised Price Target as HCM Platform Gains Traction"
+    "How can a surgeon struggle on a $665K salary? Ramit Sethi blames a certain financial mistake — here’s how to avoid it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66786.4375,
-        "perp_last_price": 66786.4375,
-        "mark_price": 66786.4375,
-        "index_price": 66786.4375,
+        "spot_price": 66656.234375,
+        "perp_last_price": 66656.234375,
+        "mark_price": 66656.234375,
+        "index_price": 66656.234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66786.4375,
-        "stop_loss_technical": 65784.6409375,
-        "target_1": 68289.13234375,
-        "target_2": 69791.8271875,
+        "entry_ideal": 66656.234375,
+        "stop_loss_technical": 67000.8125,
+        "target_1": 66139.3671875,
+        "target_2": 65622.5,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66786.4375,
-        "stop_loss_technical": 65784.6409375,
-        "target_1": 68289.13234375,
-        "target_2": 69791.8271875,
+        "entry_ideal": 66656.234375,
+        "stop_loss_technical": 65656.39085937,
+        "target_1": 68155.99964844,
+        "target_2": 69655.76492188,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
