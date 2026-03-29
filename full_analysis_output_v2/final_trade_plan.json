@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T22:03:05.691902+00:00",
+    "generated_at_utc": "2026-03-29T22:46:16.072107+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.193,
+        "price": 100.315,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,52 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Wall Street Expected Micron to Stumble. Here's Why the Bears Could Be Dead Wrong.",
+    "Dow Jones Futures Fall, Oil Prices Run Past $100 Amid Latest Iran News; Market At Six-Month Lows",
+    "Why Buying the Market Dip Right Now Could Be the Best Financial Decision of 2026",
     "How to get a business loan",
     "Why Rocket Pharmaceuticals (RCKT) Got a Commercial Boost From FDA Approval of KRESLADI",
     "How Datavault AI (DVLT) Reached Its First Profitable Quarter and Set a 2026 Growth Target",
     "Why Vertical Aerospace (EVTL) Is Expanding Its Valo Supplier Network Ahead of Certification",
-    "Prediction: This Will Be Palantir's Stock Price in 2030",
-    "Why UBS Started Jasper Therapeutics (JSPR) at Neutral Despite Progress in Briquilimab"
+    "Oil and Fertilizer Prices May Soon Have Ripple Effects on These 3 Commodities Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66672.9296875,
-        "perp_last_price": 66672.9296875,
-        "mark_price": 66672.9296875,
-        "index_price": 66672.9296875,
+        "spot_price": 65647.484375,
+        "perp_last_price": 65647.484375,
+        "mark_price": 65647.484375,
+        "index_price": 65647.484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66672.9296875,
-        "stop_loss_technical": 65672.83574219,
-        "target_1": 68173.07060547,
-        "target_2": 69673.21152344,
+        "entry_ideal": 65647.484375,
+        "stop_loss_technical": 67000.8125,
+        "target_1": 63617.4921875,
+        "target_2": 61587.5,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66672.9296875,
-        "stop_loss_technical": 65672.83574219,
-        "target_1": 68173.07060547,
-        "target_2": 69673.21152344,
+        "entry_ideal": 65647.484375,
+        "stop_loss_technical": 71985.7421875,
+        "target_1": 56140.09765625,
+        "target_2": 46632.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
