@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T10:34:04.766355+00:00",
+    "generated_at_utc": "2026-03-29T11:02:47.757566+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "What's the Better Buy to Save for Retirement: Bitcoin vs. Gold",
-    "Morgan Stanley Raises East West Bancorp (EWBC) Price Target to $141",
-    "Jack Henry (JKHY) Financial Crimes Defender™ Added to ICBA’s Preferred Service Provider Program",
-    "This Trump account hack could turn small savings into a tax-free fortune — here’s how it works and who can benefit",
-    "Total Wireless Launch New Device Protection Plan Developed in Partnership With Assurant (AIZ)",
-    "Murphy Oil Details Vietnam PSC Mechanics, Cost Recovery and Entitlement Production in Offshore Webinar",
-    "Wells Fargo Lowers Monster Beverage (MNST) Price Target to $90"
+    "The 1 Energy Stock I'd Buy Before Every Other Right Now",
+    "Best high-yield savings interest rates today, March 28, 2026 (Earn up to 4% APY)",
+    "Mortgage and refinance interest rates today, March 28, 2026: Rates reach 6-month high",
+    "Best CD rates today, March 28, 2026 (best account provides 4.15% APY)",
+    "HELOC and home equity loan rates Saturday, March 28, 2026: Rates hold above 7%",
+    "Where Will the Cryptocurrency XRP Be in 10 Years?",
+    "Best money market account rates today, March 28, 2026 (best account provides 4.01% APY)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66432.828125,
-        "perp_last_price": 66432.828125,
-        "mark_price": 66432.828125,
-        "index_price": 66432.828125,
+        "spot_price": 66461.15625,
+        "perp_last_price": 66461.15625,
+        "mark_price": 66461.15625,
+        "index_price": 66461.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66432.828125,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 65279.59765625,
-        "target_2": 64126.3671875,
+        "entry_ideal": 66461.15625,
+        "stop_loss_technical": 67038.5390625,
+        "target_1": 65595.08203125,
+        "target_2": 64729.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66432.828125,
+        "entry_ideal": 66461.15625,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58103.45703125,
-        "target_2": 49774.0859375,
+        "target_1": 58174.27734375,
+        "target_2": 49887.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
