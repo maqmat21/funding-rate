@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T16:49:12.736744+00:00",
+    "generated_at_utc": "2026-03-29T17:17:39.559993+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Berkshire Hathaway Just Notched an 8-Day Losing Streak. Is It a Good Time to Buy the Stock?",
+    "History Says You'll Want to Buy 1 of These Top ETFs and Never Look Back",
+    "Philippines declares Iran war poses 'imminent danger' — now it must lean on coal. Does the US face the same shockwave?",
     "Dow Jones Futures, Oil Prices Loom As U.S. Mulls Ground Troops In Iran",
     "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war",
-    "Meta Platforms Just Cut Jobs. Does That Make META Stock a Buy, Sell, or Hold Before Q2 Starts?",
-    "Workers everywhere feel very bad about their job security",
-    "FiscalNote Shares Tank As Company Gets Booted From NYSE",
-    "Taiwan Semiconductor (TSM) Going Strong Amid Tight Capacity Conditions"
+    "Meta and Google lost a major social media addiction lawsuit. Their troubles are far from over.",
+    "Your Artificial Intelligence (AI) Portfolio Probably Looks Very Different Than It Did 6 Months Ago. Here's Why That's OK.",
+    "Meta Platforms Just Cut Jobs. Does That Make META Stock a Buy, Sell, or Hold Before Q2 Starts?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66481.1484375,
-        "perp_last_price": 66481.1484375,
-        "mark_price": 66481.1484375,
-        "index_price": 66481.1484375,
+        "spot_price": 66359.2890625,
+        "perp_last_price": 66359.2890625,
+        "mark_price": 66359.2890625,
+        "index_price": 66359.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66481.1484375,
+        "entry_ideal": 66359.2890625,
         "stop_loss_technical": 67000.8125,
-        "target_1": 65701.65234375,
-        "target_2": 64922.15625,
+        "target_1": 65397.00390625,
+        "target_2": 64434.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66481.1484375,
+        "entry_ideal": 66359.2890625,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58224.2578125,
-        "target_2": 49967.3671875,
+        "target_1": 57919.609375,
+        "target_2": 49479.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
