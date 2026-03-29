@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T11:02:47.757566+00:00",
+    "generated_at_utc": "2026-03-29T11:38:46.060254+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "The 1 Energy Stock I'd Buy Before Every Other Right Now",
-    "Best high-yield savings interest rates today, March 28, 2026 (Earn up to 4% APY)",
-    "Mortgage and refinance interest rates today, March 28, 2026: Rates reach 6-month high",
-    "Best CD rates today, March 28, 2026 (best account provides 4.15% APY)",
-    "HELOC and home equity loan rates Saturday, March 28, 2026: Rates hold above 7%",
-    "Where Will the Cryptocurrency XRP Be in 10 Years?",
-    "Best money market account rates today, March 28, 2026 (best account provides 4.01% APY)"
+    "Why Dave Ramsey Says a $165,000 Household Income Is Not a Financial Problem",
+    "A 44-year-old nurse paid off nearly $1M in debt from student loans and mortgages in under 3 years. Here’s how she did it",
+    "After a Florida woman's house fire, her insurer declared it a total loss — here's who decides if it gets rebuilt",
+    "BlackLine, Inc. (BL) Expands Board, Boosts Buyback to $500M as AI Growth Accelerates",
+    "AudioEye (AEYE) Gains from DOJ Accessibility Mandate Tailwinds Despite Price Target Cuts on Mixed Guidance",
+    "RSPA’s 8.9% Yield Hides a Tax Problem Most Income Investors Never See Coming",
+    "PagerDuty (PD) Faces Churn Headwinds and Soft Demand Despite Q4 Beat, Seen as Turnaround Opportunity"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66461.15625,
-        "perp_last_price": 66461.15625,
-        "mark_price": 66461.15625,
-        "index_price": 66461.15625,
+        "spot_price": 66752.203125,
+        "perp_last_price": 66752.203125,
+        "mark_price": 66752.203125,
+        "index_price": 66752.203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66461.15625,
-        "stop_loss_technical": 67038.5390625,
-        "target_1": 65595.08203125,
-        "target_2": 64729.0078125,
+        "entry_ideal": 66752.203125,
+        "stop_loss_technical": 65750.92007812,
+        "target_1": 68254.12769531,
+        "target_2": 69756.05226562,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66461.15625,
-        "stop_loss_technical": 71985.7421875,
-        "target_1": 58174.27734375,
-        "target_2": 49887.3984375,
+        "entry_ideal": 66752.203125,
+        "stop_loss_technical": 65750.92007812,
+        "target_1": 68254.12769531,
+        "target_2": 69756.05226562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
