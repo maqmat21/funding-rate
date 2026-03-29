@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T15:48:00.272360+00:00",
+    "generated_at_utc": "2026-03-29T16:04:36.569082+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Here's What to Expect for Gold and Silver Mining Stocks as the Iran Conflict Continues",
+    "Wall Street touts ‘grind lower’ trades as Iran weighs on stocks",
     "Dow Jones Futures, Oil Prices Loom As U.S. Mulls Ground Troops In Iran",
     "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war",
-    "Retired Florida couple fear losing their home after a window contractor vanished and left them with a $39K lien",
-    "Teradyne (TER) Stock Up Significantly After Jim Cramer Was Hesistant",
-    "Amazon Chip Division Hit By Second Senior Exit In Months",
-    "NVIDIA (NVDA) Shares Higher After Jim Cramer Criticized Sellers"
+    "Meta and Google lost a major social media addiction lawsuit. Their troubles are far from over.",
+    "Market Week Ahead: Scarcity Narratives And Naval Tactics",
+    "Micron's HBM4 Is Now in Mass Production for Nvidia's Next-Gen Platform. This Could Be a Defining Moment for the Stock.",
+    "Retired Florida couple fear losing their home after a window contractor vanished and left them with a $39K lien"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66397.8125,
-        "perp_last_price": 66397.8125,
-        "mark_price": 66397.8125,
-        "index_price": 66397.8125,
+        "spot_price": 66464.796875,
+        "perp_last_price": 66464.796875,
+        "mark_price": 66464.796875,
+        "index_price": 66464.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66397.8125,
-        "stop_loss_technical": 67000.8125,
-        "target_1": 65493.3125,
-        "target_2": 64588.8125,
+        "entry_ideal": 66464.796875,
+        "stop_loss_technical": 65467.82492187,
+        "target_1": 67960.25480469,
+        "target_2": 69455.71273438,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66397.8125,
+        "entry_ideal": 66464.796875,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 58015.91796875,
-        "target_2": 49634.0234375,
+        "target_1": 58183.37890625,
+        "target_2": 49901.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
