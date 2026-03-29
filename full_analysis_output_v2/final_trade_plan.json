@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T04:07:36.675781+00:00",
+    "generated_at_utc": "2026-03-29T05:49:12.655447+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Should You Chase the Rally in Unity Software Stock Today?",
-    "What Does a Comfortable Retirement Actually Cost in Florida in 2026?",
-    "Stock Market Today: Dow Enters Correction As Oil Jumps; Micron Rises (Live Coverage)",
-    "Crypto Ends The Week In The Red As Market Volatility Continues",
-    "The market is starting to think the Federal Reserve's next move is raising interest rates",
-    "Has Meta Platforms Become Addicted to AI Spending?",
-    "Braze Stock Rallies as Revenue Beats, Buybacks Begin, and Outlook Jumps"
+    "Soybeans Sell the Fact Following RVO Release",
+    "Could a Stock Split Be Coming for Sandisk Amid the AI Memory Chip Supercycle?",
+    "Corn Fades Lower into the Weekend",
+    "Best same-day emergency loans for April 2026: Get fast funding after approval",
+    "Textron Inc. (TXT) Strengthens H‑1 Fleet Through Structural and Power Enhancements",
+    "Outdoor Holding Company (POWW) Expands GunBroker With AI Innovation",
+    "Equitable, Corebridge Unveil Transformational All-Stock Merger, Target $500M Synergies by 2028"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66837.4609375,
-        "perp_last_price": 66837.4609375,
-        "mark_price": 66837.4609375,
-        "index_price": 66837.4609375,
+        "spot_price": 66627.5234375,
+        "perp_last_price": 66627.5234375,
+        "mark_price": 66627.5234375,
+        "index_price": 66627.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66837.4609375,
+        "entry_ideal": 66627.5234375,
         "stop_loss_technical": 67201.6484375,
-        "target_1": 66291.1796875,
-        "target_2": 65744.8984375,
+        "target_1": 65766.3359375,
+        "target_2": 64905.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66837.4609375,
-        "stop_loss_technical": 65834.89902344,
-        "target_1": 68341.30380859,
-        "target_2": 69845.14667969,
+        "entry_ideal": 66627.5234375,
+        "stop_loss_technical": 71985.7421875,
+        "target_1": 58590.1953125,
+        "target_2": 50552.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
