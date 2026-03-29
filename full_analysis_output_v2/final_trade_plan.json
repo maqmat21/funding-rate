@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-28T23:49:44.083872+00:00",
+    "generated_at_utc": "2026-03-29T01:04:43.893565+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Prediction: These 2 Stocks Will Be Worth More Than Apple in a Decade",
-    "Jim Cramer Says Stocks Like Generac (GNRC) “Make a Ton of Sense to Own Right Here” in Theory",
-    "Jim Cramer Provides the “Bear Case” for Paychex, Inc. (PAYX)",
-    "Jim Cramer Says He Likes Cheniere More Than Expand Energy Corporation (EXE)",
-    "Jim Cramer on Aris Mining (ARIS): “You’re Never Going to See Me Recommend a Vancouver Miner”",
-    "Top 3 Materials Stocks You'll Regret Missing In Q1",
-    "Jim Cramer on Reddit (RDDT): “I Want to Buy Reddit Right Here”"
+    "Stocks Are in Retreat After a Month of War. Here Are the Losers—And Winners",
+    "Tech stocks today: Big Tech stocks sell off, Anthropic considers IPO as soon as Q4",
+    "Claude Mythos Sends CrowdStrike Plunging. Should You Buy the Dip?",
+    "Meta Stock Slips 30% Below Highs. Should You Buy, Hold, or Sell Now?",
+    "Guide to selling and buying a house at the same time",
+    "Netflix Is Raising Prices Again—Here's What The Streaming Giant's Plans Cost Now",
+    "7 common banking scams (and how to avoid becoming a victim)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66331.3828125,
-        "perp_last_price": 66331.3828125,
-        "mark_price": 66331.3828125,
-        "index_price": 66331.3828125,
+        "spot_price": 66436.1796875,
+        "perp_last_price": 66436.1796875,
+        "mark_price": 66436.1796875,
+        "index_price": 66436.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66331.3828125,
-        "stop_loss_technical": 67201.6484375,
-        "target_1": 65025.984375,
-        "target_2": 63720.5859375,
+        "entry_ideal": 66436.1796875,
+        "stop_loss_technical": 65439.63699219,
+        "target_1": 67930.99373047,
+        "target_2": 69425.80777344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66331.3828125,
+        "entry_ideal": 66436.1796875,
         "stop_loss_technical": 71985.7421875,
-        "target_1": 57849.84375,
-        "target_2": 49368.3046875,
+        "target_1": 58111.8359375,
+        "target_2": 49787.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
