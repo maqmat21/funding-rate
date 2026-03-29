@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-29T01:04:43.893565+00:00",
+    "generated_at_utc": "2026-03-29T04:07:36.675781+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,53 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Stocks Are in Retreat After a Month of War. Here Are the Losers—And Winners",
-    "Tech stocks today: Big Tech stocks sell off, Anthropic considers IPO as soon as Q4",
-    "Claude Mythos Sends CrowdStrike Plunging. Should You Buy the Dip?",
-    "Meta Stock Slips 30% Below Highs. Should You Buy, Hold, or Sell Now?",
-    "Guide to selling and buying a house at the same time",
-    "Netflix Is Raising Prices Again—Here's What The Streaming Giant's Plans Cost Now",
-    "7 common banking scams (and how to avoid becoming a victim)"
+    "Should You Chase the Rally in Unity Software Stock Today?",
+    "What Does a Comfortable Retirement Actually Cost in Florida in 2026?",
+    "Stock Market Today: Dow Enters Correction As Oil Jumps; Micron Rises (Live Coverage)",
+    "Crypto Ends The Week In The Red As Market Volatility Continues",
+    "The market is starting to think the Federal Reserve's next move is raising interest rates",
+    "Has Meta Platforms Become Addicted to AI Spending?",
+    "Braze Stock Rallies as Revenue Beats, Buybacks Begin, and Outlook Jumps"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66436.1796875,
-        "perp_last_price": 66436.1796875,
-        "mark_price": 66436.1796875,
-        "index_price": 66436.1796875,
+        "spot_price": 66837.4609375,
+        "perp_last_price": 66837.4609375,
+        "mark_price": 66837.4609375,
+        "index_price": 66837.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 66837.4609375,
+        "stop_loss_technical": 67201.6484375,
+        "target_1": 66291.1796875,
+        "target_2": 65744.8984375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66436.1796875,
-        "stop_loss_technical": 65439.63699219,
-        "target_1": 67930.99373047,
-        "target_2": 69425.80777344,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 66436.1796875,
-        "stop_loss_technical": 71985.7421875,
-        "target_1": 58111.8359375,
-        "target_2": 49787.4921875,
+        "entry_ideal": 66837.4609375,
+        "stop_loss_technical": 65834.89902344,
+        "target_1": 68341.30380859,
+        "target_2": 69845.14667969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
