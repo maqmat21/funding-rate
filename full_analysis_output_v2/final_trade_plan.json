@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T04:13:18.670660+00:00",
+    "generated_at_utc": "2026-03-30T06:07:20.765057+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.093,
-        "trend": "alcista"
+        "price": 100.068,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.44,
@@ -21,54 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 18m",
+    "U.S. markets open in 7h 23m",
     "News from the Yahoo Finance Network",
-    "1 No-Brainer Semiconductor Stock to Buy With $1,000 Right Now",
-    "'Magnificent 7' stocks wipe more than $850 billion in value as stock market sell-off hits AI winners hard",
-    "My financial advisor overcharged me $15K  over 10 years — how can I get my money back?",
+    "Here's What Investors Need to Know About AST SpaceMobile Stock's Recent Pullback",
     "Rising gas prices could be good news for EVs",
     "Analysts Bullish on BlackRock (BLK) Following Strong Fourth-Quarter Results",
-    "Skeena Resources Says Eskay Creek Is Fully Permitted, Targets First Cash Flow in Q2 2027"
+    "Bristol-Myers Squibb (BMY) Faces Mixed Analyst Sentiment Despite Strong Momentum in Healthcare Industry",
+    "Jefferies Bullish on The Coca-Cola Company (KO) Amid Strong Protein Business Outlook",
+    "Huge debt forces big food brand into bankruptcy liquidation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67343.4375,
-        "perp_last_price": 67343.4375,
-        "mark_price": 67343.4375,
-        "index_price": 67343.4375,
+        "spot_price": 67505.2421875,
+        "perp_last_price": 67505.2421875,
+        "mark_price": 67505.2421875,
+        "index_price": 67505.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 67343.4375,
-        "stop_loss_technical": 66333.2859375,
-        "target_1": 68858.66484375,
-        "target_2": 70373.8921875,
+        "entry_ideal": 67505.2421875,
+        "stop_loss_technical": 65036.53125,
+        "target_1": 71208.30859375,
+        "target_2": 74911.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 67343.4375,
-        "stop_loss_technical": 66333.2859375,
-        "target_1": 68858.66484375,
-        "target_2": 70373.8921875,
+        "entry_ideal": 67505.2421875,
+        "stop_loss_technical": 65036.53125,
+        "target_1": 71208.30859375,
+        "target_2": 74911.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
