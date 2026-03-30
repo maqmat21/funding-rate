@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T20:59:33.363717+00:00",
+    "generated_at_utc": "2026-03-30T21:41:33.926413+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.539,
+        "price": 100.52,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Why the 2027 Social Security COLA Could Be Eaten by Medicare Premiums Again",
-    "Which banks are open on Sunday?",
-    "How to Find Investing Insights from Tax Returns",
-    "‘May God have mercy’: Robert Kiyosaki warns of hyperinflation in the US — but sees massive upside in these 3 assets",
+    "National Bank of Canada Conference: CEO Ferreira Flags Iran Inflation Risks, Reaffirms 2027 ROE Target",
+    "Should You Buy the Dip in Western Digital Stock as Google Launches TurboQuant?",
     "How the Fed has — and hasn't — responded to previous oil price shocks",
-    "US job market likely thawed out this month after February chill",
-    "Kevin O’Leary's golden money rule for his kids may make you a millionaire — even earning $68K. Are you missing out?"
+    "Which banks are open on Sunday?",
+    "‘May God have mercy’: Robert Kiyosaki warns of hyperinflation in the US — but sees massive upside in these 3 assets",
+    "The Often-Missed Corner of Healthcare That Wall Street Is Loving",
+    "How to Find Investing Insights from Tax Returns"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66612.078125,
-        "perp_last_price": 66612.078125,
-        "mark_price": 66612.078125,
-        "index_price": 66612.078125,
+        "spot_price": 66841.421875,
+        "perp_last_price": 66841.421875,
+        "mark_price": 66841.421875,
+        "index_price": 66841.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 66612.078125,
+        "entry_ideal": 66841.421875,
         "stop_loss_technical": 66211.5234375,
-        "target_1": 67212.91015625,
-        "target_2": 67813.7421875,
+        "target_1": 67786.26953125,
+        "target_2": 68731.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66612.078125,
+        "entry_ideal": 66841.421875,
         "stop_loss_technical": 71410.390625,
-        "target_1": 59414.609375,
-        "target_2": 52217.140625,
+        "target_1": 59987.96875,
+        "target_2": 53134.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
