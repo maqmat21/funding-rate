@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T19:36:28.919731+00:00",
+    "generated_at_utc": "2026-03-30T20:08:17.620565+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.547,
+        "price": 100.526,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Fed Chair Jerome Powell Just Sent a Signal That Could Shake the Stock Market",
-    "White-collar workers are now taking pay cuts as employers start to get picky — why the US job market may not be well off",
-    "‘Going to get wiped out’: Robert Kiyosaki warns boomers don’t have enough to stay off the streets. Secure your nest egg",
+    "At a 15-Year Low and Yielding 6.7%, General Mills Is a Bargain for Income Investors",
     "Peter Schiff warns inflation could ‘skyrocket’ without major Fed rate hikes — how to protect your savings",
     "I’m 52, make $200K and have $2.4M in assets after a divorce. How can I protect my wealth and still enjoy life solo?",
-    "Why VOE Belongs in More Portfolios: 50.8% Five-Year Returns With a 0.05% Fee",
-    "Best high-yield savings interest rates today, March 29, 2026 (Earn up to 4% APY)"
+    "Scared by market volatility? Here are the best places to park your cash if you have $5K to $25K available",
+    "Chicago woman has $600K after selling a $1.2M business, but husband is gambling it away. How Ramsey says to double it",
+    "Code red at OpenAI as it ‘pours money down a black hole’",
+    "Kevin O’Leary's golden money rule for his kids may make you a millionaire — even earning $68K. Are you missing out?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66299.140625,
-        "perp_last_price": 66299.140625,
-        "mark_price": 66299.140625,
-        "index_price": 66299.140625,
+        "spot_price": 66498.171875,
+        "perp_last_price": 66498.171875,
+        "mark_price": 66498.171875,
+        "index_price": 66498.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66299.140625,
-        "stop_loss_technical": 68069.59375,
-        "target_1": 63643.4609375,
-        "target_2": 60987.78125,
+        "entry_ideal": 66498.171875,
+        "stop_loss_technical": 66211.5234375,
+        "target_1": 66928.14453125,
+        "target_2": 67358.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66299.140625,
+        "entry_ideal": 66498.171875,
         "stop_loss_technical": 71410.390625,
-        "target_1": 58632.265625,
-        "target_2": 50965.390625,
+        "target_1": 59129.84375,
+        "target_2": 51761.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
