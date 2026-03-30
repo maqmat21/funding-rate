@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T14:09:03.250082+00:00",
+    "generated_at_utc": "2026-03-30T15:21:57.729288+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.486,
+        "price": 100.551,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.35,
+        "price": 4.334,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 51m",
+    "U.S. markets close in 4h 39m",
     "News from the Yahoo Finance Network",
-    "Stock market today: Dow, S&P 500, Nasdaq rise entering shortened week featuring jobs data, war uncertainty",
-    "Is the clock running out for safeguarding execution?",
-    "Jack Henry & Associates (JKHY) Surged on Strong Results and Improved Guidance",
-    "Canada’s Hut 8 Plans A.I. Data Centre Expansion",
-    "Nvidia Up Amid AI Startup's Massive Data Center Plan; Is Nvidia A Buy Now?",
-    "Applied Materials (AMAT) Surged on AI-Driven Demand Optimism"
+    "Stock Market Today: Dow Up As Software Gains; This Aluminum Stock Soars Amid Iran Attacks (Live Coverage)",
+    "Helium “Tsunami” to Hit Chipmakers — The Surprising Winner to Profit From the Coming Shortage",
+    "Trump to take first steps in opening retirement funds to private markets",
+    "Why Nvidia has the important stock chart in the world",
+    "Stock Of The Day: Top Growth And Defensive Stock Near Buy Point",
+    "Tax refunds up nearly 11%, with over 37 million Americans cashing in on new tax breaks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67495.9609375,
-        "perp_last_price": 67495.9609375,
-        "mark_price": 67495.9609375,
-        "index_price": 67495.9609375,
+        "spot_price": 67415.890625,
+        "perp_last_price": 67415.890625,
+        "mark_price": 67415.890625,
+        "index_price": 67415.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 67495.9609375,
+        "entry_ideal": 67415.890625,
         "stop_loss_technical": 68069.59375,
-        "target_1": 66635.51171875,
-        "target_2": 65775.0625,
+        "target_1": 66435.3359375,
+        "target_2": 65454.78125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 67495.9609375,
+        "entry_ideal": 67415.890625,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 71282.34179688,
-        "target_2": 75068.72265625,
+        "target_1": 71082.16601562,
+        "target_2": 74748.44140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
