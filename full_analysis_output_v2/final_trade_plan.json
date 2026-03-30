@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T11:38:33.041893+00:00",
+    "generated_at_utc": "2026-03-30T12:38:25.236088+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.278,
+        "price": 100.315,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.44,
-        "trend": "alcista"
+        "price": 4.376,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 53m",
     "News from the Yahoo Finance Network",
-    "Revolut to base 40% of global workforce in India by end-2026",
+    "Suze Orman Says To Reduce Financial Stress, Focus Only On What You Can Control This Week And This Paycheck Cycle. 'Nothing Longer Or Bigger'",
+    "5 ways retirees are earning extra income from home without a full-time job",
+    "Tech stocks today: Big Tech stocks sell off, Anthropic considers IPO as soon as Q4",
+    "Is Ecolab (ECL) The Best Under-The-Radar AI Stock to Buy Now?",
     "Stock market today: Dow, S&P 500, Nasdaq futures rise entering shortened week featuring jobs data, war uncertainty",
-    "You may need close to $500K in additional retirement savings just to cover health care costs — how to prepare now",
-    "3 Stocks Turn $10,000 Into $53,314 In 3 Months",
-    "A 58-year-old left NYC for Miami to save on taxes — then retired early thanks to hidden savings. Here’s the math",
-    "Siegwerk secures RecyClass approval for two NC-free inks"
+    "Altria's Oral Nicotine Pouch Product Is Going Nationwide. Is the Stock a Buy in 2026?",
+    "Can Wix.com (WIX) Benefit from the Proliferation of AI Adoption?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67560.421875,
-        "perp_last_price": 67560.421875,
-        "mark_price": 67560.421875,
-        "index_price": 67560.421875,
+        "spot_price": 67870.78125,
+        "perp_last_price": 67870.78125,
+        "mark_price": 67870.78125,
+        "index_price": 67870.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 67560.421875,
-        "stop_loss_technical": 66547.01554688,
-        "target_1": 69080.53136719,
-        "target_2": 70600.64085937,
+        "entry_ideal": 67887.2421875,
+        "stop_loss_technical": 65036.53125,
+        "target_1": 72163.30859375,
+        "target_2": 76439.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 67560.421875,
-        "stop_loss_technical": 66547.01554688,
-        "target_1": 69080.53136719,
-        "target_2": 70600.64085937,
+        "entry_ideal": 67870.78125,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 72219.39257812,
+        "target_2": 76568.00390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
