@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T01:05:49.975553+00:00",
+    "generated_at_utc": "2026-03-30T04:13:18.670660+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.183,
+        "price": 100.093,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 18m",
     "News from the Yahoo Finance Network",
-    "A Lazard (LAZ) Insider Sold 11,800 Shares for $474,000",
-    "Retired Florida couple fear losing their home after a window contractor vanished and left them with a $39K lien",
-    "Teradyne (TER) Stock Up Significantly After Jim Cramer Was Hesistant",
-    "Tesla (TSLA) Shares Up After Jim Cramer Said It Had Options",
-    "Intuitive Surgical (ISRG) Stock Up After Jim Cramer Said To Just Go Buy It",
-    "Dip-buyers arrive to pull gold back from brink of a bear market",
-    "Deere (DE) Shares Up After Jim Cramer Said It Could Go Higher"
+    "1 No-Brainer Semiconductor Stock to Buy With $1,000 Right Now",
+    "'Magnificent 7' stocks wipe more than $850 billion in value as stock market sell-off hits AI winners hard",
+    "My financial advisor overcharged me $15K  over 10 years — how can I get my money back?",
+    "Rising gas prices could be good news for EVs",
+    "Analysts Bullish on BlackRock (BLK) Following Strong Fourth-Quarter Results",
+    "Skeena Resources Says Eskay Creek Is Fully Permitted, Targets First Cash Flow in Q2 2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66402.734375,
-        "perp_last_price": 66402.734375,
-        "mark_price": 66402.734375,
-        "index_price": 66402.734375,
+        "spot_price": 67343.4375,
+        "perp_last_price": 67343.4375,
+        "mark_price": 67343.4375,
+        "index_price": 67343.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66402.734375,
-        "stop_loss_technical": 65406.69335938,
-        "target_1": 67896.79589844,
-        "target_2": 69390.85742188,
+        "entry_ideal": 67343.4375,
+        "stop_loss_technical": 66333.2859375,
+        "target_1": 68858.66484375,
+        "target_2": 70373.8921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66402.734375,
-        "stop_loss_technical": 71410.390625,
-        "target_1": 58891.25,
-        "target_2": 51379.765625,
+        "entry_ideal": 67343.4375,
+        "stop_loss_technical": 66333.2859375,
+        "target_1": 68858.66484375,
+        "target_2": 70373.8921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
