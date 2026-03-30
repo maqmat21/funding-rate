@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T07:58:13.773332+00:00",
+    "generated_at_utc": "2026-03-30T09:07:42.140504+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.24,
+        "price": 100.27,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 32m",
+    "U.S. markets open in 4h 23m",
     "News from the Yahoo Finance Network",
-    "Why Many Are Losing Thousands in Retirement Because of These 401(k) Funds",
-    "Jefferies Bullish on The Coca-Cola Company (KO) Amid Strong Protein Business Outlook",
-    "Analysts Bullish on BlackRock (BLK) Following Strong Fourth-Quarter Results",
-    "Bristol-Myers Squibb (BMY) Faces Mixed Analyst Sentiment Despite Strong Momentum in Healthcare Industry",
-    "Analysts Constructive on The Procter & Gamble (PG) Amid Sluggish Consumer Sentiment",
-    "Standard Pension Estimates Could Be Misleading Federal Workers Planning for Retirement"
+    "5 Stocks Preventing a S&P 500 Correction (Hint: None Are in the \"Magnificent Seven\")",
+    "Almost everything is going wrong for markets right now",
+    "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war",
+    "Meta and Google lost a major social media addiction lawsuit. Their troubles are far from over.",
+    "Stock market today: Dow, S&P 500, Nasdaq futures rise entering shortened week featuring jobs data, war uncertainty",
+    "Nervous About the Market? 3 Vanguard ETFs That Were Made for Times Like These."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67419.2265625,
-        "perp_last_price": 67419.2265625,
-        "mark_price": 67419.2265625,
-        "index_price": 67419.2265625,
+        "spot_price": 67561.9921875,
+        "perp_last_price": 67561.9921875,
+        "mark_price": 67561.9921875,
+        "index_price": 67561.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 67419.2265625,
-        "stop_loss_technical": 66407.93816406,
-        "target_1": 68936.15916016,
-        "target_2": 70453.09175781,
+        "entry_ideal": 67561.9921875,
+        "stop_loss_technical": 67830.078125,
+        "target_1": 67159.86328125,
+        "target_2": 66757.734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 67419.2265625,
-        "stop_loss_technical": 66407.93816406,
-        "target_1": 68936.15916016,
-        "target_2": 70453.09175781,
+        "entry_ideal": 67561.9921875,
+        "stop_loss_technical": 66548.56230469,
+        "target_1": 69082.13701172,
+        "target_2": 70602.28183594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
