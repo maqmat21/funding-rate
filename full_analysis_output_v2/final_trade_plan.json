@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T22:19:19.482494+00:00",
+    "generated_at_utc": "2026-03-30T22:58:02.313735+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Better Space Stock: Rocket Lab vs. Redwire",
-    "Occidental Petroleum Stock May Be at a Peak - Time to Sell OXY Covered Calls?",
+    "Why Conservative Investors Are Turning to AOK With VIX at the 93rd Percentile",
     "As Meta Doubles Down on Data Center Investment, AMD and American Tower Could Be the Top Stocks to Buy",
+    "Occidental Petroleum Stock May Be at a Peak - Time to Sell OXY Covered Calls?",
     "Should You Buy the Dip in Western Digital Stock as Google Launches TurboQuant?",
     "How the Fed has — and hasn't — responded to previous oil price shocks",
-    "This Vanguard Fund Is One of the Best Dividend ETFs of the Past Decade",
-    "Which banks are open on Sunday?"
+    "Can Capital One Prove Itself in 2026?",
+    "Philippines declares Iran war poses 'imminent danger' — now it must lean on coal. Does the US face the same shockwave?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66734.828125,
-        "perp_last_price": 66734.828125,
-        "mark_price": 66734.828125,
-        "index_price": 66734.828125,
+        "spot_price": 66696.6015625,
+        "perp_last_price": 66696.6015625,
+        "mark_price": 66696.6015625,
+        "index_price": 66696.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66734.828125,
+        "entry_ideal": 66696.6015625,
         "stop_loss_technical": 68069.59375,
-        "target_1": 64732.6796875,
-        "target_2": 62730.53125,
+        "target_1": 64637.11328125,
+        "target_2": 62577.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66734.828125,
+        "entry_ideal": 66696.6015625,
         "stop_loss_technical": 71410.390625,
-        "target_1": 59721.484375,
-        "target_2": 52708.140625,
+        "target_1": 59625.91796875,
+        "target_2": 52555.234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
