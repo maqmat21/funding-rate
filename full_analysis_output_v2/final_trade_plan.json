@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T12:38:25.236088+00:00",
+    "generated_at_utc": "2026-03-30T14:09:03.250082+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.315,
+        "price": 100.486,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.376,
+        "price": 4.35,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 51m",
     "News from the Yahoo Finance Network",
-    "Suze Orman Says To Reduce Financial Stress, Focus Only On What You Can Control This Week And This Paycheck Cycle. 'Nothing Longer Or Bigger'",
-    "5 ways retirees are earning extra income from home without a full-time job",
-    "Tech stocks today: Big Tech stocks sell off, Anthropic considers IPO as soon as Q4",
-    "Is Ecolab (ECL) The Best Under-The-Radar AI Stock to Buy Now?",
-    "Stock market today: Dow, S&P 500, Nasdaq futures rise entering shortened week featuring jobs data, war uncertainty",
-    "Altria's Oral Nicotine Pouch Product Is Going Nationwide. Is the Stock a Buy in 2026?",
-    "Can Wix.com (WIX) Benefit from the Proliferation of AI Adoption?"
+    "Stock market today: Dow, S&P 500, Nasdaq rise entering shortened week featuring jobs data, war uncertainty",
+    "Is the clock running out for safeguarding execution?",
+    "Jack Henry & Associates (JKHY) Surged on Strong Results and Improved Guidance",
+    "Canada’s Hut 8 Plans A.I. Data Centre Expansion",
+    "Nvidia Up Amid AI Startup's Massive Data Center Plan; Is Nvidia A Buy Now?",
+    "Applied Materials (AMAT) Surged on AI-Driven Demand Optimism"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67870.78125,
-        "perp_last_price": 67870.78125,
-        "mark_price": 67870.78125,
-        "index_price": 67870.78125,
+        "spot_price": 67495.9609375,
+        "perp_last_price": 67495.9609375,
+        "mark_price": 67495.9609375,
+        "index_price": 67495.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67887.2421875,
-        "stop_loss_technical": 65036.53125,
-        "target_1": 72163.30859375,
-        "target_2": 76439.375,
+        "entry_ideal": 67495.9609375,
+        "stop_loss_technical": 68069.59375,
+        "target_1": 66635.51171875,
+        "target_2": 65775.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67870.78125,
+        "entry_ideal": 67495.9609375,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 72219.39257812,
-        "target_2": 76568.00390625,
+        "target_1": 71282.34179688,
+        "target_2": 75068.72265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
