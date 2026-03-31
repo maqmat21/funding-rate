@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T16:16:41.384542+00:00",
+    "generated_at_utc": "2026-03-31T17:15:37.315466+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,64 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.178,
+        "price": 99.962,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.324,
+        "price": 4.305,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 45m",
+    "U.S. markets close in 2h 45m",
     "News from the Yahoo Finance Network",
-    "The Mosaic Company (MOS) Declined on Mixed Earnings Despite Tight Phosphate Market Outlook",
-    "Flag Ship Acquisition Q4 Earnings Call Highlights",
-    "Oracle Corporation (ORCL) Faces Near-Term Pressure but AI and Cloud Growth Remain Intact",
-    "Johnson & Johnson (JNJ) Benefits from Growth Pipeline and Strength Across Key Therapeutic Areas",
-    "Jim Cramer Says He Likes AeroVironment “But They Have This Contract That’s Being Contested”",
+    "3 Reasons to Buy NewLake Capital Partners Stock and 1 Reason Not To",
+    "What is a gold IRA? A beginner's guide.",
+    "Bank5 Connect review (2026): Simple online banking with competitive interest rates",
+    "Biogen Snaps Up Apellis Pharma For $5.6 Billion, But Biogen Dives As Apellis Soars",
+    "Eli Lilly To Buy Centessa Pharma For Up To $7.8 Billion; Centessa Shares Skyrocket",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66812.2734375,
-        "perp_last_price": 66812.2734375,
-        "mark_price": 66812.2734375,
-        "index_price": 66812.2734375,
+        "spot_price": 67956.21875,
+        "perp_last_price": 67956.21875,
+        "mark_price": 67956.21875,
+        "index_price": 67956.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66812.2734375,
-        "stop_loss_technical": 65810.08933594,
-        "target_1": 68315.54958984,
-        "target_2": 69818.82574219,
+        "entry_ideal": 67956.21875,
+        "stop_loss_technical": 65980.9765625,
+        "target_1": 70919.08203125,
+        "target_2": 73881.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66812.2734375,
-        "stop_loss_technical": 65810.08933594,
-        "target_1": 68315.54958984,
-        "target_2": 69818.82574219,
+        "entry_ideal": 67956.21875,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 72432.98632812,
+        "target_2": 76909.75390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
