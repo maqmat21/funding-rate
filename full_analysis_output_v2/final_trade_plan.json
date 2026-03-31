@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T14:01:27.090353+00:00",
+    "generated_at_utc": "2026-03-31T15:16:31.279890+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.109,
+        "price": 100.165,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.303,
+        "price": 4.324,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 59m",
+    "U.S. markets close in 4h 44m",
     "News from the Yahoo Finance Network",
-    "Tech stocks today: Big Tech stocks recover, Meta tests a premium Instagram subscription",
-    "Will $6 gas in California send Costco stock ripping higher?",
-    "Interactive Brokers Launches Crypto Trading In Europe",
-    "Is Microsoft Stock a Value Trap?",
-    "Rule Change Opens U.S. 401(k) Plans To Crypto Investments",
+    "Cramer: CoreWeave’s $8.5B Financing Is a ‘Landmark’ Deal That AI Investors Can’t Ignore",
+    "How inflation affects car insurance — and what you can do about it",
+    "Bitcoin on the brink of its longest losing streak on record",
+    "JPMorgan Cuts PT on Zai Lab Limited (ZLAB) to $32 From $39 – Here’s Why",
+    "RBC Capital Cuts PT on Legend Biotech Corporation (LEGN) to $62 From $66 – Here’s Why",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67197.9765625,
-        "perp_last_price": 67197.9765625,
-        "mark_price": 67197.9765625,
-        "index_price": 67197.9765625,
+        "spot_price": 67095.0546875,
+        "perp_last_price": 67095.0546875,
+        "mark_price": 67095.0546875,
+        "index_price": 67095.0546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67197.9765625,
+        "entry_ideal": 67095.0546875,
         "stop_loss_technical": 65980.9765625,
-        "target_1": 69023.4765625,
-        "target_2": 70848.9765625,
+        "target_1": 68766.171875,
+        "target_2": 70437.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67197.9765625,
+        "entry_ideal": 67095.0546875,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 70537.38085938,
-        "target_2": 73876.78515625,
+        "target_1": 70280.07617188,
+        "target_2": 73465.09765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
