@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T11:31:52.476695+00:00",
+    "generated_at_utc": "2026-03-31T12:10:30.514636+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.48,
-        "trend": "alcista"
+        "price": 100.274,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.342,
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 59m",
+    "U.S. markets open in 1h 20m",
     "News from the Yahoo Finance Network",
-    "Wise targets daily banking market with new UK account",
-    "5 best debt consolidation options",
-    "58-year-old left NYC for Miami looking for tax savings. But he found an even bigger win: early retirement",
-    "JPMorgan’s chief strategist says a tax-refund surge is coming — could net you almost $4K. How to know if you're eligible",
-    "Tariff turmoil: Refunds, lawsuits and new duties ahead",
+    "J. Safra Sarasin posts 3.5% profit growth in 2025",
+    "Common gold IRA rollover mistakes and how to avoid them",
+    "Circle Internet’s (CRCL) Shares Down Significantly After Jim Cramer Called It A Short Squeeze",
+    "PayPal (PYPL) Stock Down Significantly After Jim Cramer Advised Careful Buying",
+    "IREN (IREN) Stock Down Significantly After Jim Cramer Called it “Too Hot”",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66601.7265625,
-        "perp_last_price": 66601.7265625,
-        "mark_price": 66601.7265625,
-        "index_price": 66601.7265625,
+        "spot_price": 66665.7421875,
+        "perp_last_price": 66665.7421875,
+        "mark_price": 66665.7421875,
+        "index_price": 66665.7421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66601.7265625,
+        "entry_ideal": 66665.7421875,
         "stop_loss_technical": 65980.9765625,
-        "target_1": 67532.8515625,
-        "target_2": 68463.9765625,
+        "target_1": 67692.890625,
+        "target_2": 68720.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66601.7265625,
-        "stop_loss_technical": 69117.53125,
-        "target_1": 62828.01953125,
-        "target_2": 59054.3125,
+        "entry_ideal": 66665.7421875,
+        "stop_loss_technical": 65665.75605469,
+        "target_1": 68165.72138672,
+        "target_2": 69665.70058594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
