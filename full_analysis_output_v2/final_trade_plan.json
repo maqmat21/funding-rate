@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T15:16:31.279890+00:00",
+    "generated_at_utc": "2026-03-31T16:16:41.384542+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.165,
+        "price": 100.178,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 44m",
+    "U.S. markets close in 3h 45m",
     "News from the Yahoo Finance Network",
-    "Cramer: CoreWeave’s $8.5B Financing Is a ‘Landmark’ Deal That AI Investors Can’t Ignore",
-    "How inflation affects car insurance — and what you can do about it",
-    "Bitcoin on the brink of its longest losing streak on record",
-    "JPMorgan Cuts PT on Zai Lab Limited (ZLAB) to $32 From $39 – Here’s Why",
-    "RBC Capital Cuts PT on Legend Biotech Corporation (LEGN) to $62 From $66 – Here’s Why",
+    "The Mosaic Company (MOS) Declined on Mixed Earnings Despite Tight Phosphate Market Outlook",
+    "Flag Ship Acquisition Q4 Earnings Call Highlights",
+    "Oracle Corporation (ORCL) Faces Near-Term Pressure but AI and Cloud Growth Remain Intact",
+    "Johnson & Johnson (JNJ) Benefits from Growth Pipeline and Strength Across Key Therapeutic Areas",
+    "Jim Cramer Says He Likes AeroVironment “But They Have This Contract That’s Being Contested”",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67095.0546875,
-        "perp_last_price": 67095.0546875,
-        "mark_price": 67095.0546875,
-        "index_price": 67095.0546875,
+        "spot_price": 66812.2734375,
+        "perp_last_price": 66812.2734375,
+        "mark_price": 66812.2734375,
+        "index_price": 66812.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67095.0546875,
-        "stop_loss_technical": 65980.9765625,
-        "target_1": 68766.171875,
-        "target_2": 70437.2890625,
+        "entry_ideal": 66812.2734375,
+        "stop_loss_technical": 65810.08933594,
+        "target_1": 68315.54958984,
+        "target_2": 69818.82574219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67095.0546875,
-        "stop_loss_technical": 64971.70703125,
-        "target_1": 70280.07617188,
-        "target_2": 73465.09765625,
+        "entry_ideal": 66812.2734375,
+        "stop_loss_technical": 65810.08933594,
+        "target_1": 68315.54958984,
+        "target_2": 69818.82574219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
