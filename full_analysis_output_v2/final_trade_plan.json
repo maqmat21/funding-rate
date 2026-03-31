@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T23:18:34.143759+00:00",
+    "generated_at_utc": "2026-03-31T23:50:48.807540+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Delony Tells Houston Caller With Secret-Account Husband: ‘The Marriage Y’all Had Is Over’",
-    "1 Stock To Buy, 1 To Stay Away From in 2026",
-    "Trump to take first steps in opening retirement funds to private markets",
-    "Tesla Appears to Have a New Master Plan... and SpaceX Is a Huge Part of It",
-    "Markets Turn Negative as Crude Oil Prices Surge",
+    "Why Rezolve AI Stock Is Rising Today",
+    "Connecticut woman empties her 401(k) in romance scam — here are the red flags she missed and how to protect yourself",
+    "Italy data protection agency fines Intesa Sanpaolo $36 million over data breach",
+    "10 Recent Spin-off Companies That Hedge Funds Are Piling Into",
+    "Gold Price Turns, Oil Rises On Iran War Fallout, Trump Threat",
     "Daily Spotlight: The Benefits of Small- and Mid-Caps",
-    "Carvana Slumps 8%: 3 Reasons Bears Are Gaining the Upper Hand in This Battleground Stock"
+    "What CFOs should know about liability management exercises"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68133.21875,
-        "perp_last_price": 68133.21875,
-        "mark_price": 68133.21875,
-        "index_price": 68133.21875,
+        "spot_price": 68192.8203125,
+        "perp_last_price": 68192.8203125,
+        "mark_price": 68192.8203125,
+        "index_price": 68192.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68133.21875,
-        "stop_loss_technical": 65980.9765625,
-        "target_1": 71361.58203125,
-        "target_2": 74589.9453125,
+        "entry_ideal": 68192.8203125,
+        "stop_loss_technical": 67169.92800781,
+        "target_1": 69727.15876953,
+        "target_2": 71261.49722656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68133.21875,
+        "entry_ideal": 68192.8203125,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 72875.48632812,
-        "target_2": 77617.75390625,
+        "target_1": 73024.49023438,
+        "target_2": 77856.16015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
