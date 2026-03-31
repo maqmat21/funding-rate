@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T12:10:30.514636+00:00",
+    "generated_at_utc": "2026-03-31T14:01:27.090353+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.274,
+        "price": 100.109,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.342,
+        "price": 4.303,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 20m",
+    "U.S. markets close in 5h 59m",
     "News from the Yahoo Finance Network",
-    "J. Safra Sarasin posts 3.5% profit growth in 2025",
-    "Common gold IRA rollover mistakes and how to avoid them",
-    "Circle Internet’s (CRCL) Shares Down Significantly After Jim Cramer Called It A Short Squeeze",
-    "PayPal (PYPL) Stock Down Significantly After Jim Cramer Advised Careful Buying",
-    "IREN (IREN) Stock Down Significantly After Jim Cramer Called it “Too Hot”",
+    "Tech stocks today: Big Tech stocks recover, Meta tests a premium Instagram subscription",
+    "Will $6 gas in California send Costco stock ripping higher?",
+    "Interactive Brokers Launches Crypto Trading In Europe",
+    "Is Microsoft Stock a Value Trap?",
+    "Rule Change Opens U.S. 401(k) Plans To Crypto Investments",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66665.7421875,
-        "perp_last_price": 66665.7421875,
-        "mark_price": 66665.7421875,
-        "index_price": 66665.7421875,
+        "spot_price": 67197.9765625,
+        "perp_last_price": 67197.9765625,
+        "mark_price": 67197.9765625,
+        "index_price": 67197.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66665.7421875,
+        "entry_ideal": 67197.9765625,
         "stop_loss_technical": 65980.9765625,
-        "target_1": 67692.890625,
-        "target_2": 68720.0390625,
+        "target_1": 69023.4765625,
+        "target_2": 70848.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66665.7421875,
-        "stop_loss_technical": 65665.75605469,
-        "target_1": 68165.72138672,
-        "target_2": 69665.70058594,
+        "entry_ideal": 67197.9765625,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 70537.38085938,
+        "target_2": 73876.78515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
