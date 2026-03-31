@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T03:24:40.333497+00:00",
+    "generated_at_utc": "2026-03-31T05:22:47.273229+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.407,
+        "price": 100.467,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 8m",
     "News from the Yahoo Finance Network",
-    "The Investor Behavior That Destroys More Wealth Than Any Market Crash",
-    "Philippines declares Iran war poses 'imminent danger' — now it must lean on coal. Does the US face the same shockwave?",
-    "Iran, Oil Prices and Other Key Things to Watch this Week",
-    "The Market Isn’t Broken. Your Framework Is.",
-    "Parsons (PSN) Announces Expansion of Its iNET Smart Mobility Platform",
-    "Analyst Report: Advance Auto Parts, Inc.",
-    "Morgan Stanley has a stark message on Lockheed Martin stock"
+    "How Much Higher Can DigitalOcean Stock Go?",
+    "A bold 2011 market call is echoed in 2026",
+    "Goldman Sachs Raises PT on Navan (NAVN) to $23, Reiterates “Buy” Rating Following Strong Q4 Results",
+    "Analysts Remain Bullish on SailPoint. (SAIL) Amid Strong Q4 and Full-Year Results",
+    "Analysts Remain Bullish on Pattern Group (PTRN) Following Recent Earnings Call",
+    "Analyst Report: Advance Auto Parts, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67790.3515625,
-        "perp_last_price": 67790.3515625,
-        "mark_price": 67790.3515625,
-        "index_price": 67790.3515625,
+        "spot_price": 67415.5234375,
+        "perp_last_price": 67415.5234375,
+        "mark_price": 67415.5234375,
+        "index_price": 67415.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 67790.3515625,
+        "entry_ideal": 67415.5234375,
         "stop_loss_technical": 68292.8125,
-        "target_1": 67036.66015625,
-        "target_2": 66282.96875,
+        "target_1": 66099.58984375,
+        "target_2": 64783.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 67790.3515625,
+        "entry_ideal": 67415.5234375,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 72018.31835938,
-        "target_2": 76246.28515625,
+        "target_1": 71081.24804688,
+        "target_2": 74746.97265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
