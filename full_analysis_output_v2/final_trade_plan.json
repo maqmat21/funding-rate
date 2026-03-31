@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T07:56:32.865115+00:00",
+    "generated_at_utc": "2026-03-31T08:47:33.050608+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.459,
+        "price": 100.437,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,50 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 35m",
+    "U.S. markets open in 4h 44m",
     "News from the Yahoo Finance Network",
-    "Why Rezolve AI (RZLV) Is Betting Big on Reward Loyalty to Scale Commerce Media and Payments",
-    "Why agilon health (AGL) Is Doing a 1-for-25 Reverse Split to Stay NYSE-Compliant",
-    "Why Allogene Therapeutics (ALLO) Says Its Lead Cancer Program Is Still on Track in 2026",
-    "1 Unstoppable Quantum Computing Stock to Buy Before It Soars 200%, According to 1 Wall Street Analyst",
+    "How to get a business loan",
+    "Prediction: This Will Be Palantir's Stock Price in 2030",
+    "Why Rocket Pharmaceuticals (RCKT) Got a Commercial Boost From FDA Approval of KRESLADI",
     "How Datavault AI (DVLT) Reached Its First Profitable Quarter and Set a 2026 Growth Target",
+    "Why Vertical Aerospace (EVTL) Is Expanding Its Valo Supplier Network Ahead of Certification",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67271.9609375,
-        "perp_last_price": 67271.9609375,
-        "mark_price": 67271.9609375,
-        "index_price": 67271.9609375,
+        "spot_price": 66792.0703125,
+        "perp_last_price": 66792.0703125,
+        "mark_price": 66792.0703125,
+        "index_price": 66792.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67271.9609375,
+        "entry_ideal": 66792.0703125,
         "stop_loss_technical": 68292.8125,
-        "target_1": 65740.68359375,
-        "target_2": 64209.40625,
+        "target_1": 64540.95703125,
+        "target_2": 62289.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67271.9609375,
+        "entry_ideal": 66792.0703125,
         "stop_loss_technical": 69117.53125,
-        "target_1": 64503.60546875,
-        "target_2": 61735.25,
+        "target_1": 63303.87890625,
+        "target_2": 59815.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
