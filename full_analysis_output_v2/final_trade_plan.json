@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T18:07:44.712655+00:00",
+    "generated_at_utc": "2026-03-31T19:17:20.055614+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.967,
+        "price": 99.994,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.313,
+        "price": 4.305,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 54m",
     "News from the Yahoo Finance Network",
-    "Why You Should Consider Not Claiming Spousal Social Security Benefits Before Full Retirement Age",
-    "Here's What to Expect From TE Connectivity’s Next Earnings Report",
-    "Almost everything is going wrong for markets right now",
-    "Former financial advisor admits years of money mistakes will cost him $750K. Avoid these bad habits to grow your wealth",
-    "Amphenol’s Quarterly Earnings Preview: What You Need to Know",
-    "Citigroup holds firm on S&P 500 target despite Iran tensions"
+    "Norfolk Southern Earnings Preview: What to Expect",
+    "Obesity drugmaker Kailera plans an IPO",
+    "Stocks Set to Open Higher as Bond Yields Fall on Fading Rate-Hike Bets, U.S. Jobs Data and Powell’s Remarks Awaited",
+    "I’m a soon-to-be retired Texan with $67K in debt and want to move to Portugal. Do my credit cards and loans follow me?",
+    "Mortgage and refinance rates today, March 30, 2026: 30-year fixed now just under 6.5%",
+    "Analyst Report: UWM Holdings Corp",
+    "Best money market account rates today, March 30, 2026 (Earn up to 4.01% APY)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67560.46875,
-        "perp_last_price": 67560.46875,
-        "mark_price": 67560.46875,
-        "index_price": 67560.46875,
+        "spot_price": 67945.21875,
+        "perp_last_price": 67945.21875,
+        "mark_price": 67945.21875,
+        "index_price": 67945.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67560.46875,
-        "stop_loss_technical": 66547.06171875,
-        "target_1": 69080.57929688,
-        "target_2": 70600.68984375,
+        "entry_ideal": 67945.21875,
+        "stop_loss_technical": 65980.9765625,
+        "target_1": 70891.58203125,
+        "target_2": 73837.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67560.46875,
+        "entry_ideal": 67945.21875,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 71443.61132812,
-        "target_2": 75326.75390625,
+        "target_1": 72405.48632812,
+        "target_2": 76865.75390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
