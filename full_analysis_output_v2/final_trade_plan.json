@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T10:40:22.122577+00:00",
+    "generated_at_utc": "2026-03-31T11:31:52.476695+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.475,
+        "price": 100.48,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 50m",
+    "U.S. markets open in 1h 59m",
     "News from the Yahoo Finance Network",
-    "Japan Post Insurance takes minority stake in KKR-backed group",
-    "US gas prices top $4 a gallon for first time since 2022 as Iran war drags on",
-    "Stock market today: Dow, S&P 500, Nasdaq rise after Trump remarks on ending war with Hormuz closed",
-    "A fisherman and his wife became ‘quiet millionaires’ through simple strategies. Here’s how you can do it, too",
-    "Analysts Remain Bullish on Vox Royalty (VOXR) Following Company’s Inclusion in the VanEck Junior Gold Miners ETF",
+    "Wise targets daily banking market with new UK account",
+    "5 best debt consolidation options",
+    "58-year-old left NYC for Miami looking for tax savings. But he found an even bigger win: early retirement",
+    "JPMorgan’s chief strategist says a tax-refund surge is coming — could net you almost $4K. How to know if you're eligible",
+    "Tariff turmoil: Refunds, lawsuits and new duties ahead",
     "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66272.2109375,
-        "perp_last_price": 66272.2109375,
-        "mark_price": 66272.2109375,
-        "index_price": 66272.2109375,
+        "spot_price": 66601.7265625,
+        "perp_last_price": 66601.7265625,
+        "mark_price": 66601.7265625,
+        "index_price": 66601.7265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66272.2109375,
-        "stop_loss_technical": 68292.8125,
-        "target_1": 63241.30859375,
-        "target_2": 60210.40625,
+        "entry_ideal": 66601.7265625,
+        "stop_loss_technical": 65980.9765625,
+        "target_1": 67532.8515625,
+        "target_2": 68463.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66272.2109375,
+        "entry_ideal": 66601.7265625,
         "stop_loss_technical": 69117.53125,
-        "target_1": 62004.23046875,
-        "target_2": 57736.25,
+        "target_1": 62828.01953125,
+        "target_2": 59054.3125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
