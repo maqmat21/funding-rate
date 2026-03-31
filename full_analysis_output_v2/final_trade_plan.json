@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T00:02:24.076832+00:00",
+    "generated_at_utc": "2026-03-31T03:24:40.333497+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.575,
+        "price": 100.407,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,49 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Selecting the Right Technology Partner(s) for Your Recordkeeping Platform",
-    "How the Fed has — and hasn't — responded to previous oil price shocks",
-    "Which banks are open on Sunday?",
-    "Should You Buy the Dip in Western Digital Stock as Google Launches TurboQuant?",
-    "Occidental Petroleum Stock May Be at a Peak - Time to Sell OXY Covered Calls?",
-    "Western Digital Is the Best-Performing Nasdaq-100 Stock. Can It Keep Going?",
-    "As Meta Doubles Down on Data Center Investment, AMD and American Tower Could Be the Top Stocks to Buy"
+    "The Investor Behavior That Destroys More Wealth Than Any Market Crash",
+    "Philippines declares Iran war poses 'imminent danger' — now it must lean on coal. Does the US face the same shockwave?",
+    "Iran, Oil Prices and Other Key Things to Watch this Week",
+    "The Market Isn’t Broken. Your Framework Is.",
+    "Parsons (PSN) Announces Expansion of Its iNET Smart Mobility Platform",
+    "Analyst Report: Advance Auto Parts, Inc.",
+    "Morgan Stanley has a stark message on Lockheed Martin stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66805.1015625,
-        "perp_last_price": 66805.1015625,
-        "mark_price": 66805.1015625,
-        "index_price": 66805.1015625,
+        "spot_price": 67790.3515625,
+        "perp_last_price": 67790.3515625,
+        "mark_price": 67790.3515625,
+        "index_price": 67790.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66691.9140625,
-        "stop_loss_technical": 66211.5234375,
-        "target_1": 67412.5,
-        "target_2": 68133.0859375,
+        "entry_ideal": 67790.3515625,
+        "stop_loss_technical": 68292.8125,
+        "target_1": 67036.66015625,
+        "target_2": 66282.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66805.1015625,
-        "stop_loss_technical": 69117.53125,
-        "target_1": 63336.45703125,
-        "target_2": 59867.8125,
+        "entry_ideal": 67790.3515625,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 72018.31835938,
+        "target_2": 76246.28515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
