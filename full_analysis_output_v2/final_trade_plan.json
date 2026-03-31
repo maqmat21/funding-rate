@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T20:00:51.608887+00:00",
+    "generated_at_utc": "2026-03-31T20:54:27.474943+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.857,
+        "price": 99.87,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Diageo vs Constellation Brands: One Beverage Giant Breaks as the Other Breaks Out",
-    "3 Stocks Turn $10,000 Into $53,314 In 3 Months",
-    "You may need close to $500K in additional retirement savings just to cover health care costs — how to prepare now",
-    "Too busy to budget? Try these low-effort money hacks that can still help you reach your financial goals",
-    "Is Canadian National Railway (CNI) The Best Undervalued Stock to Buy?",
+    "Branch Out With These Multi-Coin Crypto ETFs",
+    "Can Wix.com (WIX) Benefit from the Proliferation of AI Adoption?",
+    "ResMed Earnings Preview: What to Expect",
+    "Is Caterpillar Inc. (CAT) A Good Stock To Buy Now?",
+    "What Makes Simpson Manufacturing Co. (SSD) an Investment Bet?",
     "Daily Spotlight: The Benefits of Small- and Mid-Caps",
-    "1 Sign Bitcoin Could Be Poised for a Comeback in 2026"
+    "EagleBank disavows activist investor’s board nominees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67760.15625,
-        "perp_last_price": 67760.15625,
-        "mark_price": 67760.15625,
-        "index_price": 67760.15625,
+        "spot_price": 68095.34375,
+        "perp_last_price": 68095.34375,
+        "mark_price": 68095.34375,
+        "index_price": 68095.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67760.15625,
-        "stop_loss_technical": 66743.75390625,
-        "target_1": 69284.75976562,
-        "target_2": 70809.36328125,
+        "entry_ideal": 68095.34375,
+        "stop_loss_technical": 65980.9765625,
+        "target_1": 71266.89453125,
+        "target_2": 74438.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67760.15625,
+        "entry_ideal": 68095.34375,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 71942.83007812,
-        "target_2": 76125.50390625,
+        "target_1": 72780.79882812,
+        "target_2": 77466.25390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
