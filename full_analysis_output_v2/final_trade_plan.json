@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T20:54:27.474943+00:00",
+    "generated_at_utc": "2026-03-31T21:27:52.771685+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.87,
+        "price": 99.878,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Branch Out With These Multi-Coin Crypto ETFs",
-    "Can Wix.com (WIX) Benefit from the Proliferation of AI Adoption?",
-    "ResMed Earnings Preview: What to Expect",
-    "Is Caterpillar Inc. (CAT) A Good Stock To Buy Now?",
-    "What Makes Simpson Manufacturing Co. (SSD) an Investment Bet?",
+    "Is Coca-Cola Femsa (KOF) The Best Defensive Stock to Buy Amid Middle East War?",
+    "Here's What to Expect From FirstEnergy's Next Earnings Report",
+    "Sysco shares fall premarket as company announces $29B acquisition of Jetro Restaurant Depot",
+    "Here’s Why Uber (UBER) Fell Despite Reporting Strong Results and Healthy Free Cash Flow",
+    "Strategy Appears To Have Paused Its Bitcoin Purchases",
     "Daily Spotlight: The Benefits of Small- and Mid-Caps",
-    "EagleBank disavows activist investor’s board nominees"
+    "Strong Demand Lifted Taiwan Semiconductor Manufacturing Company Limited (TSM) Higher in Q4"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68095.34375,
-        "perp_last_price": 68095.34375,
-        "mark_price": 68095.34375,
-        "index_price": 68095.34375,
+        "spot_price": 67889.9765625,
+        "perp_last_price": 67889.9765625,
+        "mark_price": 67889.9765625,
+        "index_price": 67889.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68095.34375,
-        "stop_loss_technical": 65980.9765625,
-        "target_1": 71266.89453125,
-        "target_2": 74438.4453125,
+        "entry_ideal": 67889.9765625,
+        "stop_loss_technical": 66871.62691406,
+        "target_1": 69417.50103516,
+        "target_2": 70945.02550781,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68095.34375,
+        "entry_ideal": 67889.9765625,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 72780.79882812,
-        "target_2": 77466.25390625,
+        "target_1": 72267.38085938,
+        "target_2": 76644.78515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
