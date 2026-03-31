@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T06:46:51.337169+00:00",
+    "generated_at_utc": "2026-03-31T07:56:32.865115+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.451,
+        "price": 100.459,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 44m",
+    "U.S. markets open in 5h 35m",
     "News from the Yahoo Finance Network",
-    "Did Nvidia Make a $40 Billion Mistake in Fiscal 2026?",
-    "8 reasons to tap your home for cash: Expenses you can use home equity for",
-    "Jim Cramer on NVIDIA: “To Me, You’re Only Being Given a Chance to Buy a High-Quality Stock at a Lower Price Than You Normally Expect”",
-    "Can I use my car as collateral for a loan?",
-    "Pan American Silver Corp. (PAAS) Plans $1.9B Investment to Enable The Largest Silver Mine",
-    "Analyst Report: Advance Auto Parts, Inc."
+    "Why Rezolve AI (RZLV) Is Betting Big on Reward Loyalty to Scale Commerce Media and Payments",
+    "Why agilon health (AGL) Is Doing a 1-for-25 Reverse Split to Stay NYSE-Compliant",
+    "Why Allogene Therapeutics (ALLO) Says Its Lead Cancer Program Is Still on Track in 2026",
+    "1 Unstoppable Quantum Computing Stock to Buy Before It Soars 200%, According to 1 Wall Street Analyst",
+    "How Datavault AI (DVLT) Reached Its First Profitable Quarter and Set a 2026 Growth Target",
+    "Analyst Report: NRG Energy, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67356.03125,
-        "perp_last_price": 67356.03125,
-        "mark_price": 67356.03125,
-        "index_price": 67356.03125,
+        "spot_price": 67271.9609375,
+        "perp_last_price": 67271.9609375,
+        "mark_price": 67271.9609375,
+        "index_price": 67271.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67356.03125,
+        "entry_ideal": 67271.9609375,
         "stop_loss_technical": 68292.8125,
-        "target_1": 65950.859375,
-        "target_2": 64545.6875,
+        "target_1": 65740.68359375,
+        "target_2": 64209.40625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67356.03125,
-        "stop_loss_technical": 64971.70703125,
-        "target_1": 70932.51757812,
-        "target_2": 74509.00390625,
+        "entry_ideal": 67271.9609375,
+        "stop_loss_technical": 69117.53125,
+        "target_1": 64503.60546875,
+        "target_2": 61735.25,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
