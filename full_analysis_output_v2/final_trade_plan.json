@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-30T23:30:50.822931+00:00",
+    "generated_at_utc": "2026-03-31T00:02:24.076832+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.491,
+        "price": 100.575,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Russell 2000 Stocks: Too Early or Finally Interesting?",
+    "Selecting the Right Technology Partner(s) for Your Recordkeeping Platform",
+    "How the Fed has — and hasn't — responded to previous oil price shocks",
+    "Which banks are open on Sunday?",
+    "Should You Buy the Dip in Western Digital Stock as Google Launches TurboQuant?",
     "Occidental Petroleum Stock May Be at a Peak - Time to Sell OXY Covered Calls?",
-    "As Meta Doubles Down on Data Center Investment, AMD and American Tower Could Be the Top Stocks to Buy",
-    "Philippines declares Iran war poses 'imminent danger' — now it must lean on coal. Does the US face the same shockwave?",
-    "Iran, Oil Prices and Other Key Things to Watch this Week",
-    "Goldman Sachs draws 3 major conclusions from oil supply shocks",
-    "The Market Isn’t Broken. Your Framework Is."
+    "Western Digital Is the Best-Performing Nasdaq-100 Stock. Can It Keep Going?",
+    "As Meta Doubles Down on Data Center Investment, AMD and American Tower Could Be the Top Stocks to Buy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66656.3046875,
-        "perp_last_price": 66656.3046875,
-        "mark_price": 66656.3046875,
-        "index_price": 66656.3046875,
+        "spot_price": 66805.1015625,
+        "perp_last_price": 66805.1015625,
+        "mark_price": 66805.1015625,
+        "index_price": 66805.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,24 +48,23 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66656.3046875,
+        "entry_ideal": 66691.9140625,
         "stop_loss_technical": 66211.5234375,
-        "target_1": 67323.4765625,
-        "target_2": 67990.6484375,
+        "target_1": 67412.5,
+        "target_2": 68133.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66656.3046875,
-        "stop_loss_technical": 71410.390625,
-        "target_1": 59525.17578125,
-        "target_2": 52394.046875,
+        "entry_ideal": 66805.1015625,
+        "stop_loss_technical": 69117.53125,
+        "target_1": 63336.45703125,
+        "target_2": 59867.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
