@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-03-31T17:15:37.315466+00:00",
+    "generated_at_utc": "2026-03-31T18:07:44.712655+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.962,
+        "price": 99.967,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.305,
+        "price": 4.313,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 45m",
+    "U.S. markets close in 1h 54m",
     "News from the Yahoo Finance Network",
-    "3 Reasons to Buy NewLake Capital Partners Stock and 1 Reason Not To",
-    "What is a gold IRA? A beginner's guide.",
-    "Bank5 Connect review (2026): Simple online banking with competitive interest rates",
-    "Biogen Snaps Up Apellis Pharma For $5.6 Billion, But Biogen Dives As Apellis Soars",
-    "Eli Lilly To Buy Centessa Pharma For Up To $7.8 Billion; Centessa Shares Skyrocket",
-    "Analyst Report: NRG Energy, Inc."
+    "Why You Should Consider Not Claiming Spousal Social Security Benefits Before Full Retirement Age",
+    "Here's What to Expect From TE Connectivity’s Next Earnings Report",
+    "Almost everything is going wrong for markets right now",
+    "Former financial advisor admits years of money mistakes will cost him $750K. Avoid these bad habits to grow your wealth",
+    "Amphenol’s Quarterly Earnings Preview: What You Need to Know",
+    "Citigroup holds firm on S&P 500 target despite Iran tensions"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67956.21875,
-        "perp_last_price": 67956.21875,
-        "mark_price": 67956.21875,
-        "index_price": 67956.21875,
+        "spot_price": 67560.46875,
+        "perp_last_price": 67560.46875,
+        "mark_price": 67560.46875,
+        "index_price": 67560.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67956.21875,
-        "stop_loss_technical": 65980.9765625,
-        "target_1": 70919.08203125,
-        "target_2": 73881.9453125,
+        "entry_ideal": 67560.46875,
+        "stop_loss_technical": 66547.06171875,
+        "target_1": 69080.57929688,
+        "target_2": 70600.68984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67956.21875,
+        "entry_ideal": 67560.46875,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 72432.98632812,
-        "target_2": 76909.75390625,
+        "target_1": 71443.61132812,
+        "target_2": 75326.75390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
