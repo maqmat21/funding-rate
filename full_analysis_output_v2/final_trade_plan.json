@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T18:32:35.658907+00:00",
+    "generated_at_utc": "2026-04-01T19:40:36.270305+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.594,
-        "trend": "bajista"
+        "price": 99.63,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.319,
@@ -21,53 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 28m",
     "News from the Yahoo Finance Network",
-    "Galantas shares fall after update on Andacollo deal and funding shift",
-    "What to Expect From American Express’ Next Quarterly Earnings Report",
-    "Erie Indemnity’s Quarterly Earnings Preview: What You Need to Know",
-    "Rigetti (RGTI) Rated Buy on Quantum Computing Growth Potential",
-    "Analysts Reaffirm Buy on Rivian (RIVN) After Uber Deal",
-    "Chip Industry Supplier VAT Group Warns of Weaker Sales Due to Iran War Disruption"
+    "India’s IndiGo Appoints Head of IATA as New CEO",
+    "IonQ Inc (IONQ) Strengthens Its Partnership With Korean Technology Institutes",
+    "BMO Capital Just Initiated Coverage of Honeywell (HON) Stock, Here’s What They Say",
+    "Here's What to Expect From West Pharmaceutical's Next Earnings Report",
+    "Rigetti Computing (RGTI) To Expand Its Footprint In The UK",
+    "Analyst Report: Celsius Holdings, Inc.",
+    "NMFTA considers changes to mixed freight rule"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68075.8125,
-        "perp_last_price": 68075.8125,
-        "mark_price": 68075.8125,
-        "index_price": 68075.8125,
+        "spot_price": 68094.4375,
+        "perp_last_price": 68094.4375,
+        "mark_price": 68094.4375,
+        "index_price": 68094.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 68075.8125,
-        "stop_loss_technical": 67054.6753125,
-        "target_1": 69607.51828125,
-        "target_2": 71139.2240625,
+        "entry_ideal": 68094.4375,
+        "stop_loss_technical": 69204.46875,
+        "target_1": 66429.390625,
+        "target_2": 64764.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 68075.8125,
-        "stop_loss_technical": 67054.6753125,
-        "target_1": 69607.51828125,
-        "target_2": 71139.2240625,
+        "entry_ideal": 68094.4375,
+        "stop_loss_technical": 69204.46875,
+        "target_1": 66429.390625,
+        "target_2": 64764.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +79,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +92,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
