@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T06:08:52.077762+00:00",
+    "generated_at_utc": "2026-04-01T07:51:38.350295+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.738,
+        "price": 99.595,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 22m",
+    "U.S. markets open in 5h 39m",
     "News from the Yahoo Finance Network",
-    "Retirees Who Work While on Social Security Face Financial Shock",
-    "‘We’re on the precipice’: Economist Mark Zandi warns recession odds are almost 50/50 in 2026. Protect your wallet now",
-    "Eli Lilly signs $2bn deal for AI drug development with Hong Kong biotech",
-    "Crypto stocks at 'big discounts,' may be nearing bottom: Bernstein analysts",
-    "Costco, IBD's Stock Of The Day, Rallies This Year As Markets Fall",
-    "Gold and Silver Are Poised for Their Worst Month in More Than a Decade"
+    "These Stocks Are Today’s Movers: Nvidia, Palo Alto, Alcoa, Boston Scientific, Sysco, CrowdStrike, Micron, and More",
+    "Meta Named Morgan Stanley's New Top Pick Following Sell-Off",
+    "The Strait of Hormuz Is Causing Issues for Scotts Miracle-Gro. How Should You Play the High-Yield Dividend Stock Here?",
+    "Stocks Pressured by Economic Fallout from Iran War",
+    "Stock Market Today: Dow Up As Powell Says This; Micron Dives, Alternative Asset Plays Get A Lift (Live Coverage)",
+    "Analyst Report: Fomento Económico Mexicano, S.A.B. de C.V."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68495.1171875,
-        "perp_last_price": 68495.1171875,
-        "mark_price": 68495.1171875,
-        "index_price": 68495.1171875,
+        "spot_price": 68751.3515625,
+        "perp_last_price": 68751.3515625,
+        "mark_price": 68751.3515625,
+        "index_price": 68751.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68495.1171875,
-        "stop_loss_technical": 66202.2109375,
-        "target_1": 71934.4765625,
-        "target_2": 75373.8359375,
+        "entry_ideal": 68751.3515625,
+        "stop_loss_technical": 67720.08128906,
+        "target_1": 70298.25697266,
+        "target_2": 71845.16238281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68495.1171875,
+        "entry_ideal": 68751.3515625,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 73780.23242188,
-        "target_2": 79065.34765625,
+        "target_1": 74420.81835938,
+        "target_2": 80090.28515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
