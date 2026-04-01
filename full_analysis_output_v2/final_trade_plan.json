@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T20:26:39.796999+00:00",
+    "generated_at_utc": "2026-04-01T21:06:31.584069+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.597,
+        "price": 99.565,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "JPMorgan aims to boost small-business lending in ‘American Dream’ plan",
-    "Hut 8 (HUT) Shares Down After Jim Cramer Advised To “Ring the Register”",
-    "Nvidia bets $2 billion on Marvell as rising AI adoption fuels competition",
-    "Rich Americans flee Massachusetts after millionaire tax, pulling $4.2B of income out of state. Slash your own taxes now",
-    "Ariel Global Fund Initiated a Position in Hewlett Packard Enterprise Company (HPE) in Q4",
+    "Amazon's Starlink Competitor Will Provide Satellite Internet Services To Delta",
+    "Wall Street Backs Visa With New Buy Rating and $387 Price Target",
+    "Houlihan Lokey (HLI) Fell on Slowdown in Restructuring Activity",
+    "How to calculate loan payments and costs",
+    "Best CD rates today, March 31, 2026: Lock in up to 4.15% APY today",
     "Analyst Report: Celsius Holdings, Inc.",
-    "Allbirds to sell assets to American Exchange Group for $39m"
+    "BP PLC ADRs Have High Call Option Yields for Value Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68111.0078125,
-        "perp_last_price": 68111.0078125,
-        "mark_price": 68111.0078125,
-        "index_price": 68111.0078125,
+        "spot_price": 68206.4609375,
+        "perp_last_price": 68206.4609375,
+        "mark_price": 68206.4609375,
+        "index_price": 68206.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68111.0078125,
+        "entry_ideal": 68206.4609375,
         "stop_loss_technical": 67565.3984375,
-        "target_1": 68929.421875,
-        "target_2": 69747.8359375,
+        "target_1": 69168.0546875,
+        "target_2": 70129.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68111.0078125,
-        "stop_loss_technical": 67089.34269531,
-        "target_1": 69643.50548828,
-        "target_2": 71176.00316406,
+        "entry_ideal": 68206.4609375,
+        "stop_loss_technical": 67183.36402344,
+        "target_1": 69741.10630859,
+        "target_2": 71275.75167969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
