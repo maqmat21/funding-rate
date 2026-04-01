@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T07:51:38.350295+00:00",
+    "generated_at_utc": "2026-04-01T08:53:15.658004+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.595,
+        "price": 99.451,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 39m",
+    "U.S. markets open in 4h 37m",
     "News from the Yahoo Finance Network",
-    "These Stocks Are Today’s Movers: Nvidia, Palo Alto, Alcoa, Boston Scientific, Sysco, CrowdStrike, Micron, and More",
-    "Meta Named Morgan Stanley's New Top Pick Following Sell-Off",
-    "The Strait of Hormuz Is Causing Issues for Scotts Miracle-Gro. How Should You Play the High-Yield Dividend Stock Here?",
-    "Stocks Pressured by Economic Fallout from Iran War",
-    "Stock Market Today: Dow Up As Powell Says This; Micron Dives, Alternative Asset Plays Get A Lift (Live Coverage)",
+    "Bill Ackman told spooked investors to get over the Iran war and buy Fannie and Freddie. Stocks surged 40% the next day",
+    "The best 0% APR credit cards for April 2026: Avoid paying interest for up to 24 months on purchases and balance transfers",
+    "The best balance transfer credit cards for April 2026: Don't pay any interest until 2027",
+    "The best credit cards for April: See our picks for the top cash-back, rewards, travel cards, and more",
+    "Daily ETF Flows: BGIG Pulls In $1.6B",
     "Analyst Report: Fomento Económico Mexicano, S.A.B. de C.V."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68751.3515625,
-        "perp_last_price": 68751.3515625,
-        "mark_price": 68751.3515625,
-        "index_price": 68751.3515625,
+        "spot_price": 68710.875,
+        "perp_last_price": 68710.875,
+        "mark_price": 68710.875,
+        "index_price": 68710.875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68751.3515625,
-        "stop_loss_technical": 67720.08128906,
-        "target_1": 70298.25697266,
-        "target_2": 71845.16238281,
+        "entry_ideal": 68710.875,
+        "stop_loss_technical": 66478.3984375,
+        "target_1": 72059.58984375,
+        "target_2": 75408.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68751.3515625,
+        "entry_ideal": 68710.875,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 74420.81835938,
-        "target_2": 80090.28515625,
+        "target_1": 74319.62695312,
+        "target_2": 79928.37890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
