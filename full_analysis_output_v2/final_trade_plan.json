@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T01:21:01.788621+00:00",
+    "generated_at_utc": "2026-04-01T04:25:17.139514+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.811,
+        "price": 99.831,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 6m",
     "News from the Yahoo Finance Network",
-    "Coinbase Rises 3%, Bitmine Jumps 4%: Is the Crypto Rally Back?",
-    "Bill Gates’ Latest Portfolio: Is FedEx (FDX) The Best Stock to Buy?",
-    "Starbucks investors reelect full board, rejecting labor-backed challenge",
-    "Thermo Fisher Scientific (TMO) Sets Stage for Q4 Rally with Impressive Q3 Earnings and New 52-Week High",
-    "Eli Lilly and Company (LLY) Continued to Gain from Its Incretin Portfolio",
-    "Daily Spotlight: The Benefits of Small- and Mid-Caps",
-    "Tax Day is coming. Avoid these common IRS filing mistakes."
+    "Barclays Lowers its Price Target on Molson Coors Beverage (TAP) to $40",
+    "Roth Capital Lowers its Price Target on Aebi Schmidt Holding AG (AEBI) to $15",
+    "Truist Raises its Price Target on NETSTREIT Corp. (NTST) to $21",
+    "Goldman Sachs Lowers its Price Target on CoStar Group (CSGP) to $63",
+    "Citi Lowers its Price Target on Rapid7 (RPD) to $7",
+    "Disney (DIS) Faces Setbacks in Epic Games and OpenAI Partnerships"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68096.703125,
-        "perp_last_price": 68096.703125,
-        "mark_price": 68096.703125,
-        "index_price": 68096.703125,
+        "spot_price": 68092.859375,
+        "perp_last_price": 68092.859375,
+        "mark_price": 68092.859375,
+        "index_price": 68092.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68096.703125,
-        "stop_loss_technical": 67075.25257813,
-        "target_1": 69628.87894531,
-        "target_2": 71161.05476562,
+        "entry_ideal": 68092.859375,
+        "stop_loss_technical": 65980.9765625,
+        "target_1": 71260.68359375,
+        "target_2": 74428.5078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68096.703125,
+        "entry_ideal": 68092.859375,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 72784.19726562,
-        "target_2": 77471.69140625,
+        "target_1": 72774.58789062,
+        "target_2": 77456.31640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
