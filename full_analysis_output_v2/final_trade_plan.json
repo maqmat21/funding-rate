@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T19:40:36.270305+00:00",
+    "generated_at_utc": "2026-04-01T20:26:39.796999+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.63,
-        "trend": "alcista"
+        "price": 99.597,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.319,
@@ -22,49 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "India’s IndiGo Appoints Head of IATA as New CEO",
-    "IonQ Inc (IONQ) Strengthens Its Partnership With Korean Technology Institutes",
-    "BMO Capital Just Initiated Coverage of Honeywell (HON) Stock, Here’s What They Say",
-    "Here's What to Expect From West Pharmaceutical's Next Earnings Report",
-    "Rigetti Computing (RGTI) To Expand Its Footprint In The UK",
+    "JPMorgan aims to boost small-business lending in ‘American Dream’ plan",
+    "Hut 8 (HUT) Shares Down After Jim Cramer Advised To “Ring the Register”",
+    "Nvidia bets $2 billion on Marvell as rising AI adoption fuels competition",
+    "Rich Americans flee Massachusetts after millionaire tax, pulling $4.2B of income out of state. Slash your own taxes now",
+    "Ariel Global Fund Initiated a Position in Hewlett Packard Enterprise Company (HPE) in Q4",
     "Analyst Report: Celsius Holdings, Inc.",
-    "NMFTA considers changes to mixed freight rule"
+    "Allbirds to sell assets to American Exchange Group for $39m"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68094.4375,
-        "perp_last_price": 68094.4375,
-        "mark_price": 68094.4375,
-        "index_price": 68094.4375,
+        "spot_price": 68111.0078125,
+        "perp_last_price": 68111.0078125,
+        "mark_price": 68111.0078125,
+        "index_price": 68111.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68094.4375,
-        "stop_loss_technical": 69204.46875,
-        "target_1": 66429.390625,
-        "target_2": 64764.34375,
+        "entry_ideal": 68111.0078125,
+        "stop_loss_technical": 67565.3984375,
+        "target_1": 68929.421875,
+        "target_2": 69747.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68094.4375,
-        "stop_loss_technical": 69204.46875,
-        "target_1": 66429.390625,
-        "target_2": 64764.34375,
+        "entry_ideal": 68111.0078125,
+        "stop_loss_technical": 67089.34269531,
+        "target_1": 69643.50548828,
+        "target_2": 71176.00316406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +81,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +95,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
