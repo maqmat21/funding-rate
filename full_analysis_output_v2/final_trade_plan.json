@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T10:51:01.524811+00:00",
+    "generated_at_utc": "2026-04-01T11:42:26.390290+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.494,
+        "price": 99.465,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 40m",
+    "U.S. markets open in 1h 48m",
     "News from the Yahoo Finance Network",
-    "Powell warns U.S. debt trajectory “will not end well.” How to move your riches from the ‘unsustainable’ path",
-    "Tesla Q1 deliveries likely to dip sequentially as EV demand softens",
-    "Dow Jones Futures Rise, Oil Prices Fall; Trump To Speak To Nation On Iran War",
-    "AI Infrastructure Spending Could Nearly Triple by 2029. Here Are 2 Stocks to Buy.",
-    "Mike Rowe says data center electricians earning $260K are getting ‘poached’ like pro athletes — without college degrees",
-    "Analyst Report: Coca-Cola FEMSA, S.A.B. de C.V."
+    "Bitcoin and ethereum price today, Wednesday, April 1, 2026: Prices strengthen on news that Iran war may end in weeks",
+    "Best CD rates today, April 1, 2026 (Earn up to 4.1% APY)",
+    "Monzo pulls plug on US operations",
+    "Stock market today: Dow S&P 500, Nasdaq futures climb as de-escalation talk in Iran sparks rally to close out Q1",
+    "Nike stock tumbles as weakness in China, high oil prices weigh on outlook",
+    "Market Digest: B, PCG, VTRS"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68513.1796875,
-        "perp_last_price": 68513.1796875,
-        "mark_price": 68513.1796875,
-        "index_price": 68513.1796875,
+        "spot_price": 68590.09375,
+        "perp_last_price": 68590.09375,
+        "mark_price": 68590.09375,
+        "index_price": 68590.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68513.1796875,
-        "stop_loss_technical": 66609.2734375,
-        "target_1": 71369.0390625,
-        "target_2": 74224.8984375,
+        "entry_ideal": 68590.09375,
+        "stop_loss_technical": 66732.5,
+        "target_1": 71376.484375,
+        "target_2": 74162.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68513.1796875,
+        "entry_ideal": 68590.09375,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 73825.38867188,
-        "target_2": 79137.59765625,
+        "target_1": 74017.67382812,
+        "target_2": 79445.25390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
