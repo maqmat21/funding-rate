@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T09:58:02.627203+00:00",
+    "generated_at_utc": "2026-04-01T10:51:01.524811+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.588,
+        "price": 99.494,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 33m",
+    "U.S. markets open in 2h 40m",
     "News from the Yahoo Finance Network",
-    "Mortgage lenders with the best rates this week, March 30, 2026: 6.122% APR is the lowest",
-    "KeyBank review (2026): Regional banking with low fees and minimums",
-    "Review & Preview: The Rally Can’t Hold",
-    "How A Magnet Shortage Could Bring The $10 Trillion Tech Sector to a Halt",
-    "Best credit cards to build credit for April 2026",
+    "Powell warns U.S. debt trajectory “will not end well.” How to move your riches from the ‘unsustainable’ path",
+    "Tesla Q1 deliveries likely to dip sequentially as EV demand softens",
+    "Dow Jones Futures Rise, Oil Prices Fall; Trump To Speak To Nation On Iran War",
+    "AI Infrastructure Spending Could Nearly Triple by 2029. Here Are 2 Stocks to Buy.",
+    "Mike Rowe says data center electricians earning $260K are getting ‘poached’ like pro athletes — without college degrees",
     "Analyst Report: Coca-Cola FEMSA, S.A.B. de C.V."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68628.640625,
-        "perp_last_price": 68628.640625,
-        "mark_price": 68628.640625,
-        "index_price": 68628.640625,
+        "spot_price": 68513.1796875,
+        "perp_last_price": 68513.1796875,
+        "mark_price": 68513.1796875,
+        "index_price": 68513.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68628.640625,
-        "stop_loss_technical": 66478.3984375,
-        "target_1": 71854.00390625,
-        "target_2": 75079.3671875,
+        "entry_ideal": 68513.1796875,
+        "stop_loss_technical": 66609.2734375,
+        "target_1": 71369.0390625,
+        "target_2": 74224.8984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68628.640625,
+        "entry_ideal": 68513.1796875,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 74114.04101562,
-        "target_2": 79599.44140625,
+        "target_1": 73825.38867188,
+        "target_2": 79137.59765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
