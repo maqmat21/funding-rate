@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-01T12:43:14.686917+00:00",
+    "generated_at_utc": "2026-04-01T14:18:25.937660+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.474,
+        "price": 99.445,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.305,
+        "price": 4.33,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 43m",
     "News from the Yahoo Finance Network",
-    "Stock market today: Dow S&P 500, Nasdaq futures climb as de-escalation talk in Iran sparks rally to close out Q1",
-    "I'm Making a Bold Call on Texas Instruments Stock. Here's My Reasoning.",
-    "Brown & Brown (BRO) Fell on Slow Organic Growth",
-    "3 things Nike investors need to watch with the stock plunging after earnings",
-    "Stock Market Today: Dow Rises As Trump Gives Timetable For Truce; Nike Plunges On Earnings (Live Coverage)",
-    "Analyst Report: Unilever PLC",
-    "Dow Jones Futures Rise, Oil Prices Fall Below $100; Trump To Speak To Nation On Iran War"
+    "Flavour, foodservice, markets – six takeaways as McCormick sets out stall after Unilever deal",
+    "Stock market today: Dow S&P 500, Nasdaq climb as deescalation talk in Iran extends rally",
+    "Franklin Templeton to acquire CoinFund spinoff to expand crypto push",
+    "US manufacturing sector grows in March; supplier delivery performance deteriorates",
+    "Nike stock tumbles more than 13%, hits 11-year low as weakness in China, high oil prices weigh on outlook",
+    "Analyst Report: Unilever PLC"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68340.7265625,
-        "perp_last_price": 68340.7265625,
-        "mark_price": 68340.7265625,
-        "index_price": 68340.7265625,
+        "spot_price": 68306.96875,
+        "perp_last_price": 68306.96875,
+        "mark_price": 68306.96875,
+        "index_price": 68306.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68340.7265625,
-        "stop_loss_technical": 67315.61566406,
-        "target_1": 69878.39291016,
-        "target_2": 71416.05925781,
+        "entry_ideal": 68306.96875,
+        "stop_loss_technical": 67565.3984375,
+        "target_1": 69419.32421875,
+        "target_2": 70531.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68340.7265625,
+        "entry_ideal": 68306.96875,
         "stop_loss_technical": 64971.70703125,
-        "target_1": 73394.25585938,
-        "target_2": 78447.78515625,
+        "target_1": 73309.86132812,
+        "target_2": 78312.75390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
