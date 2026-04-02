@@ -1,72 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T15:43:59.205060+00:00",
+    "generated_at_utc": "2026-04-02T16:38:31.514618+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.919,
-        "trend": "bajista"
+        "price": 99.962,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.299,
+        "price": 4.307,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 17m",
+    "U.S. markets close in 3h 23m",
     "News from the Yahoo Finance Network",
-    "Did Nike's Turnaround Just Hit a Wall? Here's What Investors Need To Know",
-    "10 Best Stocks with the Most Insider Ownership to Buy Now",
-    "Cambria Cannabis ETF Closes Up Shop as Investor Interest Fades",
-    "Investors Shy Away from Sustainable ETFs. Energy Demands May Change That",
-    "Unilever’s Grocery Deal with McCormick Draws Sour Reaction from Investors",
+    "Rosneft Profit Slides as Sanctions and Lower Oil Prices Bite",
+    "Suncor Lifts 2026 Buybacks as New Plan Targets Lower Breakeven",
+    "PBA- A Canadian Pipeline Play Perfect for this Environment",
+    "7 common tax-filing mistakes Americans make and how to avoid them",
+    "Ecopetrol (EC) Price Target Bumped to $13, ‘Neutral’ Rating Maintained",
     "Analyst Report: Compass Group PLC"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66853.8359375,
-        "perp_last_price": 66853.8359375,
-        "mark_price": 66853.8359375,
-        "index_price": 66853.8359375,
+        "spot_price": 67016.921875,
+        "perp_last_price": 67016.921875,
+        "mark_price": 67016.921875,
+        "index_price": 67016.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 66853.8359375,
+        "entry_ideal": 67016.921875,
         "stop_loss_technical": 65788.75,
-        "target_1": 68451.46484375,
-        "target_2": 70049.09375,
+        "target_1": 68859.1796875,
+        "target_2": 70701.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66853.8359375,
-        "stop_loss_technical": 65851.02839844,
-        "target_1": 68358.04724609,
-        "target_2": 69862.25855469,
+        "entry_ideal": 67016.921875,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 70084.74414062,
+        "target_2": 73152.56640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
