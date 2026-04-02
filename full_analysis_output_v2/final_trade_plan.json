@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T05:17:26.754277+00:00",
+    "generated_at_utc": "2026-04-02T06:20:05.549110+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.023,
+        "price": 100.089,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 14m",
+    "U.S. markets open in 7h 11m",
     "News from the Yahoo Finance Network",
-    "The Great Repricing Crushed This Cybersecurity Growth Stock. That's a Buying Opportunity.",
-    "Airlines face price hikes, lower margins as Iran war pressures business",
-    "Huge, Unusual Put Action in Robinhood Stock - A Sign That HOOD Has Bottomed?",
-    "Oracle begins layoffs affecting thousands, CNBC reports",
-    "Exclusive-TikTok seeks Brazil fintech license to offer credit",
+    "Sociedad Quimica y Minera (SQM) Seeks to Raise Dividend to 50% of Net Income from 30%",
+    "Intrepid Potash Inc (IPI) Benefits from Strong Fertilizer Demand and Good Prices",
+    "Oklo's Stock Could Have Massive Upside, but Is It Worth the Risk?",
+    "A ‘Golden’ Way to Trade the Volatility in Gold Prices for Low Risk, High Reward",
+    "Nutrien Ltd (NTR) Doubling Down on Share BuyBack Amid Improving Earnings Outlook",
     "Analyst Report: Aegon Ltd."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66368.65625,
-        "perp_last_price": 66368.65625,
-        "mark_price": 66368.65625,
-        "index_price": 66368.65625,
+        "spot_price": 66655.3046875,
+        "perp_last_price": 66655.3046875,
+        "mark_price": 66655.3046875,
+        "index_price": 66655.3046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66368.65625,
+        "entry_ideal": 66655.3046875,
         "stop_loss_technical": 66230.2421875,
-        "target_1": 66576.27734375,
-        "target_2": 66783.8984375,
+        "target_1": 67292.8984375,
+        "target_2": 67930.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66368.65625,
+        "entry_ideal": 66655.3046875,
         "stop_loss_technical": 69104.828125,
-        "target_1": 62264.3984375,
-        "target_2": 58160.140625,
+        "target_1": 62981.01953125,
+        "target_2": 59306.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
