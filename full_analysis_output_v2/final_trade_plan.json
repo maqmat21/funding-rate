@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T17:29:29.690582+00:00",
+    "generated_at_utc": "2026-04-02T18:08:12.126686+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.948,
-        "trend": "bajista"
+        "price": 100.022,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.307,
+        "price": 4.311,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 31m",
+    "U.S. markets close in 1h 52m",
     "News from the Yahoo Finance Network",
-    "Wells Fargo Autograph Journey℠ Card review: A high-earning card designed for frequent travelers",
-    "Mizuho resets view on Snowflake stock after CRO change",
-    "Stock Market Rebounds Even As Oil Prices Skyrocket On Trump's Iran War Comments; Tesla, SpaceX, Eli Lilly In Focus: Weekly Review",
-    "Polymarket users stand to make millions if US troops enter Iran, raising insider trading fears",
-    "Social Security capped at $50,000? ‘Crisis in the near horizon’ forces painful solution with new proposal. Do this now",
-    "Analyst Report: Compass Group PLC"
+    "Tech stocks today: Tesla stock falls as tech stocks rebound, AI industry leaks highlight cybersecurity risks",
+    "MINISO (MNSO) Q4 2025 Earnings Call Transcript",
+    "Exclusive-SpaceX has held talks with Saudi fund for possible $5 billion investment in IPO, sources say",
+    "OpenAI buys tech news show TBPN in AI giant's biggest media push yet",
+    "Pros and cons of leasing vs. buying a car",
+    "Analyst Report: BJ's Wholesale Club Hldg Inc"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67284.796875,
-        "perp_last_price": 67284.796875,
-        "mark_price": 67284.796875,
-        "index_price": 67284.796875,
+        "spot_price": 66691.890625,
+        "perp_last_price": 66691.890625,
+        "mark_price": 66691.890625,
+        "index_price": 66691.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67284.796875,
-        "stop_loss_technical": 65788.75,
-        "target_1": 69528.8671875,
-        "target_2": 71772.9375,
+        "entry_ideal": 66691.890625,
+        "stop_loss_technical": 68633.1484375,
+        "target_1": 63780.00390625,
+        "target_2": 60868.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67284.796875,
-        "stop_loss_technical": 64971.70703125,
-        "target_1": 70754.43164062,
-        "target_2": 74224.06640625,
+        "entry_ideal": 66691.890625,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 62884.1875,
+        "target_2": 59076.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
