@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T00:04:10.900858+00:00",
+    "generated_at_utc": "2026-04-02T03:20:55.597204+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.549,
-        "trend": "bajista"
+        "price": 99.948,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.319,
@@ -22,52 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Is Micron Technology (MU) one of the 7 Cheapest AI Data Center Stocks to Buy Now?",
-    "Is Super Micro Computer, Inc. (SMCI) Among the 7 Cheapest AI Data Center Stocks to Buy Now?",
-    "The Vanguard ETF That's Quietly Crushing the Market in 2026",
-    "Evercore ISI Maintains an Outperform rating on Dell Technologies Inc. (DELL)",
-    "NXP Semiconductors (NXPI) Announces Collaboration with Nvidia on Robotics Solutions",
-    "Analyst Report: Badger Meter, Inc.",
-    "KLA (KLAC) Announces an Additional $7 Billion Share Buyback and Dividend Increase"
+    "Wall Street Overlooked This Industrial Stock. Down 14%, It's Now a Forever Buy.",
+    "MercadoLibre's fintech terminates its cryptocurrency Mercado Coin",
+    "Dollar Declines as President Trump Signals He May End Iran War",
+    "Apellis Pharma Skyrockets on Biogen Deal. Is It Too Late to Chase APLS Stock?",
+    "Options Traders Pick Up Pharma Stock After Eli Lilly Buyout",
+    "Analyst Report: General Motors Company",
+    "At 54, I have a $320,000 IRA and will soon be self-employed earning $120,000 a year. How much of that should I save for retirement?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68071.8125,
-        "perp_last_price": 68071.8125,
-        "mark_price": 68071.8125,
-        "index_price": 68071.8125,
+        "spot_price": 66762.296875,
+        "perp_last_price": 66762.296875,
+        "mark_price": 66762.296875,
+        "index_price": 66762.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 68071.8125,
-        "stop_loss_technical": 67050.7353125,
-        "target_1": 69603.42828125,
-        "target_2": 71135.0440625,
+        "entry_ideal": 66762.296875,
+        "stop_loss_technical": 69104.828125,
+        "target_1": 63248.5,
+        "target_2": 59734.703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 68071.8125,
-        "stop_loss_technical": 67050.7353125,
-        "target_1": 69603.42828125,
-        "target_2": 71135.0440625,
+        "entry_ideal": 66762.296875,
+        "stop_loss_technical": 69104.828125,
+        "target_1": 63248.5,
+        "target_2": 59734.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
