@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T19:57:58.345132+00:00",
+    "generated_at_utc": "2026-04-02T20:31:17.323579+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.03,
+        "price": 100.012,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,50 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Amazon is Considering a $9 Billion Deal to Acquire Satellite Communications Company Globalstar. Here's Why Amazon, Apple, and Tesla Investors Should Pay Attention.",
-    "Toyota bets big on EVs and US manufacturing as tariff costs mount",
-    "What is a gold IRA? A beginner's guide.",
-    "Stock Market Today: Dow Struggles On Hormuz News; Communications Name Spikes (Live Coverage)",
-    "When will mortgage rates go down? Not while oil keeps fueling inflation.",
+    "Current price of oil as of April 1, 2026",
+    "Dow Jones Futures Rise, Oil Prices Fall Below $100; Trump To Speak To Nation On Iran War",
+    "Millions of millionaires don’t feel rich — the big problem with financial anxiety (and how to solve it quickly",
+    "SpaceX seen as make-or-break test for mega IPOs",
+    "Natural Gas Leader Fuels Buy Point In Leaky Market. Triple-Digit Growth Sparks Big Demand.",
     "Analyst Report: Fidelity National Information Services, Inc.",
-    "Oracle Stock Hasn't Been This Cheap in 3 Years -- But Is It a Buy Right Now?"
+    "Unilever-McCormick deal 'not compelling value' but 'makes sense', say investment banks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67008.0078125,
-        "perp_last_price": 67008.0078125,
-        "mark_price": 67008.0078125,
-        "index_price": 67008.0078125,
+        "spot_price": 66901.4609375,
+        "perp_last_price": 66901.4609375,
+        "mark_price": 66901.4609375,
+        "index_price": 66901.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67008.0078125,
-        "stop_loss_technical": 65788.75,
-        "target_1": 68836.89453125,
-        "target_2": 70665.78125,
+        "entry_ideal": 66901.4609375,
+        "stop_loss_technical": 68588.5390625,
+        "target_1": 64370.84375,
+        "target_2": 61840.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67008.0078125,
-        "stop_loss_technical": 64971.70703125,
-        "target_1": 70062.45898438,
-        "target_2": 73116.91015625,
+        "entry_ideal": 66901.4609375,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63408.11328125,
+        "target_2": 59914.765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
