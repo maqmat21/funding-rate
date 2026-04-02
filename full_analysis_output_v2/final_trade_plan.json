@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T18:08:12.126686+00:00",
+    "generated_at_utc": "2026-04-02T19:12:44.502109+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.022,
+        "price": 100.006,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 52m",
     "News from the Yahoo Finance Network",
-    "Tech stocks today: Tesla stock falls as tech stocks rebound, AI industry leaks highlight cybersecurity risks",
-    "MINISO (MNSO) Q4 2025 Earnings Call Transcript",
-    "Exclusive-SpaceX has held talks with Saudi fund for possible $5 billion investment in IPO, sources say",
-    "OpenAI buys tech news show TBPN in AI giant's biggest media push yet",
-    "Pros and cons of leasing vs. buying a car",
-    "Analyst Report: BJ's Wholesale Club Hldg Inc"
+    "Morgan Stanley Lowers its Price Target on Futu Holdings (FUTU) to $225",
+    "Citi Lowers its Price Target on UP Fintech (TIGR) to $16.80",
+    "Macquarie Lowers its Price Target on Atour Lifestyle Holdings (ATAT) to $46",
+    "Prenetics Global (PRE) Partners with Superpower on Diagnostics and Supplements",
+    "Principal Financial Group's Quarterly Earnings Preview: What You Need to Know",
+    "Analyst Report: Fidelity National Information Services, Inc.",
+    "The Real Reason Netflix Just Raised Prices. It's Not What You Might Think."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66691.890625,
-        "perp_last_price": 66691.890625,
-        "mark_price": 66691.890625,
-        "index_price": 66691.890625,
+        "spot_price": 66985.078125,
+        "perp_last_price": 66985.078125,
+        "mark_price": 66985.078125,
+        "index_price": 66985.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66691.890625,
-        "stop_loss_technical": 68633.1484375,
-        "target_1": 63780.00390625,
-        "target_2": 60868.1171875,
+        "entry_ideal": 66985.078125,
+        "stop_loss_technical": 65788.75,
+        "target_1": 68779.5703125,
+        "target_2": 70574.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66691.890625,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 62884.1875,
-        "target_2": 59076.484375,
+        "entry_ideal": 66985.078125,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 70005.13476562,
+        "target_2": 73025.19140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
