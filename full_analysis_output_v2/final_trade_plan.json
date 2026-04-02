@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T09:40:23.192723+00:00",
+    "generated_at_utc": "2026-04-02T10:33:51.517542+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.135,
+        "price": 100.203,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,37 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 51m",
+    "U.S. markets open in 2h 57m",
     "News from the Yahoo Finance Network",
-    "Nvidia’s $2 billion bet reveals its next big target",
-    "OpenAI valued at $852 billion in latest funding round ahead of IPO",
-    "Soybeans Rally on Tuesday with Lower Acres Expected",
-    "Corn Holds Higher on Tuesday",
-    "Microsoft Corporation (MSFT) a Strong Buy, Wall Street Sees 63% Upside",
+    "What is a gold IRA? A beginner's guide.",
+    "Bank5 Connect review (2026): Simple online banking with competitive interest rates",
+    "Gold IRA vs. traditional IRA: What's the difference?",
+    "Gold IRA vs. physical gold: Which is the better investment?",
+    "How much gold should you hold in a retirement portfolio?",
     "Analyst Report: Aegon Ltd."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66414.328125,
-        "perp_last_price": 66414.328125,
-        "mark_price": 66414.328125,
-        "index_price": 66414.328125,
+        "spot_price": 66383.1953125,
+        "perp_last_price": 66383.1953125,
+        "mark_price": 66383.1953125,
+        "index_price": 66383.1953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66414.328125,
-        "stop_loss_technical": 69104.828125,
-        "target_1": 62378.578125,
-        "target_2": 58342.828125,
+        "entry_ideal": 66383.1953125,
+        "stop_loss_technical": 66225.1875,
+        "target_1": 66620.20703125,
+        "target_2": 66857.21875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66414.328125,
+        "entry_ideal": 66383.1953125,
         "stop_loss_technical": 69230.359375,
-        "target_1": 62190.28125,
-        "target_2": 57966.234375,
+        "target_1": 62112.44921875,
+        "target_2": 57841.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
