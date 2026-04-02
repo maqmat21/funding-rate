@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T11:27:38.224801+00:00",
+    "generated_at_utc": "2026-04-02T12:04:57.002922+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.259,
+        "price": 100.194,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 3m",
+    "U.S. markets open in 1h 26m",
     "News from the Yahoo Finance Network",
-    "Why Marvell Stock Jumped Today",
-    "Insider trading in prediction markets is among CFTC priorities, top cop says",
-    "This Dividend King Is Down 26%. When Will It Bounce Back?",
-    "New Zealand's Fonterra admits 'grass-fed' label may mislead shoppers after Greenpeace lawsuit",
-    "Trump Media To Merge With Nuclear Fusion Startup",
+    "KULR Technology Group Q4 Earnings Call Highlights",
+    "Americas Gold and Silver Corporation Q4 2025 Earnings Call Summary",
+    "Oxbridge Re Holdings Limited Q4 2025 Earnings Call Summary",
+    "Apple's 50-year journey from garage to tech titan",
+    "Pentagon Insider Joins REalloys as Rare Earth Deadline Approaches",
     "Analyst Report: Aegon Ltd."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66421.9375,
-        "perp_last_price": 66421.9375,
-        "mark_price": 66421.9375,
-        "index_price": 66421.9375,
+        "spot_price": 66129.1953125,
+        "perp_last_price": 66129.1953125,
+        "mark_price": 66129.1953125,
+        "index_price": 66129.1953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66421.9375,
-        "stop_loss_technical": 66225.1875,
-        "target_1": 66717.0625,
-        "target_2": 67012.1875,
+        "entry_ideal": 66129.1953125,
+        "stop_loss_technical": 69104.828125,
+        "target_1": 61665.74609375,
+        "target_2": 57202.296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66421.9375,
+        "entry_ideal": 66129.1953125,
         "stop_loss_technical": 69230.359375,
-        "target_1": 62209.3046875,
-        "target_2": 57996.671875,
+        "target_1": 61477.44921875,
+        "target_2": 56825.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
