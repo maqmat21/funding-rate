@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T23:23:18.431644+00:00",
+    "generated_at_utc": "2026-04-02T23:55:16.853246+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.839,
-        "trend": "bajista"
+        "price": 99.987,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.313,
@@ -22,51 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How the SpaceX IPO Could Affect These Popular Nasdaq ETFs",
-    "Artisan Mid Cap Value Fund’s Views on First Citizens BancShares (FCNCA)",
-    "Super Micro Computer Stock Bounces on Easing Iran War Fears. Should You Buy SMCI Here?",
-    "OpenAI just raised a historic amount of money. Here are 2 stunning numbers you shouldn't forget.",
-    "Should You Hold Vontier Corporation (VNT)?",
+    "The 'magic number' for a comfortable retirement just got bigger",
+    "Nike stock tumbles more than 13%, hits 11-year low as weakness in China, high oil prices weigh on outlook",
+    "Dan Ives Wants You to Buy the Dip in CrowdStrike Stock: ‘Cybersecurity Budgets’ Will Double",
+    "3 High-Yield Dividend Stocks to Buy in 2026 for Passive Income",
+    "US manufacturing sector grows in March; supplier delivery performance deteriorates",
     "Analyst Report: Fiserv, Inc.",
-    "Target and 5 More ‘Dividend Aristocrats’ to Own Now"
+    "Metals One rises 7% as it moves to take option to increase its South African gold stake"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66943.234375,
-        "perp_last_price": 66943.234375,
-        "mark_price": 66943.234375,
-        "index_price": 66943.234375,
+        "spot_price": 66862.4296875,
+        "perp_last_price": 66862.4296875,
+        "mark_price": 66862.4296875,
+        "index_price": 66862.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 66943.234375,
-        "stop_loss_technical": 65939.08585938,
-        "target_1": 68449.45714844,
-        "target_2": 69955.67992187,
+        "entry_ideal": 66862.4296875,
+        "stop_loss_technical": 67384.4453125,
+        "target_1": 66079.40625,
+        "target_2": 65296.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66943.234375,
-        "stop_loss_technical": 64971.70703125,
-        "target_1": 69900.52539062,
-        "target_2": 72857.81640625,
+        "entry_ideal": 66862.4296875,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63310.53515625,
+        "target_2": 59758.640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
