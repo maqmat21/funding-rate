@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T21:05:51.381562+00:00",
+    "generated_at_utc": "2026-04-02T21:50:00.462475+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Daily ETF Flows: GLD Gathers $550M",
-    "Are You on Track to Retire in 2028? Here's How to Find Out This April.",
-    "The 10 best online banks of 2026",
-    "Dow Jones Futures: Stock Market Resilient As Oil Prices Spike, Tesla Slumps; Jobs Report On Tap",
-    "What Oil Shock? S&P 500 Estimates Keep Rising. These Stocks' Views Rise Most.",
-    "Analyst Report: Fidelity National Information Services, Inc.",
-    "Iran War Fuels Defense Contracts. Analysts Divided On RTX Stock."
+    "Best credit cards for shopping on Amazon for April 2026: Boost your Amazon purchases with valuable rewards",
+    "Stock Market Today, April 2: Markets Muted on Mixed Iran War Reports",
+    "How to calculate credit card interest",
+    "Whether Position Trading Or Swing Trading, Here's Why Dell Stock Was A Quick Profit",
+    "The new energy shock, Part 3: Where capital moves next",
+    "Analyst Report: Fiserv, Inc.",
+    "What is a balance transfer and how does it work?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66962.2265625,
-        "perp_last_price": 66962.2265625,
-        "mark_price": 66962.2265625,
-        "index_price": 66962.2265625,
+        "spot_price": 66797.25,
+        "perp_last_price": 66797.25,
+        "mark_price": 66797.25,
+        "index_price": 66797.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 66797.25,
+        "stop_loss_technical": 67384.4453125,
+        "target_1": 65916.45703125,
+        "target_2": 65035.6640625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 66962.2265625,
-        "stop_loss_technical": 67384.4453125,
-        "target_1": 66328.8984375,
-        "target_2": 65695.5703125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 66962.2265625,
-        "stop_loss_technical": 64971.70703125,
-        "target_1": 69948.00585938,
-        "target_2": 72933.78515625,
+        "entry_ideal": 66797.25,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63147.5859375,
+        "target_2": 59497.921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
