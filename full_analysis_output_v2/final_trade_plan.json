@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T20:31:17.323579+00:00",
+    "generated_at_utc": "2026-04-02T21:05:51.381562+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.012,
+        "price": 100.008,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Current price of oil as of April 1, 2026",
-    "Dow Jones Futures Rise, Oil Prices Fall Below $100; Trump To Speak To Nation On Iran War",
-    "Millions of millionaires don’t feel rich — the big problem with financial anxiety (and how to solve it quickly",
-    "SpaceX seen as make-or-break test for mega IPOs",
-    "Natural Gas Leader Fuels Buy Point In Leaky Market. Triple-Digit Growth Sparks Big Demand.",
+    "Daily ETF Flows: GLD Gathers $550M",
+    "Are You on Track to Retire in 2028? Here's How to Find Out This April.",
+    "The 10 best online banks of 2026",
+    "Dow Jones Futures: Stock Market Resilient As Oil Prices Spike, Tesla Slumps; Jobs Report On Tap",
+    "What Oil Shock? S&P 500 Estimates Keep Rising. These Stocks' Views Rise Most.",
     "Analyst Report: Fidelity National Information Services, Inc.",
-    "Unilever-McCormick deal 'not compelling value' but 'makes sense', say investment banks"
+    "Iran War Fuels Defense Contracts. Analysts Divided On RTX Stock."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66901.4609375,
-        "perp_last_price": 66901.4609375,
-        "mark_price": 66901.4609375,
-        "index_price": 66901.4609375,
+        "spot_price": 66962.2265625,
+        "perp_last_price": 66962.2265625,
+        "mark_price": 66962.2265625,
+        "index_price": 66962.2265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,23 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 66901.4609375,
-        "stop_loss_technical": 68588.5390625,
-        "target_1": 64370.84375,
-        "target_2": 61840.2265625,
+        "entry_ideal": 66962.2265625,
+        "stop_loss_technical": 67384.4453125,
+        "target_1": 66328.8984375,
+        "target_2": 65695.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66901.4609375,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63408.11328125,
-        "target_2": 59914.765625,
+        "entry_ideal": 66962.2265625,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 69948.00585938,
+        "target_2": 72933.78515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
