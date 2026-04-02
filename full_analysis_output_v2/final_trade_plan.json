@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T22:53:37.445511+00:00",
+    "generated_at_utc": "2026-04-02T23:23:18.431644+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.017,
-        "trend": "alcista"
+        "price": 99.839,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.313,
@@ -22,49 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "McCormick & Company AGM: Unilever Foods deal targeted for mid-2027, strategy and Q1 growth in focus",
-    "Advanced Micro Devices (AMD): D. E. Shaw Is Loading Up on This Chip Stock",
-    "Palantir Technologies Inc. (PLTR): D. E. Shaw Admires This AI Powerhouse",
-    "Booking Holdings Inc. (BKNG): D. E. Shaw Is Buying This Travel Stock",
-    "Las Vegas Sands Corp. (LVS): Billionaire Paul Tudor Jones More Than Doubles Stake",
+    "How the SpaceX IPO Could Affect These Popular Nasdaq ETFs",
+    "Artisan Mid Cap Value Fund’s Views on First Citizens BancShares (FCNCA)",
+    "Super Micro Computer Stock Bounces on Easing Iran War Fears. Should You Buy SMCI Here?",
+    "OpenAI just raised a historic amount of money. Here are 2 stunning numbers you shouldn't forget.",
+    "Should You Hold Vontier Corporation (VNT)?",
     "Analyst Report: Fiserv, Inc.",
-    "Lamb Weston Q3 Earnings Call Highlights"
+    "Target and 5 More ‘Dividend Aristocrats’ to Own Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66926.4921875,
-        "perp_last_price": 66926.4921875,
-        "mark_price": 66926.4921875,
-        "index_price": 66926.4921875,
+        "spot_price": 66943.234375,
+        "perp_last_price": 66943.234375,
+        "mark_price": 66943.234375,
+        "index_price": 66943.234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66954.4375,
-        "stop_loss_technical": 65788.75,
-        "target_1": 68702.96875,
-        "target_2": 70451.5,
+        "entry_ideal": 66943.234375,
+        "stop_loss_technical": 65939.08585938,
+        "target_1": 68449.45714844,
+        "target_2": 69955.67992187,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 66926.4921875,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63470.69140625,
-        "target_2": 60014.890625,
+        "entry_ideal": 66943.234375,
+        "stop_loss_technical": 64971.70703125,
+        "target_1": 69900.52539062,
+        "target_2": 72857.81640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +81,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +95,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
