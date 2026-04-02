@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-02T07:44:08.277483+00:00",
+    "generated_at_utc": "2026-04-02T08:39:31.785321+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.158,
+        "price": 100.12,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 47m",
+    "U.S. markets open in 4h 52m",
     "News from the Yahoo Finance Network",
-    "Gas tops $4 and diesel is over $5. How an extended war with Iran could push prices higher.",
-    "Should You Chase the Nvidia-Triggered Rally in Marvell Stock Today?",
-    "Tesla Stock Jumps. Electric Cars Still Matter—Believe It or Not.",
-    "7 ways to  get out of a car title loan",
-    "Eli Lilly To Buy Centessa Pharma For Up To $7.8 Billion; Centessa Shares Skyrocket",
+    "Snap Stock Could Quintuple If It Cuts Staff and Pivots to AI, Activist Says",
+    "Constellation Energy Just Broke Below Its 50-Day Moving Average. Should You Buy the CEG Stock Dip as Company Misses Guidance?",
+    "This is why TD Cowen is Bullish on Aon plc (AON) Despite Pricing and AI Disruption Concerns",
+    "How to finance a mobile or manufactured home",
+    "The best debt consolidation loans for bad credit in 2026",
     "Analyst Report: Aegon Ltd."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66818.0390625,
-        "perp_last_price": 66818.0390625,
-        "mark_price": 66818.0390625,
-        "index_price": 66818.0390625,
+        "spot_price": 66659.640625,
+        "perp_last_price": 66659.640625,
+        "mark_price": 66659.640625,
+        "index_price": 66659.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66818.0390625,
-        "stop_loss_technical": 66230.2421875,
-        "target_1": 67699.734375,
-        "target_2": 68581.4296875,
+        "entry_ideal": 66659.640625,
+        "stop_loss_technical": 69104.828125,
+        "target_1": 62991.859375,
+        "target_2": 59324.078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66818.0390625,
+        "entry_ideal": 66659.640625,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63199.55859375,
-        "target_2": 59581.078125,
+        "target_1": 62803.5625,
+        "target_2": 58947.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
