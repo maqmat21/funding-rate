@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T13:46:34.193636+00:00",
+    "generated_at_utc": "2026-04-03T14:29:34.298631+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Best credit cards for gas for April 2026",
-    "Best 1-year CD rates for April 2026: Lock in up to 4% APY for the next 12 months",
-    "Best 18-month CD rates for April 2026: Earn up to 4% APY",
-    "Best 2-year CD rates for April 2026: Lock in up to 4.05% through 2028",
-    "Best 6-month CD rates for April 2026: Earn up to 4.15% APY",
+    "Hecla Mining Conference: HL Sharpens Silver Focus, Cuts Debt, Eyes Keno Hill Ramp-Up and Nevada Restart",
+    "Stocks recover from early losses and close with a weekly gain. US oil tops $110 a barrel",
+    "Here’s the Missing Piece in Your AI Strategy",
+    "Sandisk Stock Nearly Triples in Record Quarter",
+    "New BP Chief Pledges “Consistency” after Years of Anything But",
     "Daily – Vickers Top Buyers & Sellers for 04/03/2026",
-    "The best CD rates for April 2026: Earn up to 4.15% APY"
+    "Another major tech giant lays off as Washington sees 491 cuts amid AI push"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66584.2578125,
-        "perp_last_price": 66584.2578125,
-        "mark_price": 66584.2578125,
-        "index_price": 66584.2578125,
+        "spot_price": 66905.34375,
+        "perp_last_price": 66905.34375,
+        "mark_price": 66905.34375,
+        "index_price": 66905.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66584.2578125,
-        "stop_loss_technical": 67268.6796875,
-        "target_1": 65557.625,
-        "target_2": 64530.9921875,
+        "entry_ideal": 66905.34375,
+        "stop_loss_technical": 66281.984375,
+        "target_1": 67840.3828125,
+        "target_2": 68775.421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66584.2578125,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 62615.10546875,
-        "target_2": 58645.953125,
+        "entry_ideal": 66905.34375,
+        "stop_loss_technical": 65725.2578125,
+        "target_1": 68675.47265625,
+        "target_2": 70445.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
