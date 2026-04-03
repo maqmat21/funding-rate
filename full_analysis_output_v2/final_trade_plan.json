@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T17:48:18.280677+00:00",
+    "generated_at_utc": "2026-04-03T18:26:01.221011+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Netflix (NFLX) Seeks to Expand NFL Streaming Rights to Four Games",
-    "ServiceNow (NOW) Expands Partnership With NVIDIA",
-    "Walmart (WMT) Unit Walmex Plans $2.5B Investment in Mexico",
-    "Oppenheimer Reiterates Outperform on AppLovin (APP) With $660 Price Target",
-    "Deutsche Bank Maintains Sell on AstraZeneca (AZN)",
+    "Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports",
+    "As Rivals Speedily Scale Their Apparel Production and Exports, Can India Catch Up?",
+    "STMicroelectronics (STM) Expands 800V Portfolio with Nvidia Collaboration",
+    "Bloom Energy (BE) Appoints Simon Edwards as CFO",
+    "TKO Group (TKO) Announces $1B Share Repurchase Initiative",
     "Daily – Vickers Top Buyers & Sellers for 04/03/2026",
-    "Deutsche Bank Cuts Keurig Dr Pepper (KDP) Price Target by $6"
+    "Takeda (TAK) Receives FDA Priority Review for Rusfertide in PV Treatment"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66878.6953125,
-        "perp_last_price": 66878.6953125,
-        "mark_price": 66878.6953125,
-        "index_price": 66878.6953125,
+        "spot_price": 66876.265625,
+        "perp_last_price": 66876.265625,
+        "mark_price": 66876.265625,
+        "index_price": 66876.265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66878.6953125,
-        "stop_loss_technical": 67268.6796875,
-        "target_1": 66293.71875,
-        "target_2": 65708.7421875,
+        "entry_ideal": 66876.265625,
+        "stop_loss_technical": 66281.984375,
+        "target_1": 67767.6875,
+        "target_2": 68659.109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66878.6953125,
+        "entry_ideal": 66876.265625,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68608.8515625,
-        "target_2": 70339.0078125,
+        "target_1": 68602.77734375,
+        "target_2": 70329.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
