@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T22:48:15.039708+00:00",
+    "generated_at_utc": "2026-04-03T23:19:32.566437+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Why Avis Budget Group Stock did a U-Turn This Week",
-    "Arista Networks, Inc. (ANET): Billionaire Steve Cohen Admires This AI Stock",
-    "Best cash-out refinance mortgage lenders of April 2026",
-    "Taiwan Semiconductor Manufacturing (TSM): Billionaire Steve Cohen Likes This Chip Stock",
-    "Broadcom Inc. (AVGO): Billionaire Steve Cohen Almost Doubles Stake",
+    "Meta Platforms (META) Announced Its Partnership With Entergy Louisiana",
+    "Nucor's Q1 2026 Earnings: What to Expect",
+    "Should You Buy CoinShares Stock Following SPAC Merger?",
+    "Dow Falls 600 Points. Oil Heads for Largest Daily Spike Since 2020.",
+    "Visa Inc. (V) Announced a New Value Added Service, Here’s What You Need to Know",
     "Analyst Report: Ford Motor Company",
-    "Buy UPS Stock. Better Days Are on the Way."
+    "The Iran War Thrust Aluminum Prices Into the Spotlight, but Is There a Long-Term Bull Case for Rio Tinto Stock?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66923.1484375,
-        "perp_last_price": 66923.1484375,
-        "mark_price": 66923.1484375,
-        "index_price": 66923.1484375,
+        "spot_price": 66853.1640625,
+        "perp_last_price": 66853.1640625,
+        "mark_price": 66853.1640625,
+        "index_price": 66853.1640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66923.1484375,
-        "stop_loss_technical": 66459.9296875,
-        "target_1": 67617.9765625,
-        "target_2": 68312.8046875,
+        "entry_ideal": 66853.1640625,
+        "stop_loss_technical": 67268.6796875,
+        "target_1": 66229.890625,
+        "target_2": 65606.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66923.1484375,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 68719.984375,
-        "target_2": 70516.8203125,
+        "entry_ideal": 66853.1640625,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63287.37109375,
+        "target_2": 59721.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
