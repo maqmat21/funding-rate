@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T18:26:01.221011+00:00",
+    "generated_at_utc": "2026-04-03T19:09:12.313676+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Will Micron Be a Trillion-Dollar Company By 2030?",
+    "Gold Gives Back Late Gains After War Rhetoric Shift and Strong Jobs Data",
     "Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports",
-    "As Rivals Speedily Scale Their Apparel Production and Exports, Can India Catch Up?",
+    "Hyperscale Deal Sends This Hospitality Stock To A 44% Weekly Gain",
     "STMicroelectronics (STM) Expands 800V Portfolio with Nvidia Collaboration",
-    "Bloom Energy (BE) Appoints Simon Edwards as CFO",
-    "TKO Group (TKO) Announces $1B Share Repurchase Initiative",
-    "Daily – Vickers Top Buyers & Sellers for 04/03/2026",
-    "Takeda (TAK) Receives FDA Priority Review for Rusfertide in PV Treatment"
+    "Analyst Report: Ford Motor Company",
+    "Could Investing $10,000 in TQQQ Make You a Millionaire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66876.265625,
-        "perp_last_price": 66876.265625,
-        "mark_price": 66876.265625,
-        "index_price": 66876.265625,
+        "spot_price": 66773.2421875,
+        "perp_last_price": 66773.2421875,
+        "mark_price": 66773.2421875,
+        "index_price": 66773.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66876.265625,
-        "stop_loss_technical": 66281.984375,
-        "target_1": 67767.6875,
-        "target_2": 68659.109375,
+        "entry_ideal": 66773.2421875,
+        "stop_loss_technical": 67268.6796875,
+        "target_1": 66030.0859375,
+        "target_2": 65286.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66876.265625,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 68602.77734375,
-        "target_2": 70329.2890625,
+        "entry_ideal": 66773.2421875,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63087.56640625,
+        "target_2": 59401.890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
