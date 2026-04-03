@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T23:19:32.566437+00:00",
+    "generated_at_utc": "2026-04-03T23:50:58.599590+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Meta Platforms (META) Announced Its Partnership With Entergy Louisiana",
-    "Nucor's Q1 2026 Earnings: What to Expect",
-    "Should You Buy CoinShares Stock Following SPAC Merger?",
-    "Dow Falls 600 Points. Oil Heads for Largest Daily Spike Since 2020.",
-    "Visa Inc. (V) Announced a New Value Added Service, Here’s What You Need to Know",
+    "VPU Is Up 7% While the S&P 500 Falls, and the Data Center Story Makes It More Compelling",
+    "Gold And Silver Crash With No End To Iran War",
+    "Intellistake Backed ST0x Platform Secures European Approval",
+    "Beam Therapeutics (BEAM): Among the Stocks That Could 10x Over the Next 5 Years",
+    "Fannie Mae Stock Is ‘Stupidly Cheap’ Says Billionaire Bill Ackman. What Barchart Data Says.",
     "Analyst Report: Ford Motor Company",
-    "The Iran War Thrust Aluminum Prices Into the Spotlight, but Is There a Long-Term Bull Case for Rio Tinto Stock?"
+    "Netflix Is Raising Subscription Prices Yet Again. Is the Stock a Buy?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66853.1640625,
-        "perp_last_price": 66853.1640625,
-        "mark_price": 66853.1640625,
-        "index_price": 66853.1640625,
+        "spot_price": 66897.2578125,
+        "perp_last_price": 66897.2578125,
+        "mark_price": 66897.2578125,
+        "index_price": 66897.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66853.1640625,
-        "stop_loss_technical": 67268.6796875,
-        "target_1": 66229.890625,
-        "target_2": 65606.6171875,
+        "entry_ideal": 66897.2578125,
+        "stop_loss_technical": 66459.9296875,
+        "target_1": 67553.25,
+        "target_2": 68209.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66853.1640625,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63287.37109375,
-        "target_2": 59721.578125,
+        "entry_ideal": 66897.2578125,
+        "stop_loss_technical": 65725.2578125,
+        "target_1": 68655.2578125,
+        "target_2": 70413.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
