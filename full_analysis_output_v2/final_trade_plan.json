@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T07:54:53.565021+00:00",
+    "generated_at_utc": "2026-04-03T08:40:32.682520+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Think You Don't Need Medicare at 65? Here's When Delaying Can Backfire.",
-    "Iran war disrupts US small businesses with shipping complications and higher costs",
-    "Chipmakers Scramble as Helium Crunch Threatens AI Expansion",
-    "The state of women’s finances: How homeownership is becoming the great equalizer",
+    "Best credit cards for gas for April 2026",
     "10 best money market accounts and rates for April 2026: Rates up to 3.85% APY",
+    "Fed's Barr warns stablecoins pose risks to financial stability",
+    "10 best free checking accounts for April 2026",
+    "Stock Market Today: Nasdaq Leads Charge After Trump's War Comments; Amazon, Tesla Rise (Live Coverage)",
     "Analyst Report: Vodafone Group Public Limited Company",
-    "Why nCino Stock Is Skyrocketing Today"
+    "Gold’s 200-Day Bounce: Reversal Signal or Market Trap?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67008.9140625,
-        "perp_last_price": 67008.9140625,
-        "mark_price": 67008.9140625,
-        "index_price": 67008.9140625,
+        "spot_price": 67059.7734375,
+        "perp_last_price": 67059.7734375,
+        "mark_price": 67059.7734375,
+        "index_price": 67059.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67008.9140625,
-        "stop_loss_technical": 65788.75,
-        "target_1": 68839.16015625,
-        "target_2": 70669.40625,
+        "entry_ideal": 67059.7734375,
+        "stop_loss_technical": 67384.4453125,
+        "target_1": 66572.765625,
+        "target_2": 66085.7578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 67008.9140625,
+        "entry_ideal": 67059.7734375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68934.3984375,
-        "target_2": 70859.8828125,
+        "target_1": 69061.546875,
+        "target_2": 71063.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
