@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T12:30:41.158231+00:00",
+    "generated_at_utc": "2026-04-03T13:46:34.193636+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "US Gold Unveils CK Gold Feasibility Study: 11-Year Mine Plan, $394M Capex, “Blue Sky” Upside",
-    "Deutsche Bank Notes “Widespread Pressures,” Cuts Clorox (CLX) Price Outlook",
-    "BMO Capital Turns Neutral on Emerson Electric (EMR) Despite Automation Shift",
-    "What to Expect From Procter & Gamble's Next Quarterly Earnings Report",
-    "BMO Capital Begins Coverage of Dover (DOV), Highlights Margin Strength and Growth Exposure",
+    "Best credit cards for gas for April 2026",
+    "Best 1-year CD rates for April 2026: Lock in up to 4% APY for the next 12 months",
+    "Best 18-month CD rates for April 2026: Earn up to 4% APY",
+    "Best 2-year CD rates for April 2026: Lock in up to 4.05% through 2028",
+    "Best 6-month CD rates for April 2026: Earn up to 4.15% APY",
     "Daily – Vickers Top Buyers & Sellers for 04/03/2026",
-    "He 'Changes Opinion 10 Times a Day' – This Hedge Fund Boss Used 'Ignore Trump' Portfolio Strategy And Delivered 35% Gains – See His Top 3 Stock Picks"
+    "The best CD rates for April 2026: Earn up to 4.15% APY"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67023.03125,
-        "perp_last_price": 67023.03125,
-        "mark_price": 67023.03125,
-        "index_price": 67023.03125,
+        "spot_price": 66584.2578125,
+        "perp_last_price": 66584.2578125,
+        "mark_price": 66584.2578125,
+        "index_price": 66584.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67023.03125,
-        "stop_loss_technical": 66281.984375,
-        "target_1": 68134.6015625,
-        "target_2": 69246.171875,
+        "entry_ideal": 66584.2578125,
+        "stop_loss_technical": 67268.6796875,
+        "target_1": 65557.625,
+        "target_2": 64530.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67023.03125,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 68969.69140625,
-        "target_2": 70916.3515625,
+        "entry_ideal": 66584.2578125,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 62615.10546875,
+        "target_2": 58645.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
