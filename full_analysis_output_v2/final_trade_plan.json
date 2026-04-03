@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T04:02:57.755211+00:00",
+    "generated_at_utc": "2026-04-03T05:47:01.145727+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.04,
+        "price": 100.031,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "United Airlines flight attendants reach 5-year deal with $740M in bonuses",
-    "Cathie Wood Funds Buy Shares Of OpenAI As Its Valuation Grows Again",
-    "Nvidia Stock: Pay Less For Ownership, Aim For Unlimited Upside With This Strategy",
     "Best travel credit cards for April 2026: Earn free flights, hotel stays, and more",
-    "Franklin Templeton Launchs Crypto Business For Institutions",
+    "10 best high-yield savings accounts for April 2026: Earn up to 4.10% APY",
+    "IRS staffing is down by 27% this year. What that means for your tax refund.",
+    "16 best new bank account promotions and bonuses for April 2026: Earn up to $3,000",
+    "3 Ways To Avoid Paying Taxes On Your Social Security Benefits",
     "Analyst Report: Vodafone Group Public Limited Company",
-    "Where Will Nu Holdings Stock Be in 10 Years?"
+    "Nvidia Is Trading at Parity with the S&P 500. Should You Snag the Dip in NVDA Stock Now?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66587.0859375,
-        "perp_last_price": 66587.0859375,
-        "mark_price": 66587.0859375,
-        "index_price": 66587.0859375,
+        "spot_price": 66732.359375,
+        "perp_last_price": 66732.359375,
+        "mark_price": 66732.359375,
+        "index_price": 66732.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 66732.359375,
+        "stop_loss_technical": 65788.75,
+        "target_1": 68147.7734375,
+        "target_2": 69563.1875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 66587.0859375,
-        "stop_loss_technical": 67384.4453125,
-        "target_1": 65391.046875,
-        "target_2": 64195.0078125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 66587.0859375,
+        "entry_ideal": 66732.359375,
         "stop_loss_technical": 69230.359375,
-        "target_1": 62622.17578125,
-        "target_2": 58657.265625,
+        "target_1": 62985.359375,
+        "target_2": 59238.359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
