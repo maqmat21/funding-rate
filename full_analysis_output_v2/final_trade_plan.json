@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T08:40:32.682520+00:00",
+    "generated_at_utc": "2026-04-03T09:39:08.223049+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Best credit cards for gas for April 2026",
-    "10 best money market accounts and rates for April 2026: Rates up to 3.85% APY",
-    "Fed's Barr warns stablecoins pose risks to financial stability",
-    "10 best free checking accounts for April 2026",
-    "Stock Market Today: Nasdaq Leads Charge After Trump's War Comments; Amazon, Tesla Rise (Live Coverage)",
+    "Nio CEO William Li Sits Down With Qualcomm China Chair: Cars Are the 'Core Engine' Pushing AI Forward — Here's Why",
+    "The best CD rates for April 2026: Earn up to 4.15% APY",
+    "Best 2-year CD rates for April 2026: Lock in up to 4.05% through 2028",
+    "Best 18-month CD rates for April 2026: Earn up to 4% APY",
+    "Best 1-year CD rates for April 2026: Lock in up to 4% APY for the next 12 months",
     "Analyst Report: Vodafone Group Public Limited Company",
-    "Gold’s 200-Day Bounce: Reversal Signal or Market Trap?"
+    "McCormick Is Acquiring Unilever's Food Business for $45 Billion. Will This Send the Spice Giant's Stock Soaring?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67059.7734375,
-        "perp_last_price": 67059.7734375,
-        "mark_price": 67059.7734375,
-        "index_price": 67059.7734375,
+        "spot_price": 66804.578125,
+        "perp_last_price": 66804.578125,
+        "mark_price": 66804.578125,
+        "index_price": 66804.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 66804.578125,
+        "stop_loss_technical": 67384.4453125,
+        "target_1": 65934.77734375,
+        "target_2": 65064.9765625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 67059.7734375,
-        "stop_loss_technical": 67384.4453125,
-        "target_1": 66572.765625,
-        "target_2": 66085.7578125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 67059.7734375,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 69061.546875,
-        "target_2": 71063.3203125,
+        "entry_ideal": 66804.578125,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63165.90625,
+        "target_2": 59527.234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
