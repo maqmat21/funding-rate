@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T17:02:18.581188+00:00",
+    "generated_at_utc": "2026-04-03T17:48:18.280677+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Dow Jones Futures Fall On Jobs Report Stunner; Stock Market Hasn't Done This Yet",
-    "Is Upstart Stock a Millionaire Maker?",
-    "Coinbase Stock Scores Weekly Win Even As War-Truce Hopes Dim; Is Coinbase Stock A Buy Now?",
-    "SoFi vs. TD Bank: Which bank is a better fit for you?",
-    "SoFi vs. Ally: Which online bank is best for you?",
+    "Netflix (NFLX) Seeks to Expand NFL Streaming Rights to Four Games",
+    "ServiceNow (NOW) Expands Partnership With NVIDIA",
+    "Walmart (WMT) Unit Walmex Plans $2.5B Investment in Mexico",
+    "Oppenheimer Reiterates Outperform on AppLovin (APP) With $660 Price Target",
+    "Deutsche Bank Maintains Sell on AstraZeneca (AZN)",
     "Daily – Vickers Top Buyers & Sellers for 04/03/2026",
-    "Tax refund delays hit a handful of states. Is yours one of them?"
+    "Deutsche Bank Cuts Keurig Dr Pepper (KDP) Price Target by $6"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67002.765625,
-        "perp_last_price": 67002.765625,
-        "mark_price": 67002.765625,
-        "index_price": 67002.765625,
+        "spot_price": 66878.6953125,
+        "perp_last_price": 66878.6953125,
+        "mark_price": 66878.6953125,
+        "index_price": 66878.6953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67002.765625,
-        "stop_loss_technical": 66281.984375,
-        "target_1": 68083.9375,
-        "target_2": 69165.109375,
+        "entry_ideal": 66878.6953125,
+        "stop_loss_technical": 67268.6796875,
+        "target_1": 66293.71875,
+        "target_2": 65708.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 67002.765625,
+        "entry_ideal": 66878.6953125,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68919.02734375,
-        "target_2": 70835.2890625,
+        "target_1": 68608.8515625,
+        "target_2": 70339.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
