@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T01:14:15.839656+00:00",
+    "generated_at_utc": "2026-04-03T04:02:57.755211+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.004,
+        "price": 100.04,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "A 7-step enterprise fraud framework to redefine scam prevention",
-    "US retail sales strong in February; rising gasoline prices will hurt spending",
-    "Union Pacific's Q1 2026 Earnings: What to Expect",
-    "Dubai Benchmark Pressured by Hormuz Disruptions",
-    "Soybeans Holding Weaker on Wednesday",
+    "United Airlines flight attendants reach 5-year deal with $740M in bonuses",
+    "Cathie Wood Funds Buy Shares Of OpenAI As Its Valuation Grows Again",
+    "Nvidia Stock: Pay Less For Ownership, Aim For Unlimited Upside With This Strategy",
+    "Best travel credit cards for April 2026: Earn free flights, hotel stays, and more",
+    "Franklin Templeton Launchs Crypto Business For Institutions",
     "Analyst Report: Vodafone Group Public Limited Company",
-    "Nasdaq and Small-Caps Surge. Hopes for Peace in Iran Fuel a Momentum Rally."
+    "Where Will Nu Holdings Stock Be in 10 Years?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66770.140625,
-        "perp_last_price": 66770.140625,
-        "mark_price": 66770.140625,
-        "index_price": 66770.140625,
+        "spot_price": 66587.0859375,
+        "perp_last_price": 66587.0859375,
+        "mark_price": 66587.0859375,
+        "index_price": 66587.0859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,24 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 66770.140625,
+        "entry_ideal": 66587.0859375,
         "stop_loss_technical": 67384.4453125,
-        "target_1": 65848.68359375,
-        "target_2": 64927.2265625,
+        "target_1": 65391.046875,
+        "target_2": 64195.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66770.140625,
+        "entry_ideal": 66587.0859375,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63079.8125,
-        "target_2": 59389.484375,
+        "target_1": 62622.17578125,
+        "target_2": 58657.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
