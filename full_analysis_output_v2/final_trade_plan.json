@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T19:09:12.313676+00:00",
+    "generated_at_utc": "2026-04-03T19:50:42.389579+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Will Micron Be a Trillion-Dollar Company By 2030?",
+    "2 Top Oversold Tech Stocks to Buy Before They Soar",
+    "AI Play Trane Technologies Aces DOE Tech Challenge, Gets IBD Rating Upgrade",
+    "Crypto Languishes As Oil Prices Soar",
     "Gold Gives Back Late Gains After War Rhetoric Shift and Strong Jobs Data",
     "Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports",
-    "Hyperscale Deal Sends This Hospitality Stock To A 44% Weekly Gain",
-    "STMicroelectronics (STM) Expands 800V Portfolio with Nvidia Collaboration",
     "Analyst Report: Ford Motor Company",
-    "Could Investing $10,000 in TQQQ Make You a Millionaire?"
+    "Wells Fargo CEO drops 3-word warning on economy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66773.2421875,
-        "perp_last_price": 66773.2421875,
-        "mark_price": 66773.2421875,
-        "index_price": 66773.2421875,
+        "spot_price": 66887.8671875,
+        "perp_last_price": 66887.8671875,
+        "mark_price": 66887.8671875,
+        "index_price": 66887.8671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66773.2421875,
-        "stop_loss_technical": 67268.6796875,
-        "target_1": 66030.0859375,
-        "target_2": 65286.9296875,
+        "entry_ideal": 66887.8671875,
+        "stop_loss_technical": 66281.984375,
+        "target_1": 67796.69140625,
+        "target_2": 68705.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66773.2421875,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63087.56640625,
-        "target_2": 59401.890625,
+        "entry_ideal": 66887.8671875,
+        "stop_loss_technical": 65725.2578125,
+        "target_1": 68631.78125,
+        "target_2": 70375.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
