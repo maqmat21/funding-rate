@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T15:09:07.915007+00:00",
+    "generated_at_utc": "2026-04-03T15:51:52.322415+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "The best VA loan lenders of April 2026",
-    "Best mortgage lenders of April 2026",
     "The best HELOC lenders of April 2026",
-    "Another major tech giant lays off as Washington sees 491 cuts amid AI push",
+    "Best mortgage lenders of April 2026",
+    "AAAU vs SLVP: Is Gold or Silver ETF the Better Bet Now?",
     "Here’s the Missing Piece in Your AI Strategy",
+    "New BP Chief Pledges “Consistency” after Years of Anything But",
     "Daily – Vickers Top Buyers & Sellers for 04/03/2026",
-    "New BP Chief Pledges “Consistency” after Years of Anything But"
+    "Sandisk Stock Nearly Triples in Record Quarter"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66945.8046875,
-        "perp_last_price": 66945.8046875,
-        "mark_price": 66945.8046875,
-        "index_price": 66945.8046875,
+        "spot_price": 66833.109375,
+        "perp_last_price": 66833.109375,
+        "mark_price": 66833.109375,
+        "index_price": 66833.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66945.8046875,
-        "stop_loss_technical": 66281.984375,
-        "target_1": 67941.53515625,
-        "target_2": 68937.265625,
+        "entry_ideal": 66833.109375,
+        "stop_loss_technical": 67268.6796875,
+        "target_1": 66179.75390625,
+        "target_2": 65526.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66945.8046875,
+        "entry_ideal": 66833.109375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68776.625,
-        "target_2": 70607.4453125,
+        "target_1": 68494.88671875,
+        "target_2": 70156.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
