@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T09:39:08.223049+00:00",
+    "generated_at_utc": "2026-04-03T10:24:33.330142+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Nio CEO William Li Sits Down With Qualcomm China Chair: Cars Are the 'Core Engine' Pushing AI Forward — Here's Why",
-    "The best CD rates for April 2026: Earn up to 4.15% APY",
-    "Best 2-year CD rates for April 2026: Lock in up to 4.05% through 2028",
-    "Best 18-month CD rates for April 2026: Earn up to 4% APY",
-    "Best 1-year CD rates for April 2026: Lock in up to 4% APY for the next 12 months",
+    "Kanzhun (BZ) Q4 2025 Earnings Call Transcript",
+    "US Treasury to meet with insurance regulators to discuss private credit markets",
+    "Exclusive-Intel looks to put millions more into SambaNova startup chaired by CEO Tan",
+    "Amazon eyes $9 billion Globalstar deal to rival SpaceX's Starlink, FT reports",
+    "India Hits the Russia Reset Button as Oil Flows Hit Near-Record Levels",
     "Analyst Report: Vodafone Group Public Limited Company",
-    "McCormick Is Acquiring Unilever's Food Business for $45 Billion. Will This Send the Spice Giant's Stock Soaring?"
+    "SpaceX Filed to Go Public—Here's Every Step Between Now and When You Can Buy Shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66804.578125,
-        "perp_last_price": 66804.578125,
-        "mark_price": 66804.578125,
-        "index_price": 66804.578125,
+        "spot_price": 66821.8671875,
+        "perp_last_price": 66821.8671875,
+        "mark_price": 66821.8671875,
+        "index_price": 66821.8671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66804.578125,
-        "stop_loss_technical": 67384.4453125,
-        "target_1": 65934.77734375,
-        "target_2": 65064.9765625,
+        "entry_ideal": 66821.8671875,
+        "stop_loss_technical": 66281.984375,
+        "target_1": 67631.69140625,
+        "target_2": 68441.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66804.578125,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63165.90625,
-        "target_2": 59527.234375,
+        "entry_ideal": 66821.8671875,
+        "stop_loss_technical": 65725.2578125,
+        "target_1": 68466.78125,
+        "target_2": 70111.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
