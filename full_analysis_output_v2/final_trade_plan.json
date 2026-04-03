@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T20:59:46.306901+00:00",
+    "generated_at_utc": "2026-04-03T21:35:16.736581+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Genius Group Liquidates Entire Bitcoin Treasury to Repay $8.5M Debt",
-    "‘As scrappy as it gets’: Restaurant owner turned $5K in gambling winnings into a $20M restaurant empire",
-    "Broadcom Inc. (AVGO): Billionaire Ray Dalio Continues to Be Bullish",
-    "3 Stocks to Buy That Are Benefitting from Trump's Big Business Tax Breaks",
-    "Microsoft just had its worst quarter on Wall Street in nearly two decades — the steepest fall since the Great Recession",
+    "Apollo’s Zelter Calls Private Credit Concerns Growing Pains",
+    "Cadence Design Systems' Quarterly Earnings Preview: What You Need to Know",
+    "William Blair Downgrades Adobe (ADBE) to Market Perform, Lowers PT",
+    "Booking Holdings Inc. (BKNG): Billionaire Ray Dalio Likes This Travel Company",
+    "Stocks Sink as President Trump Signals Iran War Will Drag On",
     "Analyst Report: Ford Motor Company",
-    "Merit Medical Systems acquires View Point Medical through merger"
+    "Apple Investors Face New Risk as Amazon Eyes Takeover of iPhone’s Satellite Partner"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66847.234375,
-        "perp_last_price": 66847.234375,
-        "mark_price": 66847.234375,
-        "index_price": 66847.234375,
+        "spot_price": 66890.15625,
+        "perp_last_price": 66890.15625,
+        "mark_price": 66890.15625,
+        "index_price": 66890.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66847.234375,
-        "stop_loss_technical": 67268.6796875,
-        "target_1": 66215.06640625,
-        "target_2": 65582.8984375,
+        "entry_ideal": 66890.15625,
+        "stop_loss_technical": 66281.984375,
+        "target_1": 67802.4140625,
+        "target_2": 68714.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66847.234375,
+        "entry_ideal": 66890.15625,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68530.19921875,
-        "target_2": 70213.1640625,
+        "target_1": 68637.50390625,
+        "target_2": 70384.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
