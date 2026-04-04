@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T14:45:36.230708+00:00",
+    "generated_at_utc": "2026-04-04T15:05:29.400802+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Stock Market Volatility Is Picking Up -- and That's Fantastic News for Investors",
-    "Here’s What Hurt Microsoft’s (MSFT) AI Positioning",
-    "Best CD rates today, April 3, 2026 (up to 4.15% APY return)",
-    "Meta Platforms (META) Slid on Mixed Quarterly Results",
-    "Derating and Acquisition Concerns Pressured Netflix (NFLX) in Q4",
+    "5 Incredible AI Stocks to Buy in April",
+    "Dow Jones Futures: After Strong Week, Look For This Bullish Market Signal",
+    "‘I was going in circles’: How one woman got caught in a year-long struggle with Airbnb and PayPal to get her money back",
+    "Trump tells allies to ‘get your own oil’ — Hormuz tensions could push gas prices even higher. How to protect your wallet",
+    "JPMorgan Says Lamb Weston Holdings (LW) Q3 Results Were Better Than Feared",
     "Analyst Report: Ford Motor Company",
-    "John Delony to Nurse Expecting $350K: ‘Create a Life Where If This Money Never Comes Through, You’re All Good’"
+    "It's Not Just 'More Units' — One Investor Realizes The Leap To Multifamily Is Far Bigger Than Expected. Here's Why"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67086.671875,
-        "perp_last_price": 67086.671875,
-        "mark_price": 67086.671875,
-        "index_price": 67086.671875,
+        "spot_price": 67171.2109375,
+        "perp_last_price": 67171.2109375,
+        "mark_price": 67171.2109375,
+        "index_price": 67171.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67086.671875,
-        "stop_loss_technical": 67243.5703125,
-        "target_1": 66851.32421875,
-        "target_2": 66615.9765625,
+        "entry_ideal": 67182.4921875,
+        "stop_loss_technical": 66790.7890625,
+        "target_1": 67770.046875,
+        "target_2": 68357.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67086.671875,
+        "entry_ideal": 67171.2109375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69128.79296875,
-        "target_2": 71170.9140625,
+        "target_1": 69340.140625,
+        "target_2": 71509.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
