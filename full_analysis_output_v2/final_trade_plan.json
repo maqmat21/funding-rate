@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T17:50:18.928865+00:00",
+    "generated_at_utc": "2026-04-04T18:20:41.032423+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Why Marvell Technology Rallied in March",
+    "More bank branch closures imminent as industry consolidates",
+    "SpaceX has the momentum to become Musk's favored project",
+    "The Two-Week Window That Could Break Global Commodity Markets",
     "Rail and truck data highlight a strong industrial economy",
-    "Microsoft Weighs On Magnificent Seven Performance; Is The Stock A Buy Now?",
-    "The complete list of credit card perks that reset each calendar year (2026)",
-    "Tax refund delays hit a handful of states. Is yours one of them?",
+    "Dow Jones Futures: Leading Stocks Stand Tall As Market Bounces; Look For This Bullish Signal",
     "Analyst Report: Ford Motor Company",
-    "History Says the Great Rotation Is Just Getting Started. 2 Growth Stocks to Buy Now."
+    "Veteran analyst sends message to Tesla investors after Q1 miss"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67315.71875,
-        "perp_last_price": 67315.71875,
-        "mark_price": 67315.71875,
-        "index_price": 67315.71875,
+        "spot_price": 67360.1796875,
+        "perp_last_price": 67360.1796875,
+        "mark_price": 67360.1796875,
+        "index_price": 67360.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67315.71875,
-        "stop_loss_technical": 67491.78125,
-        "target_1": 67051.625,
-        "target_2": 66787.53125,
+        "entry_ideal": 67360.1796875,
+        "stop_loss_technical": 66790.7890625,
+        "target_1": 68214.265625,
+        "target_2": 69068.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67315.71875,
+        "entry_ideal": 67360.1796875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69701.41015625,
-        "target_2": 72087.1015625,
+        "target_1": 69812.5625,
+        "target_2": 72264.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
