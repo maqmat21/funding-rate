@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T07:58:05.446627+00:00",
+    "generated_at_utc": "2026-04-04T08:36:25.452774+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "1 Unstoppable Dividend Stock to Buy and Hold for a Decade",
-    "Corporate-Owned Life Insurance: Types, Benefits and Tax Rules",
-    "Bank-Owned Life Insurance: How It Works, Benefits and Tax Rules",
-    "ZeroStack Inks $107M Deal for 21% of 0G Token Supply",
-    "Morgan Stanley Warns Arcos Dorados Holdings Inc. (ARCO) Earnings Miss Could Weigh on Stock Performance",
+    "Walmart Stock Is Transforming Into a Growth Stock. Is It Time to Buy?",
+    "TotalEnergies and Masdar Launch $2.2 Billion Asia Renewables JV",
+    "Could Gen X Be More Scared of Retirement?",
+    "Is AI the Answer for Mass-Market Retirement Advice?",
+    "Blue Owl Slams Brakes on Redemptions at Two Funds as Private Credit Worries Mount",
     "Analyst Report: Ford Motor Company",
-    "Bank of America resets Marvell stock price target after Nvidia deal"
+    "The DOL’s New Proposal Is About More Than Alts in 401(k)s"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66986.0,
-        "perp_last_price": 66986.0,
-        "mark_price": 66986.0,
-        "index_price": 66986.0,
+        "spot_price": 66999.578125,
+        "perp_last_price": 66999.578125,
+        "mark_price": 66999.578125,
+        "index_price": 66999.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66986.0,
-        "stop_loss_technical": 66507.0625,
-        "target_1": 67704.40625,
-        "target_2": 68422.8125,
+        "entry_ideal": 66999.578125,
+        "stop_loss_technical": 67042.3359375,
+        "target_1": 66935.44140625,
+        "target_2": 66871.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66986.0,
+        "entry_ideal": 66999.578125,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68877.11328125,
-        "target_2": 70768.2265625,
+        "target_1": 68911.05859375,
+        "target_2": 70822.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
