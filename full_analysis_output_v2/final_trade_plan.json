@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T14:00:49.608170+00:00",
+    "generated_at_utc": "2026-04-04T14:45:36.230708+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Pam Bondi fired by Trump: Here’s how the stock market has fared since her infamous ‘Dow is over 50,000’ comment",
-    "Intuitive Surgical (ISRG) is Improving Surgical Precision Through AI",
-    "CFTC Sues Illinois, Arizona, Connecticut Over Prediction Market Oversight",
-    "Arizona plumber, 62, has $79K debt, no 401(k) — but 3 houses. Ramsey Show tells him which to sell to save his retirement",
-    "Do You Believe in Zoetis’ (ZTS) Long-Term Growth Potential?",
+    "Stock Market Volatility Is Picking Up -- and That's Fantastic News for Investors",
+    "Here’s What Hurt Microsoft’s (MSFT) AI Positioning",
+    "Best CD rates today, April 3, 2026 (up to 4.15% APY return)",
+    "Meta Platforms (META) Slid on Mixed Quarterly Results",
+    "Derating and Acquisition Concerns Pressured Netflix (NFLX) in Q4",
     "Analyst Report: Ford Motor Company",
-    "The \"Spotify of China\" Just Got a Whole Lot Cheaper"
+    "John Delony to Nurse Expecting $350K: ‘Create a Life Where If This Money Never Comes Through, You’re All Good’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67217.296875,
-        "perp_last_price": 67217.296875,
-        "mark_price": 67217.296875,
-        "index_price": 67217.296875,
+        "spot_price": 67086.671875,
+        "perp_last_price": 67086.671875,
+        "mark_price": 67086.671875,
+        "index_price": 67086.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67217.296875,
-        "stop_loss_technical": 66766.1328125,
-        "target_1": 67894.04296875,
-        "target_2": 68570.7890625,
+        "entry_ideal": 67086.671875,
+        "stop_loss_technical": 67243.5703125,
+        "target_1": 66851.32421875,
+        "target_2": 66615.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67217.296875,
+        "entry_ideal": 67086.671875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69455.35546875,
-        "target_2": 71693.4140625,
+        "target_1": 69128.79296875,
+        "target_2": 71170.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
