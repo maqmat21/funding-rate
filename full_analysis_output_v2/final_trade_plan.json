@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T03:41:24.611245+00:00",
+    "generated_at_utc": "2026-04-04T05:13:21.107957+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Pros and cons of leasing vs. buying a car",
-    "2 EV Stocks That Are Too Cheap to Ignore Right Now",
-    "Iran Identifies Palantir as a ‘Legitimate Target’ for Threatened Attacks: Should You Sell PLTR Stock Now?",
-    "BitGo Launches Platform for Stablecoin Minting",
-    "Exclusive-SpaceX has held talks with Saudi fund for possible $5 billion investment in IPO, sources say",
+    "Corn Heads into the Long Weekend Mixed",
+    "The best balance transfer credit cards for April 2026: Don't pay any interest until 2027",
+    "‘We’re aiming for a monthly income of $11,500’: I’m 64. I’ve $1.5 million in a 401(k). How do I time my withdrawals?",
+    "Fuel Shock Forces Airlines Into Emergency Mode",
+    "Two solid ‘yes’ votes for Echo Global’s acquisition: Moody’s and S&P",
     "Analyst Report: Ford Motor Company",
-    "Rubrik (RBRK) Unveils SAGE for Real-Time Autonomous AI Agent Security"
+    "Best credit cards for shopping on Amazon for April 2026: Boost your Amazon purchases with valuable rewards"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66825.6953125,
-        "perp_last_price": 66825.6953125,
-        "mark_price": 66825.6953125,
-        "index_price": 66825.6953125,
+        "spot_price": 66877.2890625,
+        "perp_last_price": 66877.2890625,
+        "mark_price": 66877.2890625,
+        "index_price": 66877.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66825.6953125,
-        "stop_loss_technical": 67268.6796875,
-        "target_1": 66161.21875,
-        "target_2": 65496.7421875,
+        "entry_ideal": 66877.2890625,
+        "stop_loss_technical": 66507.0625,
+        "target_1": 67432.62890625,
+        "target_2": 67987.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66825.6953125,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63218.69921875,
-        "target_2": 59611.703125,
+        "entry_ideal": 66877.2890625,
+        "stop_loss_technical": 65725.2578125,
+        "target_1": 68605.3359375,
+        "target_2": 70333.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
