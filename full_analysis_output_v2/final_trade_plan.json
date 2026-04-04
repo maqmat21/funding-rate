@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-03T23:50:58.599590+00:00",
+    "generated_at_utc": "2026-04-04T01:07:36.109480+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "VPU Is Up 7% While the S&P 500 Falls, and the Data Center Story Makes It More Compelling",
-    "Gold And Silver Crash With No End To Iran War",
-    "Intellistake Backed ST0x Platform Secures European Approval",
-    "Beam Therapeutics (BEAM): Among the Stocks That Could 10x Over the Next 5 Years",
-    "Fannie Mae Stock Is ‘Stupidly Cheap’ Says Billionaire Bill Ackman. What Barchart Data Says.",
+    "NorthWestern Shareholders Approve All-Stock Black Hills Energy Merger, Bright Horizon Energy Planned",
+    "Why the Best Space Stock to Buy, as Artemis II Heads for the Moon, Could Be 1 Company You Probably Have Never Heard Of",
+    "Sandisk Was the Top-Performing S&P 500 Stock in Q1. Can SNDK Continue Its Run in Q1?",
+    "Higher Sugar Production in India Pressures Prices",
+    "10 common car loan mistakes that cost you money",
     "Analyst Report: Ford Motor Company",
-    "Netflix Is Raising Subscription Prices Yet Again. Is the Stock a Buy?"
+    "Growth and Momentum Stocks Stall After a 2-Day Rally"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66897.2578125,
-        "perp_last_price": 66897.2578125,
-        "mark_price": 66897.2578125,
-        "index_price": 66897.2578125,
+        "spot_price": 66870.8125,
+        "perp_last_price": 66870.8125,
+        "mark_price": 66870.8125,
+        "index_price": 66870.8125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66897.2578125,
-        "stop_loss_technical": 66459.9296875,
-        "target_1": 67553.25,
-        "target_2": 68209.2421875,
+        "entry_ideal": 66874.2421875,
+        "stop_loss_technical": 67268.6796875,
+        "target_1": 66282.5859375,
+        "target_2": 65690.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66897.2578125,
+        "entry_ideal": 66870.8125,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68655.2578125,
-        "target_2": 70413.2578125,
+        "target_1": 68589.14453125,
+        "target_2": 70307.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
