@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T17:18:19.923416+00:00",
+    "generated_at_utc": "2026-04-04T17:50:18.928865+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "The S&P 500 Sank by 5% Last Month, but Here's Why This Super Semiconductor Stock Bucked the Sell-Off",
+    "Why Marvell Technology Rallied in March",
     "Rail and truck data highlight a strong industrial economy",
-    "Trump Loses Grip as Oil Surge Signals Deeper Crisis",
-    "Nvidia Corporation (NVDA) Sets Sights on Every Layer of AI Factory With NVIDIA Physical AI Data Factory Blueprint",
-    "Taiwan Semiconductor Manufacturing Company Limited (TSM) is a Buy on Strong AI Chip Demand",
+    "Microsoft Weighs On Magnificent Seven Performance; Is The Stock A Buy Now?",
+    "The complete list of credit card perks that reset each calendar year (2026)",
+    "Tax refund delays hit a handful of states. Is yours one of them?",
     "Analyst Report: Ford Motor Company",
-    "The Top AI ETFs That Let You Invest In The Whole Trend At Once"
+    "History Says the Great Rotation Is Just Getting Started. 2 Growth Stocks to Buy Now."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67364.4140625,
-        "perp_last_price": 67364.4140625,
-        "mark_price": 67364.4140625,
-        "index_price": 67364.4140625,
+        "spot_price": 67315.71875,
+        "perp_last_price": 67315.71875,
+        "mark_price": 67315.71875,
+        "index_price": 67315.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67364.4140625,
+        "entry_ideal": 67315.71875,
         "stop_loss_technical": 67491.78125,
-        "target_1": 67173.36328125,
-        "target_2": 66982.3125,
+        "target_1": 67051.625,
+        "target_2": 66787.53125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67364.4140625,
+        "entry_ideal": 67315.71875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69823.1484375,
-        "target_2": 72281.8828125,
+        "target_1": 69701.41015625,
+        "target_2": 72087.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
