@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T09:53:12.558971+00:00",
+    "generated_at_utc": "2026-04-04T10:22:20.766316+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Under the Skin of America’s Humanoid Robots: Chinese Technology",
-    "ZeroStack Inks $107M Deal for 21% of 0G Token Supply",
+    "Got $1,000? 1 Artificial Intelligence (AI) Stock to Buy and Hold for the Next Decade and Beyond",
     "BP Names Carol Howle Deputy CEO to Lead Strategy Overhaul",
-    "Corporate-Owned Life Insurance: Types, Benefits and Tax Rules",
-    "The DOL’s New Proposal Is About More Than Alts in 401(k)s",
+    "Blue Owl Slams Brakes on Redemptions at Two Funds as Private Credit Worries Mount",
+    "Looming “Oil Cliff” Pinches Airline Profits, Traveler Wallets",
+    "ZeroStack Inks $107M Deal for 21% of 0G Token Supply",
     "Analyst Report: Ford Motor Company",
-    "Why Norwegian Cruise Line Stock Fell 24% in March"
+    "This AI Stock Could Mint New Millionaires by 2030"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66962.7109375,
-        "perp_last_price": 66962.7109375,
-        "mark_price": 66962.7109375,
-        "index_price": 66962.7109375,
+        "spot_price": 66917.1796875,
+        "perp_last_price": 66917.1796875,
+        "mark_price": 66917.1796875,
+        "index_price": 66917.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66962.7109375,
-        "stop_loss_technical": 66640.3125,
-        "target_1": 67446.30859375,
-        "target_2": 67929.90625,
+        "entry_ideal": 66914.734375,
+        "stop_loss_technical": 67042.3359375,
+        "target_1": 66723.33203125,
+        "target_2": 66531.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66962.7109375,
+        "entry_ideal": 66917.1796875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68818.890625,
-        "target_2": 70675.0703125,
+        "target_1": 68705.0625,
+        "target_2": 70492.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
