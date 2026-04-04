@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T22:50:47.725199+00:00",
+    "generated_at_utc": "2026-04-04T23:19:56.117327+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "In a Volatile Market, This Is the Smartest Dividend Stock to Buy With $120",
-    "America's largest homebuilder faces claims of 'defective pipes' in Georgia — it could be more widespread than reported",
-    "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
-    "Is UnitedHealth Group (UNH) The Best Healthcare Stock to Buy According to Billionaire Ken Griffin?",
-    "SpaceX has the momentum to become Musk's favored project",
+    "A Guide to the Gulf’s Trillions of Dollars of Sovereign Wealth",
+    "Jim Cramer Notes “Intel’s Balance Sheet After Teetering for So Long Is Now Rock Solid”",
+    "Jim Cramer Says “NVIDIA Deserves a Premium Price-to-Earnings Multiple”",
+    "Jim Cramer Believes Eli Lilly’s “Weight Loss Pill Will Be a Blockbuster”",
+    "Jim Cramer on AECOM: “I’m Surprised to See It so Low”",
     "Analyst Report: Ford Motor Company",
-    "M-Tron's War-Tech Boom Draws Smart Money — But Not Every Billionaire Is Buying More (CORRECTED)"
+    "Jim Cramer on Vizsla Silver Corp.: “We’re Late in the Game There”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67396.3828125,
-        "perp_last_price": 67396.3828125,
-        "mark_price": 67396.3828125,
-        "index_price": 67396.3828125,
+        "spot_price": 67341.3984375,
+        "perp_last_price": 67341.3984375,
+        "mark_price": 67341.3984375,
+        "index_price": 67341.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67396.3828125,
-        "stop_loss_technical": 66790.7890625,
-        "target_1": 68304.7734375,
-        "target_2": 69213.1640625,
+        "entry_ideal": 67341.3984375,
+        "stop_loss_technical": 67491.78125,
+        "target_1": 67115.82421875,
+        "target_2": 66890.25,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67396.3828125,
+        "entry_ideal": 67341.3984375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69903.0703125,
-        "target_2": 72409.7578125,
+        "target_1": 69765.609375,
+        "target_2": 72189.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
