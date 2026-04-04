@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T19:06:41.772070+00:00",
+    "generated_at_utc": "2026-04-04T19:40:11.958165+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Should You Buy CarMax While It's Below $45?",
+    "Copper-Aluminum Divergence Unveils The Complex Iran War Impact",
+    "Dow Jones Futures: Leading Stocks Stand Tall As Market Bounces; Look For This Bullish Signal",
     "Jim Cramer Reveals What “the Second Half of the Year is Going to be All About” While Discussing Caterpillar (CAT)",
     "Jim Cramer Praises Intel’s (INTC) CEO Lip-Bu Tan Once Again",
     "Jim Cramer Discusses Salesforce (CRM) & AI",
-    "Jim Cramer Likes Eli Lilly’s (LLY) New Deal",
     "Analyst Report: Ford Motor Company",
-    "How Much Would You Have if You Had Invested $2,000 In Apple When It Went Public?"
+    "Gen Z fled San Francisco for Texas and Florida. Now they're turning 'welcomer cities' into the next big tech towns"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67331.4609375,
-        "perp_last_price": 67331.4609375,
-        "mark_price": 67331.4609375,
-        "index_price": 67331.4609375,
+        "spot_price": 67335.9765625,
+        "perp_last_price": 67335.9765625,
+        "mark_price": 67335.9765625,
+        "index_price": 67335.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67331.4609375,
-        "stop_loss_technical": 66790.7890625,
-        "target_1": 68142.46875,
-        "target_2": 68953.4765625,
+        "entry_ideal": 67335.9765625,
+        "stop_loss_technical": 67491.78125,
+        "target_1": 67102.26953125,
+        "target_2": 66868.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67331.4609375,
+        "entry_ideal": 67335.9765625,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69740.765625,
-        "target_2": 72150.0703125,
+        "target_1": 69752.0546875,
+        "target_2": 72168.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
