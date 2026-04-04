@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T20:25:50.763878+00:00",
+    "generated_at_utc": "2026-04-04T20:54:23.871688+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "1 Vanguard ETF I Trust to Outperform the Market Long Term",
+    "Is UnitedHealth Group (UNH) The Best Healthcare Stock to Buy According to Billionaire Ken Griffin?",
     "SpaceX has the momentum to become Musk's favored project",
-    "Prediction: Tesla Stock Is a Buy Before 2029 Due to This $10 Trillion Opportunity",
     "Dow Jones Futures: Leading Stocks Stand Tall As Market Bounces; Look For This Bullish Signal",
     "Jim Cramer Reveals What “the Second Half of the Year is Going to be All About” While Discussing Caterpillar (CAT)",
-    "Jim Cramer Praises Intel’s (INTC) CEO Lip-Bu Tan Once Again",
     "Analyst Report: Ford Motor Company",
-    "Jim Cramer Discusses Salesforce (CRM) & AI"
+    "Samsung Still Leads — But Foldable Rivals Are Closing In Fast"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67241.2265625,
-        "perp_last_price": 67241.2265625,
-        "mark_price": 67241.2265625,
-        "index_price": 67241.2265625,
+        "spot_price": 67272.1875,
+        "perp_last_price": 67272.1875,
+        "mark_price": 67272.1875,
+        "index_price": 67272.1875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 67241.2265625,
-        "stop_loss_technical": 67491.78125,
-        "target_1": 66865.39453125,
-        "target_2": 66489.5625,
+        "entry_ideal": 67272.1875,
+        "stop_loss_technical": 66790.7890625,
+        "target_1": 67994.28515625,
+        "target_2": 68716.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67241.2265625,
+        "entry_ideal": 67272.1875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69515.1796875,
-        "target_2": 71789.1328125,
+        "target_1": 69592.58203125,
+        "target_2": 71912.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
