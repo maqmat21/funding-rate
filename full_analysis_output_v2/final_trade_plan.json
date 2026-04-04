@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T13:17:12.083151+00:00",
+    "generated_at_utc": "2026-04-04T14:00:49.608170+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Got $500? This Fintech Stock Could Reward Patient Long-Term Investors.",
-    "Dow Jones Futures: After Strong Week, Look For This Bullish Market Signal",
-    "‘I was going in circles’: How one woman got caught in a year-long struggle with Airbnb and PayPal to get her money back",
-    "Trump tells allies to ‘get your own oil’ — Hormuz tensions could push gas prices even higher. How to protect your wallet",
-    "JPMorgan Says Lamb Weston Holdings (LW) Q3 Results Were Better Than Feared",
+    "Pam Bondi fired by Trump: Here’s how the stock market has fared since her infamous ‘Dow is over 50,000’ comment",
+    "Intuitive Surgical (ISRG) is Improving Surgical Precision Through AI",
+    "CFTC Sues Illinois, Arizona, Connecticut Over Prediction Market Oversight",
+    "Arizona plumber, 62, has $79K debt, no 401(k) — but 3 houses. Ramsey Show tells him which to sell to save his retirement",
+    "Do You Believe in Zoetis’ (ZTS) Long-Term Growth Potential?",
     "Analyst Report: Ford Motor Company",
-    "Oil Spiked 12% in One Day — Here Is the Surprise Stock You Should Buy Today"
+    "The \"Spotify of China\" Just Got a Whole Lot Cheaper"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67083.8984375,
-        "perp_last_price": 67083.8984375,
-        "mark_price": 67083.8984375,
-        "index_price": 67083.8984375,
+        "spot_price": 67217.296875,
+        "perp_last_price": 67217.296875,
+        "mark_price": 67217.296875,
+        "index_price": 67217.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67083.8984375,
+        "entry_ideal": 67217.296875,
         "stop_loss_technical": 66766.1328125,
-        "target_1": 67560.546875,
-        "target_2": 68037.1953125,
+        "target_1": 67894.04296875,
+        "target_2": 68570.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67083.8984375,
+        "entry_ideal": 67217.296875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69121.859375,
-        "target_2": 71159.8203125,
+        "target_1": 69455.35546875,
+        "target_2": 71693.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
