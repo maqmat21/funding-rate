@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T12:03:32.463888+00:00",
+    "generated_at_utc": "2026-04-04T13:17:12.083151+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "$250K in savings is already halfway to $1M (seriously) — why you’re closer to a six-figure net worth than you think",
+    "Got $500? This Fintech Stock Could Reward Patient Long-Term Investors.",
     "Dow Jones Futures: After Strong Week, Look For This Bullish Market Signal",
-    "Is This Healthcare Stock Undervalued Relative to Its Growth Potential?",
-    "With gas prices spiking, you now have a new reason to ask your boss to work from home",
-    "Watch KLA Rise on Institutional Inflows",
+    "‘I was going in circles’: How one woman got caught in a year-long struggle with Airbnb and PayPal to get her money back",
+    "Trump tells allies to ‘get your own oil’ — Hormuz tensions could push gas prices even higher. How to protect your wallet",
+    "JPMorgan Says Lamb Weston Holdings (LW) Q3 Results Were Better Than Feared",
     "Analyst Report: Ford Motor Company",
-    "AI, Robotics Keep Teradyne Shares in Demand"
+    "Oil Spiked 12% in One Day — Here Is the Surprise Stock You Should Buy Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67125.0234375,
-        "perp_last_price": 67125.0234375,
-        "mark_price": 67125.0234375,
-        "index_price": 67125.0234375,
+        "spot_price": 67083.8984375,
+        "perp_last_price": 67083.8984375,
+        "mark_price": 67083.8984375,
+        "index_price": 67083.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 67125.0234375,
+        "entry_ideal": 67083.8984375,
         "stop_loss_technical": 66766.1328125,
-        "target_1": 67663.359375,
-        "target_2": 68201.6953125,
+        "target_1": 67560.546875,
+        "target_2": 68037.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67125.0234375,
+        "entry_ideal": 67083.8984375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69224.671875,
-        "target_2": 71324.3203125,
+        "target_1": 69121.859375,
+        "target_2": 71159.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
