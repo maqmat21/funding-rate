@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T21:21:03.829231+00:00",
+    "generated_at_utc": "2026-04-04T21:51:41.752057+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Brookfield Corporation Has Become the Next Berkshire Hathaway",
     "America's largest homebuilder faces claims of 'defective pipes' in Georgia — it could be more widespread than reported",
-    "Why ExxonMobil Stock Soared More Than 11% in March",
     "Is UnitedHealth Group (UNH) The Best Healthcare Stock to Buy According to Billionaire Ken Griffin?",
     "SpaceX has the momentum to become Musk's favored project",
     "Dow Jones Futures: Leading Stocks Stand Tall As Market Bounces; Look For This Bullish Signal",
     "Analyst Report: Ford Motor Company",
-    "Jim Cramer Reveals What “the Second Half of the Year is Going to be All About” While Discussing Caterpillar (CAT)"
+    "SpaceX IPO Would Test A Brutal Truth: Most IPOs Since 2021 Destroyed Value"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67231.65625,
-        "perp_last_price": 67231.65625,
-        "mark_price": 67231.65625,
-        "index_price": 67231.65625,
+        "spot_price": 67333.328125,
+        "perp_last_price": 67333.328125,
+        "mark_price": 67333.328125,
+        "index_price": 67333.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67231.65625,
-        "stop_loss_technical": 67491.78125,
-        "target_1": 66841.46875,
-        "target_2": 66451.28125,
+        "entry_ideal": 67333.328125,
+        "stop_loss_technical": 66790.7890625,
+        "target_1": 68147.13671875,
+        "target_2": 68960.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67231.65625,
+        "entry_ideal": 67333.328125,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69491.25390625,
-        "target_2": 71750.8515625,
+        "target_1": 69745.43359375,
+        "target_2": 72157.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
