@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T10:22:20.766316+00:00",
+    "generated_at_utc": "2026-04-04T10:56:57.293871+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Got $1,000? 1 Artificial Intelligence (AI) Stock to Buy and Hold for the Next Decade and Beyond",
-    "BP Names Carol Howle Deputy CEO to Lead Strategy Overhaul",
-    "Blue Owl Slams Brakes on Redemptions at Two Funds as Private Credit Worries Mount",
-    "Looming “Oil Cliff” Pinches Airline Profits, Traveler Wallets",
-    "ZeroStack Inks $107M Deal for 21% of 0G Token Supply",
+    "CoreWeave Owes $21 Billion. Its Customers Are Its Biggest Risk.",
+    "Jim Cramer on McCormick & Company: “Stock Just Doesn’t Entice”",
+    "Jim Cramer Says He “Would Be a Buyer of Okta”",
+    "Jim Cramer Says “For Sysco, the Jetro Acquisition’s Superb”",
+    "Jim Cramer on BKV Corporation: “This Is a Good One”",
     "Analyst Report: Ford Motor Company",
-    "This AI Stock Could Mint New Millionaires by 2030"
+    "FERC urged to reject TeraWulf’s power plant purchase due to undisclosed Google ownership stake"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66917.1796875,
-        "perp_last_price": 66917.1796875,
-        "mark_price": 66917.1796875,
-        "index_price": 66917.1796875,
+        "spot_price": 67148.1796875,
+        "perp_last_price": 67148.1796875,
+        "mark_price": 67148.1796875,
+        "index_price": 67148.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66914.734375,
-        "stop_loss_technical": 67042.3359375,
-        "target_1": 66723.33203125,
-        "target_2": 66531.9296875,
+        "entry_ideal": 67148.1796875,
+        "stop_loss_technical": 66766.1328125,
+        "target_1": 67721.25,
+        "target_2": 68294.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66917.1796875,
+        "entry_ideal": 67148.1796875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 68705.0625,
-        "target_2": 70492.9453125,
+        "target_1": 69282.5625,
+        "target_2": 71416.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
