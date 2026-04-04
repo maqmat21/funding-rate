@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-04T01:07:36.109480+00:00",
+    "generated_at_utc": "2026-04-04T03:41:24.611245+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "NorthWestern Shareholders Approve All-Stock Black Hills Energy Merger, Bright Horizon Energy Planned",
-    "Why the Best Space Stock to Buy, as Artemis II Heads for the Moon, Could Be 1 Company You Probably Have Never Heard Of",
-    "Sandisk Was the Top-Performing S&P 500 Stock in Q1. Can SNDK Continue Its Run in Q1?",
-    "Higher Sugar Production in India Pressures Prices",
-    "10 common car loan mistakes that cost you money",
+    "Pros and cons of leasing vs. buying a car",
+    "2 EV Stocks That Are Too Cheap to Ignore Right Now",
+    "Iran Identifies Palantir as a ‘Legitimate Target’ for Threatened Attacks: Should You Sell PLTR Stock Now?",
+    "BitGo Launches Platform for Stablecoin Minting",
+    "Exclusive-SpaceX has held talks with Saudi fund for possible $5 billion investment in IPO, sources say",
     "Analyst Report: Ford Motor Company",
-    "Growth and Momentum Stocks Stall After a 2-Day Rally"
+    "Rubrik (RBRK) Unveils SAGE for Real-Time Autonomous AI Agent Security"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66870.8125,
-        "perp_last_price": 66870.8125,
-        "mark_price": 66870.8125,
-        "index_price": 66870.8125,
+        "spot_price": 66825.6953125,
+        "perp_last_price": 66825.6953125,
+        "mark_price": 66825.6953125,
+        "index_price": 66825.6953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66874.2421875,
+        "entry_ideal": 66825.6953125,
         "stop_loss_technical": 67268.6796875,
-        "target_1": 66282.5859375,
-        "target_2": 65690.9296875,
+        "target_1": 66161.21875,
+        "target_2": 65496.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66870.8125,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 68589.14453125,
-        "target_2": 70307.4765625,
+        "entry_ideal": 66825.6953125,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 63218.69921875,
+        "target_2": 59611.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
