@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T11:53:22.584655+00:00",
+    "generated_at_utc": "2026-04-05T12:31:25.625764+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "This Under-the-Radar Fintech Stock Has Been Quietly Gaining Market Share",
     "IMF urges BOJ to keep raising rates even as Iran war poses new risks",
+    "Arm (ARM) Enters the Chip Market. Here’s Why I’m Bullish",
+    "A Florida car dealer tried to ship a stolen $460,000 Rolls-Royce overseas. It did not go well for him",
+    "A Texas man convinced investors to bet $1 million on his business. He spent it on a cushy apartment instead",
     "Piper Sandler Sees “Two Halves” in Mortgage Market, Lowers Rithm Capital (RITM)",
     "Evercore ISI and RBC Turn Cautious on Conagra (CAG) Despite Sales Uptick",
-    "Deutsche Bank Sees Weak March for CPG Stocks, Lowers Campbell’s (CPB)",
-    "Dividends Don't Lie: This Is the Most Reliable High-Yield REIT",
-    "TD Cowen Lowers Kraft Heinz (KHC) as Food Sector Faces Cost Pressures"
+    "Did Alphabet Just Say Checkmate to Micron?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66969.9453125,
-        "perp_last_price": 66969.9453125,
-        "mark_price": 66969.9453125,
-        "index_price": 66969.9453125,
+        "spot_price": 66904.140625,
+        "perp_last_price": 66904.140625,
+        "mark_price": 66904.140625,
+        "index_price": 66904.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66975.9921875,
-        "stop_loss_technical": 67491.78125,
-        "target_1": 66202.30859375,
-        "target_2": 65428.625,
+        "entry_ideal": 66904.140625,
+        "stop_loss_technical": 67474.109375,
+        "target_1": 66049.1875,
+        "target_2": 65194.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66969.9453125,
+        "entry_ideal": 66904.140625,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63579.32421875,
-        "target_2": 60188.703125,
+        "target_1": 63414.8125,
+        "target_2": 59925.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
