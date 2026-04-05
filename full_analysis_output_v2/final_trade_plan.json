@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T15:21:46.421859+00:00",
+    "generated_at_utc": "2026-04-05T15:52:50.221743+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Best money market account rates today, April 4, 2026 (best account provides 4.01% APY)",
-    "HELOC and home equity loan rates Saturday, April 4, 2026: Low and tied to the prime",
-    "Mortgage and refinance interest rates today, April 4, 2026: Down a quarter point since last weekend",
-    "Best CD rates today, April 4, 2026 (best account provides 4.15% APY)",
-    "Retirees Love This Treasury ETF Until They See the 5 Year Price Chart",
-    "Best high-yield savings interest rates today, April 4, 2026 (Earn up to 4% APY)",
-    "A record-breaking number of Americans can’t pay their credit card bills in full. Here’s how you can break the debt cycle"
+    "Amazon’s $200 Billion AI Spending Spree Is Lighting the Fuse for Explosive Growth",
+    "AI Stocks Are Exiting an Era of Blind Faith and Entering a Year of Strict Numbers: What Investors Need to Watch This Earnings Season",
+    "‘I was going in circles’: How one woman got caught in a year-long struggle with Airbnb and PayPal to get her money back",
+    "The Next Big AI Winner Might Not Be a Tech Company",
+    "Trump tells allies to ‘get your own oil’ — Hormuz tensions could push gas prices even higher. How to protect your wallet",
+    "5 Incredible AI Stocks to Buy in April",
+    "JPMorgan Says Lamb Weston Holdings (LW) Q3 Results Were Better Than Feared"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66952.59375,
-        "perp_last_price": 66952.59375,
-        "mark_price": 66952.59375,
-        "index_price": 66952.59375,
+        "spot_price": 67344.9453125,
+        "perp_last_price": 67344.9453125,
+        "mark_price": 67344.9453125,
+        "index_price": 67344.9453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 66952.59375,
+        "entry_ideal": 67344.9453125,
         "stop_loss_technical": 66615.0390625,
-        "target_1": 67458.92578125,
-        "target_2": 67965.2578125,
+        "target_1": 68439.8046875,
+        "target_2": 69534.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66952.59375,
-        "stop_loss_technical": 69230.359375,
-        "target_1": 63535.9453125,
-        "target_2": 60119.296875,
+        "entry_ideal": 67344.9453125,
+        "stop_loss_technical": 65725.2578125,
+        "target_1": 69774.4765625,
+        "target_2": 72204.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
