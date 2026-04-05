@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T00:03:46.195147+00:00",
+    "generated_at_utc": "2026-04-05T03:33:17.578110+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "History Says Buying Growth Stocks During a Rotation Beats the Market. Here Are 2 to Buy Right Now.",
-    "Morning Brief: Hope for Hormuz lifts markets",
-    "TSMC (TSM) to Launch 3nm Wafer Production at Second Japan Factory in 2028",
-    "Eli Lilly (LLY) Receives FDA Approval for Foundayo Weight Management Pill",
-    "Broadcom (AVGO) and Carahsoft Announce $970M BPA with DISA",
+    "Retirees Are Rethinking This \"Safe\" Withdrawal Strategy. Should You?",
+    "Jim Cramer Notes “Intel’s Balance Sheet After Teetering for So Long Is Now Rock Solid”",
+    "Jim Cramer Says “NVIDIA Deserves a Premium Price-to-Earnings Multiple”",
+    "Jim Cramer Believes Eli Lilly’s “Weight Loss Pill Will Be a Blockbuster”",
+    "Jim Cramer on AECOM: “I’m Surprised to See It so Low”",
     "Analyst Report: Ford Motor Company",
-    "AI Trainer Mercor Offers to Pay People for Prior Work—Work Employers Might Own"
+    "Bessent makes stunning claim about Iran and its oil"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67280.21875,
-        "perp_last_price": 67280.21875,
-        "mark_price": 67280.21875,
-        "index_price": 67280.21875,
+        "spot_price": 67140.8359375,
+        "perp_last_price": 67140.8359375,
+        "mark_price": 67140.8359375,
+        "index_price": 67140.8359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67280.21875,
+        "entry_ideal": 67140.8359375,
         "stop_loss_technical": 67491.78125,
-        "target_1": 66962.875,
-        "target_2": 66645.53125,
+        "target_1": 66614.41796875,
+        "target_2": 66088.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67280.21875,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 69612.66015625,
-        "target_2": 71945.1015625,
+        "entry_ideal": 67140.8359375,
+        "stop_loss_technical": 69230.359375,
+        "target_1": 64006.55078125,
+        "target_2": 60872.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
