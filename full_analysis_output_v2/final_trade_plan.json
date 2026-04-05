@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T07:42:37.493819+00:00",
+    "generated_at_utc": "2026-04-05T08:24:45.692739+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "12-year-old beauty brand closing nearly all stores",
-    "Comparing 2 Healthcare Giants: Which Dividend Aristocrat Will Keep Paying Out for Generations to Come?",
-    "Arista Networks, Inc. (ANET): Billionaire Steve Cohen Admires This AI Stock",
-    "Taiwan Semiconductor Manufacturing (TSM): Billionaire Steve Cohen Likes This Chip Stock",
-    "Best cash-out refinance mortgage lenders of April 2026",
-    "Here's How Claiming Social Security at 62 Affects Your Monthly Income for Life",
-    "Morgan Stanley Cuts Huntington Bancshares (HBAN) Target as Bank Stocks Face Macro Pressure"
+    "BNP Paribas warns stakes 'couldn't be higher' for Tesla stock investors",
+    "Morgan Stanley Cuts Huntington Bancshares (HBAN) Target as Bank Stocks Face Macro Pressure",
+    "Scotiabank Lowers Comcast (CMCSA) Target on Softer EBITDA Outlook",
+    "Ford Reports Weak Q1 Sales as High Costs Hit Auto Demand, Reuters Reports",
+    "TD Securities Turns Cautious on BCE, Lowers ARPU Estimates",
+    "Should You Forget Ethereum and Buy This Cryptocurrency Instead?",
+    "Deutsche Bank Starts International Paper (IP) at Hold, Flags Sector Pressures"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66717.4765625,
-        "perp_last_price": 66717.4765625,
-        "mark_price": 66717.4765625,
-        "index_price": 66717.4765625,
+        "spot_price": 66878.8359375,
+        "perp_last_price": 66878.8359375,
+        "mark_price": 66878.8359375,
+        "index_price": 66878.8359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66717.4765625,
-        "stop_loss_technical": 67491.78125,
-        "target_1": 65556.01953125,
-        "target_2": 64394.5625,
+        "entry_ideal": 66878.8359375,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 67274.53125,
+        "target_2": 67670.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66717.4765625,
+        "entry_ideal": 66878.8359375,
         "stop_loss_technical": 69230.359375,
-        "target_1": 62948.15234375,
-        "target_2": 59178.828125,
+        "target_1": 63351.55078125,
+        "target_2": 59824.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
