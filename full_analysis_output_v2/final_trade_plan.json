@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T10:22:46.188171+00:00",
+    "generated_at_utc": "2026-04-05T10:59:37.965993+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Should You Forget Ethereum and Buy This Cryptocurrency Instead?",
-    "Morgan Stanley Cuts Huntington Bancshares (HBAN) Target as Bank Stocks Face Macro Pressure",
-    "Scotiabank Lowers Comcast (CMCSA) Target on Softer EBITDA Outlook",
-    "Ford Reports Weak Q1 Sales as High Costs Hit Auto Demand, Reuters Reports",
+    "BNP Paribas warns stakes 'couldn't be higher' for Tesla stock investors",
+    "Deutsche Bank Starts International Paper (IP) at Hold, Flags Sector Pressures",
+    "Poland, Romania Ordered to Honor Vaccine Deal with Pfizer",
     "TD Securities Turns Cautious on BCE, Lowers ARPU Estimates",
-    "Should You Buy Bitcoin While It's Under $100,000? Here's What Prediction Markets Think",
-    "Deutsche Bank Starts International Paper (IP) at Hold, Flags Sector Pressures"
+    "Erste Group Sees Profit Growth Ahead, Upgrades Verizon (VZ) to Buy",
+    "Should You Forget Ethereum and Buy This Cryptocurrency Instead?",
+    "Scotiabank Lowers Comcast (CMCSA) Target on Softer EBITDA Outlook"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66955.0390625,
-        "perp_last_price": 66955.0390625,
-        "mark_price": 66955.0390625,
-        "index_price": 66955.0390625,
+        "spot_price": 67032.2890625,
+        "perp_last_price": 67032.2890625,
+        "mark_price": 67032.2890625,
+        "index_price": 67032.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66955.0390625,
-        "stop_loss_technical": 67491.78125,
-        "target_1": 66149.92578125,
-        "target_2": 65344.8125,
+        "entry_ideal": 67032.2890625,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 67658.1640625,
+        "target_2": 68284.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 66955.0390625,
+        "entry_ideal": 67032.2890625,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63542.05859375,
-        "target_2": 60129.078125,
+        "target_1": 63735.18359375,
+        "target_2": 60438.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
