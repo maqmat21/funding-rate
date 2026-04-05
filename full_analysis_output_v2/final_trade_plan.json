@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T17:00:00.383978+00:00",
+    "generated_at_utc": "2026-04-05T17:32:44.621590+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,9 +24,9 @@
     "News from the Yahoo Finance Network",
     "Workers Are Claiming ‘No Tax on Overtime’—Maybe a Bit Too Much",
     "The Next Big AI Winner Might Not Be a Tech Company",
-    "AI Stocks Are Exiting an Era of Blind Faith and Entering a Year of Strict Numbers: What Investors Need to Watch This Earnings Season",
     "Rail and truck data highlight a strong industrial economy",
     "The Two-Week Window That Could Break Global Commodity Markets",
+    "AI Stocks Are Exiting an Era of Blind Faith and Entering a Year of Strict Numbers: What Investors Need to Watch This Earnings Season",
     "2 AI Stocks That Survived the March Sell-Off -- and Look Stronger Because of It",
     "‘I was going in circles’: How one woman got caught in a year-long struggle with Airbnb and PayPal to get her money back"
   ],
@@ -34,25 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67190.5625,
-        "perp_last_price": 67190.5625,
-        "mark_price": 67190.5625,
-        "index_price": 67190.5625,
+        "spot_price": 67312.2890625,
+        "perp_last_price": 67312.2890625,
+        "mark_price": 67312.2890625,
+        "index_price": 67312.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67190.5625,
-        "stop_loss_technical": 67516.1640625,
-        "target_1": 66702.16015625,
-        "target_2": 66213.7578125,
+        "entry_ideal": 67312.2890625,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 68358.1640625,
+        "target_2": 69404.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67190.5625,
+        "entry_ideal": 67312.2890625,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69388.51953125,
-        "target_2": 71586.4765625,
+        "target_1": 69692.8359375,
+        "target_2": 72073.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
