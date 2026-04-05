@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T19:58:05.032702+00:00",
+    "generated_at_utc": "2026-04-05T20:28:29.211110+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Got $5,000? 5 Agentic AI Growth Stocks to Buy Before Wall Street Catches On.",
-    "Inflation readings, oil volatility, and airline earnings: What to watch this week",
-    "'Wouldn't be shocked' if bull market continues: Wall Street aims to look past Iran conflict",
-    "How income and costs affect everyone differently",
-    "Fiserv (FISV) and Western Alliance Bank Announce Strategic Agent Bank Partnership",
-    "1 Tiny Artificial Intelligence (AI) Stock That Could Make You a Millionaire",
-    "GE HealthCare (GEHC) Receives FDA Clearance for Photonova Spectra CT System"
+    "Should You Buy CarMax While It's Below $45?",
+    "Jim Cramer Reveals What “the Second Half of the Year is Going to be All About” While Discussing Caterpillar (CAT)",
+    "Jim Cramer Praises Intel’s (INTC) CEO Lip-Bu Tan Once Again",
+    "Jim Cramer Doesn’t Know What Nike  (NKE) Should Do Even Though He’s Rooting For The Firm",
+    "Arm Holdings (ARM) is a Winner, Says Jim Cramer",
+    "'Rich Dad Poor Dad' Author Robert Kiyosaki Says the 'Global Stock Market Is Collapsing' and Warns 'Promises Break During Wars'",
+    "Jim Cramer Discusses Starbucks (SBUX) CEO’s Turnaround Algorithm"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67298.421875,
-        "perp_last_price": 67298.421875,
-        "mark_price": 67298.421875,
-        "index_price": 67298.421875,
+        "spot_price": 67436.5234375,
+        "perp_last_price": 67436.5234375,
+        "mark_price": 67436.5234375,
+        "index_price": 67436.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67298.421875,
-        "stop_loss_technical": 67516.1640625,
-        "target_1": 66971.80859375,
-        "target_2": 66645.1953125,
+        "entry_ideal": 67436.5234375,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 68668.75,
+        "target_2": 69900.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67298.421875,
+        "entry_ideal": 67436.5234375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 69658.16796875,
-        "target_2": 72017.9140625,
+        "target_1": 70003.421875,
+        "target_2": 72570.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
