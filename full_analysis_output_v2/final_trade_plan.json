@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T21:28:16.143528+00:00",
+    "generated_at_utc": "2026-04-05T21:54:24.721578+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Nebius Stock Jumped 15% on Its Meta Deal. Is This the Next CoreWeave -- or Something Better?",
-    "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
     "Dow Jones Futures Loom As Trump Says Iran Faces 'Hell' If No Deal; Sandisk Leads 7 Stocks To Watch",
+    "Will Washington's Millionaires' Tax Drive The Rich Out Of The State?",
+    "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
     "Inflation readings, oil volatility, and airline earnings: What to watch this week",
     "'Wouldn't be shocked' if bull market continues: Wall Street aims to look past Iran conflict",
-    "I’m a Crypto Expert: Here’s Why I’d Stop Buying Bitcoin With Trump in Office",
-    "How income and costs affect everyone differently"
+    "How income and costs affect everyone differently",
+    "Nebius Stock Jumped 15% on Its Meta Deal. Is This the Next CoreWeave -- or Something Better?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67464.0703125,
-        "perp_last_price": 67464.0703125,
-        "mark_price": 67464.0703125,
-        "index_price": 67464.0703125,
+        "spot_price": 67540.9375,
+        "perp_last_price": 67540.9375,
+        "mark_price": 67540.9375,
+        "index_price": 67540.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67464.0703125,
-        "stop_loss_technical": 67653.4609375,
-        "target_1": 67179.984375,
-        "target_2": 66895.8984375,
+        "entry_ideal": 67540.9375,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 68929.78515625,
+        "target_2": 70318.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67464.0703125,
+        "entry_ideal": 67540.9375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 70072.2890625,
-        "target_2": 72680.5078125,
+        "target_1": 70264.45703125,
+        "target_2": 72987.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
