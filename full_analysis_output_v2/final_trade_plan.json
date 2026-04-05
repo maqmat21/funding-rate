@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T13:38:15.986087+00:00",
+    "generated_at_utc": "2026-04-05T14:08:25.965796+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "SpaceX IPO: Will It Be a Buy or a Bust?",
-    "Piper Sandler Sees “Two Halves” in Mortgage Market, Lowers Rithm Capital (RITM)",
-    "Evercore ISI and RBC Turn Cautious on Conagra (CAG) Despite Sales Uptick",
-    "Deutsche Bank Sees Weak March for CPG Stocks, Lowers Campbell’s (CPB)",
-    "TD Cowen Lowers Kraft Heinz (KHC) as Food Sector Faces Cost Pressures",
-    "Tech Volatility May Just Be Getting Started. What Jittery Investors Can Do Right Now.",
-    "Deutsche Bank Sees Cost and Demand Risks, Trims General Mills (GIS)"
+    "Analysts See a 32% Upside in Boeing. Here's What Has to Go Right.",
+    "$250K in savings is already halfway to $1M (seriously) — why you’re closer to a six-figure net worth than you think",
+    "‘Which bucket do I draw from first?’ Suze Orman’s strategy to help low-income retirees maximize withdrawals",
+    "AI-Fueled Trio Leads 5 Stocks To Watch Near Buy Points",
+    "There’s a good chance you don’t need more than $1.2M to retire comfortably. The simple fact many stressed Americans miss",
+    "Building the Best Retirement Plan Line Up: Reaction to the Proposed U.S. Department of Labor Regulations",
+    "TD Cowen Raises its Price Target on Marex Group plc (MRX) to $66 from $61"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66791.8828125,
-        "perp_last_price": 66791.8828125,
-        "mark_price": 66791.8828125,
-        "index_price": 66791.8828125,
+        "spot_price": 66883.0078125,
+        "perp_last_price": 66883.0078125,
+        "mark_price": 66883.0078125,
+        "index_price": 66883.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66791.8828125,
+        "entry_ideal": 66883.0078125,
         "stop_loss_technical": 66615.0390625,
-        "target_1": 67057.1484375,
-        "target_2": 67322.4140625,
+        "target_1": 67284.9609375,
+        "target_2": 67686.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66791.8828125,
+        "entry_ideal": 66883.0078125,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63134.16796875,
-        "target_2": 59476.453125,
+        "target_1": 63361.98046875,
+        "target_2": 59840.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
