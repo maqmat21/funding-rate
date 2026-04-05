@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T12:31:25.625764+00:00",
+    "generated_at_utc": "2026-04-05T13:38:15.986087+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "IMF urges BOJ to keep raising rates even as Iran war poses new risks",
-    "Arm (ARM) Enters the Chip Market. Here’s Why I’m Bullish",
-    "A Florida car dealer tried to ship a stolen $460,000 Rolls-Royce overseas. It did not go well for him",
-    "A Texas man convinced investors to bet $1 million on his business. He spent it on a cushy apartment instead",
+    "SpaceX IPO: Will It Be a Buy or a Bust?",
     "Piper Sandler Sees “Two Halves” in Mortgage Market, Lowers Rithm Capital (RITM)",
     "Evercore ISI and RBC Turn Cautious on Conagra (CAG) Despite Sales Uptick",
-    "Did Alphabet Just Say Checkmate to Micron?"
+    "Deutsche Bank Sees Weak March for CPG Stocks, Lowers Campbell’s (CPB)",
+    "TD Cowen Lowers Kraft Heinz (KHC) as Food Sector Faces Cost Pressures",
+    "Tech Volatility May Just Be Getting Started. What Jittery Investors Can Do Right Now.",
+    "Deutsche Bank Sees Cost and Demand Risks, Trims General Mills (GIS)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66904.140625,
-        "perp_last_price": 66904.140625,
-        "mark_price": 66904.140625,
-        "index_price": 66904.140625,
+        "spot_price": 66791.8828125,
+        "perp_last_price": 66791.8828125,
+        "mark_price": 66791.8828125,
+        "index_price": 66791.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 66904.140625,
-        "stop_loss_technical": 67474.109375,
-        "target_1": 66049.1875,
-        "target_2": 65194.234375,
+        "entry_ideal": 66791.8828125,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 67057.1484375,
+        "target_2": 67322.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66904.140625,
+        "entry_ideal": 66791.8828125,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63414.8125,
-        "target_2": 59925.484375,
+        "target_1": 63134.16796875,
+        "target_2": 59476.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
