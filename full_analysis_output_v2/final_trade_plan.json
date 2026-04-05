@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T22:18:57.333568+00:00",
+    "generated_at_utc": "2026-04-05T22:53:39.859157+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.264,
+        "price": 100.253,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Dow Jones Futures Fall As Trump Says Iran Faces 'Hell' If No Deal; Sandisk Leads 7 Stocks To Watch",
-    "Why Conagra Stock Got Mashed in March",
+    "Should You Buy This Vanguard Fund That's Soared 136% Over 3 Years Before April 17?",
     "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
-    "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
-    "America's largest homebuilder faces claims of 'defective pipes' in Georgia — it could be more widespread than reported",
-    "Is UnitedHealth Group (UNH) The Best Healthcare Stock to Buy According to Billionaire Ken Griffin?",
-    "Billionaire Investor Shares Two-Step Approach To Positive Returns: 'I Think I Finally Solved The Stock Market'"
+    "Inflation readings, oil volatility, and airline earnings: What to watch this week",
+    "'Wouldn't be shocked' if bull market continues: Wall Street aims to look past Iran conflict",
+    "How income and costs affect everyone differently",
+    "Senator Ditches Stocks In 2026 After 7 Months: Here's What He's Selling"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67528.8828125,
-        "perp_last_price": 67528.8828125,
-        "mark_price": 67528.8828125,
-        "index_price": 67528.8828125,
+        "spot_price": 68167.0546875,
+        "perp_last_price": 68167.0546875,
+        "mark_price": 68167.0546875,
+        "index_price": 68167.0546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67528.8828125,
-        "stop_loss_technical": 67736.03125,
-        "target_1": 67218.16015625,
-        "target_2": 66907.4375,
+        "entry_ideal": 68167.0546875,
+        "stop_loss_technical": 66615.0390625,
+        "target_1": 70495.078125,
+        "target_2": 72823.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67528.8828125,
+        "entry_ideal": 68167.0546875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 70234.3203125,
-        "target_2": 72939.7578125,
+        "target_1": 71829.75,
+        "target_2": 75492.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
