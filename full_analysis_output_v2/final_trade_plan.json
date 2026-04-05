@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T10:59:37.965993+00:00",
+    "generated_at_utc": "2026-04-05T11:30:16.405656+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "BNP Paribas warns stakes 'couldn't be higher' for Tesla stock investors",
-    "Deutsche Bank Starts International Paper (IP) at Hold, Flags Sector Pressures",
-    "Poland, Romania Ordered to Honor Vaccine Deal with Pfizer",
-    "TD Securities Turns Cautious on BCE, Lowers ARPU Estimates",
-    "Erste Group Sees Profit Growth Ahead, Upgrades Verizon (VZ) to Buy",
-    "Should You Forget Ethereum and Buy This Cryptocurrency Instead?",
-    "Scotiabank Lowers Comcast (CMCSA) Target on Softer EBITDA Outlook"
+    "Piper Sandler Sees “Two Halves” in Mortgage Market, Lowers Rithm Capital (RITM)",
+    "Evercore ISI and RBC Turn Cautious on Conagra (CAG) Despite Sales Uptick",
+    "Deutsche Bank Sees Weak March for CPG Stocks, Lowers Campbell’s (CPB)",
+    "TD Cowen Lowers Kraft Heinz (KHC) as Food Sector Faces Cost Pressures",
+    "OpenAI just made a decision that shocked the whole tech ecosystem",
+    "Deutsche Bank Sees Cost and Demand Risks, Trims General Mills (GIS)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67032.2890625,
-        "perp_last_price": 67032.2890625,
-        "mark_price": 67032.2890625,
-        "index_price": 67032.2890625,
+        "spot_price": 66998.6953125,
+        "perp_last_price": 66998.6953125,
+        "mark_price": 66998.6953125,
+        "index_price": 66998.6953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67032.2890625,
-        "stop_loss_technical": 66615.0390625,
-        "target_1": 67658.1640625,
-        "target_2": 68284.0390625,
+        "entry_ideal": 66998.6953125,
+        "stop_loss_technical": 67491.78125,
+        "target_1": 66259.06640625,
+        "target_2": 65519.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 67032.2890625,
+        "entry_ideal": 66998.6953125,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63735.18359375,
-        "target_2": 60438.078125,
+        "target_1": 63651.19921875,
+        "target_2": 60303.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
