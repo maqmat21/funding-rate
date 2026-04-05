@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T20:58:25.868391+00:00",
+    "generated_at_utc": "2026-04-05T21:28:16.143528+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Peloton Is Moving in the Right Direction, But It Still Has to Solve This 1 Problem",
+    "Nebius Stock Jumped 15% on Its Meta Deal. Is This the Next CoreWeave -- or Something Better?",
+    "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
     "Dow Jones Futures Loom As Trump Says Iran Faces 'Hell' If No Deal; Sandisk Leads 7 Stocks To Watch",
-    "SpaceX has the momentum to become Musk's favored project",
-    "Jim Cramer Discusses Salesforce (CRM) & AI",
-    "Jim Cramer Praises Intel’s (INTC) CEO Lip-Bu Tan Once Again",
-    "Rich Dad Poor Dad author gives more bad news to Americans",
-    "Jim Cramer Likes Eli Lilly’s (LLY) New Deal"
+    "Inflation readings, oil volatility, and airline earnings: What to watch this week",
+    "'Wouldn't be shocked' if bull market continues: Wall Street aims to look past Iran conflict",
+    "I’m a Crypto Expert: Here’s Why I’d Stop Buying Bitcoin With Trump in Office",
+    "How income and costs affect everyone differently"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67622.0859375,
-        "perp_last_price": 67622.0859375,
-        "mark_price": 67622.0859375,
-        "index_price": 67622.0859375,
+        "spot_price": 67464.0703125,
+        "perp_last_price": 67464.0703125,
+        "mark_price": 67464.0703125,
+        "index_price": 67464.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67622.0859375,
-        "stop_loss_technical": 66615.0390625,
-        "target_1": 69132.65625,
-        "target_2": 70643.2265625,
+        "entry_ideal": 67464.0703125,
+        "stop_loss_technical": 67653.4609375,
+        "target_1": 67179.984375,
+        "target_2": 66895.8984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 67622.0859375,
+        "entry_ideal": 67464.0703125,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 70467.328125,
-        "target_2": 73312.5703125,
+        "target_1": 70072.2890625,
+        "target_2": 72680.5078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
