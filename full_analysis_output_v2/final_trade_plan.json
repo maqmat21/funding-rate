@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T09:52:23.300179+00:00",
+    "generated_at_utc": "2026-04-05T10:22:46.188171+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Should You Buy Bitcoin While It's Under $100,000? Here's What Prediction Markets Think",
+    "Should You Forget Ethereum and Buy This Cryptocurrency Instead?",
     "Morgan Stanley Cuts Huntington Bancshares (HBAN) Target as Bank Stocks Face Macro Pressure",
     "Scotiabank Lowers Comcast (CMCSA) Target on Softer EBITDA Outlook",
     "Ford Reports Weak Q1 Sales as High Costs Hit Auto Demand, Reuters Reports",
     "TD Securities Turns Cautious on BCE, Lowers ARPU Estimates",
-    "He Turned Down Ken Griffin to Run His Own Fund. That Was $20 Billion Ago.",
+    "Should You Buy Bitcoin While It's Under $100,000? Here's What Prediction Markets Think",
     "Deutsche Bank Starts International Paper (IP) at Hold, Flags Sector Pressures"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67002.09375,
-        "perp_last_price": 67002.09375,
-        "mark_price": 67002.09375,
-        "index_price": 67002.09375,
+        "spot_price": 66955.0390625,
+        "perp_last_price": 66955.0390625,
+        "mark_price": 66955.0390625,
+        "index_price": 66955.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 67002.09375,
-        "stop_loss_technical": 66615.0390625,
-        "target_1": 67582.67578125,
-        "target_2": 68163.2578125,
+        "entry_ideal": 66955.0390625,
+        "stop_loss_technical": 67491.78125,
+        "target_1": 66149.92578125,
+        "target_2": 65344.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 67002.09375,
+        "entry_ideal": 66955.0390625,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63659.6953125,
-        "target_2": 60317.296875,
+        "target_1": 63542.05859375,
+        "target_2": 60129.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
