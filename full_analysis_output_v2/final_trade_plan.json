@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T14:51:05.173754+00:00",
+    "generated_at_utc": "2026-04-05T15:21:46.421859+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "This is a Date Beyond Meat Shouldn't Have Missed",
-    "Trump tells allies to ‘get your own oil’ — Hormuz tensions could push gas prices even higher. How to protect your wallet",
-    "JPMorgan Says Lamb Weston Holdings (LW) Q3 Results Were Better Than Feared",
-    "UBS Raises its Price Target on UniFirst Corporation (UNF) to $260 from $206",
-    "JPMorgan Lowers its Price Target on McCormick & Company. (MKC) to $64",
-    "The AI gold rush is real — but great companies don’t need to mine it",
-    "Rosenblatt Raises its Price Target on Penguin Solutions. (PENG) to $32"
+    "Best money market account rates today, April 4, 2026 (best account provides 4.01% APY)",
+    "HELOC and home equity loan rates Saturday, April 4, 2026: Low and tied to the prime",
+    "Mortgage and refinance interest rates today, April 4, 2026: Down a quarter point since last weekend",
+    "Best CD rates today, April 4, 2026 (best account provides 4.15% APY)",
+    "Retirees Love This Treasury ETF Until They See the 5 Year Price Chart",
+    "Best high-yield savings interest rates today, April 4, 2026 (Earn up to 4% APY)",
+    "A record-breaking number of Americans can’t pay their credit card bills in full. Here’s how you can break the debt cycle"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66906.046875,
-        "perp_last_price": 66906.046875,
-        "mark_price": 66906.046875,
-        "index_price": 66906.046875,
+        "spot_price": 66952.59375,
+        "perp_last_price": 66952.59375,
+        "mark_price": 66952.59375,
+        "index_price": 66952.59375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 66906.046875,
+        "entry_ideal": 66952.59375,
         "stop_loss_technical": 66615.0390625,
-        "target_1": 67342.55859375,
-        "target_2": 67779.0703125,
+        "target_1": 67458.92578125,
+        "target_2": 67965.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66906.046875,
+        "entry_ideal": 66952.59375,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63419.578125,
-        "target_2": 59933.109375,
+        "target_1": 63535.9453125,
+        "target_2": 60119.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
