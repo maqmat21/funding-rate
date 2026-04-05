@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T09:04:15.224916+00:00",
+    "generated_at_utc": "2026-04-05T09:52:23.300179+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Should You Forget Ethereum and Buy This Cryptocurrency Instead?",
+    "Should You Buy Bitcoin While It's Under $100,000? Here's What Prediction Markets Think",
     "Morgan Stanley Cuts Huntington Bancshares (HBAN) Target as Bank Stocks Face Macro Pressure",
     "Scotiabank Lowers Comcast (CMCSA) Target on Softer EBITDA Outlook",
     "Ford Reports Weak Q1 Sales as High Costs Hit Auto Demand, Reuters Reports",
     "TD Securities Turns Cautious on BCE, Lowers ARPU Estimates",
-    "Should You Buy Bitcoin While It's Under $100,000? Here's What Prediction Markets Think",
+    "He Turned Down Ken Griffin to Run His Own Fund. That Was $20 Billion Ago.",
     "Deutsche Bank Starts International Paper (IP) at Hold, Flags Sector Pressures"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66910.9375,
-        "perp_last_price": 66910.9375,
-        "mark_price": 66910.9375,
-        "index_price": 66910.9375,
+        "spot_price": 67002.09375,
+        "perp_last_price": 67002.09375,
+        "mark_price": 67002.09375,
+        "index_price": 67002.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 66910.9375,
+        "entry_ideal": 67002.09375,
         "stop_loss_technical": 66615.0390625,
-        "target_1": 67354.78515625,
-        "target_2": 67798.6328125,
+        "target_1": 67582.67578125,
+        "target_2": 68163.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66910.9375,
+        "entry_ideal": 67002.09375,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63431.8046875,
-        "target_2": 59952.671875,
+        "target_1": 63659.6953125,
+        "target_2": 60317.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
