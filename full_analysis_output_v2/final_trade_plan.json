@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T06:40:57.846061+00:00",
+    "generated_at_utc": "2026-04-05T07:42:37.493819+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Why Marvell’s Breakout Deserves Investors’ Attention",
+    "12-year-old beauty brand closing nearly all stores",
     "Comparing 2 Healthcare Giants: Which Dividend Aristocrat Will Keep Paying Out for Generations to Come?",
     "Arista Networks, Inc. (ANET): Billionaire Steve Cohen Admires This AI Stock",
     "Taiwan Semiconductor Manufacturing (TSM): Billionaire Steve Cohen Likes This Chip Stock",
     "Best cash-out refinance mortgage lenders of April 2026",
-    "Warren Buffett, Dan Ives Bet On The Same 3 Stocks — Some Might Surprise You",
-    "Broadcom Inc. (AVGO): Billionaire Steve Cohen Almost Doubles Stake"
+    "Here's How Claiming Social Security at 62 Affects Your Monthly Income for Life",
+    "Morgan Stanley Cuts Huntington Bancshares (HBAN) Target as Bank Stocks Face Macro Pressure"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66802.671875,
-        "perp_last_price": 66802.671875,
-        "mark_price": 66802.671875,
-        "index_price": 66802.671875,
+        "spot_price": 66717.4765625,
+        "perp_last_price": 66717.4765625,
+        "mark_price": 66717.4765625,
+        "index_price": 66717.4765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66802.671875,
-        "stop_loss_technical": 66615.0390625,
-        "target_1": 67084.12109375,
-        "target_2": 67365.5703125,
+        "entry_ideal": 66717.4765625,
+        "stop_loss_technical": 67491.78125,
+        "target_1": 65556.01953125,
+        "target_2": 64394.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66802.671875,
+        "entry_ideal": 66717.4765625,
         "stop_loss_technical": 69230.359375,
-        "target_1": 63161.140625,
-        "target_2": 59519.609375,
+        "target_1": 62948.15234375,
+        "target_2": 59178.828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
