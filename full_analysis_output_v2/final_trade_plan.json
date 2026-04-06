@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T17:57:32.302714+00:00",
+    "generated_at_utc": "2026-04-06T18:50:13.901922+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.014,
+        "price": 99.984,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.337,
+        "price": 4.325,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 4m",
+    "U.S. markets close in 1h 11m",
     "News from the Yahoo Finance Network",
-    "Best mortgage lenders for low or no down payments of April 2026",
-    "Spring homebuying seems to be picking up despite mortgage rate volatility",
-    "Weekly survey of mortgage lenders with the best rates: PenFed takes the lead with 6.042% APR",
-    "Bank of America downgrades US chemical stocks following price rally",
-    "The Dow's 2 best-known averages are sending different messages: Chart of the Day",
+    "Mortgage and refinance interest rates today, April 6, 2026: Down a quarter point in 5 days",
+    "US crude exports test limits as shipping constraints mount",
+    "Virtu Financial Stock Hit Record High Monday, Defying Overall Market Weakness",
+    "Tech stocks today: Big Tech's Q2 outlook and OpenAI's major policy proposals",
+    "Here’s what you can now do at age 65 that millions of older Americans miss — don’t whiff on these big financial moves",
     "Analyst Report: MDU Resources Group Inc"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69534.265625,
-        "perp_last_price": 69534.265625,
-        "mark_price": 69534.265625,
-        "index_price": 69534.265625,
+        "spot_price": 69768.421875,
+        "perp_last_price": 69768.421875,
+        "mark_price": 69768.421875,
+        "index_price": 69768.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69534.265625,
-        "stop_loss_technical": 70237.1015625,
-        "target_1": 68480.01171875,
-        "target_2": 67425.7578125,
+        "entry_ideal": 69768.421875,
+        "stop_loss_technical": 68721.89554688,
+        "target_1": 71338.21136719,
+        "target_2": 72908.00085937,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69534.265625,
-        "stop_loss_technical": 68491.25164063,
-        "target_1": 71098.78660156,
-        "target_2": 72663.30757812,
+        "entry_ideal": 69768.421875,
+        "stop_loss_technical": 68721.89554688,
+        "target_1": 71338.21136719,
+        "target_2": 72908.00085937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
