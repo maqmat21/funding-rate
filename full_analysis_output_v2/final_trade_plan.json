@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T14:35:51.549757+00:00",
+    "generated_at_utc": "2026-04-06T15:27:30.050386+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.814,
-        "trend": "bajista"
+        "price": 100.033,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.331,
+        "price": 4.333,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 25m",
+    "U.S. markets close in 4h 34m",
     "News from the Yahoo Finance Network",
-    "How the ‘Domino Effect’ from a Wonky SEC Policy Shift May Ease Capital Gains Pain",
-    "Prediction: These 5 Stocks Will Be the Best Performers of 2026",
-    "Dow Jones Futures: Leading Stocks Stand Tall As Market Bounces; Look For This Bullish Signal",
-    "InterDigital (IDCC) Among the Best Strong Buy AI Stocks to Invest In Now",
-    "Albemarle (ALB) Could Benefit from Major U.S.-Led Supply Chain Initiative",
-    "CBAK Energy (CBAT) Faces Temporary Margin Compression During Scaling Phase"
+    "Why Tilray Brands Investors Shouldn't Expect the Company to Post a Profit Anytime Soon",
+    "Seagate Tests Breakout After Top Pick Designation By Morgan Stanley, Called 'Underappreciated' AI Stock",
+    "Tech stocks today: Big Tech's Q2 outlook, and OpenAI's major policy proposals",
+    "Stock Market Today: Dow Up As Chip Stocks, Apple Gain; Iran Impact Shows Up In This Report (Live Coverage)",
+    "Is Procore Technologies, Inc. (PCOR) A Good Stock To Buy Now?",
+    "Nike's Growth Over the Past 5 Years Has Been Shockingly Bad, and Its Earnings Are Even Worse"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69630.7734375,
-        "perp_last_price": 69630.7734375,
-        "mark_price": 69630.7734375,
-        "index_price": 69630.7734375,
+        "spot_price": 69655.9453125,
+        "perp_last_price": 69655.9453125,
+        "mark_price": 69655.9453125,
+        "index_price": 69655.9453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69630.7734375,
-        "stop_loss_technical": 67271.3828125,
-        "target_1": 73169.859375,
-        "target_2": 76708.9453125,
+        "entry_ideal": 69655.9453125,
+        "stop_loss_technical": 68611.10613281,
+        "target_1": 71223.20408203,
+        "target_2": 72790.46285156,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69630.7734375,
-        "stop_loss_technical": 65725.2578125,
-        "target_1": 75489.046875,
-        "target_2": 81347.3203125,
+        "entry_ideal": 69655.9453125,
+        "stop_loss_technical": 68611.10613281,
+        "target_1": 71223.20408203,
+        "target_2": 72790.46285156,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
