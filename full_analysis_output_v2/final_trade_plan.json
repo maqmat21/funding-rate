@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T04:17:42.785625+00:00",
+    "generated_at_utc": "2026-04-06T06:10:25.665720+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.159,
+        "price": 100.12,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 14m",
+    "U.S. markets open in 7h 21m",
     "News from the Yahoo Finance Network",
-    "Why Marvell Technology Rallied in March",
-    "The Two-Week Window That Could Break Global Commodity Markets",
-    "Rail and truck data highlight a strong industrial economy",
-    "Jim Cramer Continues To Link Chevron (CVX) Stock With Iran Conflict",
-    "RH (RH) Is Fighting A Very Bad Housing Market, Says Jim Cramer",
-    "History Says the Great Rotation Is Just Getting Started. 2 Growth Stocks to Buy Now."
+    "Eyes on AI! Wedbush Keeps $600 Tesla Stock Price Target despite Q1 Miss",
+    "Jim Cramer Reveals What “the Second Half of the Year is Going to be All About” While Discussing Caterpillar (CAT)",
+    "Jim Cramer Praises Intel’s (INTC) CEO Lip-Bu Tan Once Again",
+    "Jim Cramer Discusses Salesforce (CRM) & AI",
+    "Jim Cramer Likes Eli Lilly’s (LLY) New Deal",
+    "Goldman Sachs has blunt message on gold price for rest of 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69031.84375,
-        "perp_last_price": 69031.84375,
-        "mark_price": 69031.84375,
-        "index_price": 69031.84375,
+        "spot_price": 69201.71875,
+        "perp_last_price": 69201.71875,
+        "mark_price": 69201.71875,
+        "index_price": 69201.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 69031.84375,
-        "stop_loss_technical": 69491.6484375,
-        "target_1": 68342.13671875,
-        "target_2": 67652.4296875,
+        "entry_ideal": 69201.71875,
+        "stop_loss_technical": 66691.171875,
+        "target_1": 72967.5390625,
+        "target_2": 76733.359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 69031.84375,
+        "entry_ideal": 69201.71875,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 73991.72265625,
-        "target_2": 78951.6015625,
+        "target_1": 74416.41015625,
+        "target_2": 79631.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
