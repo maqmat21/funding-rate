@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T06:10:25.665720+00:00",
+    "generated_at_utc": "2026-04-06T08:00:45.402839+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.12,
-        "trend": "alcista"
+        "price": 99.857,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.313,
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 21m",
+    "U.S. markets open in 5h 31m",
     "News from the Yahoo Finance Network",
-    "Eyes on AI! Wedbush Keeps $600 Tesla Stock Price Target despite Q1 Miss",
-    "Jim Cramer Reveals What “the Second Half of the Year is Going to be All About” While Discussing Caterpillar (CAT)",
-    "Jim Cramer Praises Intel’s (INTC) CEO Lip-Bu Tan Once Again",
-    "Jim Cramer Discusses Salesforce (CRM) & AI",
-    "Jim Cramer Likes Eli Lilly’s (LLY) New Deal",
-    "Goldman Sachs has blunt message on gold price for rest of 2026"
+    "America's largest homebuilder faces claims of 'defective pipes' in Georgia — it could be more widespread than reported",
+    "Why ExxonMobil Stock Soared More Than 11% in March",
+    "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
+    "Is UnitedHealth Group (UNH) The Best Healthcare Stock to Buy According to Billionaire Ken Griffin?",
+    "SpaceX has the momentum to become Musk's favored project",
+    "Jim Cramer Says “I Think Microsoft Gets Its Act Together, and I Am Hoping They Do”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69201.71875,
-        "perp_last_price": 69201.71875,
-        "mark_price": 69201.71875,
-        "index_price": 69201.71875,
+        "spot_price": 69137.640625,
+        "perp_last_price": 69137.640625,
+        "mark_price": 69137.640625,
+        "index_price": 69137.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69201.71875,
+        "entry_ideal": 69137.640625,
         "stop_loss_technical": 66691.171875,
-        "target_1": 72967.5390625,
-        "target_2": 76733.359375,
+        "target_1": 72807.34375,
+        "target_2": 76477.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69201.71875,
+        "entry_ideal": 69137.640625,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 74416.41015625,
-        "target_2": 79631.1015625,
+        "target_1": 74256.21484375,
+        "target_2": 79374.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
