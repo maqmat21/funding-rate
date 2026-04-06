@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-05T23:55:17.508387+00:00",
+    "generated_at_utc": "2026-04-06T01:16:49.128844+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.255,
+        "price": 100.028,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "3 Things Every New Bitcoin Investor Needs to Understand Before Buying",
     "Dow Jones Futures Fall As Trump Says Iran Faces 'Hell' If No Deal; Sandisk Leads 7 Stocks To Watch",
-    "Gulf Funds Near Deal to Back Paramount’s $81 Billion Takeover of Warner",
+    "Stock market today: Oil surges, futures fall as Trump ratchets up threats against Iran",
     "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
     "Inflation readings, oil volatility, and airline earnings: What to watch this week",
-    "'Wouldn't be shocked' if bull market continues: Wall Street aims to look past Iran conflict",
-    "How income and costs affect everyone differently",
-    "Got $1,000? This Agentic AI Growth Stock Is Down 87% From Its Highs"
+    "Got $1,000? The 1 AI Software Stock I'd Buy Before It Turns Profitable",
+    "'Wouldn't be shocked' if bull market continues: Wall Street aims to look past Iran conflict"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68981.2421875,
-        "perp_last_price": 68981.2421875,
-        "mark_price": 68981.2421875,
-        "index_price": 68981.2421875,
+        "spot_price": 68915.5234375,
+        "perp_last_price": 68915.5234375,
+        "mark_price": 68915.5234375,
+        "index_price": 68915.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 68981.2421875,
-        "stop_loss_technical": 66615.0390625,
-        "target_1": 72530.546875,
-        "target_2": 76079.8515625,
+        "entry_ideal": 68915.5234375,
+        "stop_loss_technical": 69491.6484375,
+        "target_1": 68051.3359375,
+        "target_2": 67187.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 68981.2421875,
+        "entry_ideal": 68915.5234375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 73865.21875,
-        "target_2": 78749.1953125,
+        "target_1": 73700.921875,
+        "target_2": 78486.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
