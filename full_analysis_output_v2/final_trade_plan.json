@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T13:41:20.709208+00:00",
+    "generated_at_utc": "2026-04-06T14:35:51.549757+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.853,
+        "price": 99.814,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.341,
+        "price": 4.331,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 19m",
+    "U.S. markets close in 5h 25m",
     "News from the Yahoo Finance Network",
-    "Stock market today: US stocks muted, oil dips as hopes emerge for an end to Middle East hostilities",
-    "Palantir-Connected Ondas Clinches Yet Another High-Growth Defense Pact",
-    "Bitcoin Rebounds Near $70K, Charles Schwab To Launch Direct Trading",
-    "Copart (CPRT) Slid on Decline in its Key Insurance Customers Volume",
-    "What Makes Wingstop (WINGS) an Investment Choice?",
-    "Financial advice Americans try to follow is keeping you broke. The ‘Big 4’ decisions that can make or break you in 2026"
+    "How the ‘Domino Effect’ from a Wonky SEC Policy Shift May Ease Capital Gains Pain",
+    "Prediction: These 5 Stocks Will Be the Best Performers of 2026",
+    "Dow Jones Futures: Leading Stocks Stand Tall As Market Bounces; Look For This Bullish Signal",
+    "InterDigital (IDCC) Among the Best Strong Buy AI Stocks to Invest In Now",
+    "Albemarle (ALB) Could Benefit from Major U.S.-Led Supply Chain Initiative",
+    "CBAK Energy (CBAT) Faces Temporary Margin Compression During Scaling Phase"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69290.4921875,
-        "perp_last_price": 69290.4921875,
-        "mark_price": 69290.4921875,
-        "index_price": 69290.4921875,
+        "spot_price": 69630.7734375,
+        "perp_last_price": 69630.7734375,
+        "mark_price": 69630.7734375,
+        "index_price": 69630.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 69290.4921875,
-        "stop_loss_technical": 70132.9921875,
-        "target_1": 68026.7421875,
-        "target_2": 66762.9921875,
+        "entry_ideal": 69630.7734375,
+        "stop_loss_technical": 67271.3828125,
+        "target_1": 73169.859375,
+        "target_2": 76708.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 69290.4921875,
+        "entry_ideal": 69630.7734375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 74638.34375,
-        "target_2": 79986.1953125,
+        "target_1": 75489.046875,
+        "target_2": 81347.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
