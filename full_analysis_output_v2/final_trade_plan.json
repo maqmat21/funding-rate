@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T19:42:41.948478+00:00",
+    "generated_at_utc": "2026-04-06T20:23:46.803202+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.012,
+        "price": 100.008,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "2 reasons why Microsoft stock has been shredded",
-    "Gold IRA storage rules: IRS requirements for storing precious metals",
-    "Is a gold IRA a good investment? Pros, cons, and who it's for.",
-    "How much gold should you hold in a retirement portfolio?",
+    "Is the housing market going to crash? Here's what experts say.",
+    "IRA contributions outpace 2025 as tax deadline looms",
+    "Stock market today: Dow, S&P 500, Nasdaq gain ahead of Trump deadline for Iran deal",
+    "Analysts Cut Tesla Price Targets As Regulators Shutter Investigation",
     "Analyst Report: MDU Resources Group Inc",
-    "Gold IRA vs. traditional IRA: What's the difference?"
+    "Billionaire Michael Saylor's Strategy reports $14.5B unrealized loss"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69796.90625,
-        "perp_last_price": 69796.90625,
-        "mark_price": 69796.90625,
-        "index_price": 69796.90625,
+        "spot_price": 69841.640625,
+        "perp_last_price": 69841.640625,
+        "mark_price": 69841.640625,
+        "index_price": 69841.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69796.90625,
-        "stop_loss_technical": 68749.95265625,
-        "target_1": 71367.33664062,
-        "target_2": 72937.76703125,
+        "entry_ideal": 69841.640625,
+        "stop_loss_technical": 68794.01601563,
+        "target_1": 71413.07753906,
+        "target_2": 72984.51445312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69796.90625,
-        "stop_loss_technical": 68749.95265625,
-        "target_1": 71367.33664062,
-        "target_2": 72937.76703125,
+        "entry_ideal": 69841.640625,
+        "stop_loss_technical": 68794.01601563,
+        "target_1": 71413.07753906,
+        "target_2": 72984.51445312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
