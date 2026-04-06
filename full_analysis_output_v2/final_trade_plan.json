@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T09:20:26.509018+00:00",
+    "generated_at_utc": "2026-04-06T10:34:01.908782+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.857,
+        "price": 99.907,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 10m",
+    "U.S. markets open in 2h 57m",
     "News from the Yahoo Finance Network",
-    "Pentagon Taps Boeing, Lockheed To Triple Critical Missile Output",
-    "Jim Cramer Says “I Think Microsoft Gets Its Act Together, and I Am Hoping They Do”",
-    "Jim Cramer Highlights RH’s “Suboptimal Situation”",
-    "Jim Cramer on Palantir: “I Think They’ll Have a Great 2026 and 2027”",
-    "Jim Cramer on Snap Inc.: “Nothing I’m Interested In”",
-    "A Photronics Director Sold 10,000 Company Shares. Should Investors Avoid the Stock?"
+    "FlexGen Power Systems buys Clean Energy Services",
+    "SpaceX's IPO could supercharge the entire space industry",
+    "JPMorgan's Dimon warns Iran war may drive inflation and interest rates higher",
+    "Jamie Dimon highlights Iran War, private credit, and AI-driven job losses as major US risks in his annual letter",
+    "Best high-yield savings interest rates today, April 6, 2026 (Earn up to 4% APY)",
+    "Why Newsmax Stock Sank 12.3% Last Month But Is Soaring in April"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69829.4921875,
-        "perp_last_price": 69829.4921875,
-        "mark_price": 69829.4921875,
-        "index_price": 69829.4921875,
+        "spot_price": 69765.359375,
+        "perp_last_price": 69765.359375,
+        "mark_price": 69765.359375,
+        "index_price": 69765.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69829.4921875,
-        "stop_loss_technical": 66823.8828125,
-        "target_1": 74337.90625,
-        "target_2": 78846.3203125,
+        "entry_ideal": 69765.359375,
+        "stop_loss_technical": 68718.87898437,
+        "target_1": 71335.07996094,
+        "target_2": 72904.80054688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69829.4921875,
+        "entry_ideal": 69765.359375,
         "stop_loss_technical": 65725.2578125,
-        "target_1": 75985.84375,
-        "target_2": 82142.1953125,
+        "target_1": 75825.51171875,
+        "target_2": 81885.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
