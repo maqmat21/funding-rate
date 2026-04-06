@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-06T22:04:10.755249+00:00",
+    "generated_at_utc": "2026-04-06T22:51:32.031091+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.998,
+        "price": 99.99,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "A man made $1.5 million trading SNAP benefits for cash, and now he’s going to prison. What to know about EBT card fraud",
-    "The $7 Billion Loyalty IOU: What Marriott and Hilton Owe Members",
+    "A couple in Alabama says they owes $40,000 on a car worth only $27,000 — here’s how",
+    "10 investing lessons I learned over the last 20 years",
     "Want to slash your taxes in retirement? These 5 countries make it possible — and some cost far less than the U.S.",
-    "China's middle class is 'shadow saving' — hoarding cash instead of spending — and it could be a problem for Americans",
+    "A man made $1.5 million trading SNAP benefits for cash, and now he’s going to prison. What to know about EBT card fraud",
     "Analyst Report: Invitation Homes Inc.",
-    "5 Small Money Decisions That Can Add Up to a Million-Dollar Difference"
+    "Gasoline, Fuel Prices Climb. San Francisco First City at $8 Diesel."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69471.375,
-        "perp_last_price": 69471.375,
-        "mark_price": 69471.375,
-        "index_price": 69471.375,
+        "spot_price": 69181.109375,
+        "perp_last_price": 69181.109375,
+        "mark_price": 69181.109375,
+        "index_price": 69181.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69471.375,
+        "entry_ideal": 69181.109375,
         "stop_loss_technical": 70237.1015625,
-        "target_1": 68322.78515625,
-        "target_2": 67174.1953125,
+        "target_1": 67597.12109375,
+        "target_2": 66013.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 69471.375,
-        "stop_loss_technical": 68429.304375,
-        "target_1": 71034.4809375,
-        "target_2": 72597.586875,
+        "entry_ideal": 69181.109375,
+        "stop_loss_technical": 70237.1015625,
+        "target_1": 67597.12109375,
+        "target_2": 66013.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
