@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T09:36:28.172530+00:00",
+    "generated_at_utc": "2026-04-07T10:37:05.587104+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.815,
+        "price": 99.985,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 55m",
+    "U.S. markets open in 2h 54m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
     "Jim Cramer Says Some Companies “Really Struggle for Respect” and “That’s the Case With Levi’s”",
@@ -34,38 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69145.6171875,
-        "perp_last_price": 69145.6171875,
-        "mark_price": 69145.6171875,
-        "index_price": 69145.6171875,
+        "spot_price": 68715.1875,
+        "perp_last_price": 68715.1875,
+        "mark_price": 68715.1875,
+        "index_price": 68715.1875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 69145.6171875,
-        "stop_loss_technical": 68286.8046875,
-        "target_1": 70433.8359375,
-        "target_2": 71722.0546875,
+        "entry_ideal": 68715.1875,
+        "stop_loss_technical": 70237.1015625,
+        "target_1": 66432.31640625,
+        "target_2": 64149.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 69145.6171875,
-        "stop_loss_technical": 66281.5390625,
-        "target_1": 73441.734375,
-        "target_2": 77737.8515625,
+        "entry_ideal": 68715.1875,
+        "stop_loss_technical": 70305.421875,
+        "target_1": 66329.8359375,
+        "target_2": 63944.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
