@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T08:18:20.966468+00:00",
+    "generated_at_utc": "2026-04-07T09:36:28.172530+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.958,
+        "price": 99.815,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 13m",
+    "U.S. markets open in 3h 55m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
     "Jim Cramer Says Some Companies “Really Struggle for Respect” and “That’s the Case With Levi’s”",
     "Jim Cramer Says Delta Air “Truly Distinguished Itself as One of the Most Reliable Earners in a Very Volatile Group”",
     "Jim Cramer on Constellation Brands: “I’m Excited About the Possibilities Here”",
+    "Jim Cramer on Home Depot: “I Regard It Now as One of the Most Problematic Positions in My Portfolio”",
     "Analyst Report: Lincoln Electric Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68710.4375,
-        "perp_last_price": 68710.4375,
-        "mark_price": 68710.4375,
-        "index_price": 68710.4375,
+        "spot_price": 69145.6171875,
+        "perp_last_price": 69145.6171875,
+        "mark_price": 69145.6171875,
+        "index_price": 69145.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 68710.4375,
+        "entry_ideal": 69145.6171875,
         "stop_loss_technical": 68286.8046875,
-        "target_1": 69345.88671875,
-        "target_2": 69981.3359375,
+        "target_1": 70433.8359375,
+        "target_2": 71722.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 68710.4375,
-        "stop_loss_technical": 70305.421875,
-        "target_1": 66317.9609375,
-        "target_2": 63925.484375,
+        "entry_ideal": 69145.6171875,
+        "stop_loss_technical": 66281.5390625,
+        "target_1": 73441.734375,
+        "target_2": 77737.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
