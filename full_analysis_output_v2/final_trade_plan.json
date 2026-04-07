@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T19:39:22.666216+00:00",
+    "generated_at_utc": "2026-04-07T20:08:35.904804+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.77,
+        "price": 99.671,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,49 +23,50 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "Citi Raises Sysco (SYY) Price Target Slightly, Flags Ongoing Execution Risk",
-    "Stifel Cuts MDT Target to $95, Cites MiniMed IPO Effects",
-    "Evercore ISI Lowers USB Target; HSBC Flags Repricing Across Bank Stocks",
-    "Clorox Closes GOJO Acquisition, Strengthens Position in Hygiene Solutions",
+    "Is Merck & Co. (MRK) One of the Best Consistent Dividend Stocks to Buy Right Now?",
+    "Circle Mints $1 Billion Of USDC Stablecoin In 24 Hours",
+    "Gold IRA storage rules: IRS requirements for storing precious metals",
+    "Citi Raises Exxon Mobil (XOM) Price Target on Middle East-Driven Energy Repricing",
     "Daily Spotlight: First-Quarter Segment Returns",
-    "Got $5,000? These 2 AI Security Growth Stocks Wall Street Says Could Surge 58% or More"
+    "This Healthcare Stock Has No Debt and a Near-Monopoly in Its Market"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68466.5859375,
-        "perp_last_price": 68466.5859375,
-        "mark_price": 68466.5859375,
-        "index_price": 68466.5859375,
+        "spot_price": 69350.96875,
+        "perp_last_price": 69350.96875,
+        "mark_price": 69350.96875,
+        "index_price": 69350.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 68466.5859375,
-        "stop_loss_technical": 69215.59375,
-        "target_1": 67343.07421875,
-        "target_2": 66219.5625,
+        "entry_ideal": 69402.171875,
+        "stop_loss_technical": 67755.734375,
+        "target_1": 71871.828125,
+        "target_2": 74341.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 68466.5859375,
-        "stop_loss_technical": 70305.421875,
-        "target_1": 65708.33203125,
-        "target_2": 62950.078125,
+        "entry_ideal": 69350.96875,
+        "stop_loss_technical": 66281.5390625,
+        "target_1": 73955.11328125,
+        "target_2": 78559.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
