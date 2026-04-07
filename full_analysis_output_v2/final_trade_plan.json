@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T20:08:35.904804+00:00",
+    "generated_at_utc": "2026-04-07T21:01:38.697734+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.671,
+        "price": 99.682,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "Is Merck & Co. (MRK) One of the Best Consistent Dividend Stocks to Buy Right Now?",
-    "Circle Mints $1 Billion Of USDC Stablecoin In 24 Hours",
-    "Gold IRA storage rules: IRS requirements for storing precious metals",
-    "Citi Raises Exxon Mobil (XOM) Price Target on Middle East-Driven Energy Repricing",
+    "Daily ETF Flows: GLD Scoops Up $511M",
+    "Broadcom Stock Rises On Google AI Chip Deal",
+    "Young investors tap social media for investing advice, with mixed results",
+    "Truckstop.com acquires heavy haul rate platform Wize Load",
     "Daily Spotlight: First-Quarter Segment Returns",
-    "This Healthcare Stock Has No Debt and a Near-Monopoly in Its Market"
+    "Macro traders slump most in March as war squeezes hedge funds"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69350.96875,
-        "perp_last_price": 69350.96875,
-        "mark_price": 69350.96875,
-        "index_price": 69350.96875,
+        "spot_price": 69281.7109375,
+        "perp_last_price": 69281.7109375,
+        "mark_price": 69281.7109375,
+        "index_price": 69281.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 69402.171875,
+        "entry_ideal": 69281.7109375,
         "stop_loss_technical": 67755.734375,
-        "target_1": 71871.828125,
-        "target_2": 74341.484375,
+        "target_1": 71570.67578125,
+        "target_2": 73859.640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 69350.96875,
+        "entry_ideal": 69281.7109375,
         "stop_loss_technical": 66281.5390625,
-        "target_1": 73955.11328125,
-        "target_2": 78559.2578125,
+        "target_1": 73781.96875,
+        "target_2": 78282.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
