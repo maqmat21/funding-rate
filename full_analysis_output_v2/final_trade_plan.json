@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T14:02:09.684447+00:00",
+    "generated_at_utc": "2026-04-07T15:22:41.279169+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.962,
+        "price": 99.938,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.362,
+        "price": 4.38,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 59m",
+    "U.S. markets close in 4h 38m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "Jim Cramer Says Some Companies “Really Struggle for Respect” and “That’s the Case With Levi’s”",
-    "Jim Cramer Says Delta Air “Truly Distinguished Itself as One of the Most Reliable Earners in a Very Volatile Group”",
-    "Jim Cramer on Constellation Brands: “I’m Excited About the Possibilities Here”",
-    "Jim Cramer Notes That He Prefers Chevron Over Exxon",
+    "US households see their finances deteriorating amid rising gas prices",
+    "UnitedHealth, Humana, Health Insurers Jump On Higher Medicare Advantage Payments",
+    "UnitedHealth and other insurer stocks jump after Medicare agrees to lift payments next year",
+    "Anthropic Locked In Google & Broadcom While Its Revenue Tripled",
     "Daily Spotlight: First-Quarter Segment Returns"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68254.234375,
-        "perp_last_price": 68254.234375,
-        "mark_price": 68254.234375,
-        "index_price": 68254.234375,
+        "spot_price": 68032.5078125,
+        "perp_last_price": 68032.5078125,
+        "mark_price": 68032.5078125,
+        "index_price": 68032.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 68254.234375,
-        "stop_loss_technical": 69973.8203125,
-        "target_1": 65674.85546875,
-        "target_2": 63095.4765625,
+        "entry_ideal": 68032.5078125,
+        "stop_loss_technical": 67755.734375,
+        "target_1": 68447.66796875,
+        "target_2": 68862.828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 68254.234375,
+        "entry_ideal": 68032.5078125,
         "stop_loss_technical": 70305.421875,
-        "target_1": 65177.453125,
-        "target_2": 62100.671875,
+        "target_1": 64623.13671875,
+        "target_2": 61213.765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
