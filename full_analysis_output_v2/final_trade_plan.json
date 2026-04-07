@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T17:35:26.613120+00:00",
+    "generated_at_utc": "2026-04-07T18:32:51.783837+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,60 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.913,
+        "price": 99.782,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.362,
+        "price": 4.343,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 25m",
+    "U.S. markets close in 1h 28m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "Tech stocks today: Broadcom, Google stocks rise on partnership, rest of 'Magnificent 7' sinks",
-    "Jenius Bank review (2026): Simple online banking with competitive rates and no fees",
-    "Only 2 types of people will survive the AI era, warns Palantir’s billionaire CEO — but there is another way to succeed",
-    "Ackman's Pershing Square proposes $64 billion merger deal with Universal Music Group",
+    "Microsoft In Downtrend Amid War Woes; Is Microsoft A Buy Or Sell Now?",
+    "Stock Market Today: Dow Improves As Hormuz Deadline Nears; Financial Name Breaks Out (Live Coverage)",
+    "Tech stocks today: Apple foldable iPhone on track for release later this year, Broadcom stock rises",
+    "The best personal loans for April 2026",
     "Daily Spotlight: First-Quarter Segment Returns"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68501.5625,
-        "perp_last_price": 68501.5625,
-        "mark_price": 68501.5625,
-        "index_price": 68501.5625,
+        "spot_price": 68627.2421875,
+        "perp_last_price": 68627.2421875,
+        "mark_price": 68627.2421875,
+        "index_price": 68627.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 68501.5625,
+        "entry_ideal": 68627.2421875,
         "stop_loss_technical": 67755.734375,
-        "target_1": 69620.3046875,
-        "target_2": 70739.046875,
+        "target_1": 69934.50390625,
+        "target_2": 71241.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 68501.5625,
-        "stop_loss_technical": 70305.421875,
-        "target_1": 65795.7734375,
-        "target_2": 63089.984375,
+        "entry_ideal": 68627.2421875,
+        "stop_loss_technical": 66281.5390625,
+        "target_1": 72145.796875,
+        "target_2": 75664.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
