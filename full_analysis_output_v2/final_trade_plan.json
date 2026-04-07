@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T07:02:51.401488+00:00",
+    "generated_at_utc": "2026-04-07T08:18:20.966468+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.997,
+        "price": 99.958,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 28m",
+    "U.S. markets open in 5h 13m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
     "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
@@ -34,38 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68557.8671875,
-        "perp_last_price": 68557.8671875,
-        "mark_price": 68557.8671875,
-        "index_price": 68557.8671875,
+        "spot_price": 68710.4375,
+        "perp_last_price": 68710.4375,
+        "mark_price": 68710.4375,
+        "index_price": 68710.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 68557.8671875,
+        "entry_ideal": 68710.4375,
         "stop_loss_technical": 68286.8046875,
-        "target_1": 68964.4609375,
-        "target_2": 69371.0546875,
+        "target_1": 69345.88671875,
+        "target_2": 69981.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 68557.8671875,
+        "entry_ideal": 68710.4375,
         "stop_loss_technical": 70305.421875,
-        "target_1": 65936.53515625,
-        "target_2": 63315.203125,
+        "target_1": 66317.9609375,
+        "target_2": 63925.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
