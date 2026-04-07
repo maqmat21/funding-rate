@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T05:53:01.208692+00:00",
+    "generated_at_utc": "2026-04-07T07:02:51.401488+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 65,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.18,
-        "trend": "unknown"
+        "price": 99.997,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.335,
@@ -21,54 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 38m",
+    "U.S. markets open in 6h 28m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "General Motors (GM) to Invest Over $150M in Saginaw Casting Operations",
-    "PDD Holdings (PDD) Reports 2025 Revenue of RMB431.8B; Net Income Falls 12%",
-    "Royal Caribbean (RCL) and Bank of America Launch Tri-Branded Visa Cards",
-    "GE HealthCare (GEHC) Receives FDA Clearance for Photonova Spectra CT System",
+    "A new MIT-backed tool shows exactly why your electricity bill is going up in your neighborhood — you should be concerned",
+    "Jim Cramer Says Some Companies “Really Struggle for Respect” and “That’s the Case With Levi’s”",
+    "Jim Cramer Says Delta Air “Truly Distinguished Itself as One of the Most Reliable Earners in a Very Volatile Group”",
+    "Jim Cramer on Constellation Brands: “I’m Excited About the Possibilities Here”",
     "Analyst Report: Lincoln Electric Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68639.046875,
-        "perp_last_price": 68639.046875,
-        "mark_price": 68639.046875,
-        "index_price": 68639.046875,
+        "spot_price": 68557.8671875,
+        "perp_last_price": 68557.8671875,
+        "mark_price": 68557.8671875,
+        "index_price": 68557.8671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 68639.046875,
-        "stop_loss_technical": 70237.1015625,
-        "target_1": 66241.96484375,
-        "target_2": 63844.8828125,
+        "entry_ideal": 68557.8671875,
+        "stop_loss_technical": 68286.8046875,
+        "target_1": 68964.4609375,
+        "target_2": 69371.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 68639.046875,
-        "stop_loss_technical": 70237.1015625,
-        "target_1": 66241.96484375,
-        "target_2": 63844.8828125,
+        "entry_ideal": 68557.8671875,
+        "stop_loss_technical": 70305.421875,
+        "target_1": 65936.53515625,
+        "target_2": 63315.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
