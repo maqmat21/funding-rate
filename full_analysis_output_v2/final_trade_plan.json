@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-07T15:22:41.279169+00:00",
+    "generated_at_utc": "2026-04-07T16:33:15.553134+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,61 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.938,
+        "price": 99.89,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.38,
+        "price": 4.354,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 38m",
+    "U.S. markets close in 3h 28m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "US households see their finances deteriorating amid rising gas prices",
-    "UnitedHealth, Humana, Health Insurers Jump On Higher Medicare Advantage Payments",
-    "UnitedHealth and other insurer stocks jump after Medicare agrees to lift payments next year",
-    "Anthropic Locked In Google & Broadcom While Its Revenue Tripled",
+    "Bearish Action On Snowflake Stock Points To This Option Trade",
+    "Washington Blinked and Health Insurers Made $13 Billion",
+    "Arista Upgraded To Buy On Google, Anthropic Data Center Orders",
+    "Bill Ackman Wants to Put Universal on a Bigger Stage",
     "Daily Spotlight: First-Quarter Segment Returns"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68032.5078125,
-        "perp_last_price": 68032.5078125,
-        "mark_price": 68032.5078125,
-        "index_price": 68032.5078125,
+        "spot_price": 68366.703125,
+        "perp_last_price": 68366.703125,
+        "mark_price": 68366.703125,
+        "index_price": 68366.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 68032.5078125,
+        "entry_ideal": 68366.703125,
         "stop_loss_technical": 67755.734375,
-        "target_1": 68447.66796875,
-        "target_2": 68862.828125,
+        "target_1": 69283.15625,
+        "target_2": 70199.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 68032.5078125,
+        "entry_ideal": 68366.703125,
         "stop_loss_technical": 70305.421875,
-        "target_1": 64623.13671875,
-        "target_2": 61213.765625,
+        "target_1": 65458.625,
+        "target_2": 62550.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
