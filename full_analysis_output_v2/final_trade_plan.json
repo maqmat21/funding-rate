@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T05:55:14.028694+00:00",
+    "generated_at_utc": "2026-04-08T07:05:14.254576+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.824,
+        "price": 98.806,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 35m",
+    "U.S. markets open in 6h 26m",
     "News from the Yahoo Finance Network",
-    "JPMorgan has a stark message on the next Fed rate cut",
-    "Best mortgage lenders for low or no down payments of April 2026",
-    "Weekly survey of mortgage lenders with the best rates: PenFed takes the lead with 6.042% APR",
-    "Intel Wants to Invest More in SambaNova. What Does That Mean for INTC Stock Holders?",
-    "This Is How Much Surging Oil Prices Will Boost Inflation",
-    "Why Hycroft Mining Stock Sank 30% In March"
+    "Tax Day is near. Here's how you can still save money before filing.",
+    "Tesla Could Be Headed for Third Year of Degrowth: How to Play TSLA Stock Now?",
+    "From MedTech to SOL Machine: Why Sharps Technology Just Landed on Crypto Radar",
+    "BNY and Robinhood Are Going to Manage Your Kid's Government Money",
+    "AMD Stock Pullback: Is Now the Time to Buy for Big Gains or Should You Avoid the Dip?",
+    "This Is a Troubling Trend Meta Platforms Investors Should Watch Out for in Future Quarters"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71793.8671875,
-        "perp_last_price": 71793.8671875,
-        "mark_price": 71793.8671875,
-        "index_price": 71793.8671875,
+        "spot_price": 71683.421875,
+        "perp_last_price": 71683.421875,
+        "mark_price": 71683.421875,
+        "index_price": 71683.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 71793.8671875,
-        "stop_loss_technical": 67755.734375,
-        "target_1": 77851.06640625,
-        "target_2": 83908.265625,
+        "entry_ideal": 71683.421875,
+        "stop_loss_technical": 72694.3125,
+        "target_1": 70167.0859375,
+        "target_2": 68650.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 71793.8671875,
+        "entry_ideal": 71683.421875,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 79568.71875,
-        "target_2": 87343.5703125,
+        "target_1": 79292.60546875,
+        "target_2": 86901.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
