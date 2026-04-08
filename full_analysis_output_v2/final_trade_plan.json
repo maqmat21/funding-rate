@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T07:05:14.254576+00:00",
+    "generated_at_utc": "2026-04-08T08:17:50.129723+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.806,
+        "price": 98.768,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 26m",
+    "U.S. markets open in 5h 14m",
     "News from the Yahoo Finance Network",
-    "Tax Day is near. Here's how you can still save money before filing.",
-    "Tesla Could Be Headed for Third Year of Degrowth: How to Play TSLA Stock Now?",
-    "From MedTech to SOL Machine: Why Sharps Technology Just Landed on Crypto Radar",
-    "BNY and Robinhood Are Going to Manage Your Kid's Government Money",
-    "AMD Stock Pullback: Is Now the Time to Buy for Big Gains or Should You Avoid the Dip?",
-    "This Is a Troubling Trend Meta Platforms Investors Should Watch Out for in Future Quarters"
+    "Why Soleno Therapeutics Stock Rocketed Higher on Monday",
+    "Stocks Finish Higher on Iran Ceasefire Hopes",
+    "Citi Puts AMD, Analog Devices On 30-Day Positive Catalyst Watch",
+    "Berkshire Hathaway Suffered Its Longest Losing Streak in Over 7 Years — But Warren Buffett Said, ‘Berkshire Doesn’t Need Me… Everything Will Be the Same’",
+    "Stock Of The Day In Buy Zone, Leads Industry Despite Supersmall Market",
+    "Micron Stock Rises. Why This Analyst Sees a 60% Gain"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71683.421875,
-        "perp_last_price": 71683.421875,
-        "mark_price": 71683.421875,
-        "index_price": 71683.421875,
+        "spot_price": 71704.0,
+        "perp_last_price": 71704.0,
+        "mark_price": 71704.0,
+        "index_price": 71704.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 71683.421875,
-        "stop_loss_technical": 72694.3125,
-        "target_1": 70167.0859375,
-        "target_2": 68650.75,
+        "entry_ideal": 71704.0,
+        "stop_loss_technical": 67755.734375,
+        "target_1": 77626.3984375,
+        "target_2": 83548.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 71683.421875,
+        "entry_ideal": 71704.0,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 79292.60546875,
-        "target_2": 86901.7890625,
+        "target_1": 79344.05078125,
+        "target_2": 86984.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
