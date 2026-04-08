@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T18:52:28.023567+00:00",
+    "generated_at_utc": "2026-04-08T19:53:18.002973+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.077,
+        "price": 99.054,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.293,
+        "price": 4.291,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 8m",
     "News from the Yahoo Finance Network",
-    "PriceSmart (PSMT) Q4 2025 Earnings Call Transcript",
-    "Stock Market Today: Dow Surges 1,200 Points After Fed Minutes; Caterpillar Soars (Live Coverage)",
-    "Datavault AI Says $750M in Q1 Tokenization Contracts Point to a More Measurable RWA Business",
-    "HELOCs have changed — and some homeowners may not like the new rules",
-    "Yuga Labs Settles Long Running Bored Ape Lawsuit",
-    "Investment Adviser Dumps Shares of Large-Cap ETF"
+    "3 Top Agentic AI Stocks Investors Should Be Loading Up on Now",
+    "Block (XYZ) Just Made A Move That Could Quietly Deepen Its Ecosystem",
+    "A $225 PT for Diamondback Energy Suggests Opportunity — But Timing May Be Everything",
+    "Teva Pharmaceutical: Among the 13 Cheapest Strong Buy Stocks to Buy Right Now",
+    "Insmed Incorporated (INSM): Billionaire Stan Druckenmiller Trims Stake",
+    "Natera Inc. (NTRA): Upside Potential Pulls Billionaire Stan Druckenmiller",
+    "Delta Air Lines At $76 PT, One Airline Is Standing Out From The Rest"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71284.3125,
-        "perp_last_price": 71284.3125,
-        "mark_price": 71284.3125,
-        "index_price": 71284.3125,
+        "spot_price": 71350.578125,
+        "perp_last_price": 71350.578125,
+        "mark_price": 71350.578125,
+        "index_price": 71350.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71284.3125,
-        "stop_loss_technical": 72739.1796875,
-        "target_1": 69102.01171875,
-        "target_2": 66919.7109375,
+        "entry_ideal": 71350.578125,
+        "stop_loss_technical": 70754.125,
+        "target_1": 72245.2578125,
+        "target_2": 73139.9375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 71284.3125,
+        "entry_ideal": 71350.578125,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 78294.83203125,
-        "target_2": 85305.3515625,
+        "target_1": 78460.49609375,
+        "target_2": 85570.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
