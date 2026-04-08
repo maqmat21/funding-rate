@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T17:46:59.825533+00:00",
+    "generated_at_utc": "2026-04-08T18:52:28.023567+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.96,
-        "trend": "bajista"
+        "price": 99.077,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.279,
+        "price": 4.293,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 14m",
+    "U.S. markets close in 1h 8m",
     "News from the Yahoo Finance Network",
-    "Mortgage and refinance interest rates today, April 8, 2026: Small moves down are adding up",
-    "Bed Bath & Beyond May Be Back From The Dead As It Acquires These Brands.",
-    "FedEx Freight sets goalposts for standalone business",
-    "Market Crash: Is This the Best Time to Load Up on Cryptocurrency?",
-    "Stock Market Today: Dow Surges 1,200 Points On Ceasefire; This Data Center Name Breaks Out (Live Coverage)",
-    "Tech stocks today: Chip stocks lead tech higher, AI industry seeks to allay fears"
+    "PriceSmart (PSMT) Q4 2025 Earnings Call Transcript",
+    "Stock Market Today: Dow Surges 1,200 Points After Fed Minutes; Caterpillar Soars (Live Coverage)",
+    "Datavault AI Says $750M in Q1 Tokenization Contracts Point to a More Measurable RWA Business",
+    "HELOCs have changed — and some homeowners may not like the new rules",
+    "Yuga Labs Settles Long Running Bored Ape Lawsuit",
+    "Investment Adviser Dumps Shares of Large-Cap ETF"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71835.4140625,
-        "perp_last_price": 71835.4140625,
-        "mark_price": 71835.4140625,
-        "index_price": 71835.4140625,
+        "spot_price": 71284.3125,
+        "perp_last_price": 71284.3125,
+        "mark_price": 71284.3125,
+        "index_price": 71284.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 71835.4140625,
-        "stop_loss_technical": 69911.75,
-        "target_1": 74720.91015625,
-        "target_2": 77606.40625,
+        "entry_ideal": 71284.3125,
+        "stop_loss_technical": 72739.1796875,
+        "target_1": 69102.01171875,
+        "target_2": 66919.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 71835.4140625,
+        "entry_ideal": 71284.3125,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 79672.5859375,
-        "target_2": 87509.7578125,
+        "target_1": 78294.83203125,
+        "target_2": 85305.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
