@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T21:26:24.585354+00:00",
+    "generated_at_utc": "2026-04-08T22:04:33.853568+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.01,
-        "trend": "alcista"
+        "price": 98.997,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.291,
@@ -22,51 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Stock Market Today, April 8: Intel Surges After Joining Elon Musk Terafab AI Chip Project",
-    "How to get a low interest loan in 7 steps",
-    "What is an unsecured loan?",
-    "What is the APR on a personal loan?",
-    "Why are home prices so high? How today's market impacts housing costs.",
-    "Bitcoin Depot ATM Operator Says $3.6 Million in BTC Stolen in Corporate Hack",
-    "The best 0% APR credit cards for April 2026: Pay no interest for up to 24 months"
+    "Stocks Tumble and Crude Prices Jump on Fears of Iran War Escalation",
+    "What to Expect From American Water Works's Q1 2026 Earnings Report",
+    "Wingstop Upgraded to Buy by Citi With $230 Target as Second-Half Recovery Comes Into View",
+    "Latest DOE/EIA diesel benchmark price increase adds almost 25 cts",
+    "SpaceX: How to buy before the IPO",
+    "Tesla Delivery Growth Lifts These EV Battery Suppliers, Report",
+    "Whirlpool Corporation (WHR): Billionaire David Tepper Springs Surprise"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71600.09375,
-        "perp_last_price": 71600.09375,
-        "mark_price": 71600.09375,
-        "index_price": 71600.09375,
+        "spot_price": 71518.46875,
+        "perp_last_price": 71518.46875,
+        "mark_price": 71518.46875,
+        "index_price": 71518.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71600.09375,
-        "stop_loss_technical": 70754.125,
-        "target_1": 72869.046875,
-        "target_2": 74138.0,
+        "entry_ideal": 71518.46875,
+        "stop_loss_technical": 70445.69171875,
+        "target_1": 73127.63429687,
+        "target_2": 74736.79984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71600.09375,
+        "entry_ideal": 71518.46875,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 79084.28515625,
-        "target_2": 86568.4765625,
+        "target_1": 78880.22265625,
+        "target_2": 86241.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
