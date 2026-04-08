@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T01:15:46.824093+00:00",
+    "generated_at_utc": "2026-04-08T04:09:22.953968+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.974,
+        "price": 98.991,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 22m",
     "News from the Yahoo Finance Network",
     "JPMorgan has a stark message on the next Fed rate cut",
-    "Hedge Funds Are Betting Against Super Micro. Should You Go Against the Grain and Buy SMCI Stock Here?",
-    "Alibaba Just Revealed Its New Agentic AI Model. Should You Buy, Sell, or Hold BABA Stock Now?",
-    "AMD Stock Tries To Recover After Giant Plunge",
-    "Prime Visa card review: Great everyday savings for Amazon shoppers",
-    "Our Tesla Price Target Is $349 but the Risk Reward Cuts Both Ways Right Now",
-    "What are store credit cards and when do they make sense?"
+    "Are credit card rates fixed or variable?",
+    "Tesla Stock Is Priced For Perfection But Delivers Disappointment",
+    "The best metal credit cards that look great and help you save",
+    "Dimon: Global Economy 'Far Less Reliant' On Energy Than In The Past",
+    "Ashford Hospitality Trust offloads Virginia hotel for $58M"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71711.140625,
-        "perp_last_price": 71711.140625,
-        "mark_price": 71711.140625,
-        "index_price": 71711.140625,
+        "spot_price": 71477.578125,
+        "perp_last_price": 71477.578125,
+        "mark_price": 71477.578125,
+        "index_price": 71477.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71711.140625,
-        "stop_loss_technical": 72057.078125,
-        "target_1": 71192.234375,
-        "target_2": 70673.328125,
+        "entry_ideal": 71477.578125,
+        "stop_loss_technical": 67755.734375,
+        "target_1": 77060.34375,
+        "target_2": 82643.109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 71711.140625,
+        "entry_ideal": 71477.578125,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 79361.90234375,
-        "target_2": 87012.6640625,
+        "target_1": 78777.99609375,
+        "target_2": 86078.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
