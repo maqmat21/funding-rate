@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T15:49:41.219173+00:00",
+    "generated_at_utc": "2026-04-09T16:53:22.081509+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.807,
+        "price": 98.709,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.295,
+        "price": 4.269,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 11m",
+    "U.S. markets close in 3h 8m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "Universal Music Group (Ackman’s Version): Hedge Fund Mogul Makes $63B Takeover Bid",
-    "What, Me Worry? Blackstone Closes $10 Billion Private Credit Fund Amid Industry Turmoil",
-    "Roundhill Taps Surging Memory Sector with New ETF",
-    "Goldman Sachs Spots Buying Opportunity in Bruised Big Tech",
+    "Bank of America Customized Cash Rewards credit card review: Cash back on your choice of everyday categories",
+    "The best balance transfer credit cards for April 2026: Don't pay any interest until 2027",
+    "Best Bank of America credit cards for April 2026: Cash back, travel, 0% APR, and more",
+    "Swiss banks to test possible uses for Swiss franc stablecoin",
     "Analyst Report: Alliant Energy Corp"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72112.1640625,
-        "perp_last_price": 72112.1640625,
-        "mark_price": 72112.1640625,
-        "index_price": 72112.1640625,
+        "spot_price": 71853.828125,
+        "perp_last_price": 71853.828125,
+        "mark_price": 71853.828125,
+        "index_price": 71853.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72112.1640625,
-        "stop_loss_technical": 70528.3125,
-        "target_1": 74487.94140625,
-        "target_2": 76863.71875,
+        "entry_ideal": 71853.828125,
+        "stop_loss_technical": 70776.02070313,
+        "target_1": 73470.53925781,
+        "target_2": 75087.25039063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72112.1640625,
+        "entry_ideal": 71853.828125,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 80364.4609375,
-        "target_2": 88616.7578125,
+        "target_1": 79718.62109375,
+        "target_2": 87583.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
