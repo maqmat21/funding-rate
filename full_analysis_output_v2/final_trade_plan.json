@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T06:10:57.346120+00:00",
+    "generated_at_utc": "2026-04-09T07:56:04.289640+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.083,
+        "price": 99.073,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 20m",
+    "U.S. markets open in 5h 35m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "Stock Of The Day Suddenly Sees This Product Surge In Price. That's Not All That's Driving It.",
-    "Sugar Prices Retreat on a Possible Increase in India's Sugar Exports",
-    "UnitedHealth Stock Is Poised to Break Through 100-Day Moving Average on CMS 2027 Rate Updates. Should You Buy UNH Here?",
-    "As Broadcom Expands AI Deals With Google and Anthropic, Should You Buy AVGO Stock?",
+    "Wealth by generation: Which age group is the most financially successful?",
+    "New Sam’s Club Price Hikes Take Effect May 1. Should You Buy Walmart Stock First?",
+    "No. 1 Ranked Hospital Operator Tenet Healthcare Rising Toward Another Record High?",
+    "If You Are Buying Into the Comeback Story in UnitedHealth Stock, Buy This ETF Too",
     "Analyst Report: CrowdStrike Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71069.28125,
-        "perp_last_price": 71069.28125,
-        "mark_price": 71069.28125,
-        "index_price": 71069.28125,
+        "spot_price": 71007.453125,
+        "perp_last_price": 71007.453125,
+        "mark_price": 71007.453125,
+        "index_price": 71007.453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 71069.28125,
-        "stop_loss_technical": 70528.3125,
-        "target_1": 71880.734375,
-        "target_2": 72692.1875,
+        "entry_ideal": 71007.453125,
+        "stop_loss_technical": 70538.5546875,
+        "target_1": 71710.80078125,
+        "target_2": 72414.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 71069.28125,
-        "stop_loss_technical": 72739.1796875,
-        "target_1": 68564.43359375,
-        "target_2": 66059.5859375,
+        "entry_ideal": 71007.453125,
+        "stop_loss_technical": 72825.1875,
+        "target_1": 68280.8515625,
+        "target_2": 65554.25,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
