@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T02:11:27.240413+00:00",
+    "generated_at_utc": "2026-04-09T04:42:42.156345+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.079,
-        "trend": "alcista"
+        "price": 99.005,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.291,
@@ -21,51 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 49m",
     "News from the Yahoo Finance Network",
-    "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "An All-Time High Plus Great Revenue and Earnings Has This Tech Stock Towering Above the Rest",
-    "Microsoft In Downtrend Amid War Woes; Is Microsoft A Buy Or Sell Now?",
-    "3 ETFs to Buy Now If You Want to Invest Directly in OpenAI",
-    "The best personal loans for April 2026",
-    "Analyst Report: CrowdStrike Holdings, Inc.",
-    "1 Chart Investors Needs to See Before Buying Micron Technology Stock"
+    "The 7 best crypto exchanges in 2026: Our top picks after hands-on testing",
+    "Broadcom Surges 6% as AI Deals With Google and Anthropic Supercharge Revenue Visibility",
+    "Only 2 types of people will survive the AI era, warns Palantir’s billionaire CEO — but there is another way to succeed",
+    "Corn Showing Losses on Tuesday",
+    "Soybeans Facing Losses at Midday",
+    "Analyst Report: CrowdStrike Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 70945.6484375,
-        "perp_last_price": 70945.6484375,
-        "mark_price": 70945.6484375,
-        "index_price": 70945.6484375,
+        "spot_price": 70896.328125,
+        "perp_last_price": 70896.328125,
+        "mark_price": 70896.328125,
+        "index_price": 70896.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 70945.6484375,
-        "stop_loss_technical": 70528.3125,
-        "target_1": 71571.65234375,
-        "target_2": 72197.65625,
+        "entry_ideal": 70896.328125,
+        "stop_loss_technical": 69832.88320313,
+        "target_1": 72491.49550781,
+        "target_2": 74086.66289062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 70945.6484375,
-        "stop_loss_technical": 72739.1796875,
-        "target_1": 68255.3515625,
-        "target_2": 65565.0546875,
+        "entry_ideal": 70896.328125,
+        "stop_loss_technical": 69832.88320313,
+        "target_1": 72491.49550781,
+        "target_2": 74086.66289062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +81,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +95,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
