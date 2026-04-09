@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T07:56:04.289640+00:00",
+    "generated_at_utc": "2026-04-09T08:59:00.244918+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.073,
+        "price": 99.04,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,50 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 35m",
+    "U.S. markets open in 4h 32m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "Wealth by generation: Which age group is the most financially successful?",
-    "New Sam’s Club Price Hikes Take Effect May 1. Should You Buy Walmart Stock First?",
-    "No. 1 Ranked Hospital Operator Tenet Healthcare Rising Toward Another Record High?",
-    "If You Are Buying Into the Comeback Story in UnitedHealth Stock, Buy This ETF Too",
+    "Universal Music stock soars as Bill Ackman plans $64 billion acquisition and US listing",
+    "Stock Market Today: Dow, S&P 500 Close Mixed As Critical Iran Deadline Nears (Live Coverage)",
+    "Coinbase Jumps On Schwab News But Gains Fade; Is Coinbase Stock A Buy Now?",
+    "Super Micro begins independent probe after criminal case against co‑founder, others",
     "Analyst Report: CrowdStrike Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71007.453125,
-        "perp_last_price": 71007.453125,
-        "mark_price": 71007.453125,
-        "index_price": 71007.453125,
+        "spot_price": 71265.328125,
+        "perp_last_price": 71265.328125,
+        "mark_price": 71265.328125,
+        "index_price": 71265.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 71265.328125,
+        "stop_loss_technical": 70528.3125,
+        "target_1": 72370.8515625,
+        "target_2": 73476.375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 71007.453125,
-        "stop_loss_technical": 70538.5546875,
-        "target_1": 71710.80078125,
-        "target_2": 72414.1484375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio < EMA20"
-        ],
-        "entry_ideal": 71007.453125,
-        "stop_loss_technical": 72825.1875,
-        "target_1": 68280.8515625,
-        "target_2": 65554.25,
+        "entry_ideal": 71265.328125,
+        "stop_loss_technical": 66610.6328125,
+        "target_1": 78247.37109375,
+        "target_2": 85229.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
