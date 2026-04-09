@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T08:59:00.244918+00:00",
+    "generated_at_utc": "2026-04-09T10:12:14.413482+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.04,
-        "trend": "alcista"
+        "price": 98.993,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.291,
@@ -21,51 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 32m",
+    "U.S. markets open in 3h 19m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "Universal Music stock soars as Bill Ackman plans $64 billion acquisition and US listing",
-    "Stock Market Today: Dow, S&P 500 Close Mixed As Critical Iran Deadline Nears (Live Coverage)",
-    "Coinbase Jumps On Schwab News But Gains Fade; Is Coinbase Stock A Buy Now?",
-    "Super Micro begins independent probe after criminal case against co‑founder, others",
+    "This Wannabe Dividend Aristocrat Yields Nearly 4%: Should You Buy?",
+    "Ackman's Pershing Square proposes $64 billion merger deal with Universal Music Group",
+    "The Pentagon Has 268 Days to Replace America’s Most Critical Supply Chain",
+    "United Microelectronics (UMC) Climbs 9.08% Ahead of Dividends, March Sales",
     "Analyst Report: CrowdStrike Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71265.328125,
-        "perp_last_price": 71265.328125,
-        "mark_price": 71265.328125,
-        "index_price": 71265.328125,
+        "spot_price": 71394.2109375,
+        "perp_last_price": 71394.2109375,
+        "mark_price": 71394.2109375,
+        "index_price": 71394.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71265.328125,
-        "stop_loss_technical": 70528.3125,
-        "target_1": 72370.8515625,
-        "target_2": 73476.375,
+        "entry_ideal": 71394.2109375,
+        "stop_loss_technical": 70538.5546875,
+        "target_1": 72677.6953125,
+        "target_2": 73961.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71265.328125,
+        "entry_ideal": 71394.2109375,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 78247.37109375,
-        "target_2": 85229.4140625,
+        "target_1": 78569.578125,
+        "target_2": 85744.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
