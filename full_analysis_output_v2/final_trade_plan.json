@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-08T23:59:30.689294+00:00",
+    "generated_at_utc": "2026-04-09T02:11:27.240413+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.05,
+        "price": 99.079,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Everything you need to know about the Marcus by Goldman Sachs savings account",
-    "Why Carnival, Royal Caribbean, and Norwegian Cruise Line Stocks Surged Today",
-    "Dow Jones Futures: Iran Ceasefire Spurs Bullish Turn, What's Your Move? Google, Nvidia Parent Among 7 New Buys",
-    "Paysafe’s MoonPay Deal Brings Stablecoin Rails to a Payments Platform That Handled $167B Last Year",
-    "Tehran Takes the Strait — and the Premium",
-    "iFIT Names Marc Washington as President & CFO",
-    "Circle Partners With Polymarket In Exchange Overhaul"
+    "Major alcohol distributor shuts down operations, lays off over 500 workers",
+    "An All-Time High Plus Great Revenue and Earnings Has This Tech Stock Towering Above the Rest",
+    "Microsoft In Downtrend Amid War Woes; Is Microsoft A Buy Or Sell Now?",
+    "3 ETFs to Buy Now If You Want to Invest Directly in OpenAI",
+    "The best personal loans for April 2026",
+    "Analyst Report: CrowdStrike Holdings, Inc.",
+    "1 Chart Investors Needs to See Before Buying Micron Technology Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71093.3828125,
-        "perp_last_price": 71093.3828125,
-        "mark_price": 71093.3828125,
-        "index_price": 71093.3828125,
+        "spot_price": 70945.6484375,
+        "perp_last_price": 70945.6484375,
+        "mark_price": 70945.6484375,
+        "index_price": 70945.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71121.46875,
-        "stop_loss_technical": 70754.125,
-        "target_1": 71672.484375,
-        "target_2": 72223.5,
+        "entry_ideal": 70945.6484375,
+        "stop_loss_technical": 70528.3125,
+        "target_1": 71571.65234375,
+        "target_2": 72197.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 71093.3828125,
+        "entry_ideal": 70945.6484375,
         "stop_loss_technical": 72739.1796875,
-        "target_1": 68624.6875,
-        "target_2": 66155.9921875,
+        "target_1": 68255.3515625,
+        "target_2": 65565.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
