@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T10:12:14.413482+00:00",
+    "generated_at_utc": "2026-04-09T11:17:24.247617+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.993,
+        "price": 99.021,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 19m",
+    "U.S. markets open in 2h 14m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
     "This Wannabe Dividend Aristocrat Yields Nearly 4%: Should You Buy?",
@@ -34,14 +34,29 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71394.2109375,
-        "perp_last_price": 71394.2109375,
-        "mark_price": 71394.2109375,
-        "index_price": 71394.2109375,
+        "spot_price": 71197.1484375,
+        "perp_last_price": 71197.1484375,
+        "mark_price": 71197.1484375,
+        "index_price": 71197.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 71197.1484375,
+        "stop_loss_technical": 70129.19121094,
+        "target_1": 72799.08427734,
+        "target_2": 74401.02011719,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -49,25 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71394.2109375,
-        "stop_loss_technical": 70538.5546875,
-        "target_1": 72677.6953125,
-        "target_2": 73961.1796875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 71394.2109375,
+        "entry_ideal": 71197.1484375,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 78569.578125,
-        "target_2": 85744.9453125,
+        "target_1": 78076.921875,
+        "target_2": 84956.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
