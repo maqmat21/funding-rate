@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T21:28:10.694840+00:00",
+    "generated_at_utc": "2026-04-09T22:04:18.291069+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.812,
+        "price": 98.799,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Goldman Sachs private credit fund narrowly misses a redemption crisis",
-    "Mortgage rate predictions for the next 5 years: Where rates could land by 2030",
-    "What unmarried couples buying a house together need to know",
-    "Dow Jones Futures: Stocks Extend Rally On Iran War News, Amazon; CPI Inflation, Nvidia Chipmaker Due",
-    "Here’s Why Callaway Golf (CALY) Is a Hot Growth Stock to Invest In",
+    "Major alcohol distributor shuts down operations, lays off over 500 workers",
+    "Delta Spent $2 Billion More on Fuel Last Quarter and Still Beat Estimates",
+    "Dow Jones Futures Spike 1,300 Points, Oil Prices Dive On Trump-Iran Ceasefire; What To Do Now",
+    "Is The 10% Correction Level an Arbitrary Point for Stocks?",
+    "Homebuying in America: “Everything I made at my second job went toward my down payment”",
     "Analyst Report: Alliant Energy Corp",
-    "Major alcohol distributor shuts down operations, lays off over 500 workers"
+    "Goldman Sachs private credit fund narrowly misses a redemption crisis"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72259.921875,
-        "perp_last_price": 72259.921875,
-        "mark_price": 72259.921875,
-        "index_price": 72259.921875,
+        "spot_price": 72312.2578125,
+        "perp_last_price": 72312.2578125,
+        "mark_price": 72312.2578125,
+        "index_price": 72312.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72259.921875,
-        "stop_loss_technical": 71176.02304687,
-        "target_1": 73885.77011719,
-        "target_2": 75511.61835938,
+        "entry_ideal": 72312.2578125,
+        "stop_loss_technical": 70549.265625,
+        "target_1": 74956.74609375,
+        "target_2": 77601.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72259.921875,
+        "entry_ideal": 72312.2578125,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 80733.85546875,
-        "target_2": 89207.7890625,
+        "target_1": 80864.6953125,
+        "target_2": 89417.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
