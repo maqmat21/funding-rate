@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T12:05:49.400298+00:00",
+    "generated_at_utc": "2026-04-09T14:07:36.734297+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,64 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.899,
+        "price": 98.909,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.291,
+        "price": 4.305,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 25m",
+    "U.S. markets close in 5h 53m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "Dow Jones Futures Fall, Oil Prices Near $100 Amid Iran Ceasefire Doubts. Google, Nvidia Partner Lead 7 New Buys",
-    "How OpenClaw Became Google's Next Big AI Threat After ChatGPT",
-    "8 California doctors and nurses arrested for posing patients as terminally ill to milk $4M from Medicare",
-    "Meta's Spark model gets lavished with Wall Street praise",
-    "Analyst Report: CrowdStrike Holdings, Inc."
+    "Oil plunges below $95 as the Dow surges 1,300 in a worldwide rally following a ceasefire with Iran",
+    "Goldman Sachs Spots Buying Opportunity in Bruised Big Tech",
+    "Universal Music Group (Ackman’s Version): Hedge Fund Mogul Makes $63B Takeover Bid",
+    "What, Me Worry? Blackstone Closes $10 Billion Private Credit Fund Amid Industry Turmoil",
+    "Analyst Report: PPL Corporation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71214.4609375,
-        "perp_last_price": 71214.4609375,
-        "mark_price": 71214.4609375,
-        "index_price": 71214.4609375,
+        "spot_price": 70739.328125,
+        "perp_last_price": 70739.328125,
+        "mark_price": 70739.328125,
+        "index_price": 70739.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71214.4609375,
-        "stop_loss_technical": 70528.3125,
-        "target_1": 72243.68359375,
-        "target_2": 73272.90625,
+        "entry_ideal": 70739.328125,
+        "stop_loss_technical": 69678.23820313,
+        "target_1": 72330.96300781,
+        "target_2": 73922.59789062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71214.4609375,
-        "stop_loss_technical": 66610.6328125,
-        "target_1": 78120.203125,
-        "target_2": 85025.9453125,
+        "entry_ideal": 70739.328125,
+        "stop_loss_technical": 69678.23820313,
+        "target_1": 72330.96300781,
+        "target_2": 73922.59789062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
