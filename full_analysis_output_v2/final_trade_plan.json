@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T22:04:18.291069+00:00",
+    "generated_at_utc": "2026-04-09T22:55:41.126931+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.799,
+        "price": 98.794,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,10 +23,10 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "Delta Spent $2 Billion More on Fuel Last Quarter and Still Beat Estimates",
-    "Dow Jones Futures Spike 1,300 Points, Oil Prices Dive On Trump-Iran Ceasefire; What To Do Now",
-    "Is The 10% Correction Level an Arbitrary Point for Stocks?",
-    "Homebuying in America: “Everything I made at my second job went toward my down payment”",
+    "Analysis-How the math works on a $1.75 trillion SpaceX valuation",
+    "Netflix Lost the Battle for Warner Bros, but Goldman Sachs Says It Won the War",
+    "Move Over, Western Digital! Why Seagate Is the New Top Stock Pick",
+    "Robinhood Will Help Run Trump Accounts for Kids. Does That  Make HOOD Stock a Buy?",
     "Analyst Report: Alliant Energy Corp",
     "Goldman Sachs private credit fund narrowly misses a redemption crisis"
   ],
@@ -34,25 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72312.2578125,
-        "perp_last_price": 72312.2578125,
-        "mark_price": 72312.2578125,
-        "index_price": 72312.2578125,
+        "spot_price": 72163.8125,
+        "perp_last_price": 72163.8125,
+        "mark_price": 72163.8125,
+        "index_price": 72163.8125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72312.2578125,
-        "stop_loss_technical": 70549.265625,
-        "target_1": 74956.74609375,
-        "target_2": 77601.234375,
+        "entry_ideal": 72163.8125,
+        "stop_loss_technical": 71081.3553125,
+        "target_1": 73787.49828125,
+        "target_2": 75411.1840625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72312.2578125,
+        "entry_ideal": 72163.8125,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 80864.6953125,
-        "target_2": 89417.1328125,
+        "target_1": 80493.58203125,
+        "target_2": 88823.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
