@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-09T11:17:24.247617+00:00",
+    "generated_at_utc": "2026-04-09T12:05:49.400298+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.021,
+        "price": 98.899,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 14m",
+    "U.S. markets open in 1h 25m",
     "News from the Yahoo Finance Network",
     "Major alcohol distributor shuts down operations, lays off over 500 workers",
-    "This Wannabe Dividend Aristocrat Yields Nearly 4%: Should You Buy?",
-    "Ackman's Pershing Square proposes $64 billion merger deal with Universal Music Group",
-    "The Pentagon Has 268 Days to Replace America’s Most Critical Supply Chain",
-    "United Microelectronics (UMC) Climbs 9.08% Ahead of Dividends, March Sales",
+    "Dow Jones Futures Fall, Oil Prices Near $100 Amid Iran Ceasefire Doubts. Google, Nvidia Partner Lead 7 New Buys",
+    "How OpenClaw Became Google's Next Big AI Threat After ChatGPT",
+    "8 California doctors and nurses arrested for posing patients as terminally ill to milk $4M from Medicare",
+    "Meta's Spark model gets lavished with Wall Street praise",
     "Analyst Report: CrowdStrike Holdings, Inc."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71197.1484375,
-        "perp_last_price": 71197.1484375,
-        "mark_price": 71197.1484375,
-        "index_price": 71197.1484375,
+        "spot_price": 71214.4609375,
+        "perp_last_price": 71214.4609375,
+        "mark_price": 71214.4609375,
+        "index_price": 71214.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71197.1484375,
-        "stop_loss_technical": 70129.19121094,
-        "target_1": 72799.08427734,
-        "target_2": 74401.02011719,
+        "entry_ideal": 71214.4609375,
+        "stop_loss_technical": 70528.3125,
+        "target_1": 72243.68359375,
+        "target_2": 73272.90625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71197.1484375,
+        "entry_ideal": 71214.4609375,
         "stop_loss_technical": 66610.6328125,
-        "target_1": 78076.921875,
-        "target_2": 84956.6953125,
+        "target_1": 78120.203125,
+        "target_2": 85025.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
