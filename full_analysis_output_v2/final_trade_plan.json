@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T08:44:08.629050+00:00",
+    "generated_at_utc": "2026-04-10T09:52:04.252120+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.916,
-        "trend": "alcista"
+        "price": 98.849,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.293,
@@ -21,51 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 47m",
+    "U.S. markets open in 3h 39m",
     "News from the Yahoo Finance Network",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "3 Stocks Billionaires Are Buying That You Should Too",
     "A Huge Move May Be Imminent for Stocks, With the Most Consequential Data Release of the Year Just Hours Away",
+    "Eight months after Ozzy Osbourne's death, their Los Angeles estate up for sale — for a cool $17 million",
     "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
-    "Prediction: This Will Be Microsoft's Stock Price Next Year",
-    "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now"
+    "This Vanguard Index Fund Is Absolutely Crushing the S&P 500 This Year",
+    "Prediction: This Will Be Microsoft's Stock Price Next Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71737.9453125,
-        "perp_last_price": 71737.9453125,
-        "mark_price": 71737.9453125,
-        "index_price": 71737.9453125,
+        "spot_price": 71766.453125,
+        "perp_last_price": 71766.453125,
+        "mark_price": 71766.453125,
+        "index_price": 71766.453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71737.9453125,
+        "entry_ideal": 71766.453125,
         "stop_loss_technical": 70549.265625,
-        "target_1": 73520.96484375,
-        "target_2": 75303.984375,
+        "target_1": 73592.234375,
+        "target_2": 75418.015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71737.9453125,
-        "stop_loss_technical": 73107.265625,
-        "target_1": 69683.96484375,
-        "target_2": 67629.984375,
+        "entry_ideal": 71766.453125,
+        "stop_loss_technical": 70689.95632813,
+        "target_1": 73381.19832031,
+        "target_2": 74995.94351562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +81,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +95,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
