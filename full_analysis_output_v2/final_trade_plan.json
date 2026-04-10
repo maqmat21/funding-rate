@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T18:44:46.960518+00:00",
+    "generated_at_utc": "2026-04-10T19:33:26.115531+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.636,
+        "price": 98.653,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.315,
+        "price": 4.319,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 16m",
     "News from the Yahoo Finance Network",
-    "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
+    "Why Is Super Micro (SMCI) Stock Popping Today",
     "Elon Musk Says Tesla Model S, Model X Inventory Nearly Over—YouTuber JerryRigEverything Calls It 'Going Out Of Business' Sale",
-    "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
-    "'You're a Classic American Millionaire' – Wyoming Caller Stuns Dave Ramsey With $200 To $40M Story – 'You've Absolutely Slayed The Dragon'",
-    "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now"
+    "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
+    "2 Unpopular Stocks That Deserve Some Love and 1 We Question",
+    "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now",
+    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
+    "Amazon Laid Off 30,000 Workers While CEO Andy Jassy Got a 30% Pay Raise"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72880.1484375,
-        "perp_last_price": 72880.1484375,
-        "mark_price": 72880.1484375,
-        "index_price": 72880.1484375,
+        "spot_price": 72970.8515625,
+        "perp_last_price": 72970.8515625,
+        "mark_price": 72970.8515625,
+        "index_price": 72970.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 72880.1484375,
+        "entry_ideal": 72970.8515625,
         "stop_loss_technical": 73289.9140625,
-        "target_1": 72265.5,
-        "target_2": 71650.8515625,
+        "target_1": 72492.2578125,
+        "target_2": 72013.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 72880.1484375,
+        "entry_ideal": 72970.8515625,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 80589.609375,
-        "target_2": 88299.0703125,
+        "target_1": 80816.3671875,
+        "target_2": 88661.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
