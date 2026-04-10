@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T14:37:51.336221+00:00",
+    "generated_at_utc": "2026-04-10T15:29:07.468793+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.553,
+        "price": 98.593,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.309,
-        "trend": "alcista"
+        "price": 4.301,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 23m",
+    "U.S. markets close in 4h 32m",
     "News from the Yahoo Finance Network",
-    "Harley-Davidson resets brand ahead of growth strategy rollout",
+    "Trump team dismisses hot inflation print, promising energy shocks will 'very, very quickly go away'",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
     "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
     "Prediction: This Will Be Microsoft's Stock Price Next Year",
     "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
-    "Boom or Bubble? Here's Where Micron Stock Could Be in 5 Years."
+    "How many employees does Home Depot have?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73116.3125,
-        "perp_last_price": 73116.3125,
-        "mark_price": 73116.3125,
-        "index_price": 73116.3125,
+        "spot_price": 72952.3359375,
+        "perp_last_price": 72952.3359375,
+        "mark_price": 72952.3359375,
+        "index_price": 72952.3359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73116.3125,
-        "stop_loss_technical": 71444.78125,
-        "target_1": 75623.609375,
-        "target_2": 78130.90625,
+        "entry_ideal": 72952.3359375,
+        "stop_loss_technical": 71858.05089844,
+        "target_1": 74593.76349609,
+        "target_2": 76235.19105469,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73116.3125,
+        "entry_ideal": 72952.3359375,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 81180.01953125,
-        "target_2": 89243.7265625,
+        "target_1": 80770.078125,
+        "target_2": 88587.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
