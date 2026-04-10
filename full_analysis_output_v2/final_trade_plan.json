@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T20:52:07.027768+00:00",
+    "generated_at_utc": "2026-04-10T21:26:44.278704+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.669,
+        "price": 98.698,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "Should You Buy BYD Before or After China's Auto Market Implodes?",
     "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
     "Trump fires Homeland Security secretary Kristi Noem but keeps the $70 million jet critics called a waste",
     "Elon Musk Says Tesla Model S, Model X Inventory Nearly Over—YouTuber JerryRigEverything Calls It 'Going Out Of Business' Sale",
     "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
-    "'You're a Classic American Millionaire' – Wyoming Caller Stuns Dave Ramsey With $200 To $40M Story – 'You've Absolutely Slayed The Dragon'"
+    "'You're a Classic American Millionaire' – Wyoming Caller Stuns Dave Ramsey With $200 To $40M Story – 'You've Absolutely Slayed The Dragon'",
+    "US tariff revenue dropped by over $4 billion in March. It's down almost 30% since October."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73292.5390625,
-        "perp_last_price": 73292.5390625,
-        "mark_price": 73292.5390625,
-        "index_price": 73292.5390625,
+        "spot_price": 73179.3828125,
+        "perp_last_price": 73179.3828125,
+        "mark_price": 73179.3828125,
+        "index_price": 73179.3828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 73292.5390625,
-        "stop_loss_technical": 71444.78125,
-        "target_1": 76064.17578125,
-        "target_2": 78835.8125,
+        "entry_ideal": 73179.3828125,
+        "stop_loss_technical": 73421.8125,
+        "target_1": 72815.73828125,
+        "target_2": 72452.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 73292.5390625,
+        "entry_ideal": 73179.3828125,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 81620.5859375,
-        "target_2": 89948.6328125,
+        "target_1": 81337.6953125,
+        "target_2": 89496.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
