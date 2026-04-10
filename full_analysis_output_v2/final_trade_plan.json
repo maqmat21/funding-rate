@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T05:38:38.642027+00:00",
+    "generated_at_utc": "2026-04-10T07:08:38.833341+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.926,
+        "price": 98.94,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 53m",
+    "U.S. markets open in 6h 22m",
     "News from the Yahoo Finance Network",
+    "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
     "Starbucks closes all but one downtown location in major city",
+    "Inflation may jump by most in nearly four years as gas prices spike in wake of Iran war",
     "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
     "Prediction: This Will Be Microsoft's Stock Price Next Year",
-    "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now",
-    "Barron Trump is going into the beverage business as company launches new flavor",
-    "Prediction: These Will Be the 5 Largest Companies in the Stock Market by 2030"
+    "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72184.640625,
-        "perp_last_price": 72184.640625,
-        "mark_price": 72184.640625,
-        "index_price": 72184.640625,
+        "spot_price": 71794.0078125,
+        "perp_last_price": 71794.0078125,
+        "mark_price": 71794.0078125,
+        "index_price": 71794.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 72184.640625,
-        "stop_loss_technical": 70549.265625,
-        "target_1": 74637.703125,
-        "target_2": 77090.765625,
+        "entry_ideal": 71774.28125,
+        "stop_loss_technical": 73004.65625,
+        "target_1": 69928.71875,
+        "target_2": 68083.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 72184.640625,
-        "stop_loss_technical": 67740.5078125,
-        "target_1": 78850.83984375,
-        "target_2": 85517.0390625,
+        "entry_ideal": 71794.0078125,
+        "stop_loss_technical": 73107.265625,
+        "target_1": 69824.12109375,
+        "target_2": 67854.234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
