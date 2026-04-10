@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T10:43:07.235707+00:00",
+    "generated_at_utc": "2026-04-10T11:34:56.533471+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.775,
+        "price": 98.747,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 48m",
+    "U.S. markets open in 1h 56m",
     "News from the Yahoo Finance Network",
     "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "Chapter 11 bankruptcy hits McDonald’s rival franchisee, leaving 65 restaurants at risk",
-    "Jeff Bezos could fund 'insulin in America' plus Texas school lunches with a wealth tax — and keep $215B, says Warren",
-    "A Huge Move May Be Imminent for Stocks, With the Most Consequential Data Release of the Year Just Hours Away",
-    "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs"
+    "Elizabeth Warren Says Jeff Bezos, Elon Musk Shouldn't Be Paying The Same Social Security Tax As Someone Making $175,000: Cramer Calls It 'Good Idea'",
+    "Why the Ultra-Wealthy Are Flocking To This Florida City in 2026, According to Grant Cardone",
+    "This Vanguard Index Fund Is Absolutely Crushing the S&P 500 This Year",
+    "Jamie Dimon Says Missed Obama-Era Plan Would Have Been A 'Home Run' For US Debt Crisis: 'Wish It Had...'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71817.6796875,
-        "perp_last_price": 71817.6796875,
-        "mark_price": 71817.6796875,
-        "index_price": 71817.6796875,
+        "spot_price": 72200.453125,
+        "perp_last_price": 72200.453125,
+        "mark_price": 72200.453125,
+        "index_price": 72200.453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71817.6796875,
-        "stop_loss_technical": 70938.3984375,
-        "target_1": 73136.6015625,
-        "target_2": 74455.5234375,
+        "entry_ideal": 72156.859375,
+        "stop_loss_technical": 71444.78125,
+        "target_1": 73224.9765625,
+        "target_2": 74293.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71817.6796875,
+        "entry_ideal": 72200.453125,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 77933.4375,
-        "target_2": 84049.1953125,
+        "target_1": 78890.37109375,
+        "target_2": 85580.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
