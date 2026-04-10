@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T07:08:38.833341+00:00",
+    "generated_at_utc": "2026-04-10T08:44:08.629050+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.94,
+        "price": 98.916,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,11 +21,11 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 22m",
+    "U.S. markets open in 4h 47m",
     "News from the Yahoo Finance Network",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "Starbucks closes all but one downtown location in major city",
-    "Inflation may jump by most in nearly four years as gas prices spike in wake of Iran war",
+    "3 Stocks Billionaires Are Buying That You Should Too",
+    "A Huge Move May Be Imminent for Stocks, With the Most Consequential Data Release of the Year Just Hours Away",
     "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
     "Prediction: This Will Be Microsoft's Stock Price Next Year",
     "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now"
@@ -34,25 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71794.0078125,
-        "perp_last_price": 71794.0078125,
-        "mark_price": 71794.0078125,
-        "index_price": 71794.0078125,
+        "spot_price": 71737.9453125,
+        "perp_last_price": 71737.9453125,
+        "mark_price": 71737.9453125,
+        "index_price": 71737.9453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71774.28125,
-        "stop_loss_technical": 73004.65625,
-        "target_1": 69928.71875,
-        "target_2": 68083.15625,
+        "entry_ideal": 71737.9453125,
+        "stop_loss_technical": 70549.265625,
+        "target_1": 73520.96484375,
+        "target_2": 75303.984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 71794.0078125,
+        "entry_ideal": 71737.9453125,
         "stop_loss_technical": 73107.265625,
-        "target_1": 69824.12109375,
-        "target_2": 67854.234375,
+        "target_1": 69683.96484375,
+        "target_2": 67629.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
