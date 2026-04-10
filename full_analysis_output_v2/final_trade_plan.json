@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T16:13:38.463120+00:00",
+    "generated_at_utc": "2026-04-10T17:08:05.740124+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.691,
+        "price": 98.722,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.317,
+        "price": 4.319,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 48m",
+    "U.S. markets close in 2h 53m",
     "News from the Yahoo Finance Network",
+    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
     "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
-    "Prediction: This Will Be Microsoft's Stock Price Next Year",
-    "Trump team dismisses hot inflation print, promising energy shocks will 'very, very quickly go away'",
-    "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
+    "'You're a Classic American Millionaire' – Wyoming Caller Stuns Dave Ramsey With $200 To $40M Story – 'You've Absolutely Slayed The Dragon'",
+    "Is This Biotech Stock the Best Chance to Make a Fortune in Healthcare?",
     "Goldman Sachs CEO warns ‘a reckoning’ is coming as US national debt edges closer to $40T. Safeguard your nest egg now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72648.2734375,
-        "perp_last_price": 72648.2734375,
-        "mark_price": 72648.2734375,
-        "index_price": 72648.2734375,
+        "spot_price": 72904.078125,
+        "perp_last_price": 72904.078125,
+        "mark_price": 72904.078125,
+        "index_price": 72904.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 72648.2734375,
+        "entry_ideal": 72904.078125,
         "stop_loss_technical": 71444.78125,
-        "target_1": 74453.51171875,
-        "target_2": 76258.75,
+        "target_1": 75093.0234375,
+        "target_2": 77281.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 72648.2734375,
+        "entry_ideal": 72904.078125,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 80009.921875,
-        "target_2": 87371.5703125,
+        "target_1": 80649.43359375,
+        "target_2": 88394.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
