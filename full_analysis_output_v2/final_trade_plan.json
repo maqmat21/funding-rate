@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T12:09:24.137010+00:00",
+    "generated_at_utc": "2026-04-10T13:45:48.314074+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.726,
+        "price": 98.637,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.293,
+        "price": 4.301,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 22m",
+    "U.S. markets close in 6h 15m",
     "News from the Yahoo Finance Network",
-    "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
+    "Insiders At T-Mobile US Sold US$151m In Stock, Alluding To Potential Weakness",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "Elizabeth Warren Says Jeff Bezos, Elon Musk Shouldn't Be Paying The Same Social Security Tax As Someone Making $175,000: Cramer Calls It 'Good Idea'",
-    "They Asked If One Income Was Ever Enough For A Great Family Life? The Replies Are Full Of People Saying It's True. 'Corporate Greed Happened'",
-    "3 Brilliant High-Yield Stocks to Buy Now and Hold for the Long Term",
+    "Prediction: This Will Be Microsoft's Stock Price Next Year",
+    "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
+    "CPI inflation soars by most since 2022 as gas prices bite",
     "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72175.609375,
-        "perp_last_price": 72175.609375,
-        "mark_price": 72175.609375,
-        "index_price": 72175.609375,
+        "spot_price": 72025.0390625,
+        "perp_last_price": 72025.0390625,
+        "mark_price": 72025.0390625,
+        "index_price": 72025.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72175.609375,
-        "stop_loss_technical": 71444.78125,
-        "target_1": 73271.8515625,
-        "target_2": 74368.09375,
+        "entry_ideal": 72025.0390625,
+        "stop_loss_technical": 70944.66347656,
+        "target_1": 73645.60244141,
+        "target_2": 75266.16582031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72175.609375,
+        "entry_ideal": 72025.0390625,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 78828.26171875,
-        "target_2": 85480.9140625,
+        "target_1": 78451.8359375,
+        "target_2": 84878.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
