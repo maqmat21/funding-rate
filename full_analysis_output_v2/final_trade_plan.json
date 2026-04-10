@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T09:52:04.252120+00:00",
+    "generated_at_utc": "2026-04-10T10:43:07.235707+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.849,
+        "price": 98.775,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,27 +21,42 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 39m",
+    "U.S. markets open in 2h 48m",
     "News from the Yahoo Finance Network",
+    "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
+    "Chapter 11 bankruptcy hits McDonald’s rival franchisee, leaving 65 restaurants at risk",
+    "Jeff Bezos could fund 'insulin in America' plus Texas school lunches with a wealth tax — and keep $215B, says Warren",
     "A Huge Move May Be Imminent for Stocks, With the Most Consequential Data Release of the Year Just Hours Away",
-    "Eight months after Ozzy Osbourne's death, their Los Angeles estate up for sale — for a cool $17 million",
-    "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs",
-    "This Vanguard Index Fund Is Absolutely Crushing the S&P 500 This Year",
-    "Prediction: This Will Be Microsoft's Stock Price Next Year"
+    "Why Costco's Food Court Stopped Selling Hebrew National Hot Dogs"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71766.453125,
-        "perp_last_price": 71766.453125,
-        "mark_price": 71766.453125,
-        "index_price": 71766.453125,
+        "spot_price": 71817.6796875,
+        "perp_last_price": 71817.6796875,
+        "mark_price": 71817.6796875,
+        "index_price": 71817.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 71817.6796875,
+        "stop_loss_technical": 70938.3984375,
+        "target_1": 73136.6015625,
+        "target_2": 74455.5234375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -49,24 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 71766.453125,
-        "stop_loss_technical": 70549.265625,
-        "target_1": 73592.234375,
-        "target_2": 75418.015625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 71766.453125,
-        "stop_loss_technical": 70689.95632813,
-        "target_1": 73381.19832031,
-        "target_2": 74995.94351562,
+        "entry_ideal": 71817.6796875,
+        "stop_loss_technical": 67740.5078125,
+        "target_1": 77933.4375,
+        "target_2": 84049.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
