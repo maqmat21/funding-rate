@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T07:17:45.854451+00:00",
+    "generated_at_utc": "2026-04-11T07:58:35.166706+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,45 +27,45 @@
     "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
     "Amazon is still paying Jeff Bezos an $80,000 yearly salary—but $1.6 million for travel and security",
-    "JPMorgan CEO Jamie Dimon Just Echoed Warren Buffett's Warning From 26 Years Ago",
-    "Robert Kiyosaki Just Warned Investors of What’s Coming for Stocks"
+    "Robert Kiyosaki Just Warned Investors of What’s Coming for Stocks",
+    "Something just changed with Palantir stock, and investors noticed"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72792.125,
-        "perp_last_price": 72792.125,
-        "mark_price": 72792.125,
-        "index_price": 72792.125,
+        "spot_price": 72719.5390625,
+        "perp_last_price": 72719.5390625,
+        "mark_price": 72719.5390625,
+        "index_price": 72719.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 72792.125,
-        "stop_loss_technical": 71946.921875,
-        "target_1": 74059.9296875,
-        "target_2": 75327.734375,
+        "entry_ideal": 72744.609375,
+        "stop_loss_technical": 73421.8125,
+        "target_1": 71728.8046875,
+        "target_2": 70713.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 72792.125,
-        "stop_loss_technical": 67740.5078125,
-        "target_1": 80369.55078125,
-        "target_2": 87946.9765625,
+        "entry_ideal": 72719.5390625,
+        "stop_loss_technical": 73440.1171875,
+        "target_1": 71638.671875,
+        "target_2": 70557.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
