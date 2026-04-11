@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T14:49:42.377392+00:00",
+    "generated_at_utc": "2026-04-11T15:19:50.316630+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.7,
+        "price": 98.698,
         "trend": "bajista"
       },
       "US10Y": {
@@ -26,33 +26,33 @@
     "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
     "A $1 Million Portfolio That Quietly Pays You $67,500 a Year, No Job Required",
     "I'm Alarmed That 76% of Americans Don't Understand This One Fact About Social Security",
-    "Members say popular product sold at Costco tastes different",
     "Federal reserve reveals troubling reality about wealthy Americans",
-    "The Likelihood of a Stock Market Crash Taking Shape Under President Donald Trump Is Rising -- and There's a Clear Reason Why"
+    "The Likelihood of a Stock Market Crash Taking Shape Under President Donald Trump Is Rising -- and There's a Clear Reason Why",
+    "McDonald's quietly makes 2 menu changes customers may not like"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72670.4375,
-        "perp_last_price": 72670.4375,
-        "mark_price": 72670.4375,
-        "index_price": 72670.4375,
+        "spot_price": 72766.9609375,
+        "perp_last_price": 72766.9609375,
+        "mark_price": 72766.9609375,
+        "index_price": 72766.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 72670.4375,
-        "stop_loss_technical": 73421.8125,
-        "target_1": 71543.375,
-        "target_2": 70416.3125,
+        "entry_ideal": 72766.9609375,
+        "stop_loss_technical": 72594.53125,
+        "target_1": 73025.60546875,
+        "target_2": 73284.25,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 72670.4375,
+        "entry_ideal": 72766.9609375,
         "stop_loss_technical": 73440.1171875,
-        "target_1": 71515.91796875,
-        "target_2": 70361.3984375,
+        "target_1": 71757.2265625,
+        "target_2": 70747.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
