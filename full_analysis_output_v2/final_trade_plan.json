@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T08:39:26.645762+00:00",
+    "generated_at_utc": "2026-04-11T09:23:57.160719+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,49 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "McDonald's quietly makes 2 menu changes customers may not like",
+    "The Likelihood of a Stock Market Crash Taking Shape Under President Donald Trump Is Rising -- and There's a Clear Reason Why",
+    "Federal reserve reveals troubling reality about wealthy Americans",
+    "Could We Be Looking at a Worst-Case Scenario for the Social Security COLA?",
     "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
-    "This $500 Stock Could Be Your Ticket to Generational Wealth",
-    "Amazon is still paying Jeff Bezos an $80,000 yearly salary—but $1.6 million for travel and security",
-    "Enbridge Line 5 Reroute Gains Approval As Risk Picture Evolves",
-    "Robert Kiyosaki Just Warned Investors of What’s Coming for Stocks"
+    "Amazon is still paying Jeff Bezos an $80,000 yearly salary—but $1.6 million for travel and security"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72728.5703125,
-        "perp_last_price": 72728.5703125,
-        "mark_price": 72728.5703125,
-        "index_price": 72728.5703125,
+        "spot_price": 72830.640625,
+        "perp_last_price": 72830.640625,
+        "mark_price": 72830.640625,
+        "index_price": 72830.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 72728.5703125,
-        "stop_loss_technical": 73421.8125,
-        "target_1": 71688.70703125,
-        "target_2": 70648.84375,
+        "entry_ideal": 72830.640625,
+        "stop_loss_technical": 72328.6796875,
+        "target_1": 73583.58203125,
+        "target_2": 74336.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 72728.5703125,
-        "stop_loss_technical": 73440.1171875,
-        "target_1": 71661.25,
-        "target_2": 70593.9296875,
+        "entry_ideal": 72830.640625,
+        "stop_loss_technical": 67740.5078125,
+        "target_1": 80465.83984375,
+        "target_2": 88101.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
