@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T20:02:55.501786+00:00",
+    "generated_at_utc": "2026-04-11T20:48:34.183428+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,35 @@
     "News from the Yahoo Finance Network",
     "Iconic steakhouse chain is making a comeback after nearly fading away",
     "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
+    "A $1 Million Portfolio That Quietly Pays You $67,500 a Year, No Job Required",
     "What Is One of the Best Dividend Stocks to Buy With $5,000 Right Now?",
     "McDonald's quietly makes 2 menu changes customers may not like",
-    "I'm Alarmed That 76% of Americans Don't Understand This One Fact About Social Security",
-    "A $1 Million Portfolio That Quietly Pays You $67,500 a Year, No Job Required",
-    "The Likelihood of a Stock Market Crash Taking Shape Under President Donald Trump Is Rising -- and There's a Clear Reason Why"
+    "Federal reserve reveals troubling reality about wealthy Americans",
+    "What to know about X Money, Elon Musk's fintech app that claims to pay 6% on savings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73687.1015625,
-        "perp_last_price": 73687.1015625,
-        "mark_price": 73687.1015625,
-        "index_price": 73687.1015625,
+        "spot_price": 73351.9296875,
+        "perp_last_price": 73351.9296875,
+        "mark_price": 73351.9296875,
+        "index_price": 73351.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 73687.1015625,
-        "stop_loss_technical": 72594.53125,
-        "target_1": 75325.95703125,
-        "target_2": 76964.8125,
+        "entry_ideal": 73351.9296875,
+        "stop_loss_technical": 73724.78125,
+        "target_1": 72792.65234375,
+        "target_2": 72233.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 73687.1015625,
+        "entry_ideal": 73351.9296875,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 82606.9921875,
-        "target_2": 91526.8828125,
+        "target_1": 81769.0625,
+        "target_2": 90186.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
