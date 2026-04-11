@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T05:16:35.519661+00:00",
+    "generated_at_utc": "2026-04-11T06:14:52.672359+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.698,
+        "price": 98.7,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "McDonald's quietly makes 2 menu changes customers may not like",
+    "Could Investing $10,000 in SCHB Make You a Millionaire?",
     "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
     "Robert Kiyosaki Just Warned Investors of What’s Coming for Stocks",
     "Amazon is still paying Jeff Bezos an $80,000 yearly salary—but $1.6 million for travel and security",
-    "'You're a Classic American Millionaire' – Wyoming Caller Stuns Dave Ramsey With $200 To $40M Story – 'You've Absolutely Slayed The Dragon'",
-    "Nordea AGM Approvals Highlight Capital Returns And Shareholder Value Focus"
+    "Something just changed with Palantir stock, and investors noticed"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72770.3125,
-        "perp_last_price": 72770.3125,
-        "mark_price": 72770.3125,
-        "index_price": 72770.3125,
+        "spot_price": 72729.09375,
+        "perp_last_price": 72729.09375,
+        "mark_price": 72729.09375,
+        "index_price": 72729.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 72770.3125,
+        "entry_ideal": 72729.09375,
         "stop_loss_technical": 73421.8125,
-        "target_1": 71793.0625,
-        "target_2": 70815.8125,
+        "target_1": 71690.015625,
+        "target_2": 70650.9375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 72770.3125,
-        "stop_loss_technical": 67740.5078125,
-        "target_1": 80315.01953125,
-        "target_2": 87859.7265625,
+        "entry_ideal": 72729.09375,
+        "stop_loss_technical": 73421.8125,
+        "target_1": 71690.015625,
+        "target_2": 70650.9375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
