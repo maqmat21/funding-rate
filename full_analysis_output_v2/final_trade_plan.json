@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T11:46:53.235226+00:00",
+    "generated_at_utc": "2026-04-11T12:02:17.060490+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Iconic steakhouse chain is making a comeback after nearly fading away",
+    "What Is One of the Best Dividend Stocks to Buy With $5,000 Right Now?",
     "I'm Alarmed That 76% of Americans Don't Understand This One Fact About Social Security",
     "McDonald's quietly makes 2 menu changes customers may not like",
-    "The Likelihood of a Stock Market Crash Taking Shape Under President Donald Trump Is Rising -- and There's a Clear Reason Why",
-    "The Energy Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
     "Federal reserve reveals troubling reality about wealthy Americans",
-    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)"
+    "The Likelihood of a Stock Market Crash Taking Shape Under President Donald Trump Is Rising -- and There's a Clear Reason Why",
+    "The Energy Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72878.796875,
-        "perp_last_price": 72878.796875,
-        "mark_price": 72878.796875,
-        "index_price": 72878.796875,
+        "spot_price": 72925.703125,
+        "perp_last_price": 72925.703125,
+        "mark_price": 72925.703125,
+        "index_price": 72925.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 72878.796875,
+        "entry_ideal": 72925.703125,
         "stop_loss_technical": 72420.078125,
-        "target_1": 73566.875,
-        "target_2": 74254.953125,
+        "target_1": 73684.140625,
+        "target_2": 74442.578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 72878.796875,
+        "entry_ideal": 72925.703125,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 80586.23046875,
-        "target_2": 88293.6640625,
+        "target_1": 80703.49609375,
+        "target_2": 88481.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
