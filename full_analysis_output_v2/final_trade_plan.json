@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-10T23:49:46.323115+00:00",
+    "generated_at_utc": "2026-04-11T01:01:34.714909+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Amazon is still paying Jeff Bezos an $80,000 yearly salary—but $1.6 million for travel and security",
     "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks",
     "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
-    "Elon Musk Says Tesla Model S, Model X Inventory Nearly Over—YouTuber JerryRigEverything Calls It 'Going Out Of Business' Sale",
-    "A $300,000 Portfolio That Pays More Than the Average Social Security Check",
-    "Ross Gerber Demands $10K Refund If Tesla's New FSD Doesn't Work 'Unsupervised'—Says Google Has 'Solved' Autonomy With Waymo",
-    "Jay Leno took the Tesla Semi for a spin. Its 1-million-mile battery could spell trouble for diesel"
+    "Robert Kiyosaki Just Warned Investors of What’s Coming for Stocks",
+    "'You're a Classic American Millionaire' – Wyoming Caller Stuns Dave Ramsey With $200 To $40M Story – 'You've Absolutely Slayed The Dragon'",
+    "Your Lifetime Earnings Are Tracked On The Social Security Website. Here's Why Some People Compare It To Their Net Worth. 'Oh This Is Fun'",
+    "US tariff revenue dropped by over $4 billion in March. It's down almost 30% since October.",
+    "Why Are Super Micro (SMCI) Shares Soaring Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72966.4296875,
-        "perp_last_price": 72966.4296875,
-        "mark_price": 72966.4296875,
-        "index_price": 72966.4296875,
+        "spot_price": 72841.375,
+        "perp_last_price": 72841.375,
+        "mark_price": 72841.375,
+        "index_price": 72841.375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 72966.4296875,
-        "stop_loss_technical": 71444.78125,
-        "target_1": 75248.90234375,
-        "target_2": 77531.375,
+        "entry_ideal": 72841.375,
+        "stop_loss_technical": 73421.8125,
+        "target_1": 71970.71875,
+        "target_2": 71100.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 72966.4296875,
+        "entry_ideal": 72841.375,
         "stop_loss_technical": 67740.5078125,
-        "target_1": 80805.3125,
-        "target_2": 88644.1953125,
+        "target_1": 80492.67578125,
+        "target_2": 88143.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
