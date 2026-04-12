@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-12T04:23:54.841957+00:00",
+    "generated_at_utc": "2026-04-12T06:08:06.096214+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "The Vanguard ETF That Could Set You Up for Life if You Buy It in April",
     "Iconic steakhouse chain is making a comeback after nearly fading away",
-    "Early Broadcom stock investors now earn 16.8% dividend yield",
-    "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
     "McDonald's quietly makes 2 menu changes customers may not like",
-    "‘Big Short’ Michael Burry sends signal on Nvidia stock",
+    "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
+    "Greg Abel Has 60% of Berkshire Hathaway's $320 Billion Stock Portfolio Invested in Just 9 Core Holdings",
     "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71598.9921875,
-        "perp_last_price": 71598.9921875,
-        "mark_price": 71598.9921875,
-        "index_price": 71598.9921875,
+        "spot_price": 71737.7421875,
+        "perp_last_price": 71737.7421875,
+        "mark_price": 71737.7421875,
+        "index_price": 71737.7421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71598.9921875,
-        "stop_loss_technical": 73724.78125,
-        "target_1": 68410.30859375,
-        "target_2": 65221.625,
+        "entry_ideal": 71737.7421875,
+        "stop_loss_technical": 71464.046875,
+        "target_1": 72148.28515625,
+        "target_2": 72558.828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 71598.9921875,
+        "entry_ideal": 71737.7421875,
         "stop_loss_technical": 73724.78125,
-        "target_1": 68410.30859375,
-        "target_2": 65221.625,
+        "target_1": 68757.18359375,
+        "target_2": 65776.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
