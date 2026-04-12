@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-12T07:42:22.654874+00:00",
+    "generated_at_utc": "2026-04-12T08:29:59.504951+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "History Says the Best Time to Buy Stocks May Be Imminent",
     "The Vanguard ETF That Could Set You Up for Life if You Buy It in April",
-    "Iconic steakhouse chain is making a comeback after nearly fading away",
     "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
+    "Iconic steakhouse chain is making a comeback after nearly fading away",
     "McDonald's quietly makes 2 menu changes customers may not like",
-    "Here's the salary you need to afford a $1 million home",
-    "‘Big Short’ Michael Burry sends signal on Nvidia stock"
+    "This Stock Goes Up When the Market Goes Down"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71730.5390625,
-        "perp_last_price": 71730.5390625,
-        "mark_price": 71730.5390625,
-        "index_price": 71730.5390625,
+        "spot_price": 71708.7421875,
+        "perp_last_price": 71708.7421875,
+        "mark_price": 71708.7421875,
+        "index_price": 71708.7421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 71730.5390625,
+        "entry_ideal": 71708.7421875,
         "stop_loss_technical": 71464.046875,
-        "target_1": 72130.27734375,
-        "target_2": 72530.015625,
+        "target_1": 72075.78515625,
+        "target_2": 72442.828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 71730.5390625,
+        "entry_ideal": 71708.7421875,
         "stop_loss_technical": 73784.234375,
-        "target_1": 68649.99609375,
-        "target_2": 65569.453125,
+        "target_1": 68595.50390625,
+        "target_2": 65482.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
