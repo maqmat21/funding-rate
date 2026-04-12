@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-12T21:34:08.631740+00:00",
+    "generated_at_utc": "2026-04-12T22:01:46.312906+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,8 +24,8 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
-    "Iconic steakhouse chain is making a comeback after nearly fading away",
     "The ‘incredible period’ for the US economy is ending, Warren Buffett once said. Is his prediction coming true in 2026?",
+    "Iconic steakhouse chain is making a comeback after nearly fading away",
     "Costco Raised Membership Fees for the First Time in 7 Years. Here's What Investors Learned From It.",
     "What the Hell Happened to Wendy’s?",
     "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy"
@@ -34,25 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71322.6640625,
-        "perp_last_price": 71322.6640625,
-        "mark_price": 71322.6640625,
-        "index_price": 71322.6640625,
+        "spot_price": 71284.375,
+        "perp_last_price": 71284.375,
+        "mark_price": 71284.375,
+        "index_price": 71284.375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 71322.6640625,
-        "stop_loss_technical": 70721.7890625,
-        "target_1": 72223.9765625,
-        "target_2": 73125.2890625,
+        "entry_ideal": 71284.375,
+        "stop_loss_technical": 71961.015625,
+        "target_1": 70269.4140625,
+        "target_2": 69254.453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 71322.6640625,
+        "entry_ideal": 71284.375,
         "stop_loss_technical": 73784.234375,
-        "target_1": 67630.30859375,
-        "target_2": 63937.953125,
+        "target_1": 67534.5859375,
+        "target_2": 63784.796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
