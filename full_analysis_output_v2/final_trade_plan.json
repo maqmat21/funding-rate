@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-12T12:34:41.047544+00:00",
+    "generated_at_utc": "2026-04-12T13:43:56.989949+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Trumps have lost more than $1 billion on bitcoin since the president's return to office. What’s behind the huge loss",
-    "‘We aren't in it to make 5% or 6%': Warren Buffett calls Iran war market dip 'nothing.’ What he sees that others don't",
     "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now",
+    "‘We aren't in it to make 5% or 6%': Warren Buffett calls Iran war market dip 'nothing.’ What he sees that others don't",
+    "Apple is closing down first of its U.S. stores",
+    "A blue-collar worker says he makes $10,000 per month from Amazon in just 20 hours of work — how you can do it, too",
     "The Vanguard ETF That Could Set You Up for Life if You Buy It in April",
-    "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
-    "Why a $70,000 Dividend Income Goal Requires Millions, and Which ETF Gets You There Fastest"
+    "Iconic steakhouse chain is making a comeback after nearly fading away"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71436.578125,
-        "perp_last_price": 71436.578125,
-        "mark_price": 71436.578125,
-        "index_price": 71436.578125,
+        "spot_price": 70986.0,
+        "perp_last_price": 70986.0,
+        "mark_price": 70986.0,
+        "index_price": 70986.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 71428.109375,
+        "entry_ideal": 70986.0,
         "stop_loss_technical": 73724.78125,
-        "target_1": 67983.1015625,
-        "target_2": 64538.09375,
+        "target_1": 66877.828125,
+        "target_2": 62769.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 71436.578125,
+        "entry_ideal": 70986.0,
         "stop_loss_technical": 73784.234375,
-        "target_1": 67915.09375,
-        "target_2": 64393.609375,
+        "target_1": 66788.6484375,
+        "target_2": 62591.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
