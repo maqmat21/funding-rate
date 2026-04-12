@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-12T22:49:26.087415+00:00",
+    "generated_at_utc": "2026-04-12T23:20:25.755522+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.141,
+        "price": 99.132,
         "trend": "alcista"
       },
       "US10Y": {
@@ -27,32 +27,33 @@
     "Iconic steakhouse chain is making a comeback after nearly fading away",
     "The ‘incredible period’ for the US economy is ending, Warren Buffett once said. Is his prediction coming true in 2026?",
     "What the Hell Happened to Wendy’s?",
-    "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy",
-    "Costco Raised Membership Fees for the First Time in 7 Years. Here's What Investors Learned From It."
+    "Is a 12.8% Dividend Yield Enough to Make This Stock a Buy for Income Investors?",
+    "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 70835.421875,
-        "perp_last_price": 70835.421875,
-        "mark_price": 70835.421875,
-        "index_price": 70835.421875,
+        "spot_price": 70609.578125,
+        "perp_last_price": 70609.578125,
+        "mark_price": 70609.578125,
+        "index_price": 70609.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 70835.421875,
-        "stop_loss_technical": 71860.9296875,
-        "target_1": 69297.16015625,
-        "target_2": 67758.8984375,
+        "entry_ideal": 70609.578125,
+        "stop_loss_technical": 71789.8125,
+        "target_1": 68839.2265625,
+        "target_2": 67068.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 70835.421875,
+        "entry_ideal": 70609.578125,
         "stop_loss_technical": 73784.234375,
-        "target_1": 66412.203125,
-        "target_2": 61988.984375,
+        "target_1": 65847.59375,
+        "target_2": 61085.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
