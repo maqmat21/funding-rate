@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-12T01:20:54.331494+00:00",
+    "generated_at_utc": "2026-04-12T04:23:54.841957+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.7,
+        "price": 98.698,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,47 +24,49 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Iconic steakhouse chain is making a comeback after nearly fading away",
+    "Early Broadcom stock investors now earn 16.8% dividend yield",
     "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
     "McDonald's quietly makes 2 menu changes customers may not like",
     "‘Big Short’ Michael Burry sends signal on Nvidia stock",
-    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
-    "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks"
+    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73065.921875,
-        "perp_last_price": 73065.921875,
-        "mark_price": 73065.921875,
-        "index_price": 73065.921875,
+        "spot_price": 71598.9921875,
+        "perp_last_price": 71598.9921875,
+        "mark_price": 71598.9921875,
+        "index_price": 71598.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 73065.921875,
+        "entry_ideal": 71598.9921875,
         "stop_loss_technical": 73724.78125,
-        "target_1": 72077.6328125,
-        "target_2": 71089.34375,
+        "target_1": 68410.30859375,
+        "target_2": 65221.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 73065.921875,
+        "entry_ideal": 71598.9921875,
         "stop_loss_technical": 73724.78125,
-        "target_1": 72077.6328125,
-        "target_2": 71089.34375,
+        "target_1": 68410.30859375,
+        "target_2": 65221.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
