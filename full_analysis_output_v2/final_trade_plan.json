@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-11T23:55:29.707293+00:00",
+    "generated_at_utc": "2026-04-12T01:20:54.331494+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.698,
+        "price": 98.7,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Iconic steakhouse chain is making a comeback after nearly fading away",
-    "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy",
     "How Much You Really Need Invested to Replace a $100,000 Salary With Dividends",
-    "A $1 Million Portfolio That Quietly Pays You $67,500 a Year, No Job Required",
-    "What Is One of the Best Dividend Stocks to Buy With $5,000 Right Now?",
-    "McDonald's quietly makes 2 menu changes customers may not like"
+    "McDonald's quietly makes 2 menu changes customers may not like",
+    "‘Big Short’ Michael Burry sends signal on Nvidia stock",
+    "The US government is about to reset Social Security — do this to protect yourself (even if you're young or middle-aged)",
+    "Billionaire Bill Gates Has 59% of His Foundation's $36 Billion Portfolio Invested in 3 Brilliant Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73056.140625,
-        "perp_last_price": 73056.140625,
-        "mark_price": 73056.140625,
-        "index_price": 73056.140625,
+        "spot_price": 73065.921875,
+        "perp_last_price": 73065.921875,
+        "mark_price": 73065.921875,
+        "index_price": 73065.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 73056.140625,
+        "entry_ideal": 73065.921875,
         "stop_loss_technical": 73724.78125,
-        "target_1": 72053.1796875,
-        "target_2": 71050.21875,
+        "target_1": 72077.6328125,
+        "target_2": 71089.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 73056.140625,
+        "entry_ideal": 73065.921875,
         "stop_loss_technical": 73724.78125,
-        "target_1": 72053.1796875,
-        "target_2": 71050.21875,
+        "target_1": 72077.6328125,
+        "target_2": 71089.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
