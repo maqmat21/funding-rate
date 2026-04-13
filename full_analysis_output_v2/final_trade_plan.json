@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-13T19:59:23.931316+00:00",
+    "generated_at_utc": "2026-04-13T20:55:04.599668+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.409,
+        "price": 98.407,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "A $4.76B Reason to Buy Lockheed Martin Stock Amid the Ceasefire",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
+    "Mortgage rate history: 1972 to 2026",
     "3 predictions about silver prices in the next decade",
-    "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now",
     "Larry David’s Social Security Check vs. the Average American’s",
-    "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy"
+    "Retirees With Over $800,000 in a Traditional 401(k) Are Being Warned About This Social Security Clawback",
+    "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73455.8125,
-        "perp_last_price": 73455.8125,
-        "mark_price": 73455.8125,
-        "index_price": 73455.8125,
+        "spot_price": 73168.6640625,
+        "perp_last_price": 73168.6640625,
+        "mark_price": 73168.6640625,
+        "index_price": 73168.6640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73455.8125,
-        "stop_loss_technical": 70588.5234375,
-        "target_1": 77756.74609375,
-        "target_2": 82057.6796875,
+        "entry_ideal": 73168.6640625,
+        "stop_loss_technical": 72071.13410156,
+        "target_1": 74814.95900391,
+        "target_2": 76461.25394531,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73455.8125,
+        "entry_ideal": 73168.6640625,
         "stop_loss_technical": 70486.359375,
-        "target_1": 77909.9921875,
-        "target_2": 82364.171875,
+        "target_1": 77192.12109375,
+        "target_2": 81215.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
