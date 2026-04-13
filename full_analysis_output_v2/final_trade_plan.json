@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-13T12:46:53.636069+00:00",
+    "generated_at_utc": "2026-04-13T14:20:30.715594+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.989,
-        "trend": "alcista"
+        "price": 98.809,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.343,
+        "price": 4.317,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 40m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
-    "How Much Dividend Stock Investment Do You Actually Need to Replace Your $85K Salary in Retirement?",
-    "Protect Your Portfolio From Inflation: Buy These 2 Consumer Staples Stocks",
-    "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now",
-    "Market Chatter: Amazon's New-Car Buying Program Expands With Listings From Kia, Chevrolet, Jeep",
-    "The ‘incredible period’ for the US economy is ending, Warren Buffett once said. Is his prediction coming true in 2026?"
+    "A UPS facility will close in Louisville. Here's what it means for employees",
+    "US Foods Proposal Gives Shareholders New Voice On Capital Allocation",
+    "Why US retirees with just $600K in savings often end up with $1.3M (or more). Stop stressing out in 2026",
+    "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 70806.9375,
-        "perp_last_price": 70806.9375,
-        "mark_price": 70806.9375,
-        "index_price": 70806.9375,
+        "spot_price": 71719.078125,
+        "perp_last_price": 71719.078125,
+        "mark_price": 71719.078125,
+        "index_price": 71719.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 70806.9375,
-        "stop_loss_technical": 71452.2265625,
-        "target_1": 69839.00390625,
-        "target_2": 68871.0703125,
+        "entry_ideal": 71527.484375,
+        "stop_loss_technical": 70581.140625,
+        "target_1": 72947.0,
+        "target_2": 74366.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 70806.9375,
-        "stop_loss_technical": 73784.234375,
-        "target_1": 66340.9921875,
-        "target_2": 61875.046875,
+        "entry_ideal": 71719.078125,
+        "stop_loss_technical": 70486.359375,
+        "target_1": 73568.15625,
+        "target_2": 75417.234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
