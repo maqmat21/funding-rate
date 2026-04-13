@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-13T16:48:18.399139+00:00",
+    "generated_at_utc": "2026-04-13T17:44:41.343719+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.691,
+        "price": 98.547,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.315,
-        "trend": "alcista"
+        "price": 4.305,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 12m",
+    "U.S. markets close in 2h 16m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "'It Is Much Slower Than A Calculator': Blockstream's Adam Back Dismisses Urgency Of Bitcoin Quantum Risk Over Hardware Limitations",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
     "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now",
     "3 predictions about silver prices in the next decade",
-    "Should I Choose a $150,000 Lump Sum or $1,200 Monthly Pension Payments?"
+    "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy",
+    "Larry David’s Social Security Check vs. the Average American’s"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72340.1640625,
-        "perp_last_price": 72340.1640625,
-        "mark_price": 72340.1640625,
-        "index_price": 72340.1640625,
+        "spot_price": 72457.8984375,
+        "perp_last_price": 72457.8984375,
+        "mark_price": 72457.8984375,
+        "index_price": 72457.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72340.1640625,
+        "entry_ideal": 72457.8984375,
         "stop_loss_technical": 70588.5234375,
-        "target_1": 74967.625,
-        "target_2": 77595.0859375,
+        "target_1": 75261.9609375,
+        "target_2": 78066.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72340.1640625,
+        "entry_ideal": 72457.8984375,
         "stop_loss_technical": 70486.359375,
-        "target_1": 75120.87109375,
-        "target_2": 77901.578125,
+        "target_1": 75415.20703125,
+        "target_2": 78372.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
