@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-13T15:49:44.409994+00:00",
+    "generated_at_utc": "2026-04-13T16:48:18.399139+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.759,
+        "price": 98.691,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.333,
+        "price": 4.315,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 12m",
+    "U.S. markets close in 3h 12m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "'It Is Much Slower Than A Calculator': Blockstream's Adam Back Dismisses Urgency Of Bitcoin Quantum Risk Over Hardware Limitations",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
     "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now",
     "3 predictions about silver prices in the next decade",
-    "Oppenheimer Upgrades Blackstone to Outperform, Calling It the Premier Franchise at a Bargain Price",
-    "Costco Raised Membership Fees for the First Time in 7 Years. Here's What Investors Learned From It."
+    "Should I Choose a $150,000 Lump Sum or $1,200 Monthly Pension Payments?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71874.5625,
-        "perp_last_price": 71874.5625,
-        "mark_price": 71874.5625,
-        "index_price": 71874.5625,
+        "spot_price": 72340.1640625,
+        "perp_last_price": 72340.1640625,
+        "mark_price": 72340.1640625,
+        "index_price": 72340.1640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71874.5625,
-        "stop_loss_technical": 72420.1171875,
-        "target_1": 71056.23046875,
-        "target_2": 70237.8984375,
+        "entry_ideal": 72340.1640625,
+        "stop_loss_technical": 70588.5234375,
+        "target_1": 74967.625,
+        "target_2": 77595.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 71874.5625,
+        "entry_ideal": 72340.1640625,
         "stop_loss_technical": 70486.359375,
-        "target_1": 73956.8671875,
-        "target_2": 76039.171875,
+        "target_1": 75120.87109375,
+        "target_2": 77901.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
