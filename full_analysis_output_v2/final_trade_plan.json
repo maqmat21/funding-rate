@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-14T17:52:57.549907+00:00",
+    "generated_at_utc": "2026-04-14T18:56:38.228326+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.064,
+        "price": 98.131,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.262,
+        "price": 4.256,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 9m",
+    "U.S. markets close in 1h 4m",
     "News from the Yahoo Finance Network",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "Ripple (XRP) Price Prediction: Can XRP Hit $50?",
-    "Dividend Stocks To Consider In April 2026",
-    "Rent the Runway turns to marketplace, other sideline businesses to stoke revenue",
     "Larry David’s Social Security Check vs. the Average American’s",
-    "Why US retirees with just $600K in savings often end up with $1.3M (or more). Stop stressing out in 2026"
+    "SpaceX Could Be the Biggest IPO in History. Here's What Happened to the Last 5 Mega-IPOs.",
+    "Why US retirees with just $600K in savings often end up with $1.3M (or more). Stop stressing out in 2026",
+    "Warren Buffett Reveals the Real Reason Berkshire Has Been Dumping Apple Stock",
+    "Investing $8,000 In Each of These 3 Stocks in 2026 Could Generate $1,500 in Annual Dividends"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74694.6640625,
-        "perp_last_price": 74694.6640625,
-        "mark_price": 74694.6640625,
-        "index_price": 74694.6640625,
+        "spot_price": 74132.1796875,
+        "perp_last_price": 74132.1796875,
+        "mark_price": 74132.1796875,
+        "index_price": 74132.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74694.6640625,
-        "stop_loss_technical": 73208.84375,
-        "target_1": 76923.39453125,
-        "target_2": 79152.125,
+        "entry_ideal": 74132.1796875,
+        "stop_loss_technical": 73020.19699219,
+        "target_1": 75800.15373047,
+        "target_2": 77468.12777344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74694.6640625,
-        "stop_loss_technical": 70540.5703125,
-        "target_1": 80925.8046875,
-        "target_2": 87156.9453125,
+        "entry_ideal": 74132.1796875,
+        "stop_loss_technical": 73020.19699219,
+        "target_1": 75800.15373047,
+        "target_2": 77468.12777344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
