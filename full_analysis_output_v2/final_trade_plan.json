@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-14T01:52:08.022304+00:00",
+    "generated_at_utc": "2026-04-14T04:36:29.861701+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.352,
+        "price": 98.314,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 54m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
-    "Nvidia CEO Jensen Huang Says 'Move To California' Even As Billionaires Look To Flee State's Proposed Wealth Tax",
+    "A woman found out she won't inherit her husband's $2M trust. Here's what The Ramsey Show recommends",
     "Music superstar loses retirement fund to fake app",
-    "McDonald’s makes a surprising menu shift in the U.S.",
-    "‘Let’s not be naive’: Ray Dalio says economic world order ‘is gone’ — warns of US ‘civil war.’ Preserve your wealth now",
-    "Berkshire Hathaway Is Loading Up on These 4 Stocks. Here’s Why"
+    "Larry David’s Social Security Check vs. the Average American’s",
+    "Silver vs. gold: Which metal made investors more money in the last 50 years?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74368.2734375,
-        "perp_last_price": 74368.2734375,
-        "mark_price": 74368.2734375,
-        "index_price": 74368.2734375,
+        "spot_price": 74454.0859375,
+        "perp_last_price": 74454.0859375,
+        "mark_price": 74454.0859375,
+        "index_price": 74454.0859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74368.2734375,
-        "stop_loss_technical": 70588.5234375,
-        "target_1": 80037.8984375,
-        "target_2": 85707.5234375,
+        "entry_ideal": 74454.0859375,
+        "stop_loss_technical": 73337.27464844,
+        "target_1": 76129.30287109,
+        "target_2": 77804.51980469,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74368.2734375,
+        "entry_ideal": 74454.0859375,
         "stop_loss_technical": 70540.5703125,
-        "target_1": 80109.828125,
-        "target_2": 85851.3828125,
+        "target_1": 80324.359375,
+        "target_2": 86194.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
