@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-14T11:45:11.173863+00:00",
+    "generated_at_utc": "2026-04-14T12:46:54.770704+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.083,
+        "price": 98.023,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.297,
+        "price": 4.293,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 46m",
     "News from the Yahoo Finance Network",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "One of Wall Street's Premier Indicators Just Hit a 74-Year Low -- and It Suggests a Big Move in Stocks Is Imminent",
-    "‘We will not survive’: Toyota, Honda and Ford CEOs issue chilling warning about China — and it could hit your portfolio",
-    "Nissan to cut models, expand AI-driven vehicles",
+    "CarMax Stock Sinks After Earnings. New CEO Has Work to Do.",
     "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
-    "Bill Ackman says some high-quality stocks are ‘stupidly cheap’ — and the discount could offer 10x returns"
+    "Bill Ackman says some high-quality stocks are ‘stupidly cheap’ — and the discount could offer 10x returns",
+    "‘We will not survive’: Toyota, Honda and Ford CEOs issue chilling warning about China — and it could hit your portfolio",
+    "Wells Fargo (NYSE:WFC) Misses Q1 CY2026 Sales Expectations",
+    "Analysts Are Bullish on These 3 Quantum Computing Stocks — Including One You’ve Never Heard Of"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74394.5390625,
-        "perp_last_price": 74394.5390625,
-        "mark_price": 74394.5390625,
-        "index_price": 74394.5390625,
+        "spot_price": 74364.265625,
+        "perp_last_price": 74364.265625,
+        "mark_price": 74364.265625,
+        "index_price": 74364.265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74394.5390625,
-        "stop_loss_technical": 73278.62097656,
-        "target_1": 76068.41619141,
-        "target_2": 77742.29332031,
+        "entry_ideal": 74364.265625,
+        "stop_loss_technical": 73248.80164062,
+        "target_1": 76037.46160156,
+        "target_2": 77710.65757812,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74394.5390625,
+        "entry_ideal": 74364.265625,
         "stop_loss_technical": 70540.5703125,
-        "target_1": 80175.4921875,
-        "target_2": 85956.4453125,
+        "target_1": 80099.80859375,
+        "target_2": 85835.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
