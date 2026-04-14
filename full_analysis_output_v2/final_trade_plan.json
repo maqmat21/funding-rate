@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-14T18:56:38.228326+00:00",
+    "generated_at_utc": "2026-04-14T20:00:07.565137+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.131,
+        "price": 98.13,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 4m",
     "News from the Yahoo Finance Network",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
     "Larry David’s Social Security Check vs. the Average American’s",
-    "SpaceX Could Be the Biggest IPO in History. Here's What Happened to the Last 5 Mega-IPOs.",
-    "Why US retirees with just $600K in savings often end up with $1.3M (or more). Stop stressing out in 2026",
-    "Warren Buffett Reveals the Real Reason Berkshire Has Been Dumping Apple Stock",
-    "Investing $8,000 In Each of These 3 Stocks in 2026 Could Generate $1,500 in Annual Dividends"
+    "Chicken Salad Chick hires Popeyes exec to lead franchised growth",
+    "McDonald’s makes a surprising menu shift in the U.S.",
+    "Analysts Hike Their Micron Estimates, Pushing MU Stock Price Targets Higher",
+    "Insiders Sell Into Vicor Rally, Should Investors Follow Suit?",
+    "Why US retirees with just $600K in savings often end up with $1.3M (or more). Stop stressing out in 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74132.1796875,
-        "perp_last_price": 74132.1796875,
-        "mark_price": 74132.1796875,
-        "index_price": 74132.1796875,
+        "spot_price": 74254.71875,
+        "perp_last_price": 74254.71875,
+        "mark_price": 74254.71875,
+        "index_price": 74254.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74132.1796875,
-        "stop_loss_technical": 73020.19699219,
-        "target_1": 75800.15373047,
-        "target_2": 77468.12777344,
+        "entry_ideal": 74254.71875,
+        "stop_loss_technical": 73946.8515625,
+        "target_1": 74716.51953125,
+        "target_2": 75178.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74132.1796875,
-        "stop_loss_technical": 73020.19699219,
-        "target_1": 75800.15373047,
-        "target_2": 77468.12777344,
+        "entry_ideal": 74254.71875,
+        "stop_loss_technical": 73140.89796875,
+        "target_1": 75925.44992187,
+        "target_2": 77596.18109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
