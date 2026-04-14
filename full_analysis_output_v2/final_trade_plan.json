@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-14T20:56:07.584138+00:00",
+    "generated_at_utc": "2026-04-14T21:41:56.602870+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.112,
+        "price": 98.128,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Trump’s agricultural tariffs hit all 50 states—driving up food prices, crushing exports, and leaving farmers with nowhere to turn",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "Android users could get money under $135 million Google settlement",
     "Larry David’s Social Security Check vs. the Average American’s",
+    "4 Tax-Smart Moves Wealthy Women Should Make To Keep More of Their Money",
     "McDonald’s makes a surprising menu shift in the U.S.",
     "Why US retirees with just $600K in savings often end up with $1.3M (or more). Stop stressing out in 2026",
-    "Warren Buffett Reveals the Real Reason Berkshire Has Been Dumping Apple Stock",
-    "3 Monster Stocks to Hold for the Next 10 Years"
+    "Warren Buffett Reveals the Real Reason Berkshire Has Been Dumping Apple Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74197.0546875,
-        "perp_last_price": 74197.0546875,
-        "mark_price": 74197.0546875,
-        "index_price": 74197.0546875,
+        "spot_price": 74042.640625,
+        "perp_last_price": 74042.640625,
+        "mark_price": 74042.640625,
+        "index_price": 74042.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74197.0546875,
-        "stop_loss_technical": 73084.09886719,
-        "target_1": 75866.48841797,
-        "target_2": 77535.92214844,
+        "entry_ideal": 74042.4765625,
+        "stop_loss_technical": 72931.83941406,
+        "target_1": 75708.43228516,
+        "target_2": 77374.38800781,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74197.0546875,
-        "stop_loss_technical": 73084.09886719,
-        "target_1": 75866.48841797,
-        "target_2": 77535.92214844,
+        "entry_ideal": 74042.640625,
+        "stop_loss_technical": 72932.00101563,
+        "target_1": 75708.60003906,
+        "target_2": 77374.55945312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
