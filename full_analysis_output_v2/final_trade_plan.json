@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-14T23:26:46.946347+00:00",
+    "generated_at_utc": "2026-04-15T00:04:38.798481+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.106,
+        "price": 98.076,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,51 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Higher SALT cap could mean bigger tax breaks for certain Capital Region filers",
     "Disney bloodbath as new CEO announces 1,000 job cuts in brutal email to employees",
+    "Engineer Couple With $2M Net Worth Says 'Overwhelmed' As Income Keeps Climbing — Dave Ramsey Says It Takes Time 'Emotionally' To Adjust To Wealth",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
     "These 2 Dividend Kings Are My Top Buys for April 2026",
     "US set to launch tariff refund system on April 20",
-    "McDonald’s makes a surprising menu shift in the U.S.",
-    "Warren Buffett Reveals the Real Reason Berkshire Has Been Dumping Apple Stock",
-    "3 Monster Stocks to Hold for the Next 10 Years"
+    "McDonald’s makes a surprising menu shift in the U.S."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74100.6328125,
-        "perp_last_price": 74100.6328125,
-        "mark_price": 74100.6328125,
-        "index_price": 74100.6328125,
+        "spot_price": 74443.359375,
+        "perp_last_price": 74443.359375,
+        "mark_price": 74443.359375,
+        "index_price": 74443.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74100.6328125,
-        "stop_loss_technical": 72989.12332031,
-        "target_1": 75767.89705078,
-        "target_2": 77435.16128906,
+        "entry_ideal": 74443.359375,
+        "stop_loss_technical": 73908.4375,
+        "target_1": 75245.7421875,
+        "target_2": 76048.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74100.6328125,
-        "stop_loss_technical": 72989.12332031,
-        "target_1": 75767.89705078,
-        "target_2": 77435.16128906,
+        "entry_ideal": 74443.359375,
+        "stop_loss_technical": 70540.5703125,
+        "target_1": 80297.54296875,
+        "target_2": 86151.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
