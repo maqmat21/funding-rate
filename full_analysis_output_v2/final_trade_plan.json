@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-15T07:10:05.952120+00:00",
+    "generated_at_utc": "2026-04-15T08:53:05.557244+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.193,
-        "trend": "alcista"
+        "price": 98.127,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.256,
@@ -21,51 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 27m",
+    "U.S. markets open in 4h 38m",
     "News from the Yahoo Finance Network",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
     "Kid Rock Said 'I Want to Make More Money, Make More Music, Eat Big Macs And Drink Budweisers' — And Built A $150 Million Empire Doing Exactly That",
-    "CarMax Inc (KMX) Q4 2026 Earnings Call Highlights: Navigating Challenges with Strategic Adjustments",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "Nvidia's Stock Is Up Over 1,100% Since 2023, And It Just Might Be Getting Started",
-    "These 2 Dividend Kings Are My Top Buys for April 2026"
+    "Bessent Says Trump’s Tariff Rates Could Be Restored by July",
+    "Trump Says NATO ‘Won’t Be There’ for U.S. in the Future",
+    "Trump Says End to Iran War in Sight, Spurring Market Rally"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73899.0,
-        "perp_last_price": 73899.0,
-        "mark_price": 73899.0,
-        "index_price": 73899.0,
+        "spot_price": 74115.0078125,
+        "perp_last_price": 74115.0078125,
+        "mark_price": 74115.0078125,
+        "index_price": 74115.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73899.0,
-        "stop_loss_technical": 76009.03125,
-        "target_1": 70733.953125,
-        "target_2": 67568.90625,
+        "entry_ideal": 74115.0078125,
+        "stop_loss_technical": 73545.0,
+        "target_1": 74970.01953125,
+        "target_2": 75825.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73899.0,
-        "stop_loss_technical": 76061.7578125,
-        "target_1": 70654.86328125,
-        "target_2": 67410.7265625,
+        "entry_ideal": 74115.0078125,
+        "stop_loss_technical": 73003.28269531,
+        "target_1": 75782.59548828,
+        "target_2": 77450.18316406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
