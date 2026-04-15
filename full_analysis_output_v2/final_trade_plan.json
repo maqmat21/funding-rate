@@ -1,72 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-15T17:19:42.776712+00:00",
+    "generated_at_utc": "2026-04-15T18:17:17.867994+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.045,
+        "price": 98.058,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.283,
-        "trend": "bajista"
+        "price": 4.285,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 41m",
+    "U.S. markets close in 1h 44m",
     "News from the Yahoo Finance Network",
-    "3 Reasons to Avoid KMT and 1 Stock to Buy Instead",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
+    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
-    "'Just don't look': Amazon worker dies on warehouse floor in Oregon. Workers were told to keep going as body stayed put",
-    "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "MicroStrategy Reports $1.3 Billion ‘Bitcoin Gain’ in April, But is It Actual Profit?"
+    "Kid Rock Said 'I Want to Make More Money, Make More Music, Eat Big Macs And Drink Budweisers' — And Built A $150 Million Empire Doing Exactly That",
+    "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
+    "These 2 Dividend Kings Are My Top Buys for April 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74050.4921875,
-        "perp_last_price": 74050.4921875,
-        "mark_price": 74050.4921875,
-        "index_price": 74050.4921875,
+        "spot_price": 74374.0234375,
+        "perp_last_price": 74374.0234375,
+        "mark_price": 74374.0234375,
+        "index_price": 74374.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 74053.1328125,
+        "entry_ideal": 74374.0234375,
         "stop_loss_technical": 73545.0,
-        "target_1": 74815.33203125,
-        "target_2": 75577.53125,
+        "target_1": 75617.55859375,
+        "target_2": 76861.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 74050.4921875,
-        "stop_loss_technical": 72939.73480469,
-        "target_1": 75716.62826172,
-        "target_2": 77382.76433594,
+        "entry_ideal": 74374.0234375,
+        "stop_loss_technical": 70540.5703125,
+        "target_1": 80124.203125,
+        "target_2": 85874.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
