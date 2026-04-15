@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-15T00:04:38.798481+00:00",
+    "generated_at_utc": "2026-04-15T03:34:56.404993+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.076,
-        "trend": "bajista"
+        "price": 98.182,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.256,
@@ -22,52 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Higher SALT cap could mean bigger tax breaks for certain Capital Region filers",
-    "Disney bloodbath as new CEO announces 1,000 job cuts in brutal email to employees",
-    "Engineer Couple With $2M Net Worth Says 'Overwhelmed' As Income Keeps Climbing — Dave Ramsey Says It Takes Time 'Emotionally' To Adjust To Wealth",
+    "Ford CEO Jim Farley has blunt message on Chinese EVs",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "These 2 Dividend Kings Are My Top Buys for April 2026",
-    "US set to launch tariff refund system on April 20",
-    "McDonald’s makes a surprising menu shift in the U.S."
+    "Engineer Couple With $2M Net Worth Says 'Overwhelmed' As Income Keeps Climbing — Dave Ramsey Says It Takes Time 'Emotionally' To Adjust To Wealth",
+    "Kid Rock Said 'I Want to Make More Money, Make More Music, Eat Big Macs And Drink Budweisers' — And Built A $150 Million Empire Doing Exactly That",
+    "Apple CEO Tim Cook Just Bought Nike Stock. His Last Purchase Didn’t Go So Well.",
+    "The Stock and Bond Markets Are Flashing a Warning That Preceded Every Recession Since 1970",
+    "These 2 Dividend Kings Are My Top Buys for April 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74443.359375,
-        "perp_last_price": 74443.359375,
-        "mark_price": 74443.359375,
-        "index_price": 74443.359375,
+        "spot_price": 74330.9921875,
+        "perp_last_price": 74330.9921875,
+        "mark_price": 74330.9921875,
+        "index_price": 74330.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 74443.359375,
-        "stop_loss_technical": 73908.4375,
-        "target_1": 75245.7421875,
-        "target_2": 76048.125,
+        "entry_ideal": 74336.0,
+        "stop_loss_technical": 73905.1796875,
+        "target_1": 74982.23046875,
+        "target_2": 75628.4609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 74443.359375,
-        "stop_loss_technical": 70540.5703125,
-        "target_1": 80297.54296875,
-        "target_2": 86151.7265625,
+        "entry_ideal": 74330.9921875,
+        "stop_loss_technical": 76009.03125,
+        "target_1": 71813.93359375,
+        "target_2": 69296.875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +79,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +92,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
