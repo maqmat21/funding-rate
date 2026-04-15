@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-15T11:13:11.218822+00:00",
+    "generated_at_utc": "2026-04-15T12:06:40.661911+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.231,
+        "price": 98.22,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 17m",
+    "U.S. markets open in 1h 25m",
     "News from the Yahoo Finance Network",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
+    "Iranian Oil Arrives in India Just Ahead of US Waiver Expiry",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
-    "Tesla is making just 250 final Model S cars at $159,420 each — and then it's gone forever",
     "Kid Rock Said 'I Want to Make More Money, Make More Music, Eat Big Macs And Drink Budweisers' — And Built A $150 Million Empire Doing Exactly That",
     "‘Thank you, Mr. Tariff!’: The US just posted a massive 55% deficit cut — Trump calls it the ‘biggest drop in history’",
-    "Silver Mountain Resources Provides Update on Reliquias Mine as Works Toward Restart"
+    "Nvidia stock is suddenly on a roll"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74104.6796875,
-        "perp_last_price": 74104.6796875,
-        "mark_price": 74104.6796875,
-        "index_price": 74104.6796875,
+        "spot_price": 74103.078125,
+        "perp_last_price": 74103.078125,
+        "mark_price": 74103.078125,
+        "index_price": 74103.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 74104.6796875,
-        "stop_loss_technical": 73545.0,
-        "target_1": 74944.19921875,
-        "target_2": 75783.71875,
+        "entry_ideal": 74101.1171875,
+        "stop_loss_technical": 74947.6328125,
+        "target_1": 72831.34375,
+        "target_2": 71561.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 74104.6796875,
+        "entry_ideal": 74103.078125,
         "stop_loss_technical": 76061.7578125,
-        "target_1": 71169.0625,
-        "target_2": 68233.4453125,
+        "target_1": 71165.05859375,
+        "target_2": 68227.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
