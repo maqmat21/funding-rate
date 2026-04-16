@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T10:49:10.722851+00:00",
+    "generated_at_utc": "2026-04-16T11:44:41.968337+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.255,
+        "price": 98.169,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 42m",
+    "U.S. markets open in 1h 46m",
     "News from the Yahoo Finance Network",
-    "Satoshi Nakamoto is one of the richest people in the world, but a proposed update could lock his Bitcoin away forever",
-    "Warren Buffett's Successor, Greg Abel, Has 79% of Berkshire Hathaway's $318 Billion of Invested Assets Put to Work in Just 10 Stocks",
+    "Behind the QVC Group Collapse, a Loss of Relevance and Late to Innovate",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
-    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
-    "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out"
+    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
+    "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
+    "Warren Buffett's Successor, Greg Abel, Has 79% of Berkshire Hathaway's $318 Billion of Invested Assets Put to Work in Just 10 Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74333.96875,
-        "perp_last_price": 74333.96875,
-        "mark_price": 74333.96875,
-        "index_price": 74333.96875,
+        "spot_price": 74456.4609375,
+        "perp_last_price": 74456.4609375,
+        "mark_price": 74456.4609375,
+        "index_price": 74456.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 74332.8984375,
-        "stop_loss_technical": 75412.0,
-        "target_1": 72714.24609375,
-        "target_2": 71095.59375,
+        "entry_ideal": 74460.5,
+        "stop_loss_technical": 73779.65625,
+        "target_1": 75481.765625,
+        "target_2": 76503.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 74333.96875,
+        "entry_ideal": 74456.4609375,
         "stop_loss_technical": 76061.7578125,
-        "target_1": 71742.28515625,
-        "target_2": 69150.6015625,
+        "target_1": 72048.515625,
+        "target_2": 69640.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
