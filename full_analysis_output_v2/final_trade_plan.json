@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T01:10:28.792789+00:00",
+    "generated_at_utc": "2026-04-16T04:23:01.366558+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.993,
+        "price": 97.951,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 8m",
     "News from the Yahoo Finance Network",
     "Elon Musk's father claims Tesla CEO and his brother hold BTC",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
     "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
-    "Enterprise Products Partners (EPD) Announces Quarterly Dividend of $0.55 per Share",
     "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
-    "Kinder Morgan (KMI) Receives DoE Approval for Additional LNG Exports"
+    "Prediction: This Will Be Amazon's Stock Price in 1 Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74653.8515625,
-        "perp_last_price": 74653.8515625,
-        "mark_price": 74653.8515625,
-        "index_price": 74653.8515625,
+        "spot_price": 74909.703125,
+        "perp_last_price": 74909.703125,
+        "mark_price": 74909.703125,
+        "index_price": 74909.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,28 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74653.8515625,
-        "stop_loss_technical": 73534.04378906,
-        "target_1": 76333.56322266,
-        "target_2": 78013.27488281,
+        "entry_ideal": 74895.28125,
+        "stop_loss_technical": 73771.85203125,
+        "target_1": 76580.42507813,
+        "target_2": 78265.56890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74653.8515625,
+        "entry_ideal": 74909.703125,
         "stop_loss_technical": 70540.5703125,
-        "target_1": 80823.7734375,
-        "target_2": 86993.6953125,
+        "target_1": 81463.40234375,
+        "target_2": 88017.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
