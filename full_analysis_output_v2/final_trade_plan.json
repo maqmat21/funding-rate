@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T09:43:56.027579+00:00",
+    "generated_at_utc": "2026-04-16T10:49:10.722851+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.203,
+        "price": 98.255,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 47m",
+    "U.S. markets open in 2h 42m",
     "News from the Yahoo Finance Network",
+    "Satoshi Nakamoto is one of the richest people in the world, but a proposed update could lock his Bitcoin away forever",
     "Warren Buffett's Successor, Greg Abel, Has 79% of Berkshire Hathaway's $318 Billion of Invested Assets Put to Work in Just 10 Stocks",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
-    "The Trump administration is finally set to begin refunding tariffs to companies",
-    "This Is What $1,000 Invested in Bitcoin During Its Last Bear Market Is Worth Today",
+    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
-    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?"
+    "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74747.8671875,
-        "perp_last_price": 74747.8671875,
-        "mark_price": 74747.8671875,
-        "index_price": 74747.8671875,
+        "spot_price": 74333.96875,
+        "perp_last_price": 74333.96875,
+        "mark_price": 74333.96875,
+        "index_price": 74333.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 74747.8671875,
-        "stop_loss_technical": 75400.0,
-        "target_1": 73769.66796875,
-        "target_2": 72791.46875,
+        "entry_ideal": 74332.8984375,
+        "stop_loss_technical": 75412.0,
+        "target_1": 72714.24609375,
+        "target_2": 71095.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 74747.8671875,
-        "stop_loss_technical": 70540.5703125,
-        "target_1": 81058.8125,
-        "target_2": 87369.7578125,
+        "entry_ideal": 74333.96875,
+        "stop_loss_technical": 76061.7578125,
+        "target_1": 71742.28515625,
+        "target_2": 69150.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
