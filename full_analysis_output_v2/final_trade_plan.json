@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T16:03:30.224018+00:00",
+    "generated_at_utc": "2026-04-16T17:26:12.263630+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.212,
+        "price": 98.291,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.295,
+        "price": 4.307,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 58m",
+    "U.S. markets close in 2h 34m",
     "News from the Yahoo Finance Network",
-    "Ohio regulators seek $5M fine against Kalshi for unlicensed sports gaming",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
+    "High-end steakhouse chain files for Chapter 11 bankruptcy",
     "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
-    "Paramount Boss David Ellison To Host Trump-Linked Dinner While Awaiting Approval on $111 Billion CNN Deal",
+    "Disney Stock Price Prediction: Where Will The Stock be In 2027?",
     "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
-    "Elon Musk's father claims Tesla CEO and his brother hold BTC"
+    "Texas Is Data Center Country. NextEra and More Utilities That Could Benefit."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74812.03125,
-        "perp_last_price": 74812.03125,
-        "mark_price": 74812.03125,
-        "index_price": 74812.03125,
+        "spot_price": 74242.796875,
+        "perp_last_price": 74242.796875,
+        "mark_price": 74242.796875,
+        "index_price": 74242.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74812.03125,
-        "stop_loss_technical": 73689.85078125,
-        "target_1": 76495.30195313,
-        "target_2": 78178.57265625,
+        "entry_ideal": 74243.2734375,
+        "stop_loss_technical": 73129.62433594,
+        "target_1": 75913.74708984,
+        "target_2": 77584.22074219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74812.03125,
-        "stop_loss_technical": 73689.85078125,
-        "target_1": 76495.30195313,
-        "target_2": 78178.57265625,
+        "entry_ideal": 74242.796875,
+        "stop_loss_technical": 76061.7578125,
+        "target_1": 71514.35546875,
+        "target_2": 68785.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
