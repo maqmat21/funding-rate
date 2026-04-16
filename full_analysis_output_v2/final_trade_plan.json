@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T19:49:20.087368+00:00",
+    "generated_at_utc": "2026-04-16T20:34:52.079399+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.172,
+        "price": 98.22,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
-    "People are using this storage unit side hustle hack to score almost $700 extra a month — here’s how it works",
+    "Netflix (NASDAQ:NFLX) Beats Q1 CY2026 Sales Expectations But Stock Drops",
     "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
-    "NIO (NIO) Reports March Deliveries of 35,486 Vehicles",
-    "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "Trump Says Iran Has Agreed to Turn Over Uranium"
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
+    "'Professor' Jiang's Bitcoin 'CIA operation' claim triggers backlash",
+    "Costco members can't get their hands on this new item",
+    "High-end steakhouse chain files for Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75283.5390625,
-        "perp_last_price": 75283.5390625,
-        "mark_price": 75283.5390625,
-        "index_price": 75283.5390625,
+        "spot_price": 75078.8203125,
+        "perp_last_price": 75078.8203125,
+        "mark_price": 75078.8203125,
+        "index_price": 75078.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75283.5078125,
-        "stop_loss_technical": 74154.25519531,
-        "target_1": 76977.38673828,
-        "target_2": 78671.26566406,
+        "entry_ideal": 75063.59375,
+        "stop_loss_technical": 75539.90625,
+        "target_1": 74349.125,
+        "target_2": 73634.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75283.5390625,
-        "stop_loss_technical": 74154.28597656,
-        "target_1": 76977.41869141,
-        "target_2": 78671.29832031,
+        "entry_ideal": 75078.8203125,
+        "stop_loss_technical": 73952.63800781,
+        "target_1": 76768.09376953,
+        "target_2": 78457.36722656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
