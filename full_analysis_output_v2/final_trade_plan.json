@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T18:41:21.033499+00:00",
+    "generated_at_utc": "2026-04-16T19:49:20.087368+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.233,
+        "price": 98.172,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 19m",
     "News from the Yahoo Finance Network",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
     "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
-    "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
     "People are using this storage unit side hustle hack to score almost $700 extra a month — here’s how it works",
-    "Elon Musk's father claims Tesla CEO and his brother hold BTC"
+    "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
+    "NIO (NIO) Reports March Deliveries of 35,486 Vehicles",
+    "High-end steakhouse chain files for Chapter 11 bankruptcy",
+    "Trump Says Iran Has Agreed to Turn Over Uranium"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74571.34375,
-        "perp_last_price": 74571.34375,
-        "mark_price": 74571.34375,
-        "index_price": 74571.34375,
+        "spot_price": 75283.5390625,
+        "perp_last_price": 75283.5390625,
+        "mark_price": 75283.5390625,
+        "index_price": 75283.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,10 +50,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74557.21875,
-        "stop_loss_technical": 73438.86046875,
-        "target_1": 76234.75617187,
-        "target_2": 77912.29359375,
+        "entry_ideal": 75283.5078125,
+        "stop_loss_technical": 74154.25519531,
+        "target_1": 76977.38673828,
+        "target_2": 78671.26566406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74571.34375,
-        "stop_loss_technical": 73452.77359375,
-        "target_1": 76249.19898438,
-        "target_2": 77927.05421875,
+        "entry_ideal": 75283.5390625,
+        "stop_loss_technical": 74154.28597656,
+        "target_1": 76977.41869141,
+        "target_2": 78671.29832031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
