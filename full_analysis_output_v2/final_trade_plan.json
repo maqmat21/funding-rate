@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T21:24:47.869763+00:00",
+    "generated_at_utc": "2026-04-16T22:03:25.925833+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.221,
+        "price": 98.208,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
-    "America’s Next Great Business Oracle May Not Be American. Meet the Next Warren Buffett.",
+    "Netflix Reports Strong Earnings and Co-Founder Reed Hastings' Departure. But Here's the Real Reason the Stock is Getting Crushed in After-Hours Trading",
     "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "Netflix shares dive as revenue barely beats expectations",
-    "WaFd Bank (NASDAQ:WAFD) Beats Expectations in Strong Q1 CY2026",
+    "A Look At Zions Bancorporation (ZION) Valuation After Strong Recent Share Price Performance",
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
     "Cuba Tried to Deliver Secret Letter Directly to Trump Via Businessman",
-    "Rural Co-ops Navigate a New Era of Load Growth, Rising Costs, and Policy Pressure"
+    "NIO (NIO) Reports March Deliveries of 35,486 Vehicles"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74905.7421875,
-        "perp_last_price": 74905.7421875,
-        "mark_price": 74905.7421875,
-        "index_price": 74905.7421875,
+        "spot_price": 75062.0,
+        "perp_last_price": 75062.0,
+        "mark_price": 75062.0,
+        "index_price": 75062.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74905.7421875,
-        "stop_loss_technical": 75533.6796875,
-        "target_1": 73963.8359375,
-        "target_2": 73021.9296875,
+        "entry_ideal": 75065.4609375,
+        "stop_loss_technical": 73939.47902344,
+        "target_1": 76754.43380859,
+        "target_2": 78443.40667969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +61,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74905.7421875,
-        "stop_loss_technical": 73782.15605469,
-        "target_1": 76591.12138672,
-        "target_2": 78276.50058594,
+        "entry_ideal": 75062.0,
+        "stop_loss_technical": 73936.07,
+        "target_1": 76750.895,
+        "target_2": 78439.79,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
