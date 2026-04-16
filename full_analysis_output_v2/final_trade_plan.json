@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-15T23:36:59.999622+00:00",
+    "generated_at_utc": "2026-04-16T01:10:28.792789+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.051,
+        "price": 97.993,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Elon Musk's father claims Tesla CEO and his brother hold BTC",
     "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
-    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
     "Ford CEO Jim Farley has blunt message on Chinese EVs",
+    "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
+    "Enterprise Products Partners (EPD) Announces Quarterly Dividend of $0.55 per Share",
     "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
-    "Why Cardiologists Are Pulling Money Out of Their 401(k)s During Market Downturns While Most Investors Hold On",
-    "This Magnificent Energy Stock Is Down 20%. Buy It Before It Sets a New All-Time High.",
-    "Marsh doubles incentive opportunity for dual CFO, COO"
+    "Kinder Morgan (KMI) Receives DoE Approval for Additional LNG Exports"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74711.9921875,
-        "perp_last_price": 74711.9921875,
-        "mark_price": 74711.9921875,
-        "index_price": 74711.9921875,
+        "spot_price": 74653.8515625,
+        "perp_last_price": 74653.8515625,
+        "mark_price": 74653.8515625,
+        "index_price": 74653.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,28 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74711.9921875,
-        "stop_loss_technical": 73591.31230469,
-        "target_1": 76393.01201172,
-        "target_2": 78074.03183594,
+        "entry_ideal": 74653.8515625,
+        "stop_loss_technical": 73534.04378906,
+        "target_1": 76333.56322266,
+        "target_2": 78013.27488281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74711.9921875,
+        "entry_ideal": 74653.8515625,
         "stop_loss_technical": 70540.5703125,
-        "target_1": 80969.125,
-        "target_2": 87226.2578125,
+        "target_1": 80823.7734375,
+        "target_2": 86993.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
