@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T17:26:12.263630+00:00",
+    "generated_at_utc": "2026-04-16T18:41:21.033499+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.291,
+        "price": 98.233,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.307,
+        "price": 4.309,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 34m",
+    "U.S. markets close in 1h 19m",
     "News from the Yahoo Finance Network",
-    "Elizabeth Warren says this Trump policy will ‘Make Americans work until they drop dead’. Prepare for the inevitable now",
-    "High-end steakhouse chain files for Chapter 11 bankruptcy",
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
     "Trump says he gets ‘no credit’ for taking $0 salary — Biden got $1.6M, Obama $3.2M. But does he really work ‘for free’?",
-    "Disney Stock Price Prediction: Where Will The Stock be In 2027?",
+    "High-end steakhouse chain files for Chapter 11 bankruptcy",
     "Man, 51, Says He Retired With $4M But Told Wife To 'Pretend That We Are Dead Broke' So Family Wouldn't Ask For Help —They're 'Livid' After Finding Out",
-    "Texas Is Data Center Country. NextEra and More Utilities That Could Benefit."
+    "People are using this storage unit side hustle hack to score almost $700 extra a month — here’s how it works",
+    "Elon Musk's father claims Tesla CEO and his brother hold BTC"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74242.796875,
-        "perp_last_price": 74242.796875,
-        "mark_price": 74242.796875,
-        "index_price": 74242.796875,
+        "spot_price": 74571.34375,
+        "perp_last_price": 74571.34375,
+        "mark_price": 74571.34375,
+        "index_price": 74571.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74243.2734375,
-        "stop_loss_technical": 73129.62433594,
-        "target_1": 75913.74708984,
-        "target_2": 77584.22074219,
+        "entry_ideal": 74557.21875,
+        "stop_loss_technical": 73438.86046875,
+        "target_1": 76234.75617187,
+        "target_2": 77912.29359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74242.796875,
-        "stop_loss_technical": 76061.7578125,
-        "target_1": 71514.35546875,
-        "target_2": 68785.9140625,
+        "entry_ideal": 74571.34375,
+        "stop_loss_technical": 73452.77359375,
+        "target_1": 76249.19898438,
+        "target_2": 77927.05421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
