@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T21:55:54.899181+00:00",
+    "generated_at_utc": "2026-04-17T22:28:31.180713+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’",
+    "Want to Invest $1,000 in SpaceX? Here's What History Has to Say.",
     "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
     "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
     "Elon Musk is buying his own Cybertrucks as sales continue to plummet",
-    "Put $10,000 Into These High-Yield Dividend Stocks and Collect Passive Income Year After Year",
-    "High-end steakhouse chain files for Chapter 11 bankruptcy"
+    "Put $10,000 Into These High-Yield Dividend Stocks and Collect Passive Income Year After Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77486.25,
-        "perp_last_price": 77486.25,
-        "mark_price": 77486.25,
-        "index_price": 77486.25,
+        "spot_price": 77453.9921875,
+        "perp_last_price": 77453.9921875,
+        "mark_price": 77453.9921875,
+        "index_price": 77453.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77486.25,
-        "stop_loss_technical": 74562.671875,
-        "target_1": 81871.6171875,
-        "target_2": 86256.984375,
+        "entry_ideal": 77453.9921875,
+        "stop_loss_technical": 74575.0,
+        "target_1": 81772.48046875,
+        "target_2": 86090.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77486.25,
+        "entry_ideal": 77453.9921875,
         "stop_loss_technical": 70588.5234375,
-        "target_1": 87832.83984375,
-        "target_2": 98179.4296875,
+        "target_1": 87752.1953125,
+        "target_2": 98050.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
