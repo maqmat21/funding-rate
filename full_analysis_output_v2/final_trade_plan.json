@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T08:56:39.724027+00:00",
+    "generated_at_utc": "2026-04-17T10:07:30.660870+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.132,
+        "price": 98.101,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 35m",
+    "U.S. markets open in 3h 23m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett gave $10K to his daughter-in-law each year, but she spent it to the dime. 4 ways to use your own windfall",
+    "I Ranked the \"Magnificent Seven\" Stocks From Best to Worst Buys Right Now",
+    "High-end steakhouse chain files for Chapter 11 bankruptcy",
     "Nvidia Stock Just Did This For the First Time Ever. Investors Should Pay Attention",
     "Former Treasury Secretary warns 'vicious' bond crash coming soon",
-    "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
-    "Is Amazon Actually a Once-in-a-Decade Bargain Right Now? Here's What the Numbers Say.",
     "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75806.25,
-        "perp_last_price": 75806.25,
-        "mark_price": 75806.25,
-        "index_price": 75806.25,
+        "spot_price": 75823.640625,
+        "perp_last_price": 75823.640625,
+        "mark_price": 75823.640625,
+        "index_price": 75823.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75806.25,
-        "stop_loss_technical": 73309.7265625,
-        "target_1": 79551.03515625,
-        "target_2": 83295.8203125,
+        "entry_ideal": 75814.2734375,
+        "stop_loss_technical": 73917.140625,
+        "target_1": 78659.97265625,
+        "target_2": 81505.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 75806.25,
+        "entry_ideal": 75823.640625,
         "stop_loss_technical": 70588.5234375,
-        "target_1": 83632.83984375,
-        "target_2": 91459.4296875,
+        "target_1": 83676.31640625,
+        "target_2": 91528.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
