@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T07:17:22.267097+00:00",
+    "generated_at_utc": "2026-04-17T08:56:39.724027+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.233,
-        "trend": "alcista"
+        "price": 98.132,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.309,
@@ -21,53 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 14m",
+    "U.S. markets open in 4h 35m",
     "News from the Yahoo Finance Network",
+    "Nvidia Stock Just Did This For the First Time Ever. Investors Should Pay Attention",
     "Former Treasury Secretary warns 'vicious' bond crash coming soon",
     "High-end steakhouse chain files for Chapter 11 bankruptcy",
     "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
-    "The 401(k) to Roth IRA Rollover That Lets Retirees Pay Zero Taxes on Their Medicare Premiums",
-    "Cuba Tried to Deliver Secret Letter Directly to Trump Via Businessman"
+    "Is Amazon Actually a Once-in-a-Decade Bargain Right Now? Here's What the Numbers Say.",
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74995.5703125,
-        "perp_last_price": 74995.5703125,
-        "mark_price": 74995.5703125,
-        "index_price": 74995.5703125,
+        "spot_price": 75806.25,
+        "perp_last_price": 75806.25,
+        "mark_price": 75806.25,
+        "index_price": 75806.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 75001.390625,
-        "stop_loss_technical": 73876.36976563,
-        "target_1": 76688.92191406,
-        "target_2": 78376.45320312,
+        "entry_ideal": 75806.25,
+        "stop_loss_technical": 73309.7265625,
+        "target_1": 79551.03515625,
+        "target_2": 83295.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 74995.5703125,
-        "stop_loss_technical": 73870.63675781,
-        "target_1": 76682.97064453,
-        "target_2": 78370.37097656,
+        "entry_ideal": 75806.25,
+        "stop_loss_technical": 70588.5234375,
+        "target_1": 83632.83984375,
+        "target_2": 91459.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
