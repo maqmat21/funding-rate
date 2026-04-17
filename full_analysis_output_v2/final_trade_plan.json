@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-16T23:33:30.913105+00:00",
+    "generated_at_utc": "2026-04-17T00:08:49.192908+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.18,
+        "price": 98.213,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
-    "Cuba Tried to Deliver Secret Letter Directly to Trump Via Businessman",
     "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
+    "Cuba Tried to Deliver Secret Letter Directly to Trump Via Businessman",
     "The 401(k) to Roth IRA Rollover That Lets Retirees Pay Zero Taxes on Their Medicare Premiums",
-    "Elon Musk's father claims Tesla CEO and his brother hold BTC",
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
+    "Netflix Investors Just Got Fantastic News From Co-CEOs Greg Peters and Ted Sarandos",
     "SpaceX Moves Up Vesting Schedule for Employee Shares Before IPO"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75055.9921875,
-        "perp_last_price": 75055.9921875,
-        "mark_price": 75055.9921875,
-        "index_price": 75055.9921875,
+        "spot_price": 74979.671875,
+        "perp_last_price": 74979.671875,
+        "mark_price": 74979.671875,
+        "index_price": 74979.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75063.9921875,
-        "stop_loss_technical": 73938.03230469,
-        "target_1": 76752.93201172,
-        "target_2": 78441.87183594,
+        "entry_ideal": 74973.421875,
+        "stop_loss_technical": 75533.6796875,
+        "target_1": 74133.03515625,
+        "target_2": 73292.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75055.9921875,
-        "stop_loss_technical": 73930.15230469,
-        "target_1": 76744.75201172,
-        "target_2": 78433.51183594,
+        "entry_ideal": 74979.671875,
+        "stop_loss_technical": 73854.97679687,
+        "target_1": 76666.71449219,
+        "target_2": 78353.75710938,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
