@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T12:01:55.045030+00:00",
+    "generated_at_utc": "2026-04-17T13:54:05.231025+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.092,
+        "price": 97.737,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.309,
-        "trend": "alcista"
+        "price": 4.246,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 29m",
+    "U.S. markets close in 6h 7m",
     "News from the Yahoo Finance Network",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
-    "Warren Buffett gave $10K to his daughter-in-law each year, but she spent it to the dime. 4 ways to use your own windfall",
-    "'NYC is cooked': Business leaders and Wall Streeters erupt over proposed luxury second-home tax",
-    "U.S. Government Allegedly Asks Automakers To Build Weapons, Not Cars",
+    "QVC’s parent company files for bankruptcy",
     "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "I Ranked the \"Magnificent Seven\" Stocks From Best to Worst Buys Right Now"
+    "Netflix just let investors down on this metric too",
+    "This Wall Street analyst says it’s time to buy Netflix stock",
+    "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75611.25,
-        "perp_last_price": 75611.25,
-        "mark_price": 75611.25,
-        "index_price": 75611.25,
+        "spot_price": 77376.8828125,
+        "perp_last_price": 77376.8828125,
+        "mark_price": 77376.8828125,
+        "index_price": 77376.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75570.0,
-        "stop_loss_technical": 73917.140625,
-        "target_1": 78049.2890625,
-        "target_2": 80528.578125,
+        "entry_ideal": 77376.8828125,
+        "stop_loss_technical": 74250.09375,
+        "target_1": 82067.06640625,
+        "target_2": 86757.25,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75611.25,
+        "entry_ideal": 77376.8828125,
         "stop_loss_technical": 70588.5234375,
-        "target_1": 83145.33984375,
-        "target_2": 90679.4296875,
+        "target_1": 87559.421875,
+        "target_2": 97741.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
