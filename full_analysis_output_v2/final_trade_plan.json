@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T23:07:53.828403+00:00",
+    "generated_at_utc": "2026-04-17T23:53:23.891023+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
+    "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
+    "Microsoft Stock Could Be 25% Undervalued Based on Its FCF and Analysts' Estimates",
     "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’",
+    "Want to Invest $1,000 in SpaceX? Here's What History Has to Say.",
     "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
-    "This Is the Most Obvious AI Stock to Own for the Next Five Years. And No, It's Not Palantir.",
-    "Some Retirees Get $5,181 a Month From Social Security While Others Get $1,200. Here’s Why."
+    "This High-End Steakhouse Chain's Parent Company Just Filed For Bankruptcy — Here's Why"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77265.9921875,
-        "perp_last_price": 77265.9921875,
-        "mark_price": 77265.9921875,
-        "index_price": 77265.9921875,
+        "spot_price": 77156.2421875,
+        "perp_last_price": 77156.2421875,
+        "mark_price": 77156.2421875,
+        "index_price": 77156.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77265.9921875,
-        "stop_loss_technical": 78340.0390625,
-        "target_1": 75654.921875,
-        "target_2": 74043.8515625,
+        "entry_ideal": 77157.6328125,
+        "stop_loss_technical": 74575.0,
+        "target_1": 81031.58203125,
+        "target_2": 84905.53125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77265.9921875,
+        "entry_ideal": 77156.2421875,
         "stop_loss_technical": 70588.5234375,
-        "target_1": 87282.1953125,
-        "target_2": 97298.3984375,
+        "target_1": 87007.8203125,
+        "target_2": 96859.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
