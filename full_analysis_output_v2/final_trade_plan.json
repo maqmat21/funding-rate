@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T05:53:50.327911+00:00",
+    "generated_at_utc": "2026-04-17T07:17:22.267097+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.215,
+        "price": 98.233,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 38m",
+    "U.S. markets open in 6h 14m",
     "News from the Yahoo Finance Network",
     "Former Treasury Secretary warns 'vicious' bond crash coming soon",
-    "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
     "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "Netflix Stock Is Down, and It Could Get Worse. Here's Why Shares Could Fall Even More.",
-    "Cuba Tried to Deliver Secret Letter Directly to Trump Via Businessman",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges"
+    "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
+    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
+    "The 401(k) to Roth IRA Rollover That Lets Retirees Pay Zero Taxes on Their Medicare Premiums",
+    "Cuba Tried to Deliver Secret Letter Directly to Trump Via Businessman"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74715.1171875,
-        "perp_last_price": 74715.1171875,
-        "mark_price": 74715.1171875,
-        "index_price": 74715.1171875,
+        "spot_price": 74995.5703125,
+        "perp_last_price": 74995.5703125,
+        "mark_price": 74995.5703125,
+        "index_price": 74995.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74715.1171875,
-        "stop_loss_technical": 73594.39042969,
-        "target_1": 76396.20732422,
-        "target_2": 78077.29746094,
+        "entry_ideal": 75001.390625,
+        "stop_loss_technical": 73876.36976563,
+        "target_1": 76688.92191406,
+        "target_2": 78376.45320312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74715.1171875,
-        "stop_loss_technical": 76061.7578125,
-        "target_1": 72695.15625,
-        "target_2": 70675.1953125,
+        "entry_ideal": 74995.5703125,
+        "stop_loss_technical": 73870.63675781,
+        "target_1": 76682.97064453,
+        "target_2": 78370.37097656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
