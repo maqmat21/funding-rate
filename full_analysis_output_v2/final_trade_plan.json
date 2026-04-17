@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-17T14:46:29.035288+00:00",
+    "generated_at_utc": "2026-04-17T15:43:43.894633+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.775,
+        "price": 97.872,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.236,
+        "price": 4.242,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 15m",
+    "U.S. markets close in 4h 18m",
     "News from the Yahoo Finance Network",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
+    "Retirement Is Near and You've Been Laid Off: Key Financial Steps to Protect Your Savings",
+    "Anthony Scaramucci Wants Young People To Read This 1926 Classic For Financial Discipline And Wealth Building 'Really Helped Me Get Started'",
     "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update",
-    "25-year-old travel platform shuts down forever, cancels trips",
     "High-end steakhouse chain files for Chapter 11 bankruptcy",
-    "MacKenzie Scott is bypassing the Ivy League and rewriting the $79 billion higher ed playbook by giving to HBCUs and community colleges",
-    "Why Investors Were so Energized About Oklo Stock This Week"
+    "Wall Street ain't chill with Netflix Here's why soft guidance and Hastings exit unsettled the market"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77866.4375,
-        "perp_last_price": 77866.4375,
-        "mark_price": 77866.4375,
-        "index_price": 77866.4375,
+        "spot_price": 77548.0078125,
+        "perp_last_price": 77548.0078125,
+        "mark_price": 77548.0078125,
+        "index_price": 77548.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77932.1796875,
-        "stop_loss_technical": 74562.671875,
-        "target_1": 82986.44140625,
-        "target_2": 88040.703125,
+        "entry_ideal": 77523.7578125,
+        "stop_loss_technical": 76360.90144531,
+        "target_1": 79268.04236328,
+        "target_2": 81012.32691406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77866.4375,
+        "entry_ideal": 77548.0078125,
         "stop_loss_technical": 70588.5234375,
-        "target_1": 88783.30859375,
-        "target_2": 99700.1796875,
+        "target_1": 87987.234375,
+        "target_2": 98426.4609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
