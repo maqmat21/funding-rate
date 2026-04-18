@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T14:28:11.767487+00:00",
+    "generated_at_utc": "2026-04-18T15:04:34.006248+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,46 +26,46 @@
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
     "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
+    "Big Short investor Michael Burry says Trump's Iran war decisions are being driven by something other than foreign policy",
     "A Potential Worst-Case Scenario Is Setting Up for the Stock Market on May 15 -- and There's No Sweeping This Under the Rug",
-    "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April.",
-    "Big Short investor Michael Burry says Trump's Iran war decisions are being driven by something other than foreign policy"
+    "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76174.109375,
-        "perp_last_price": 76174.109375,
-        "mark_price": 76174.109375,
-        "index_price": 76174.109375,
+        "spot_price": 76316.2421875,
+        "perp_last_price": 76316.2421875,
+        "mark_price": 76316.2421875,
+        "index_price": 76316.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76172.953125,
+        "entry_ideal": 76316.25,
         "stop_loss_technical": 75797.9921875,
-        "target_1": 76735.39453125,
-        "target_2": 77297.8359375,
+        "target_1": 77093.63671875,
+        "target_2": 77871.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76174.109375,
+        "entry_ideal": 76316.2421875,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 72954.25390625,
-        "target_2": 69734.3984375,
+        "target_1": 73309.5859375,
+        "target_2": 70302.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
