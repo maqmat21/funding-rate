@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T19:13:01.277248+00:00",
+    "generated_at_utc": "2026-04-18T19:54:06.174210+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
+    "The Florida Retirement Town That Could Pass For The Caribbean",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
-    "35,000 Reasons to Hold Lucid Motors Stock Now",
+    "Alphabet's $122 Billion SpaceX Bombshell Just Surfaced In A Routine Alaska Filing",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
     "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
-    "A Potential Worst-Case Scenario Is Setting Up for the Stock Market on May 15 -- and There's No Sweeping This Under the Rug",
-    "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April."
+    "A Potential Worst-Case Scenario Is Setting Up for the Stock Market on May 15 -- and There's No Sweeping This Under the Rug"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75790.9296875,
-        "perp_last_price": 75790.9296875,
-        "mark_price": 75790.9296875,
-        "index_price": 75790.9296875,
+        "spot_price": 75630.6484375,
+        "perp_last_price": 75630.6484375,
+        "mark_price": 75630.6484375,
+        "index_price": 75630.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75786.0703125,
-        "stop_loss_technical": 75482.96875,
-        "target_1": 76240.72265625,
-        "target_2": 76695.375,
+        "entry_ideal": 75630.6484375,
+        "stop_loss_technical": 77447.4296875,
+        "target_1": 72905.4765625,
+        "target_2": 70180.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75790.9296875,
+        "entry_ideal": 75630.6484375,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 71996.3046875,
-        "target_2": 68201.6796875,
+        "target_1": 71595.6015625,
+        "target_2": 67560.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
