@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T12:41:32.634380+00:00",
+    "generated_at_utc": "2026-04-18T13:48:59.031478+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.227,
+        "price": 98.222,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
-    "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
-    "Jamie Dimon says the next credit crisis will be 'worse than people expect' — here's what big bank earnings have revealed",
-    "The future of Netflix is now",
+    "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
+    "Big Short investor Michael Burry says Trump's Iran war decisions are being driven by something other than foreign policy",
+    "A Potential Worst-Case Scenario Is Setting Up for the Stock Market on May 15 -- and There's No Sweeping This Under the Rug",
     "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76126.8984375,
-        "perp_last_price": 76126.8984375,
-        "mark_price": 76126.8984375,
-        "index_price": 76126.8984375,
+        "spot_price": 76029.7890625,
+        "perp_last_price": 76029.7890625,
+        "mark_price": 76029.7890625,
+        "index_price": 76029.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76128.0625,
-        "stop_loss_technical": 77974.0625,
-        "target_1": 73359.0625,
-        "target_2": 70590.0625,
+        "entry_ideal": 76029.7890625,
+        "stop_loss_technical": 77648.453125,
+        "target_1": 73601.79296875,
+        "target_2": 71173.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 76126.8984375,
+        "entry_ideal": 76029.7890625,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 72836.2265625,
-        "target_2": 69545.5546875,
+        "target_1": 72593.453125,
+        "target_2": 69157.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
