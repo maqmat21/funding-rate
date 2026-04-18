@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T09:29:15.904488+00:00",
+    "generated_at_utc": "2026-04-18T10:07:02.682643+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,46 +25,48 @@
     "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
+    "With the Market in Turmoil, Is Coca-Cola a Buy, Sell, or Hold?",
+    "The future of Netflix is now",
     "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April.",
-    "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’",
-    "Greg Abel Has Been Leading Berkshire for 100 Days. Things Are Already Changing.",
-    "Elon Musk is buying his own Cybertrucks as sales continue to plummet"
+    "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76605.421875,
-        "perp_last_price": 76605.421875,
-        "mark_price": 76605.421875,
-        "index_price": 76605.421875,
+        "spot_price": 76462.4921875,
+        "perp_last_price": 76462.4921875,
+        "mark_price": 76462.4921875,
+        "index_price": 76462.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76605.421875,
-        "stop_loss_technical": 78344.3671875,
-        "target_1": 73997.00390625,
-        "target_2": 71388.5859375,
+        "entry_ideal": 76462.4921875,
+        "stop_loss_technical": 78340.0390625,
+        "target_1": 73646.171875,
+        "target_2": 70829.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76605.421875,
-        "stop_loss_technical": 78344.3671875,
-        "target_1": 73997.00390625,
-        "target_2": 71388.5859375,
+        "entry_ideal": 76462.4921875,
+        "stop_loss_technical": 78340.0390625,
+        "target_1": 73646.171875,
+        "target_2": 70829.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
