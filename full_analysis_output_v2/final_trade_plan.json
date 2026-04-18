@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T01:14:22.503892+00:00",
+    "generated_at_utc": "2026-04-18T04:05:20.407063+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.227,
+        "price": 98.222,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
+    "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’",
+    "Greg Abel Has Been Leading Berkshire for 100 Days. Things Are Already Changing.",
     "Poppi’s cofounder pitched her startup on Shark Tank while 9 months pregnant and landed a $400,000 deal—now it’s worth $2 billion",
-    "Verizon CEO says it’s time to stop treating customers this way",
-    "Want to Invest $1,000 in SpaceX? Here's What History Has to Say.",
-    "Is Intel Stock a Buy Ahead of Earnings?"
+    "Trump's Oldest Sons Promised Made In America, $499 Phone In 2025: One Year Later, Here's The Update"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77344.2890625,
-        "perp_last_price": 77344.2890625,
-        "mark_price": 77344.2890625,
-        "index_price": 77344.2890625,
+        "spot_price": 77112.1015625,
+        "perp_last_price": 77112.1015625,
+        "mark_price": 77112.1015625,
+        "index_price": 77112.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77344.2890625,
-        "stop_loss_technical": 74575.0,
-        "target_1": 81498.22265625,
-        "target_2": 85652.15625,
+        "entry_ideal": 77119.1328125,
+        "stop_loss_technical": 78340.0390625,
+        "target_1": 75287.7734375,
+        "target_2": 73456.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77344.2890625,
+        "entry_ideal": 77112.1015625,
         "stop_loss_technical": 73346.265625,
-        "target_1": 83341.32421875,
-        "target_2": 89338.359375,
+        "target_1": 82760.85546875,
+        "target_2": 88409.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
