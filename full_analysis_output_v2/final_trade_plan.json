@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T17:02:25.578928+00:00",
+    "generated_at_utc": "2026-04-18T17:49:50.580996+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
+    "Spirit Airlines faces uncertainty as federal officials monitor a possible industry shakeup",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
-    "A Dividend Portfolio That Pays Double the U.S. Median Household Income",
     "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next.",
-    "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April.",
-    "There Is Incredible News for Apple Investors. Will It Be Enough to Send the Stock Higher?"
+    "A Dividend Portfolio That Pays Double the U.S. Median Household Income",
+    "Meet the Dividend King That Just Raised Its Payout For the 70th Consecutive Year. Here's Why It's a No-Brainer Buy Before the End of April."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75932.34375,
-        "perp_last_price": 75932.34375,
-        "mark_price": 75932.34375,
-        "index_price": 75932.34375,
+        "spot_price": 75919.5625,
+        "perp_last_price": 75919.5625,
+        "mark_price": 75919.5625,
+        "index_price": 75919.5625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75932.34375,
-        "stop_loss_technical": 77551.5234375,
-        "target_1": 73503.57421875,
-        "target_2": 71074.8046875,
+        "entry_ideal": 75919.5625,
+        "stop_loss_technical": 75752.6328125,
+        "target_1": 76169.95703125,
+        "target_2": 76420.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75932.34375,
+        "entry_ideal": 75919.5625,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 72349.83984375,
-        "target_2": 68767.3359375,
+        "target_1": 72317.88671875,
+        "target_2": 68716.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
