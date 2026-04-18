@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-18T21:00:08.090279+00:00",
+    "generated_at_utc": "2026-04-18T21:37:33.044797+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.222,
+        "price": 98.227,
         "trend": "alcista"
       },
       "US10Y": {
@@ -26,32 +26,33 @@
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "A Calif. nurse downed 14 tequila shots on a Carnival cruise, blacked out and sued. A Miami jury just gave her $300K",
     "Alphabet's $122 Billion SpaceX Bombshell Just Surfaced In A Routine Alaska Filing",
-    "A Dividend Portfolio That Pays Double the U.S. Median Household Income",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
+    "A Dividend Portfolio That Pays Double the U.S. Median Household Income",
     "The Stock Market Sounds an Alarm for the First Time in 25 Years. Here's Where History Says the S&P 500 Is Headed Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75779.0390625,
-        "perp_last_price": 75779.0390625,
-        "mark_price": 75779.0390625,
-        "index_price": 75779.0390625,
+        "spot_price": 75724.1171875,
+        "perp_last_price": 75724.1171875,
+        "mark_price": 75724.1171875,
+        "index_price": 75724.1171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75779.03125,
+        "entry_ideal": 75724.1171875,
         "stop_loss_technical": 77447.4296875,
-        "target_1": 73276.43359375,
-        "target_2": 70773.8359375,
+        "target_1": 73139.1484375,
+        "target_2": 70554.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75779.0390625,
+        "entry_ideal": 75724.1171875,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 71966.578125,
-        "target_2": 68154.1171875,
+        "target_1": 71829.2734375,
+        "target_2": 67934.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
