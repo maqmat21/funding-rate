@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T17:21:58.939212+00:00",
+    "generated_at_utc": "2026-04-19T17:57:40.987350+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,32 +26,33 @@
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
     "Are You a Rich Household? Here's The Income It Takes To Be Poor, Middle Class, Or Wealthy",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
-    "This is the Biggest Social Security Check Any Senior Will Get in 2026",
     "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
-    "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight"
+    "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight",
+    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75379.9921875,
-        "perp_last_price": 75379.9921875,
-        "mark_price": 75379.9921875,
-        "index_price": 75379.9921875,
+        "spot_price": 74874.640625,
+        "perp_last_price": 74874.640625,
+        "mark_price": 74874.640625,
+        "index_price": 74874.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75407.578125,
-        "stop_loss_technical": 74955.546875,
-        "target_1": 76085.625,
-        "target_2": 76763.671875,
+        "entry_ideal": 74874.640625,
+        "stop_loss_technical": 76260.296875,
+        "target_1": 72796.15625,
+        "target_2": 70717.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75379.9921875,
+        "entry_ideal": 74874.640625,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 70968.9609375,
-        "target_2": 66557.9296875,
+        "target_1": 69705.58203125,
+        "target_2": 64536.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
