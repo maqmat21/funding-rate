@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T12:04:27.149204+00:00",
+    "generated_at_utc": "2026-04-19T13:22:11.770084+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
+    "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
     "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight",
-    "Alphabet's $122 Billion SpaceX Bombshell Just Surfaced In A Routine Alaska Filing",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
-    "A Calif. nurse downed 14 tequila shots on a Carnival cruise, blacked out and sued. A Miami jury just gave her $300K",
-    "Prediction: This AI Stock Will Become the First $20 Trillion Company, According to a Wall Street Analyst"
+    "Where is my IRS direct deposit relief payment? And what about the tariff dividend?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75620.7734375,
-        "perp_last_price": 75620.7734375,
-        "mark_price": 75620.7734375,
-        "index_price": 75620.7734375,
+        "spot_price": 76204.0078125,
+        "perp_last_price": 76204.0078125,
+        "mark_price": 76204.0078125,
+        "index_price": 76204.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 75618.7578125,
+        "entry_ideal": 76257.0,
         "stop_loss_technical": 74955.546875,
-        "target_1": 76613.57421875,
-        "target_2": 77608.390625,
+        "target_1": 78209.1796875,
+        "target_2": 80161.359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 75620.7734375,
-        "stop_loss_technical": 78320.6796875,
-        "target_1": 71570.9140625,
-        "target_2": 67521.0546875,
+        "entry_ideal": 76204.0078125,
+        "stop_loss_technical": 73346.265625,
+        "target_1": 80490.62109375,
+        "target_2": 84777.234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
