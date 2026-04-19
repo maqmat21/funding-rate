@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T14:07:34.138756+00:00",
+    "generated_at_utc": "2026-04-19T14:55:00.223032+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,49 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
+    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
     "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
+    "This is the Biggest Social Security Check Any Senior Will Get in 2026",
     "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight",
-    "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
-    "Where Will Bitcoin Be in 5 Years?"
+    "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75712.3828125,
-        "perp_last_price": 75712.3828125,
-        "mark_price": 75712.3828125,
-        "index_price": 75712.3828125,
+        "spot_price": 76011.8515625,
+        "perp_last_price": 76011.8515625,
+        "mark_price": 76011.8515625,
+        "index_price": 76011.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 75715.1484375,
-        "stop_loss_technical": 76257.0703125,
-        "target_1": 74902.265625,
-        "target_2": 74089.3828125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 75712.3828125,
+        "entry_ideal": 76011.6015625,
+        "stop_loss_technical": 74942.0,
+        "target_1": 77616.00390625,
+        "target_2": 79220.40625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 76011.8515625,
         "stop_loss_technical": 73346.265625,
-        "target_1": 79261.55859375,
-        "target_2": 82810.734375,
+        "target_1": 80010.23046875,
+        "target_2": 84008.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
