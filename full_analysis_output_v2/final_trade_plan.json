@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T21:06:30.586892+00:00",
+    "generated_at_utc": "2026-04-19T21:49:02.185735+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
-    "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
     "‘Not a millionaire’: Ilhan Omar blames accounting error as reported net worth plunges from up to $30M to as low as $18K",
+    "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
     "Are You a Rich Household? Here's The Income It Takes To Be Poor, Middle Class, Or Wealthy",
-    "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
-    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack"
+    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
+    "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74732.0,
-        "perp_last_price": 74732.0,
-        "mark_price": 74732.0,
-        "index_price": 74732.0,
+        "spot_price": 74713.140625,
+        "perp_last_price": 74713.140625,
+        "mark_price": 74713.140625,
+        "index_price": 74713.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 74732.0078125,
-        "stop_loss_technical": 74493.4765625,
-        "target_1": 75089.8046875,
-        "target_2": 75447.6015625,
+        "entry_ideal": 74713.1484375,
+        "stop_loss_technical": 76257.0703125,
+        "target_1": 72397.265625,
+        "target_2": 70081.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 74732.0,
+        "entry_ideal": 74713.140625,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 69348.98046875,
-        "target_2": 63965.9609375,
+        "target_1": 69301.83203125,
+        "target_2": 63890.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
