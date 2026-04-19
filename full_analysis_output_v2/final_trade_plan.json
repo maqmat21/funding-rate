@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T13:22:11.770084+00:00",
+    "generated_at_utc": "2026-04-19T14:07:34.138756+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,45 +28,44 @@
     "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
     "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
-    "Where is my IRS direct deposit relief payment? And what about the tariff dividend?"
+    "Where Will Bitcoin Be in 5 Years?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76204.0078125,
-        "perp_last_price": 76204.0078125,
-        "mark_price": 76204.0078125,
-        "index_price": 76204.0078125,
+        "spot_price": 75712.3828125,
+        "perp_last_price": 75712.3828125,
+        "mark_price": 75712.3828125,
+        "index_price": 75712.3828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76257.0,
-        "stop_loss_technical": 74955.546875,
-        "target_1": 78209.1796875,
-        "target_2": 80161.359375,
+        "entry_ideal": 75715.1484375,
+        "stop_loss_technical": 76257.0703125,
+        "target_1": 74902.265625,
+        "target_2": 74089.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76204.0078125,
+        "entry_ideal": 75712.3828125,
         "stop_loss_technical": 73346.265625,
-        "target_1": 80490.62109375,
-        "target_2": 84777.234375,
+        "target_1": 79261.55859375,
+        "target_2": 82810.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
