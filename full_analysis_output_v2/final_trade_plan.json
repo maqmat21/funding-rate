@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T19:28:32.470008+00:00",
+    "generated_at_utc": "2026-04-19T19:59:13.233554+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,33 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
+    "‘Not a millionaire’: Ilhan Omar blames accounting error as reported net worth plunges from up to $30M to as low as $18K",
     "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
     "Are You a Rich Household? Here's The Income It Takes To Be Poor, Middle Class, Or Wealthy",
-    "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight",
-    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack"
+    "I'd Buy These 3 Dividend Stocks Today and Sleep Easy Tonight"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75007.0625,
-        "perp_last_price": 75007.0625,
-        "mark_price": 75007.0625,
-        "index_price": 75007.0625,
+        "spot_price": 75003.828125,
+        "perp_last_price": 75003.828125,
+        "mark_price": 75003.828125,
+        "index_price": 75003.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75007.0703125,
-        "stop_loss_technical": 74645.8125,
-        "target_1": 75548.95703125,
-        "target_2": 76090.84375,
+        "entry_ideal": 75007.0625,
+        "stop_loss_technical": 74641.4765625,
+        "target_1": 75555.44140625,
+        "target_2": 76103.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75007.0625,
+        "entry_ideal": 75003.828125,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 70036.63671875,
-        "target_2": 65066.2109375,
+        "target_1": 70028.55078125,
+        "target_2": 65053.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
