@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-19T01:53:41.957135+00:00",
+    "generated_at_utc": "2026-04-19T04:42:08.252845+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,34 @@
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
     "Trump's tax cuts give the richest 5% big breaks while everyone else pays more. How the middle-class is being left behind",
     "Alphabet's $122 Billion SpaceX Bombshell Just Surfaced In A Routine Alaska Filing",
-    "A Calif. nurse downed 14 tequila shots on a Carnival cruise, blacked out and sued. A Miami jury just gave her $300K",
-    "4 Dividend Stocks to Double Up On Right Now",
+    "1 Growth Stock I Think Will Outperform Nvidia Stock Over the Next Decade",
     "The Biggest Burger Chain In The US Isn't Worth The Price, According To Customers",
-    "Big Short investor Michael Burry says Trump's Iran war decisions are being driven by something other than foreign policy"
+    "A Calif. nurse downed 14 tequila shots on a Carnival cruise, blacked out and sued. A Miami jury just gave her $300K",
+    "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75628.671875,
-        "perp_last_price": 75628.671875,
-        "mark_price": 75628.671875,
-        "index_price": 75628.671875,
+        "spot_price": 75547.4921875,
+        "perp_last_price": 75547.4921875,
+        "mark_price": 75547.4921875,
+        "index_price": 75547.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75620.7734375,
-        "stop_loss_technical": 75484.078125,
-        "target_1": 75825.81640625,
-        "target_2": 76030.859375,
+        "entry_ideal": 75552.9296875,
+        "stop_loss_technical": 76743.7421875,
+        "target_1": 73766.7109375,
+        "target_2": 71980.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75628.671875,
+        "entry_ideal": 75547.4921875,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 71590.66015625,
-        "target_2": 67552.6484375,
+        "target_1": 71387.7109375,
+        "target_2": 67227.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
