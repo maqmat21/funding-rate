@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T20:28:45.599459+00:00",
+    "generated_at_utc": "2026-04-20T21:09:35.416763+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.068,
+        "price": 98.052,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Target quietly expands controversial items, winning back customers",
-    "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
-    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
-    "3 predictions about silver prices in the next decade",
-    "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
-    "Mortgage rate predictions for the next 5 years: Where rates could land by 2030"
+    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
+    "Plug Power Jumps 10% on Contract Win and Investor Outreach as Hydrogen Comeback Continues",
+    "Fermi shares slump after CEO, CFO step down",
+    "Is This the Right Time to Rebalance Your Portfolio?",
+    "A UFC ‘arena’ is being built on the White House lawn for Trump's 80th birthday. It’s costing $60M — $700K just for grass",
+    "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76354.65625,
-        "perp_last_price": 76354.65625,
-        "mark_price": 76354.65625,
-        "index_price": 76354.65625,
+        "spot_price": 76177.3671875,
+        "perp_last_price": 76177.3671875,
+        "mark_price": 76177.3671875,
+        "index_price": 76177.3671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76349.2734375,
-        "stop_loss_technical": 75204.03433594,
-        "target_1": 78067.13208984,
-        "target_2": 79784.99074219,
+        "entry_ideal": 76184.109375,
+        "stop_loss_technical": 75041.34773437,
+        "target_1": 77898.25183594,
+        "target_2": 79612.39429688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76354.65625,
+        "entry_ideal": 76177.3671875,
         "stop_loss_technical": 73346.265625,
-        "target_1": 80867.2421875,
-        "target_2": 85379.828125,
+        "target_1": 80424.01953125,
+        "target_2": 84670.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
