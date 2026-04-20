@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T08:24:16.758500+00:00",
+    "generated_at_utc": "2026-04-20T10:12:42.890908+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.303,
+        "price": 98.243,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,50 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 6m",
+    "U.S. markets open in 3h 18m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
-    "AST SpaceMobile Satellite Launch Fails. Blame Bezos’ Blue Origin.",
-    "Netflix Stock Crashed 10% — But This Billionaire Loaded Up $1 Billion Before The Fall: Who's Right?",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
-    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack"
+    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
+    "AST SpaceMobile Stock Sinks After Failed Satellite Launch. Blame Bezos’ Blue Origin.",
+    "Netflix Stock Crashed 10% — But This Billionaire Loaded Up $1 Billion Before The Fall: Who's Right?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74873.6015625,
-        "perp_last_price": 74873.6015625,
-        "mark_price": 74873.6015625,
-        "index_price": 74873.6015625,
+        "spot_price": 75316.7109375,
+        "perp_last_price": 75316.7109375,
+        "mark_price": 75316.7109375,
+        "index_price": 75316.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 74867.609375,
-        "stop_loss_technical": 76257.0703125,
-        "target_1": 72783.41796875,
-        "target_2": 70699.2265625,
+        "entry_ideal": 75325.0625,
+        "stop_loss_technical": 73768.0,
+        "target_1": 77660.65625,
+        "target_2": 79996.25,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 74873.6015625,
+        "entry_ideal": 75316.7109375,
         "stop_loss_technical": 73346.265625,
-        "target_1": 77164.60546875,
-        "target_2": 79455.609375,
+        "target_1": 78272.37890625,
+        "target_2": 81228.046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
