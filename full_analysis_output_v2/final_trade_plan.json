@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T21:59:36.689916+00:00",
+    "generated_at_utc": "2026-04-20T22:42:54.671317+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.056,
+        "price": 98.054,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Apple's Tim Cook to step down as CEO in September",
-    "Insider Sells 10,000 Shares as Photronics Posts $225 Million Quarter",
+    "Who is John Ternus? Apple names Tim Cook's successor",
+    "‘Bombs will start going off’ if Iran deal fails, warns Nobel Peace Prize nominee",
+    "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
+    "Tim Cook stepping down as Apple CEO, John Ternus taking over",
     "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
-    "Trump Praises Palantir's Technology: Is the Stock Destined to Go Higher?",
-    "Steel Dynamics Posts Higher First-Quarter Profit, Sales Amid Growth in Steel Shipments"
+    "Tesla settles wrongful death lawsuit over crash that killed Florida teenager"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75984.5,
-        "perp_last_price": 75984.5,
-        "mark_price": 75984.5,
-        "index_price": 75984.5,
+        "spot_price": 75981.8515625,
+        "perp_last_price": 75981.8515625,
+        "mark_price": 75981.8515625,
+        "index_price": 75981.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75991.09375,
-        "stop_loss_technical": 74136.9375,
-        "target_1": 78772.328125,
-        "target_2": 81553.5625,
+        "entry_ideal": 75981.8515625,
+        "stop_loss_technical": 74842.12378906,
+        "target_1": 77691.44322266,
+        "target_2": 79401.03488281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75984.5,
+        "entry_ideal": 75981.8515625,
         "stop_loss_technical": 73346.265625,
-        "target_1": 79941.8515625,
-        "target_2": 83899.203125,
+        "target_1": 79935.23046875,
+        "target_2": 83888.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
