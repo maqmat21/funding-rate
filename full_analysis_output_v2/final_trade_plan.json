@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T06:04:51.720377+00:00",
+    "generated_at_utc": "2026-04-20T08:24:16.758500+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -21,52 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 26m",
+    "U.S. markets open in 5h 6m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
+    "AST SpaceMobile Satellite Launch Fails. Blame Bezos’ Blue Origin.",
     "Netflix Stock Crashed 10% — But This Billionaire Loaded Up $1 Billion Before The Fall: Who's Right?",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
-    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
-    "Morgan Stanley issues blunt call on Netflix stock post earnings"
+    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74410.140625,
-        "perp_last_price": 74410.140625,
-        "mark_price": 74410.140625,
-        "index_price": 74410.140625,
+        "spot_price": 74873.6015625,
+        "perp_last_price": 74873.6015625,
+        "mark_price": 74873.6015625,
+        "index_price": 74873.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 74415.96875,
-        "stop_loss_technical": 73772.9609375,
-        "target_1": 75380.48046875,
-        "target_2": 76344.9921875,
+        "entry_ideal": 74867.609375,
+        "stop_loss_technical": 76257.0703125,
+        "target_1": 72783.41796875,
+        "target_2": 70699.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 74410.140625,
-        "stop_loss_technical": 78320.6796875,
-        "target_1": 68544.33203125,
-        "target_2": 62678.5234375,
+        "entry_ideal": 74873.6015625,
+        "stop_loss_technical": 73346.265625,
+        "target_1": 77164.60546875,
+        "target_2": 79455.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
