@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T17:48:48.156560+00:00",
+    "generated_at_utc": "2026-04-20T18:43:57.254517+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,22 +11,22 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.064,
+        "price": 98.056,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.256,
+        "price": 4.252,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 12m",
+    "U.S. markets close in 1h 17m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Costco ramps up expansion plans",
-    "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
     "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
+    "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
+    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
     "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
     "3 predictions about silver prices in the next decade"
   ],
@@ -34,26 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75817.0390625,
-        "perp_last_price": 75817.0390625,
-        "mark_price": 75817.0390625,
-        "index_price": 75817.0390625,
+        "spot_price": 76192.28125,
+        "perp_last_price": 76192.28125,
+        "mark_price": 76192.28125,
+        "index_price": 76192.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75843.5234375,
+        "entry_ideal": 76184.890625,
         "stop_loss_technical": 73772.9609375,
-        "target_1": 78949.3671875,
-        "target_2": 82055.2109375,
+        "target_1": 79802.78515625,
+        "target_2": 83420.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75817.0390625,
+        "entry_ideal": 76192.28125,
         "stop_loss_technical": 73346.265625,
-        "target_1": 79523.19921875,
-        "target_2": 83229.359375,
+        "target_1": 80461.3046875,
+        "target_2": 84730.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
