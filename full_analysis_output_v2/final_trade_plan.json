@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T03:47:33.213320+00:00",
+    "generated_at_utc": "2026-04-20T06:04:51.720377+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.281,
+        "price": 98.303,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 26m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
+    "Netflix Stock Crashed 10% — But This Billionaire Loaded Up $1 Billion Before The Fall: Who's Right?",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
     "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
-    "Can You Guess How Many People Actually Retire With A $5 Million Nest Egg? The Answer May Surprise You",
-    "Netflix Stock Crashed 10% — But This Billionaire Loaded Up $1 Billion Before The Fall: Who's Right?",
-    "I'd Buy More of These 3 Dividend Stocks Before the Market Figures Out What It's Missing"
+    "Morgan Stanley issues blunt call on Netflix stock post earnings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74602.4921875,
-        "perp_last_price": 74602.4921875,
-        "mark_price": 74602.4921875,
-        "index_price": 74602.4921875,
+        "spot_price": 74410.140625,
+        "perp_last_price": 74410.140625,
+        "mark_price": 74410.140625,
+        "index_price": 74410.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,10 +49,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 74602.4921875,
+        "entry_ideal": 74415.96875,
         "stop_loss_technical": 73772.9609375,
-        "target_1": 75846.7890625,
-        "target_2": 77091.0859375,
+        "target_1": 75380.48046875,
+        "target_2": 76344.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 74602.4921875,
+        "entry_ideal": 74410.140625,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 69025.2109375,
-        "target_2": 63447.9296875,
+        "target_1": 68544.33203125,
+        "target_2": 62678.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
