@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T15:51:24.652479+00:00",
+    "generated_at_utc": "2026-04-20T16:52:39.153718+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,62 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.015,
+        "price": 98.049,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.258,
+        "price": 4.262,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 9m",
+    "U.S. markets close in 3h 9m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Why AST SpaceMobile Stock Crashed on Monday",
+    "Home sellers outnumber homebuyers in low-demand market",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
     "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
-    "Target to open 6 new stores in May",
+    "Is Regions Financial (RF) Still Attractively Priced After Its Strong 1‑Year Share Price Run?",
     "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75603.5703125,
-        "perp_last_price": 75603.5703125,
-        "mark_price": 75603.5703125,
-        "index_price": 75603.5703125,
+        "spot_price": 75395.9921875,
+        "perp_last_price": 75395.9921875,
+        "mark_price": 75395.9921875,
+        "index_price": 75395.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75622.0,
-        "stop_loss_technical": 73768.0,
-        "target_1": 78403.0,
-        "target_2": 81184.0,
+        "entry_ideal": 75412.28125,
+        "stop_loss_technical": 74281.09703125,
+        "target_1": 77109.05757812,
+        "target_2": 78805.83390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75603.5703125,
+        "entry_ideal": 75395.9921875,
         "stop_loss_technical": 73346.265625,
-        "target_1": 78989.52734375,
-        "target_2": 82375.484375,
+        "target_1": 78470.58203125,
+        "target_2": 81545.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
