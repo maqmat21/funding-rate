@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T21:09:35.416763+00:00",
+    "generated_at_utc": "2026-04-20T21:59:36.689916+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.052,
+        "price": 98.056,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Apple's Tim Cook to step down as CEO in September",
+    "Insider Sells 10,000 Shares as Photronics Posts $225 Million Quarter",
     "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
-    "Plug Power Jumps 10% on Contract Win and Investor Outreach as Hydrogen Comeback Continues",
-    "Fermi shares slump after CEO, CFO step down",
-    "Is This the Right Time to Rebalance Your Portfolio?",
-    "A UFC ‘arena’ is being built on the White House lawn for Trump's 80th birthday. It’s costing $60M — $700K just for grass",
-    "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be"
+    "Trump Praises Palantir's Technology: Is the Stock Destined to Go Higher?",
+    "Steel Dynamics Posts Higher First-Quarter Profit, Sales Amid Growth in Steel Shipments"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76177.3671875,
-        "perp_last_price": 76177.3671875,
-        "mark_price": 76177.3671875,
-        "index_price": 76177.3671875,
+        "spot_price": 75984.5,
+        "perp_last_price": 75984.5,
+        "mark_price": 75984.5,
+        "index_price": 75984.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76184.109375,
-        "stop_loss_technical": 75041.34773437,
-        "target_1": 77898.25183594,
-        "target_2": 79612.39429688,
+        "entry_ideal": 75991.09375,
+        "stop_loss_technical": 74136.9375,
+        "target_1": 78772.328125,
+        "target_2": 81553.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76177.3671875,
+        "entry_ideal": 75984.5,
         "stop_loss_technical": 73346.265625,
-        "target_1": 80424.01953125,
-        "target_2": 84670.671875,
+        "target_1": 79941.8515625,
+        "target_2": 83899.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
