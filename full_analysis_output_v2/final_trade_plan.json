@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T11:42:43.751999+00:00",
+    "generated_at_utc": "2026-04-20T12:50:42.933988+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.19,
-        "trend": "bajista"
+        "price": 98.257,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.246,
+        "price": 4.26,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 48m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Forget Florida's sunny skies and lower taxes: Why snowbirds are reversing course and retiring to New York City",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
-    "The Smartest Dividend Stocks to Buy With $2,000 Right Now",
-    "Could Buying This Healthcare Stock Today Set You Up for Life? (Spoiler: It Certainly Could, As It Has Averaged Annual Gains of 21% Over the Past Decade.)",
-    "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
-    "USA Rare Earth to Acquire Serra Verde in $2.8 Billion Deal"
+    "53 million filers claimed Trump's new tax cuts. 4 key changes that boosted refunds.",
+    "This Is Warren Buffett's Favorite Index Fund, and It Could Turn $200 per Month Into $1 Million",
+    "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
+    "The Smartest Dividend Stocks to Buy With $2,000 Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75266.15625,
-        "perp_last_price": 75266.15625,
-        "mark_price": 75266.15625,
-        "index_price": 75266.15625,
+        "spot_price": 75392.171875,
+        "perp_last_price": 75392.171875,
+        "mark_price": 75392.171875,
+        "index_price": 75392.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75271.421875,
+        "entry_ideal": 75391.2421875,
         "stop_loss_technical": 73772.9609375,
-        "target_1": 77519.11328125,
-        "target_2": 79766.8046875,
+        "target_1": 77818.6640625,
+        "target_2": 80246.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 75266.15625,
+        "entry_ideal": 75392.171875,
         "stop_loss_technical": 73346.265625,
-        "target_1": 78145.9921875,
-        "target_2": 81025.828125,
+        "target_1": 78461.03125,
+        "target_2": 81529.890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
