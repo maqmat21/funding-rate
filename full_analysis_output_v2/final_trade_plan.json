@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T10:12:42.890908+00:00",
+    "generated_at_utc": "2026-04-20T11:42:43.751999+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.243,
-        "trend": "alcista"
+        "price": 98.19,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.246,
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 18m",
+    "U.S. markets open in 1h 48m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "‘It’ll be a trillion dollars’: Trump floats eliminating income tax due to 'large' tariff revenue. Does his math add up?",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
+    "The Smartest Dividend Stocks to Buy With $2,000 Right Now",
+    "Could Buying This Healthcare Stock Today Set You Up for Life? (Spoiler: It Certainly Could, As It Has Averaged Annual Gains of 21% Over the Past Decade.)",
     "What Does It Take To Be In The Top 5% Of Retirees? $1M Nest Egg May Already Put You Ahead Of The Pack",
-    "AST SpaceMobile Stock Sinks After Failed Satellite Launch. Blame Bezos’ Blue Origin.",
-    "Netflix Stock Crashed 10% — But This Billionaire Loaded Up $1 Billion Before The Fall: Who's Right?"
+    "USA Rare Earth to Acquire Serra Verde in $2.8 Billion Deal"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75316.7109375,
-        "perp_last_price": 75316.7109375,
-        "mark_price": 75316.7109375,
-        "index_price": 75316.7109375,
+        "spot_price": 75266.15625,
+        "perp_last_price": 75266.15625,
+        "mark_price": 75266.15625,
+        "index_price": 75266.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75325.0625,
-        "stop_loss_technical": 73768.0,
-        "target_1": 77660.65625,
-        "target_2": 79996.25,
+        "entry_ideal": 75271.421875,
+        "stop_loss_technical": 73772.9609375,
+        "target_1": 77519.11328125,
+        "target_2": 79766.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75316.7109375,
+        "entry_ideal": 75266.15625,
         "stop_loss_technical": 73346.265625,
-        "target_1": 78272.37890625,
-        "target_2": 81228.046875,
+        "target_1": 78145.9921875,
+        "target_2": 81025.828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
