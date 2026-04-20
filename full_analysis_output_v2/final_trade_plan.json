@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T12:50:42.933988+00:00",
+    "generated_at_utc": "2026-04-20T14:27:10.391810+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.257,
-        "trend": "alcista"
+        "price": 98.177,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.26,
-        "trend": "bajista"
+        "price": 4.27,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 34m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Forget Florida's sunny skies and lower taxes: Why snowbirds are reversing course and retiring to New York City",
+    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
     "Elon Musk Says 'More' Tesla Diners Are Coming After Hinting Where The Next Location Could Be",
-    "53 million filers claimed Trump's new tax cuts. 4 key changes that boosted refunds.",
-    "This Is Warren Buffett's Favorite Index Fund, and It Could Turn $200 per Month Into $1 Million",
-    "Warren Buffett Dumped 77% of Berkshire's Amazon Stake and Opened a New Position in This Digital Media Juggernaut",
-    "The Smartest Dividend Stocks to Buy With $2,000 Right Now"
+    "FedEx (FDX) Reshapes Cost Base With Rich Pilot Deal and Freight Spin-Off Plan",
+    "Here is Why Eledon Pharmaceuticals (ELDN) is an Unstoppable Stock That Could Double Your Money",
+    "53 million filers claimed Trump's new tax cuts. 4 key changes that boosted refunds."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75392.171875,
-        "perp_last_price": 75392.171875,
-        "mark_price": 75392.171875,
-        "index_price": 75392.171875,
+        "spot_price": 75661.7421875,
+        "perp_last_price": 75661.7421875,
+        "mark_price": 75661.7421875,
+        "index_price": 75661.7421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 75391.2421875,
+        "entry_ideal": 75635.78125,
         "stop_loss_technical": 73772.9609375,
-        "target_1": 77818.6640625,
-        "target_2": 80246.0859375,
+        "target_1": 78430.01171875,
+        "target_2": 81224.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 75392.171875,
+        "entry_ideal": 75661.7421875,
         "stop_loss_technical": 73346.265625,
-        "target_1": 78461.03125,
-        "target_2": 81529.890625,
+        "target_1": 79134.95703125,
+        "target_2": 82608.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
