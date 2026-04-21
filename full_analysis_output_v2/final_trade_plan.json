@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T22:53:36.246124+00:00",
+    "generated_at_utc": "2026-04-21T23:27:09.859162+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "2 Top Dividend Stocks to Buy and Hold Forever",
     "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
-    "No pressure: Apple’s new CEO needs to be Steve Jobs and Tim Cook at the same time",
-    "Despite dire warnings, raising California fast-food wages to $20 didn’t end in job losses, price hikes. What did change",
-    "Trump Called Companies Seeking Tariff Refunds \"the Enemy.\" Apple and Amazon Got the Praise",
     "Some couples are collecting $10,000 a month from Social Security — here's who qualifies and what it takes to get there",
-    "Before his Senate hearing, Warsh had no clear path to confirmation. He still doesn't."
+    "Despite dire warnings, raising California fast-food wages to $20 didn’t end in job losses, price hikes. What did change",
+    "GM buys plant built on the site of the former Palace of Auburn Hills",
+    "Before his Senate hearing, Warsh had no clear path to confirmation. He still doesn't.",
+    "Trump Called Companies Claiming Tariff Refunds \"the Enemy.\" Then He Praised Apple and Amazon",
+    "I Asked ChatGPT Which States Have the Highest Tax Burden — Here’s What It Said"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75568.25,
-        "perp_last_price": 75568.25,
-        "mark_price": 75568.25,
-        "index_price": 75568.25,
+        "spot_price": 75779.546875,
+        "perp_last_price": 75779.546875,
+        "mark_price": 75779.546875,
+        "index_price": 75779.546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75578.5703125,
-        "stop_loss_technical": 74444.89175781,
-        "target_1": 77279.08814453,
-        "target_2": 78979.60597656,
+        "entry_ideal": 75779.546875,
+        "stop_loss_technical": 74642.85367187,
+        "target_1": 77484.58667969,
+        "target_2": 79189.62648437,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75568.25,
-        "stop_loss_technical": 78320.6796875,
-        "target_1": 71439.60546875,
-        "target_2": 67310.9609375,
+        "entry_ideal": 75779.546875,
+        "stop_loss_technical": 74642.85367187,
+        "target_1": 77484.58667969,
+        "target_2": 79189.62648437,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
