@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T12:46:49.861154+00:00",
+    "generated_at_utc": "2026-04-21T14:22:12.584784+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.235,
-        "trend": "alcista"
+        "price": 98.177,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.276,
+        "price": 4.274,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 39m",
     "News from the Yahoo Finance Network",
-    "I will retire in my early 50s. I have $3.2 million — only $200,000 is in a traditional IRA. Have I beaten the IRS?",
-    "A 66-Year-Old With $1.1 Million Discovers the Tax Bomb Hiding Inside Her Traditional IRA",
-    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
-    "Rivian Stock Is Outrageously Cheap -- Here's Why There Could Be 5,000% in Upside Potential",
-    "The Stock Market Flashes a Warning as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next.",
-    "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
-    "Texas data center company Fermi America sputters after losing top executives. What's next?"
+    "Defense Budget Expansion: 3 Mid-Cap Names in a Sweet Spot",
+    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
+    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
+    "GE Aerospace Q1 earnings beat driven by strong engine and services demand",
+    "5 Ways Retirees Accidentally Reduce Their Social Security Checks",
+    "McDonald’s rival closes after 79 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75902.1015625,
-        "perp_last_price": 75902.1015625,
-        "mark_price": 75902.1015625,
-        "index_price": 75902.1015625,
+        "spot_price": 76254.7265625,
+        "perp_last_price": 76254.7265625,
+        "mark_price": 76254.7265625,
+        "index_price": 76254.7265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 75916.109375,
-        "stop_loss_technical": 76902.2109375,
-        "target_1": 74436.95703125,
-        "target_2": 72957.8046875,
+        "entry_ideal": 76260.6796875,
+        "stop_loss_technical": 75520.0,
+        "target_1": 77371.69921875,
+        "target_2": 78482.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 75902.1015625,
-        "stop_loss_technical": 78320.6796875,
-        "target_1": 72274.234375,
-        "target_2": 68646.3671875,
+        "entry_ideal": 76254.7265625,
+        "stop_loss_technical": 73775.5703125,
+        "target_1": 79973.4609375,
+        "target_2": 83692.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
