@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T19:51:25.055728+00:00",
+    "generated_at_utc": "2026-04-21T20:39:10.239361+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.439,
+        "price": 98.333,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,53 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "‘I Didn’t Want to Give It Back’: Ford’s CEO Admits He’s Been Driving a Chinese EV for months, Calls BYD \"The Best in the Business\"",
-    "Citi Raises Olin (OLN) Price Target by $4 – Here’s Why",
-    "IBM stock prepares for 27th consecutive dividend hike ahead of Q1 earnings",
+    "Intuitive Surgical (NASDAQ:ISRG) Beats Expectations in Strong Q1 CY2026",
+    "Broke in California: Sky-high costs are draining wallets statewide",
     "McDonald’s rival closes after 79 years",
-    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
+    "UPS, FedEx and DHL file for tariff refunds. What it means for consumers.",
+    "‘I Didn’t Want to Give It Back’: Ford’s CEO Admits He’s Been Driving a Chinese EV for months, Calls BYD \"The Best in the Business\"",
     "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
-    "1 Nuclear Stock That Could Power Your Retirement Income for Decades"
+    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74957.9765625,
-        "perp_last_price": 74957.9765625,
-        "mark_price": 74957.9765625,
-        "index_price": 74957.9765625,
+        "spot_price": 75739.9921875,
+        "perp_last_price": 75739.9921875,
+        "mark_price": 75739.9921875,
+        "index_price": 75739.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74957.9765625,
-        "stop_loss_technical": 76905.171875,
-        "target_1": 72037.18359375,
-        "target_2": 69116.390625,
+        "entry_ideal": 75739.9921875,
+        "stop_loss_technical": 74603.89230469,
+        "target_1": 77444.14201172,
+        "target_2": 79148.29183594,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74957.9765625,
+        "entry_ideal": 75739.9921875,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 69913.921875,
-        "target_2": 64869.8671875,
+        "target_1": 71868.9609375,
+        "target_2": 67997.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
