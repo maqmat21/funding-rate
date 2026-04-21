@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-20T23:28:15.433302+00:00",
+    "generated_at_utc": "2026-04-21T00:04:48.911661+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.054,
+        "price": 98.074,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,40 +23,25 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Apple Is Getting a New CEO—What You Need to Know",
+    "Apple CEO Tim Cook steps down: 7 big challenges for new CEO John Ternus",
     "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
-    "‘Bombs will start going off’ if Iran deal fails, warns Nobel Peace Prize nominee",
-    "Who is John Ternus? Apple names Tim Cook's successor",
+    "Tim Cook stepping down as Apple CEO, John Ternus taking over",
     "Jim Cramer Says This Controversial Social Security Solution Could Be The Best Fix",
-    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing"
+    "‘Bombs will start going off’ if Iran deal fails, warns Nobel Peace Prize nominee",
+    "Tim Cook is stepping down as Apple's CEO. Investors are $4 trillion richer because of him."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75715.4609375,
-        "perp_last_price": 75715.4609375,
-        "mark_price": 75715.4609375,
-        "index_price": 75715.4609375,
+        "spot_price": 75856.390625,
+        "perp_last_price": 75856.390625,
+        "mark_price": 75856.390625,
+        "index_price": 75856.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 75709.34375,
-        "stop_loss_technical": 74573.70359375,
-        "target_1": 77412.80398438,
-        "target_2": 79116.26421875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -64,10 +49,25 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75715.4609375,
-        "stop_loss_technical": 73346.265625,
-        "target_1": 79269.25390625,
-        "target_2": 82823.046875,
+        "entry_ideal": 75856.3828125,
+        "stop_loss_technical": 74136.9375,
+        "target_1": 78435.55078125,
+        "target_2": 81014.71875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 75856.390625,
+        "stop_loss_technical": 73802.3828125,
+        "target_1": 78937.40234375,
+        "target_2": 82018.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
