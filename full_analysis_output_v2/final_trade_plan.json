@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T16:43:06.236323+00:00",
+    "generated_at_utc": "2026-04-21T17:43:17.116340+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,52 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.357,
+        "price": 98.444,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.3,
+        "price": 4.305,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 17m",
+    "U.S. markets close in 2h 18m",
     "News from the Yahoo Finance Network",
-    "Famed investor Jeremy Grantham warns of 'painful' consequences from the oil spike",
+    "Huntington Ingalls Earnings Preview: What to Expect",
+    "Can Rigetti's 99.9% Fidelity Enable Large-Scale Quantum Systems?",
+    "Cisco Systems (CSCO) is a Great Momentum Stock: Should You Buy?",
     "Nvidia Stock-Split: 2 Years and $1.5 Trillion Later, Can It Reach $1,200 Again?",
-    "McDonald’s rival closes after 79 years",
     "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
-    "How The Innoviz Technologies (INVZ) Narrative Is Shifting After Target Cut And Downgrade",
-    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus"
+    "McDonald’s rival closes after 79 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75981.5078125,
-        "perp_last_price": 75981.5078125,
-        "mark_price": 75981.5078125,
-        "index_price": 75981.5078125,
+        "spot_price": 75784.3671875,
+        "perp_last_price": 75784.3671875,
+        "mark_price": 75784.3671875,
+        "index_price": 75784.3671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 75784.3515625,
+        "stop_loss_technical": 74647.58628906,
+        "target_1": 77489.49947266,
+        "target_2": 79194.64738281,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,24 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75949.9921875,
-        "stop_loss_technical": 76905.171875,
-        "target_1": 74517.22265625,
-        "target_2": 73084.453125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 75981.5078125,
-        "stop_loss_technical": 74841.78519531,
-        "target_1": 77691.09173828,
-        "target_2": 79400.67566406,
+        "entry_ideal": 75784.3671875,
+        "stop_loss_technical": 78320.6796875,
+        "target_1": 71979.8984375,
+        "target_2": 68175.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
