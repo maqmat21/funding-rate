@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T07:19:53.003985+00:00",
+    "generated_at_utc": "2026-04-21T09:06:34.136737+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.158,
+        "price": 98.255,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,12 +21,12 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 11m",
+    "U.S. markets open in 4h 25m",
     "News from the Yahoo Finance Network",
-    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
+    "The Stock Market Flashes a Warning as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next.",
     "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
-    "What Tim Cook's exit really tells us about Apple",
     "Mysterious trader moves $668M ahead of next US-Iran talks in Islamabad",
+    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
     "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
     "1 Nuclear Stock That Could Power Your Retirement Income for Decades"
   ],
@@ -34,25 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76066.703125,
-        "perp_last_price": 76066.703125,
-        "mark_price": 76066.703125,
-        "index_price": 76066.703125,
+        "spot_price": 76416.71875,
+        "perp_last_price": 76416.71875,
+        "mark_price": 76416.71875,
+        "index_price": 76416.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76066.703125,
-        "stop_loss_technical": 74733.75,
-        "target_1": 78066.1328125,
-        "target_2": 80065.5625,
+        "entry_ideal": 76406.90625,
+        "stop_loss_technical": 76867.6875,
+        "target_1": 75715.734375,
+        "target_2": 75024.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 76066.703125,
+        "entry_ideal": 76416.71875,
         "stop_loss_technical": 73775.5703125,
-        "target_1": 79503.40234375,
-        "target_2": 82940.1015625,
+        "target_1": 80378.44140625,
+        "target_2": 84340.1640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
