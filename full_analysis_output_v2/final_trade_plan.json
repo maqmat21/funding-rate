@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T18:45:35.508520+00:00",
+    "generated_at_utc": "2026-04-21T19:51:25.055728+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.434,
+        "price": 98.439,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.301,
+        "price": 4.292,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 16m",
     "News from the Yahoo Finance Network",
-    "3 Dividend Stocks There's No Need to Second-Guess, No Matter What's Happening in the World",
-    "Here's What to Expect From AES Corporation's Next Earnings Report",
-    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
-    "Why Brown-Forman (BF.B) Remains at the Center of Active Deal Talks",
+    "‘I Didn’t Want to Give It Back’: Ford’s CEO Admits He’s Been Driving a Chinese EV for months, Calls BYD \"The Best in the Business\"",
+    "Citi Raises Olin (OLN) Price Target by $4 – Here’s Why",
+    "IBM stock prepares for 27th consecutive dividend hike ahead of Q1 earnings",
     "McDonald’s rival closes after 79 years",
-    "Trump Encourages Companies Not to Seek Tariff Refunds"
+    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
+    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
+    "1 Nuclear Stock That Could Power Your Retirement Income for Decades"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75509.2265625,
-        "perp_last_price": 75509.2265625,
-        "mark_price": 75509.2265625,
-        "index_price": 75509.2265625,
+        "spot_price": 74957.9765625,
+        "perp_last_price": 74957.9765625,
+        "mark_price": 74957.9765625,
+        "index_price": 74957.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75509.2265625,
+        "entry_ideal": 74957.9765625,
         "stop_loss_technical": 76905.171875,
-        "target_1": 73415.30859375,
-        "target_2": 71321.390625,
+        "target_1": 72037.18359375,
+        "target_2": 69116.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75509.2265625,
+        "entry_ideal": 74957.9765625,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 71292.046875,
-        "target_2": 67074.8671875,
+        "target_1": 69913.921875,
+        "target_2": 64869.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
