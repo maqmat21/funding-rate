@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T20:39:10.239361+00:00",
+    "generated_at_utc": "2026-04-21T21:27:06.698193+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.333,
+        "price": 98.398,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Intuitive Surgical (NASDAQ:ISRG) Beats Expectations in Strong Q1 CY2026",
-    "Broke in California: Sky-high costs are draining wallets statewide",
-    "McDonald’s rival closes after 79 years",
-    "UPS, FedEx and DHL file for tariff refunds. What it means for consumers.",
-    "‘I Didn’t Want to Give It Back’: Ford’s CEO Admits He’s Been Driving a Chinese EV for months, Calls BYD \"The Best in the Business\"",
-    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
-    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost"
+    "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
+    "Plug Power (PLUG) Valuation Check After Recent Double Digit Share Price Gains",
+    "U.S. Army commander names Bitcoin among 'instruments of power'",
+    "Capital One's Q1 2026 earnings miss revenue estimates",
+    "Some couples are collecting $10,000 a month from Social Security — here's who qualifies and what it takes to get there",
+    "Despite dire warnings, raising California fast-food wages to $20 didn’t end in job losses, price hikes. What did change",
+    "McDonald’s rival closes after 79 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75739.9921875,
-        "perp_last_price": 75739.9921875,
-        "mark_price": 75739.9921875,
-        "index_price": 75739.9921875,
+        "spot_price": 75636.1796875,
+        "perp_last_price": 75636.1796875,
+        "mark_price": 75636.1796875,
+        "index_price": 75636.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75739.9921875,
-        "stop_loss_technical": 74603.89230469,
-        "target_1": 77444.14201172,
-        "target_2": 79148.29183594,
+        "entry_ideal": 75636.1796875,
+        "stop_loss_technical": 76902.2109375,
+        "target_1": 73737.1328125,
+        "target_2": 71838.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75739.9921875,
+        "entry_ideal": 75636.1796875,
         "stop_loss_technical": 78320.6796875,
-        "target_1": 71868.9609375,
-        "target_2": 67997.9296875,
+        "target_1": 71609.4296875,
+        "target_2": 67582.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
