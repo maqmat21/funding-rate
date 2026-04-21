@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T10:40:33.700957+00:00",
+    "generated_at_utc": "2026-04-21T11:45:48.968711+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.28,
+        "price": 98.217,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 50m",
+    "U.S. markets open in 1h 45m",
     "News from the Yahoo Finance Network",
     "The Stock Market Flashes a Warning as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next.",
     "Scaramucci: Trump Is Trying To Sink Vance Because 'Trump Wants To Be the Last Republican President'",
-    "Forget the Noise. This Is the Ultimate Growth Stock to Buy With $1,000 Right Now.",
     "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
-    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
-    "This \"Magnificent Seven\" Stock Will Be a Big Winner from the SpaceX IPO (Hint: It's Not Tesla)"
+    "Mysterious trader moves $668M ahead of next US-Iran talks in Islamabad",
+    "Estée Lauder Looks for 5 Billion Euro to Fund Puig Deal, Report Says",
+    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76557.6796875,
-        "perp_last_price": 76557.6796875,
-        "mark_price": 76557.6796875,
-        "index_price": 76557.6796875,
+        "spot_price": 76495.3203125,
+        "perp_last_price": 76495.3203125,
+        "mark_price": 76495.3203125,
+        "index_price": 76495.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76554.1328125,
-        "stop_loss_technical": 74733.75,
-        "target_1": 79284.70703125,
-        "target_2": 82015.28125,
+        "entry_ideal": 76495.328125,
+        "stop_loss_technical": 76902.2109375,
+        "target_1": 75885.00390625,
+        "target_2": 75274.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 76557.6796875,
+        "entry_ideal": 76495.3203125,
         "stop_loss_technical": 73775.5703125,
-        "target_1": 80730.84375,
-        "target_2": 84904.0078125,
+        "target_1": 80574.9453125,
+        "target_2": 84654.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
