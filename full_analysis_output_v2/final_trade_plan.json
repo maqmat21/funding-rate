@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T15:48:29.277198+00:00",
+    "generated_at_utc": "2026-04-21T16:43:06.236323+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.361,
+        "price": 98.357,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.295,
+        "price": 4.3,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 13m",
+    "U.S. markets close in 3h 17m",
     "News from the Yahoo Finance Network",
-    "Mary Barra’s pay hits a record as GM hands $40M package to rising exec",
-    "FuelCell Energy Jumps 6% on Technology Edge as Plug Power Retreats 5% Before Earnings",
-    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
+    "Famed investor Jeremy Grantham warns of 'painful' consequences from the oil spike",
+    "Nvidia Stock-Split: 2 Years and $1.5 Trillion Later, Can It Reach $1,200 Again?",
     "McDonald’s rival closes after 79 years",
-    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
-    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'"
+    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
+    "How The Innoviz Technologies (INVZ) Narrative Is Shifting After Target Cut And Downgrade",
+    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75745.9921875,
-        "perp_last_price": 75745.9921875,
-        "mark_price": 75745.9921875,
-        "index_price": 75745.9921875,
+        "spot_price": 75981.5078125,
+        "perp_last_price": 75981.5078125,
+        "mark_price": 75981.5078125,
+        "index_price": 75981.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75745.9921875,
+        "entry_ideal": 75949.9921875,
         "stop_loss_technical": 76905.171875,
-        "target_1": 74007.22265625,
-        "target_2": 72268.453125,
+        "target_1": 74517.22265625,
+        "target_2": 73084.453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75745.9921875,
-        "stop_loss_technical": 78320.6796875,
-        "target_1": 71883.9609375,
-        "target_2": 68021.9296875,
+        "entry_ideal": 75981.5078125,
+        "stop_loss_technical": 74841.78519531,
+        "target_1": 77691.09173828,
+        "target_2": 79400.67566406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
