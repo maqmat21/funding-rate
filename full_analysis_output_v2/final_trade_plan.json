@@ -1,72 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T14:22:12.584784+00:00",
+    "generated_at_utc": "2026-04-21T15:48:29.277198+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.177,
-        "trend": "bajista"
+        "price": 98.361,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.274,
+        "price": 4.295,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 39m",
+    "U.S. markets close in 4h 13m",
     "News from the Yahoo Finance Network",
-    "Defense Budget Expansion: 3 Mid-Cap Names in a Sweet Spot",
+    "Mary Barra’s pay hits a record as GM hands $40M package to rising exec",
+    "FuelCell Energy Jumps 6% on Technology Edge as Plug Power Retreats 5% Before Earnings",
     "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing",
-    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
-    "GE Aerospace Q1 earnings beat driven by strong engine and services demand",
-    "5 Ways Retirees Accidentally Reduce Their Social Security Checks",
-    "McDonald’s rival closes after 79 years"
+    "McDonald’s rival closes after 79 years",
+    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
+    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76254.7265625,
-        "perp_last_price": 76254.7265625,
-        "mark_price": 76254.7265625,
-        "index_price": 76254.7265625,
+        "spot_price": 75745.9921875,
+        "perp_last_price": 75745.9921875,
+        "mark_price": 75745.9921875,
+        "index_price": 75745.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76260.6796875,
-        "stop_loss_technical": 75520.0,
-        "target_1": 77371.69921875,
-        "target_2": 78482.71875,
+        "entry_ideal": 75745.9921875,
+        "stop_loss_technical": 76905.171875,
+        "target_1": 74007.22265625,
+        "target_2": 72268.453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76254.7265625,
-        "stop_loss_technical": 73775.5703125,
-        "target_1": 79973.4609375,
-        "target_2": 83692.1953125,
+        "entry_ideal": 75745.9921875,
+        "stop_loss_technical": 78320.6796875,
+        "target_1": 71883.9609375,
+        "target_2": 68021.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
