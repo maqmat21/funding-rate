@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-21T00:04:48.911661+00:00",
+    "generated_at_utc": "2026-04-21T03:39:20.879129+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.074,
-        "trend": "bajista"
+        "price": 98.139,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.25,
@@ -23,51 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Apple CEO Tim Cook steps down: 7 big challenges for new CEO John Ternus",
+    "McDonald’s rival closes after 79 years",
+    "Elon Musk Says 'If AI/Robots Increase Output, Then You Must Issue Dollars To People or There Will Be Massive Disinflation'",
+    "Apple CEO Tim Cook stepping down, to be succeeded by John Ternus",
     "1 Nuclear Stock That Could Power Your Retirement Income for Decades",
-    "Tim Cook stepping down as Apple CEO, John Ternus taking over",
-    "Jim Cramer Says This Controversial Social Security Solution Could Be The Best Fix",
-    "‘Bombs will start going off’ if Iran deal fails, warns Nobel Peace Prize nominee",
-    "Tim Cook is stepping down as Apple's CEO. Investors are $4 trillion richer because of him."
+    "Early SCHD ETF investors now earn a 12.5% dividend yield on cost",
+    "Once you have $2M saved, you should (probably) retire immediately. Why you might be sacrificing for nothing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75856.390625,
-        "perp_last_price": 75856.390625,
-        "mark_price": 75856.390625,
-        "index_price": 75856.390625,
+        "spot_price": 75554.953125,
+        "perp_last_price": 75554.953125,
+        "mark_price": 75554.953125,
+        "index_price": 75554.953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75856.3828125,
-        "stop_loss_technical": 74136.9375,
-        "target_1": 78435.55078125,
-        "target_2": 81014.71875,
+        "entry_ideal": 75554.953125,
+        "stop_loss_technical": 76590.0,
+        "target_1": 74002.3828125,
+        "target_2": 72449.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 75856.390625,
-        "stop_loss_technical": 73802.3828125,
-        "target_1": 78937.40234375,
-        "target_2": 82018.4140625,
+        "entry_ideal": 75554.953125,
+        "stop_loss_technical": 78320.6796875,
+        "target_1": 71406.36328125,
+        "target_2": 67257.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
