@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-22T21:37:50.204596+00:00",
+    "generated_at_utc": "2026-04-22T22:27:36.917071+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.616,
+        "price": 98.605,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
+    "Bloom Energy Just Scored a Major Win With the Trump Admin. Is BE Stock a Buy?",
     "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
-    "Tesla's Robotaxi miles 'nearly double,' Supercharger network grows 19%, and the largest chip plant ever — 5 key updates from Tesla's earnings release",
-    "Kinder Morgan (NYSE:KMI) Reports Strong Q1 CY2026",
     "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors",
-    "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
-    "Tesla Q1 2026 earnings: profit up, deliveries miss"
+    "Tesla reports higher profits, topping estimates",
+    "Tesla Earnings Beat, But TSLA Stock Falls On Elon Musk Comments; HW3.0 'Does Not Have The Capability'",
+    "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78756.703125,
-        "perp_last_price": 78756.703125,
-        "mark_price": 78756.703125,
-        "index_price": 78756.703125,
+        "spot_price": 78577.203125,
+        "perp_last_price": 78577.203125,
+        "mark_price": 78577.203125,
+        "index_price": 78577.203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78756.703125,
-        "stop_loss_technical": 77575.35257813,
-        "target_1": 80528.72894531,
-        "target_2": 82300.75476562,
+        "entry_ideal": 78577.203125,
+        "stop_loss_technical": 79500.0078125,
+        "target_1": 77192.99609375,
+        "target_2": 75808.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78756.703125,
-        "stop_loss_technical": 77575.35257813,
-        "target_1": 80528.72894531,
-        "target_2": 82300.75476562,
+        "entry_ideal": 78577.203125,
+        "stop_loss_technical": 77398.54507812,
+        "target_1": 80345.19019531,
+        "target_2": 82113.17726562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
