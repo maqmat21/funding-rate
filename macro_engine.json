@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-04-22T14:10:44.673305+00:00",
-    "macro_bias": "NEUTRAL",
-    "macro_score": 35,
+    "timestamp": "2026-04-22T15:41:27.753813+00:00",
+    "macro_bias": "RISK_OFF",
+    "macro_score": 85,
     "dxy": {
-        "price": 98.35,
-        "ema20": 98.4089,
-        "ema50": 98.3932,
+        "price": 98.495,
+        "ema20": 98.4732,
+        "ema50": 98.4356,
         "ema_trend": "alcista",
-        "structure_1h": "neutral",
+        "structure_1h": "alcista",
         "structure_4h": "alcista",
-        "momentum_slope": -0.011874,
-        "momentum_state": "bajista",
+        "momentum_slope": 0.003692,
+        "momentum_state": "alcista",
         "breakout_24h": "none",
         "state_summary": "tendencia_fuerte"
     },
     "us10y": {
-        "price": 4.276,
-        "direction_1h": "cayendo",
-        "momentum_state": "bajista"
+        "price": 4.29,
+        "direction_1h": "subiendo",
+        "momentum_state": "alcista"
     },
     "risk_environment": {
-        "btc_probability_bias": "neutral",
-        "altcoins_probability_bias": "neutral",
-        "confidence_level": "media"
+        "btc_probability_bias": "bajista",
+        "altcoins_probability_bias": "bajista",
+        "confidence_level": "alta"
     },
     "alerts": {
-        "macro_shift": false,
+        "macro_shift": true,
         "volatility_expansion": false
     }
 }

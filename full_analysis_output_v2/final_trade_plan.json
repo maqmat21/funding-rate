@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-22T14:10:47.482799+00:00",
+    "generated_at_utc": "2026-04-22T15:41:29.898764+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.351,
+        "price": 98.495,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.276,
-        "trend": "bajista"
+        "price": 4.29,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 50m",
+    "U.S. markets close in 4h 19m",
     "News from the Yahoo Finance Network",
-    "Will Strategy Overtake Satoshi Nakamoto's Bitcoin Holdings? Peter Schiff Reiterates ‘Ponzi Scheme’ Critique as Saylor Buys Another $2B",
+    "Elon Musk Says If You Plan In Retiring In 10-20 Years Don't Stress If You've Got Nothing Saved — 'It Won't Matter' Anyway",
     "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
     "Here's How Much Dividend Income You'd Have Collected If You'd Bought 100 Shares of Coca-Cola 10 Years Ago",
     "Trump Says He Loved Seeing Outgoing Apple CEO Tim Cook Previously Call to 'Kiss My Ass'",
-    "Tesla Finally Has What Wall St. Wants–A New Model",
-    "America’s national debt is heading to 175% of GDP. Here’s why no president—including Trump—has the will to stop it"
+    "SpaceX IPO: Here's What a $5,000 Investment Could Look Like In 5 Years",
+    "Triumph Financial sets new metrics, has strong quarter in factoring"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78955.3515625,
-        "perp_last_price": 78955.3515625,
-        "mark_price": 78955.3515625,
-        "index_price": 78955.3515625,
+        "spot_price": 79308.71875,
+        "perp_last_price": 79308.71875,
+        "mark_price": 79308.71875,
+        "index_price": 79308.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78974.1875,
-        "stop_loss_technical": 74825.9921875,
-        "target_1": 85196.48046875,
-        "target_2": 91418.7734375,
+        "entry_ideal": 79312.0,
+        "stop_loss_technical": 78122.32,
+        "target_1": 81096.52,
+        "target_2": 82881.04,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78955.3515625,
-        "stop_loss_technical": 73775.5703125,
-        "target_1": 86725.0234375,
-        "target_2": 94494.6953125,
+        "entry_ideal": 79308.71875,
+        "stop_loss_technical": 78119.08796875,
+        "target_1": 81093.16492187,
+        "target_2": 82877.61109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
