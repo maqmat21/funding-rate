@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-22T22:27:36.917071+00:00",
+    "generated_at_utc": "2026-04-22T23:12:08.930259+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
-    "Bloom Energy Just Scored a Major Win With the Trump Admin. Is BE Stock a Buy?",
     "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
     "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors",
-    "Tesla reports higher profits, topping estimates",
-    "Tesla Earnings Beat, But TSLA Stock Falls On Elon Musk Comments; HW3.0 'Does Not Have The Capability'",
-    "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28"
+    "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
+    "Intel lands key first customer for chip '14A' chip tech with Tesla's Terafab project, Musk says",
+    "Here's How Much Dividend Income You'd Have Collected If You'd Bought 100 Shares of Coca-Cola 10 Years Ago",
+    "Suze Orman Says Put 50% in VOO. Here’s Why She’s Right"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78577.203125,
-        "perp_last_price": 78577.203125,
-        "mark_price": 78577.203125,
-        "index_price": 78577.203125,
+        "spot_price": 78599.8515625,
+        "perp_last_price": 78599.8515625,
+        "mark_price": 78599.8515625,
+        "index_price": 78599.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78577.203125,
-        "stop_loss_technical": 79500.0078125,
-        "target_1": 77192.99609375,
-        "target_2": 75808.7890625,
+        "entry_ideal": 78599.8515625,
+        "stop_loss_technical": 77420.85378906,
+        "target_1": 80368.34822266,
+        "target_2": 82136.84488281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78577.203125,
-        "stop_loss_technical": 77398.54507812,
-        "target_1": 80345.19019531,
-        "target_2": 82113.17726562,
+        "entry_ideal": 78599.8515625,
+        "stop_loss_technical": 77420.85378906,
+        "target_1": 80368.34822266,
+        "target_2": 82136.84488281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
