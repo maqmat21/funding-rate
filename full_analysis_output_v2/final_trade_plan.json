@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-22T10:09:21.999794+00:00",
+    "generated_at_utc": "2026-04-22T11:20:23.852242+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.337,
+        "price": 98.328,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 22m",
+    "U.S. markets open in 2h 11m",
     "News from the Yahoo Finance Network",
-    "Lawmakers look to stop states profiting from unclaimed property — including California’s $15 billion in abandoned assets",
-    "Trump Says He Loved Seeing Outgoing Apple CEO Tim Cook Previously Call to 'Kiss My Ass'",
     "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
+    "Trump Says He Loved Seeing Outgoing Apple CEO Tim Cook Previously Call to 'Kiss My Ass'",
+    "Should You Be Adding Philip Morris International (NYSE:PM) To Your Watchlist Today?",
     "Here's How Much Dividend Income You'd Have Collected If You'd Bought 100 Shares of Coca-Cola 10 Years Ago",
-    "Trump Weighs Shipping Waiver Renewal to Ease Oil, Gas Prices",
+    "The tables have turned: Florida and Texas are the biggest losers in the housing market as Ohio emerges a surprise winner",
     "SpaceX IPO: Here's What a $5,000 Investment Could Look Like In 5 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78015.1015625,
-        "perp_last_price": 78015.1015625,
-        "mark_price": 78015.1015625,
-        "index_price": 78015.1015625,
+        "spot_price": 78234.5078125,
+        "perp_last_price": 78234.5078125,
+        "mark_price": 78234.5078125,
+        "index_price": 78234.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78007.8125,
-        "stop_loss_technical": 78429.28125,
-        "target_1": 77375.609375,
-        "target_2": 76743.40625,
+        "entry_ideal": 78234.5078125,
+        "stop_loss_technical": 77060.99019531,
+        "target_1": 79994.78423828,
+        "target_2": 81755.06066406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78015.1015625,
-        "stop_loss_technical": 76844.87503906,
-        "target_1": 79770.44134766,
-        "target_2": 81525.78113281,
+        "entry_ideal": 78234.5078125,
+        "stop_loss_technical": 77060.99019531,
+        "target_1": 79994.78423828,
+        "target_2": 81755.06066406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
