@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-22T18:46:56.426320+00:00",
+    "generated_at_utc": "2026-04-22T19:53:05.147288+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.588,
+        "price": 98.599,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.296,
+        "price": 4.294,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 14m",
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
+    "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
+    "Get Ready for a New Siri: Will a New Assistant Be a Game-Changer for Apple Stock?",
+    "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
     "Here's How Much Dividend Income You'd Have Collected If You'd Bought 100 Shares of Coca-Cola 10 Years Ago",
-    "SpaceX IPO: Here's What a $5,000 Investment Could Look Like In 5 Years",
-    "Walmart's warehouse club ups the pressure on Costco with a new member perk",
-    "3 predictions about silver prices in the next decade",
-    "Elon Musk Says If You Plan In Retiring In 10-20 Years Don't Stress If You've Got Nothing Saved — 'It Won't Matter' Anyway"
+    "She found ‘a huge wad’ of cash in a Goodwill item — her TikTok followers told her to pocket it. What does the law say?",
+    "ASML Has Just Delivered Massive News for Micron Technology Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79019.9921875,
-        "perp_last_price": 79019.9921875,
-        "mark_price": 79019.9921875,
-        "index_price": 79019.9921875,
+        "spot_price": 78812.2578125,
+        "perp_last_price": 78812.2578125,
+        "mark_price": 78812.2578125,
+        "index_price": 78812.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79025.5234375,
-        "stop_loss_technical": 77840.14058594,
-        "target_1": 80803.59771484,
-        "target_2": 82581.67199219,
+        "entry_ideal": 78812.2578125,
+        "stop_loss_technical": 79502.78125,
+        "target_1": 77776.47265625,
+        "target_2": 76740.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79019.9921875,
-        "stop_loss_technical": 77834.69230469,
-        "target_1": 80797.94201172,
-        "target_2": 82575.89183594,
+        "entry_ideal": 78812.2578125,
+        "stop_loss_technical": 77630.07394531,
+        "target_1": 80585.53361328,
+        "target_2": 82358.80941406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
