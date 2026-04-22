@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-22T12:11:01.674683+00:00",
+    "generated_at_utc": "2026-04-22T14:10:47.482799+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.412,
+        "price": 98.351,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.292,
-        "trend": "alcista"
+        "price": 4.276,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 20m",
+    "U.S. markets close in 5h 50m",
     "News from the Yahoo Finance Network",
+    "Will Strategy Overtake Satoshi Nakamoto's Bitcoin Holdings? Peter Schiff Reiterates ‘Ponzi Scheme’ Critique as Saylor Buys Another $2B",
     "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
-    "Don't Let Medicare IRMAAs Be the Reason You Avoid a Roth Conversion",
-    "Trump Says He Loved Seeing Outgoing Apple CEO Tim Cook Previously Call to 'Kiss My Ass'",
     "Here's How Much Dividend Income You'd Have Collected If You'd Bought 100 Shares of Coca-Cola 10 Years Ago",
-    "AT&T Earnings Top Views, Revenue In-Line Amid 'Convergence' Push",
-    "Are You Richer Than Your Friends? See How Your Net Worth Stacks Up Against Your Peers By Age"
+    "Trump Says He Loved Seeing Outgoing Apple CEO Tim Cook Previously Call to 'Kiss My Ass'",
+    "Tesla Finally Has What Wall St. Wants–A New Model",
+    "America’s national debt is heading to 175% of GDP. Here’s why no president—including Trump—has the will to stop it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78356.0625,
-        "perp_last_price": 78356.0625,
-        "mark_price": 78356.0625,
-        "index_price": 78356.0625,
+        "spot_price": 78955.3515625,
+        "perp_last_price": 78955.3515625,
+        "mark_price": 78955.3515625,
+        "index_price": 78955.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 78356.0625,
-        "stop_loss_technical": 77180.7215625,
-        "target_1": 80119.07390625,
-        "target_2": 81882.0853125,
+        "entry_ideal": 78974.1875,
+        "stop_loss_technical": 74825.9921875,
+        "target_1": 85196.48046875,
+        "target_2": 91418.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 78356.0625,
-        "stop_loss_technical": 77180.7215625,
-        "target_1": 80119.07390625,
-        "target_2": 81882.0853125,
+        "entry_ideal": 78955.3515625,
+        "stop_loss_technical": 73775.5703125,
+        "target_1": 86725.0234375,
+        "target_2": 94494.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
