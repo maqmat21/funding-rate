@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-23T17:49:10.202346+00:00",
+    "generated_at_utc": "2026-04-23T18:47:16.458713+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,63 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.837,
+        "price": 98.692,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.337,
+        "price": 4.316,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 12m",
+    "U.S. markets close in 1h 13m",
     "News from the Yahoo Finance Network",
     "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
+    "Palantir's USDA Deal Could Really Be About Clawing Back U.S. Farmland From China",
     "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
     "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
-    "Tesla Revokes Musk’s $29B Interim Award After Supreme Court Win",
-    "Microsoft just delivered $18 billion news for investors",
+    "TechnipFMC (FTI): Buy, Sell, or Hold Post Q4 Earnings?",
     "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77363.6015625,
-        "perp_last_price": 77363.6015625,
-        "mark_price": 77363.6015625,
-        "index_price": 77363.6015625,
+        "spot_price": 78045.6015625,
+        "perp_last_price": 78045.6015625,
+        "mark_price": 78045.6015625,
+        "index_price": 78045.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77363.6015625,
-        "stop_loss_technical": 78865.078125,
-        "target_1": 75111.38671875,
-        "target_2": 72859.171875,
+        "entry_ideal": 78041.140625,
+        "stop_loss_technical": 76870.52351562,
+        "target_1": 79797.06628906,
+        "target_2": 81552.99195313,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77363.6015625,
-        "stop_loss_technical": 79468.0,
-        "target_1": 74207.00390625,
-        "target_2": 71050.40625,
+        "entry_ideal": 78045.6015625,
+        "stop_loss_technical": 76874.91753906,
+        "target_1": 79801.62759766,
+        "target_2": 81557.65363281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
