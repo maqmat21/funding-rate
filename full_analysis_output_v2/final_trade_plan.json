@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-23T00:02:54.433320+00:00",
+    "generated_at_utc": "2026-04-23T03:40:25.202701+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.611,
+        "price": 98.692,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,50 +24,51 @@
     "News from the Yahoo Finance Network",
     "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
     "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
+    "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
     "Billionaire Warren Buffett Said 'I Really Knew I Was Rich When I Had $10,000' — And Even Had His Dad Cut Him Out Of The Will At 28",
-    "Tesla reports higher profits, confirms hefty spending ahead",
-    "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors",
-    "Suze Orman Says Put 50% in VOO. Here’s Why She’s Right",
-    "Elon Musk's Optimus dream inches closer to reality"
+    "Is It Too Late To Consider eBay (EBAY) After Its Strong Share Price Run?",
+    "Trump Says He Loved Seeing Outgoing Apple CEO Tim Cook Previously Call to 'Kiss My Ass'",
+    "John Ternus’s net worth as Apple’s next CEO"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78372.296875,
-        "perp_last_price": 78372.296875,
-        "mark_price": 78372.296875,
-        "index_price": 78372.296875,
+        "spot_price": 77555.0078125,
+        "perp_last_price": 77555.0078125,
+        "mark_price": 77555.0078125,
+        "index_price": 77555.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78372.796875,
-        "stop_loss_technical": 77197.20492188,
-        "target_1": 80136.18480469,
-        "target_2": 81899.57273438,
+        "entry_ideal": 77558.84375,
+        "stop_loss_technical": 79502.78125,
+        "target_1": 74642.9375,
+        "target_2": 71727.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78372.296875,
-        "stop_loss_technical": 77196.71242187,
-        "target_1": 80135.67355469,
-        "target_2": 81899.05023437,
+        "entry_ideal": 77555.0078125,
+        "stop_loss_technical": 79502.78125,
+        "target_1": 74633.34765625,
+        "target_2": 71711.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
