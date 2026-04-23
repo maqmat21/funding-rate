@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-23T22:24:04.502806+00:00",
+    "generated_at_utc": "2026-04-23T23:10:45.057689+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Micron Stock Just Set New All-Time Highs. Again. Should You Chase MU Here?",
     "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
-    "Trump venture ‘on the verge of collapse’",
     "Elon Musk Admits He Lied to Tesla Customers’ Faces for Years About Self-Driving",
+    "A California Home Once Tied to a Warner Bros. Co-Founder Fetches $27.25 Million",
     "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors",
     "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says.",
-    "Intel Needed A Lifeline. It Just Got One — And It's Got Elon Musk's Name On It"
+    "GE Vernova (GEV) – Among the Best US Stocks to Invest in for Long Term",
+    "The 'Standout' From Edwards Lifesciences' Broad-Based Sales Beat"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78216.0,
-        "perp_last_price": 78216.0,
-        "mark_price": 78216.0,
-        "index_price": 78216.0,
+        "spot_price": 78151.0,
+        "perp_last_price": 78151.0,
+        "mark_price": 78151.0,
+        "index_price": 78151.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78209.7578125,
-        "stop_loss_technical": 77036.61144531,
-        "target_1": 79969.47736328,
-        "target_2": 81729.19691406,
+        "entry_ideal": 78151.0,
+        "stop_loss_technical": 78716.328125,
+        "target_1": 77303.0078125,
+        "target_2": 76455.015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78216.0,
-        "stop_loss_technical": 77042.76,
-        "target_1": 79975.86,
-        "target_2": 81735.72,
+        "entry_ideal": 78151.0,
+        "stop_loss_technical": 76978.735,
+        "target_1": 79909.3975,
+        "target_2": 81667.795,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
