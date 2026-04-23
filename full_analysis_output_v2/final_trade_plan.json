@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-23T16:19:08.410611+00:00",
+    "generated_at_utc": "2026-04-23T17:49:10.202346+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,64 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.67,
+        "price": 98.837,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.298,
+        "price": 4.337,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 42m",
+    "U.S. markets close in 2h 12m",
     "News from the Yahoo Finance Network",
     "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
-    "SLV Is Up 145% in One Year. Is the iShares Silver Trust Still Worth Buying?",
-    "7 money moves that can put you ahead of most Americans — when 24% already live paycheck to paycheck",
     "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
-    "EBay closes San Francisco office",
-    "Microsoft plans first voluntary employee buyout, CNBC reports"
+    "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
+    "Tesla Revokes Musk’s $29B Interim Award After Supreme Court Win",
+    "Microsoft just delivered $18 billion news for investors",
+    "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78412.03125,
-        "perp_last_price": 78412.03125,
-        "mark_price": 78412.03125,
-        "index_price": 78412.03125,
+        "spot_price": 77363.6015625,
+        "perp_last_price": 77363.6015625,
+        "mark_price": 77363.6015625,
+        "index_price": 77363.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78414.390625,
-        "stop_loss_technical": 77238.17476562,
-        "target_1": 80178.71441406,
-        "target_2": 81943.03820313,
+        "entry_ideal": 77363.6015625,
+        "stop_loss_technical": 78865.078125,
+        "target_1": 75111.38671875,
+        "target_2": 72859.171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78412.03125,
-        "stop_loss_technical": 77235.85078125,
-        "target_1": 80176.30195313,
-        "target_2": 81940.57265625,
+        "entry_ideal": 77363.6015625,
+        "stop_loss_technical": 79468.0,
+        "target_1": 74207.00390625,
+        "target_2": 71050.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
