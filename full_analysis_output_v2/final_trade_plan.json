@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-23T09:08:23.485167+00:00",
+    "generated_at_utc": "2026-04-23T10:43:52.427216+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.647,
+        "price": 98.762,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 22m",
+    "U.S. markets open in 2h 47m",
     "News from the Yahoo Finance Network",
     "3 Stocks I'm Not Selling, No Matter What the Market Does for the Next 20 Years",
     "Americans would get ‘universal high income’ via steady federal checks under Elon Musk’s new proposal. Will it happen?",
-    "Jefferies Sees International Business Machines Corporation (IBM) Upside, Trims Price Target on Valuation Ahead of Earnings",
     "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
+    "Warren Buffett's Successor, Greg Abel, Made His First Big Purchases at Berkshire Hathaway -- and He's Not Betting on America",
     "Richest countries in 2026: New measure of wealth pushes France and Germany out of top ten",
-    "John Ternus’s net worth as Apple’s next CEO"
+    "Here's How Much Dividend Income You'd Have Collected If You'd Bought 100 Shares of Coca-Cola 10 Years Ago"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77604.0625,
-        "perp_last_price": 77604.0625,
-        "mark_price": 77604.0625,
-        "index_price": 77604.0625,
+        "spot_price": 77427.34375,
+        "perp_last_price": 77427.34375,
+        "mark_price": 77427.34375,
+        "index_price": 77427.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77599.8125,
-        "stop_loss_technical": 79500.0078125,
-        "target_1": 74749.51953125,
-        "target_2": 71899.2265625,
+        "entry_ideal": 77428.1328125,
+        "stop_loss_technical": 79502.78125,
+        "target_1": 74316.16015625,
+        "target_2": 71204.1875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77604.0625,
-        "stop_loss_technical": 79500.0078125,
-        "target_1": 74760.14453125,
-        "target_2": 71916.2265625,
+        "entry_ideal": 77427.34375,
+        "stop_loss_technical": 79502.78125,
+        "target_1": 74314.1875,
+        "target_2": 71201.03125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
