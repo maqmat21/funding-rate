@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T17:34:30.662548+00:00",
+    "generated_at_utc": "2026-04-24T18:09:02.653443+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.546,
+        "price": 98.562,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.312,
+        "price": 4.31,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 27m",
+    "U.S. markets close in 1h 52m",
     "News from the Yahoo Finance Network",
-    "The Smartest Dividend ETF to Buy With $2,000 in April 2026",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Solaris Energy Infrastructure Ties Data Center Contracts To High Valuation Questions",
-    "SouthState Corporation Q1 2026 Earnings Call Summary",
-    "Why Advanced Micro Devices Stock Is Soaring Today",
-    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
+    "Fidelity sends blunt message on S&P 500 after sudden rebound",
+    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
+    "Despite her family winning $80M lottery, Texas woman claims to live paycheck to paycheck. How to avoid this outcome",
+    "Billionaire Bill Ackman Has Over Half His Portfolio in Just 4 Stocks. Should You Copy Him?",
+    "Honda CEO says 'we have no chance' against Chinese automakers"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77510.7890625,
-        "perp_last_price": 77510.7890625,
-        "mark_price": 77510.7890625,
-        "index_price": 77510.7890625,
+        "spot_price": 77639.0234375,
+        "perp_last_price": 77639.0234375,
+        "mark_price": 77639.0234375,
+        "index_price": 77639.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77510.7890625,
-        "stop_loss_technical": 78601.7109375,
-        "target_1": 75874.40625,
-        "target_2": 74238.0234375,
+        "entry_ideal": 77640.59375,
+        "stop_loss_technical": 78570.0234375,
+        "target_1": 76246.44921875,
+        "target_2": 74852.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77510.7890625,
+        "entry_ideal": 77639.0234375,
         "stop_loss_technical": 79468.0,
-        "target_1": 74574.97265625,
-        "target_2": 71639.15625,
+        "target_1": 74895.55859375,
+        "target_2": 72152.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
