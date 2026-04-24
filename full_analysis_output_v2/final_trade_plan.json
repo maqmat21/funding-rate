@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T00:03:53.397178+00:00",
+    "generated_at_utc": "2026-04-24T03:43:31.572488+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.825,
+        "price": 98.906,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,53 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Honda CEO says 'we have no chance' against Chinese automakers",
     "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
-    "Pfizer’s Monthly GLP-1 Push Tests Balance Between Obesity Growth And Dividends",
-    "Elon Musk Admits He Lied to Tesla Customers’ Faces for Years About Self-Driving",
-    "$8 Billion Hedge Fund Is Loading Up on These 3 Stocks",
-    "Thermo Fisher Scientific Inc. Q1 2026 Earnings Call Summary",
+    "1 Oversold Stock Set for a Comeback and 2 We Avoid",
     "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says.",
-    "Portugal picks Air France-KLM and Lufthansa to make offers for TAP"
+    "Elon Musk Admits He Lied to Tesla Customers’ Faces for Years About Self-Driving",
+    "Sam's Club just gave members a reason to ditch Costco",
+    "American soldier arrested over Polymarket wagers tied to Maduro's capture"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78288.5703125,
-        "perp_last_price": 78288.5703125,
-        "mark_price": 78288.5703125,
-        "index_price": 78288.5703125,
+        "spot_price": 77666.46875,
+        "perp_last_price": 77666.46875,
+        "mark_price": 77666.46875,
+        "index_price": 77666.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78281.2109375,
-        "stop_loss_technical": 77106.99277344,
-        "target_1": 80042.53818359,
-        "target_2": 81803.86542969,
+        "entry_ideal": 77664.0078125,
+        "stop_loss_technical": 78716.328125,
+        "target_1": 76085.52734375,
+        "target_2": 74507.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78288.5703125,
-        "stop_loss_technical": 77114.24175781,
-        "target_1": 80050.06314453,
-        "target_2": 81811.55597656,
+        "entry_ideal": 77666.46875,
+        "stop_loss_technical": 79468.0,
+        "target_1": 74964.171875,
+        "target_2": 72261.875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
