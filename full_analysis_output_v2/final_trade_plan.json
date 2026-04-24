@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T05:57:59.986834+00:00",
+    "generated_at_utc": "2026-04-24T07:55:48.302731+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.847,
+        "price": 98.812,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 33m",
+    "U.S. markets open in 5h 35m",
     "News from the Yahoo Finance Network",
     "Honda CEO says 'we have no chance' against Chinese automakers",
     "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
-    "In a fit of caprice, Trump reverses course on interest rates while backing Warsh for the Fed",
-    "Billionaire Charlie Munger, 99, Says He Bought Apartments Because It Gave Him 'Something To Do' — A Strategy He Compared To 'Marshmallow Test'",
     "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says.",
-    "This Boring Dividend King Might Be the Safest Pick to Add to Your Portfolio"
+    "Elon Musk Admits He Lied to Tesla Customers’ Faces for Years About Self-Driving",
+    "How Buying Oklo Inc. Stock Today Could 10X Your Net Worth",
+    "Elon Musk vs. Plug Power Stock: Here's What the CEO of Tesla Thinks About Hydrogen Energy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77969.71875,
-        "perp_last_price": 77969.71875,
-        "mark_price": 77969.71875,
-        "index_price": 77969.71875,
+        "spot_price": 77623.0390625,
+        "perp_last_price": 77623.0390625,
+        "mark_price": 77623.0390625,
+        "index_price": 77623.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77995.9921875,
-        "stop_loss_technical": 76826.05230469,
-        "target_1": 79750.90201172,
-        "target_2": 81505.81183594,
+        "entry_ideal": 77623.0390625,
+        "stop_loss_technical": 78716.328125,
+        "target_1": 75983.10546875,
+        "target_2": 74343.171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77969.71875,
+        "entry_ideal": 77623.0390625,
         "stop_loss_technical": 79468.0,
-        "target_1": 75722.296875,
-        "target_2": 73474.875,
+        "target_1": 74855.59765625,
+        "target_2": 72088.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
