@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T14:19:55.040923+00:00",
+    "generated_at_utc": "2026-04-24T15:41:13.416479+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,60 +11,61 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.631,
+        "price": 98.638,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.322,
+        "price": 4.32,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 41m",
+    "U.S. markets close in 4h 20m",
     "News from the Yahoo Finance Network",
-    "Is Veeva Systems (VEEV) Now A Value Opportunity After Recent Share Price Slide?",
-    "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’",
-    "Billionaire Bill Ackman Has Over Half His Portfolio in Just 4 Stocks. Should You Copy Him?",
-    "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says.",
+    "Uber Technologies Inc. (UBER): Bill Ackman Continues to Be Bullish",
+    "Is It Time To Reassess WSP Global (TSX:WSP) After Recent Infrastructure Project Headlines?",
+    "DOJ Reportedly Probing Beef Packers, Egg Producers Over Antitrust Concerns",
+    "Amazon.com, Inc. (AMZN): Bill Ackman Is Loading Up on This Stock",
     "Despite her family winning $80M lottery, Texas woman claims to live paycheck to paycheck. How to avoid this outcome",
-    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
+    "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77997.4609375,
-        "perp_last_price": 77997.4609375,
-        "mark_price": 77997.4609375,
-        "index_price": 77997.4609375,
+        "spot_price": 77755.6796875,
+        "perp_last_price": 77755.6796875,
+        "mark_price": 77755.6796875,
+        "index_price": 77755.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 77749.1328125,
+        "stop_loss_technical": 78570.0234375,
+        "target_1": 76517.796875,
+        "target_2": 75286.4609375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 77982.7265625,
-        "stop_loss_technical": 78570.0234375,
-        "target_1": 77101.78125,
-        "target_2": 76220.8359375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 77997.4609375,
-        "stop_loss_technical": 73775.5703125,
-        "target_1": 84330.296875,
-        "target_2": 90663.1328125,
+        "entry_ideal": 77755.6796875,
+        "stop_loss_technical": 79468.0,
+        "target_1": 75187.19921875,
+        "target_2": 72618.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
