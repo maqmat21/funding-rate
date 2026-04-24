@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T20:01:59.296983+00:00",
+    "generated_at_utc": "2026-04-24T21:01:33.078924+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.53,
+        "price": 98.498,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett Quietly Sold 75% of His Biggest Holding. This Is Where the Money Went.",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Chase Debanked My Cannabis Media Company. LinkedIn Forced a Second Look",
-    "Philip Morris (PM) Lowers Forecast as Zyn Faces Approval Hurdles",
+    "Here's how much the US government has made on its Intel investment after the latest big stock rally",
+    "DTE to seek $473M rate hike but promises relief if data centers open",
+    "Here's How Much Chick-Fil-A Franchise Owners Actually Make",
     "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
-    "Billionaire Bill Ackman Has Over Half His Portfolio in Just 4 Stocks. Should You Copy Him?",
-    "QuantumScape has a bold message for investors",
-    "Honda CEO says 'we have no chance' against Chinese automakers"
+    "2 Stocks About to Benefit Enormously From the SpaceX IPO Boom"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77635.1484375,
-        "perp_last_price": 77635.1484375,
-        "mark_price": 77635.1484375,
-        "index_price": 77635.1484375,
+        "spot_price": 77717.796875,
+        "perp_last_price": 77717.796875,
+        "mark_price": 77717.796875,
+        "index_price": 77717.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77644.1484375,
+        "entry_ideal": 77723.953125,
         "stop_loss_technical": 77385.90625,
-        "target_1": 78031.51171875,
-        "target_2": 78418.875,
+        "target_1": 78231.0234375,
+        "target_2": 78738.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77635.1484375,
+        "entry_ideal": 77717.796875,
         "stop_loss_technical": 79468.0,
-        "target_1": 74885.87109375,
-        "target_2": 72136.59375,
+        "target_1": 75092.4921875,
+        "target_2": 72467.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
