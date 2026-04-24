@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T16:39:55.822382+00:00",
+    "generated_at_utc": "2026-04-24T17:34:30.662548+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,60 +11,62 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.576,
+        "price": 98.546,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.306,
+        "price": 4.312,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 22m",
+    "U.S. markets close in 2h 27m",
     "News from the Yahoo Finance Network",
-    "Why MaxLinear Stock Soared More than 80% Today",
-    "Liberty Energy (LBRT) Valuation Check After Q1 Earnings Beat And Optimistic Growth Outlook",
-    "Assessing Energy Fuels (TSX:EFR) Valuation As Analyst Sentiment And Earnings Expectations Improve",
-    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
-    "Despite her family winning $80M lottery, Texas woman claims to live paycheck to paycheck. How to avoid this outcome",
-    "Billionaire Bill Ackman Has Over Half His Portfolio in Just 4 Stocks. Should You Copy Him?"
+    "The Smartest Dividend ETF to Buy With $2,000 in April 2026",
+    "Elon Musk has a surprising message for unemployed Americans",
+    "Solaris Energy Infrastructure Ties Data Center Contracts To High Valuation Questions",
+    "SouthState Corporation Q1 2026 Earnings Call Summary",
+    "Why Advanced Micro Devices Stock Is Soaring Today",
+    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77791.7578125,
-        "perp_last_price": 77791.7578125,
-        "mark_price": 77791.7578125,
-        "index_price": 77791.7578125,
+        "spot_price": 77510.7890625,
+        "perp_last_price": 77510.7890625,
+        "mark_price": 77510.7890625,
+        "index_price": 77510.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77794.9375,
+        "entry_ideal": 77510.7890625,
         "stop_loss_technical": 78601.7109375,
-        "target_1": 76584.77734375,
-        "target_2": 75374.6171875,
+        "target_1": 75874.40625,
+        "target_2": 74238.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77791.7578125,
+        "entry_ideal": 77510.7890625,
         "stop_loss_technical": 79468.0,
-        "target_1": 75277.39453125,
-        "target_2": 72763.03125,
+        "target_1": 74574.97265625,
+        "target_2": 71639.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
