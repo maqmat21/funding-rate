@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-23T23:10:45.057689+00:00",
+    "generated_at_utc": "2026-04-24T00:03:53.397178+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.799,
+        "price": 98.825,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett's Surprising Take on Social Security That Every Investor Should Know",
+    "Pfizer’s Monthly GLP-1 Push Tests Balance Between Obesity Growth And Dividends",
     "Elon Musk Admits He Lied to Tesla Customers’ Faces for Years About Self-Driving",
-    "A California Home Once Tied to a Warner Bros. Co-Founder Fetches $27.25 Million",
-    "Berkshire Hathaway Is Selling Down These 4 Positions. Here’s What That Means for Investors",
+    "$8 Billion Hedge Fund Is Loading Up on These 3 Stocks",
+    "Thermo Fisher Scientific Inc. Q1 2026 Earnings Call Summary",
     "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says.",
-    "GE Vernova (GEV) – Among the Best US Stocks to Invest in for Long Term",
-    "The 'Standout' From Edwards Lifesciences' Broad-Based Sales Beat"
+    "Portugal picks Air France-KLM and Lufthansa to make offers for TAP"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78151.0,
-        "perp_last_price": 78151.0,
-        "mark_price": 78151.0,
-        "index_price": 78151.0,
+        "spot_price": 78288.5703125,
+        "perp_last_price": 78288.5703125,
+        "mark_price": 78288.5703125,
+        "index_price": 78288.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78151.0,
-        "stop_loss_technical": 78716.328125,
-        "target_1": 77303.0078125,
-        "target_2": 76455.015625,
+        "entry_ideal": 78281.2109375,
+        "stop_loss_technical": 77106.99277344,
+        "target_1": 80042.53818359,
+        "target_2": 81803.86542969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78151.0,
-        "stop_loss_technical": 76978.735,
-        "target_1": 79909.3975,
-        "target_2": 81667.795,
+        "entry_ideal": 78288.5703125,
+        "stop_loss_technical": 77114.24175781,
+        "target_1": 80050.06314453,
+        "target_2": 81811.55597656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
