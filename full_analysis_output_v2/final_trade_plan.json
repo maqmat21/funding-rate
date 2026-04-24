@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T18:09:02.653443+00:00",
+    "generated_at_utc": "2026-04-24T19:10:45.960252+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.562,
+        "price": 98.531,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.31,
+        "price": 4.308,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 52m",
     "News from the Yahoo Finance Network",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Fidelity sends blunt message on S&P 500 after sudden rebound",
     "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
     "Despite her family winning $80M lottery, Texas woman claims to live paycheck to paycheck. How to avoid this outcome",
+    "Earnings Release: Here's Why Analysts Cut Their Cleveland-Cliffs Inc. (NYSE:CLF) Price Target To US$10.78",
     "Billionaire Bill Ackman Has Over Half His Portfolio in Just 4 Stocks. Should You Copy Him?",
-    "Honda CEO says 'we have no chance' against Chinese automakers"
+    "Fidelity sends blunt message on S&P 500 after sudden rebound",
+    "Is Marvell Technology, Inc. (MRVL) A Good Stock To Buy Now?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77639.0234375,
-        "perp_last_price": 77639.0234375,
-        "mark_price": 77639.0234375,
-        "index_price": 77639.0234375,
+        "spot_price": 77617.859375,
+        "perp_last_price": 77617.859375,
+        "mark_price": 77617.859375,
+        "index_price": 77617.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77640.59375,
-        "stop_loss_technical": 78570.0234375,
-        "target_1": 76246.44921875,
-        "target_2": 74852.3046875,
+        "entry_ideal": 77619.5234375,
+        "stop_loss_technical": 77385.90625,
+        "target_1": 77969.94921875,
+        "target_2": 78320.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77639.0234375,
+        "entry_ideal": 77617.859375,
         "stop_loss_technical": 79468.0,
-        "target_1": 74895.55859375,
-        "target_2": 72152.09375,
+        "target_1": 74842.6484375,
+        "target_2": 72067.4375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
