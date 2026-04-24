@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T21:01:33.078924+00:00",
+    "generated_at_utc": "2026-04-24T21:56:43.689863+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.498,
+        "price": 98.51,
         "trend": "bajista"
       },
       "US10Y": {
@@ -25,47 +25,48 @@
     "Warren Buffett Quietly Sold 75% of His Biggest Holding. This Is Where the Money Went.",
     "Elon Musk has a surprising message for unemployed Americans",
     "Here's how much the US government has made on its Intel investment after the latest big stock rally",
-    "DTE to seek $473M rate hike but promises relief if data centers open",
+    "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
     "Here's How Much Chick-Fil-A Franchise Owners Actually Make",
-    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
-    "2 Stocks About to Benefit Enormously From the SpaceX IPO Boom"
+    "China car giant BYD says it can thrive without US",
+    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77717.796875,
-        "perp_last_price": 77717.796875,
-        "mark_price": 77717.796875,
-        "index_price": 77717.796875,
+        "spot_price": 77609.7265625,
+        "perp_last_price": 77609.7265625,
+        "mark_price": 77609.7265625,
+        "index_price": 77609.7265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77723.953125,
-        "stop_loss_technical": 77385.90625,
-        "target_1": 78231.0234375,
-        "target_2": 78738.09375,
+        "entry_ideal": 77609.71875,
+        "stop_loss_technical": 78570.0234375,
+        "target_1": 76169.26171875,
+        "target_2": 74728.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77717.796875,
+        "entry_ideal": 77609.7265625,
         "stop_loss_technical": 79468.0,
-        "target_1": 75092.4921875,
-        "target_2": 72467.1875,
+        "target_1": 74822.31640625,
+        "target_2": 72034.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
