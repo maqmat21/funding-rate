@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T12:46:10.352267+00:00",
+    "generated_at_utc": "2026-04-24T14:19:55.040923+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.645,
+        "price": 98.631,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.308,
+        "price": 4.322,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 41m",
     "News from the Yahoo Finance Network",
+    "Is Veeva Systems (VEEV) Now A Value Opportunity After Recent Share Price Slide?",
     "Are you a middling millionaire with $1-$3 million in retirement savings? Be on the lookout for the ‘tax torpedo’",
-    "Despite her family winning $80M lottery, Texas woman claims to live paycheck to paycheck. How to avoid this outcome",
-    "SkyWest, Inc. Q1 2026 Earnings Call Summary",
     "Billionaire Bill Ackman Has Over Half His Portfolio in Just 4 Stocks. Should You Copy Him?",
-    "This family of 5 relocated to Colombia — and now with $1,500 in savings, they're ‘trapped’ and can't afford to move home",
     "A Trump Bull Market Correction May Be Coming. Here's What 150 Years of Data Says.",
-    "Elon Musk vs. Plug Power Stock: Here's What the CEO of Tesla Thinks About Hydrogen Energy"
+    "Despite her family winning $80M lottery, Texas woman claims to live paycheck to paycheck. How to avoid this outcome",
+    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78246.453125,
-        "perp_last_price": 78246.453125,
-        "mark_price": 78246.453125,
-        "index_price": 78246.453125,
+        "spot_price": 77997.4609375,
+        "perp_last_price": 77997.4609375,
+        "mark_price": 77997.4609375,
+        "index_price": 77997.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,24 +48,23 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78246.453125,
+        "entry_ideal": 77982.7265625,
         "stop_loss_technical": 78570.0234375,
-        "target_1": 77761.09765625,
-        "target_2": 77275.7421875,
+        "target_1": 77101.78125,
+        "target_2": 76220.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78246.453125,
+        "entry_ideal": 77997.4609375,
         "stop_loss_technical": 73775.5703125,
-        "target_1": 84952.77734375,
-        "target_2": 91659.1015625,
+        "target_1": 84330.296875,
+        "target_2": 90663.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
