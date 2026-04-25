@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T06:23:46.066340+00:00",
+    "generated_at_utc": "2026-04-25T07:49:37.666178+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "Elon Musk has a surprising message for unemployed Americans",
     "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
-    "Billionaire Charlie Munger Says 'For Every Guy Who Succeeds, There's 1,000 Failures' — And Overpromising Is A 'Guaranteed Way' To Make People Hate You",
+    "Quantum attack breaks crypto key 512x larger than last record. Is Bitcoin ready?",
     "Here's How Much Chick-Fil-A Franchise Owners Actually Make",
-    "Is GameStop Stock Going to $0?",
-    "Honda CEO says 'we have no chance' against Chinese automakers",
-    "Attorney, 62, Has $3.5M Saved For Retirement But Can't Accept 'No Money Coming In, All Money Going Out' — Dave Ramsey Says That's $350K A Year Income"
+    "Billionaire Charlie Munger Says 'For Every Guy Who Succeeds, There's 1,000 Failures' — And Overpromising Is A 'Guaranteed Way' To Make People Hate You",
+    "A Look At Jackson Financial (JXN) Valuation After Mixed Recent Share Price Performance",
+    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77522.5703125,
-        "perp_last_price": 77522.5703125,
-        "mark_price": 77522.5703125,
-        "index_price": 77522.5703125,
+        "spot_price": 77544.40625,
+        "perp_last_price": 77544.40625,
+        "mark_price": 77544.40625,
+        "index_price": 77544.40625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77522.5703125,
+        "entry_ideal": 77544.40625,
         "stop_loss_technical": 78466.890625,
-        "target_1": 76106.08984375,
-        "target_2": 74689.609375,
+        "target_1": 76160.6796875,
+        "target_2": 74776.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77522.5703125,
+        "entry_ideal": 77544.40625,
         "stop_loss_technical": 79468.0,
-        "target_1": 74604.42578125,
-        "target_2": 71686.28125,
+        "target_1": 74659.015625,
+        "target_2": 71773.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
