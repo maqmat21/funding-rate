@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T15:08:49.642714+00:00",
+    "generated_at_utc": "2026-04-25T15:53:51.447625+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
     "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process",
-    "Is Pfizer's 6% Dividend Yield Safe? Here's What Investors Need to Know.",
     "Elon Musk has a surprising message for unemployed Americans",
     "Trump’s $10 Billion IRS Suit Hits Snag With Skeptical Judge",
-    "‘We will not survive’: Toyota, Honda and Ford CEOs issue chilling warning about China — and it could hit your portfolio",
-    "How rich are you? The data on American wealth might surprise you"
+    "Bitcoin To Hit 'Investable Low' Around This Time In 2026, Forecasts Seasoned Trader: 'The Next High Will Be Between....'",
+    "How rich are you? The data on American wealth might surprise you",
+    "Law Professor Says, 'Salaries Are For Suckers' And Subject To High Taxes. That's Why Jeff Bezos Has A Salary Of Only Around $82,000 Since 1998"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77687.7578125,
-        "perp_last_price": 77687.7578125,
-        "mark_price": 77687.7578125,
-        "index_price": 77687.7578125,
+        "spot_price": 77424.0234375,
+        "perp_last_price": 77424.0234375,
+        "mark_price": 77424.0234375,
+        "index_price": 77424.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77687.7578125,
-        "stop_loss_technical": 77910.359375,
-        "target_1": 77353.85546875,
-        "target_2": 77019.953125,
+        "entry_ideal": 77419.359375,
+        "stop_loss_technical": 77910.3515625,
+        "target_1": 76682.87109375,
+        "target_2": 75946.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77687.7578125,
-        "stop_loss_technical": 74852.671875,
-        "target_1": 81940.38671875,
-        "target_2": 86193.015625,
+        "entry_ideal": 77424.0234375,
+        "stop_loss_technical": 79468.0,
+        "target_1": 74358.05859375,
+        "target_2": 71292.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
