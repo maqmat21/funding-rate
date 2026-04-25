@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T11:51:06.826304+00:00",
+    "generated_at_utc": "2026-04-25T12:35:46.879925+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process",
+    "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
     "How rich are you? The data on American wealth might surprise you",
     "Elon Musk has a surprising message for unemployed Americans",
-    "According to Warren Buffett’s math the stock market is officially in ‘playing with fire’ territory. So when is the next crash coming?",
-    "2 Dividend Stocks Worth Buying More Of, Even At Today's Prices",
-    "Will There Be a Stock Market Crash Under President Donald Trump? One Forecasting Tool With 155 Years of History in Its Sails Offers an Answer.",
-    "Quantum attack breaks crypto key 512x larger than last record. Is Bitcoin ready?"
+    "Is Archer Aviation Stock Your Ticket to Becoming a Millionaire?",
+    "London’s house price plunge is a warning sign for the whole economy",
+    "Why Congress Can’t Stop Loading Up on These 3 Stocks in 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77686.8203125,
-        "perp_last_price": 77686.8203125,
-        "mark_price": 77686.8203125,
-        "index_price": 77686.8203125,
+        "spot_price": 77615.0234375,
+        "perp_last_price": 77615.0234375,
+        "mark_price": 77615.0234375,
+        "index_price": 77615.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77686.8203125,
-        "stop_loss_technical": 78081.2421875,
-        "target_1": 77095.1875,
-        "target_2": 76503.5546875,
+        "entry_ideal": 77615.0234375,
+        "stop_loss_technical": 77910.3515625,
+        "target_1": 77172.03125,
+        "target_2": 76729.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77686.8203125,
-        "stop_loss_technical": 74852.671875,
-        "target_1": 81938.04296875,
-        "target_2": 86189.265625,
+        "entry_ideal": 77615.0234375,
+        "stop_loss_technical": 79468.0,
+        "target_1": 74835.55859375,
+        "target_2": 72056.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
