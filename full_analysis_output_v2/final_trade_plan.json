@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T18:33:46.950354+00:00",
+    "generated_at_utc": "2026-04-25T19:30:12.110264+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Lockheed Martin CEO sends strong 2-word message on Middle East",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
     "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process",
-    "Lockheed Martin CEO sends strong 2-word message on Middle East",
     "Elon Musk has a surprising message for unemployed Americans",
+    "Trump bought at least $51 million in bonds in March, disclosure shows",
     "The SpaceX IPO Could Make Millionaires. Here's What Investors Need to Know.",
-    "Elon Musk makes shocking admission about Tesla",
-    "Trump’s $10 Billion IRS Suit Hits Snag With Skeptical Judge"
+    "How Oracle’s Canceled Nvidia Server Order At Supermicro (SMCI) Has Changed Its AI Infrastructure Investment Story"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77383.3125,
-        "perp_last_price": 77383.3125,
-        "mark_price": 77383.3125,
-        "index_price": 77383.3125,
+        "spot_price": 77268.546875,
+        "perp_last_price": 77268.546875,
+        "mark_price": 77268.546875,
+        "index_price": 77268.546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77383.3125,
-        "stop_loss_technical": 77199.0234375,
-        "target_1": 77659.74609375,
-        "target_2": 77936.1796875,
+        "entry_ideal": 77268.5625,
+        "stop_loss_technical": 77910.3515625,
+        "target_1": 76305.87890625,
+        "target_2": 75343.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77383.3125,
+        "entry_ideal": 77268.546875,
         "stop_loss_technical": 79468.0,
-        "target_1": 74256.28125,
-        "target_2": 71129.25,
+        "target_1": 73969.3671875,
+        "target_2": 70670.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
