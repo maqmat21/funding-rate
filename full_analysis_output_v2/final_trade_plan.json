@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T10:25:10.545727+00:00",
+    "generated_at_utc": "2026-04-25T11:08:27.411244+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,33 @@
     "Elon Musk has a surprising message for unemployed Americans",
     "Will There Be a Stock Market Crash Under President Donald Trump? One Forecasting Tool With 155 Years of History in Its Sails Offers an Answer.",
     "3 Dividend Stocks Built to Last a Lifetime and Pay You the Whole Way",
-    "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
-    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
-    "Quantum attack breaks crypto key 512x larger than last record. Is Bitcoin ready?"
+    "The USPS Got a ‘Free Lunch’ for Decades. That’s Over Now",
+    "2 Dividend Stocks Worth Buying More Of, Even At Today's Prices",
+    "How Long-Term Investors Should Think About Market Volatility Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77840.640625,
-        "perp_last_price": 77840.640625,
-        "mark_price": 77840.640625,
-        "index_price": 77840.640625,
+        "spot_price": 77778.296875,
+        "perp_last_price": 77778.296875,
+        "mark_price": 77778.296875,
+        "index_price": 77778.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77840.640625,
-        "stop_loss_technical": 77306.0625,
-        "target_1": 78642.5078125,
-        "target_2": 79444.375,
+        "entry_ideal": 77778.296875,
+        "stop_loss_technical": 78081.2421875,
+        "target_1": 77323.87890625,
+        "target_2": 76869.4609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 77840.640625,
+        "entry_ideal": 77778.296875,
         "stop_loss_technical": 74852.671875,
-        "target_1": 82322.59375,
-        "target_2": 86804.546875,
+        "target_1": 82166.734375,
+        "target_2": 86555.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
