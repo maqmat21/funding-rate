@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T02:31:47.537148+00:00",
+    "generated_at_utc": "2026-04-25T05:00:35.391745+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Here's How Much Chick-Fil-A Franchise Owners Actually Make",
     "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
     "Attorney, 62, Has $3.5M Saved For Retirement But Can't Accept 'No Money Coming In, All Money Going Out' — Dave Ramsey Says That's $350K A Year Income",
-    "Warren Buffett Quietly Sold 75% of His Biggest Holding. This Is Where the Money Went.",
-    "2 Stocks About to Benefit Enormously From the SpaceX IPO Boom",
-    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
+    "Here's How Much Chick-Fil-A Franchise Owners Actually Make",
+    "Nvidia at $5 Trillion: Buy, Sell, or Hold?",
+    "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
+    "Honda CEO says 'we have no chance' against Chinese automakers"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77650.171875,
-        "perp_last_price": 77650.171875,
-        "mark_price": 77650.171875,
-        "index_price": 77650.171875,
+        "spot_price": 77617.9296875,
+        "perp_last_price": 77617.9296875,
+        "mark_price": 77617.9296875,
+        "index_price": 77617.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77650.171875,
-        "stop_loss_technical": 77340.046875,
-        "target_1": 78115.359375,
-        "target_2": 78580.546875,
+        "entry_ideal": 77617.9296875,
+        "stop_loss_technical": 78447.7578125,
+        "target_1": 76373.1875,
+        "target_2": 75128.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 77650.171875,
+        "entry_ideal": 77617.9296875,
         "stop_loss_technical": 79468.0,
-        "target_1": 74923.4296875,
-        "target_2": 72196.6875,
+        "target_1": 74842.82421875,
+        "target_2": 72067.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
