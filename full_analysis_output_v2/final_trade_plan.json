@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T09:32:56.083916+00:00",
+    "generated_at_utc": "2026-04-25T10:25:10.545727+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "3 Dividend Stocks Built to Last a Lifetime and Pay You the Whole Way",
+    "How rich are you? The data on American wealth might surprise you",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
     "Will There Be a Stock Market Crash Under President Donald Trump? One Forecasting Tool With 155 Years of History in Its Sails Offers an Answer.",
-    "Quantum attack breaks crypto key 512x larger than last record. Is Bitcoin ready?",
+    "3 Dividend Stocks Built to Last a Lifetime and Pay You the Whole Way",
+    "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
     "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?",
-    "Widely ridiculed Intel stock buyer who invested $700,000 inheritance has the last laugh (if they held) as it nearly triples in value — investment is now worth around $1.89 million"
+    "Quantum attack breaks crypto key 512x larger than last record. Is Bitcoin ready?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77626.0390625,
-        "perp_last_price": 77626.0390625,
-        "mark_price": 77626.0390625,
-        "index_price": 77626.0390625,
+        "spot_price": 77840.640625,
+        "perp_last_price": 77840.640625,
+        "mark_price": 77840.640625,
+        "index_price": 77840.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77626.0390625,
-        "stop_loss_technical": 78237.5625,
-        "target_1": 76708.75390625,
-        "target_2": 75791.46875,
+        "entry_ideal": 77840.640625,
+        "stop_loss_technical": 77306.0625,
+        "target_1": 78642.5078125,
+        "target_2": 79444.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77626.0390625,
-        "stop_loss_technical": 79468.0,
-        "target_1": 74863.09765625,
-        "target_2": 72100.15625,
+        "entry_ideal": 77840.640625,
+        "stop_loss_technical": 74852.671875,
+        "target_1": 82322.59375,
+        "target_2": 86804.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
