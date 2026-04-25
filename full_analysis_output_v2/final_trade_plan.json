@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-25T12:35:46.879925+00:00",
+    "generated_at_utc": "2026-04-25T13:47:31.841560+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
-    "How rich are you? The data on American wealth might surprise you",
+    "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process",
+    "Trump’s $10 billion IRS suit hits snag with skeptical judge",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Is Archer Aviation Stock Your Ticket to Becoming a Millionaire?",
-    "London’s house price plunge is a warning sign for the whole economy",
-    "Why Congress Can’t Stop Loading Up on These 3 Stocks in 2026"
+    "How rich are you? The data on American wealth might surprise you",
+    "4 Ways Your Retirement Could Take a Few Turns by the End of Trump’s Second Term",
+    "2 ETFs to Buy With $100 and Hold Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77615.0234375,
-        "perp_last_price": 77615.0234375,
-        "mark_price": 77615.0234375,
-        "index_price": 77615.0234375,
+        "spot_price": 77710.828125,
+        "perp_last_price": 77710.828125,
+        "mark_price": 77710.828125,
+        "index_price": 77710.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77615.0234375,
-        "stop_loss_technical": 77910.3515625,
-        "target_1": 77172.03125,
-        "target_2": 76729.0390625,
+        "entry_ideal": 77710.8203125,
+        "stop_loss_technical": 77309.6015625,
+        "target_1": 78312.6484375,
+        "target_2": 78914.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77615.0234375,
-        "stop_loss_technical": 79468.0,
-        "target_1": 74835.55859375,
-        "target_2": 72056.09375,
+        "entry_ideal": 77710.828125,
+        "stop_loss_technical": 74852.671875,
+        "target_1": 81998.0625,
+        "target_2": 86285.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
