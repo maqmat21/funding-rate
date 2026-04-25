@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-24T23:21:52.219631+00:00",
+    "generated_at_utc": "2026-04-24T23:59:58.216392+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,10 +23,10 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk has a surprising message for unemployed Americans",
-    "Attorney, 62, Has $3.5M Saved For Retirement But Can't Accept 'No Money Coming In, All Money Going Out' — Dave Ramsey Says That's $350K A Year Income",
     "Warren Buffett Quietly Sold 75% of His Biggest Holding. This Is Where the Money Went.",
     "Mysterious trader sells at $398K loss ahead of Trump's April 25 luncheon",
     "Here's how much the US government has made on its Intel investment after the latest big stock rally",
+    "Attorney, 62, Has $3.5M Saved For Retirement But Can't Accept 'No Money Coming In, All Money Going Out' — Dave Ramsey Says That's $350K A Year Income",
     "Here's How Much Chick-Fil-A Franchise Owners Actually Make",
     "Former Goldman Sachs CEO says he ‘smells’ a 2008-style crisis brewing — could your 401(k) get caught in the crossfire?"
   ],
@@ -34,39 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77370.1171875,
-        "perp_last_price": 77370.1171875,
-        "mark_price": 77370.1171875,
-        "index_price": 77370.1171875,
+        "spot_price": 78265.109375,
+        "perp_last_price": 78265.109375,
+        "mark_price": 78265.109375,
+        "index_price": 78265.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77370.1328125,
-        "stop_loss_technical": 78447.7578125,
-        "target_1": 75753.6953125,
-        "target_2": 74137.2578125,
+        "entry_ideal": 77461.7890625,
+        "stop_loss_technical": 76982.9765625,
+        "target_1": 78180.0078125,
+        "target_2": 78898.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77370.1171875,
-        "stop_loss_technical": 79468.0,
-        "target_1": 74223.29296875,
-        "target_2": 71076.46875,
+        "entry_ideal": 78265.109375,
+        "stop_loss_technical": 74852.671875,
+        "target_1": 83383.765625,
+        "target_2": 88502.421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
