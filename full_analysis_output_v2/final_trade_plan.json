@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-26T19:32:31.153103+00:00",
+    "generated_at_utc": "2026-04-26T20:05:40.086809+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,9 +24,9 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
-    "You're A Top 1% Baby Boomer If Your Net Worth Is Above This Number",
     "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
     "This Monster Dividend Stock Boasts the Free Cash Flow to Mint Millionaires",
+    "You're A Top 1% Baby Boomer If Your Net Worth Is Above This Number",
     "Oklo Is Interesting, but This Nuclear Stock Is a Better Buy",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today"
   ],
@@ -34,25 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78137.2421875,
-        "perp_last_price": 78137.2421875,
-        "mark_price": 78137.2421875,
-        "index_price": 78137.2421875,
+        "spot_price": 78280.4765625,
+        "perp_last_price": 78280.4765625,
+        "mark_price": 78280.4765625,
+        "index_price": 78280.4765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78141.6875,
-        "stop_loss_technical": 78520.90625,
-        "target_1": 77572.859375,
-        "target_2": 77004.03125,
+        "entry_ideal": 78280.46875,
+        "stop_loss_technical": 77346.4375,
+        "target_1": 79681.515625,
+        "target_2": 81082.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78137.2421875,
+        "entry_ideal": 78280.4765625,
         "stop_loss_technical": 76159.578125,
-        "target_1": 81103.73828125,
-        "target_2": 84070.234375,
+        "target_1": 81461.82421875,
+        "target_2": 84643.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
