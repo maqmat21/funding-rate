@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-26T06:28:06.904653+00:00",
+    "generated_at_utc": "2026-04-26T07:59:50.613634+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "SpaceX Is Going Public at a $1.75 Trillion Valuation. Here Is 1 Stock to Buy Before It Does.",
-    "Maryland is moving to ban companies like Walmart and Kroger from ‘surveillance pricing’ — what it is and how to avoid it",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
     "3 Nuclear Energy Stocks That Are Quietly Becoming the Trades of the Year",
     "Elon Musk has a surprising message for unemployed Americans",
-    "$1,000 and the Right Dividend Stock: This Is the One to Buy Right Now",
-    "Lockheed Martin CEO sends strong 2-word message on Middle East"
+    "Maryland is moving to ban companies like Walmart and Kroger from ‘surveillance pricing’ — what it is and how to avoid it",
+    "Lockheed Martin CEO sends strong 2-word message on Middle East",
+    "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78007.4609375,
-        "perp_last_price": 78007.4609375,
-        "mark_price": 78007.4609375,
-        "index_price": 78007.4609375,
+        "spot_price": 78123.0390625,
+        "perp_last_price": 78123.0390625,
+        "mark_price": 78123.0390625,
+        "index_price": 78123.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77998.3984375,
-        "stop_loss_technical": 78212.609375,
-        "target_1": 77677.08203125,
-        "target_2": 77355.765625,
+        "entry_ideal": 78126.3125,
+        "stop_loss_technical": 77199.0234375,
+        "target_1": 79517.24609375,
+        "target_2": 80908.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78007.4609375,
+        "entry_ideal": 78123.0390625,
         "stop_loss_technical": 76159.578125,
-        "target_1": 80779.28515625,
-        "target_2": 83551.109375,
+        "target_1": 81068.23046875,
+        "target_2": 84013.421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
