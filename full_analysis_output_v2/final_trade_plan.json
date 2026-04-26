@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-26T22:53:05.533779+00:00",
+    "generated_at_utc": "2026-04-26T23:28:50.315072+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.626,
+        "price": 98.614,
         "trend": "bajista"
       },
       "US10Y": {
@@ -34,10 +34,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78381.203125,
-        "perp_last_price": 78381.203125,
-        "mark_price": 78381.203125,
-        "index_price": 78381.203125,
+        "spot_price": 78339.1796875,
+        "perp_last_price": 78339.1796875,
+        "mark_price": 78339.1796875,
+        "index_price": 78339.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78381.203125,
-        "stop_loss_technical": 78917.609375,
-        "target_1": 77576.59375,
-        "target_2": 76771.984375,
+        "entry_ideal": 78339.1796875,
+        "stop_loss_technical": 78918.65625,
+        "target_1": 77469.96484375,
+        "target_2": 76600.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78381.203125,
+        "entry_ideal": 78339.1796875,
         "stop_loss_technical": 76159.578125,
-        "target_1": 81713.640625,
-        "target_2": 85046.078125,
+        "target_1": 81608.58203125,
+        "target_2": 84877.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
