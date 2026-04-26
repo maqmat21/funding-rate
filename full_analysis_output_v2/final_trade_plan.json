@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-26T10:02:44.584571+00:00",
+    "generated_at_utc": "2026-04-26T10:57:10.489795+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "3 Nuclear Energy Stocks That Are Quietly Becoming the Trades of the Year",
-    "SpaceX Is Going Public at a $1.75 Trillion Valuation. Here Is 1 Stock to Buy Before It Does.",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
+    "SpaceX Is Going Public at a $1.75 Trillion Valuation. Here Is 1 Stock to Buy Before It Does.",
+    "‘Grandma, I have a secret’: Illinois woman, 21, buys back family matriarch's home 3 years after she was forced to sell",
     "Elon Musk has a surprising message for unemployed Americans",
     "Maryland is moving to ban companies like Walmart and Kroger from ‘surveillance pricing’ — what it is and how to avoid it",
-    "Amazon May Be Set to Seize a Once-in-a-Lifetime Opportunity. Here's How Investors Can Benefit.",
-    "Lockheed Martin CEO sends strong 2-word message on Middle East"
+    "I Don't Use the Term \"Generational Buying Opportunity\" Lightly. Here's Why It Applies to This \"Magnificent Seven\" Growth Stock."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77982.6875,
-        "perp_last_price": 77982.6875,
-        "mark_price": 77982.6875,
-        "index_price": 77982.6875,
+        "spot_price": 78014.78125,
+        "perp_last_price": 78014.78125,
+        "mark_price": 78014.78125,
+        "index_price": 78014.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77982.6875,
+        "entry_ideal": 78014.78125,
         "stop_loss_technical": 78232.84375,
-        "target_1": 77607.453125,
-        "target_2": 77232.21875,
+        "target_1": 77687.6875,
+        "target_2": 77360.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77982.6875,
+        "entry_ideal": 78014.78125,
         "stop_loss_technical": 76159.578125,
-        "target_1": 80717.3515625,
-        "target_2": 83452.015625,
+        "target_1": 80797.5859375,
+        "target_2": 83580.390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
