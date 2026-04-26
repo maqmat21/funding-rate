@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-26T04:38:46.948686+00:00",
+    "generated_at_utc": "2026-04-26T06:28:06.904653+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Maryland is moving to ban companies like Walmart and Kroger from ‘surveillance pricing’ — what it is and how to avoid it",
     "SpaceX Is Going Public at a $1.75 Trillion Valuation. Here Is 1 Stock to Buy Before It Does.",
+    "Maryland is moving to ban companies like Walmart and Kroger from ‘surveillance pricing’ — what it is and how to avoid it",
     "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today",
-    "Elon Musk has a surprising message for unemployed Americans",
     "3 Nuclear Energy Stocks That Are Quietly Becoming the Trades of the Year",
-    "Social Security Benefit Cuts Are Coming, and President Donald Trump May Have Sped Up the Process",
+    "Elon Musk has a surprising message for unemployed Americans",
+    "$1,000 and the Right Dividend Stock: This Is the One to Buy Right Now",
     "Lockheed Martin CEO sends strong 2-word message on Middle East"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77482.953125,
-        "perp_last_price": 77482.953125,
-        "mark_price": 77482.953125,
-        "index_price": 77482.953125,
+        "spot_price": 78007.4609375,
+        "perp_last_price": 78007.4609375,
+        "mark_price": 78007.4609375,
+        "index_price": 78007.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 77482.953125,
-        "stop_loss_technical": 77199.0234375,
-        "target_1": 77908.84765625,
-        "target_2": 78334.7421875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 77482.953125,
-        "stop_loss_technical": 79468.0,
-        "target_1": 74505.3828125,
-        "target_2": 71527.8125,
+        "entry_ideal": 77998.3984375,
+        "stop_loss_technical": 78212.609375,
+        "target_1": 77677.08203125,
+        "target_2": 77355.765625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 78007.4609375,
+        "stop_loss_technical": 76159.578125,
+        "target_1": 80779.28515625,
+        "target_2": 83551.109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
