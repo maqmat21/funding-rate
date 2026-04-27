@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-27T00:04:11.139169+00:00",
+    "generated_at_utc": "2026-04-27T03:54:51.910317+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.632,
+        "price": 98.419,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett has stark message for investors on stock market",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
     "Elon Musk says saving for retirement is irrelevant because AI is going to create a world of abundance: ‘It won’t matter’",
     "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
-    "Could Buying Disney Stock Today Set You Up for Life?",
-    "Everyone blamed Endless Shrimp for sinking Red Lobster — chain's bankruptcy filing points out a very different culprit",
-    "You're A Top 1% Baby Boomer If Your Net Worth Is Above This Number"
+    "You're A Top 1% Baby Boomer If Your Net Worth Is Above This Number",
+    "Robert Kiyosaki claims ‘biggest bubble in history’ will wipe out boomers' savings. How to protect your wealth today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78854.4921875,
-        "perp_last_price": 78854.4921875,
-        "mark_price": 78854.4921875,
-        "index_price": 78854.4921875,
+        "spot_price": 79170.7578125,
+        "perp_last_price": 79170.7578125,
+        "mark_price": 79170.7578125,
+        "index_price": 79170.7578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78854.4921875,
-        "stop_loss_technical": 77346.4375,
-        "target_1": 81116.57421875,
-        "target_2": 83378.65625,
+        "entry_ideal": 79170.7578125,
+        "stop_loss_technical": 79488.7265625,
+        "target_1": 78693.8046875,
+        "target_2": 78216.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78854.4921875,
+        "entry_ideal": 79170.7578125,
         "stop_loss_technical": 77014.453125,
-        "target_1": 81614.55078125,
-        "target_2": 84374.609375,
+        "target_1": 82405.21484375,
+        "target_2": 85639.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
