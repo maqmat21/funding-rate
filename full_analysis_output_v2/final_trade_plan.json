@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-27T06:21:25.641382+00:00",
+    "generated_at_utc": "2026-04-27T08:44:10.142828+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.519,
+        "price": 98.335,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 10m",
+    "U.S. markets open in 4h 47m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Want Decades of Passive Income? 3 Energy Stocks to Buy Right Now",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
     "Warren Buffett has stark message for investors on stock market",
     "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
-    "Elon Musk says saving for retirement is irrelevant because AI is going to create a world of abundance: ‘It won’t matter’",
-    "You're A Top 1% Baby Boomer If Your Net Worth Is Above This Number"
+    "Elon Musk says saving for retirement is irrelevant because AI is going to create a world of abundance: ‘It won’t matter’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77837.7578125,
-        "perp_last_price": 77837.7578125,
-        "mark_price": 77837.7578125,
-        "index_price": 77837.7578125,
+        "spot_price": 77637.6015625,
+        "perp_last_price": 77637.6015625,
+        "mark_price": 77637.6015625,
+        "index_price": 77637.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77837.7578125,
-        "stop_loss_technical": 77599.34375,
-        "target_1": 78195.37890625,
-        "target_2": 78553.0,
+        "entry_ideal": 77637.6015625,
+        "stop_loss_technical": 79488.7265625,
+        "target_1": 74860.9140625,
+        "target_2": 72084.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77837.7578125,
-        "stop_loss_technical": 79492.140625,
-        "target_1": 75356.18359375,
-        "target_2": 72874.609375,
+        "entry_ideal": 77637.6015625,
+        "stop_loss_technical": 79488.7265625,
+        "target_1": 74860.9140625,
+        "target_2": 72084.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
