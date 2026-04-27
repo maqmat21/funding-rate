@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-27T14:24:09.539903+00:00",
+    "generated_at_utc": "2026-04-27T16:01:32.713427+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.345,
+        "price": 98.395,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.316,
+        "price": 4.33,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 37m",
+    "U.S. markets close in 3h 59m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Elon Musk Registers 304 Million Tesla Shares. Stock Sinks.",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
-    "Elon Musk Says It Would Only Take 100 Miles By 100 Miles Of Solar Panels To Power The Entire U.S. —The Sun Is 'Really Reliable. It Comes Up Every Day'",
     "Warren Buffett has stark message for investors on stock market",
-    "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’"
+    "Elon Musk Registers 304 Million Tesla Shares. Stock Sinks.",
+    "Walmart’s grocery sales growth slows",
+    "First Financial Bancorp. Q1 Earnings Call Highlights"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77846.0,
-        "perp_last_price": 77846.0,
-        "mark_price": 77846.0,
-        "index_price": 77846.0,
+        "spot_price": 76711.6796875,
+        "perp_last_price": 76711.6796875,
+        "mark_price": 76711.6796875,
+        "index_price": 76711.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77843.3671875,
-        "stop_loss_technical": 77486.0,
-        "target_1": 78379.41796875,
-        "target_2": 78915.46875,
+        "entry_ideal": 76716.453125,
+        "stop_loss_technical": 79492.140625,
+        "target_1": 72552.921875,
+        "target_2": 68389.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77846.0,
-        "stop_loss_technical": 79488.7265625,
-        "target_1": 75381.91015625,
-        "target_2": 72917.8203125,
+        "entry_ideal": 76711.6796875,
+        "stop_loss_technical": 79492.140625,
+        "target_1": 72540.98828125,
+        "target_2": 68370.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
