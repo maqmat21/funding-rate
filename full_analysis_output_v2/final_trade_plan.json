@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-27T22:07:57.529731+00:00",
+    "generated_at_utc": "2026-04-27T23:05:56.175508+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.482,
+        "price": 98.496,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump admin’s big plans for Spirit Airlines revealed",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
     "Trump Calls Kimmel Jokes ‘Despicable,’ Tells ABC to Fire Him",
     "Warren Buffett has stark message for investors on stock market",
     "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
-    "Want Decades of Passive Income? Here Are 2 ETFs to Buy and Hold Forever.",
-    "10 Times Breaking The Rules Can Help You Retire Early"
+    "Trump administration to pay 2 more companies to walk away from US offshore wind leases",
+    "Is It Safe to Invest in S&P 500 Funds Right Now, or Should You Wait for a Decline?",
+    "Nvidia Stock Just Hit a New All-Time High, Pushing Its Market Cap Above $5 Trillion. Is It Too Late to Buy the Stock?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76884.71875,
-        "perp_last_price": 76884.71875,
-        "mark_price": 76884.71875,
-        "index_price": 76884.71875,
+        "spot_price": 77066.171875,
+        "perp_last_price": 77066.171875,
+        "mark_price": 77066.171875,
+        "index_price": 77066.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76884.71875,
-        "stop_loss_technical": 75731.44796875,
-        "target_1": 78614.62492188,
-        "target_2": 80344.53109375,
+        "entry_ideal": 77066.171875,
+        "stop_loss_technical": 75910.17929687,
+        "target_1": 78800.16074219,
+        "target_2": 80534.14960938,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76884.71875,
+        "entry_ideal": 77066.171875,
         "stop_loss_technical": 79420.2734375,
-        "target_1": 73081.38671875,
-        "target_2": 69278.0546875,
+        "target_1": 73535.01953125,
+        "target_2": 70003.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
