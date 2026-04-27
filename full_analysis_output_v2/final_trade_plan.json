@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-27T21:13:38.267712+00:00",
+    "generated_at_utc": "2026-04-27T22:07:57.529731+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.471,
+        "price": 98.482,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump Calls Kimmel Jokes ‘Despicable,’ Tells ABC to Fire Him",
+    "Trump admin’s big plans for Spirit Airlines revealed",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
-    "What You Need to Know Ahead of Brown-Forman's Earnings Release",
+    "Trump Calls Kimmel Jokes ‘Despicable,’ Tells ABC to Fire Him",
     "Warren Buffett has stark message for investors on stock market",
     "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
-    "Joby Aviation completes first NYC test flight, sending electric air taxi from JFK to Manhattan",
-    "You're A Top 1% Baby Boomer If Your Net Worth Is Above This Number"
+    "Want Decades of Passive Income? Here Are 2 ETFs to Buy and Hold Forever.",
+    "10 Times Breaking The Rules Can Help You Retire Early"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76861.4375,
-        "perp_last_price": 76861.4375,
-        "mark_price": 76861.4375,
-        "index_price": 76861.4375,
+        "spot_price": 76884.71875,
+        "perp_last_price": 76884.71875,
+        "mark_price": 76884.71875,
+        "index_price": 76884.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76861.4375,
-        "stop_loss_technical": 79329.84375,
-        "target_1": 73158.828125,
-        "target_2": 69456.21875,
+        "entry_ideal": 76884.71875,
+        "stop_loss_technical": 75731.44796875,
+        "target_1": 78614.62492188,
+        "target_2": 80344.53109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76861.4375,
+        "entry_ideal": 76884.71875,
         "stop_loss_technical": 79420.2734375,
-        "target_1": 73023.18359375,
-        "target_2": 69184.9296875,
+        "target_1": 73081.38671875,
+        "target_2": 69278.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
