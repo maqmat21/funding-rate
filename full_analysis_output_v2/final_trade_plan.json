@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-28T08:43:02.281862+00:00",
+    "generated_at_utc": "2026-04-28T10:49:29.219108+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.613,
+        "price": 98.731,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 48m",
+    "U.S. markets open in 2h 42m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett Once Said If Your Kids Read Your Will After You're Gone, You've Already Made A 'Terrible Mistake' — Here's Why",
-    "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
     "Signs Point to Warren Buffett's Successor, Greg Abel, Dumping the Oracle of Omaha's Former No. 2 Holding at Berkshire Hathaway",
-    "Appeals Court Says Pentagon Can Temporarily Mandate Escorts for Journalists",
+    "Warren Buffett Once Said If Your Kids Read Your Will After You're Gone, You've Already Made A 'Terrible Mistake' — Here's Why",
+    "Is Killam Apartment REIT (TSX:KMP.UN) Offering Value After Recent Moderate Unit Gains?",
     "Warren Buffett has stark message for investors on stock market",
-    "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’"
+    "Should You Rush to Get in on the SpaceX IPO? History Offers a Strikingly Clear Answer.",
+    "California’s GreenFruit Avocados sold to consortium"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76821.9921875,
-        "perp_last_price": 76821.9921875,
-        "mark_price": 76821.9921875,
-        "index_price": 76821.9921875,
+        "spot_price": 76603.2734375,
+        "perp_last_price": 76603.2734375,
+        "mark_price": 76603.2734375,
+        "index_price": 76603.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76821.9921875,
-        "stop_loss_technical": 78277.2265625,
-        "target_1": 74639.140625,
-        "target_2": 72456.2890625,
+        "entry_ideal": 76603.2578125,
+        "stop_loss_technical": 75454.20894531,
+        "target_1": 78326.83111328,
+        "target_2": 80050.40441406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76821.9921875,
+        "entry_ideal": 76603.2734375,
         "stop_loss_technical": 79488.171875,
-        "target_1": 72822.72265625,
-        "target_2": 68823.453125,
+        "target_1": 72275.92578125,
+        "target_2": 67948.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
