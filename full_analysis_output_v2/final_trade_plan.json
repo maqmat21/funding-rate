@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-27T23:05:56.175508+00:00",
+    "generated_at_utc": "2026-04-28T00:01:11.902851+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.496,
+        "price": 98.475,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
-    "Trump Calls Kimmel Jokes ‘Despicable,’ Tells ABC to Fire Him",
     "Warren Buffett has stark message for investors on stock market",
     "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
-    "Trump administration to pay 2 more companies to walk away from US offshore wind leases",
-    "Is It Safe to Invest in S&P 500 Funds Right Now, or Should You Wait for a Decline?",
-    "Nvidia Stock Just Hit a New All-Time High, Pushing Its Market Cap Above $5 Trillion. Is It Too Late to Buy the Stock?"
+    "Trump Calls Kimmel Jokes ‘Despicable,’ Tells ABC to Fire Him",
+    "Authorities Are Still Determining Who Shot Secret Service Officer",
+    "Here's What I Think Is Going On With Nvidia Stock",
+    "BYD’s new EV draws 30,000 orders at a price US buyers can’t touch"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77066.171875,
-        "perp_last_price": 77066.171875,
-        "mark_price": 77066.171875,
-        "index_price": 77066.171875,
+        "spot_price": 77313.8203125,
+        "perp_last_price": 77313.8203125,
+        "mark_price": 77313.8203125,
+        "index_price": 77313.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77066.171875,
-        "stop_loss_technical": 75910.17929687,
-        "target_1": 78800.16074219,
-        "target_2": 80534.14960938,
+        "entry_ideal": 77293.0078125,
+        "stop_loss_technical": 76133.61269531,
+        "target_1": 79032.10048828,
+        "target_2": 80771.19316406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77066.171875,
+        "entry_ideal": 77313.8203125,
         "stop_loss_technical": 79420.2734375,
-        "target_1": 73535.01953125,
-        "target_2": 70003.8671875,
+        "target_1": 74154.140625,
+        "target_2": 70994.4609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
