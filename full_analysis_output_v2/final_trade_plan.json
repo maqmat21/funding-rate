@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-28T06:29:29.063155+00:00",
+    "generated_at_utc": "2026-04-28T08:43:02.281862+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.606,
+        "price": 98.613,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 2m",
+    "U.S. markets open in 4h 48m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Once Said If Your Kids Read Your Will After You're Gone, You've Already Made A 'Terrible Mistake' — Here's Why",
     "Elon Musk: America will '1,000%' go bankrupt due to debt — here’s what he claims can save the country",
+    "Signs Point to Warren Buffett's Successor, Greg Abel, Dumping the Oracle of Omaha's Former No. 2 Holding at Berkshire Hathaway",
+    "Appeals Court Says Pentagon Can Temporarily Mandate Escorts for Journalists",
     "Warren Buffett has stark message for investors on stock market",
-    "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’",
-    "Is Pfizer (PFE) One of the Best Fortune 500 Dividend Stocks to Invest in Right Now?",
-    "Bank of America resets Nvidia stock forecast"
+    "‘You gotta do it’: Charlie Munger said once you reach this money milestone, you can ‘ease off the gas a bit’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76889.546875,
-        "perp_last_price": 76889.546875,
-        "mark_price": 76889.546875,
-        "index_price": 76889.546875,
+        "spot_price": 76821.9921875,
+        "perp_last_price": 76821.9921875,
+        "mark_price": 76821.9921875,
+        "index_price": 76821.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76889.546875,
+        "entry_ideal": 76821.9921875,
         "stop_loss_technical": 78277.2265625,
-        "target_1": 74808.02734375,
-        "target_2": 72726.5078125,
+        "target_1": 74639.140625,
+        "target_2": 72456.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76889.546875,
-        "stop_loss_technical": 78923.5625,
-        "target_1": 73838.5234375,
-        "target_2": 70787.5,
+        "entry_ideal": 76821.9921875,
+        "stop_loss_technical": 79488.171875,
+        "target_1": 72822.72265625,
+        "target_2": 68823.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
