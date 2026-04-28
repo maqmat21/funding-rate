@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-28T18:02:44.095639+00:00",
+    "generated_at_utc": "2026-04-28T19:53:24.002567+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.609,
-        "trend": "bajista"
+        "price": 98.664,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.359,
+        "price": 4.354,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 58m",
     "News from the Yahoo Finance Network",
     "Elon Musk Claims People Won’t Need Retirement Savings Because of AI: ‘It Won’t Matter’",
+    "How The YETI Holdings (YETI) Narrative Is Shifting As Analysts Reassess Growth And Valuation",
     "Bill Maher blasts America’s $5T tax monster: ‘Almost 60%’ of his income goes to Uncle Sam while the poor still suffer",
-    "GM Expects $500 Million Tariff Refund—Boosting 2026 Earnings Estimates",
-    "Nicola Mining Starts Exploration Drilling at Its Flagship New Craigmont Copper Project",
-    "UBS Group AG (UBS) Against Swiss Government’s New $22B Capital Requirement",
-    "Warren Buffett Once Said If Your Kids Read Your Will After You're Gone, You've Already Made A 'Terrible Mistake' — Here's Why"
+    "Musk says it's not ok to 'loot a charity' as he takes the stand in OpenAI trial",
+    "Annaly Capital Management Inc. (NLY): Billionaire Brian Higgins Is Loading Up on This Stock",
+    "Warren Buffett Owns 3 Strong Buy Dividend Aristocrat Giants—1 for Almost 40 Years",
+    "Here's the Maximum Social Security Benefit Possible in 2026 for Ages 62 Through 70 and Why You Might Be Better Off Receiving Less"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76163.0703125,
-        "perp_last_price": 76163.0703125,
-        "mark_price": 76163.0703125,
-        "index_price": 76163.0703125,
+        "spot_price": 76342.3125,
+        "perp_last_price": 76342.3125,
+        "mark_price": 76342.3125,
+        "index_price": 76342.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76160.0,
-        "stop_loss_technical": 75653.7578125,
-        "target_1": 76919.36328125,
-        "target_2": 77678.7265625,
+        "entry_ideal": 76342.3125,
+        "stop_loss_technical": 75197.1778125,
+        "target_1": 78060.01453125,
+        "target_2": 79777.7165625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76163.0703125,
+        "entry_ideal": 76342.3125,
         "stop_loss_technical": 79488.171875,
-        "target_1": 71175.41796875,
-        "target_2": 66187.765625,
+        "target_1": 71623.5234375,
+        "target_2": 66904.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
