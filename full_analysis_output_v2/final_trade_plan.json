@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-29T18:05:43.543953+00:00",
+    "generated_at_utc": "2026-04-29T19:49:15.535066+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.856,
+        "price": 98.977,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.398,
+        "price": 4.418,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 55m",
     "News from the Yahoo Finance Network",
-    "3 Stocks Estimated To Be Trading Below Intrinsic Value By Up To 35.4%",
-    "Elon Musk Claims People Won’t Need Retirement Savings Because of AI: ‘It Won’t Matter’",
     "Seagate soars 18% on strong earnings beat and robust guidance",
-    "Here's How Much Traders Expect Eli Lilly Stock To Move After Earnings",
-    "Are You Richer Than 90% Of People Your Age? Here's The Net Worth You Need To Rank Among The Wealthiest",
-    "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself"
+    "Costco quietly changes its $1.50 hot dog deal",
+    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
+    "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
+    "3 Undervalued Dividend Stocks With 100% Upside That Nobody Is Watching Right Now",
+    "Press for New Capital Gains Tax Cut Divides Republicans",
+    "Are You Richer Than 90% Of People Your Age? Here's The Net Worth You Need To Rank Among The Wealthiest"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75873.9921875,
-        "perp_last_price": 75873.9921875,
-        "mark_price": 75873.9921875,
-        "index_price": 75873.9921875,
+        "spot_price": 75486.0,
+        "perp_last_price": 75486.0,
+        "mark_price": 75486.0,
+        "index_price": 75486.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75829.7265625,
-        "stop_loss_technical": 77896.1875,
-        "target_1": 72730.03515625,
-        "target_2": 69630.34375,
+        "entry_ideal": 75494.53125,
+        "stop_loss_technical": 74362.11328125,
+        "target_1": 77193.15820312,
+        "target_2": 78891.78515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75829.7265625,
+        "entry_ideal": 75486.0,
         "stop_loss_technical": 79488.171875,
-        "target_1": 70342.05859375,
-        "target_2": 64854.390625,
+        "target_1": 69482.7421875,
+        "target_2": 63479.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
