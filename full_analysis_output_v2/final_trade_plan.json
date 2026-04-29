@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-29T15:00:53.537532+00:00",
+    "generated_at_utc": "2026-04-29T16:49:38.551887+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.805,
+        "price": 98.825,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.394,
+        "price": 4.406,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 1m",
+    "U.S. markets close in 3h 11m",
     "News from the Yahoo Finance Network",
     "Elon Musk Claims People Won’t Need Retirement Savings Because of AI: ‘It Won’t Matter’",
     "Seagate soars 18% on strong earnings beat and robust guidance",
+    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
     "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Lightwave Logic (LWLG) intellectual property advisory engagement supports licensing model expansion",
-    "Earnings Report Shows Narrowing Losses as Amarin (AMRN) Advances Partner-Led Growth Strategy",
-    "Bill Maher blasts America’s $5T tax monster: ‘Almost 60%’ of his income goes to Uncle Sam while the poor still suffer"
+    "3 Undervalued Dividend Stocks With 100% Upside That Nobody Is Watching Right Now",
+    "This Venerable Stock Pays a 10% Dividend Yield. Why It Looks Like a Trap."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76604.6875,
-        "perp_last_price": 76604.6875,
-        "mark_price": 76604.6875,
-        "index_price": 76604.6875,
+        "spot_price": 75801.8984375,
+        "perp_last_price": 75801.8984375,
+        "mark_price": 75801.8984375,
+        "index_price": 75801.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76604.6875,
-        "stop_loss_technical": 77896.1875,
-        "target_1": 74667.4375,
-        "target_2": 72730.1875,
+        "entry_ideal": 75801.8984375,
+        "stop_loss_technical": 77898.53125,
+        "target_1": 72656.94921875,
+        "target_2": 69512.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76604.6875,
+        "entry_ideal": 75801.8984375,
         "stop_loss_technical": 79488.171875,
-        "target_1": 72279.4609375,
-        "target_2": 67954.234375,
+        "target_1": 70272.48828125,
+        "target_2": 64743.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
