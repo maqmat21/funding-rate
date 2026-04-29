@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-29T04:44:14.046033+00:00",
+    "generated_at_utc": "2026-04-29T07:10:28.854042+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.669,
+        "price": 98.724,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 46m",
+    "U.S. markets open in 6h 20m",
     "News from the Yahoo Finance Network",
     "Elon Musk Claims People Won’t Need Retirement Savings Because of AI: ‘It Won’t Matter’",
+    "Tullow Oil PLC (TUWLF) Full Year 2025 Earnings Call Highlights: Strong Q1 2026 Production and ...",
+    "First Bank (FRBA) Q1 2026 Earnings Call Highlights: Navigating Challenges with Strategic Growth",
     "Bill Maher blasts America’s $5T tax monster: ‘Almost 60%’ of his income goes to Uncle Sam while the poor still suffer",
-    "Warren Buffett Once Said If Your Kids Read Your Will After You're Gone, You've Already Made A 'Terrible Mistake' — Here's Why",
-    "Coca-Cola Earnings Show Why This Dividend Stock, With Its 2.7% Dividend Yield, Remains a Buy",
-    "Michael Burry of \"The Big Short\" Fame Just Made a Shocking Move. Should You Follow?",
-    "Warren Buffett Owns 3 Strong Buy Dividend Aristocrat Giants—1 for Almost 40 Years"
+    "Herc Holdings Inc (HRI) Q1 2026 Earnings Call Highlights: Record E-commerce Revenue and ...",
+    "Solaris Energy Infrastructure Inc (SEI) Q1 2026 Earnings Call Highlights: Record Revenue and ..."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77349.9921875,
-        "perp_last_price": 77349.9921875,
-        "mark_price": 77349.9921875,
-        "index_price": 77349.9921875,
+        "spot_price": 77013.8828125,
+        "perp_last_price": 77013.8828125,
+        "mark_price": 77013.8828125,
+        "index_price": 77013.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77347.046875,
-        "stop_loss_technical": 76186.84117187,
-        "target_1": 79087.35542969,
-        "target_2": 80827.66398438,
+        "entry_ideal": 77011.203125,
+        "stop_loss_technical": 77444.4375,
+        "target_1": 76361.3515625,
+        "target_2": 75711.5,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77349.9921875,
-        "stop_loss_technical": 76189.74230469,
-        "target_1": 79090.36701172,
-        "target_2": 80830.74183594,
+        "entry_ideal": 77013.8828125,
+        "stop_loss_technical": 75858.67457031,
+        "target_1": 78746.69517578,
+        "target_2": 80479.50753906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
