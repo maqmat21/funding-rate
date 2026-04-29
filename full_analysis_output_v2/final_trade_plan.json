@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-29T11:12:21.229606+00:00",
+    "generated_at_utc": "2026-04-29T12:54:54.177232+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.69,
+        "price": 98.726,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.354,
+        "price": 4.368,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 19m",
     "News from the Yahoo Finance Network",
     "A blue-collar worker says he makes $10,000 per month from Amazon in just 20 hours of work — how you can do it, too",
     "Elon Musk Claims People Won’t Need Retirement Savings Because of AI: ‘It Won’t Matter’",
-    "Bill Maher blasts America’s $5T tax monster: ‘Almost 60%’ of his income goes to Uncle Sam while the poor still suffer",
-    "SoFi earnings meet expectations while its tech platform struggles",
-    "GM Looks To Make Engineering Gains With New F1 Team",
-    "Walmart redesigns its leadership pipeline as managers making $400K stay for longer"
+    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
+    "Fannie Mae Q1 Earnings Call Highlights",
+    "3 TSX Growth Stocks With Insider Ownership Growing Earnings Up To 53%",
+    "Humana Earnings Beat Estimates. Why the Stock Is Falling.",
+    "Bill Maher blasts America’s $5T tax monster: ‘Almost 60%’ of his income goes to Uncle Sam while the poor still suffer"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77575.78125,
-        "perp_last_price": 77575.78125,
-        "mark_price": 77575.78125,
-        "index_price": 77575.78125,
+        "spot_price": 77176.0390625,
+        "perp_last_price": 77176.0390625,
+        "mark_price": 77176.0390625,
+        "index_price": 77176.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77575.78125,
+        "entry_ideal": 77147.4375,
         "stop_loss_technical": 77898.53125,
-        "target_1": 77091.65625,
-        "target_2": 76607.53125,
+        "target_1": 76020.796875,
+        "target_2": 74894.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77575.78125,
-        "stop_loss_technical": 76412.14453125,
-        "target_1": 79321.23632812,
-        "target_2": 81066.69140625,
+        "entry_ideal": 77176.0390625,
+        "stop_loss_technical": 76018.39847656,
+        "target_1": 78912.49994141,
+        "target_2": 80648.96082031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
