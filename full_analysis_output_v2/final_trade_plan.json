@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-29T01:21:37.346481+00:00",
+    "generated_at_utc": "2026-04-29T04:44:14.046033+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.652,
+        "price": 98.669,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,54 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 46m",
     "News from the Yahoo Finance Network",
     "Elon Musk Claims People Won’t Need Retirement Savings Because of AI: ‘It Won’t Matter’",
     "Bill Maher blasts America’s $5T tax monster: ‘Almost 60%’ of his income goes to Uncle Sam while the poor still suffer",
     "Warren Buffett Once Said If Your Kids Read Your Will After You're Gone, You've Already Made A 'Terrible Mistake' — Here's Why",
-    "Alcohol Distributor Warns of Nearly 2,800 Potential Layoffs Less Than a Year After Laying Off 1,700 Employees",
-    "141-year-old candy store chain closes all retail locations",
-    "Warren Buffett Owns 3 Strong Buy Dividend Aristocrat Giants—1 for Almost 40 Years",
-    "Robinhood earnings miss Wall Street estimates"
+    "Coca-Cola Earnings Show Why This Dividend Stock, With Its 2.7% Dividend Yield, Remains a Buy",
+    "Michael Burry of \"The Big Short\" Fame Just Made a Shocking Move. Should You Follow?",
+    "Warren Buffett Owns 3 Strong Buy Dividend Aristocrat Giants—1 for Almost 40 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76251.953125,
-        "perp_last_price": 76251.953125,
-        "mark_price": 76251.953125,
-        "index_price": 76251.953125,
+        "spot_price": 77349.9921875,
+        "perp_last_price": 77349.9921875,
+        "mark_price": 77349.9921875,
+        "index_price": 77349.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76238.28125,
-        "stop_loss_technical": 77147.109375,
-        "target_1": 74875.0390625,
-        "target_2": 73511.796875,
+        "entry_ideal": 77347.046875,
+        "stop_loss_technical": 76186.84117187,
+        "target_1": 79087.35542969,
+        "target_2": 80827.66398438,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76251.953125,
-        "stop_loss_technical": 79488.171875,
-        "target_1": 71397.625,
-        "target_2": 66543.296875,
+        "entry_ideal": 77349.9921875,
+        "stop_loss_technical": 76189.74230469,
+        "target_1": 79090.36701172,
+        "target_2": 80830.74183594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
