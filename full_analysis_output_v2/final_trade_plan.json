@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T20:07:36.954851+00:00",
+    "generated_at_utc": "2026-04-30T21:13:22.757735+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.06,
+        "price": 98.102,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "SanDisk Q3 revenue surges 251%, crushes Wall Street targets on datacenter growth",
+    "More than 20k people on oral weight loss pill as Lilly ramps up access",
+    "'You could wake up dead’: Dave Ramsey warns Boston dad who wants a divorce to save $100K on college tuition",
+    "These Are the Best High-Yield Dividend Stocks of 2026",
     "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
-    "Costco quietly changes its $1.50 hot dog deal",
-    "Apple co-founder says he doesn’t regret selling his stake for $800 — even though it would be worth $400 billion today",
-    "RFK Jr. visibly shaken after getting fact-checked to his face on soaring food costs: ‘Beef prices are up 20%’",
-    "Here’s the retirement savings you need to spend $10,000/month at age 55, 62, and 65. Why there's a vast difference",
-    "Trump to Sign Order to Expand Access to Retirement Plans",
-    "1 Understated Dividend Stock That Could Be an Essential Part of Your Retirement Portfolio"
+    "Michael Saylor vs. Peter Schiff: Is the MicroStrategy Bitcoin Bet at Risk?",
+    "Reddit’s (NYSE:RDDT) Q1 CY2026: Strong Sales, Stock Soars"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76371.09375,
-        "perp_last_price": 76371.09375,
-        "mark_price": 76371.09375,
-        "index_price": 76371.09375,
+        "spot_price": 76454.7890625,
+        "perp_last_price": 76454.7890625,
+        "mark_price": 76454.7890625,
+        "index_price": 76454.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76343.0,
-        "stop_loss_technical": 76620.90625,
-        "target_1": 75926.140625,
-        "target_2": 75509.28125,
+        "entry_ideal": 76454.7890625,
+        "stop_loss_technical": 76625.03125,
+        "target_1": 76199.42578125,
+        "target_2": 75944.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76371.09375,
+        "entry_ideal": 76454.7890625,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 78489.87890625,
-        "target_2": 80608.6640625,
+        "target_1": 78699.1171875,
+        "target_2": 80943.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
