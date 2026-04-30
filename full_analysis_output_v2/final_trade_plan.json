@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T12:54:46.854895+00:00",
+    "generated_at_utc": "2026-04-30T14:56:52.041254+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.511,
+        "price": 98.284,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.402,
+        "price": 4.394,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 4m",
     "News from the Yahoo Finance Network",
-    "No more full Social Security COLA for all? New proposal can help preserve program, but would hurt millions of US seniors",
     "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "A Real Warning to Engaged Couples: “Stop Venmo-Splitting Bills Like Roommates”",
-    "How Much the Average Retiree Spends Yearly: Middle Class vs. Upper Class",
-    "APi’s (NYSE:APG) Q1 CY2026 Sales Top Estimates",
-    "Here’s the retirement savings you need to spend $10,000/month at age 55, 62, and 65. Why there's a vast difference",
-    "K-shaped credit scores: More consumers fall into either super prime or subprime buckets"
+    "The Ticking Time Bomb That Could Force Income Investors to Sell Verizon Stock",
+    "NVIDIA Falls 4% on Rotation Concerns: How Strong Profitability Could Save the Bull Case",
+    "Costco quietly changes its $1.50 hot dog deal",
+    "Are You Richer Than 90% Of People Your Age? Here's The Net Worth You Need To Rank Among The Wealthiest",
+    "Trump bets Hormuz blockade will break Iran before triggering a global crisis"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76291.9921875,
-        "perp_last_price": 76291.9921875,
-        "mark_price": 76291.9921875,
-        "index_price": 76291.9921875,
+        "spot_price": 76286.0234375,
+        "perp_last_price": 76286.0234375,
+        "mark_price": 76286.0234375,
+        "index_price": 76286.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76293.6171875,
-        "stop_loss_technical": 74938.1484375,
-        "target_1": 78326.8203125,
-        "target_2": 80360.0234375,
+        "entry_ideal": 76286.0234375,
+        "stop_loss_technical": 76614.0,
+        "target_1": 75794.05859375,
+        "target_2": 75302.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76291.9921875,
-        "stop_loss_technical": 74938.1484375,
-        "target_1": 78322.7578125,
-        "target_2": 80353.5234375,
+        "entry_ideal": 76286.0234375,
+        "stop_loss_technical": 74958.5703125,
+        "target_1": 78277.203125,
+        "target_2": 80268.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
