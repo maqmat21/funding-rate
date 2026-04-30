@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T07:14:55.067023+00:00",
+    "generated_at_utc": "2026-04-30T09:26:26.846451+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.952,
-        "trend": "alcista"
+        "price": 98.801,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.418,
@@ -21,54 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 16m",
+    "U.S. markets open in 4h 5m",
     "News from the Yahoo Finance Network",
-    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
+    "Gold report reveals warning sign for investors",
     "How Much the Average Retiree Spends Yearly: Middle Class vs. Upper Class",
+    "Why Meta Platforms (META) Just Hit An Unexpected Obstacle",
     "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Carmaker Stellantis swings back into profit as sales climb",
-    "Earning around $100,000 will just qualify you as ‘lower-middle class’ in these 12 states, report says",
-    "Cramer turns bullish after surprise comeback in legacy tech stock"
+    "Stock Market Investors Just Got Bad News From Fed Chair Nominee Kevin Warsh",
+    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75783.328125,
-        "perp_last_price": 75783.328125,
-        "mark_price": 75783.328125,
-        "index_price": 75783.328125,
+        "spot_price": 76051.2578125,
+        "perp_last_price": 76051.2578125,
+        "mark_price": 76051.2578125,
+        "index_price": 76051.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75781.2421875,
-        "stop_loss_technical": 74644.52355469,
-        "target_1": 77486.32013672,
-        "target_2": 79191.39808594,
+        "entry_ideal": 76055.0625,
+        "stop_loss_technical": 74927.65625,
+        "target_1": 77746.171875,
+        "target_2": 79437.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75783.328125,
-        "stop_loss_technical": 79488.171875,
-        "target_1": 70226.0625,
-        "target_2": 64668.796875,
+        "entry_ideal": 76051.2578125,
+        "stop_loss_technical": 74927.65625,
+        "target_1": 77736.66015625,
+        "target_2": 79422.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +79,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
