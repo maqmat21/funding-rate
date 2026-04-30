@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T16:13:42.477299+00:00",
+    "generated_at_utc": "2026-04-30T17:46:00.918434+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.177,
+        "price": 98.149,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,51 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 47m",
+    "U.S. markets close in 2h 15m",
     "News from the Yahoo Finance Network",
+    "Apple co-founder says he doesn’t regret selling his stake for $800 — even though it would be worth $400 billion today",
+    "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
+    "Charlie Munger Drove An Old Yellow Pontiac And Lived In 'Dreadful' Home —'I Had a Considerable Passion To Get Rich. Not Because I Wanted Ferraris…'",
+    "Alkami Technology, Inc. Q1 2026 Earnings Call Summary",
     "RFK Jr. visibly shaken after getting fact-checked to his face on soaring food costs: ‘Beef prices are up 20%’",
-    "Lake Shore Bancorp, Inc. (NASDAQ:LSBK) Looks Interesting, And It's About To Pay A Dividend",
-    "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Trump to Sign Order to Expand Access to Retirement Plans",
-    "Costco quietly changes its $1.50 hot dog deal",
-    "Are You Richer Than 90% Of People Your Age? Here's The Net Worth You Need To Rank Among The Wealthiest"
+    "Costco quietly changes its $1.50 hot dog deal"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76429.5078125,
-        "perp_last_price": 76429.5078125,
-        "mark_price": 76429.5078125,
-        "index_price": 76429.5078125,
+        "spot_price": 76141.546875,
+        "perp_last_price": 76141.546875,
+        "mark_price": 76141.546875,
+        "index_price": 76141.546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 76145.75,
+        "stop_loss_technical": 76620.90625,
+        "target_1": 75433.015625,
+        "target_2": 74720.28125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76438.6875,
-        "stop_loss_technical": 75312.7109375,
-        "target_1": 78127.65234375,
-        "target_2": 79816.6171875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 76429.5078125,
+        "entry_ideal": 76141.546875,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 78635.9140625,
-        "target_2": 80842.3203125,
+        "target_1": 77916.01171875,
+        "target_2": 79690.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
