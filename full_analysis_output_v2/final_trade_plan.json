@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-29T23:32:44.428461+00:00",
+    "generated_at_utc": "2026-04-30T01:19:28.881902+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.975,
+        "price": 98.9,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,53 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "The Trump Admin Officially Enters Bailout Talks With Spirit Airlines. Should You Buy Its Bankrupt Stock Here?",
-    "Seagate soars 18% on strong earnings beat and robust guidance",
+    "Rivian CEO walks away with $403 million despite huge losses",
+    "3 Undervalued Dividend Stocks With 100% Upside That Nobody Is Watching Right Now",
+    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
+    "Popular barbecue chain quietly closes all locations after bankruptcy filing",
     "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Alphabet revenue jumps 22%, beating expectations",
     "Press for New Capital Gains Tax Cut Divides Republicans",
-    "Is FuelCell Energy (FCEL) the Next Bloom Energy?",
-    "Missed AI Boom? Tony Robbins Reveals The Next Big Investment Opportunity After AI — 'Very Few People Are Talking About' This"
+    "Earning around $100,000 will just qualify you as ‘lower-middle class’ in these 12 states, report says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75784.828125,
-        "perp_last_price": 75784.828125,
-        "mark_price": 75784.828125,
-        "index_price": 75784.828125,
+        "spot_price": 76212.0234375,
+        "perp_last_price": 76212.0234375,
+        "mark_price": 76212.0234375,
+        "index_price": 76212.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75792.9765625,
-        "stop_loss_technical": 77896.1875,
-        "target_1": 72638.16015625,
-        "target_2": 69483.34375,
+        "entry_ideal": 76204.6015625,
+        "stop_loss_technical": 75061.53253906,
+        "target_1": 77919.20509766,
+        "target_2": 79633.80863281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75784.828125,
+        "entry_ideal": 76212.0234375,
         "stop_loss_technical": 79488.171875,
-        "target_1": 70229.8125,
-        "target_2": 64674.796875,
+        "target_1": 71297.80078125,
+        "target_2": 66383.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
