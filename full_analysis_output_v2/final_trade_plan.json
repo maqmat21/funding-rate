@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T17:46:00.918434+00:00",
+    "generated_at_utc": "2026-04-30T18:58:21.251005+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.149,
+        "price": 98.048,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.394,
+        "price": 4.39,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 15m",
+    "U.S. markets close in 1h 2m",
     "News from the Yahoo Finance Network",
-    "Apple co-founder says he doesn’t regret selling his stake for $800 — even though it would be worth $400 billion today",
+    "California removes restrictions on driverless trucks",
     "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
+    "Apple co-founder says he doesn’t regret selling his stake for $800 — even though it would be worth $400 billion today",
+    "Costco quietly changes its $1.50 hot dog deal",
     "Charlie Munger Drove An Old Yellow Pontiac And Lived In 'Dreadful' Home —'I Had a Considerable Passion To Get Rich. Not Because I Wanted Ferraris…'",
-    "Alkami Technology, Inc. Q1 2026 Earnings Call Summary",
-    "RFK Jr. visibly shaken after getting fact-checked to his face on soaring food costs: ‘Beef prices are up 20%’",
-    "Costco quietly changes its $1.50 hot dog deal"
+    "RFK Jr. visibly shaken after getting fact-checked to his face on soaring food costs: ‘Beef prices are up 20%’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76141.546875,
-        "perp_last_price": 76141.546875,
-        "mark_price": 76141.546875,
-        "index_price": 76141.546875,
+        "spot_price": 76323.7890625,
+        "perp_last_price": 76323.7890625,
+        "mark_price": 76323.7890625,
+        "index_price": 76323.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76145.75,
-        "stop_loss_technical": 76620.90625,
-        "target_1": 75433.015625,
-        "target_2": 74720.28125,
+        "entry_ideal": 76324.4375,
+        "stop_loss_technical": 75315.0390625,
+        "target_1": 77838.53515625,
+        "target_2": 79352.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76141.546875,
+        "entry_ideal": 76323.7890625,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 77916.01171875,
-        "target_2": 79690.4765625,
+        "target_1": 78371.6171875,
+        "target_2": 80419.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
