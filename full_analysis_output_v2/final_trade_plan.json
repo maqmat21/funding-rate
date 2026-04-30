@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T04:45:28.488374+00:00",
+    "generated_at_utc": "2026-04-30T07:14:55.067023+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.081,
+        "price": 98.952,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 45m",
+    "U.S. markets open in 6h 16m",
     "News from the Yahoo Finance Network",
-    "How Much the Average Retiree Spends Yearly: Middle Class vs. Upper Class",
     "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
+    "How Much the Average Retiree Spends Yearly: Middle Class vs. Upper Class",
     "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Rivian CEO walks away with $403 million despite huge losses",
-    "Jack Daniel’s owner ends merger talks with Pernod Ricard",
-    "Intel (INTC) Hits All-Time High Anew — Here’s Why The Stock Keeps Climbing"
+    "Carmaker Stellantis swings back into profit as sales climb",
+    "Earning around $100,000 will just qualify you as ‘lower-middle class’ in these 12 states, report says",
+    "Cramer turns bullish after surprise comeback in legacy tech stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75451.453125,
-        "perp_last_price": 75451.453125,
-        "mark_price": 75451.453125,
-        "index_price": 75451.453125,
+        "spot_price": 75783.328125,
+        "perp_last_price": 75783.328125,
+        "mark_price": 75783.328125,
+        "index_price": 75783.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75455.1171875,
-        "stop_loss_technical": 77898.53125,
-        "target_1": 71789.99609375,
-        "target_2": 68124.875,
+        "entry_ideal": 75781.2421875,
+        "stop_loss_technical": 74644.52355469,
+        "target_1": 77486.32013672,
+        "target_2": 79191.39808594,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75451.453125,
+        "entry_ideal": 75783.328125,
         "stop_loss_technical": 79488.171875,
-        "target_1": 69396.375,
-        "target_2": 63341.296875,
+        "target_1": 70226.0625,
+        "target_2": 64668.796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
