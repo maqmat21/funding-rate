@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T09:26:26.846451+00:00",
+    "generated_at_utc": "2026-04-30T11:12:32.121175+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.801,
+        "price": 98.323,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 5m",
+    "U.S. markets open in 2h 19m",
     "News from the Yahoo Finance Network",
-    "Gold report reveals warning sign for investors",
     "How Much the Average Retiree Spends Yearly: Middle Class vs. Upper Class",
-    "Why Meta Platforms (META) Just Hit An Unexpected Obstacle",
-    "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Stock Market Investors Just Got Bad News From Fed Chair Nominee Kevin Warsh",
-    "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum"
+    "‘Not all will survive’: Chinese EV giant delivers reality check to America. Is your portfolio in a dangerous position?",
+    "Here’s the retirement savings you need to spend $10,000/month at age 55, 62, and 65. Why there's a vast difference",
+    "Hershey’s (NYSE:HSY) Q1 CY2026 Sales Beat Estimates",
+    "The debt crisis Congress has been ignoring could cost the average U.S. household $18,000 a year, according to a Brookings analysis",
+    "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76051.2578125,
-        "perp_last_price": 76051.2578125,
-        "mark_price": 76051.2578125,
-        "index_price": 76051.2578125,
+        "spot_price": 76205.96875,
+        "perp_last_price": 76205.96875,
+        "mark_price": 76205.96875,
+        "index_price": 76205.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76055.0625,
+        "entry_ideal": 76205.96875,
         "stop_loss_technical": 74927.65625,
-        "target_1": 77746.171875,
-        "target_2": 79437.28125,
+        "target_1": 78123.4375,
+        "target_2": 80040.90625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76051.2578125,
+        "entry_ideal": 76205.96875,
         "stop_loss_technical": 74927.65625,
-        "target_1": 77736.66015625,
-        "target_2": 79422.0625,
+        "target_1": 78123.4375,
+        "target_2": 80040.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
