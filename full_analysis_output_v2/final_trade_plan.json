@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-04-30T01:19:28.881902+00:00",
+    "generated_at_utc": "2026-04-30T04:45:28.488374+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.9,
+        "price": 99.081,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 45m",
     "News from the Yahoo Finance Network",
-    "Rivian CEO walks away with $403 million despite huge losses",
-    "3 Undervalued Dividend Stocks With 100% Upside That Nobody Is Watching Right Now",
+    "How Much the Average Retiree Spends Yearly: Middle Class vs. Upper Class",
     "Billionaires Have Chosen Their Favorite Quantum Computing Stock, and It's Not IonQ, Rigetti Computing, or D-Wave Quantum",
-    "Popular barbecue chain quietly closes all locations after bankruptcy filing",
     "Robert Kiyosaki warns ‘the worst crash' since the Depression is coming soon. Here's how he says you can protect yourself",
-    "Press for New Capital Gains Tax Cut Divides Republicans",
-    "Earning around $100,000 will just qualify you as ‘lower-middle class’ in these 12 states, report says"
+    "Rivian CEO walks away with $403 million despite huge losses",
+    "Jack Daniel’s owner ends merger talks with Pernod Ricard",
+    "Intel (INTC) Hits All-Time High Anew — Here’s Why The Stock Keeps Climbing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76212.0234375,
-        "perp_last_price": 76212.0234375,
-        "mark_price": 76212.0234375,
-        "index_price": 76212.0234375,
+        "spot_price": 75451.453125,
+        "perp_last_price": 75451.453125,
+        "mark_price": 75451.453125,
+        "index_price": 75451.453125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76204.6015625,
-        "stop_loss_technical": 75061.53253906,
-        "target_1": 77919.20509766,
-        "target_2": 79633.80863281,
+        "entry_ideal": 75455.1171875,
+        "stop_loss_technical": 77898.53125,
+        "target_1": 71789.99609375,
+        "target_2": 68124.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76212.0234375,
+        "entry_ideal": 75451.453125,
         "stop_loss_technical": 79488.171875,
-        "target_1": 71297.80078125,
-        "target_2": 66383.578125,
+        "target_1": 69396.375,
+        "target_2": 63341.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
