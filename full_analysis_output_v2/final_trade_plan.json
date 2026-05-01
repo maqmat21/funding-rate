@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T15:40:24.337417+00:00",
+    "generated_at_utc": "2026-05-01T16:37:05.404815+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.879,
+        "price": 97.998,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.374,
+        "price": 4.364,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 21m",
+    "U.S. markets close in 3h 24m",
     "News from the Yahoo Finance Network",
-    "Would a gas tax holiday lower prices? What drivers should know.",
+    "Jim Cramer on Fermi: “I Don’t Want You in That Stock”",
     "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
     "Costco updates $1.50 hot dog combo for the first time in 40 years",
     "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
-    "MoneyHero Limited Class A Ordinary Shares Q4 2025 Earnings Call Summary",
-    "The Friday Checkout: Amazon says it’s the second-largest U.S. grocer — stores (mostly) not required"
+    "Elon Musk's latest Tesla pay valued at $158bn - but he can't pocket it",
+    "Grand Canyon Education, Inc. Q1 2026 Earnings Call Summary"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78742.4375,
-        "perp_last_price": 78742.4375,
-        "mark_price": 78742.4375,
-        "index_price": 78742.4375,
+        "spot_price": 78264.0234375,
+        "perp_last_price": 78264.0234375,
+        "mark_price": 78264.0234375,
+        "index_price": 78264.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78742.4375,
-        "stop_loss_technical": 76164.9296875,
-        "target_1": 82608.69921875,
-        "target_2": 86474.9609375,
+        "entry_ideal": 78264.0234375,
+        "stop_loss_technical": 77090.06308594,
+        "target_1": 80024.96396484,
+        "target_2": 81785.90449219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78742.4375,
+        "entry_ideal": 78264.0234375,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 84418.23828125,
-        "target_2": 90094.0390625,
+        "target_1": 83222.203125,
+        "target_2": 88180.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
