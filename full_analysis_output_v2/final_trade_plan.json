@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T13:55:03.014604+00:00",
+    "generated_at_utc": "2026-05-01T14:45:21.695176+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.94,
+        "price": 97.781,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.394,
-        "trend": "alcista"
+        "price": 4.352,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 6m",
+    "U.S. markets close in 5h 15m",
     "News from the Yahoo Finance Network",
-    "Robert Kiyosaki predicted up to 15,000% upside in 3 assets, saying the ‘best time to get rich is approaching’",
+    "A Look At PACCAR (PCAR) Valuation After Q1 2026 Earnings And Dividend Increase",
+    "Inflation Could Soar To 10%",
     "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
-    "The Bull Case For SoundHound AI (SOUN) Could Change Following Expanded Casey’s Rollout And LivePerson Deal",
-    "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
-    "Cullen/Frost Bankers Q1 Earnings Call Highlights",
-    "Warren Buffett Says the 2026 Stock Market Dip Isn’t Big Enough: ‘If There is a Big Decline, We Will Deploy’ Capital"
+    "Rivian DOE loan for Georgia plant shrinks but available sooner; reports smaller Q1 loss than expected and reaffirms outlook",
+    "Costco updates $1.50 hot dog combo for the first time in 40 years",
+    "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78817.3984375,
-        "perp_last_price": 78817.3984375,
-        "mark_price": 78817.3984375,
-        "index_price": 78817.3984375,
+        "spot_price": 78149.578125,
+        "perp_last_price": 78149.578125,
+        "mark_price": 78149.578125,
+        "index_price": 78149.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78817.0390625,
-        "stop_loss_technical": 76167.90625,
-        "target_1": 82790.73828125,
-        "target_2": 86764.4375,
+        "entry_ideal": 78160.0234375,
+        "stop_loss_technical": 76987.62308594,
+        "target_1": 79918.62396484,
+        "target_2": 81677.22449219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78817.3984375,
+        "entry_ideal": 78149.578125,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 84605.640625,
-        "target_2": 90393.8828125,
+        "target_1": 82936.08984375,
+        "target_2": 87722.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
