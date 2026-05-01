@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T00:01:36.645623+00:00",
+    "generated_at_utc": "2026-05-01T04:10:17.754749+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.129,
+        "price": 98.15,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,27 +21,40 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 20m",
     "News from the Yahoo Finance Network",
     "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
+    "Warren Buffett Says the 2026 Stock Market Dip Isn’t Big Enough: ‘If There is a Big Decline, We Will Deploy’ Capital",
     "President Donald Trump’s Son Eric Trump Reportedly Disappears From Fintech Company’s Leadership",
-    "Shannon Elizabeth says she made $1.2 million in her first week on OnlyFans — what it says about the new creator economy",
     "Oklo Stock Is Fantastically Cheap -- Here's Why There Could Be 3,000% in Upside Potential",
-    "How Eric Trump's American Bitcoin Lost $500 Million In Shareholder Value In 8 Months",
-    "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
-    "Apple co-founder says he doesn’t regret selling his stake for $800 — even though it would be worth $400 billion today"
+    "Trump Signs Permit for Oil Pipeline Echoing Keystone XL",
+    "Why Alphabet Stock Surged to an All-Time High Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76378.0,
-        "perp_last_price": 76378.0,
-        "mark_price": 76378.0,
-        "index_price": 76378.0,
+        "spot_price": 77097.671875,
+        "perp_last_price": 77097.671875,
+        "mark_price": 77097.671875,
+        "index_price": 77097.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 77100.8515625,
+        "stop_loss_technical": 75848.0,
+        "target_1": 78980.12890625,
+        "target_2": 80859.40625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -49,23 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 76373.2578125,
-        "stop_loss_technical": 75315.0390625,
-        "target_1": 77960.5859375,
-        "target_2": 79547.9140625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 76378.0,
+        "entry_ideal": 77097.671875,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 78507.14453125,
-        "target_2": 80636.2890625,
+        "target_1": 80306.32421875,
+        "target_2": 83514.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
