@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T14:45:21.695176+00:00",
+    "generated_at_utc": "2026-05-01T15:40:24.337417+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.781,
+        "price": 97.879,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.352,
+        "price": 4.374,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 15m",
+    "U.S. markets close in 4h 21m",
     "News from the Yahoo Finance Network",
-    "A Look At PACCAR (PCAR) Valuation After Q1 2026 Earnings And Dividend Increase",
-    "Inflation Could Soar To 10%",
+    "Would a gas tax holiday lower prices? What drivers should know.",
     "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
-    "Rivian DOE loan for Georgia plant shrinks but available sooner; reports smaller Q1 loss than expected and reaffirms outlook",
     "Costco updates $1.50 hot dog combo for the first time in 40 years",
-    "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame"
+    "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
+    "MoneyHero Limited Class A Ordinary Shares Q4 2025 Earnings Call Summary",
+    "The Friday Checkout: Amazon says it’s the second-largest U.S. grocer — stores (mostly) not required"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78149.578125,
-        "perp_last_price": 78149.578125,
-        "mark_price": 78149.578125,
-        "index_price": 78149.578125,
+        "spot_price": 78742.4375,
+        "perp_last_price": 78742.4375,
+        "mark_price": 78742.4375,
+        "index_price": 78742.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78160.0234375,
-        "stop_loss_technical": 76987.62308594,
-        "target_1": 79918.62396484,
-        "target_2": 81677.22449219,
+        "entry_ideal": 78742.4375,
+        "stop_loss_technical": 76164.9296875,
+        "target_1": 82608.69921875,
+        "target_2": 86474.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78149.578125,
+        "entry_ideal": 78742.4375,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 82936.08984375,
-        "target_2": 87722.6015625,
+        "target_1": 84418.23828125,
+        "target_2": 90094.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
