@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T20:40:16.379828+00:00",
+    "generated_at_utc": "2026-05-01T21:34:07.615465+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.237,
+        "price": 98.211,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Simone Biles says she's 'staying inside' forever after being hit with $22K glam bill — why lifestyle creep spares no one",
     "‘Wow!’: CNBC host stunned as ‘truly incredible’ US jobs number plunges to 189,000 — the lowest level since 1960s",
     "Costco updates $1.50 hot dog combo for the first time in 40 years",
     "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
     "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
-    "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "‘The numbers don’t lie’: If I had invested my Social Security in the S&P 500 I’d have $4 million. Is the system broken?",
-    "Albertsons receives troubling news"
+    "After Hot Start to the Year, Is Enterprise Products Partners Stock Still a Buy?",
+    "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78061.9765625,
-        "perp_last_price": 78061.9765625,
-        "mark_price": 78061.9765625,
-        "index_price": 78061.9765625,
+        "spot_price": 78123.34375,
+        "perp_last_price": 78123.34375,
+        "mark_price": 78123.34375,
+        "index_price": 78123.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78065.9921875,
-        "stop_loss_technical": 78940.40625,
-        "target_1": 76754.37109375,
-        "target_2": 75442.75,
+        "entry_ideal": 78123.34375,
+        "stop_loss_technical": 76951.49359375,
+        "target_1": 79881.11898438,
+        "target_2": 81638.89421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78061.9765625,
-        "stop_loss_technical": 76891.04691406,
-        "target_1": 79818.37103516,
-        "target_2": 81574.76550781,
+        "entry_ideal": 78123.34375,
+        "stop_loss_technical": 76951.49359375,
+        "target_1": 79881.11898438,
+        "target_2": 81638.89421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
