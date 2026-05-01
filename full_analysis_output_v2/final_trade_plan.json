@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T11:20:29.686420+00:00",
+    "generated_at_utc": "2026-05-01T12:10:58.624394+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.006,
+        "price": 97.965,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 10m",
+    "U.S. markets open in 1h 20m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett Says the 2026 Stock Market Dip Isn’t Big Enough: ‘If There is a Big Decline, We Will Deploy’ Capital",
     "Warren Buffett Went Out With a Bang by Selling 77% of His Amazon Stake and Piling Into a Virtual Monopoly That's Soared 13,600% Since Its IPO",
-    "A Lawsuit Raises Questions About Popular Tax-Saving Charity Funds",
+    "Warren Buffett Says the 2026 Stock Market Dip Isn’t Big Enough: ‘If There is a Big Decline, We Will Deploy’ Capital",
+    "Trump has quietly bought up to $337 million in bonds — and his Fed pick Kevin Warsh could send their value soaring",
     "Scott Bessent urges Americans to stop letting the IRS hold their cash: 'automatic real wage increase' awaits",
-    "ExxonMobil’s (NYSE:XOM) Q1 CY2026 Sales Beat Estimates",
-    "Oklo Stock Is Fantastically Cheap -- Here's Why There Could Be 3,000% in Upside Potential"
+    "Elon Musk Labels Majority of Crypto ‘Scams’ Even as X Pushes Financial News Integration",
+    "I Predicted the 50% Collapse in Robinhood Stock. Here's What Could Happen Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77429.71875,
-        "perp_last_price": 77429.71875,
-        "mark_price": 77429.71875,
-        "index_price": 77429.71875,
+        "spot_price": 77422.3828125,
+        "perp_last_price": 77422.3828125,
+        "mark_price": 77422.3828125,
+        "index_price": 77422.3828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77434.5390625,
-        "stop_loss_technical": 76070.2734375,
-        "target_1": 79480.9375,
-        "target_2": 81527.3359375,
+        "entry_ideal": 77422.3828125,
+        "stop_loss_technical": 76073.8125,
+        "target_1": 79445.23828125,
+        "target_2": 81468.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77429.71875,
+        "entry_ideal": 77422.3828125,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 81136.44140625,
-        "target_2": 84843.1640625,
+        "target_1": 81118.1015625,
+        "target_2": 84813.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
