@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T06:43:25.625415+00:00",
+    "generated_at_utc": "2026-05-01T08:32:52.251951+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.235,
+        "price": 98.026,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 48m",
+    "U.S. markets open in 4h 58m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Says the 2026 Stock Market Dip Isn’t Big Enough: ‘If There is a Big Decline, We Will Deploy’ Capital",
-    "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
     "Oklo Stock Is Fantastically Cheap -- Here's Why There Could Be 3,000% in Upside Potential",
-    "How Much Do You Really Need Invested to Replace a $75,000 Salary With Dividends?",
+    "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
+    "President Donald Trump’s Son Eric Trump Reportedly Disappears From Fintech Company’s Leadership",
     "Social Security Benefit Cuts Are Coming — and President Trump Shoulders Some of the Blame",
-    "President Donald Trump’s Son Eric Trump Reportedly Disappears From Fintech Company’s Leadership"
+    "Intel Stock Has Absolutely Skyrocketed. Here's What Is Going On -- and Why I Think the Stock May Be Overbought."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76949.078125,
-        "perp_last_price": 76949.078125,
-        "mark_price": 76949.078125,
-        "index_price": 76949.078125,
+        "spot_price": 77426.640625,
+        "perp_last_price": 77426.640625,
+        "mark_price": 77426.640625,
+        "index_price": 77426.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76949.078125,
-        "stop_loss_technical": 77406.7890625,
-        "target_1": 76262.51171875,
-        "target_2": 75575.9453125,
+        "entry_ideal": 77426.640625,
+        "stop_loss_technical": 76056.0703125,
+        "target_1": 79482.49609375,
+        "target_2": 81538.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 76949.078125,
+        "entry_ideal": 77426.640625,
         "stop_loss_technical": 74958.5703125,
-        "target_1": 79934.83984375,
-        "target_2": 82920.6015625,
+        "target_1": 81128.74609375,
+        "target_2": 84830.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
