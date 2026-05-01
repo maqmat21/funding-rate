@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T22:29:18.435861+00:00",
+    "generated_at_utc": "2026-05-01T23:26:36.381363+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Iconic restaurant chain keeps shrinking after bankruptcy",
     "Simone Biles says she's 'staying inside' forever after being hit with $22K glam bill — why lifestyle creep spares no one",
-    "GameStop expected to bid for eBay this month; shares rocket",
     "‘Wow!’: CNBC host stunned as ‘truly incredible’ US jobs number plunges to 189,000 — the lowest level since 1960s",
-    "Costco updates $1.50 hot dog combo for the first time in 40 years",
     "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
-    "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss"
+    "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
+    "31% of US homes could soon flood the market — and experts say it still won't make housing affordable",
+    "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
+    "GameStop is preparing offer for eBay, WSJ reports"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78342.7421875,
-        "perp_last_price": 78342.7421875,
-        "mark_price": 78342.7421875,
-        "index_price": 78342.7421875,
+        "spot_price": 78085.28125,
+        "perp_last_price": 78085.28125,
+        "mark_price": 78085.28125,
+        "index_price": 78085.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78342.7421875,
-        "stop_loss_technical": 77167.60105469,
-        "target_1": 80105.45388672,
-        "target_2": 81868.16558594,
+        "entry_ideal": 78085.28125,
+        "stop_loss_technical": 78940.40625,
+        "target_1": 76802.59375,
+        "target_2": 75519.90625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78342.7421875,
-        "stop_loss_technical": 77167.60105469,
-        "target_1": 80105.45388672,
-        "target_2": 81868.16558594,
+        "entry_ideal": 78085.28125,
+        "stop_loss_technical": 76914.00203125,
+        "target_1": 79842.20007812,
+        "target_2": 81599.11890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
