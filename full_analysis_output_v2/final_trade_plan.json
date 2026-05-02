@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T03:48:18.690186+00:00",
+    "generated_at_utc": "2026-05-02T05:56:47.572630+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,32 +27,33 @@
     "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
     "Trump Says US Made Over $30 Billion On Intel Stock In Just 90 Days: 'I Have Been Very Successful...'",
     "‘Wow!’: CNBC host stunned as ‘truly incredible’ US jobs number plunges to 189,000 — the lowest level since 1960s",
-    "4 Low-Cost Vanguard ETFs That Make Retirement Investing Easier",
+    "Entergy, Hyundai Steel sign service agreement for Louisiana steel mill",
     "Albertsons receives troubling news"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78378.5625,
-        "perp_last_price": 78378.5625,
-        "mark_price": 78378.5625,
-        "index_price": 78378.5625,
+        "spot_price": 78209.859375,
+        "perp_last_price": 78209.859375,
+        "mark_price": 78209.859375,
+        "index_price": 78209.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78378.5703125,
-        "stop_loss_technical": 78940.40625,
-        "target_1": 77535.81640625,
-        "target_2": 76693.0625,
+        "entry_ideal": 78209.859375,
+        "stop_loss_technical": 77036.71148438,
+        "target_1": 79969.58121094,
+        "target_2": 81729.30304687,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78378.5625,
-        "stop_loss_technical": 77202.8840625,
-        "target_1": 80142.08015625,
-        "target_2": 81905.5978125,
+        "entry_ideal": 78209.859375,
+        "stop_loss_technical": 77036.71148438,
+        "target_1": 79969.58121094,
+        "target_2": 81729.30304687,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
