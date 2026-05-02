@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T22:28:30.767322+00:00",
+    "generated_at_utc": "2026-05-02T23:08:59.379551+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,33 +27,32 @@
     "Billionaire Charlie Munger Called Elon Musk Talented, Unusual, And Peculiar— 'I Don't Buy Him And I Don't Sell Him Short'",
     "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
     "Jamie Ding won $880K on \"Jeopardy!\" — but after taxes and humble savings plan, the windfall may not be so life changing",
-    "Wendy’s is closing hundreds of stores: See an updated list of locations where the chain is shuttering the most",
-    "A 70-Year-Old With $1.4 Million Faces a $62,000 RMD That Pushes Him Into a Higher Tax Bracket"
+    "A 70-Year-Old With $1.4 Million Faces a $62,000 RMD That Pushes Him Into a Higher Tax Bracket",
+    "Wendy’s is closing hundreds of stores: See an updated list of locations where the chain is shuttering the most"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78609.9921875,
-        "perp_last_price": 78609.9921875,
-        "mark_price": 78609.9921875,
-        "index_price": 78609.9921875,
+        "spot_price": 78701.1484375,
+        "perp_last_price": 78701.1484375,
+        "mark_price": 78701.1484375,
+        "index_price": 78701.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78609.9921875,
-        "stop_loss_technical": 79135.5390625,
-        "target_1": 77821.671875,
-        "target_2": 77033.3515625,
+        "entry_ideal": 78701.1484375,
+        "stop_loss_technical": 79120.75,
+        "target_1": 78071.74609375,
+        "target_2": 77442.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78609.9921875,
-        "stop_loss_technical": 77430.84230469,
-        "target_1": 80378.71701172,
-        "target_2": 82147.44183594,
+        "entry_ideal": 78701.1484375,
+        "stop_loss_technical": 77520.63121094,
+        "target_1": 80471.92427734,
+        "target_2": 82242.70011719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
