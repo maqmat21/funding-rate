@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-01T23:26:36.381363+00:00",
+    "generated_at_utc": "2026-05-02T00:10:20.332901+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Trump Says US Made Over $30 Billion On Intel Stock In Just 90 Days: 'I Have Been Very Successful...'",
     "Simone Biles says she's 'staying inside' forever after being hit with $22K glam bill — why lifestyle creep spares no one",
-    "‘Wow!’: CNBC host stunned as ‘truly incredible’ US jobs number plunges to 189,000 — the lowest level since 1960s",
+    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
     "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
-    "Dave Ramsey Sounds the Alarm on 401(K)S and What So Many Americans Miss",
-    "31% of US homes could soon flood the market — and experts say it still won't make housing affordable",
-    "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "GameStop is preparing offer for eBay, WSJ reports"
+    "‘Wow!’: CNBC host stunned as ‘truly incredible’ US jobs number plunges to 189,000 — the lowest level since 1960s",
+    "Why Sandisk Stock Snapped, Crackled, and Popped",
+    "31% of US homes could soon flood the market — and experts say it still won't make housing affordable"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78085.28125,
-        "perp_last_price": 78085.28125,
-        "mark_price": 78085.28125,
-        "index_price": 78085.28125,
+        "spot_price": 78244.4375,
+        "perp_last_price": 78244.4375,
+        "mark_price": 78244.4375,
+        "index_price": 78244.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78085.28125,
-        "stop_loss_technical": 78940.40625,
-        "target_1": 76802.59375,
-        "target_2": 75519.90625,
+        "entry_ideal": 78244.4375,
+        "stop_loss_technical": 77070.7709375,
+        "target_1": 80004.93734375,
+        "target_2": 81765.4371875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78085.28125,
-        "stop_loss_technical": 76914.00203125,
-        "target_1": 79842.20007812,
-        "target_2": 81599.11890625,
+        "entry_ideal": 78244.4375,
+        "stop_loss_technical": 77070.7709375,
+        "target_1": 80004.93734375,
+        "target_2": 81765.4371875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
