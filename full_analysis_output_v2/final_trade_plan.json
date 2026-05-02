@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T23:08:59.379551+00:00",
+    "generated_at_utc": "2026-05-02T23:57:43.689179+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "‘They’ll be rich’: Trump reveals how Americans can build a $465,000 nest egg on $165 a month — with help from Uncle Sam",
     "McDonald’s rival closes 729 more restaurants",
+    "‘They’ll be rich’: Trump reveals how Americans can build a $465,000 nest egg on $165 a month — with help from Uncle Sam",
     "Billionaire Charlie Munger Called Elon Musk Talented, Unusual, And Peculiar— 'I Don't Buy Him And I Don't Sell Him Short'",
     "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
     "Jamie Ding won $880K on \"Jeopardy!\" — but after taxes and humble savings plan, the windfall may not be so life changing",
     "A 70-Year-Old With $1.4 Million Faces a $62,000 RMD That Pushes Him Into a Higher Tax Bracket",
-    "Wendy’s is closing hundreds of stores: See an updated list of locations where the chain is shuttering the most"
+    "My Top 3 Green Energy Stocks for May 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78701.1484375,
-        "perp_last_price": 78701.1484375,
-        "mark_price": 78701.1484375,
-        "index_price": 78701.1484375,
+        "spot_price": 78661.03125,
+        "perp_last_price": 78661.03125,
+        "mark_price": 78661.03125,
+        "index_price": 78661.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78701.1484375,
-        "stop_loss_technical": 79120.75,
-        "target_1": 78071.74609375,
-        "target_2": 77442.34375,
+        "entry_ideal": 78661.0390625,
+        "stop_loss_technical": 79135.5390625,
+        "target_1": 77949.2890625,
+        "target_2": 77237.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78701.1484375,
-        "stop_loss_technical": 77520.63121094,
-        "target_1": 80471.92427734,
-        "target_2": 82242.70011719,
+        "entry_ideal": 78661.03125,
+        "stop_loss_technical": 77481.11578125,
+        "target_1": 80430.90445312,
+        "target_2": 82200.77765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
