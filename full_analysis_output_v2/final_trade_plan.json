@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T15:26:27.199329+00:00",
+    "generated_at_utc": "2026-05-02T16:06:18.114529+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,34 @@
     "Jamie Ding won $880K on \"Jeopardy!\" — but after taxes and humble savings plan, the windfall may not be so life changing",
     "Top economist Gary Shilling says a recession and a deep stock-market plunge are likely by year-end",
     "Berkshire Operating Profits Rose 18% in First Quarter. The Company Bought Back $235 Million of Stock.",
-    "Crowd shrinks as Berkshire Hathaway's new CEO leads the annual meeting for the first time Saturday",
+    "Texas man allegedly rang up 800 mac & cheese trays at Chick-fil-A that fired him — refunding $80K before he was caught",
     "The Warren Buffett Approved ETF Every Long-Term Investor Should Own",
-    "The Likelihood of a Stock Market Crash Under President Donald Trump Is Rapidly Rising -- and There's One Undeniable Catalyst to Blame"
+    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78386.828125,
-        "perp_last_price": 78386.828125,
-        "mark_price": 78386.828125,
-        "index_price": 78386.828125,
+        "spot_price": 78462.203125,
+        "perp_last_price": 78462.203125,
+        "mark_price": 78462.203125,
+        "index_price": 78462.203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78386.8203125,
-        "stop_loss_technical": 78508.9609375,
-        "target_1": 78203.609375,
-        "target_2": 78020.3984375,
+        "entry_ideal": 78462.203125,
+        "stop_loss_technical": 77285.27007813,
+        "target_1": 80227.60269531,
+        "target_2": 81993.00226562,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78386.828125,
-        "stop_loss_technical": 77211.02570312,
-        "target_1": 80150.53175781,
-        "target_2": 81914.23539063,
+        "entry_ideal": 78462.203125,
+        "stop_loss_technical": 77285.27007813,
+        "target_1": 80227.60269531,
+        "target_2": 81993.00226562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
