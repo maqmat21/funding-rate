@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T10:35:51.614983+00:00",
+    "generated_at_utc": "2026-05-02T11:26:25.268028+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Jamie Ding won $880K on \"Jeopardy!\" — but after taxes and humble savings plan, the windfall may not be so life changing",
+    "Developer Claims He Can Crack $700 Million Lost Bitcoin Wallet",
     "Top economist Gary Shilling says a recession and a deep stock-market plunge are likely by year-end",
-    "'You really feel cheated': Florida couple had to cancel their pilgrimage to Rome, then travel insurance denied the claim",
+    "Texas man allegedly rang up 800 mac & cheese trays at Chick-fil-A that fired him — refunding $80K before he was caught",
     "The Likelihood of a Stock Market Crash Under President Donald Trump Is Rapidly Rising -- and There's One Undeniable Catalyst to Blame",
-    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
-    "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
-    "The Warren Buffett Approved ETF Every Long-Term Investor Should Own"
+    "The Warren Buffett Approved ETF Every Long-Term Investor Should Own",
+    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78266.609375,
-        "perp_last_price": 78266.609375,
-        "mark_price": 78266.609375,
-        "index_price": 78266.609375,
+        "spot_price": 78230.6015625,
+        "perp_last_price": 78230.6015625,
+        "mark_price": 78230.6015625,
+        "index_price": 78230.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78266.609375,
-        "stop_loss_technical": 78742.4375,
-        "target_1": 77552.8671875,
-        "target_2": 76839.125,
+        "entry_ideal": 78230.6015625,
+        "stop_loss_technical": 77057.14253906,
+        "target_1": 79990.79009766,
+        "target_2": 81750.97863281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78266.609375,
-        "stop_loss_technical": 77092.61023437,
-        "target_1": 80027.60808594,
-        "target_2": 81788.60679687,
+        "entry_ideal": 78230.6015625,
+        "stop_loss_technical": 77057.14253906,
+        "target_1": 79990.79009766,
+        "target_2": 81750.97863281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
