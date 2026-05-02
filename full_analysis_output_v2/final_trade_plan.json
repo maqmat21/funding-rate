@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T08:47:22.419510+00:00",
+    "generated_at_utc": "2026-05-02T09:47:50.600379+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
-    "Sergey Brin, Who Fled The Soviet Union, Now Warns California Could Head The Same Way As He Spends $57 Million Fighting Billionaire Tax",
-    "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
     "The Likelihood of a Stock Market Crash Under President Donald Trump Is Rapidly Rising -- and There's One Undeniable Catalyst to Blame",
+    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
+    "Eric Trump’s Crypto Company Is Falling Into Total Disaster",
+    "Sergey Brin, Who Fled The Soviet Union, Now Warns California Could Head The Same Way As He Spends $57 Million Fighting Billionaire Tax",
     "‘Wow!’: CNBC host stunned as ‘truly incredible’ US jobs number plunges to 189,000 — the lowest level since 1960s",
-    "Trump Says US Made Over $30 Billion On Intel Stock In Just 90 Days: 'I Have Been Very Successful...'",
-    "Albertsons receives troubling news"
+    "Here’s What Jim Cramer Thinks You Should Do With Tesla (TSLA) Shares",
+    "Losing a spouse is hard enough, but US tax laws add salt to the wound"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78319.0625,
-        "perp_last_price": 78319.0625,
-        "mark_price": 78319.0625,
-        "index_price": 78319.0625,
+        "spot_price": 78313.1484375,
+        "perp_last_price": 78313.1484375,
+        "mark_price": 78313.1484375,
+        "index_price": 78313.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78319.0625,
-        "stop_loss_technical": 77144.2765625,
-        "target_1": 80081.24140625,
-        "target_2": 81843.4203125,
+        "entry_ideal": 78313.1484375,
+        "stop_loss_technical": 78888.6484375,
+        "target_1": 77449.8984375,
+        "target_2": 76586.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78319.0625,
-        "stop_loss_technical": 77144.2765625,
-        "target_1": 80081.24140625,
-        "target_2": 81843.4203125,
+        "entry_ideal": 78313.1484375,
+        "stop_loss_technical": 77138.45121094,
+        "target_1": 80075.19427734,
+        "target_2": 81837.24011719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
