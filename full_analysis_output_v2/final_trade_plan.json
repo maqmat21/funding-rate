@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T14:34:32.567927+00:00",
+    "generated_at_utc": "2026-05-02T15:26:27.199329+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "‘They’ll be rich’: Trump reveals how Americans can build a $465,000 nest egg on $165 a month — with help from Uncle Sam",
     "Jamie Ding won $880K on \"Jeopardy!\" — but after taxes and humble savings plan, the windfall may not be so life changing",
-    "Berkshire Operating Profits Rose 18% in First Quarter. The Company Bought Back $235 Million of Stock.",
     "Top economist Gary Shilling says a recession and a deep stock-market plunge are likely by year-end",
-    "The Warren Buffett Approved ETF Every Long-Term Investor Should Own",
+    "Berkshire Operating Profits Rose 18% in First Quarter. The Company Bought Back $235 Million of Stock.",
     "Crowd shrinks as Berkshire Hathaway's new CEO leads the annual meeting for the first time Saturday",
-    "Mark Zuckerberg sends startling message to Meta employees",
+    "The Warren Buffett Approved ETF Every Long-Term Investor Should Own",
     "The Likelihood of a Stock Market Crash Under President Donald Trump Is Rapidly Rising -- and There's One Undeniable Catalyst to Blame"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78437.96875,
-        "perp_last_price": 78437.96875,
-        "mark_price": 78437.96875,
-        "index_price": 78437.96875,
+        "spot_price": 78386.828125,
+        "perp_last_price": 78386.828125,
+        "mark_price": 78386.828125,
+        "index_price": 78386.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78443.7578125,
-        "stop_loss_technical": 77267.10144531,
-        "target_1": 80208.74236328,
-        "target_2": 81973.72691406,
+        "entry_ideal": 78386.8203125,
+        "stop_loss_technical": 78508.9609375,
+        "target_1": 78203.609375,
+        "target_2": 78020.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78437.96875,
-        "stop_loss_technical": 77261.39921875,
-        "target_1": 80202.82304687,
-        "target_2": 81967.67734375,
+        "entry_ideal": 78386.828125,
+        "stop_loss_technical": 77211.02570312,
+        "target_1": 80150.53175781,
+        "target_2": 81914.23539063,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
