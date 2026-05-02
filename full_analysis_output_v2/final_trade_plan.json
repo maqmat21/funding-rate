@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-02T19:43:01.566037+00:00",
+    "generated_at_utc": "2026-05-02T20:24:44.350690+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Top 3 Unstoppable Dividend Growth Stocks to Buy (and Hold) for the Next Decade",
     "‘They’ll be rich’: Trump reveals how Americans can build a $465,000 nest egg on $165 a month — with help from Uncle Sam",
+    "McDonald’s rival closes 729 more restaurants",
     "Jamie Ding won $880K on \"Jeopardy!\" — but after taxes and humble savings plan, the windfall may not be so life changing",
     "Elon Musk Just Announced Fanastic News to Nvidia Stock Investors",
     "The Warren Buffett Approved ETF Every Long-Term Investor Should Own",
-    "Top economist Gary Shilling says a recession and a deep stock-market plunge are likely by year-end",
-    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth",
-    "Mark Zuckerberg sends startling message to Meta employees"
+    "Billionaire Tony Robbins says donating to charity for 15 years has actually fueled his 'insane' wealth"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78516.046875,
-        "perp_last_price": 78516.046875,
-        "mark_price": 78516.046875,
-        "index_price": 78516.046875,
+        "spot_price": 78432.0,
+        "perp_last_price": 78432.0,
+        "mark_price": 78432.0,
+        "index_price": 78432.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78514.3203125,
-        "stop_loss_technical": 77336.60550781,
-        "target_1": 80280.89251953,
-        "target_2": 82047.46472656,
+        "entry_ideal": 78431.9921875,
+        "stop_loss_technical": 78588.4375,
+        "target_1": 78197.32421875,
+        "target_2": 77962.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78516.046875,
-        "stop_loss_technical": 77338.30617187,
-        "target_1": 80282.65792969,
-        "target_2": 82049.26898437,
+        "entry_ideal": 78432.0,
+        "stop_loss_technical": 77255.52,
+        "target_1": 80196.72,
+        "target_2": 81961.44,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
