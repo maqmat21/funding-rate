@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T11:07:13.096139+00:00",
+    "generated_at_utc": "2026-05-03T11:55:09.317870+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
-    "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
     "President Donald Trump Vowed Not to Touch Social Security -- but He May Have Indirectly Broken That Promise",
+    "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
     "Dave Ramsey sits on $850 million in real estate — and says anyone who calls it 'passive income' is lying",
     "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "Warren Buffett's Best Advice for Buying Stocks During Market Uncertainty",
-    "Warren Buffett says markets are like a church with a casino attached, but ‘we’ve never had people in a more gambling mood than now’"
+    "Why not start smoking again? Cigarettes no longer look so bad as people despair for the future of the world and economy",
+    "ExxonMobil vs. Chevron: One of These Energy Stocks Is a Much Better Dividend Buy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78415.5,
-        "perp_last_price": 78415.5,
-        "mark_price": 78415.5,
-        "index_price": 78415.5,
+        "spot_price": 78710.0078125,
+        "perp_last_price": 78710.0078125,
+        "mark_price": 78710.0078125,
+        "index_price": 78710.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78415.5,
-        "stop_loss_technical": 79135.5390625,
-        "target_1": 77335.44140625,
-        "target_2": 76255.3828125,
+        "entry_ideal": 78710.078125,
+        "stop_loss_technical": 77529.42695313,
+        "target_1": 80481.05488281,
+        "target_2": 82252.03164063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78415.5,
-        "stop_loss_technical": 77239.2675,
-        "target_1": 80179.84875,
-        "target_2": 81944.1975,
+        "entry_ideal": 78710.0078125,
+        "stop_loss_technical": 77529.35769531,
+        "target_1": 80480.98298828,
+        "target_2": 82251.95816406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
