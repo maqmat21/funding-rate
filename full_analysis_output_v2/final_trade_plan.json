@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T15:00:11.530639+00:00",
+    "generated_at_utc": "2026-05-03T15:50:09.033709+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
     "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
     "President Donald Trump Vowed Not to Touch Social Security -- but He May Have Indirectly Broken That Promise",
-    "Why not start smoking again? Cigarettes no longer look so bad as people despair for the future of the world and economy",
     "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "Dave Ramsey sits on $850 million in real estate — and says anyone who calls it 'passive income' is lying",
-    "The Market Is Volatile. These 3 Stocks Will Pay You No Matter What."
+    "Elon’s Terafab Is Moving at “Light Speed” — and That Could Mean Big Things for Tesla",
+    "Why not start smoking again? Cigarettes no longer look so bad as people despair for the future of the world and economy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78721.8515625,
-        "perp_last_price": 78721.8515625,
-        "mark_price": 78721.8515625,
-        "index_price": 78721.8515625,
+        "spot_price": 78656.203125,
+        "perp_last_price": 78656.203125,
+        "mark_price": 78656.203125,
+        "index_price": 78656.203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78732.2890625,
-        "stop_loss_technical": 77551.30472656,
-        "target_1": 80503.76556641,
-        "target_2": 82275.24207031,
+        "entry_ideal": 78656.1875,
+        "stop_loss_technical": 79120.75,
+        "target_1": 77959.34375,
+        "target_2": 77262.5,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78721.8515625,
-        "stop_loss_technical": 77541.02378906,
-        "target_1": 80493.09322266,
-        "target_2": 82264.33488281,
+        "entry_ideal": 78656.203125,
+        "stop_loss_technical": 77476.36007812,
+        "target_1": 80425.96769531,
+        "target_2": 82195.73226563,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
