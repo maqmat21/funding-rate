@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T05:41:57.918831+00:00",
+    "generated_at_utc": "2026-05-03T07:33:05.115539+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Dave Ramsey sits on $850 million in real estate — and says anyone who calls it 'passive income' is lying",
-    "McDonald’s rival closes 729 more restaurants",
     "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "Texas man allegedly rang up 800 mac & cheese trays at Chick-fil-A that fired him — refunding $80K before he was caught",
-    "Elon Musk Just Announced Fanastic News to Nvidia Stock Investors",
     "Warren Buffett says markets are like a church with a casino attached, but ‘we’ve never had people in a more gambling mood than now’",
-    "SpaceX IPO: Is This the 10X Stock You've Been Waiting For?"
+    "McDonald’s rival closes 729 more restaurants",
+    "Why It Might Not Make Sense To Buy James Halstead plc (LON:JHD) For Its Upcoming Dividend",
+    "Elon Musk Just Announced Fanastic News to Nvidia Stock Investors",
+    "Eric Trump’s Crypto Company Is Falling Into Total Disaster"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78216.7578125,
-        "perp_last_price": 78216.7578125,
-        "mark_price": 78216.7578125,
-        "index_price": 78216.7578125,
+        "spot_price": 78407.0703125,
+        "perp_last_price": 78407.0703125,
+        "mark_price": 78407.0703125,
+        "index_price": 78407.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78216.75,
-        "stop_loss_technical": 77043.49875,
-        "target_1": 79976.626875,
-        "target_2": 81736.50375,
+        "entry_ideal": 78407.078125,
+        "stop_loss_technical": 77230.97195313,
+        "target_1": 80171.23738281,
+        "target_2": 81935.39664062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78216.7578125,
-        "stop_loss_technical": 79135.5390625,
-        "target_1": 76838.5859375,
-        "target_2": 75460.4140625,
+        "entry_ideal": 78407.0703125,
+        "stop_loss_technical": 77230.96425781,
+        "target_1": 80171.22939453,
+        "target_2": 81935.38847656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
