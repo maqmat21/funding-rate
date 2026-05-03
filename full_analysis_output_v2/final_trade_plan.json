@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T21:27:26.589824+00:00",
+    "generated_at_utc": "2026-05-03T22:06:29.980850+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett has blunt message on stock market for 2026",
+    "Massive US lithium discovery concentrated in Carolina mountains; NC lithium mine clears major hurdle: EPA",
     "Is the Vanguard High Dividend Yield ETF a Buy Now?",
     "A couple lost $185K in retirement savings because no advisor was actually managing their account",
-    "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
-    "Bill Gates Once Called Tesla's Semi Truck Impractical, But Gavin Newsom May Need Elon Musk's All-Electric Hauler To Bolster Clean Energy Bid",
-    "Bizarre moment at Berkshire's annual meeting spotlights cyber risk"
+    "Warren Buffett has blunt message on stock market for 2026",
+    "Bank of America drops stunning take on the economy",
+    "Bill Gates Once Called Tesla's Semi Truck Impractical, But Gavin Newsom May Need Elon Musk's All-Electric Hauler To Bolster Clean Energy Bid"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78931.34375,
-        "perp_last_price": 78931.34375,
-        "mark_price": 78931.34375,
-        "index_price": 78931.34375,
+        "spot_price": 78995.2734375,
+        "perp_last_price": 78995.2734375,
+        "mark_price": 78995.2734375,
+        "index_price": 78995.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78928.0625,
-        "stop_loss_technical": 79225.2734375,
-        "target_1": 78482.24609375,
-        "target_2": 78036.4296875,
+        "entry_ideal": 78994.3984375,
+        "stop_loss_technical": 77809.48246094,
+        "target_1": 80771.77240234,
+        "target_2": 82549.14636719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78931.34375,
-        "stop_loss_technical": 77747.37359375,
-        "target_1": 80707.29898437,
-        "target_2": 82483.25421875,
+        "entry_ideal": 78995.2734375,
+        "stop_loss_technical": 77810.34433594,
+        "target_1": 80772.66708984,
+        "target_2": 82550.06074219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
