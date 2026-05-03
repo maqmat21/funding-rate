@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T15:50:09.033709+00:00",
+    "generated_at_utc": "2026-05-03T16:32:31.422908+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,33 +27,32 @@
     "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
     "President Donald Trump Vowed Not to Touch Social Security -- but He May Have Indirectly Broken That Promise",
     "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "Elon’s Terafab Is Moving at “Light Speed” — and That Could Mean Big Things for Tesla",
-    "Why not start smoking again? Cigarettes no longer look so bad as people despair for the future of the world and economy"
+    "Warren Buffett's Successor, Greg Abel, Sends Investors a $397 Billion Warning. History Says the Stock Market Will Do This Next.",
+    "Dave Ramsey sits on $850 million in real estate — and says anyone who calls it 'passive income' is lying"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78656.203125,
-        "perp_last_price": 78656.203125,
-        "mark_price": 78656.203125,
-        "index_price": 78656.203125,
+        "spot_price": 78669.4921875,
+        "perp_last_price": 78669.4921875,
+        "mark_price": 78669.4921875,
+        "index_price": 78669.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78656.1875,
-        "stop_loss_technical": 79120.75,
-        "target_1": 77959.34375,
-        "target_2": 77262.5,
+        "entry_ideal": 78669.4921875,
+        "stop_loss_technical": 77489.44980469,
+        "target_1": 80439.55576172,
+        "target_2": 82209.61933594,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78656.203125,
-        "stop_loss_technical": 77476.36007812,
-        "target_1": 80425.96769531,
-        "target_2": 82195.73226563,
+        "entry_ideal": 78669.4921875,
+        "stop_loss_technical": 77489.44980469,
+        "target_1": 80439.55576172,
+        "target_2": 82209.61933594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
