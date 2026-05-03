@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T17:29:32.055554+00:00",
+    "generated_at_utc": "2026-05-03T18:10:18.785011+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "McDonald’s is eliminating a popular customer perk nationwide",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
+    "Warren Buffett has blunt message on stock market for 2026",
     "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
     "President Donald Trump Vowed Not to Touch Social Security -- but He May Have Indirectly Broken That Promise",
-    "The Best 3 Nuclear Energy Stocks to Buy and Hold for Decades",
-    "Warren Buffett has blunt message on stock market for 2026"
+    "Bill Gates Once Called Tesla's Semi Truck Impractical, But Gavin Newsom May Need Elon Musk's All-Electric Hauler To Bolster Clean Energy Bid",
+    "3 Stocks to Buy and Hold Through Any Market Storm"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78725.34375,
-        "perp_last_price": 78725.34375,
-        "mark_price": 78725.34375,
-        "index_price": 78725.34375,
+        "spot_price": 78680.3984375,
+        "perp_last_price": 78680.3984375,
+        "mark_price": 78680.3984375,
+        "index_price": 78680.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78725.0,
-        "stop_loss_technical": 77544.125,
-        "target_1": 80496.3125,
-        "target_2": 82267.625,
+        "entry_ideal": 78680.3984375,
+        "stop_loss_technical": 78863.7265625,
+        "target_1": 78405.40625,
+        "target_2": 78130.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78725.34375,
-        "stop_loss_technical": 77544.46359375,
-        "target_1": 80496.66398438,
-        "target_2": 82267.98421875,
+        "entry_ideal": 78680.3984375,
+        "stop_loss_technical": 77500.19246094,
+        "target_1": 80450.70740234,
+        "target_2": 82221.01636719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
