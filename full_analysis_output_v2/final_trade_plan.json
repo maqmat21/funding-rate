@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-03T20:46:27.216611+00:00",
+    "generated_at_utc": "2026-05-03T21:27:26.589824+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,34 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett has blunt message on stock market for 2026",
     "Is the Vanguard High Dividend Yield ETF a Buy Now?",
+    "A couple lost $185K in retirement savings because no advisor was actually managing their account",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
     "Bill Gates Once Called Tesla's Semi Truck Impractical, But Gavin Newsom May Need Elon Musk's All-Electric Hauler To Bolster Clean Energy Bid",
-    "Why not start smoking again? Cigarettes no longer look so bad as people despair for the future of the world and economy",
-    "Elon’s Terafab Is Moving at “Light Speed” — and That Could Mean Big Things for Tesla"
+    "Bizarre moment at Berkshire's annual meeting spotlights cyber risk"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78950.84375,
-        "perp_last_price": 78950.84375,
-        "mark_price": 78950.84375,
-        "index_price": 78950.84375,
+        "spot_price": 78931.34375,
+        "perp_last_price": 78931.34375,
+        "mark_price": 78931.34375,
+        "index_price": 78931.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78959.59375,
-        "stop_loss_technical": 77775.19984375,
-        "target_1": 80736.18460938,
-        "target_2": 82512.77546875,
+        "entry_ideal": 78928.0625,
+        "stop_loss_technical": 79225.2734375,
+        "target_1": 78482.24609375,
+        "target_2": 78036.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78950.84375,
-        "stop_loss_technical": 77766.58109375,
-        "target_1": 80727.23773437,
-        "target_2": 82503.63171875,
+        "entry_ideal": 78931.34375,
+        "stop_loss_technical": 77747.37359375,
+        "target_1": 80707.29898437,
+        "target_2": 82483.25421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
