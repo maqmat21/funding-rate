@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T01:20:46.256736+00:00",
+    "generated_at_utc": "2026-05-04T04:53:27.574247+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.211,
+        "price": 98.131,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 37m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Massive US lithium discovery concentrated in Carolina mountains; NC lithium mine clears major hurdle: EPA",
-    "A couple lost $185K in retirement savings because no advisor was actually managing their account",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
-    "SpaceX will pay Elon Musk a bonus if he gets at least 1 million people to live on Mars — here's the plan",
-    "Pfizer Stock: Still Priced Like It's Dead Money",
-    "Bill Gates Once Called Tesla's Semi Truck Impractical, But Gavin Newsom May Need Elon Musk's All-Electric Hauler To Bolster Clean Energy Bid"
+    "Massive US lithium discovery concentrated in Carolina mountains; NC lithium mine clears major hurdle: EPA",
+    "GameStop makes bold $56 billion play for eBay, ready to go hostile",
+    "Become a ‘lazy’ millionaire: This one habit can add a 20% bonus to your retirement",
+    "Nvidia Has Split Its Stock 480-for-1 Since 2000. Here's When to Expect the Next Stock Split."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78448.953125,
-        "perp_last_price": 78448.953125,
-        "mark_price": 78448.953125,
-        "index_price": 78448.953125,
+        "spot_price": 80336.953125,
+        "perp_last_price": 80336.953125,
+        "mark_price": 80336.953125,
+        "index_price": 80336.953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78448.953125,
-        "stop_loss_technical": 79425.46875,
-        "target_1": 76984.1796875,
-        "target_2": 75519.40625,
+        "entry_ideal": 80344.9375,
+        "stop_loss_technical": 79139.7634375,
+        "target_1": 82152.69859375,
+        "target_2": 83960.4596875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78448.953125,
-        "stop_loss_technical": 79425.46875,
-        "target_1": 76984.1796875,
-        "target_2": 75519.40625,
+        "entry_ideal": 80336.953125,
+        "stop_loss_technical": 79131.89882813,
+        "target_1": 82144.53457031,
+        "target_2": 83952.11601562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
