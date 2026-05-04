@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T16:16:19.415253+00:00",
+    "generated_at_utc": "2026-05-04T17:52:00.976095+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.438,
+        "price": 98.456,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.444,
+        "price": 4.448,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 44m",
+    "U.S. markets close in 2h 9m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "These Are the 10 Richest Countries in the World",
     "The Best Dividend Stocks to Buy and Hold Forever",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
     "Is the Vanguard High Dividend Yield ETF a Buy Now?",
-    "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
-    "This Under-the-Radar $1 Billion Stock Has Big‑League Growth Targets -- Could It Quietly Become a Generational Wealth Engine?"
+    "Want a refill? McDonald's is changing how you get soda at restaurants"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79660.0078125,
-        "perp_last_price": 79660.0078125,
-        "mark_price": 79660.0078125,
-        "index_price": 79660.0078125,
+        "spot_price": 80594.5,
+        "perp_last_price": 80594.5,
+        "mark_price": 80594.5,
+        "index_price": 80594.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79651.9921875,
-        "stop_loss_technical": 80600.0,
-        "target_1": 78229.98046875,
-        "target_2": 76807.96875,
+        "entry_ideal": 80594.5,
+        "stop_loss_technical": 79385.5825,
+        "target_1": 82407.87625,
+        "target_2": 84221.2525,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79660.0078125,
-        "stop_loss_technical": 78465.10769531,
-        "target_1": 81452.35798828,
-        "target_2": 83244.70816406,
+        "entry_ideal": 80594.5,
+        "stop_loss_technical": 79385.5825,
+        "target_1": 82407.87625,
+        "target_2": 84221.2525,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
