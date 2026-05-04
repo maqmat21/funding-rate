@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T21:45:46.282145+00:00",
+    "generated_at_utc": "2026-05-04T22:40:42.094540+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.462,
+        "price": 98.479,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "State Farm launches all out war on California in blistering statement after bombshell wildfire exposé",
-    "A proposal would cap Social Security at $100,000. Will it fly?",
+    "Wealthy, Rich, or Upper Class? The retirement numbers at every tier",
     "The Best Dividend Stocks to Buy and Hold Forever",
-    "Nvidia Just Stunned the Quantum Computing Market. What Does This Mean for IonQ, D-Wave, and Rigetti?",
-    "Supply Chain Stocks Are Plunging on Amazon's Logistics Launch. 1 Reason To Buy the Dip",
+    "A proposal would cap Social Security at $100,000. Will it fly?",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
-    "Spirit Airlines is gone. Here are the low-cost airlines filling the gap."
+    "Nvidia Just Stunned the Quantum Computing Market. What Does This Mean for IonQ, D-Wave, and Rigetti?",
+    "ServiceNow CEO sends blunt message on acquisitions"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80234.3984375,
-        "perp_last_price": 80234.3984375,
-        "mark_price": 80234.3984375,
-        "index_price": 80234.3984375,
+        "spot_price": 80118.5,
+        "perp_last_price": 80118.5,
+        "mark_price": 80118.5,
+        "index_price": 80118.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80234.3984375,
-        "stop_loss_technical": 79030.88246094,
-        "target_1": 82039.67240234,
-        "target_2": 83844.94636719,
+        "entry_ideal": 80115.0078125,
+        "stop_loss_technical": 80744.3671875,
+        "target_1": 79170.96875,
+        "target_2": 78226.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80234.3984375,
-        "stop_loss_technical": 79030.88246094,
-        "target_1": 82039.67240234,
-        "target_2": 83844.94636719,
+        "entry_ideal": 80118.5,
+        "stop_loss_technical": 78916.7225,
+        "target_1": 81921.16625,
+        "target_2": 83723.8325,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
