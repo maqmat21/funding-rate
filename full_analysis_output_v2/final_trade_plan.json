@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T07:42:25.686996+00:00",
+    "generated_at_utc": "2026-05-04T10:01:16.021016+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.214,
+        "price": 98.247,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 48m",
+    "U.S. markets open in 3h 29m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "The Best Dividend Stocks to Buy and Hold Forever",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
     "Is the Vanguard High Dividend Yield ETF a Buy Now?",
-    "Nvidia Has Split Its Stock 480-for-1 Since 2000. Here's When to Expect the Next Stock Split.",
-    "Pfizer Stock: Still Priced Like It's Dead Money",
-    "SpaceX will pay Elon Musk a bonus if he gets at least 1 million people to live on Mars — here's the plan"
+    "BCBS settlement payments start this month. Who gets paid and how much",
+    "Nvidia Has Split Its Stock 480-for-1 Since 2000. Here's When to Expect the Next Stock Split."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79741.5390625,
-        "perp_last_price": 79741.5390625,
-        "mark_price": 79741.5390625,
-        "index_price": 79741.5390625,
+        "spot_price": 79782.5,
+        "perp_last_price": 79782.5,
+        "mark_price": 79782.5,
+        "index_price": 79782.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79738.75,
-        "stop_loss_technical": 80600.859375,
-        "target_1": 78445.5859375,
-        "target_2": 77152.421875,
+        "entry_ideal": 79782.5,
+        "stop_loss_technical": 80600.0,
+        "target_1": 78556.25,
+        "target_2": 77330.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79741.5390625,
-        "stop_loss_technical": 78545.41597656,
-        "target_1": 81535.72369141,
-        "target_2": 83329.90832031,
+        "entry_ideal": 79782.5,
+        "stop_loss_technical": 78585.7625,
+        "target_1": 81577.60625,
+        "target_2": 83372.7125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
