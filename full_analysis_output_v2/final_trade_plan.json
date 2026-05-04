@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T20:41:19.295092+00:00",
+    "generated_at_utc": "2026-05-04T21:45:46.282145+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.473,
+        "price": 98.462,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "State Farm launches all out war on California in blistering statement after bombshell wildfire exposé",
     "A proposal would cap Social Security at $100,000. Will it fly?",
-    "As Palantir Lands a Deal With Cleveland-Cliffs, Should You Buy, Sell, or Hold PLTR stock?",
-    "Lattice Semiconductor (NASDAQ:LSCC) Reports Upbeat Q1, Inventory Levels Improve",
-    "OSI Systems (NASDAQ:OSIS) Surprises With Q1 CY2026 Sales",
-    "Genius Sports Expands Media Reach With Legend Deal But Takes On Debt",
     "The Best Dividend Stocks to Buy and Hold Forever",
-    "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks"
+    "Nvidia Just Stunned the Quantum Computing Market. What Does This Mean for IonQ, D-Wave, and Rigetti?",
+    "Supply Chain Stocks Are Plunging on Amazon's Logistics Launch. 1 Reason To Buy the Dip",
+    "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
+    "Spirit Airlines is gone. Here are the low-cost airlines filling the gap."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79894.4921875,
-        "perp_last_price": 79894.4921875,
-        "mark_price": 79894.4921875,
-        "index_price": 79894.4921875,
+        "spot_price": 80234.3984375,
+        "perp_last_price": 80234.3984375,
+        "mark_price": 80234.3984375,
+        "index_price": 80234.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79893.3125,
-        "stop_loss_technical": 80740.4375,
-        "target_1": 78622.625,
-        "target_2": 77351.9375,
+        "entry_ideal": 80234.3984375,
+        "stop_loss_technical": 79030.88246094,
+        "target_1": 82039.67240234,
+        "target_2": 83844.94636719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79894.4921875,
-        "stop_loss_technical": 78696.07480469,
-        "target_1": 81692.11826172,
-        "target_2": 83489.74433594,
+        "entry_ideal": 80234.3984375,
+        "stop_loss_technical": 79030.88246094,
+        "target_1": 82039.67240234,
+        "target_2": 83844.94636719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
