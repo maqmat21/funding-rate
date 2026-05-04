@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T14:25:11.098753+00:00",
+    "generated_at_utc": "2026-05-04T16:16:19.415253+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.315,
+        "price": 98.438,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.422,
+        "price": 4.444,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 36m",
+    "U.S. markets close in 3h 44m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "MicroStrategy Halts Preferred-Share Sales That Powered April’s Bitcoin Buying",
     "The Best Dividend Stocks to Buy and Hold Forever",
-    "What are today's savings account interest rates: May 4, 2026?",
     "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
-    "Is the Vanguard High Dividend Yield ETF a Buy Now?"
+    "Is the Vanguard High Dividend Yield ETF a Buy Now?",
+    "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
+    "This Under-the-Radar $1 Billion Stock Has Big‑League Growth Targets -- Could It Quietly Become a Generational Wealth Engine?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79250.859375,
-        "perp_last_price": 79250.859375,
-        "mark_price": 79250.859375,
-        "index_price": 79250.859375,
+        "spot_price": 79660.0078125,
+        "perp_last_price": 79660.0078125,
+        "mark_price": 79660.0078125,
+        "index_price": 79660.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79253.46875,
-        "stop_loss_technical": 78064.66671875,
-        "target_1": 81036.67179688,
-        "target_2": 82819.87484375,
+        "entry_ideal": 79651.9921875,
+        "stop_loss_technical": 80600.0,
+        "target_1": 78229.98046875,
+        "target_2": 76807.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79250.859375,
-        "stop_loss_technical": 78062.09648437,
-        "target_1": 81034.00371094,
-        "target_2": 82817.14804687,
+        "entry_ideal": 79660.0078125,
+        "stop_loss_technical": 78465.10769531,
+        "target_1": 81452.35798828,
+        "target_2": 83244.70816406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
