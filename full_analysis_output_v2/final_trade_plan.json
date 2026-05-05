@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-05T21:43:06.362620+00:00",
+    "generated_at_utc": "2026-05-05T22:37:16.090327+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.487,
+        "price": 98.486,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Bristow Group (NYSE:VTOL) Surprises With Q1 CY2026 Sales But Stock Drops",
-    "Occidental Petroleum (NYSE:OXY) Misses Q1 CY2026 Revenue Estimates",
-    "Great Elm Capital Corp. Q1 2026 Earnings Call Summary",
-    "Super Micro (NASDAQ:SMCI) Misses Q1 CY2026 Sales Expectations, But Stock Soars 11.6%",
+    "RTX Backlog And Missile Defense Role Raise Longer Term Investor Questions",
     "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
-    "Down as Much as 55% and Still Magnificent: 3 Dividend Stocks Worth Holding for a Lifetime",
-    "Why Intel Stock Skyrocketed to Record Highs Today"
+    "AMD Stock Investors Just Got Fantastic News From CEO Lisa Su -- and There Could Be More to Come",
+    "Is Super Micro Stock Finally Turning a Corner After Smuggling Allegations After Earnings?",
+    "Analyst reveals $3B Bitcoin buy coming this week",
+    "Elon Musk says saving for retirement 'won't matter.' I'm not banking on it.",
+    "If You Had Invested $1,000 in McDonald’s a Decade Ago: A Prospective Dividend King’s Long-Term Payoff"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81376.171875,
-        "perp_last_price": 81376.171875,
-        "mark_price": 81376.171875,
-        "index_price": 81376.171875,
+        "spot_price": 80937.359375,
+        "perp_last_price": 80937.359375,
+        "mark_price": 80937.359375,
+        "index_price": 80937.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81364.59375,
-        "stop_loss_technical": 81770.453125,
-        "target_1": 80755.8046875,
-        "target_2": 80147.015625,
+        "entry_ideal": 80937.359375,
+        "stop_loss_technical": 81312.0078125,
+        "target_1": 80375.38671875,
+        "target_2": 79813.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81376.171875,
-        "stop_loss_technical": 80155.52929688,
-        "target_1": 83207.13574219,
-        "target_2": 85038.09960938,
+        "entry_ideal": 80937.359375,
+        "stop_loss_technical": 79723.29898437,
+        "target_1": 82758.44996094,
+        "target_2": 84579.54054687,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
