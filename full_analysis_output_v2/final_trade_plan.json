@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-05T16:49:24.581600+00:00",
+    "generated_at_utc": "2026-05-05T18:03:51.685567+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.408,
-        "trend": "bajista"
+        "price": 98.441,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.416,
+        "price": 4.414,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 12m",
+    "U.S. markets close in 1h 57m",
     "News from the Yahoo Finance Network",
-    "Why IPG Photonics Stock Just Crashed",
+    "Metallus Inc. Q1 2026 Earnings Call Summary",
+    "Is It Too Late To Consider Ørsted (CPSE:ORSTED) After Its Recent Share Price Rebound",
     "Elon Musk says saving for retirement 'won't matter.' I'm not banking on it.",
     "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
-    "Trump wants to give wealthier Americans $1,000 in free money each year, currently available only to low earners",
-    "Kevin O'Leary Slams $500M Spirit Airlines Bailout As A 'Really Bad Idea' — Says 'You Don't Want To Support Bad Management'",
-    "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?"
+    "Morgan Stanley revisits surging AMD stock price target",
+    "Trump wants to give wealthier Americans $1,000 in free money each year, currently available only to low earners"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80937.359375,
-        "perp_last_price": 80937.359375,
-        "mark_price": 80937.359375,
-        "index_price": 80937.359375,
+        "spot_price": 81300.9609375,
+        "perp_last_price": 81300.9609375,
+        "mark_price": 81300.9609375,
+        "index_price": 81300.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80937.359375,
-        "stop_loss_technical": 81312.0078125,
-        "target_1": 80375.38671875,
-        "target_2": 79813.4140625,
+        "entry_ideal": 81300.9609375,
+        "stop_loss_technical": 81713.0390625,
+        "target_1": 80682.84375,
+        "target_2": 80064.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80937.359375,
-        "stop_loss_technical": 76294.6953125,
-        "target_1": 87901.35546875,
-        "target_2": 94865.3515625,
+        "entry_ideal": 81300.9609375,
+        "stop_loss_technical": 80081.44652344,
+        "target_1": 83130.23255859,
+        "target_2": 84959.50417969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
