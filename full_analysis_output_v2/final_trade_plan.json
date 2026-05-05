@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-05T08:36:13.303790+00:00",
+    "generated_at_utc": "2026-05-05T10:22:38.202595+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.42,
-        "trend": "bajista"
+        "price": 98.485,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.446,
@@ -21,51 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 55m",
+    "U.S. markets open in 3h 8m",
     "News from the Yahoo Finance Network",
-    "Billionaire Warren Buffett Says 30-Year Mortgages Are 'Incredibly Attractive' For Buyers Even With High Interest Rates — 'You've Got A One-Way Bet'",
-    "The Best Dividend Stocks to Buy and Hold Forever",
-    "A $1 Million Portfolio That Quietly Pays You $4,600 a Month, No Job Required",
-    "The Stock Market Is Doing Something for Only the 4th Time in 156 Years -- and History Is Very Clear About What Happens Next",
-    "Become a ‘lazy’ millionaire: This one habit can add a 20% bonus to your retirement",
-    "Bank of America resets Apple stock price target after earnings"
+    "Elon Musk says saving for retirement 'won't matter.' I'm not banking on it.",
+    "Trump wants to give wealthier Americans $1,000 in free money each year, currently available only to low earners",
+    "Here’s What BofA Thinks About ​NVIDIA Corporation (NVDA)",
+    "3 Monster Dividend Stocks That Could Pay You Through the Next Decade of Chaos",
+    "AECOM Hunt, Turner JV launch $2.4B Cleveland Browns stadium project",
+    "The Best Dividend Stocks to Buy and Hold Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80858.5703125,
-        "perp_last_price": 80858.5703125,
-        "mark_price": 80858.5703125,
-        "index_price": 80858.5703125,
+        "spot_price": 80711.1484375,
+        "perp_last_price": 80711.1484375,
+        "mark_price": 80711.1484375,
+        "index_price": 80711.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80858.5703125,
-        "stop_loss_technical": 81304.171875,
-        "target_1": 80190.16796875,
-        "target_2": 79521.765625,
+        "entry_ideal": 80711.1484375,
+        "stop_loss_technical": 79500.48121094,
+        "target_1": 82527.14927734,
+        "target_2": 84343.15011719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80858.5703125,
-        "stop_loss_technical": 76294.6953125,
-        "target_1": 87704.3828125,
-        "target_2": 94550.1953125,
+        "entry_ideal": 80711.1484375,
+        "stop_loss_technical": 79500.48121094,
+        "target_1": 82527.14927734,
+        "target_2": 84343.15011719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
