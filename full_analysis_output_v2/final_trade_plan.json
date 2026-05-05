@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-05T04:26:56.114237+00:00",
+    "generated_at_utc": "2026-05-05T06:33:12.452872+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.509,
+        "price": 98.535,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 4m",
+    "U.S. markets open in 6h 58m",
     "News from the Yahoo Finance Network",
+    "Billionaire Warren Buffett Says 30-Year Mortgages Are 'Incredibly Attractive' For Buyers Even With High Interest Rates — 'You've Got A One-Way Bet'",
     "The Best Dividend Stocks to Buy and Hold Forever",
     "A $1 Million Portfolio That Quietly Pays You $4,600 a Month, No Job Required",
-    "Billionaire Warren Buffett Says 30-Year Mortgages Are 'Incredibly Attractive' For Buyers Even With High Interest Rates — 'You've Got A One-Way Bet'",
-    "Once-popular steakhouse on life support after shuttering most of its locations",
-    "The Stock Market Is Doing Something for Only the 4th Time in 156 Years -- and History Is Very Clear About What Happens Next",
-    "Wealthy, Rich, or Upper Class? The retirement numbers at every tier"
+    "This Blue-Chip Dividend Stock Is Becoming an AI Star",
+    "Wealthy, Rich, or Upper Class? The retirement numbers at every tier",
+    "OpenAI co-founder discloses nearly $30 billion stake, financial ties to Altman"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80892.0078125,
-        "perp_last_price": 80892.0078125,
-        "mark_price": 80892.0078125,
-        "index_price": 80892.0078125,
+        "spot_price": 80816.0,
+        "perp_last_price": 80816.0,
+        "mark_price": 80816.0,
+        "index_price": 80816.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80892.0078125,
-        "stop_loss_technical": 79678.62769531,
-        "target_1": 82712.07798828,
-        "target_2": 84532.14816406,
+        "entry_ideal": 80815.9921875,
+        "stop_loss_technical": 81312.0078125,
+        "target_1": 80071.96875,
+        "target_2": 79327.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80892.0078125,
-        "stop_loss_technical": 79678.62769531,
-        "target_1": 82712.07798828,
-        "target_2": 84532.14816406,
+        "entry_ideal": 80816.0,
+        "stop_loss_technical": 79603.76,
+        "target_1": 82634.36,
+        "target_2": 84452.72,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
