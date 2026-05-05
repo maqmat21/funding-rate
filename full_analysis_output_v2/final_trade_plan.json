@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-04T23:36:53.803254+00:00",
+    "generated_at_utc": "2026-05-05T01:14:34.676987+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.479,
+        "price": 98.515,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,35 +25,35 @@
     "Wealthy, Rich, or Upper Class? The retirement numbers at every tier",
     "State Farm launches all out war on California in blistering statement after bombshell wildfire exposé",
     "The Best Dividend Stocks to Buy and Hold Forever",
+    "Starbucks CEO gets roasted for $9 ‘premium experience’ remarks, but Wall Street toasts his tariff-era turnaround strategy",
     "A proposal would cap Social Security at $100,000. Will it fly?",
-    "Once-popular steakhouse on life support after shuttering most of its locations",
-    "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
-    "Nvidia Just Stunned the Quantum Computing Market. What Does This Mean for IonQ, D-Wave, and Rigetti?"
+    "The Stock Market Is Doing Something for Only the 4th Time in 156 Years -- and History Is Very Clear About What Happens Next",
+    "Once-popular steakhouse on life support after shuttering most of its locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79798.109375,
-        "perp_last_price": 79798.109375,
-        "mark_price": 79798.109375,
-        "index_price": 79798.109375,
+        "spot_price": 80229.59375,
+        "perp_last_price": 80229.59375,
+        "mark_price": 80229.59375,
+        "index_price": 80229.59375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79802.796875,
-        "stop_loss_technical": 80744.3671875,
-        "target_1": 78390.44140625,
-        "target_2": 76978.0859375,
+        "entry_ideal": 80229.59375,
+        "stop_loss_technical": 79026.14984375,
+        "target_1": 82034.75960938,
+        "target_2": 83839.92546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79798.109375,
-        "stop_loss_technical": 78601.13773438,
-        "target_1": 81593.56683594,
-        "target_2": 83389.02429687,
+        "entry_ideal": 80229.59375,
+        "stop_loss_technical": 79026.14984375,
+        "target_1": 82034.75960938,
+        "target_2": 83839.92546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
