@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-05T12:56:53.711663+00:00",
+    "generated_at_utc": "2026-05-05T16:49:24.581600+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.488,
-        "trend": "alcista"
+        "price": 98.408,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.418,
+        "price": 4.416,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 3h 12m",
     "News from the Yahoo Finance Network",
+    "Why IPG Photonics Stock Just Crashed",
     "Elon Musk says saving for retirement 'won't matter.' I'm not banking on it.",
-    "Warren Buffett Says Markets Have Turned Into A 'Casino,' Warns, We've 'Never Had People In A More Gambling Mood Than Now'",
-    "We May Soon Find Out Why Warren Buffett and Berkshire Hathaway Have Almost $400 Billion in Cash",
-    "First Watch (NASDAQ:FWRG) Reports Q1 CY2026 In Line With Expectations",
+    "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
     "Trump wants to give wealthier Americans $1,000 in free money each year, currently available only to low earners",
-    "Veteran economist Gary Shilling says recession is ‘almost inevitable’ — stocks could fall 30%. Here’s what to do now",
-    "The Best Dividend Stocks to Buy and Hold Forever"
+    "Kevin O'Leary Slams $500M Spirit Airlines Bailout As A 'Really Bad Idea' — Says 'You Don't Want To Support Bad Management'",
+    "‘I always did the graveyard shift’: I worked for 54 years. Why on earth would I wait to claim Social Security at 70?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81288.9375,
-        "perp_last_price": 81288.9375,
-        "mark_price": 81288.9375,
-        "index_price": 81288.9375,
+        "spot_price": 80937.359375,
+        "perp_last_price": 80937.359375,
+        "mark_price": 80937.359375,
+        "index_price": 80937.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 81288.921875,
-        "stop_loss_technical": 80069.58804687,
-        "target_1": 83117.92261719,
-        "target_2": 84946.92335937,
+        "entry_ideal": 80937.359375,
+        "stop_loss_technical": 81312.0078125,
+        "target_1": 80375.38671875,
+        "target_2": 79813.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 81288.9375,
-        "stop_loss_technical": 80069.6034375,
-        "target_1": 83117.93859375,
-        "target_2": 84946.9396875,
+        "entry_ideal": 80937.359375,
+        "stop_loss_technical": 76294.6953125,
+        "target_1": 87901.35546875,
+        "target_2": 94865.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
