@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T21:32:40.764433+00:00",
+    "generated_at_utc": "2026-05-06T22:26:59.845433+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.016,
+        "price": 98.015,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,26 +22,40 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "DoorDash (DASH) Q1 2026 Earnings Transcript",
     "IonQ (NYSE:IONQ) Surprises With Strong Q1 CY2026 But Stock Drops",
-    "Assessing NuScale Power (SMR) Valuation After Recent Share Price Momentum And Narrative Concerns",
-    "Fidelity National Financial (NYSE:FNF) Misses Q1 CY2026 Sales Expectations",
-    "APA Corporation (NASDAQ:APA) Reports Bullish Q1 CY2026",
-    "Dave Inc. Q1 2026 Earnings Call Summary",
-    "Coherent (NYSE:COHR) Surprises With Q1 CY2026 Sales But Stock Drops",
-    "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check"
+    "Texas Pacific Land (NYSE:TPL) Reports Sales Below Analyst Estimates In Q1 CY2026 Earnings",
+    "Prediction: Tesla Stock Is a Buy Before 2029 Due to This $10 Trillion Opportunity",
+    "Ted Turner, outspoken founder of CNN, dies at 87",
+    "DA Davidson Raises Caterpillar (CAT) Target Following Better-Than-Expected Quarter",
+    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81470.328125,
-        "perp_last_price": 81470.328125,
-        "mark_price": 81470.328125,
-        "index_price": 81470.328125,
+        "spot_price": 80909.9765625,
+        "perp_last_price": 80909.9765625,
+        "mark_price": 80909.9765625,
+        "index_price": 80909.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 80909.9765625,
+        "stop_loss_technical": 79696.32691406,
+        "target_1": 82730.45103516,
+        "target_2": 84550.92550781,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 90,
@@ -50,24 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81470.328125,
-        "stop_loss_technical": 81036.90625,
-        "target_1": 82120.4609375,
-        "target_2": 82770.59375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 81470.328125,
-        "stop_loss_technical": 80248.27320313,
-        "target_1": 83303.41050781,
-        "target_2": 85136.49289062,
+        "entry_ideal": 80909.9765625,
+        "stop_loss_technical": 78031.9609375,
+        "target_1": 85227.0,
+        "target_2": 89544.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
