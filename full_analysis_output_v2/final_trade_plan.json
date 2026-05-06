@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T00:11:10.518689+00:00",
+    "generated_at_utc": "2026-05-06T04:06:13.563229+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.321,
+        "price": 98.302,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 25m",
     "News from the Yahoo Finance Network",
-    "Bessent makes stunning Hormuz move that could reset oil prices",
-    "Advanced Micro Devices Q1 Earnings Call Highlights",
-    "Mark Cuban Predicts 5 Years Of Corporate Chaos: Why 'Walled Gardens' From AI Giants Like Microsoft, Alphabet Will Break Big Business",
-    "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
     "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
+    "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
     "If You Had Invested $1,000 in McDonald’s a Decade Ago: A Prospective Dividend King’s Long-Term Payoff",
-    "The Stock Market Is Doing Something for Only the 4th Time in 156 Years -- and History Is Very Clear About What Happens Next"
+    "MSTR Shares Fall as MicroStrategy Weighs Potential Bitcoin Sale",
+    "Elon Musk says saving for retirement 'won't matter.' I'm not banking on it.",
+    "A $1.25 Million Dividend Portfolio That Pays More Than the Average Teacher Earns in a Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81149.4609375,
-        "perp_last_price": 81149.4609375,
-        "mark_price": 81149.4609375,
-        "index_price": 81149.4609375,
+        "spot_price": 81574.78125,
+        "perp_last_price": 81574.78125,
+        "mark_price": 81574.78125,
+        "index_price": 81574.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81149.4609375,
+        "entry_ideal": 81574.78125,
         "stop_loss_technical": 80520.0,
-        "target_1": 82093.65234375,
-        "target_2": 83037.84375,
+        "target_1": 83156.953125,
+        "target_2": 84739.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 81149.4609375,
+        "entry_ideal": 81574.78125,
         "stop_loss_technical": 78031.9609375,
-        "target_1": 85825.7109375,
-        "target_2": 90501.9609375,
+        "target_1": 86889.01171875,
+        "target_2": 92203.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
