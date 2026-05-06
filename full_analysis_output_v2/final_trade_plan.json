@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T20:13:34.970129+00:00",
+    "generated_at_utc": "2026-05-06T21:32:40.764433+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.026,
+        "price": 98.016,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Jackson Financial Inc. Q1 2026 Earnings Call Summary",
-    "Ted Turner, outspoken founder of CNN, dies at 87",
-    "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
-    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year",
-    "Apple settlement: Owners of some iPhone models could get $95",
-    "Mamdani’s tax the rich slogan is ‘just as hateful’ as racial slurs, New York real estate titan says",
-    "What's the required minimum distribution from a $250,000 retirement account?"
+    "IonQ (NYSE:IONQ) Surprises With Strong Q1 CY2026 But Stock Drops",
+    "Assessing NuScale Power (SMR) Valuation After Recent Share Price Momentum And Narrative Concerns",
+    "Fidelity National Financial (NYSE:FNF) Misses Q1 CY2026 Sales Expectations",
+    "APA Corporation (NASDAQ:APA) Reports Bullish Q1 CY2026",
+    "Dave Inc. Q1 2026 Earnings Call Summary",
+    "Coherent (NYSE:COHR) Surprises With Q1 CY2026 Sales But Stock Drops",
+    "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81623.5703125,
-        "perp_last_price": 81623.5703125,
-        "mark_price": 81623.5703125,
-        "index_price": 81623.5703125,
+        "spot_price": 81470.328125,
+        "perp_last_price": 81470.328125,
+        "mark_price": 81470.328125,
+        "index_price": 81470.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81612.890625,
-        "stop_loss_technical": 80973.71875,
-        "target_1": 82571.6484375,
-        "target_2": 83530.40625,
+        "entry_ideal": 81470.328125,
+        "stop_loss_technical": 81036.90625,
+        "target_1": 82120.4609375,
+        "target_2": 82770.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81623.5703125,
-        "stop_loss_technical": 78031.9609375,
-        "target_1": 87010.984375,
-        "target_2": 92398.3984375,
+        "entry_ideal": 81470.328125,
+        "stop_loss_technical": 80248.27320313,
+        "target_1": 83303.41050781,
+        "target_2": 85136.49289062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
