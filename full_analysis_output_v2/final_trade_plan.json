@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T11:17:16.729043+00:00",
+    "generated_at_utc": "2026-05-06T13:01:48.928381+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.675,
+        "price": 97.918,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.416,
-        "trend": "alcista"
+        "price": 4.354,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 14m",
     "News from the Yahoo Finance Network",
-    "‘Sometimes, we see bubbles’: Why Michael Burry is betting against AI and doubling down on these stocks instead",
+    "Lucky Strike (NYSE:LUCK) Misses Q1 CY2026 Sales Expectations, Stock Drops 11.4%",
+    "Can South America Capitalize on the Narrow Beef Window to the U.S.?",
+    "'Being real, I'm going to buy a car': NFL star Odell Beckham Jr. says $20M a year isn't enough. Could you make it last?",
     "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
-    "Prediction: Sandisk Stock Is Going to $4,000 in 1 Year",
-    "Nvidia’s 24.5x P/E Multiple Looks Like a Market Mistake — and the Value Argument Is Only Getting Louder the Longer Shares Drift Sideways",
-    "Are Wall Street Analysts Predicting Boeing Stock Will Climb or Sink?",
-    "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative"
+    "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
+    "‘Sometimes, we see bubbles’: Why Michael Burry is betting against AI and doubling down on these stocks instead",
+    "Novo Nordisk Q1 2026 earnings beat on Wegovy pill demand"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82476.921875,
-        "perp_last_price": 82476.921875,
-        "mark_price": 82476.921875,
-        "index_price": 82476.921875,
+        "spot_price": 82069.6328125,
+        "perp_last_price": 82069.6328125,
+        "mark_price": 82069.6328125,
+        "index_price": 82069.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82476.921875,
-        "stop_loss_technical": 80725.2890625,
-        "target_1": 85104.37109375,
-        "target_2": 87731.8203125,
+        "entry_ideal": 82069.6328125,
+        "stop_loss_technical": 80838.58832031,
+        "target_1": 83916.19955078,
+        "target_2": 85762.76628906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82476.921875,
+        "entry_ideal": 82069.6328125,
         "stop_loss_technical": 78031.9609375,
-        "target_1": 89144.36328125,
-        "target_2": 95811.8046875,
+        "target_1": 88126.140625,
+        "target_2": 94182.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
