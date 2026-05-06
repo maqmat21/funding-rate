@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T17:04:03.897554+00:00",
+    "generated_at_utc": "2026-05-06T18:49:33.210563+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.05,
+        "price": 98.043,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.358,
+        "price": 4.354,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 57m",
+    "U.S. markets close in 1h 12m",
     "News from the Yahoo Finance Network",
+    "Planning to Own a Home in Retirement? Don't Fall Into This Trap.",
+    "Beyond Meat stock surge has investors asking one question",
     "Ted Turner, outspoken founder of CNN, dies at 87",
-    "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
-    "Global Payments Inc. Q1 2026 Earnings Call Summary",
+    "Ford Has a Secret Team Working on a $30,000 Electric Truck to Beat China. It’s a ‘Model T Moment,’ Says CEO.",
     "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
-    "What's the required minimum distribution from a $250,000 retirement account?",
-    "Medtronic Stock Outlook: Is Wall Street Bullish or Bearish?"
+    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81606.9296875,
-        "perp_last_price": 81606.9296875,
-        "mark_price": 81606.9296875,
-        "index_price": 81606.9296875,
+        "spot_price": 81366.4296875,
+        "perp_last_price": 81366.4296875,
+        "mark_price": 81366.4296875,
+        "index_price": 81366.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81619.2578125,
-        "stop_loss_technical": 80394.96894531,
-        "target_1": 83455.69111328,
-        "target_2": 85292.12441406,
+        "entry_ideal": 81366.4296875,
+        "stop_loss_technical": 80145.93324219,
+        "target_1": 83197.17435547,
+        "target_2": 85027.91902344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81606.9296875,
-        "stop_loss_technical": 80382.82574219,
-        "target_1": 83443.08560547,
-        "target_2": 85279.24152344,
+        "entry_ideal": 81366.4296875,
+        "stop_loss_technical": 80145.93324219,
+        "target_1": 83197.17435547,
+        "target_2": 85027.91902344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
