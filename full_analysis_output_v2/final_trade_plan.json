@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T13:01:48.928381+00:00",
+    "generated_at_utc": "2026-05-06T15:29:57.230644+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.918,
+        "price": 98.007,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.354,
+        "price": 4.358,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 31m",
     "News from the Yahoo Finance Network",
-    "Lucky Strike (NYSE:LUCK) Misses Q1 CY2026 Sales Expectations, Stock Drops 11.4%",
-    "Can South America Capitalize on the Narrow Beef Window to the U.S.?",
-    "'Being real, I'm going to buy a car': NFL star Odell Beckham Jr. says $20M a year isn't enough. Could you make it last?",
-    "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
     "Mark Cuban says taking out a loan to go to college is the ‘dumbest thing you can do.’ Here’s his alternative",
-    "‘Sometimes, we see bubbles’: Why Michael Burry is betting against AI and doubling down on these stocks instead",
-    "Novo Nordisk Q1 2026 earnings beat on Wegovy pill demand"
+    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year",
+    "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
+    "Got $5,000? These 3 High-Yielding Stocks Are Trading Near Their 52-Week Lows",
+    "House passes the Hot Rotisserie Chicken Act to let families buy exactly 1 hot food with SNAP",
+    "Ford makes a move frugal car buyers will love"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82069.6328125,
-        "perp_last_price": 82069.6328125,
-        "mark_price": 82069.6328125,
-        "index_price": 82069.6328125,
+        "spot_price": 81645.9765625,
+        "perp_last_price": 81645.9765625,
+        "mark_price": 81645.9765625,
+        "index_price": 81645.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,28 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82069.6328125,
-        "stop_loss_technical": 80838.58832031,
-        "target_1": 83916.19955078,
-        "target_2": 85762.76628906,
+        "entry_ideal": 81645.71875,
+        "stop_loss_technical": 80421.03296875,
+        "target_1": 83482.74742187,
+        "target_2": 85319.77609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82069.6328125,
+        "entry_ideal": 81645.9765625,
         "stop_loss_technical": 78031.9609375,
-        "target_1": 88126.140625,
-        "target_2": 94182.6484375,
+        "target_1": 87067.0,
+        "target_2": 92488.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
