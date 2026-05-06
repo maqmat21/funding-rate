@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-06T18:49:33.210563+00:00",
+    "generated_at_utc": "2026-05-06T20:13:34.970129+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.043,
+        "price": 98.026,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.354,
+        "price": 4.356,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 12m",
     "News from the Yahoo Finance Network",
-    "Planning to Own a Home in Retirement? Don't Fall Into This Trap.",
-    "Beyond Meat stock surge has investors asking one question",
+    "Jackson Financial Inc. Q1 2026 Earnings Call Summary",
     "Ted Turner, outspoken founder of CNN, dies at 87",
-    "Ford Has a Secret Team Working on a $30,000 Electric Truck to Beat China. It’s a ‘Model T Moment,’ Says CEO.",
     "A $360,000 Portfolio That Quietly Pays You More Than the Average Social Security Check",
-    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year"
+    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year",
+    "Apple settlement: Owners of some iPhone models could get $95",
+    "Mamdani’s tax the rich slogan is ‘just as hateful’ as racial slurs, New York real estate titan says",
+    "What's the required minimum distribution from a $250,000 retirement account?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81366.4296875,
-        "perp_last_price": 81366.4296875,
-        "mark_price": 81366.4296875,
-        "index_price": 81366.4296875,
+        "spot_price": 81623.5703125,
+        "perp_last_price": 81623.5703125,
+        "mark_price": 81623.5703125,
+        "index_price": 81623.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81366.4296875,
-        "stop_loss_technical": 80145.93324219,
-        "target_1": 83197.17435547,
-        "target_2": 85027.91902344,
+        "entry_ideal": 81612.890625,
+        "stop_loss_technical": 80973.71875,
+        "target_1": 82571.6484375,
+        "target_2": 83530.40625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81366.4296875,
-        "stop_loss_technical": 80145.93324219,
-        "target_1": 83197.17435547,
-        "target_2": 85027.91902344,
+        "entry_ideal": 81623.5703125,
+        "stop_loss_technical": 78031.9609375,
+        "target_1": 87010.984375,
+        "target_2": 92398.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
