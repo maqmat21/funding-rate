@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-07T17:20:00.012803+00:00",
+    "generated_at_utc": "2026-05-07T19:03:13.577304+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.005,
+        "price": 98.086,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.378,
+        "price": 4.394,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 41m",
     "News from the Yahoo Finance Network",
-    "Advanced Flower Capital Inc. Q1 2026 Earnings Call Summary",
     "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
-    "US Foods Holding Corp. Q1 2026 Earnings Call Summary",
-    "Can I Retire at 62 With $500k in a Roth IRA and $2,000 Monthly Income?",
-    "Amplitude, Inc. Q1 2026 Earnings Call Summary",
-    "Fast-growing breakfast chain sees sales jump after menu revamp"
+    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
+    "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
+    "Is It Too Late To Reassess Nucor (NUE) After Its 106% One Year Surge?",
+    "Analysts reset Sandisk stock forecast after massive rally",
+    "Planet Fitness Stock Sinks 31% After Earnings. People Aren’t Paying for Memberships.",
+    "Del Monte bankruptcy prompts massive peach tree removal in California"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79714.5234375,
-        "perp_last_price": 79714.5234375,
-        "mark_price": 79714.5234375,
-        "index_price": 79714.5234375,
+        "spot_price": 80121.828125,
+        "perp_last_price": 80121.828125,
+        "mark_price": 80121.828125,
+        "index_price": 80121.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79706.3984375,
+        "entry_ideal": 80126.28125,
         "stop_loss_technical": 81708.0625,
-        "target_1": 76703.90234375,
-        "target_2": 73701.40625,
+        "target_1": 77753.609375,
+        "target_2": 75380.9375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79714.5234375,
+        "entry_ideal": 80121.828125,
         "stop_loss_technical": 82792.2109375,
-        "target_1": 75097.9921875,
-        "target_2": 70481.4609375,
+        "target_1": 76116.25390625,
+        "target_2": 72110.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
