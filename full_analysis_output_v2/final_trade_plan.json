@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-07T00:05:54.881110+00:00",
+    "generated_at_utc": "2026-05-07T03:58:00.070972+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.042,
+        "price": 98.017,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "BJ's Restaurants, Inc. Q1 2026 Earnings Call Summary",
     "Del Monte bankruptcy prompts massive peach tree removal in California",
-    "MP Materials Is Up 30% in a Month. Is It Too Late to Buy the Only U.S. Mine-to-Magnet Stock?",
-    "Charlie Munger’s Protege Put 43% of His Portfolio in One Stock — and It’s Up 133% in a Year",
+    "Tesla rare mistake prompts it to recall thousands of U.S. vehicles",
+    "'Rich Dad Poor Dad' author issues stark warning on looming 'retirement disaster'",
+    "The unlikely rise of billionaire Ted Turner, who was expelled from Brown before launching his media empire",
     "Ted Turner, outspoken founder of CNN, dies at 87",
-    "History Suggests These 3 Stocks Are Due for a Major Rebound",
-    "The Best Stocks to Buy Right Now for May",
-    "The Smartest Vanguard ETF to Buy With $1,000 Right Now"
+    "Man crowdsourcing to purchase shuttered Spirit Airlines exceeds $437 million in days"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81434.8125,
-        "perp_last_price": 81434.8125,
-        "mark_price": 81434.8125,
-        "index_price": 81434.8125,
+        "spot_price": 80848.4609375,
+        "perp_last_price": 80848.4609375,
+        "mark_price": 80848.4609375,
+        "index_price": 80848.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81427.9296875,
-        "stop_loss_technical": 80973.71875,
-        "target_1": 82109.24609375,
-        "target_2": 82790.5625,
+        "entry_ideal": 80848.4609375,
+        "stop_loss_technical": 79635.73402344,
+        "target_1": 82667.55130859,
+        "target_2": 84486.64167969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81434.8125,
-        "stop_loss_technical": 80213.2903125,
-        "target_1": 83267.09578125,
-        "target_2": 85099.3790625,
+        "entry_ideal": 80848.4609375,
+        "stop_loss_technical": 79635.73402344,
+        "target_1": 82667.55130859,
+        "target_2": 84486.64167969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
