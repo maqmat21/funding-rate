@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-07T13:05:17.506367+00:00",
+    "generated_at_utc": "2026-05-07T15:31:35.868220+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.831,
+        "price": 97.859,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.32,
+        "price": 4.352,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 30m",
     "News from the Yahoo Finance Network",
     "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
+    "Social Security Isn't Just for Workers and Spouses. 3 Other Surprising Ways You Can Qualify.",
+    "Record Backlog and Raised 2026 Guidance Put AAON’s Data Center Growth Story in Focus",
+    "Elon Musk Says 'Insane' They Found 14 'Magic Money Computers' in the Government That Send Money Out of 'Nothing' — But 'It's 80% Incompetence…'",
     "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
-    "Pfizer's 6.5% Dividend Yield Looked Too Good to Be True -- but Management Just Silenced the Skeptics",
-    "What everyone is missing about Mamdani’s plan to tax Ken Griffin’s $238 million penthouse",
-    "3 TSX Stocks That May Be Priced Below Their Estimated Value In May 2026",
-    "Household Debt Hit $18.8 Trillion, But Surprisingly Higher Paychecks Aren’t Helping",
-    "Gen Z Is Saving at Record Rates, But Beth Kobliner Says One Habit Could Destroy It All"
+    "Dividends vs. the 4% Rule: What Happens to a $500,000 Portfolio Over 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81102.8515625,
-        "perp_last_price": 81102.8515625,
-        "mark_price": 81102.8515625,
-        "index_price": 81102.8515625,
+        "spot_price": 79916.0234375,
+        "perp_last_price": 79916.0234375,
+        "mark_price": 79916.0234375,
+        "index_price": 79916.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81084.5703125,
-        "stop_loss_technical": 80564.1328125,
-        "target_1": 81865.2265625,
-        "target_2": 82645.8828125,
+        "entry_ideal": 79916.0234375,
+        "stop_loss_technical": 78717.28308594,
+        "target_1": 81714.13396484,
+        "target_2": 83512.24449219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81102.8515625,
-        "stop_loss_technical": 79886.30878906,
-        "target_1": 82927.66572266,
-        "target_2": 84752.47988281,
+        "entry_ideal": 79916.0234375,
+        "stop_loss_technical": 78717.28308594,
+        "target_1": 81714.13396484,
+        "target_2": 83512.24449219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
