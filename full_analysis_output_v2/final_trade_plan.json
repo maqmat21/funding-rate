@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-07T20:22:37.942796+00:00",
+    "generated_at_utc": "2026-05-07T21:28:57.196797+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.158,
+        "price": 98.216,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Gevo (NASDAQ:GEVO) Misses Q1 CY2026 Revenue Estimates",
+    "EPR Properties Q1 2026 Earnings Call Summary",
+    "Main Street Capital (NYSE:MAIN) Misses Q1 CY2026 Revenue Estimates",
     "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
-    "Some iPhone Owners Could Get Payouts Under a $250M Settlement—Here's What You Need to Know",
-    "How the viral '70-20-10 rule' could help you build a better budget",
-    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
-    "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
-    "Alphatec Holdings, Inc. (NASDAQ:ATEC) Just Reported, And Analysts Assigned A US$18.00 Price Target"
+    "Jennifer Garner’s Once Upon a Farm CFO gets post-IPO raise",
+    "Planet Fitness, Inc. Q1 2026 Earnings Call Summary",
+    "McKesson (NYSE:MCK) Misses Q1 CY2026 Revenue Estimates",
+    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80129.3125,
-        "perp_last_price": 80129.3125,
-        "mark_price": 80129.3125,
-        "index_price": 80129.3125,
+        "spot_price": 79914.5078125,
+        "perp_last_price": 79914.5078125,
+        "mark_price": 79914.5078125,
+        "index_price": 79914.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80138.2265625,
-        "stop_loss_technical": 81708.0625,
-        "target_1": 77783.47265625,
-        "target_2": 75428.71875,
+        "entry_ideal": 79914.5078125,
+        "stop_loss_technical": 78715.79019531,
+        "target_1": 81712.58423828,
+        "target_2": 83510.66066406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80129.3125,
+        "entry_ideal": 79914.5078125,
         "stop_loss_technical": 82792.2109375,
-        "target_1": 76134.96484375,
-        "target_2": 72140.6171875,
+        "target_1": 75597.953125,
+        "target_2": 71281.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
