@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-07T03:58:00.070972+00:00",
+    "generated_at_utc": "2026-05-07T06:32:08.521398+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.017,
-        "trend": "bajista"
+        "price": 98.037,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.356,
@@ -21,54 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 59m",
     "News from the Yahoo Finance Network",
-    "BJ's Restaurants, Inc. Q1 2026 Earnings Call Summary",
-    "Del Monte bankruptcy prompts massive peach tree removal in California",
-    "Tesla rare mistake prompts it to recall thousands of U.S. vehicles",
+    "This \"Magnificent Seven\" Stock Is the Cheapest of Them All. Is It a Buy Right Now?",
+    "iPhone owners could get $95 payout in new Apple settlement",
+    "LiveWire Group, Inc. Q1 2026 Earnings Call Summary",
     "'Rich Dad Poor Dad' author issues stark warning on looming 'retirement disaster'",
-    "The unlikely rise of billionaire Ted Turner, who was expelled from Brown before launching his media empire",
-    "Ted Turner, outspoken founder of CNN, dies at 87",
-    "Man crowdsourcing to purchase shuttered Spirit Airlines exceeds $437 million in days"
+    "Del Monte bankruptcy prompts massive peach tree removal in California",
+    "The unlikely rise of billionaire Ted Turner, who was expelled from Brown before launching his media empire"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80848.4609375,
-        "perp_last_price": 80848.4609375,
-        "mark_price": 80848.4609375,
-        "index_price": 80848.4609375,
+        "spot_price": 81137.03125,
+        "perp_last_price": 81137.03125,
+        "mark_price": 81137.03125,
+        "index_price": 81137.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80848.4609375,
-        "stop_loss_technical": 79635.73402344,
-        "target_1": 82667.55130859,
-        "target_2": 84486.64167969,
+        "entry_ideal": 81137.03125,
+        "stop_loss_technical": 80756.3515625,
+        "target_1": 81708.05078125,
+        "target_2": 82279.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 80848.4609375,
-        "stop_loss_technical": 79635.73402344,
-        "target_1": 82667.55130859,
-        "target_2": 84486.64167969,
+        "entry_ideal": 81137.03125,
+        "stop_loss_technical": 82814.21875,
+        "target_1": 78621.25,
+        "target_2": 76105.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
