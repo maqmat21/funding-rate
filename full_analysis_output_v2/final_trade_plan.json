@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T17:41:58.750053+00:00",
+    "generated_at_utc": "2026-05-08T18:57:53.972321+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.926,
+        "price": 97.898,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 19m",
+    "U.S. markets close in 1h 3m",
     "News from the Yahoo Finance Network",
-    "218,000 Reasons to Sell Tesla Stock in May",
+    "Michael Saylor says remarks about selling Bitcoin were intended to jam short-sellers and ‘haters’",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "Olin Corporation Q1 2026 Earnings Call Summary",
-    "Trump Planning to Fire FDA Commissioner Marty Makary",
-    "What to Know About This Fund’s $5.9 Million Apollo Commercial Real Estate Finance Sale",
-    "Is Prairie Operating (PROP) Using Its New US$4.2 Million Shelf To Quietly Redefine Capital Strategy?"
+    "Fluor posts drop in Q1 awards, revenue",
+    "Chinese Cars In Mexico Mean They're Already In America",
+    "Arm Just Made a Bold Prediction, And It Could Be a Huge Buy Signal",
+    "Costco adds popular item to food court menu"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80093.09375,
-        "perp_last_price": 80093.09375,
-        "mark_price": 80093.09375,
-        "index_price": 80093.09375,
+        "spot_price": 80130.5,
+        "perp_last_price": 80130.5,
+        "mark_price": 80130.5,
+        "index_price": 80130.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80093.09375,
-        "stop_loss_technical": 79245.3671875,
-        "target_1": 81364.68359375,
-        "target_2": 82636.2734375,
+        "entry_ideal": 80130.5,
+        "stop_loss_technical": 78928.5425,
+        "target_1": 81933.43625,
+        "target_2": 83736.3725,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80093.09375,
+        "entry_ideal": 80130.5,
         "stop_loss_technical": 78217.9609375,
-        "target_1": 82905.79296875,
-        "target_2": 85718.4921875,
+        "target_1": 82999.30859375,
+        "target_2": 85868.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
