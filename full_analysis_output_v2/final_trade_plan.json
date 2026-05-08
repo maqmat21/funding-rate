@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T16:07:34.228537+00:00",
+    "generated_at_utc": "2026-05-08T17:41:58.750053+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.893,
+        "price": 97.926,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.366,
+        "price": 4.362,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 53m",
+    "U.S. markets close in 2h 19m",
     "News from the Yahoo Finance Network",
-    "Eversource CEO: ‘We are resisting data centers’",
+    "218,000 Reasons to Sell Tesla Stock in May",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "Why Super Micro Computer Stock Surged This Week",
-    "Micron Rockets 11%, SanDisk Rallies 11%, Western Digital Up 3% on AI Memory Supercycle Bull Case",
-    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
-    "Arbor Realty (ABR) Q1 2026 Earnings Transcript"
+    "Olin Corporation Q1 2026 Earnings Call Summary",
+    "Trump Planning to Fire FDA Commissioner Marty Makary",
+    "What to Know About This Fund’s $5.9 Million Apollo Commercial Real Estate Finance Sale",
+    "Is Prairie Operating (PROP) Using Its New US$4.2 Million Shelf To Quietly Redefine Capital Strategy?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79993.7421875,
-        "perp_last_price": 79993.7421875,
-        "mark_price": 79993.7421875,
-        "index_price": 79993.7421875,
+        "spot_price": 80093.09375,
+        "perp_last_price": 80093.09375,
+        "mark_price": 80093.09375,
+        "index_price": 80093.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79993.7421875,
-        "stop_loss_technical": 78793.83605469,
-        "target_1": 81793.60138672,
-        "target_2": 83593.46058594,
+        "entry_ideal": 80093.09375,
+        "stop_loss_technical": 79245.3671875,
+        "target_1": 81364.68359375,
+        "target_2": 82636.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79993.7421875,
-        "stop_loss_technical": 78793.83605469,
-        "target_1": 81793.60138672,
-        "target_2": 83593.46058594,
+        "entry_ideal": 80093.09375,
+        "stop_loss_technical": 78217.9609375,
+        "target_1": 82905.79296875,
+        "target_2": 85718.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
