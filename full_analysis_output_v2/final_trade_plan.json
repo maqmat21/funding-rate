@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-07T23:29:59.090243+00:00",
+    "generated_at_utc": "2026-05-08T00:13:46.195954+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.257,
+        "price": 98.229,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
-    "Target executive unveils bold new plan to win back customers",
-    "Fresh tariff defeat could give businesses a 2-month window before new duties can be imposed",
+    "What the latest ruling on Trump’s tariffs could mean for businesses",
     "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
-    "SoundHound AI (NASDAQ:SOUN) Delivers Strong Q1 CY2026 Numbers But Stock Drops 12.4%",
     "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
-    "I-bonds are the best place to put your cash right now — and that should worry you"
+    "BA Stock Alert: What to Expect as Boeing CEO Joins Trump on China Trip",
+    "How Corporate Executives With $5 Million 401(k)s Avoid the Top Tax Bracket in Retirement",
+    "$100,000 in Our Dividend Kings Portfolio Will Generate $5,400 in Passive Income Each Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79941.6796875,
-        "perp_last_price": 79941.6796875,
-        "mark_price": 79941.6796875,
-        "index_price": 79941.6796875,
+        "spot_price": 80045.140625,
+        "perp_last_price": 80045.140625,
+        "mark_price": 80045.140625,
+        "index_price": 80045.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79941.6796875,
-        "stop_loss_technical": 78742.55449219,
-        "target_1": 81740.36748047,
-        "target_2": 83539.05527344,
+        "entry_ideal": 80045.140625,
+        "stop_loss_technical": 78844.46351563,
+        "target_1": 81846.15628906,
+        "target_2": 83647.17195312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79941.6796875,
+        "entry_ideal": 80045.140625,
         "stop_loss_technical": 82792.2109375,
-        "target_1": 75665.8828125,
-        "target_2": 71390.0859375,
+        "target_1": 75924.53515625,
+        "target_2": 71803.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
