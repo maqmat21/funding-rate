@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T12:59:33.601293+00:00",
+    "generated_at_utc": "2026-05-08T14:51:15.750393+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.89,
+        "price": 97.914,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.374,
+        "price": 4.356,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 10m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "Kevin O'Leary says Steve Jobs gave him the best career advice: 'There's only 3 things you have to get done every day'",
-    "Bold Prediction: NuScale Power Is About to Soar. Here's Why.",
-    "'I am shorting the business model... I am shorting the CEO': Two top analysts just slapped Palantir with a 'sell' rating",
-    "3 Unstoppable Dividend King Stocks to Buy Right Now for Less Than $550",
-    "Ken Griffin says the Iran war is triggering a recession. He's the rare billionaire willing to put a date on it",
+    "How The Whirlpool (WHR) Investment Narrative Is Shifting With Reset Valuation And Softer Shipment Trends",
+    "Why Sandisk Stock Bounced Back Today",
+    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
+    "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
     "Costco adds popular item to food court menu"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79999.15625,
-        "perp_last_price": 79999.15625,
-        "mark_price": 79999.15625,
-        "index_price": 79999.15625,
+        "spot_price": 80205.0078125,
+        "perp_last_price": 80205.0078125,
+        "mark_price": 80205.0078125,
+        "index_price": 80205.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80002.7109375,
-        "stop_loss_technical": 78802.67027344,
-        "target_1": 81802.77193359,
-        "target_2": 83602.83292969,
+        "entry_ideal": 80205.0078125,
+        "stop_loss_technical": 79247.7890625,
+        "target_1": 81640.8359375,
+        "target_2": 83076.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79999.15625,
-        "stop_loss_technical": 78799.16890625,
-        "target_1": 81799.13726563,
-        "target_2": 83599.11828125,
+        "entry_ideal": 80205.0078125,
+        "stop_loss_technical": 78217.9609375,
+        "target_1": 83185.578125,
+        "target_2": 86166.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
