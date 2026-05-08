@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T07:10:31.874830+00:00",
+    "generated_at_utc": "2026-05-08T08:47:35.853380+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.108,
+        "price": 98.01,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 21m",
+    "U.S. markets open in 4h 43m",
     "News from the Yahoo Finance Network",
+    "Netflix (NFLX) Is Down 5.7% After Cautious Q2 Guide And $25 Billion Buyback Plan - Has The Bull Case Changed?",
     "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
+    "Bold Prediction: NuScale Power Is About to Soar. Here's Why.",
+    "'I am shorting the business model... I am shorting the CEO': Two top analysts just slapped Palantir with a 'sell' rating",
     "Costco adds popular item to food court menu",
-    "Another airline cancels flights until June, travelers offered refunds",
-    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
-    "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
-    "The Trump Administration’s Picks Are Beating The Market. One Stock Accounts for Most of the Gain."
+    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79312.5703125,
-        "perp_last_price": 79312.5703125,
-        "mark_price": 79312.5703125,
-        "index_price": 79312.5703125,
+        "spot_price": 79850.25,
+        "perp_last_price": 79850.25,
+        "mark_price": 79850.25,
+        "index_price": 79850.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 79312.5703125,
-        "stop_loss_technical": 81192.46875,
-        "target_1": 76492.72265625,
-        "target_2": 73672.875,
+        "entry_ideal": 79850.25,
+        "stop_loss_technical": 79245.3671875,
+        "target_1": 80757.57421875,
+        "target_2": 81664.8984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 79312.5703125,
+        "entry_ideal": 79850.25,
         "stop_loss_technical": 82792.2109375,
-        "target_1": 74093.109375,
-        "target_2": 68873.6484375,
+        "target_1": 75437.30859375,
+        "target_2": 71024.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
