@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T18:57:53.972321+00:00",
+    "generated_at_utc": "2026-05-08T20:05:04.732019+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -15,44 +15,45 @@
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.362,
+        "price": 4.364,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 3m",
     "News from the Yahoo Finance Network",
-    "Michael Saylor says remarks about selling Bitcoin were intended to jam short-sellers and ‘haters’",
+    "Cheniere Energy (NYSE:LNG) Could Be A Buy For Its Upcoming Dividend",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "Fluor posts drop in Q1 awards, revenue",
-    "Chinese Cars In Mexico Mean They're Already In America",
-    "Arm Just Made a Bold Prediction, And It Could Be a Huge Buy Signal",
-    "Costco adds popular item to food court menu"
+    "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
+    "'The Wealthy Are Getting Wealthier,' Says Joe Rogan As The Middle Class Is 'Disappearing' And The Poor Are Being 'Taxed Into Oblivion'",
+    "Costco adds popular item to food court menu",
+    "Rocket Lab Stock Jumps After Biggest-Ever Launch Contract Shocks Market",
+    "4 Dividend Stocks to Double Up on Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80130.5,
-        "perp_last_price": 80130.5,
-        "mark_price": 80130.5,
-        "index_price": 80130.5,
+        "spot_price": 80155.34375,
+        "perp_last_price": 80155.34375,
+        "mark_price": 80155.34375,
+        "index_price": 80155.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80130.5,
-        "stop_loss_technical": 78928.5425,
-        "target_1": 81933.43625,
-        "target_2": 83736.3725,
+        "entry_ideal": 80155.34375,
+        "stop_loss_technical": 79247.7890625,
+        "target_1": 81516.67578125,
+        "target_2": 82878.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80130.5,
+        "entry_ideal": 80155.34375,
         "stop_loss_technical": 78217.9609375,
-        "target_1": 82999.30859375,
-        "target_2": 85868.1171875,
+        "target_1": 83061.41796875,
+        "target_2": 85967.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
