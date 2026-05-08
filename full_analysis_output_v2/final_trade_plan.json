@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T03:54:19.732627+00:00",
+    "generated_at_utc": "2026-05-08T05:50:02.778871+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.205,
+        "price": 98.185,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 41m",
     "News from the Yahoo Finance Network",
     "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
     "Costco adds popular item to food court menu",
     "Another airline cancels flights until June, travelers offered refunds",
-    "BBB Foods Inc. Q1 2026 Earnings Call Summary",
+    "eBay bans GameStop CEO’s account after he started listing store signs and old carpets to fund his $56 billion offer to buy the marketplace",
     "A Stock Market Correction Could Be Coming. Here's What 100 Years of Data Says Happens Next.",
-    "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead",
-    "How Corporate Executives With $5 Million 401(k)s Avoid the Top Tax Bracket in Retirement"
+    "Many Americans think 63 is the perfect age to retire, but they’re dead wrong. Here’s the big number to pin it on instead"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79572.3671875,
-        "perp_last_price": 79572.3671875,
-        "mark_price": 79572.3671875,
-        "index_price": 79572.3671875,
+        "spot_price": 79738.46875,
+        "perp_last_price": 79738.46875,
+        "mark_price": 79738.46875,
+        "index_price": 79738.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79572.3671875,
-        "stop_loss_technical": 81708.0625,
-        "target_1": 76368.82421875,
-        "target_2": 73165.28125,
+        "entry_ideal": 79738.46875,
+        "stop_loss_technical": 78542.39171875,
+        "target_1": 81532.58429687,
+        "target_2": 83326.69984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79572.3671875,
+        "entry_ideal": 79738.46875,
         "stop_loss_technical": 82792.2109375,
-        "target_1": 74742.6015625,
-        "target_2": 69912.8359375,
+        "target_1": 75157.85546875,
+        "target_2": 70577.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
