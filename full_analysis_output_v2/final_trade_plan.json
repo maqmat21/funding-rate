@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T21:13:11.726491+00:00",
+    "generated_at_utc": "2026-05-08T22:11:58.776690+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "First Kimmel, now 'The View': Disney is pushing back against Trump.",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
+    "Westrock Coffee Company, LLC Q1 2026 Earnings Call Summary",
     "Why Japan has millions of abandoned houses",
-    "HAWK Stock Alert: What to Know About Hawkeye 360 Following Its Market Debut",
-    "California Wants More Babies, So It’s Giving Away 40 Million Diapers",
-    "This new AI trade is leaving Nvidia and Micron in the dust",
-    "Costco adds popular item to food court menu",
-    "'You Have A Very Good Life,' Dave Ramsey Tells 65-Year-Old With $500K Savings — 'Don't Go Screw That Up With An Airbnb'"
+    "Standard Lithium (SLI) Initiated at Outperform as Evercore Highlights DLE Progress",
+    "Grand Canyon Education's (NASDAQ:LOPE) Soft Earnings Are Actually Better Than They Appear",
+    "enGene Therapeutics (ENGN) Is Down 76.3% After Mixed LEGEND Phase 2 Durability Data Release Has The Bull Case Changed?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80146.71875,
-        "perp_last_price": 80146.71875,
-        "mark_price": 80146.71875,
-        "index_price": 80146.71875,
+        "spot_price": 80337.1875,
+        "perp_last_price": 80337.1875,
+        "mark_price": 80337.1875,
+        "index_price": 80337.1875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80148.8828125,
-        "stop_loss_technical": 78946.64957031,
-        "target_1": 81952.23267578,
-        "target_2": 83755.58253906,
+        "entry_ideal": 80337.1875,
+        "stop_loss_technical": 79247.7890625,
+        "target_1": 81971.28515625,
+        "target_2": 83605.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80146.71875,
+        "entry_ideal": 80337.1875,
         "stop_loss_technical": 78217.9609375,
-        "target_1": 83039.85546875,
-        "target_2": 85932.9921875,
+        "target_1": 83516.02734375,
+        "target_2": 86694.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
