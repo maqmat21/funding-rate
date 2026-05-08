@@ -1,70 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T11:43:18.232578+00:00",
+    "generated_at_utc": "2026-05-08T12:59:33.601293+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.943,
+        "price": 97.89,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.392,
-        "trend": "alcista"
+        "price": 4.374,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 48m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
+    "Kevin O'Leary says Steve Jobs gave him the best career advice: 'There's only 3 things you have to get done every day'",
+    "Bold Prediction: NuScale Power Is About to Soar. Here's Why.",
     "'I am shorting the business model... I am shorting the CEO': Two top analysts just slapped Palantir with a 'sell' rating",
-    "Warren Buffett's and Greg Abel's $397 Billion Warning for Wall Street Has Hit a Deafening Pitch",
-    "Chipotle CEO promises ‘no team member’ will say no if you ask for more food — but hungry customers aren’t convinced",
-    "Is It Too Late to Buy Tesla Stock?",
-    "What Happens to Nvidia If Jensen Huang Steps Down?"
+    "3 Unstoppable Dividend King Stocks to Buy Right Now for Less Than $550",
+    "Ken Griffin says the Iran war is triggering a recession. He's the rare billionaire willing to put a date on it",
+    "Costco adds popular item to food court menu"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80195.8828125,
-        "perp_last_price": 80195.8828125,
-        "mark_price": 80195.8828125,
-        "index_price": 80195.8828125,
+        "spot_price": 79999.15625,
+        "perp_last_price": 79999.15625,
+        "mark_price": 79999.15625,
+        "index_price": 79999.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80195.8828125,
-        "stop_loss_technical": 80330.6796875,
-        "target_1": 79993.6875,
-        "target_2": 79791.4921875,
+        "entry_ideal": 80002.7109375,
+        "stop_loss_technical": 78802.67027344,
+        "target_1": 81802.77193359,
+        "target_2": 83602.83292969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80195.8828125,
-        "stop_loss_technical": 78217.9609375,
-        "target_1": 83162.765625,
-        "target_2": 86129.6484375,
+        "entry_ideal": 79999.15625,
+        "stop_loss_technical": 78799.16890625,
+        "target_1": 81799.13726563,
+        "target_2": 83599.11828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
