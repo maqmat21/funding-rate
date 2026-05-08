@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-08T10:10:03.985648+00:00",
+    "generated_at_utc": "2026-05-08T11:43:18.232578+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 97.928,
+        "price": 97.943,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,51 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 21m",
+    "U.S. markets open in 1h 48m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett's and Greg Abel's $397 Billion Warning for Wall Street Has Hit a Deafening Pitch",
-    "Trump claims $465,000 in retirement savings makes someone 'rich' — experts disagree. How much you really need to retire",
-    "Mortgage and refinance interest rates today, May 8, 2026: Rates following bell-shaped curve this week",
-    "Costco adds popular item to food court menu",
+    "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
     "'I am shorting the business model... I am shorting the CEO': Two top analysts just slapped Palantir with a 'sell' rating",
-    "Bold Prediction: NuScale Power Is About to Soar. Here's Why."
+    "Warren Buffett's and Greg Abel's $397 Billion Warning for Wall Street Has Hit a Deafening Pitch",
+    "Chipotle CEO promises ‘no team member’ will say no if you ask for more food — but hungry customers aren’t convinced",
+    "Is It Too Late to Buy Tesla Stock?",
+    "What Happens to Nvidia If Jensen Huang Steps Down?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79965.7421875,
-        "perp_last_price": 79965.7421875,
-        "mark_price": 79965.7421875,
-        "index_price": 79965.7421875,
+        "spot_price": 80195.8828125,
+        "perp_last_price": 80195.8828125,
+        "mark_price": 80195.8828125,
+        "index_price": 80195.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 79965.7421875,
-        "stop_loss_technical": 79245.3671875,
-        "target_1": 81046.3046875,
-        "target_2": 82126.8671875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 79965.7421875,
-        "stop_loss_technical": 82792.2109375,
-        "target_1": 75726.0390625,
-        "target_2": 71486.3359375,
+        "entry_ideal": 80195.8828125,
+        "stop_loss_technical": 80330.6796875,
+        "target_1": 79993.6875,
+        "target_2": 79791.4921875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 80195.8828125,
+        "stop_loss_technical": 78217.9609375,
+        "target_1": 83162.765625,
+        "target_2": 86129.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
