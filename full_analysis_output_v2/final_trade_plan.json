@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T08:07:55.206167+00:00",
+    "generated_at_utc": "2026-05-09T09:41:51.677416+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
-    "1 Reason the Final Stock Warren Buffett Bought Is the Ultimate Millionaire-Maker",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "3 Monster Stocks to Hold for the Next 10 Years",
     "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "How Buying Bitcoin Today Could Help You Retire a Millionaire",
-    "Should You Invest as the S&P 500 Hits Another New High? Here's What History Says."
+    "1 Reason the Final Stock Warren Buffett Bought Is the Ultimate Millionaire-Maker",
+    "This Glorious Growth Stock Has Surged 170% in 2026. It Is Set to Skyrocket Higher"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80354.171875,
-        "perp_last_price": 80354.171875,
-        "mark_price": 80354.171875,
-        "index_price": 80354.171875,
+        "spot_price": 80231.5390625,
+        "perp_last_price": 80231.5390625,
+        "mark_price": 80231.5390625,
+        "index_price": 80231.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80354.171875,
-        "stop_loss_technical": 79525.53125,
-        "target_1": 81597.1328125,
-        "target_2": 82840.09375,
+        "entry_ideal": 80242.359375,
+        "stop_loss_technical": 79038.72398437,
+        "target_1": 82047.81246094,
+        "target_2": 83853.26554688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80354.171875,
+        "entry_ideal": 80231.5390625,
         "stop_loss_technical": 79205.515625,
-        "target_1": 82077.15625,
-        "target_2": 83800.140625,
+        "target_1": 81770.57421875,
+        "target_2": 83309.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
