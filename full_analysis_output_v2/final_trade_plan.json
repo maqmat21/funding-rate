@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T21:07:54.399102+00:00",
+    "generated_at_utc": "2026-05-09T21:57:41.818173+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Quantinuum IPO Plan and Dividend Move Could Be A Game Changer For Honeywell International (HON)",
     "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
     "Ben & Jerry's sold for $326 million with 1 condition. The new owner broke it — and now the co-founder wants it back",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "Forget Sandisk Stock at $1,500 Per Share. Buy This Sizzling Artificial Intelligence (AI) Memory ETF Instead.",
     "Elon Musk Says 'I Hope Civilization's Around in 100 Years' But If It Is, Expect It To Look Super Different With 10x's More Humanoid Robots Than Humans",
-    "Is Intel Stock the Next Nvidia?",
-    "Berkshire Hathaway Is Buying Back Stock Again. Here's What That Signal Means for Investors.",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80854.4375,
-        "perp_last_price": 80854.4375,
-        "mark_price": 80854.4375,
-        "index_price": 80854.4375,
+        "spot_price": 80790.71875,
+        "perp_last_price": 80790.71875,
+        "mark_price": 80790.71875,
+        "index_price": 80790.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80854.4375,
+        "entry_ideal": 80787.609375,
         "stop_loss_technical": 80133.59375,
-        "target_1": 81935.703125,
-        "target_2": 83016.96875,
+        "target_1": 81768.6328125,
+        "target_2": 82749.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80854.4375,
+        "entry_ideal": 80790.71875,
         "stop_loss_technical": 79205.515625,
-        "target_1": 83327.8203125,
-        "target_2": 85801.203125,
+        "target_1": 83168.5234375,
+        "target_2": 85546.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
