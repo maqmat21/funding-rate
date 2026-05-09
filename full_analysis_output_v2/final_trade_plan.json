@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T13:49:11.902163+00:00",
+    "generated_at_utc": "2026-05-09T14:39:10.191178+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Is It Too Late To Consider Valero Energy (VLO) After A 100% One Year Rally?",
-    "This Financial Stock Could Help Set You Up for Life",
+    "Is It Too Late To Consider Bloom Energy (BE) After A 90% Monthly Surge?",
+    "Trump has quietly bought up to $337 million in bonds — and his Fed pick Kevin Warsh could send their value soaring",
     "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
     "We Just Witnessed the Stock Market Do Something for Only the 2nd Time in 155 Years, and the Message Couldn't Be Clearer for Wall Street",
-    "McDonald's is taking away your fountain machine. Burger King not so much.",
-    "Oof! The Federal Reserve's May Inflation Forecast Is In, and Things Just Got Uglier for Wall Street.",
-    "Trump has quietly bought up to $337 million in bonds — and his Fed pick Kevin Warsh could send their value soaring"
+    "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
+    "General Mills Swicy Gushers Launch Adds New Angle To GIS Valuation",
+    "Is It Too Late To Consider Lam Research (LRCX) After Its Huge 1 Year Surge?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80355.859375,
-        "perp_last_price": 80355.859375,
-        "mark_price": 80355.859375,
-        "index_price": 80355.859375,
+        "spot_price": 80252.6328125,
+        "perp_last_price": 80252.6328125,
+        "mark_price": 80252.6328125,
+        "index_price": 80252.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80349.28125,
-        "stop_loss_technical": 79144.04203125,
-        "target_1": 82157.14007812,
-        "target_2": 83964.99890625,
+        "entry_ideal": 80252.6328125,
+        "stop_loss_technical": 79048.84332031,
+        "target_1": 82058.31705078,
+        "target_2": 83864.00128906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80355.859375,
-        "stop_loss_technical": 79205.515625,
-        "target_1": 82081.375,
-        "target_2": 83806.890625,
+        "entry_ideal": 80252.6328125,
+        "stop_loss_technical": 79048.84332031,
+        "target_1": 82058.31705078,
+        "target_2": 83864.00128906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
