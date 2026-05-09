@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T19:41:55.760459+00:00",
+    "generated_at_utc": "2026-05-09T20:26:58.650749+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
     "Ben & Jerry's sold for $326 million with 1 condition. The new owner broke it — and now the co-founder wants it back",
-    "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "Brookfield Corporation Looks More Like Berkshire Hathaway Every Year. Is It Time to Buy?",
     "A $500,000 Dividend Portfolio That Pays More Than a Full-Time Minimum Wage Job",
-    "Hertz is listing 8,000 used cars on eBay as buyers ‘starve for deals.' Are ex-rental cars actually a good deal?",
-    "Berkshire Hathaway Is Buying Back Stock Again. Here's What That Signal Means for Investors.",
-    "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?"
+    "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "Is Intel Stock the Next Nvidia?",
+    "Berkshire Hathaway Is Buying Back Stock Again. Here's What That Signal Means for Investors."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80820.21875,
-        "perp_last_price": 80820.21875,
-        "mark_price": 80820.21875,
-        "index_price": 80820.21875,
+        "spot_price": 80789.1875,
+        "perp_last_price": 80789.1875,
+        "mark_price": 80789.1875,
+        "index_price": 80789.1875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80820.21875,
-        "stop_loss_technical": 79607.91546875,
-        "target_1": 82638.67367188,
-        "target_2": 84457.12859375,
+        "entry_ideal": 80789.1875,
+        "stop_loss_technical": 79577.3496875,
+        "target_1": 82606.94421875,
+        "target_2": 84424.7009375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80820.21875,
+        "entry_ideal": 80789.1875,
         "stop_loss_technical": 79205.515625,
-        "target_1": 83242.2734375,
-        "target_2": 85664.328125,
+        "target_1": 83164.6953125,
+        "target_2": 85540.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
