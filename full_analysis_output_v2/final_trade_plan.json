@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T03:53:07.453408+00:00",
+    "generated_at_utc": "2026-05-09T06:08:24.213926+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,34 @@
     "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
     "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
+    "Should You Invest as the S&P 500 Hits Another New High? Here's What History Says.",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
-    "Papa Johns sees three alarming shifts in customer behavior",
-    "'You Have A Very Good Life,' Dave Ramsey Tells 65-Year-Old With $500K Savings — 'Don't Go Screw That Up With An Airbnb'",
-    "Millions of iPhone owners just became eligible for a surprise cash payout from Apple"
+    "DigitalOcean (DOCN) Is Up 56.0% After Raising Revenue Outlook And Launching AI-Native Cloud Platform",
+    "Dell stock rockets as Trump makes bullish comments"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80344.390625,
-        "perp_last_price": 80344.390625,
-        "mark_price": 80344.390625,
-        "index_price": 80344.390625,
+        "spot_price": 80418.15625,
+        "perp_last_price": 80418.15625,
+        "mark_price": 80418.15625,
+        "index_price": 80418.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80344.390625,
-        "stop_loss_technical": 79139.22476562,
-        "target_1": 82152.13941406,
-        "target_2": 83959.88820312,
+        "entry_ideal": 80418.15625,
+        "stop_loss_technical": 79525.53125,
+        "target_1": 81757.09375,
+        "target_2": 83096.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80344.390625,
+        "entry_ideal": 80418.15625,
         "stop_loss_technical": 79522.65625,
-        "target_1": 81576.9921875,
-        "target_2": 82809.59375,
+        "target_1": 81761.40625,
+        "target_2": 83104.65625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
