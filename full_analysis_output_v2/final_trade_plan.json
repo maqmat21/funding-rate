@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T14:39:10.191178+00:00",
+    "generated_at_utc": "2026-05-09T15:33:42.560788+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Is It Too Late To Consider Bloom Energy (BE) After A 90% Monthly Surge?",
     "Trump has quietly bought up to $337 million in bonds — and his Fed pick Kevin Warsh could send their value soaring",
+    "I cashed out $60,000 from my retirement account to pay for my child's education. I have no regrets.",
     "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
-    "We Just Witnessed the Stock Market Do Something for Only the 2nd Time in 155 Years, and the Message Couldn't Be Clearer for Wall Street",
-    "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
-    "General Mills Swicy Gushers Launch Adds New Angle To GIS Valuation",
-    "Is It Too Late To Consider Lam Research (LRCX) After Its Huge 1 Year Surge?"
+    "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
+    "McDonald's is taking away your fountain machine. Burger King not so much.",
+    "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80252.6328125,
-        "perp_last_price": 80252.6328125,
-        "mark_price": 80252.6328125,
-        "index_price": 80252.6328125,
+        "spot_price": 80431.8984375,
+        "perp_last_price": 80431.8984375,
+        "mark_price": 80431.8984375,
+        "index_price": 80431.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80252.6328125,
-        "stop_loss_technical": 79048.84332031,
-        "target_1": 82058.31705078,
-        "target_2": 83864.00128906,
+        "entry_ideal": 80429.6484375,
+        "stop_loss_technical": 80077.703125,
+        "target_1": 80957.56640625,
+        "target_2": 81485.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80252.6328125,
-        "stop_loss_technical": 79048.84332031,
-        "target_1": 82058.31705078,
-        "target_2": 83864.00128906,
+        "entry_ideal": 80431.8984375,
+        "stop_loss_technical": 79205.515625,
+        "target_1": 82271.47265625,
+        "target_2": 84111.046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
