@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T21:57:41.818173+00:00",
+    "generated_at_utc": "2026-05-09T22:37:08.694069+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Quantinuum IPO Plan and Dividend Move Could Be A Game Changer For Honeywell International (HON)",
+    "Warren Buffett's Successor Greg Abel Just Broke This 13-Quarter Streak at Berkshire Hathaway. Could This Be a Turning Point for the Stock Market?",
     "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
     "Ben & Jerry's sold for $326 million with 1 condition. The new owner broke it — and now the co-founder wants it back",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
-    "Forget Sandisk Stock at $1,500 Per Share. Buy This Sizzling Artificial Intelligence (AI) Memory ETF Instead.",
-    "Elon Musk Says 'I Hope Civilization's Around in 100 Years' But If It Is, Expect It To Look Super Different With 10x's More Humanoid Robots Than Humans",
-    "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?"
+    "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
+    "A $500,000 Dividend Portfolio That Pays More Than a Full-Time Minimum Wage Job",
+    "Is Intel Stock the Next Nvidia?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80790.71875,
-        "perp_last_price": 80790.71875,
-        "mark_price": 80790.71875,
-        "index_price": 80790.71875,
+        "spot_price": 80734.21875,
+        "perp_last_price": 80734.21875,
+        "mark_price": 80734.21875,
+        "index_price": 80734.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80787.609375,
-        "stop_loss_technical": 80133.59375,
-        "target_1": 81768.6328125,
-        "target_2": 82749.65625,
+        "entry_ideal": 80734.21875,
+        "stop_loss_technical": 79523.20546875,
+        "target_1": 82550.73867188,
+        "target_2": 84367.25859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80790.71875,
+        "entry_ideal": 80734.21875,
         "stop_loss_technical": 79205.515625,
-        "target_1": 83168.5234375,
-        "target_2": 85546.328125,
+        "target_1": 83027.2734375,
+        "target_2": 85320.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
