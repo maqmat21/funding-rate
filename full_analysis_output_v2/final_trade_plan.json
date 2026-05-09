@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T10:37:48.339102+00:00",
+    "generated_at_utc": "2026-05-09T11:29:49.302490+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,36 @@
     "News from the Yahoo Finance Network",
     "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "We Just Witnessed the Stock Market Do Something for Only the 2nd Time in 155 Years, and the Message Couldn't Be Clearer for Wall Street",
+    "3 Monster Stocks to Hold for the Next 10 Years",
     "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "Labour is sitting on an untapped £1.2tn gold mine",
-    "SWK- Pivoting to Building from Fixing its Balance Sheet",
-    "How Buying Bitcoin Today Could Help You Retire a Millionaire"
+    "Larry Fink says there's the 'opposite' of an AI bubble, and the world isn't 'moving fast enough' on AI infrastructure"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80255.6328125,
-        "perp_last_price": 80255.6328125,
-        "mark_price": 80255.6328125,
-        "index_price": 80255.6328125,
+        "spot_price": 80338.21875,
+        "perp_last_price": 80338.21875,
+        "mark_price": 80338.21875,
+        "index_price": 80338.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80255.6328125,
-        "stop_loss_technical": 79602.40625,
-        "target_1": 81235.47265625,
-        "target_2": 82215.3125,
+        "entry_ideal": 80338.2109375,
+        "stop_loss_technical": 79716.296875,
+        "target_1": 81271.08203125,
+        "target_2": 82203.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80255.6328125,
+        "entry_ideal": 80338.21875,
         "stop_loss_technical": 79205.515625,
-        "target_1": 81830.80859375,
-        "target_2": 83405.984375,
+        "target_1": 82037.2734375,
+        "target_2": 83736.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
