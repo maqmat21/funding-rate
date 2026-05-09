@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T12:09:37.882557+00:00",
+    "generated_at_utc": "2026-05-09T13:49:11.902163+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Is It Too Late To Consider Valero Energy (VLO) After A 100% One Year Rally?",
+    "This Financial Stock Could Help Set You Up for Life",
     "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
-    "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
     "We Just Witnessed the Stock Market Do Something for Only the 2nd Time in 155 Years, and the Message Couldn't Be Clearer for Wall Street",
-    "3 Monster Stocks to Hold for the Next 10 Years",
-    "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
-    "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "The Unfortunate Truth About Claiming Social Security at Your Full Retirement Age."
+    "McDonald's is taking away your fountain machine. Burger King not so much.",
+    "Oof! The Federal Reserve's May Inflation Forecast Is In, and Things Just Got Uglier for Wall Street.",
+    "Trump has quietly bought up to $337 million in bonds — and his Fed pick Kevin Warsh could send their value soaring"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80297.5625,
-        "perp_last_price": 80297.5625,
-        "mark_price": 80297.5625,
-        "index_price": 80297.5625,
+        "spot_price": 80355.859375,
+        "perp_last_price": 80355.859375,
+        "mark_price": 80355.859375,
+        "index_price": 80355.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80297.5625,
-        "stop_loss_technical": 79093.0990625,
-        "target_1": 82104.25765625,
-        "target_2": 83910.9528125,
+        "entry_ideal": 80349.28125,
+        "stop_loss_technical": 79144.04203125,
+        "target_1": 82157.14007812,
+        "target_2": 83964.99890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80297.5625,
+        "entry_ideal": 80355.859375,
         "stop_loss_technical": 79205.515625,
-        "target_1": 81935.6328125,
-        "target_2": 83573.703125,
+        "target_1": 82081.375,
+        "target_2": 83806.890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
