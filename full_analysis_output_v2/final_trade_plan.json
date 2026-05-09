@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-09T00:10:28.026170+00:00",
+    "generated_at_utc": "2026-05-09T03:53:07.453408+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "'Shark Tank' Star Robert Herjavec Says Charlie Munger Told Him If You Want To Get Rich, 'Never Sell A House' – Problem is People Sell Too Soon",
+    "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
     "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
+    "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
+    "Papa Johns sees three alarming shifts in customer behavior",
     "'You Have A Very Good Life,' Dave Ramsey Tells 65-Year-Old With $500K Savings — 'Don't Go Screw That Up With An Airbnb'",
-    "Is Now the Time to Buy Plug Power?",
-    "Jim Cramer Makes Big Prediction About Sandisk (SNDK)",
-    "My mother regrets paying Social Security. She says she should have invested her contributions. I disagree. Who’s right?",
-    "Why Japan has millions of abandoned houses",
-    "The big flaw with Trump accounts: Why millions of American children are missing out on free money"
+    "Millions of iPhone owners just became eligible for a surprise cash payout from Apple"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80116.9765625,
-        "perp_last_price": 80116.9765625,
-        "mark_price": 80116.9765625,
-        "index_price": 80116.9765625,
+        "spot_price": 80344.390625,
+        "perp_last_price": 80344.390625,
+        "mark_price": 80344.390625,
+        "index_price": 80344.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80116.9765625,
-        "stop_loss_technical": 78915.22191406,
-        "target_1": 81919.60853516,
-        "target_2": 83722.24050781,
+        "entry_ideal": 80344.390625,
+        "stop_loss_technical": 79139.22476562,
+        "target_1": 82152.13941406,
+        "target_2": 83959.88820312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80116.9765625,
-        "stop_loss_technical": 79245.3671875,
-        "target_1": 81424.390625,
-        "target_2": 82731.8046875,
+        "entry_ideal": 80344.390625,
+        "stop_loss_technical": 79522.65625,
+        "target_1": 81576.9921875,
+        "target_2": 82809.59375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
