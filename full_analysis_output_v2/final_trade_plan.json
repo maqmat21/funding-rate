@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-10T08:30:17.296963+00:00",
+    "generated_at_utc": "2026-05-10T09:54:24.636346+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,35 @@
     "Fed Chair Jerome Powell Just Broke 75 Years of Precedent With a Move That's Likely to Frustrate President Trump. How Will This Impact the Stock Market?",
     "Retirees With Over $1.2 Million in a Traditional 401(k) Are Being Warned About This Tax Bomb at 73",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
-    "Warren Buffett Has 70% of Berkshire's Portfolio in Just 5 Stocks. Should You Copy Him?",
-    "XRP Price Prediction: Can XRP Hit $20?",
     "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
+    "Nvidia Stock Investors Just Got Great News From Wall Street Experts (Hint: It Could Be a $20 Trillion Company)",
+    "The Nuclear Boom Is Real. These 3 Stocks Are the Smartest Long-Term Buys.",
     "3 Monster Stocks to Hold for the Next 10 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80860.6328125,
-        "perp_last_price": 80860.6328125,
-        "mark_price": 80860.6328125,
-        "index_price": 80860.6328125,
+        "spot_price": 80757.9375,
+        "perp_last_price": 80757.9375,
+        "mark_price": 80757.9375,
+        "index_price": 80757.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80884.7109375,
-        "stop_loss_technical": 80220.796875,
-        "target_1": 81880.58203125,
-        "target_2": 82876.453125,
+        "entry_ideal": 80757.9375,
+        "stop_loss_technical": 79546.5684375,
+        "target_1": 82574.99109375,
+        "target_2": 84392.0446875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80860.6328125,
+        "entry_ideal": 80757.9375,
         "stop_loss_technical": 79205.515625,
-        "target_1": 83343.30859375,
-        "target_2": 85825.984375,
+        "target_1": 83086.5703125,
+        "target_2": 85415.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
