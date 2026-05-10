@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-10T10:52:33.385826+00:00",
+    "generated_at_utc": "2026-05-10T11:40:19.356289+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,34 @@
     "Fed Chair Jerome Powell Just Broke 75 Years of Precedent With a Move That's Likely to Frustrate President Trump. How Will This Impact the Stock Market?",
     "Retirees With Over $1.2 Million in a Traditional 401(k) Are Being Warned About This Tax Bomb at 73",
     "Nvidia Stock Investors Just Got Great News From Wall Street Experts (Hint: It Could Be a $20 Trillion Company)",
+    "Social Security Won't Run Out of Money, but Its Judgment Day Is Rapidly Approaching, Thanks in Part to President Donald Trump",
+    "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Company Might Be the Next Meme Stock. Here's Why It's Actually a Buy at $13 Per Share.",
     "Warren Buffett Says Now Is Not a Good Time To Invest— But Here’s Why He Likely Won’t Listen to His Own Advice",
-    "Meta got a $3.3 billion tax break for its $10 billion AI data center — and it could consume 20% of Louisiana's power",
-    "1 Vanguard Index Fund to Buy Before It Soars 103%, According to a Wall Street Analyst",
-    "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years"
+    "1 Vanguard Index Fund to Buy Before It Soars 103%, According to a Wall Street Analyst"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80832.7890625,
-        "perp_last_price": 80832.7890625,
-        "mark_price": 80832.7890625,
-        "index_price": 80832.7890625,
+        "spot_price": 80797.90625,
+        "perp_last_price": 80797.90625,
+        "mark_price": 80797.90625,
+        "index_price": 80797.90625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80833.9609375,
-        "stop_loss_technical": 80220.796875,
-        "target_1": 81753.70703125,
-        "target_2": 82673.453125,
+        "entry_ideal": 80797.90625,
+        "stop_loss_technical": 79585.93765625,
+        "target_1": 82615.85914063,
+        "target_2": 84433.81203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80832.7890625,
+        "entry_ideal": 80797.90625,
         "stop_loss_technical": 79205.515625,
-        "target_1": 83273.69921875,
-        "target_2": 85714.609375,
+        "target_1": 83186.4921875,
+        "target_2": 85575.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
