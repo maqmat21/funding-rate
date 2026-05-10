@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-10T18:00:19.986437+00:00",
+    "generated_at_utc": "2026-05-10T19:07:04.380481+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,36 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "38-year-old Italian chain down to 9 locations nationwide",
     "Simone Biles says she's 'staying inside' forever after being hit with $22K glam bill — why lifestyle creep spares no one",
-    "Social Security Won't Run Out of Money, but Its Judgment Day Is Rapidly Approaching, Thanks in Part to President Donald Trump",
+    "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'",
     "Retirees With Over $1.2 Million in a Traditional 401(k) Are Being Warned About This Tax Bomb at 73",
-    "Legendary investor who made an estimated $100 million on 1987 crash says investors could see 'negative 10-year returns'"
+    "Social Security Won't Run Out of Money, but Its Judgment Day Is Rapidly Approaching, Thanks in Part to President Donald Trump",
+    "A $185,000 Portfolio That Covers Your Groceries, Utilities, and Phone Bill Every Month"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81432.546875,
-        "perp_last_price": 81432.546875,
-        "mark_price": 81432.546875,
-        "index_price": 81432.546875,
+        "spot_price": 81233.21875,
+        "perp_last_price": 81233.21875,
+        "mark_price": 81233.21875,
+        "index_price": 81233.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81423.5078125,
-        "stop_loss_technical": 80552.7265625,
-        "target_1": 82729.6796875,
-        "target_2": 84035.8515625,
+        "entry_ideal": 81233.21875,
+        "stop_loss_technical": 80014.72046875,
+        "target_1": 83060.96617187,
+        "target_2": 84888.71359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81432.546875,
+        "entry_ideal": 81233.21875,
         "stop_loss_technical": 79205.515625,
-        "target_1": 84773.09375,
-        "target_2": 88113.640625,
+        "target_1": 84274.7734375,
+        "target_2": 87316.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
