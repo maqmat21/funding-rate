@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-10T21:50:12.807682+00:00",
+    "generated_at_utc": "2026-05-10T22:32:09.983029+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 97.843,
-        "trend": "bajista"
+        "price": 98.057,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.364,
@@ -26,47 +26,47 @@
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
     "Jim Cramer has a blunt message on gold for investors",
     "He sold his company for $1.7 billion — then handed $240 million to the 540 workers who stuck with him",
-    "Billionaire Charlie Munger, 99, Refused To Use A Cane After Seeing Friends Fall — 'I Never Fell Once...' His Advice? 'Be A Little More Cautious'",
-    "How Buying Oklo Stock Today Could 10X Your Net Worth",
+    "38-year-old Italian chain down to 9 locations nationwide",
+    "Is NuScale Power Going to $120?",
     "Simone Biles says she's 'staying inside' forever after being hit with $22K glam bill — why lifestyle creep spares no one"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80844.546875,
-        "perp_last_price": 80844.546875,
-        "mark_price": 80844.546875,
-        "index_price": 80844.546875,
+        "spot_price": 81589.0703125,
+        "perp_last_price": 81589.0703125,
+        "mark_price": 81589.0703125,
+        "index_price": 81589.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 80844.546875,
+        "entry_ideal": 81589.0625,
         "stop_loss_technical": 80295.1015625,
-        "target_1": 81668.71484375,
-        "target_2": 82492.8828125,
+        "target_1": 83530.00390625,
+        "target_2": 85470.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80844.546875,
-        "stop_loss_technical": 79631.87867188,
-        "target_1": 82663.54917969,
-        "target_2": 84482.55148437,
+        "entry_ideal": 81589.0703125,
+        "stop_loss_technical": 79205.515625,
+        "target_1": 85164.40234375,
+        "target_2": 88739.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
