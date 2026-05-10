@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-10T21:00:03.497867+00:00",
+    "generated_at_utc": "2026-05-10T21:50:12.807682+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "He sold his company for $1.7 billion — then handed $240 million to the 540 workers who stuck with him",
     "Jim Cramer has a blunt message on gold for investors",
+    "He sold his company for $1.7 billion — then handed $240 million to the 540 workers who stuck with him",
     "Billionaire Charlie Munger, 99, Refused To Use A Cane After Seeing Friends Fall — 'I Never Fell Once...' His Advice? 'Be A Little More Cautious'",
-    "38-year-old Italian chain down to 9 locations nationwide",
-    "Social Security Won't Run Out of Money, but Its Judgment Day Is Rapidly Approaching, Thanks in Part to President Donald Trump"
+    "How Buying Oklo Stock Today Could 10X Your Net Worth",
+    "Simone Biles says she's 'staying inside' forever after being hit with $22K glam bill — why lifestyle creep spares no one"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80712.953125,
-        "perp_last_price": 80712.953125,
-        "mark_price": 80712.953125,
-        "index_price": 80712.953125,
+        "spot_price": 80844.546875,
+        "perp_last_price": 80844.546875,
+        "mark_price": 80844.546875,
+        "index_price": 80844.546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80722.1796875,
-        "stop_loss_technical": 79511.34699219,
-        "target_1": 82538.42873047,
-        "target_2": 84354.67777344,
+        "entry_ideal": 80844.546875,
+        "stop_loss_technical": 80295.1015625,
+        "target_1": 81668.71484375,
+        "target_2": 82492.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +61,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80712.953125,
-        "stop_loss_technical": 79502.25882813,
-        "target_1": 82528.99457031,
-        "target_2": 84345.03601562,
+        "entry_ideal": 80844.546875,
+        "stop_loss_technical": 79631.87867188,
+        "target_1": 82663.54917969,
+        "target_2": 84482.55148437,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
