@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T08:36:52.182178+00:00",
+    "generated_at_utc": "2026-05-11T11:45:13.520100+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 97.935,
+        "price": 97.973,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,27 +21,42 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 54m",
+    "U.S. markets open in 1h 46m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "My Top 3 Quantum Computing Stocks for May 2026",
+    "Why one woman bolted from ‘tax haven’ Florida, and others are leaving too",
     "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
     "590,000 buyers paid $59 million for Trump's gold phone — not 1 has shipped and refunds look unlikely",
-    "Billionaire Charlie Munger, 99, Refused To Use A Cane After Seeing Friends Fall — 'I Never Fell Once...' His Advice? 'Be A Little More Cautious'"
+    "My Top 3 Quantum Computing Stocks for May 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80711.9921875,
-        "perp_last_price": 80711.9921875,
-        "mark_price": 80711.9921875,
-        "index_price": 80711.9921875,
+        "spot_price": 81132.0078125,
+        "perp_last_price": 81132.0078125,
+        "mark_price": 81132.0078125,
+        "index_price": 81132.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 81132.0,
+        "stop_loss_technical": 80295.1015625,
+        "target_1": 82387.34765625,
+        "target_2": 83642.6953125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -49,25 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80711.9921875,
-        "stop_loss_technical": 80290.0,
-        "target_1": 81344.98046875,
-        "target_2": 81977.96875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 80711.9921875,
-        "stop_loss_technical": 79501.31230469,
-        "target_1": 82528.01201172,
-        "target_2": 84344.03183594,
+        "entry_ideal": 81132.0078125,
+        "stop_loss_technical": 79205.515625,
+        "target_1": 84021.74609375,
+        "target_2": 86911.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
