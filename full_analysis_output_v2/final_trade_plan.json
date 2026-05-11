@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T18:26:01.637182+00:00",
+    "generated_at_utc": "2026-05-11T20:11:13.583733+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 97.909,
+        "price": 97.956,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.404,
+        "price": 4.41,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 35m",
     "News from the Yahoo Finance Network",
-    "Plug Power Earnings Are Coming. Short Sellers Are Nervous.",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
+    "Is This a Sign Pfizer's Aggressive Growth Strategy Is Paying Off?",
     "Silver price predictions for the next decade: What should investors expect?",
-    "Prediction: Micron Technology Stock Will Skyrocket to $2,000 in 1 Year",
-    "Target Stock Tumbles for Third Straight Day. Wall Street Is Getting Nervous About the Turnaround.",
-    "Billionaire Charlie Munger, 99, Refused To Use A Cane After Seeing Friends Fall — 'I Never Fell Once...' His Advice? 'Be A Little More Cautious'"
+    "Larry David’s Social Security Check vs. the Average American’s",
+    "Fed Chair Jerome Powell Just Broke 75 Years of Precedent With a Move That's Likely to Frustrate President Trump. How Will This Impact the Stock Market?",
+    "Microvast Holdings And 2 Other Penny Stocks Worth Watching",
+    "1 Magnificent Dividend Stock Down 8% to Buy and Hold Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81902.6484375,
-        "perp_last_price": 81902.6484375,
-        "mark_price": 81902.6484375,
-        "index_price": 81902.6484375,
+        "spot_price": 82037.390625,
+        "perp_last_price": 82037.390625,
+        "mark_price": 82037.390625,
+        "index_price": 82037.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 81902.640625,
-        "stop_loss_technical": 82449.9921875,
-        "target_1": 81081.61328125,
-        "target_2": 80260.5859375,
+        "entry_ideal": 82048.3828125,
+        "stop_loss_technical": 80453.9375,
+        "target_1": 84440.05078125,
+        "target_2": 86831.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81902.6484375,
+        "entry_ideal": 82037.390625,
         "stop_loss_technical": 79205.515625,
-        "target_1": 85948.34765625,
-        "target_2": 89994.046875,
+        "target_1": 86285.203125,
+        "target_2": 90533.015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
