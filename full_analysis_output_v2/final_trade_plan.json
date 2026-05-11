@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T01:26:45.500166+00:00",
+    "generated_at_utc": "2026-05-11T05:11:09.969842+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.02,
+        "price": 98.143,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,40 +21,27 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 20m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "590,000 buyers paid $59 million for Trump's gold phone — not 1 has shipped and refunds look unlikely",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "Jim Cramer has a blunt message on gold for investors",
-    "IonQ Q1 Earnings Call Highlights",
     "Mexican chain near bankruptcy, 47 restaurants in danger",
+    "My Top 3 Quantum Computing Stocks for May 2026",
+    "590,000 buyers paid $59 million for Trump's gold phone — not 1 has shipped and refunds look unlikely",
     "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81669.3515625,
-        "perp_last_price": 81669.3515625,
-        "mark_price": 81669.3515625,
-        "index_price": 81669.3515625,
+        "spot_price": 80847.3671875,
+        "perp_last_price": 80847.3671875,
+        "mark_price": 80847.3671875,
+        "index_price": 80847.3671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 81669.3515625,
-        "stop_loss_technical": 80290.0,
-        "target_1": 83738.37890625,
-        "target_2": 85807.40625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -62,10 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81669.3515625,
-        "stop_loss_technical": 79205.515625,
-        "target_1": 85365.10546875,
-        "target_2": 89060.859375,
+        "entry_ideal": 80857.6171875,
+        "stop_loss_technical": 80295.1015625,
+        "target_1": 81701.390625,
+        "target_2": 82545.1640625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 80847.3671875,
+        "stop_loss_technical": 82448.0,
+        "target_1": 78446.41796875,
+        "target_2": 76045.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
