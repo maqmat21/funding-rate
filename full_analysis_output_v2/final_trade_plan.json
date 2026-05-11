@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T22:39:46.824897+00:00",
+    "generated_at_utc": "2026-05-11T23:36:47.462360+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,34 @@
     "News from the Yahoo Finance Network",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "How Buying Nio Stock Today Could 10X Your Net Worth",
-    "This Once-Popular Italian Chain Restaurant Is Down To Just 9 Locations Nationwide",
-    "Rocket Lab Just Signed Its Biggest Contract Ever",
-    "AST SpaceMobile Earnings Miss, 2026 Revenue Guidance Affirmed. ASTS Stock Falls.",
-    "Larry David’s Social Security Check vs. the Average American’s"
+    "GameStop Shares Roiled by Short-Lived Roaring Kitty Posts",
+    "Larry David’s Social Security Check vs. the Average American’s",
+    "Is GE’s (GE) Rejected Defense Report Proposal Revealing Management’s True Geopolitical Risk Strategy?",
+    "Clear Street Raises Plug Power (PLUG) Price Target, Keeps Buy Rating",
+    "Retirees With Over $1.2 Million in a Traditional 401(k) Are Being Warned About This Tax Bomb at 73"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81757.203125,
-        "perp_last_price": 81757.203125,
-        "mark_price": 81757.203125,
-        "index_price": 81757.203125,
+        "spot_price": 81738.15625,
+        "perp_last_price": 81738.15625,
+        "mark_price": 81738.15625,
+        "index_price": 81738.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 81757.203125,
-        "stop_loss_technical": 82131.171875,
-        "target_1": 81196.25,
-        "target_2": 80635.296875,
+        "entry_ideal": 81738.15625,
+        "stop_loss_technical": 80453.9375,
+        "target_1": 83664.484375,
+        "target_2": 85590.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81757.203125,
+        "entry_ideal": 81738.15625,
         "stop_loss_technical": 79205.515625,
-        "target_1": 85584.734375,
-        "target_2": 89412.265625,
+        "target_1": 85537.1171875,
+        "target_2": 89336.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
