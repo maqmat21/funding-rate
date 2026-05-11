@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T14:09:07.237058+00:00",
+    "generated_at_utc": "2026-05-11T16:42:29.458139+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,50 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 97.879,
+        "price": 97.914,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.38,
+        "price": 4.392,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 52m",
+    "U.S. markets close in 3h 19m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "What is the federal gas tax? How much is gas taxed in Philly",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
+    "Tom Lee Floats $22,000 Ethereum Target: What Has to Be True?",
     "Billionaire Charlie Munger, 99, Refused To Use A Cane After Seeing Friends Fall — 'I Never Fell Once...' His Advice? 'Be A Little More Cautious'",
-    "'I've just ruined their lives': Nashville bar owner's property tax bill soars from $129K to $589K",
-    "Intuitive Machines Wins Key NASA Lunar Deal As Valuation Debate Grows",
-    "Silver price predictions for the next decade: What to expect"
+    "Gold forecast and tracker: Where will prices land in 2026?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81161.59375,
-        "perp_last_price": 81161.59375,
-        "mark_price": 81161.59375,
-        "index_price": 81161.59375,
+        "spot_price": 81647.203125,
+        "perp_last_price": 81647.203125,
+        "mark_price": 81647.203125,
+        "index_price": 81647.203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 81637.4765625,
+        "stop_loss_technical": 82449.9921875,
+        "target_1": 80418.703125,
+        "target_2": 79199.9296875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -49,23 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81161.59375,
-        "stop_loss_technical": 80290.0,
-        "target_1": 82468.984375,
-        "target_2": 83776.375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 81161.59375,
+        "entry_ideal": 81647.203125,
         "stop_loss_technical": 79205.515625,
-        "target_1": 84095.7109375,
-        "target_2": 87029.828125,
+        "target_1": 85309.734375,
+        "target_2": 88972.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
