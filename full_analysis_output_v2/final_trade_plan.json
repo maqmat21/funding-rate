@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T11:45:13.520100+00:00",
+    "generated_at_utc": "2026-05-11T14:09:07.237058+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 97.973,
+        "price": 97.879,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.364,
-        "trend": "bajista"
+        "price": 4.38,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 46m",
+    "U.S. markets close in 5h 52m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "Why one woman bolted from ‘tax haven’ Florida, and others are leaving too",
-    "$10,000 in Alphabet Right Now: Here's What It Could Be Worth in 20 Years",
-    "590,000 buyers paid $59 million for Trump's gold phone — not 1 has shipped and refunds look unlikely",
-    "My Top 3 Quantum Computing Stocks for May 2026"
+    "Billionaire Charlie Munger, 99, Refused To Use A Cane After Seeing Friends Fall — 'I Never Fell Once...' His Advice? 'Be A Little More Cautious'",
+    "'I've just ruined their lives': Nashville bar owner's property tax bill soars from $129K to $589K",
+    "Intuitive Machines Wins Key NASA Lunar Deal As Valuation Debate Grows",
+    "Silver price predictions for the next decade: What to expect"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81132.0078125,
-        "perp_last_price": 81132.0078125,
-        "mark_price": 81132.0078125,
-        "index_price": 81132.0078125,
+        "spot_price": 81161.59375,
+        "perp_last_price": 81161.59375,
+        "mark_price": 81161.59375,
+        "index_price": 81161.59375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 81132.0,
-        "stop_loss_technical": 80295.1015625,
-        "target_1": 82387.34765625,
-        "target_2": 83642.6953125,
+        "entry_ideal": 81161.59375,
+        "stop_loss_technical": 80290.0,
+        "target_1": 82468.984375,
+        "target_2": 83776.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 81132.0078125,
+        "entry_ideal": 81161.59375,
         "stop_loss_technical": 79205.515625,
-        "target_1": 84021.74609375,
-        "target_2": 86911.484375,
+        "target_1": 84095.7109375,
+        "target_2": 87029.828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
