@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-12T16:57:56.312634+00:00",
+    "generated_at_utc": "2026-05-12T18:53:46.918533+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,63 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.404,
+        "price": 98.317,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.453,
+        "price": 4.463,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 3m",
+    "U.S. markets close in 1h 7m",
     "News from the Yahoo Finance Network",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "Nelson Peltz Wants To Take Wendy's Private Now",
-    "Crypto Bill Faces Key Senate Test. Why the Hard Part Comes Next.",
-    "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster",
+    "Texas Roadhouse bets diners will pay more for one big reason",
+    "Greg Abel Just Quietly Dumped a Major Berkshire Holding. Here Is What Buffett’s Successor Is Buying Instead.",
     "Larry David’s Social Security Check vs. the Average American’s",
-    "Sen. Lindsay Graham Slams Pentagon Over Iran: ‘Everything Y’all Did Failed’"
+    "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster",
+    "This Dividend ETF May Be the Ultimate Income Investment to Put in Your Portfolio Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80006.03125,
-        "perp_last_price": 80006.03125,
-        "mark_price": 80006.03125,
-        "index_price": 80006.03125,
+        "spot_price": 80710.5234375,
+        "perp_last_price": 80710.5234375,
+        "mark_price": 80710.5234375,
+        "index_price": 80710.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80003.390625,
-        "stop_loss_technical": 81955.4296875,
-        "target_1": 77075.33203125,
-        "target_2": 74147.2734375,
+        "entry_ideal": 80712.0078125,
+        "stop_loss_technical": 79501.32769531,
+        "target_1": 82528.02798828,
+        "target_2": 84344.04816406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80006.03125,
+        "entry_ideal": 80710.5234375,
         "stop_loss_technical": 82430.171875,
-        "target_1": 76369.8203125,
-        "target_2": 72733.609375,
+        "target_1": 78131.05078125,
+        "target_2": 75551.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
