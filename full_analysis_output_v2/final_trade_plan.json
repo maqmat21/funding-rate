@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-12T10:09:34.716072+00:00",
+    "generated_at_utc": "2026-05-12T12:09:16.767499+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.248,
+        "price": 98.263,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 21m",
+    "U.S. markets open in 1h 22m",
     "News from the Yahoo Finance Network",
-    "7 Billionaires Are Betting Big on This Quantum Computing Powerhouse -- and It's Not IonQ or D‑Wave",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "Prediction: This Could Be Nvidia's Stock Price By the End of 2027",
-    "Quantum Computing Stocks IonQ and D-Wave Quantum Have Nearly Doubled in 5 Weeks -- Don't Take the Bait",
-    "LNC Q1 Deep Dive: Revenue Growth Outpaces Profitability amid Market Headwinds",
-    "I Examined More Than 100 U.S. Dividend ETFs. This One Delivers the Best Risk-Adjusted Returns."
+    "This $30 Nuclear Stock Could Be Your Ticket to Millionaire Status",
+    "I’m a Retirement Planner: 3 Categories Wealthy Retirees Spend the Most on During Year One",
+    "7 Billionaires Are Betting Big on This Quantum Computing Powerhouse -- and It's Not IonQ or D‑Wave",
+    "McDonald's stock is trading at a shocking low",
+    "Quantum Computing Stocks IonQ and D-Wave Quantum Have Nearly Doubled in 5 Weeks -- Don't Take the Bait"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80789.546875,
-        "perp_last_price": 80789.546875,
-        "mark_price": 80789.546875,
-        "index_price": 80789.546875,
+        "spot_price": 80744.0,
+        "perp_last_price": 80744.0,
+        "mark_price": 80744.0,
+        "index_price": 80744.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80786.046875,
-        "stop_loss_technical": 82131.171875,
-        "target_1": 78768.359375,
-        "target_2": 76750.671875,
+        "entry_ideal": 80748.796875,
+        "stop_loss_technical": 79537.56492188,
+        "target_1": 82565.64480469,
+        "target_2": 84382.49273438,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80789.546875,
+        "entry_ideal": 80744.0,
         "stop_loss_technical": 82430.171875,
-        "target_1": 78328.609375,
-        "target_2": 75867.671875,
+        "target_1": 78214.7421875,
+        "target_2": 75685.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
