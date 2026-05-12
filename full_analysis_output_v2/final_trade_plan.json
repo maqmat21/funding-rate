@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-12T01:20:41.705395+00:00",
+    "generated_at_utc": "2026-05-12T04:52:57.284800+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.085,
+        "price": 98.127,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 38m",
     "News from the Yahoo Finance Network",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "Volkswagen’s Scout Motors Could Go Public Before Its Trucks Reach Buyers",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "Morgan Stanley revisits Walmart stock price target pre-earnings",
-    "Toyota is working on a fix for its giant $4.3 billion problem",
+    "'Dad Drove a Used Subaru,' Says Millionaire Who Had No Idea He Was Rich Until 18 — Now Wonders How to Handle Being Rich Among Middle-Class Friends",
+    "The gap between America’s wealthiest and everyday citizens is the biggest it has been in generations",
     "590,000 buyers paid $59 million for Trump's gold phone — not 1 has shipped and refunds look unlikely",
-    "Trump-linked firm moves $12 million in assets ahead of China visit"
+    "Larry David’s Social Security Check vs. the Average American’s"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81331.9765625,
-        "perp_last_price": 81331.9765625,
-        "mark_price": 81331.9765625,
-        "index_price": 81331.9765625,
+        "spot_price": 81212.2578125,
+        "perp_last_price": 81212.2578125,
+        "mark_price": 81212.2578125,
+        "index_price": 81212.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81337.328125,
-        "stop_loss_technical": 82131.171875,
-        "target_1": 80146.5625,
-        "target_2": 78955.796875,
+        "entry_ideal": 81211.953125,
+        "stop_loss_technical": 79993.77382813,
+        "target_1": 83039.22207031,
+        "target_2": 84866.49101562,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81331.9765625,
+        "entry_ideal": 81212.2578125,
         "stop_loss_technical": 82430.171875,
-        "target_1": 79684.68359375,
-        "target_2": 78037.390625,
+        "target_1": 79385.38671875,
+        "target_2": 77558.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
