@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-12T20:23:39.659014+00:00",
+    "generated_at_utc": "2026-05-12T21:46:05.859867+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.301,
+        "price": 98.31,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,50 +23,52 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "Trump Says He Doesn’t Think About Americans' Financial Situation When Considering Iran Deal",
+    "XRP hints at 'full-scale' breakout",
     "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster",
+    "Beloved Restaurant Chain Quietly Closes 200 U.S. Locations — These 7 States Are Hit the Hardest",
+    "How The Investment Story Is Shifting For AMC Entertainment Holdings (AMC)",
     "This Dividend ETF May Be the Ultimate Income Investment to Put in Your Portfolio Right Now",
-    "Greg Abel Just Quietly Dumped a Major Berkshire Holding. Here Is What Buffett’s Successor Is Buying Instead.",
-    "A nurse's boyfriend says Dave Ramsey has her in 'a cult' after she successfully paid off $83K in debt",
     "Ted Cruz confirms ‘dirty little secret’ about Trump Accounts, and it could change Social Security. Protect yourself now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80784.3515625,
-        "perp_last_price": 80784.3515625,
-        "mark_price": 80784.3515625,
-        "index_price": 80784.3515625,
+        "spot_price": 80521.65625,
+        "perp_last_price": 80521.65625,
+        "mark_price": 80521.65625,
+        "index_price": 80521.65625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80784.3515625,
-        "stop_loss_technical": 79572.58628906,
-        "target_1": 82601.99947266,
-        "target_2": 84419.64738281,
+        "entry_ideal": 80523.96875,
+        "stop_loss_technical": 81318.0,
+        "target_1": 79332.921875,
+        "target_2": 78141.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80784.3515625,
-        "stop_loss_technical": 79572.58628906,
-        "target_1": 82601.99947266,
-        "target_2": 84419.64738281,
+        "entry_ideal": 80521.65625,
+        "stop_loss_technical": 82430.171875,
+        "target_1": 77658.8828125,
+        "target_2": 74796.109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
