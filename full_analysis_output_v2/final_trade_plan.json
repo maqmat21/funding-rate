@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-12T12:09:16.767499+00:00",
+    "generated_at_utc": "2026-05-12T14:47:43.590045+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.263,
+        "price": 98.369,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.41,
+        "price": 4.457,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 22m",
+    "U.S. markets close in 5h 14m",
     "News from the Yahoo Finance Network",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "This $30 Nuclear Stock Could Be Your Ticket to Millionaire Status",
-    "I’m a Retirement Planner: 3 Categories Wealthy Retirees Spend the Most on During Year One",
+    "Ted Cruz confirms ‘dirty little secret’ about Trump Accounts, and it could change Social Security. Protect yourself now",
+    "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster",
+    "Larry David’s Social Security Check vs. the Average American’s",
     "7 Billionaires Are Betting Big on This Quantum Computing Powerhouse -- and It's Not IonQ or D‑Wave",
-    "McDonald's stock is trading at a shocking low",
-    "Quantum Computing Stocks IonQ and D-Wave Quantum Have Nearly Doubled in 5 Weeks -- Don't Take the Bait"
+    "Divorced After 12 Years? You Can Claim Half Your Ex’s Social Security Without His Knowledge"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80744.0,
-        "perp_last_price": 80744.0,
-        "mark_price": 80744.0,
-        "index_price": 80744.0,
+        "spot_price": 80621.703125,
+        "perp_last_price": 80621.703125,
+        "mark_price": 80621.703125,
+        "index_price": 80621.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80748.796875,
-        "stop_loss_technical": 79537.56492188,
-        "target_1": 82565.64480469,
-        "target_2": 84382.49273438,
+        "entry_ideal": 80621.703125,
+        "stop_loss_technical": 82084.1875,
+        "target_1": 78427.9765625,
+        "target_2": 76234.25,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80744.0,
+        "entry_ideal": 80621.703125,
         "stop_loss_technical": 82430.171875,
-        "target_1": 78214.7421875,
-        "target_2": 75685.484375,
+        "target_1": 77909.0,
+        "target_2": 75196.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
