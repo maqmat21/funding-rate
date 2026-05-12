@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-11T23:36:47.462360+00:00",
+    "generated_at_utc": "2026-05-12T01:20:41.705395+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 97.905,
-        "trend": "bajista"
+        "price": 98.085,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.41,
@@ -23,49 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
+    "Volkswagen’s Scout Motors Could Go Public Before Its Trucks Reach Buyers",
     "The Stock Market Is Flashing a Warning Signal It Has Only Shown Twice Before. Here's What Comes Next.",
-    "GameStop Shares Roiled by Short-Lived Roaring Kitty Posts",
-    "Larry David’s Social Security Check vs. the Average American’s",
-    "Is GE’s (GE) Rejected Defense Report Proposal Revealing Management’s True Geopolitical Risk Strategy?",
-    "Clear Street Raises Plug Power (PLUG) Price Target, Keeps Buy Rating",
-    "Retirees With Over $1.2 Million in a Traditional 401(k) Are Being Warned About This Tax Bomb at 73"
+    "Morgan Stanley revisits Walmart stock price target pre-earnings",
+    "Toyota is working on a fix for its giant $4.3 billion problem",
+    "590,000 buyers paid $59 million for Trump's gold phone — not 1 has shipped and refunds look unlikely",
+    "Trump-linked firm moves $12 million in assets ahead of China visit"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81738.15625,
-        "perp_last_price": 81738.15625,
-        "mark_price": 81738.15625,
-        "index_price": 81738.15625,
+        "spot_price": 81331.9765625,
+        "perp_last_price": 81331.9765625,
+        "mark_price": 81331.9765625,
+        "index_price": 81331.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81738.15625,
-        "stop_loss_technical": 80453.9375,
-        "target_1": 83664.484375,
-        "target_2": 85590.8125,
+        "entry_ideal": 81337.328125,
+        "stop_loss_technical": 82131.171875,
+        "target_1": 80146.5625,
+        "target_2": 78955.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81738.15625,
-        "stop_loss_technical": 79205.515625,
-        "target_1": 85537.1171875,
-        "target_2": 89336.078125,
+        "entry_ideal": 81331.9765625,
+        "stop_loss_technical": 82430.171875,
+        "target_1": 79684.68359375,
+        "target_2": 78037.390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
