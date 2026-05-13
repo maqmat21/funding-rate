@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-13T15:24:52.160583+00:00",
+    "generated_at_utc": "2026-05-13T17:31:33.310522+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.509,
+        "price": 98.496,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.489,
+        "price": 4.477,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 36m",
+    "U.S. markets close in 2h 29m",
     "News from the Yahoo Finance Network",
-    "Susquehanna Hikes Plug Power Price Target to $3.75 as Project Quantum Leap Shows Progress",
-    "US FTC sues Shutterstock over subscription plans",
-    "Major Purchase Alert: MICHAEL MCCALLISTER Invests $233K In Zoetis Stock",
-    "Eos Energy Enterprises Q1 Earnings Call Highlights",
-    "LinkedIn layoffs 2026: company cutting 5% of workforce",
-    "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster"
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "10 Life Lessons From Warren Buffett Every Person in Their 60s Should Hear",
+    "Why Roth Conversions Backfire for Most Retirees: The $12,000 Tax Bill Nobody Plans For",
+    "Why Ford Stock Soared Today",
+    "Coinbase CEO Says CLARITY Is 'Closer Than Ever' — Here's Why Crypto Investors Care",
+    "3 Unstoppable Stocks to Buy and Hold, Regardless of What Happens in the Stock Market in 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79306.2109375,
-        "perp_last_price": 79306.2109375,
-        "mark_price": 79306.2109375,
-        "index_price": 79306.2109375,
+        "spot_price": 79312.203125,
+        "perp_last_price": 79312.203125,
+        "mark_price": 79312.203125,
+        "index_price": 79312.203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79306.2109375,
-        "stop_loss_technical": 81285.5078125,
-        "target_1": 76337.265625,
-        "target_2": 73368.3203125,
+        "entry_ideal": 79312.2109375,
+        "stop_loss_technical": 78122.52777344,
+        "target_1": 81096.73568359,
+        "target_2": 82881.26042969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79306.2109375,
+        "entry_ideal": 79312.203125,
         "stop_loss_technical": 82430.171875,
-        "target_1": 74620.26953125,
-        "target_2": 69934.328125,
+        "target_1": 74635.25,
+        "target_2": 69958.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
