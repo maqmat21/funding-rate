@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-13T17:31:33.310522+00:00",
+    "generated_at_utc": "2026-05-13T19:21:56.644553+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.496,
+        "price": 98.514,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.477,
+        "price": 4.479,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 29m",
     "News from the Yahoo Finance Network",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "Why Eos Energy Stock Jumped Over 20% Today",
     "10 Life Lessons From Warren Buffett Every Person in Their 60s Should Hear",
-    "Why Roth Conversions Backfire for Most Retirees: The $12,000 Tax Bill Nobody Plans For",
-    "Why Ford Stock Soared Today",
-    "Coinbase CEO Says CLARITY Is 'Closer Than Ever' — Here's Why Crypto Investors Care",
-    "3 Unstoppable Stocks to Buy and Hold, Regardless of What Happens in the Stock Market in 2026"
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "The states where a $100,000 salary qualifies you as ‘lower middle class’: report",
+    "3 Unstoppable Stocks to Buy and Hold, Regardless of What Happens in the Stock Market in 2026",
+    "Plug Power Gains Momentum After Earnings As Analysts Raise Forecast",
+    "The Stock Market Sounds an Alarm as Investors Get a Warning From the Federal Reserve. History Says This Will Happen Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79312.203125,
-        "perp_last_price": 79312.203125,
-        "mark_price": 79312.203125,
-        "index_price": 79312.203125,
+        "spot_price": 79446.9921875,
+        "perp_last_price": 79446.9921875,
+        "mark_price": 79446.9921875,
+        "index_price": 79446.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79312.2109375,
-        "stop_loss_technical": 78122.52777344,
-        "target_1": 81096.73568359,
-        "target_2": 82881.26042969,
+        "entry_ideal": 79448.2109375,
+        "stop_loss_technical": 81285.5078125,
+        "target_1": 76692.265625,
+        "target_2": 73936.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79312.203125,
+        "entry_ideal": 79446.9921875,
         "stop_loss_technical": 82430.171875,
-        "target_1": 74635.25,
-        "target_2": 69958.296875,
+        "target_1": 74972.22265625,
+        "target_2": 70497.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
