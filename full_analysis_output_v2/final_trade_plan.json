@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-12T23:43:42.655818+00:00",
+    "generated_at_utc": "2026-05-13T01:29:26.478639+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.289,
+        "price": 98.358,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,51 +24,51 @@
     "News from the Yahoo Finance Network",
     "Micron flashes investors rare technical signal",
     "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "Chevron's CEO Just Said Physical Oil Shortages Are Starting. Here's What That Means for CVX Stock.",
-    "Beloved Restaurant Chain Quietly Closes 200 U.S. Locations — These 7 States Are Hit the Hardest",
     "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster",
     "U.S. home prices just jumped the most in more than a year",
-    "This Dividend ETF May Be the Ultimate Income Investment to Put in Your Portfolio Right Now"
+    "Fox’s Larry Kudlow Tells Trump Official Inflation Numbers Are ‘Lousy’",
+    "Beloved Restaurant Chain Quietly Closes 200 U.S. Locations — These 7 States Are Hit the Hardest",
+    "Beloved Chain Restaurant Raises Menu Prices Thanks to Inflation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80500.0078125,
-        "perp_last_price": 80500.0078125,
-        "mark_price": 80500.0078125,
-        "index_price": 80500.0078125,
+        "spot_price": 81084.1484375,
+        "perp_last_price": 81084.1484375,
+        "mark_price": 81084.1484375,
+        "index_price": 81084.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80500.0078125,
-        "stop_loss_technical": 81288.828125,
-        "target_1": 79316.77734375,
-        "target_2": 78133.546875,
+        "entry_ideal": 81076.703125,
+        "stop_loss_technical": 79860.55257813,
+        "target_1": 82900.92894531,
+        "target_2": 84725.15476563,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80500.0078125,
-        "stop_loss_technical": 82430.171875,
-        "target_1": 77604.76171875,
-        "target_2": 74709.515625,
+        "entry_ideal": 81084.1484375,
+        "stop_loss_technical": 79867.88621094,
+        "target_1": 82908.54177734,
+        "target_2": 84732.93511719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
