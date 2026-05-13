@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-13T19:21:56.644553+00:00",
+    "generated_at_utc": "2026-05-13T21:01:48.332338+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.514,
+        "price": 98.481,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.479,
+        "price": 4.481,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Why Eos Energy Stock Jumped Over 20% Today",
     "10 Life Lessons From Warren Buffett Every Person in Their 60s Should Hear",
+    "Court OKs $3M payout in Knight-Swift employee retirement case",
     "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
-    "The states where a $100,000 salary qualifies you as ‘lower middle class’: report",
-    "3 Unstoppable Stocks to Buy and Hold, Regardless of What Happens in the Stock Market in 2026",
-    "Plug Power Gains Momentum After Earnings As Analysts Raise Forecast",
-    "The Stock Market Sounds an Alarm as Investors Get a Warning From the Federal Reserve. History Says This Will Happen Next."
+    "66-year-old Mexican restaurant chain closes 38 locations",
+    "Trump Tower Australia deal falls apart amid blame game",
+    "As Jensen Huang Joins Trump's China Summit, Bombshell Report Claims Nvidia's China Revenue Never Went To Zero",
+    "Why Roth Conversions Backfire for Most Retirees: The $12,000 Tax Bill Nobody Plans For"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79446.9921875,
-        "perp_last_price": 79446.9921875,
-        "mark_price": 79446.9921875,
-        "index_price": 79446.9921875,
+        "spot_price": 79664.546875,
+        "perp_last_price": 79664.546875,
+        "mark_price": 79664.546875,
+        "index_price": 79664.546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79448.2109375,
-        "stop_loss_technical": 81285.5078125,
-        "target_1": 76692.265625,
-        "target_2": 73936.3203125,
+        "entry_ideal": 79664.5625,
+        "stop_loss_technical": 78469.5940625,
+        "target_1": 81457.01515625,
+        "target_2": 83249.4678125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79446.9921875,
+        "entry_ideal": 79664.546875,
         "stop_loss_technical": 82430.171875,
-        "target_1": 74972.22265625,
-        "target_2": 70497.453125,
+        "target_1": 75516.109375,
+        "target_2": 71367.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
