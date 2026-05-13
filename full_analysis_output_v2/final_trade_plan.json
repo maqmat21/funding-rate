@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-13T01:29:26.478639+00:00",
+    "generated_at_utc": "2026-05-13T05:08:48.427412+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.358,
+        "price": 98.334,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 23m",
     "News from the Yahoo Finance Network",
+    "I’m 30 and My Lender Wants Me to Cash Out $36,000 in 401(k)s for a Down Payment: But That’s Actually a $1.2 Million Mistake",
+    "Stock Investors Just Got a Massive Warning From Warren Buffett",
+    "Prediction: Nvidia Stock Will Soar on May 20",
+    "Oklo Inc (OKLO) Q1 2026 Earnings Call Highlights: Strategic Advances Amid Financial Challenges",
     "Micron flashes investors rare technical signal",
-    "'Big Short' investor Michael Burry says the market has 'jumped the shark' — what he says investors are getting wrong",
-    "Kiyosaki warns of the ‘greatest depression in world history’ — with millions of boomers facing 2026 retirement disaster",
-    "U.S. home prices just jumped the most in more than a year",
-    "Fox’s Larry Kudlow Tells Trump Official Inflation Numbers Are ‘Lousy’",
-    "Beloved Restaurant Chain Quietly Closes 200 U.S. Locations — These 7 States Are Hit the Hardest",
-    "Beloved Chain Restaurant Raises Menu Prices Thanks to Inflation"
+    "QuickLogic Corp (QUIK) Q1 2026 Earnings Call Highlights: Strong Revenue Growth and Strategic ..."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81084.1484375,
-        "perp_last_price": 81084.1484375,
-        "mark_price": 81084.1484375,
-        "index_price": 81084.1484375,
+        "spot_price": 81153.7578125,
+        "perp_last_price": 81153.7578125,
+        "mark_price": 81153.7578125,
+        "index_price": 81153.7578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81076.703125,
-        "stop_loss_technical": 79860.55257813,
-        "target_1": 82900.92894531,
-        "target_2": 84725.15476563,
+        "entry_ideal": 81153.7578125,
+        "stop_loss_technical": 81277.109375,
+        "target_1": 80968.73046875,
+        "target_2": 80783.703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81084.1484375,
-        "stop_loss_technical": 79867.88621094,
-        "target_1": 82908.54177734,
-        "target_2": 84732.93511719,
+        "entry_ideal": 81153.7578125,
+        "stop_loss_technical": 79936.45144531,
+        "target_1": 82979.71736328,
+        "target_2": 84805.67691406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
