@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-14T14:34:49.166041+00:00",
+    "generated_at_utc": "2026-05-14T16:29:54.261142+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.59,
+        "price": 98.756,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.451,
-        "trend": "alcista"
+        "price": 4.445,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 26m",
+    "U.S. markets close in 3h 31m",
     "News from the Yahoo Finance Network",
+    "Why MicroVision (MVIS) Is Up 16.0% After Narrower Q1 Loss and New Avular Drone Deal – And What's Next",
     "10 Life Lessons From Warren Buffett Every Person in Their 60s Should Hear",
-    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
     "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
     "Warren Buffett Says This Investment Is \"The Best Thing\" -- and It Could Turn $200 per Month Into $1 Million",
-    "Trump accused of ‘scamming’ supporters out of millions",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get"
+    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
+    "Beloved ice cream chain closing location after 40 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80108.8515625,
-        "perp_last_price": 80108.8515625,
-        "mark_price": 80108.8515625,
-        "index_price": 80108.8515625,
+        "spot_price": 81550.0,
+        "perp_last_price": 81550.0,
+        "mark_price": 81550.0,
+        "index_price": 81550.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 80108.8515625,
-        "stop_loss_technical": 78907.21878906,
-        "target_1": 81911.30072266,
-        "target_2": 83713.74988281,
+        "entry_ideal": 81568.0078125,
+        "stop_loss_technical": 78908.0,
+        "target_1": 85558.01953125,
+        "target_2": 89548.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 80108.8515625,
-        "stop_loss_technical": 78907.21878906,
-        "target_1": 81911.30072266,
-        "target_2": 83713.74988281,
+        "entry_ideal": 81550.0,
+        "stop_loss_technical": 78725.5078125,
+        "target_1": 85786.73828125,
+        "target_2": 90023.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
