@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-14T21:19:17.285925+00:00",
+    "generated_at_utc": "2026-05-14T22:32:48.549008+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.876,
+        "price": 98.87,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "A man only got $240 back after Philadelphia airport agents found $44K on him — why traveling with cash can cost you",
-    "Musk vs. OpenAI lawyers' closing arguments hit on Musk's ambition, Altman's character",
+    "Is PayPal Stock Too Cheap to Ignore?",
     "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
-    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
-    "Beloved ice cream chain closing location after 40 years",
-    "China has agreed to buy 200 Boeing jets, Trump says",
-    "Warren Buffett Says This Investment Is \"The Best Thing\" -- and It Could Turn $200 per Month Into $1 Million"
+    "Home Depot and Lowe’s hidden anti-theft system alarms shoppers",
+    "A man only got $240 back after Philadelphia airport agents found $44K on him — why traveling with cash can cost you",
+    "Charles Schwab Raises Revenue Outlook, Details AI Plans",
+    "Another iconic auto brand is taken down by low EV sales",
+    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81260.171875,
-        "perp_last_price": 81260.171875,
-        "mark_price": 81260.171875,
-        "index_price": 81260.171875,
+        "spot_price": 81509.0234375,
+        "perp_last_price": 81509.0234375,
+        "mark_price": 81509.0234375,
+        "index_price": 81509.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81260.171875,
-        "stop_loss_technical": 82051.71875,
-        "target_1": 80072.8515625,
-        "target_2": 78885.53125,
+        "entry_ideal": 81509.78125,
+        "stop_loss_technical": 80287.13453125,
+        "target_1": 83343.75132812,
+        "target_2": 85177.72140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81260.171875,
-        "stop_loss_technical": 80041.26929688,
-        "target_1": 83088.52574219,
-        "target_2": 84916.87960937,
+        "entry_ideal": 81509.0234375,
+        "stop_loss_technical": 80286.38808594,
+        "target_1": 83342.97646484,
+        "target_2": 85176.92949219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
