@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-14T18:15:50.883442+00:00",
+    "generated_at_utc": "2026-05-14T20:02:57.628813+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,26 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.824,
+        "price": 98.88,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.455,
+        "price": 4.461,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 46m",
-    "News from the Yahoo Finance Network",
-    "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
-    "Beloved ice cream chain closing location after 40 years",
-    "Warren Buffett Says This Investment Is \"The Best Thing\" -- and It Could Turn $200 per Month Into $1 Million",
-    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
-    "61% of Americans Have No Will, According to Northwestern Mutual’s 2025 Planning & Progress Study"
+    "News from the Yahoo Finance Network"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81823.3125,
-        "perp_last_price": 81823.3125,
-        "mark_price": 81823.3125,
-        "index_price": 81823.3125,
+        "spot_price": 81518.0078125,
+        "perp_last_price": 81518.0078125,
+        "mark_price": 81518.0078125,
+        "index_price": 81518.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +40,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81823.3125,
-        "stop_loss_technical": 80595.9628125,
-        "target_1": 83664.33703125,
-        "target_2": 85505.3615625,
+        "entry_ideal": 81518.0078125,
+        "stop_loss_technical": 80295.23769531,
+        "target_1": 83352.16298828,
+        "target_2": 85186.31816406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +57,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81823.3125,
-        "stop_loss_technical": 80595.9628125,
-        "target_1": 83664.33703125,
-        "target_2": 85505.3615625,
+        "entry_ideal": 81518.0078125,
+        "stop_loss_technical": 80295.23769531,
+        "target_1": 83352.16298828,
+        "target_2": 85186.31816406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
