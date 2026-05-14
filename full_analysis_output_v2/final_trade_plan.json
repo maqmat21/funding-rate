@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-13T23:34:59.240792+00:00",
+    "generated_at_utc": "2026-05-14T01:28:42.742199+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.453,
-        "trend": "bajista"
+        "price": 98.466,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.481,
@@ -23,50 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "10 Life Lessons From Warren Buffett Every Person in Their 60s Should Hear",
-    "Michael Burry buys beaten-down fintech stock after earnings",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
     "Bonds at 7 percent could beat the stock market. Here’s when to make the switch.",
-    "A 22-year-old posted 88 videos hitting 200 mph on YouTube. A Connecticut judge just shut him down",
-    "Ford stock surges 13% on investor optimism for new energy storage business",
-    "66-year-old Mexican restaurant chain closes 38 locations"
+    "Billionaire Marc Rowan Just Warned Stock Market Investors. History Says Buy This Stock Now.",
+    "Michael Burry buys beaten-down fintech stock after earnings",
+    "Cadillac hits 100,000 EV sales as Tesla drivers jump ship",
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "SCHD vs JEPI: Dividend Growth or Monthly Income?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79272.1328125,
-        "perp_last_price": 79272.1328125,
-        "mark_price": 79272.1328125,
-        "index_price": 79272.1328125,
+        "spot_price": 79572.0078125,
+        "perp_last_price": 79572.0078125,
+        "mark_price": 79572.0078125,
+        "index_price": 79572.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79272.1328125,
-        "stop_loss_technical": 81285.5078125,
-        "target_1": 76252.0703125,
-        "target_2": 73232.0078125,
+        "entry_ideal": 79570.828125,
+        "stop_loss_technical": 78377.26570312,
+        "target_1": 81361.17175781,
+        "target_2": 83151.51539063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79272.1328125,
+        "entry_ideal": 79572.0078125,
         "stop_loss_technical": 82430.171875,
-        "target_1": 74535.07421875,
-        "target_2": 69798.015625,
+        "target_1": 75284.76171875,
+        "target_2": 70997.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
