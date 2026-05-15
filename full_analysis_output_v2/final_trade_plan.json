@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-14T23:32:09.499069+00:00",
+    "generated_at_utc": "2026-05-15T01:25:03.195328+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.87,
+        "price": 99.009,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,35 +24,35 @@
     "News from the Yahoo Finance Network",
     "Another iconic auto brand is taken down by low EV sales",
     "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
+    "Space Stock Craze Comes to Europe as One UK Fund Quadruples",
     "A man only got $240 back after Philadelphia airport agents found $44K on him — why traveling with cash can cost you",
+    "Disney Has Already 'Backed Off' Super Bowl 61 Commercials Demand",
     "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
-    "Beloved ice cream chain closing location after 40 years",
-    "Warren Buffett Says This Investment Is \"The Best Thing\" -- and It Could Turn $200 per Month Into $1 Million",
-    "Trump accused of ‘scamming’ supporters out of millions"
+    "3 Dividend Stocks to Double Up On Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81336.03125,
-        "perp_last_price": 81336.03125,
-        "mark_price": 81336.03125,
-        "index_price": 81336.03125,
+        "spot_price": 81463.71875,
+        "perp_last_price": 81463.71875,
+        "mark_price": 81463.71875,
+        "index_price": 81463.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81327.15625,
-        "stop_loss_technical": 80107.24890625,
-        "target_1": 83157.01726563,
-        "target_2": 84986.87828125,
+        "entry_ideal": 81445.9921875,
+        "stop_loss_technical": 82051.71875,
+        "target_1": 80537.40234375,
+        "target_2": 79628.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81336.03125,
-        "stop_loss_technical": 80115.99078125,
-        "target_1": 83166.09195312,
-        "target_2": 84996.15265625,
+        "entry_ideal": 81463.71875,
+        "stop_loss_technical": 80241.76296875,
+        "target_1": 83296.65242187,
+        "target_2": 85129.58609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
