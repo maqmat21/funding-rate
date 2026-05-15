@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-15T12:19:57.214921+00:00",
+    "generated_at_utc": "2026-05-15T14:39:46.822386+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,51 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.21,
+        "price": 99.207,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.461,
+        "price": 4.568,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 11m",
+    "U.S. markets close in 5h 21m",
     "News from the Yahoo Finance Network",
-    "Nvidia CEO tells college grads that electricians, plumbers and iron workers have a leg up – and there’s no degree needed",
-    "‘I am responsible’: Trump claims he made America $30B in 90 days from a single stock move — how to get in the game too",
-    "Undervalued Small Caps With Insider Activity To Watch In May 2026",
     "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
-    "Xi Hails ‘Landmark’ Trump Summit, Says Many Outcomes Achieved",
-    "Once You Earn This Much, You Face a Big Tax Bill on Your Social Security Benefits"
+    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
+    "Investing GOAT Warren Buffett is clearly missed by team Berkshire Hathaway",
+    "Nvidia CEO tells college grads that electricians, plumbers and iron workers have a leg up – and there’s no degree needed",
+    "I am planning to retire at age 66 with $800K in my IRA and $2,900 a month from Social Security. Is this possible?",
+    "Beloved ice cream chain closing location after 40 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80502.0234375,
-        "perp_last_price": 80502.0234375,
-        "mark_price": 80502.0234375,
-        "index_price": 80502.0234375,
+        "spot_price": 79130.3203125,
+        "perp_last_price": 79130.3203125,
+        "mark_price": 79130.3203125,
+        "index_price": 79130.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 79121.4765625,
+        "stop_loss_technical": 77934.65441406,
+        "target_1": 80901.70978516,
+        "target_2": 82681.94300781,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80502.0234375,
-        "stop_loss_technical": 82051.71875,
-        "target_1": 78177.48046875,
-        "target_2": 75852.9375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 80502.0234375,
+        "entry_ideal": 79130.3203125,
         "stop_loss_technical": 82326.234375,
-        "target_1": 77765.70703125,
-        "target_2": 75029.390625,
+        "target_1": 74336.44921875,
+        "target_2": 69542.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
