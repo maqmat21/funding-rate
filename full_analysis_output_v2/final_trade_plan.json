@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-15T17:57:19.512374+00:00",
+    "generated_at_utc": "2026-05-15T19:21:41.762144+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,43 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.223,
+        "price": 99.289,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.587,
+        "price": 4.599,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 4m",
-    "News from the Yahoo Finance Network"
+    "News from the Yahoo Finance Network",
+    "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
+    "China has agreed to buy 200 Boeing jets, Trump says",
+    "Trump’s More Than 3,700 Trades Provoke Wall Street Astonishment",
+    "Investing GOAT Warren Buffett is clearly missed by team Berkshire Hathaway",
+    "Nvidia CEO tells college grads that electricians, plumbers and iron workers have a leg up – and there’s no degree needed",
+    "A man only got $240 back after Philadelphia airport agents found $44K on him — why traveling with cash can cost you",
+    "\"The Big Short's\" Michael Burry vs. Renowned Economist Ed Yardeni: One Thinks the Stock Market Is Going to 8,250, and the Other Sees an Imminent \"Bloody Car Crash.\""
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79441.609375,
-        "perp_last_price": 79441.609375,
-        "mark_price": 79441.609375,
-        "index_price": 79441.609375,
+        "spot_price": 79079.0625,
+        "perp_last_price": 79079.0625,
+        "mark_price": 79079.0625,
+        "index_price": 79079.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79438.5390625,
-        "stop_loss_technical": 78246.96097656,
-        "target_1": 81225.90619141,
-        "target_2": 83013.27332031,
+        "entry_ideal": 79087.4375,
+        "stop_loss_technical": 81648.703125,
+        "target_1": 75245.5390625,
+        "target_2": 71403.640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -59,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79441.609375,
+        "entry_ideal": 79079.0625,
         "stop_loss_technical": 82326.234375,
-        "target_1": 75114.671875,
-        "target_2": 70787.734375,
+        "target_1": 74208.3046875,
+        "target_2": 69337.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
