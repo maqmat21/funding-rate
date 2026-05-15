@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-15T19:21:41.762144+00:00",
+    "generated_at_utc": "2026-05-15T20:37:19.372058+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.289,
+        "price": 99.301,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.599,
+        "price": 4.595,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "SpaceX Is Going Public -- Here's How NuScale Power Can Benefit",
     "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
+    "Ken Griffin says the Iran war is triggering a recession. He's the rare billionaire willing to put a date on it",
+    "‘I am responsible’: Trump claims he made America $30B in 90 days from a single stock move — how to get in the game too",
+    "Net Worth Benchmarks in Your 30s, 40s and 50s: How Do You Compare?",
     "China has agreed to buy 200 Boeing jets, Trump says",
-    "Trump’s More Than 3,700 Trades Provoke Wall Street Astonishment",
-    "Investing GOAT Warren Buffett is clearly missed by team Berkshire Hathaway",
-    "Nvidia CEO tells college grads that electricians, plumbers and iron workers have a leg up – and there’s no degree needed",
-    "A man only got $240 back after Philadelphia airport agents found $44K on him — why traveling with cash can cost you",
-    "\"The Big Short's\" Michael Burry vs. Renowned Economist Ed Yardeni: One Thinks the Stock Market Is Going to 8,250, and the Other Sees an Imminent \"Bloody Car Crash.\""
+    "Investing GOAT Warren Buffett is clearly missed by team Berkshire Hathaway"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79079.0625,
-        "perp_last_price": 79079.0625,
-        "mark_price": 79079.0625,
-        "index_price": 79079.0625,
+        "spot_price": 79092.8984375,
+        "perp_last_price": 79092.8984375,
+        "mark_price": 79092.8984375,
+        "index_price": 79092.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79087.4375,
-        "stop_loss_technical": 81648.703125,
-        "target_1": 75245.5390625,
-        "target_2": 71403.640625,
+        "entry_ideal": 79092.8984375,
+        "stop_loss_technical": 81608.296875,
+        "target_1": 75319.80078125,
+        "target_2": 71546.703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79079.0625,
+        "entry_ideal": 79092.8984375,
         "stop_loss_technical": 82326.234375,
-        "target_1": 74208.3046875,
-        "target_2": 69337.546875,
+        "target_1": 74242.89453125,
+        "target_2": 69392.890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
