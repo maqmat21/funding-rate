@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-15T08:11:37.985877+00:00",
+    "generated_at_utc": "2026-05-15T10:38:07.296760+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.133,
+        "price": 99.132,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 19m",
+    "U.S. markets open in 2h 52m",
     "News from the Yahoo Finance Network",
-    "Think Social Security Will Cover Retirement? The Numbers Tell a Different Story.",
-    "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
-    "\"The Big Short's\" Michael Burry vs. Renowned Economist Ed Yardeni: One Thinks the Stock Market Is Going to 8,250, and the Other Sees an Imminent \"Bloody Car Crash.\"",
-    "Donald Trump’s New Announcement With China Sparks Oil Price Jump",
-    "Award-winning pizza restaurant chain files Chapter 11 bankruptcy",
-    "3 Dividend Stocks to Double Up On Right Now"
+    "The Valuation Tool Warren Buffett Referred to as \"Probably the Best Single Measure of Where Valuations Stand\" Has Sounded an Alarm for Wall Street",
+    "Nvidia CEO tells college grads that electricians, plumbers and iron workers have a leg up – and there’s no degree needed",
+    "Xi Hails ‘Landmark’ Trump Summit, Says Many Outcomes Achieved",
+    "If I Could Tell All Investors 1 Thing About the Stock Market Right Now, It's This",
+    "Stellantis and Dongfeng Commit €1 Billion to Build Peugeot and Jeep EVs in China (STLA)",
+    "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80661.1171875,
-        "perp_last_price": 80661.1171875,
-        "mark_price": 80661.1171875,
-        "index_price": 80661.1171875,
+        "spot_price": 80497.0625,
+        "perp_last_price": 80497.0625,
+        "mark_price": 80497.0625,
+        "index_price": 80497.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80671.7109375,
+        "entry_ideal": 80500.9765625,
         "stop_loss_technical": 82051.71875,
-        "target_1": 78601.69921875,
-        "target_2": 76531.6875,
+        "target_1": 78174.86328125,
+        "target_2": 75848.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80661.1171875,
+        "entry_ideal": 80497.0625,
         "stop_loss_technical": 82326.234375,
-        "target_1": 78163.44140625,
-        "target_2": 75665.765625,
+        "target_1": 77753.3046875,
+        "target_2": 75009.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
