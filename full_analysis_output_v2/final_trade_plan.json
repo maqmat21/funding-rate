@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-15T21:38:01.968033+00:00",
+    "generated_at_utc": "2026-05-15T22:33:49.600198+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
+    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
     "‘Epstein could literally be right there’: A billionaire bought Epstein's two islands — and now complains about voyeurs",
-    "Berkshire After Warren Buffett Bought Macy's, Sold These Stocks",
+    "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
+    "Investing GOAT Warren Buffett is clearly missed by team Berkshire Hathaway",
     "Ken Griffin says the Iran war is triggering a recession. He's the rare billionaire willing to put a date on it",
-    "Nvidia Stock Investors Just Got Fantastic News from Wall Street",
-    "‘I am responsible’: Trump claims he made America $30B in 90 days from a single stock move — how to get in the game too",
-    "China has agreed to buy 200 Boeing jets, Trump says"
+    "Mysterious trader buys $80 million ahead of Trump's return from China",
+    "How the 2026 RMD Rule Change Could Increase Taxes for Certain Retirees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79058.4296875,
-        "perp_last_price": 79058.4296875,
-        "mark_price": 79058.4296875,
-        "index_price": 79058.4296875,
+        "spot_price": 79046.5625,
+        "perp_last_price": 79046.5625,
+        "mark_price": 79046.5625,
+        "index_price": 79046.5625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79051.421875,
-        "stop_loss_technical": 81336.1328125,
-        "target_1": 75624.35546875,
-        "target_2": 72197.2890625,
+        "entry_ideal": 79046.5625,
+        "stop_loss_technical": 77860.8640625,
+        "target_1": 80825.11015625,
+        "target_2": 82603.6578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79058.4296875,
+        "entry_ideal": 79046.5625,
         "stop_loss_technical": 82326.234375,
-        "target_1": 74156.72265625,
-        "target_2": 69255.015625,
+        "target_1": 74127.0546875,
+        "target_2": 69207.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
