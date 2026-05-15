@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-15T01:25:03.195328+00:00",
+    "generated_at_utc": "2026-05-15T05:04:16.076668+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.009,
+        "price": 99.079,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,27 +21,42 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 27m",
     "News from the Yahoo Finance Network",
-    "Another iconic auto brand is taken down by low EV sales",
+    "Award-winning pizza restaurant chain files Chapter 11 bankruptcy",
+    "\"The Big Short's\" Michael Burry vs. Renowned Economist Ed Yardeni: One Thinks the Stock Market Is Going to 8,250, and the Other Sees an Imminent \"Bloody Car Crash.\"",
     "GM Pulls the Plug on Chevy’s Biggest Silverado Trucks as Sales Collapse and Factory Fallout Begins",
-    "Space Stock Craze Comes to Europe as One UK Fund Quadruples",
-    "A man only got $240 back after Philadelphia airport agents found $44K on him — why traveling with cash can cost you",
-    "Disney Has Already 'Backed Off' Super Bowl 61 Commercials Demand",
-    "Jim Rogers issues dire warning over Trump’s stock market: ‘The end will probably come soon.’ What he likes for safety",
-    "3 Dividend Stocks to Double Up On Right Now"
+    "SAF-Holland's (ETR:SFQ) Soft Earnings Are Actually Better Than They Appear",
+    "Another iconic auto brand is taken down by low EV sales",
+    "This $11 Stock Could Be Your Ticket to Millionaire Status"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81463.71875,
-        "perp_last_price": 81463.71875,
-        "mark_price": 81463.71875,
-        "index_price": 81463.71875,
+        "spot_price": 80795.9765625,
+        "perp_last_price": 80795.9765625,
+        "mark_price": 80795.9765625,
+        "index_price": 80795.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 80802.0625,
+        "stop_loss_technical": 82051.71875,
+        "target_1": 78927.578125,
+        "target_2": 77053.09375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,25 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81445.9921875,
-        "stop_loss_technical": 82051.71875,
-        "target_1": 80537.40234375,
-        "target_2": 79628.8125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 81463.71875,
-        "stop_loss_technical": 80241.76296875,
-        "target_1": 83296.65242187,
-        "target_2": 85129.58609375,
+        "entry_ideal": 80795.9765625,
+        "stop_loss_technical": 82326.234375,
+        "target_1": 78500.58984375,
+        "target_2": 76205.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
