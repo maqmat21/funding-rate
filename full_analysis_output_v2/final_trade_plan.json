@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-16T18:34:33.919248+00:00",
+    "generated_at_utc": "2026-05-16T19:42:24.470009+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
-    "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock",
+    "I was banking on inheriting my late dad's home, but just found out I’ve been named a life tenant. What does that mean?",
     "Greg Abel Is Buying Shares of What Is Probably Warren Buffett's Favorite Stock. Should You Buy It Too?",
-    "GameStop Finally Going Digital With A Bid To Purchase One Of The Biggest Online Marketplaces",
-    "6 innovative ways to optimize kitchen cabinet storage",
+    "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock",
     "Warren Buffett Has Been Saying This for Years. 1 Vanguard ETF Puts That Advice Into Practice.",
-    "Spirit's abandoned planes are being repo'd and flown to Arizona — and their $20M engines may be the real prize"
+    "Spirit's abandoned planes are being repo'd and flown to Arizona — and their $20M engines may be the real prize",
+    "I've advised ultrawealthy families for decades. The ones who stay rich do these 4 things."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78209.296875,
-        "perp_last_price": 78209.296875,
-        "mark_price": 78209.296875,
-        "index_price": 78209.296875,
+        "spot_price": 78237.5078125,
+        "perp_last_price": 78237.5078125,
+        "mark_price": 78237.5078125,
+        "index_price": 78237.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78209.296875,
-        "stop_loss_technical": 77036.15742188,
-        "target_1": 79969.00605469,
-        "target_2": 81728.71523438,
+        "entry_ideal": 78237.5078125,
+        "stop_loss_technical": 77063.94519531,
+        "target_1": 79997.85173828,
+        "target_2": 81758.19566406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78209.296875,
+        "entry_ideal": 78237.5078125,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 72514.30078125,
-        "target_2": 66819.3046875,
+        "target_1": 72584.828125,
+        "target_2": 66932.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
