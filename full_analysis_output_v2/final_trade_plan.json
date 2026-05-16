@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-16T01:19:28.782464+00:00",
+    "generated_at_utc": "2026-05-16T04:41:40.776082+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
     "Vice President JD Vance reveals 186,000 dead people getting food stamps",
-    "‘Epstein could literally be right there’: A billionaire bought Epstein's two islands — and now complains about voyeurs",
-    "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
+    "Boeing Stock Gains As Scott Bessent Hints At 'Large' Orders From China Amid Trump-Xi Meeting— 'We're Going To See...'",
+    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
     "Mark Zuckerberg sends stunning message to Meta employees",
-    "Nvidia Stock Investors Just Got Fantastic News from Wall Street",
-    "Berkshire Bought New Stocks, Shed Some Big Names in First Quarter Without Buffett as CEO"
+    "I’m 25 with $500k in index funds and 11 rental units generating $3,500 monthly. Am I actually financially independent?",
+    "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
+    "‘Epstein could literally be right there’: A billionaire bought Epstein's two islands — and now complains about voyeurs"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79089.1015625,
-        "perp_last_price": 79089.1015625,
-        "mark_price": 79089.1015625,
-        "index_price": 79089.1015625,
+        "spot_price": 78970.7578125,
+        "perp_last_price": 78970.7578125,
+        "mark_price": 78970.7578125,
+        "index_price": 78970.7578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79089.09375,
-        "stop_loss_technical": 77902.75734375,
-        "target_1": 80868.59835937,
-        "target_2": 82648.10296875,
+        "entry_ideal": 78970.7578125,
+        "stop_loss_technical": 80768.3671875,
+        "target_1": 76274.34375,
+        "target_2": 73577.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79089.1015625,
+        "entry_ideal": 78970.7578125,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 74713.8125,
-        "target_2": 70338.5234375,
+        "target_1": 74417.953125,
+        "target_2": 69865.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
