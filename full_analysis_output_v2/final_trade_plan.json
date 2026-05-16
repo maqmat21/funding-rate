@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-16T07:06:05.733340+00:00",
+    "generated_at_utc": "2026-05-16T08:55:31.005933+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Market Crash: The Financial Stocks I'd Buy Without Hesitation",
     "Vice President JD Vance reveals 186,000 dead people getting food stamps",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
-    "This Tech Stock Doesn't Need AI to Win. That's Exactly Why It's My Top Pick Right Now.",
-    "Mark Zuckerberg sends stunning message to Meta employees",
-    "Trump Bought Boeing Stock, Then Announced New Order for 200 Planes",
-    "I’m 25 with $500k in index funds and 11 rental units generating $3,500 monthly. Am I actually financially independent?",
-    "‘Epstein could literally be right there’: A billionaire bought Epstein's two islands — and now complains about voyeurs"
+    "Will Nvidia Stock Soar After May 20? The Evidence is Piling Up, and Here's What It Shows.",
+    "I’m 54 with no retirement savings: a financial advisor says I can still become a millionaire by 67",
+    "A Historical Double Whammy Makes a Stock Market Crash More Likely Under President Donald Trump",
+    "Mark Zuckerberg sends stunning message to Meta employees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78514.0078125,
-        "perp_last_price": 78514.0078125,
-        "mark_price": 78514.0078125,
-        "index_price": 78514.0078125,
+        "spot_price": 78379.859375,
+        "perp_last_price": 78379.859375,
+        "mark_price": 78379.859375,
+        "index_price": 78379.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78514.0078125,
-        "stop_loss_technical": 80635.0,
-        "target_1": 75332.51953125,
-        "target_2": 72151.03125,
+        "entry_ideal": 78379.859375,
+        "stop_loss_technical": 80354.859375,
+        "target_1": 75417.359375,
+        "target_2": 72454.859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78514.0078125,
+        "entry_ideal": 78379.859375,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 73276.078125,
-        "target_2": 68038.1484375,
+        "target_1": 72940.70703125,
+        "target_2": 67501.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
