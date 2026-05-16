@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-16T19:42:24.470009+00:00",
+    "generated_at_utc": "2026-05-16T20:30:09.571641+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,9 +23,9 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
-    "I was banking on inheriting my late dad's home, but just found out I’ve been named a life tenant. What does that mean?",
     "Greg Abel Is Buying Shares of What Is Probably Warren Buffett's Favorite Stock. Should You Buy It Too?",
     "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock",
+    "I was banking on inheriting my late dad's home, but just found out I’ve been named a life tenant. What does that mean?",
     "Warren Buffett Has Been Saying This for Years. 1 Vanguard ETF Puts That Advice Into Practice.",
     "Spirit's abandoned planes are being repo'd and flown to Arizona — and their $20M engines may be the real prize",
     "I've advised ultrawealthy families for decades. The ones who stay rich do these 4 things."
@@ -34,25 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78237.5078125,
-        "perp_last_price": 78237.5078125,
-        "mark_price": 78237.5078125,
-        "index_price": 78237.5078125,
+        "spot_price": 78239.2109375,
+        "perp_last_price": 78239.2109375,
+        "mark_price": 78239.2109375,
+        "index_price": 78239.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78237.5078125,
-        "stop_loss_technical": 77063.94519531,
-        "target_1": 79997.85173828,
-        "target_2": 81758.19566406,
+        "entry_ideal": 78225.6015625,
+        "stop_loss_technical": 79160.8515625,
+        "target_1": 76822.7265625,
+        "target_2": 75419.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78237.5078125,
+        "entry_ideal": 78239.2109375,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 72584.828125,
-        "target_2": 66932.1484375,
+        "target_1": 72589.0859375,
+        "target_2": 66938.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
