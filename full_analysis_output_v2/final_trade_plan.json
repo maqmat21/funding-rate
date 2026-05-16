@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-16T13:54:17.391253+00:00",
+    "generated_at_utc": "2026-05-16T14:46:27.782390+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
     "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock",
-    "Yikes! The Federal Reserve's May Inflation Forecast Is In, and It Has Big Implications for Social Security's 2027 COLA.",
+    "Greg Abel Is Buying Shares of What Is Probably Warren Buffett's Favorite Stock. Should You Buy It Too?",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
     "I've advised ultrawealthy families for decades. The ones who stay rich do these 4 things.",
-    "Prediction: Bitcoin Will Hit $1 Million -- Here's the Timeline",
-    "Iranian leader warns of 'brand new' financial crisis hitting America — mocks 5% Treasury yield and $39T debt"
+    "Warren Buffett Has Been Saying This for Years. 1 Vanguard ETF Puts That Advice Into Practice.",
+    "Yikes! The Federal Reserve's May Inflation Forecast Is In, and It Has Big Implications for Social Security's 2027 COLA."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77919.421875,
-        "perp_last_price": 77919.421875,
-        "mark_price": 77919.421875,
-        "index_price": 77919.421875,
+        "spot_price": 78250.0,
+        "perp_last_price": 78250.0,
+        "mark_price": 78250.0,
+        "index_price": 78250.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77922.546875,
-        "stop_loss_technical": 76753.70867188,
-        "target_1": 79675.80417969,
-        "target_2": 81429.06148437,
+        "entry_ideal": 78247.328125,
+        "stop_loss_technical": 77073.61820313,
+        "target_1": 80007.89300781,
+        "target_2": 81768.45789062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77919.421875,
+        "entry_ideal": 78250.0,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 71789.61328125,
-        "target_2": 65659.8046875,
+        "target_1": 72616.05859375,
+        "target_2": 66982.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
