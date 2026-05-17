@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T09:46:33.072912+00:00",
+    "generated_at_utc": "2026-05-17T10:56:07.527195+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "The Dividend Stock That Keeps Raising Its Payout No Matter What the Market Does",
     "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
-    "I just bought a new car, and now the dealership is threatening to repo it unless I pay another $15K. What can I do?",
-    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
     "New Fed Chair Kevin Warsh Wants to Blow Up the Playbook That's Kept Stocks Rising for 15 Years. Here's What Investors Should Do Now.",
-    "California farmer prepares to rip up 9-year-old peach trees worth $12,500/acre after largest buyer collapsed",
-    "Prediction: The Trump Bull Market Will Come to an Abrupt End Because of 2 Decisions Made by the President"
+    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
+    "Prediction: The Trump Bull Market Will Come to an Abrupt End Because of 2 Decisions Made by the President",
+    "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78100.8125,
-        "perp_last_price": 78100.8125,
-        "mark_price": 78100.8125,
-        "index_price": 78100.8125,
+        "spot_price": 78419.9921875,
+        "perp_last_price": 78419.9921875,
+        "mark_price": 78419.9921875,
+        "index_price": 78419.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78100.8125,
-        "stop_loss_technical": 76929.3003125,
-        "target_1": 79858.08078125,
-        "target_2": 81615.3490625,
+        "entry_ideal": 78419.9921875,
+        "stop_loss_technical": 77243.69230469,
+        "target_1": 80184.44201172,
+        "target_2": 81948.89183594,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78100.8125,
-        "stop_loss_technical": 82005.9609375,
-        "target_1": 72243.08984375,
-        "target_2": 66385.3671875,
+        "entry_ideal": 78419.9921875,
+        "stop_loss_technical": 77243.69230469,
+        "target_1": 80184.44201172,
+        "target_2": 81948.89183594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
