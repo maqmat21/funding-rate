@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T11:54:01.029490+00:00",
+    "generated_at_utc": "2026-05-17T12:51:51.210713+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Dividend Stock That Keeps Raising Its Payout No Matter What the Market Does",
     "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
-    "Prediction: The Trump Bull Market Will Come to an Abrupt End Because of 2 Decisions Made by the President",
+    "I just bought a new car, and now the dealership is threatening to repo it unless I pay another $15K. What can I do?",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
-    "New Fed Chair Kevin Warsh Wants to Blow Up the Playbook That's Kept Stocks Rising for 15 Years. Here's What Investors Should Do Now.",
-    "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock"
+    "Prediction: The Trump Bull Market Will Come to an Abrupt End Because of 2 Decisions Made by the President"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78375.0,
-        "perp_last_price": 78375.0,
-        "mark_price": 78375.0,
-        "index_price": 78375.0,
+        "spot_price": 78373.296875,
+        "perp_last_price": 78373.296875,
+        "mark_price": 78373.296875,
+        "index_price": 78373.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78375.0,
-        "stop_loss_technical": 77199.375,
-        "target_1": 80138.4375,
-        "target_2": 81901.875,
+        "entry_ideal": 78373.296875,
+        "stop_loss_technical": 78557.296875,
+        "target_1": 78097.296875,
+        "target_2": 77821.296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78375.0,
-        "stop_loss_technical": 77199.375,
-        "target_1": 80138.4375,
-        "target_2": 81901.875,
+        "entry_ideal": 78373.296875,
+        "stop_loss_technical": 77197.69742187,
+        "target_1": 80136.69605469,
+        "target_2": 81900.09523437,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
