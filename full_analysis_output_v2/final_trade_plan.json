@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T12:51:51.210713+00:00",
+    "generated_at_utc": "2026-05-17T14:20:00.257030+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Dividend Stock That Keeps Raising Its Payout No Matter What the Market Does",
     "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text",
-    "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
-    "I just bought a new car, and now the dealership is threatening to repo it unless I pay another $15K. What can I do?",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
-    "Prediction: The Trump Bull Market Will Come to an Abrupt End Because of 2 Decisions Made by the President"
+    "I just bought a new car, and now the dealership is threatening to repo it unless I pay another $15K. What can I do?",
+    "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78373.296875,
-        "perp_last_price": 78373.296875,
-        "mark_price": 78373.296875,
-        "index_price": 78373.296875,
+        "spot_price": 77938.7578125,
+        "perp_last_price": 77938.7578125,
+        "mark_price": 77938.7578125,
+        "index_price": 77938.7578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78373.296875,
+        "entry_ideal": 77948.84375,
         "stop_loss_technical": 78557.296875,
-        "target_1": 78097.296875,
-        "target_2": 77821.296875,
+        "target_1": 77036.1640625,
+        "target_2": 76123.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78373.296875,
-        "stop_loss_technical": 77197.69742187,
-        "target_1": 80136.69605469,
-        "target_2": 81900.09523437,
+        "entry_ideal": 77938.7578125,
+        "stop_loss_technical": 82005.9609375,
+        "target_1": 71837.953125,
+        "target_2": 65737.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
