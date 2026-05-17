@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T18:38:28.093000+00:00",
+    "generated_at_utc": "2026-05-17T19:47:21.253194+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
+    "4 Dividend Energy Stocks to Buy Right Now",
     "Warren Buffet's Berkshire makes major $2.65B move in surging stock",
     "The 'great wealth transfer' is here, but not for your kids. Elder care is draining trillions boomers wanted to pass down",
-    "4 Dividend Energy Stocks to Buy Right Now",
-    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
-    "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text"
+    "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text",
+    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78113.203125,
-        "perp_last_price": 78113.203125,
-        "mark_price": 78113.203125,
-        "index_price": 78113.203125,
+        "spot_price": 78340.609375,
+        "perp_last_price": 78340.609375,
+        "mark_price": 78340.609375,
+        "index_price": 78340.609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78113.203125,
-        "stop_loss_technical": 76941.50507813,
-        "target_1": 79870.75019531,
-        "target_2": 81628.29726563,
+        "entry_ideal": 78340.6015625,
+        "stop_loss_technical": 77165.49253906,
+        "target_1": 80103.26509766,
+        "target_2": 81865.92863281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78113.203125,
-        "stop_loss_technical": 82005.9609375,
-        "target_1": 72274.06640625,
-        "target_2": 66434.9296875,
+        "entry_ideal": 78340.609375,
+        "stop_loss_technical": 77165.50023437,
+        "target_1": 80103.27308594,
+        "target_2": 81865.93679688,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
