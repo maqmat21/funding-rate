@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T14:20:00.257030+00:00",
+    "generated_at_utc": "2026-05-17T15:31:20.984955+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Dividend Stock That Keeps Raising Its Payout No Matter What the Market Does",
+    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
     "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text",
+    "4 Dividend Energy Stocks to Buy Right Now",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
-    "I just bought a new car, and now the dealership is threatening to repo it unless I pay another $15K. What can I do?",
+    "The Dividend Stock That Keeps Raising Its Payout No Matter What the Market Does",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77938.7578125,
-        "perp_last_price": 77938.7578125,
-        "mark_price": 77938.7578125,
-        "index_price": 77938.7578125,
+        "spot_price": 77998.03125,
+        "perp_last_price": 77998.03125,
+        "mark_price": 77998.03125,
+        "index_price": 77998.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77948.84375,
+        "entry_ideal": 77998.03125,
         "stop_loss_technical": 78557.296875,
-        "target_1": 77036.1640625,
-        "target_2": 76123.484375,
+        "target_1": 77159.1328125,
+        "target_2": 76320.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77938.7578125,
+        "entry_ideal": 77998.03125,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 71837.953125,
-        "target_2": 65737.1484375,
+        "target_1": 71986.13671875,
+        "target_2": 65974.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
