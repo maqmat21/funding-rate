@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T21:30:34.890038+00:00",
+    "generated_at_utc": "2026-05-17T22:29:48.304632+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.27,
+        "price": 99.278,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,49 +25,50 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
     "Warren Buffet's Berkshire makes major $2.65B move in surging stock",
-    "4 Dividend Energy Stocks to Buy Right Now",
-    "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
     "I’m 67, retired, and missing the yard: I regret selling my house and downsizing to a rental. Is it too late to go back?",
+    "4 Dividend Energy Stocks to Buy Right Now",
+    "Nvidia Stock Is Poised to Rocket From the Booming Space Economy",
     "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78387.25,
-        "perp_last_price": 78387.25,
-        "mark_price": 78387.25,
-        "index_price": 78387.25,
+        "spot_price": 77978.0,
+        "perp_last_price": 77978.0,
+        "mark_price": 77978.0,
+        "index_price": 77978.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78387.25,
-        "stop_loss_technical": 77211.44125,
-        "target_1": 80150.963125,
-        "target_2": 81914.67625,
+        "entry_ideal": 77978.0,
+        "stop_loss_technical": 78557.296875,
+        "target_1": 77109.0546875,
+        "target_2": 76240.109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78387.25,
-        "stop_loss_technical": 77211.44125,
-        "target_1": 80150.963125,
-        "target_2": 81914.67625,
+        "entry_ideal": 77978.0,
+        "stop_loss_technical": 82005.9609375,
+        "target_1": 71936.05859375,
+        "target_2": 65894.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
