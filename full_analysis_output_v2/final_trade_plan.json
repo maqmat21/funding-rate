@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-17T01:52:52.592789+00:00",
+    "generated_at_utc": "2026-05-17T05:39:25.131610+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "A couple had $265K in savings and $1.7M projected for retirement — Ramit Sethi says they blew 1 crucial move",
-    "Elon Musk Says If We Don't Do Something About Corruption And Waste, 'The Ship Of America Is Going To Sink' —And We're All Going Down With It",
+    "'They will just milk you until you're dry': New Yorker loses $20,000 to a fake job offer that started with a simple text",
     "Panthers legend Cam Newton says money ‘just don't come in the same' — can't provide for his 8 kids like when he made $6M",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Domino's, and More Than Tripled Berkshire's Stake in a Virtual Monopoly in a Massive Portfolio Overhaul",
-    "Greg Abel Is Buying Shares of What Is Probably Warren Buffett's Favorite Stock. Should You Buy It Too?",
+    "A couple had $265K in savings and $1.7M projected for retirement — Ramit Sethi says they blew 1 crucial move",
     "Bill Gates Just Did the Unthinkable — He Sold Every Last Share of Microsoft Stock",
+    "Elon Musk Says If We Don't Do Something About Corruption And Waste, 'The Ship Of America Is Going To Sink' —And We're All Going Down With It",
     "I was banking on inheriting my late dad's home, but just found out I’ve been named a life tenant. What does that mean?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77788.890625,
-        "perp_last_price": 77788.890625,
-        "mark_price": 77788.890625,
-        "index_price": 77788.890625,
+        "spot_price": 78169.6875,
+        "perp_last_price": 78169.6875,
+        "mark_price": 78169.6875,
+        "index_price": 78169.6875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77788.890625,
-        "stop_loss_technical": 79017.0390625,
-        "target_1": 75946.66796875,
-        "target_2": 74104.4453125,
+        "entry_ideal": 78169.6875,
+        "stop_loss_technical": 76997.1421875,
+        "target_1": 79928.50546875,
+        "target_2": 81687.3234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77788.890625,
+        "entry_ideal": 78169.6875,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 71463.28515625,
-        "target_2": 65137.6796875,
+        "target_1": 72415.27734375,
+        "target_2": 66660.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
