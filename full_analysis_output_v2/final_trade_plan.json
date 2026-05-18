@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-18T12:26:01.743838+00:00",
+    "generated_at_utc": "2026-05-18T16:00:24.601760+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,61 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.085,
+        "price": 99.067,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.595,
+        "price": 4.601,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 5m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Musk hailed Tesla robotaxis in Texas as the start of a nationwide march. But actually hailing one is hard",
+    "The Surprising Reason Regeneron Pharmaceuticals Just Dropped 10%",
+    "Elon Musk has a stark message on Americans and the economy",
     "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
-    "Billionaire Michael Saylor said he would never sell bitcoin. After 3 straight quarterly losses, he's changing his mind",
     "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
-    "‘Everything can go down’: Suze Orman warns stocks and bonds aren't enough for retirement. What she says you need instead",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77468.1171875,
-        "perp_last_price": 77468.1171875,
-        "mark_price": 77468.1171875,
-        "index_price": 77468.1171875,
+        "spot_price": 76260.0,
+        "perp_last_price": 76260.0,
+        "mark_price": 76260.0,
+        "index_price": 76260.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77450.0,
-        "stop_loss_technical": 76539.9921875,
-        "target_1": 78815.01171875,
-        "target_2": 80180.0234375,
+        "entry_ideal": 76261.109375,
+        "stop_loss_technical": 78444.171875,
+        "target_1": 72986.515625,
+        "target_2": 69711.921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77468.1171875,
-        "stop_loss_technical": 76539.9921875,
-        "target_1": 78860.3046875,
-        "target_2": 80252.4921875,
+        "entry_ideal": 76260.0,
+        "stop_loss_technical": 82005.9609375,
+        "target_1": 67641.05859375,
+        "target_2": 59022.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
