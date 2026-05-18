@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-18T16:00:24.601760+00:00",
+    "generated_at_utc": "2026-05-18T18:01:52.112501+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.067,
+        "price": 99.021,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.601,
+        "price": 4.599,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 1h 59m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Musk hailed Tesla robotaxis in Texas as the start of a nationwide march. But actually hailing one is hard",
-    "The Surprising Reason Regeneron Pharmaceuticals Just Dropped 10%",
+    "Elon Musk loses court battle against OpenAI",
+    "Elon Musk loses lawsuit against OpenAI",
     "Elon Musk has a stark message on Americans and the economy",
     "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
-    "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76260.0,
-        "perp_last_price": 76260.0,
-        "mark_price": 76260.0,
-        "index_price": 76260.0,
+        "spot_price": 76562.2890625,
+        "perp_last_price": 76562.2890625,
+        "mark_price": 76562.2890625,
+        "index_price": 76562.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 76261.109375,
-        "stop_loss_technical": 78444.171875,
-        "target_1": 72986.515625,
-        "target_2": 69711.921875,
+        "entry_ideal": 76562.2890625,
+        "stop_loss_technical": 77951.0234375,
+        "target_1": 74479.1875,
+        "target_2": 72396.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 76260.0,
+        "entry_ideal": 76562.2890625,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 67641.05859375,
-        "target_2": 59022.1171875,
+        "target_1": 68396.78125,
+        "target_2": 60231.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
