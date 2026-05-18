@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-18T19:57:26.582228+00:00",
+    "generated_at_utc": "2026-05-18T21:04:56.171979+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.01,
+        "price": 98.987,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
+    "Toyo Co Ltd (TOYO) Q1 2026 Earnings Call Highlights: Record Revenue and Profitability Surge ...",
     "Elon Musk has a stark message on Americans and the economy",
+    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
-    "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
-    "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
-    "NuScale Power Just Reported Earnings. Here's Why I'd Buy After the Numbers Dropped."
+    "If Starship Explodes Again, It Could Derail SpaceX’s Entire IPO",
+    "Here's the Average Net Worth for Americans at 65 -- Where Do You Stand?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76834.9921875,
-        "perp_last_price": 76834.9921875,
-        "mark_price": 76834.9921875,
-        "index_price": 76834.9921875,
+        "spot_price": 76815.046875,
+        "perp_last_price": 76815.046875,
+        "mark_price": 76815.046875,
+        "index_price": 76815.046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76832.2109375,
-        "stop_loss_technical": 76005.9765625,
-        "target_1": 78071.5625,
-        "target_2": 79310.9140625,
+        "entry_ideal": 76816.5703125,
+        "stop_loss_technical": 77745.1171875,
+        "target_1": 75423.75,
+        "target_2": 74030.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 76834.9921875,
+        "entry_ideal": 76815.046875,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 69078.5390625,
-        "target_2": 61322.0859375,
+        "target_1": 69028.67578125,
+        "target_2": 61242.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
