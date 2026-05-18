@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-18T01:27:24.959497+00:00",
+    "generated_at_utc": "2026-05-18T05:39:18.136254+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.386,
+        "price": 99.317,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 52m",
     "News from the Yahoo Finance Network",
-    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
-    "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
     "Elon Musk has a stark message on Americans and the economy",
-    "How Much Will SpaceX Stock Be Worth by 2030? Here's What History Says.",
+    "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
-    "I’m 67, retired, and missing the yard: I regret selling my house and downsizing to a rental. Is it too late to go back?"
+    "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76864.2578125,
-        "perp_last_price": 76864.2578125,
-        "mark_price": 76864.2578125,
-        "index_price": 76864.2578125,
+        "spot_price": 76964.84375,
+        "perp_last_price": 76964.84375,
+        "mark_price": 76964.84375,
+        "index_price": 76964.84375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76864.2578125,
-        "stop_loss_technical": 78557.296875,
-        "target_1": 74324.69921875,
-        "target_2": 71785.140625,
+        "entry_ideal": 76964.84375,
+        "stop_loss_technical": 75810.37109375,
+        "target_1": 78696.55273438,
+        "target_2": 80428.26171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76864.2578125,
+        "entry_ideal": 76964.84375,
         "stop_loss_technical": 82005.9609375,
-        "target_1": 69151.703125,
-        "target_2": 61439.1484375,
+        "target_1": 69403.16796875,
+        "target_2": 61841.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
