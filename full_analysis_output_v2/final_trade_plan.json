@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-18T23:17:48.025737+00:00",
+    "generated_at_utc": "2026-05-19T00:19:13.781776+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.954,
+        "price": 99.026,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
     "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
     "Elon Musk has a stark message on Americans and the economy",
-    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
-    "Trump has only one real option to slash gas prices",
-    "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
+    "NuScale Power Just Reported Earnings. Here's Why I'd Buy After the Numbers Dropped.",
     "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
-    "Silver price predictions for the next decade: What should investors expect?"
+    "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
+    "The Tax-Loss Harvest That Cost a 66-Year-Old Retiree $2,400 in Wash-Sale Penalties She Never Saw Coming"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76987.6015625,
-        "perp_last_price": 76987.6015625,
-        "mark_price": 76987.6015625,
-        "index_price": 76987.6015625,
+        "spot_price": 77137.3125,
+        "perp_last_price": 77137.3125,
+        "mark_price": 77137.3125,
+        "index_price": 77137.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76987.6015625,
-        "stop_loss_technical": 77745.1171875,
-        "target_1": 75851.328125,
-        "target_2": 74715.0546875,
+        "entry_ideal": 77130.0,
+        "stop_loss_technical": 76005.9765625,
+        "target_1": 78816.03515625,
+        "target_2": 80502.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76987.6015625,
+        "entry_ideal": 77137.3125,
         "stop_loss_technical": 76005.9765625,
-        "target_1": 78460.0390625,
-        "target_2": 79932.4765625,
+        "target_1": 78834.31640625,
+        "target_2": 80531.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
