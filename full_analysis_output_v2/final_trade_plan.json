@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-19T00:19:13.781776+00:00",
+    "generated_at_utc": "2026-05-19T04:36:02.870289+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.026,
-        "trend": "bajista"
+        "price": 99.106,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.623,
@@ -21,51 +21,53 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 55m",
     "News from the Yahoo Finance Network",
+    "Greg Abel Recently Bought $235 Million Worth of Warren Buffett's Favorite Stock",
+    "Another low-cost airline files for bankruptcy protection",
     "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
-    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
+    "Here's the Average Net Worth for Americans at 65 -- Where Do You Stand?",
     "Elon Musk has a stark message on Americans and the economy",
-    "NuScale Power Just Reported Earnings. Here's Why I'd Buy After the Numbers Dropped.",
-    "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire's Stake in This \"Magnificent Seven\" Stock. Is It a Buy?",
-    "3 Dividend Stocks Warren Buffett Would Buy in a Market Crash",
-    "The Tax-Loss Harvest That Cost a 66-Year-Old Retiree $2,400 in Wash-Sale Penalties She Never Saw Coming"
+    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77137.3125,
-        "perp_last_price": 77137.3125,
-        "mark_price": 77137.3125,
-        "index_price": 77137.3125,
+        "spot_price": 76802.40625,
+        "perp_last_price": 76802.40625,
+        "mark_price": 76802.40625,
+        "index_price": 76802.40625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77130.0,
-        "stop_loss_technical": 76005.9765625,
-        "target_1": 78816.03515625,
-        "target_2": 80502.0703125,
+        "entry_ideal": 76802.40625,
+        "stop_loss_technical": 75650.37015625,
+        "target_1": 78530.46039062,
+        "target_2": 80258.51453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77137.3125,
-        "stop_loss_technical": 76005.9765625,
-        "target_1": 78834.31640625,
-        "target_2": 80531.3203125,
+        "entry_ideal": 76802.40625,
+        "stop_loss_technical": 81634.84375,
+        "target_1": 69553.75,
+        "target_2": 62305.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
