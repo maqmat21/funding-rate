@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-19T04:36:02.870289+00:00",
+    "generated_at_utc": "2026-05-19T08:03:17.815628+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.106,
+        "price": 99.127,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,42 +21,27 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 55m",
+    "U.S. markets open in 5h 27m",
     "News from the Yahoo Finance Network",
     "Greg Abel Recently Bought $235 Million Worth of Warren Buffett's Favorite Stock",
-    "Another low-cost airline files for bankruptcy protection",
-    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
+    "Here's What Retirees Often Regret About Taking Social Security Early",
+    "SpaceX IPO Adds Second Musk Stock. It’s a Problem for Tesla",
     "Here's the Average Net Worth for Americans at 65 -- Where Do You Stand?",
-    "Elon Musk has a stark message on Americans and the economy",
-    "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare"
+    "Mark Cuban: 'I’ve gotten beat.' After investing 20M into his first 85 Shark Tank investments they lost money",
+    "Elon Musk has a stark message on Americans and the economy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76802.40625,
-        "perp_last_price": 76802.40625,
-        "mark_price": 76802.40625,
-        "index_price": 76802.40625,
+        "spot_price": 77137.7734375,
+        "perp_last_price": 77137.7734375,
+        "mark_price": 77137.7734375,
+        "index_price": 77137.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 76802.40625,
-        "stop_loss_technical": 75650.37015625,
-        "target_1": 78530.46039062,
-        "target_2": 80258.51453125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -64,10 +49,24 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76802.40625,
-        "stop_loss_technical": 81634.84375,
-        "target_1": 69553.75,
-        "target_2": 62305.09375,
+        "entry_ideal": 77140.4921875,
+        "stop_loss_technical": 77609.8125,
+        "target_1": 76436.51171875,
+        "target_2": 75732.53125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 77137.7734375,
+        "stop_loss_technical": 75980.70683594,
+        "target_1": 78873.37333984,
+        "target_2": 80608.97324219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
