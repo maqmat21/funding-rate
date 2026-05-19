@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-19T11:29:27.436154+00:00",
+    "generated_at_utc": "2026-05-19T14:09:10.682773+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.228,
+        "price": 99.271,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.623,
+        "price": 4.651,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 1m",
+    "U.S. markets close in 5h 52m",
     "News from the Yahoo Finance Network",
-    "Trump traded over $50 million in 'Magnificent 7' stocks last quarter, loading up on Apple and Google and selling Tesla",
     "Greg Abel Recently Bought $235 Million Worth of Warren Buffett's Favorite Stock",
     "Here's the Average Net Worth for Americans at 65 -- Where Do You Stand?",
-    "Insiders Sold US$45m Of Roblox Stock Possibly Sending Warning Sign",
+    "How Software Can 10x Rivian's Stock",
+    "3 Reasons to Sell TSLA and 1 Stock to Buy Instead",
     "A 67-Year-Old School Principal With $1.4 Million Discovers Her Pension Quietly Pushed Her Into IRMAA Tier Three Before She Filed for Medicare",
-    "Why I Won't Stop Loading Up on This Terrific ETF"
+    "Driving an Electric Vehicle Could Cost You an Extra $130 a Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76807.7109375,
-        "perp_last_price": 76807.7109375,
-        "mark_price": 76807.7109375,
-        "index_price": 76807.7109375,
+        "spot_price": 76634.0625,
+        "perp_last_price": 76634.0625,
+        "mark_price": 76634.0625,
+        "index_price": 76634.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76807.7109375,
+        "entry_ideal": 76634.0625,
         "stop_loss_technical": 77348.640625,
-        "target_1": 75996.31640625,
-        "target_2": 75184.921875,
+        "target_1": 75562.1953125,
+        "target_2": 74490.328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76807.7109375,
+        "entry_ideal": 76634.0625,
         "stop_loss_technical": 81634.84375,
-        "target_1": 69567.01171875,
-        "target_2": 62326.3125,
+        "target_1": 69132.890625,
+        "target_2": 61631.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
