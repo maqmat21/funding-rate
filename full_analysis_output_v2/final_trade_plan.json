@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-20T04:39:35.076613+00:00",
+    "generated_at_utc": "2026-05-20T08:03:48.939603+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.322,
+        "price": 99.417,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 51m",
+    "U.S. markets open in 5h 27m",
     "News from the Yahoo Finance Network",
-    "Should You Buy Nvidia Stock Before Its Next Earnings Report?",
-    "Warren Buffett said 90% of his wife's inheritance will go into a single investment. Here's why and how you can do it too",
-    "Dave Ramsey on Why Index Funds vs. Mutual Funds Misses the Real Point About Building Wealth",
-    "2 Dividend Stocks to Buy and Hold Forever",
     "If You Invested $10,000 In Tesla 10 Years Ago, This Is How Rich You Would Be Today",
-    "Costco will soon do something it only does 7 times a year"
+    "Warren Buffett said 90% of his wife's inheritance will go into a single investment. Here's why and how you can do it too",
+    "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+    "Warren Buffett’s Berkshire Delivered a 39,000x Return Since 1965. He Still Tells Most Investors to Buy Index Funds Instead.",
+    "2 Dividend Stocks to Buy and Hold Forever",
+    "Dave Ramsey on Why Index Funds vs. Mutual Funds Misses the Real Point About Building Wealth"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76655.2734375,
-        "perp_last_price": 76655.2734375,
-        "mark_price": 76655.2734375,
-        "index_price": 76655.2734375,
+        "spot_price": 77196.0078125,
+        "perp_last_price": 77196.0078125,
+        "mark_price": 77196.0078125,
+        "index_price": 77196.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76655.2734375,
-        "stop_loss_technical": 77024.65625,
-        "target_1": 76101.19921875,
-        "target_2": 75547.125,
+        "entry_ideal": 77196.0078125,
+        "stop_loss_technical": 77397.0234375,
+        "target_1": 76894.484375,
+        "target_2": 76592.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76655.2734375,
-        "stop_loss_technical": 79173.5,
-        "target_1": 72877.93359375,
-        "target_2": 69100.59375,
+        "entry_ideal": 77196.0078125,
+        "stop_loss_technical": 76038.06769531,
+        "target_1": 78932.91798828,
+        "target_2": 80669.82816406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
