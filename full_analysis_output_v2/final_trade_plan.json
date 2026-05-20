@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-20T11:17:03.175879+00:00",
+    "generated_at_utc": "2026-05-20T13:47:46.165455+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.369,
+        "price": 99.383,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.667,
+        "price": 4.655,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 14m",
+    "U.S. markets close in 6h 13m",
     "News from the Yahoo Finance Network",
-    "Greg Abel Just Sold Berkshire Hathaway's Stake in Visa and Mastercard and Initiated a New Position in a Stock That Warren Buffett Sold 6 Years Ago",
     "This More Than 5%-Yielding Stock Just Declared Its 671st Consecutive Monthly Dividend. Here's Why It's a Must Buy for Passive Income.",
-    "Trump says Taiwan 'stole our chip industry' — but TSMC was built by a US citizen and 25-year Texas Instruments veteran",
-    "How Much Do You Really Need Invested to Replace a $75,000 Salary With Monthly Dividend ETFs?",
-    "Trump acquired stock in companies like Walt Disney, JPMorgan, and Netflix, even as he threatened them publicly",
-    "TSA Gold+ just launched. Here's what changes at the security checkpoint."
+    "If You Invested $10,000 In Tesla 10 Years Ago, This Is How Rich You Would Be Today",
+    "Warren Buffett said 90% of his wife's inheritance will go into a single investment. Here's why and how you can do it too",
+    "At 56 With $2.1 Million Saved and a Stressful CFO Job, the Math Tilts Hard Toward Quitting Now",
+    "Prediction: This Will Be Micron's Stock Price at the End of 2027 (Hint: It's Well Over $1,000)",
+    "Wall Street Holds Its Breath: Can Nvidia Possibly Meet the Sky-High Expectations?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77429.640625,
-        "perp_last_price": 77429.640625,
-        "mark_price": 77429.640625,
-        "index_price": 77429.640625,
+        "spot_price": 77231.109375,
+        "perp_last_price": 77231.109375,
+        "mark_price": 77231.109375,
+        "index_price": 77231.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77429.640625,
-        "stop_loss_technical": 77581.8828125,
-        "target_1": 77201.27734375,
-        "target_2": 76972.9140625,
+        "entry_ideal": 77222.0078125,
+        "stop_loss_technical": 76063.67769531,
+        "target_1": 78959.50298828,
+        "target_2": 80696.99816406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,13 +61,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77429.640625,
-        "stop_loss_technical": 76268.19601562,
-        "target_1": 79171.80753906,
-        "target_2": 80913.97445313,
+        "entry_ideal": 77231.109375,
+        "stop_loss_technical": 76072.64273437,
+        "target_1": 78968.80933594,
+        "target_2": 80706.50929687,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
