@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-20T22:40:51.590061+00:00",
+    "generated_at_utc": "2026-05-20T23:54:08.995394+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.126,
+        "price": 99.123,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,51 +23,52 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "177-year-old iconic beer brand ends all production",
-    "Nvidia Q1 FY2027 earnings: record revenue, dividend hike",
-    "Jeff Bezos on Zohran Mamdani’s big mistake: ‘When you don’t know how to solve a problem, create a villain, blame them’",
+    "Tesla Owns Nearly 19 Million Shares of SpaceX: What TSLA Investors Need to Know Before the IPO",
     "Nvidia Raises Dividend 2,400%. It No Longer Has the Lowest Yield in the S&P 500.",
-    "SpaceX Takes Cover Off Its Financials In First Public Document Ahead Of IPO",
-    "Nvidia Stock Investors Just Got Fantastic News From CEO Jensen Huang",
-    "Nvidia says it will see $20 billion in CPU sales this year"
+    "A Look At T-Mobile US (TMUS) Valuation As Mixed Momentum Meets Modest Undervaluation Claims",
+    "Why AXT (AXTI) Is Down 14.2% After Betting Big On AI-Focused Indium Phosphide Expansion",
+    "Jeff Bezos says some Americans should pay zero federal income tax",
+    "The Bond Market Just Handed U.S. Taxpayers $2 Trillion in Bad News"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77301.3671875,
-        "perp_last_price": 77301.3671875,
-        "mark_price": 77301.3671875,
-        "index_price": 77301.3671875,
+        "spot_price": 77453.7734375,
+        "perp_last_price": 77453.7734375,
+        "mark_price": 77453.7734375,
+        "index_price": 77453.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77301.3671875,
-        "stop_loss_technical": 76141.84667969,
-        "target_1": 79040.64794922,
-        "target_2": 80779.92871094,
+        "entry_ideal": 77453.7734375,
+        "stop_loss_technical": 76596.3203125,
+        "target_1": 78739.953125,
+        "target_2": 80026.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77301.3671875,
+        "entry_ideal": 77453.7734375,
         "stop_loss_technical": 76029.2265625,
-        "target_1": 79209.578125,
-        "target_2": 81117.7890625,
+        "target_1": 79590.59375,
+        "target_2": 81727.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
