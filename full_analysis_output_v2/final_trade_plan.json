@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-20T08:03:48.939603+00:00",
+    "generated_at_utc": "2026-05-20T11:17:03.175879+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.417,
+        "price": 99.369,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 27m",
+    "U.S. markets open in 2h 14m",
     "News from the Yahoo Finance Network",
-    "If You Invested $10,000 In Tesla 10 Years Ago, This Is How Rich You Would Be Today",
-    "Warren Buffett said 90% of his wife's inheritance will go into a single investment. Here's why and how you can do it too",
-    "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
-    "Warren Buffett’s Berkshire Delivered a 39,000x Return Since 1965. He Still Tells Most Investors to Buy Index Funds Instead.",
-    "2 Dividend Stocks to Buy and Hold Forever",
-    "Dave Ramsey on Why Index Funds vs. Mutual Funds Misses the Real Point About Building Wealth"
+    "Greg Abel Just Sold Berkshire Hathaway's Stake in Visa and Mastercard and Initiated a New Position in a Stock That Warren Buffett Sold 6 Years Ago",
+    "This More Than 5%-Yielding Stock Just Declared Its 671st Consecutive Monthly Dividend. Here's Why It's a Must Buy for Passive Income.",
+    "Trump says Taiwan 'stole our chip industry' — but TSMC was built by a US citizen and 25-year Texas Instruments veteran",
+    "How Much Do You Really Need Invested to Replace a $75,000 Salary With Monthly Dividend ETFs?",
+    "Trump acquired stock in companies like Walt Disney, JPMorgan, and Netflix, even as he threatened them publicly",
+    "TSA Gold+ just launched. Here's what changes at the security checkpoint."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77196.0078125,
-        "perp_last_price": 77196.0078125,
-        "mark_price": 77196.0078125,
-        "index_price": 77196.0078125,
+        "spot_price": 77429.640625,
+        "perp_last_price": 77429.640625,
+        "mark_price": 77429.640625,
+        "index_price": 77429.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77196.0078125,
-        "stop_loss_technical": 77397.0234375,
-        "target_1": 76894.484375,
-        "target_2": 76592.9609375,
+        "entry_ideal": 77429.640625,
+        "stop_loss_technical": 77581.8828125,
+        "target_1": 77201.27734375,
+        "target_2": 76972.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77196.0078125,
-        "stop_loss_technical": 76038.06769531,
-        "target_1": 78932.91798828,
-        "target_2": 80669.82816406,
+        "entry_ideal": 77429.640625,
+        "stop_loss_technical": 76268.19601562,
+        "target_1": 79171.80753906,
+        "target_2": 80913.97445313,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
