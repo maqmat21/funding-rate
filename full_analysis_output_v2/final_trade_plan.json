@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-20T19:04:53.473289+00:00",
+    "generated_at_utc": "2026-05-20T21:06:23.498000+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,52 +11,37 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.069,
+        "price": 99.13,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.574,
+        "price": 4.572,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Hershey, Reece’s to return to real chocolate formulas as cocoa prices drop",
-    "Golar LNG Ltd (GLNG) Q1 2026 Earnings Call Highlights: Record LNG Production and Strategic ...",
+    "SpaceX files IPO prospectus, offering a peek into its finances",
+    "Nvidia's cash machine is now funding both sides of the AI trade",
     "Warren Buffett said 90% of his wife's inheritance will go into a single investment. Here's why and how you can do it too",
+    "Intuit’s (NASDAQ:INTU) Q1 CY2026 Earnings Results: Revenue In Line With Expectations But Stock Drops 11.8%",
     "Jeff Bezos says some Americans should pay zero federal income tax",
-    "Jeff Bezos says raising taxes on the wealthy won’t help the average American",
-    "If You Invested $10,000 In Tesla 10 Years Ago, This Is How Rich You Would Be Today",
-    "Are Wall Street Analysts Bullish on Biogen Stock?"
+    "This More Than 5%-Yielding Stock Just Declared Its 671st Consecutive Monthly Dividend. Here's Why It's a Must Buy for Passive Income.",
+    "Why Suze Orman Is Wrong About Long-Term Care Insurance for Retirees With Over $2 Million"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77297.0,
-        "perp_last_price": 77297.0,
-        "mark_price": 77297.0,
-        "index_price": 77297.0,
+        "spot_price": 77641.8515625,
+        "perp_last_price": 77641.8515625,
+        "mark_price": 77641.8515625,
+        "index_price": 77641.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 77297.0,
-        "stop_loss_technical": 76137.545,
-        "target_1": 79036.1825,
-        "target_2": 80775.365,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -64,10 +49,25 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77297.0,
+        "entry_ideal": 77641.8515625,
+        "stop_loss_technical": 76517.7578125,
+        "target_1": 79327.9921875,
+        "target_2": 81014.1328125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 77641.8515625,
         "stop_loss_technical": 76029.2265625,
-        "target_1": 79198.66015625,
-        "target_2": 81100.3203125,
+        "target_1": 80060.7890625,
+        "target_2": 82479.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
