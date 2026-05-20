@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-19T23:16:36.049648+00:00",
+    "generated_at_utc": "2026-05-20T00:19:05.502308+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.308,
+        "price": 99.337,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,52 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "I inherited a house. My CPA says I should sell within a year to avoid capital gains. Is he right?",
     "Warren Buffett said 90% of his wife's inheritance will go into a single investment. Here's why and how you can do it too",
+    "I inherited a house. My CPA says I should sell within a year to avoid capital gains. Is he right?",
     "If You Invested $10,000 In Tesla 10 Years Ago, This Is How Rich You Would Be Today",
-    "Greg Abel Recently Bought $235 Million Worth of Warren Buffett's Favorite Stock",
-    "NPR offering staff buyouts after receiving $113 million in charitable gifts",
+    "He waited 5 years to inherit his late dad's 401(k) — now he's being told a $30,000 tax bill threatens to eat his legacy",
+    "Charlie Munger Said 'I'd Rather Be A Billionaire and Not Be Loved by Everybody Than Not Have Any Money' —Shrugs Off 'Grotesque' $200M Dorm Backlash",
     "3 Dividend Kings to Buy and Hold for 20 Years",
-    "SpaceX IPO Adds Second Musk Stock. It’s a Problem for Tesla"
+    "Dear Oklo Stock Fans, Mark Your Calendars for July 4"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76741.0078125,
-        "perp_last_price": 76741.0078125,
-        "mark_price": 76741.0078125,
-        "index_price": 76741.0078125,
+        "spot_price": 76507.5390625,
+        "perp_last_price": 76507.5390625,
+        "mark_price": 76507.5390625,
+        "index_price": 76507.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76738.5390625,
-        "stop_loss_technical": 75587.46097656,
-        "target_1": 78465.15619141,
-        "target_2": 80191.77332031,
+        "entry_ideal": 76507.5390625,
+        "stop_loss_technical": 77243.9296875,
+        "target_1": 75402.953125,
+        "target_2": 74298.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76741.0078125,
-        "stop_loss_technical": 81634.84375,
-        "target_1": 69400.25390625,
-        "target_2": 62059.5,
+        "entry_ideal": 76507.5390625,
+        "stop_loss_technical": 79173.5,
+        "target_1": 72508.59765625,
+        "target_2": 68509.65625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
