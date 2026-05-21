@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-21T12:53:45.339012+00:00",
+    "generated_at_utc": "2026-05-21T16:11:17.019144+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.308,
+        "price": 99.403,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.607,
+        "price": 4.615,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 3h 49m",
     "News from the Yahoo Finance Network",
-    "Investors Might Be \"Playing With Fire,\" According to Warren Buffett. Here's What to Do.",
-    "A $2.2 Million Dividend Portfolio That Quietly Pays $13,200 a Month Without a Single MLP Tax Headache",
-    "U.S. awards $2 billion to quantum computing firms, takes equity stakes",
-    "Nvidia's $80 billion stock buyback and bigger dividend may unleash an Apple-like stock move",
     "177-year-old iconic beer brand ends all production",
-    "Vertical Aerospace: Pre-Flight Checks Point to a Breakout",
-    "Prediction: Tesla Stock Could Go Parabolic After June 12. Here's Why."
+    "Stephen Colbert’s net worth: The late-night star’s wealth in 2026",
+    "AT&T sues California in bid to stop offering traditional phone service",
+    "Burger-loving Trump invests millions in Kura Sushi chain",
+    "Investors Might Be \"Playing With Fire,\" According to Warren Buffett. Here's What to Do.",
+    "‘The most vulnerable we’ve ever been’ — Ford CEO warns blue-collar worker shortage could hit your wallet next"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77221.9375,
-        "perp_last_price": 77221.9375,
-        "mark_price": 77221.9375,
-        "index_price": 77221.9375,
+        "spot_price": 77239.2265625,
+        "perp_last_price": 77239.2265625,
+        "mark_price": 77239.2265625,
+        "index_price": 77239.2265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77224.046875,
-        "stop_loss_technical": 76065.68617188,
-        "target_1": 78961.58792969,
-        "target_2": 80699.12898437,
+        "entry_ideal": 77239.2265625,
+        "stop_loss_technical": 76080.63816406,
+        "target_1": 78977.10916016,
+        "target_2": 80714.99175781,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77221.9375,
+        "entry_ideal": 77239.2265625,
         "stop_loss_technical": 78539.3984375,
-        "target_1": 75245.74609375,
-        "target_2": 73269.5546875,
+        "target_1": 75288.96875,
+        "target_2": 73338.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
