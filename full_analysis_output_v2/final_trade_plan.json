@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-21T18:14:05.258274+00:00",
+    "generated_at_utc": "2026-05-21T20:10:58.290570+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.142,
+        "price": 99.159,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.556,
+        "price": 4.586,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 47m",
     "News from the Yahoo Finance Network",
     "177-year-old iconic beer brand ends all production",
-    "Stephen Colbert’s net worth: The late-night star’s wealth in 2026",
+    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule",
     "Investors Might Be \"Playing With Fire,\" According to Warren Buffett. Here's What to Do.",
-    "Trump Gave Intel $8.9 Billion. Now Taxpayers Are Buying IBM",
-    "Jeff Bezos says some Americans should pay zero federal income tax",
-    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule"
+    "Is Wall Street Bullish or Bearish on Nucor Stock?",
+    "Stephen Colbert’s net worth as his show's final episode airs",
+    "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
+    "A $2.2 Million Dividend Portfolio That Quietly Pays $13,200 a Month Without a Single MLP Tax Headache"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77643.8984375,
-        "perp_last_price": 77643.8984375,
-        "mark_price": 77643.8984375,
-        "index_price": 77643.8984375,
+        "spot_price": 77638.359375,
+        "perp_last_price": 77638.359375,
+        "mark_price": 77638.359375,
+        "index_price": 77638.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77636.0,
-        "stop_loss_technical": 76471.46,
-        "target_1": 79382.81,
-        "target_2": 81129.62,
+        "entry_ideal": 77638.359375,
+        "stop_loss_technical": 76631.9609375,
+        "target_1": 79147.95703125,
+        "target_2": 80657.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77643.8984375,
+        "entry_ideal": 77638.359375,
         "stop_loss_technical": 76029.2265625,
-        "target_1": 80065.90625,
-        "target_2": 82487.9140625,
+        "target_1": 80052.05859375,
+        "target_2": 82465.7578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
