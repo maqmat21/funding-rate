@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-21T06:18:36.277390+00:00",
+    "generated_at_utc": "2026-05-21T10:05:02.425185+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.144,
+        "price": 99.13,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 13m",
+    "U.S. markets open in 3h 26m",
     "News from the Yahoo Finance Network",
+    "Prediction: Tesla Stock Could Go Parabolic After June 12. Here's Why.",
     "177-year-old iconic beer brand ends all production",
-    "SpaceX Reveals $1 Billion Bitcoin Holdings Ahead Of Historic IPO — Here's How Much The Elon Musk-Led Company Paid For Its Coins",
+    "What NVIDIA (NVDA)'s Record Q1 Payouts and US$80 Billion Buyback Mean For Shareholders",
+    "Mortgage and refinance interest rates today, May 21, 2026: Rates keep on rising",
     "Tesla Owns Nearly 19 Million Shares of SpaceX: What TSLA Investors Need to Know Before the IPO",
-    "Stephen Colbert’s net worth: The late-night star’s wealth in 2026",
-    "Is Nvidia a Buy After Their Latest Earnings Report?",
-    "Peter Schiff Says Trump Wants Home Prices 'Expensive' So Older Owners 'Keep Feeling Good' While Claiming To Help Young Families"
+    "Stephen Colbert’s net worth: The late-night star’s wealth in 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77650.109375,
-        "perp_last_price": 77650.109375,
-        "mark_price": 77650.109375,
-        "index_price": 77650.109375,
+        "spot_price": 77569.2734375,
+        "perp_last_price": 77569.2734375,
+        "mark_price": 77569.2734375,
+        "index_price": 77569.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77650.109375,
-        "stop_loss_technical": 76485.35773437,
-        "target_1": 79397.23683594,
-        "target_2": 81144.36429688,
+        "entry_ideal": 77569.2734375,
+        "stop_loss_technical": 76405.73433594,
+        "target_1": 79314.58208984,
+        "target_2": 81059.89074219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77650.109375,
-        "stop_loss_technical": 76029.2265625,
-        "target_1": 80081.43359375,
-        "target_2": 82512.7578125,
+        "entry_ideal": 77569.2734375,
+        "stop_loss_technical": 76405.73433594,
+        "target_1": 79314.58208984,
+        "target_2": 81059.89074219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
