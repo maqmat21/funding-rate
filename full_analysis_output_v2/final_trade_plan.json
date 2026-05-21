@@ -1,43 +1,43 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-21T10:05:02.425185+00:00",
+    "generated_at_utc": "2026-05-21T12:53:45.339012+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.13,
-        "trend": "bajista"
+        "price": 99.308,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.572,
-        "trend": "bajista"
+        "price": 4.607,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 26m",
     "News from the Yahoo Finance Network",
-    "Prediction: Tesla Stock Could Go Parabolic After June 12. Here's Why.",
+    "Investors Might Be \"Playing With Fire,\" According to Warren Buffett. Here's What to Do.",
+    "A $2.2 Million Dividend Portfolio That Quietly Pays $13,200 a Month Without a Single MLP Tax Headache",
+    "U.S. awards $2 billion to quantum computing firms, takes equity stakes",
+    "Nvidia's $80 billion stock buyback and bigger dividend may unleash an Apple-like stock move",
     "177-year-old iconic beer brand ends all production",
-    "What NVIDIA (NVDA)'s Record Q1 Payouts and US$80 Billion Buyback Mean For Shareholders",
-    "Mortgage and refinance interest rates today, May 21, 2026: Rates keep on rising",
-    "Tesla Owns Nearly 19 Million Shares of SpaceX: What TSLA Investors Need to Know Before the IPO",
-    "Stephen Colbert’s net worth: The late-night star’s wealth in 2026"
+    "Vertical Aerospace: Pre-Flight Checks Point to a Breakout",
+    "Prediction: Tesla Stock Could Go Parabolic After June 12. Here's Why."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77569.2734375,
-        "perp_last_price": 77569.2734375,
-        "mark_price": 77569.2734375,
-        "index_price": 77569.2734375,
+        "spot_price": 77221.9375,
+        "perp_last_price": 77221.9375,
+        "mark_price": 77221.9375,
+        "index_price": 77221.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -46,28 +46,29 @@
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77569.2734375,
-        "stop_loss_technical": 76405.73433594,
-        "target_1": 79314.58208984,
-        "target_2": 81059.89074219,
+        "entry_ideal": 77224.046875,
+        "stop_loss_technical": 76065.68617188,
+        "target_1": 78961.58792969,
+        "target_2": 80699.12898437,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77569.2734375,
-        "stop_loss_technical": 76405.73433594,
-        "target_1": 79314.58208984,
-        "target_2": 81059.89074219,
+        "entry_ideal": 77221.9375,
+        "stop_loss_technical": 78539.3984375,
+        "target_1": 75245.74609375,
+        "target_2": 73269.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
