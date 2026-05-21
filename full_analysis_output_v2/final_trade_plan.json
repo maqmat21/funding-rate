@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-21T02:01:10.564756+00:00",
+    "generated_at_utc": "2026-05-21T06:18:36.277390+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.119,
+        "price": 99.144,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 13m",
     "News from the Yahoo Finance Network",
-    "Tesla Owns Nearly 19 Million Shares of SpaceX: What TSLA Investors Need to Know Before the IPO",
     "177-year-old iconic beer brand ends all production",
-    "Nvidia Raises Dividend 2,400%. It No Longer Has the Lowest Yield in the S&P 500.",
+    "SpaceX Reveals $1 Billion Bitcoin Holdings Ahead Of Historic IPO — Here's How Much The Elon Musk-Led Company Paid For Its Coins",
+    "Tesla Owns Nearly 19 Million Shares of SpaceX: What TSLA Investors Need to Know Before the IPO",
     "Stephen Colbert’s net worth: The late-night star’s wealth in 2026",
-    "Jeff Bezos says some Americans should pay zero federal income tax",
-    "The Bond Market Just Handed U.S. Taxpayers $2 Trillion in Bad News",
-    "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia"
+    "Is Nvidia a Buy After Their Latest Earnings Report?",
+    "Peter Schiff Says Trump Wants Home Prices 'Expensive' So Older Owners 'Keep Feeling Good' While Claiming To Help Young Families"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77773.9765625,
-        "perp_last_price": 77773.9765625,
-        "mark_price": 77773.9765625,
-        "index_price": 77773.9765625,
+        "spot_price": 77650.109375,
+        "perp_last_price": 77650.109375,
+        "mark_price": 77650.109375,
+        "index_price": 77650.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77773.9765625,
-        "stop_loss_technical": 76607.36691406,
-        "target_1": 79523.89103516,
-        "target_2": 81273.80550781,
+        "entry_ideal": 77650.109375,
+        "stop_loss_technical": 76485.35773437,
+        "target_1": 79397.23683594,
+        "target_2": 81144.36429688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77773.9765625,
+        "entry_ideal": 77650.109375,
         "stop_loss_technical": 76029.2265625,
-        "target_1": 80391.1015625,
-        "target_2": 83008.2265625,
+        "target_1": 80081.43359375,
+        "target_2": 82512.7578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
