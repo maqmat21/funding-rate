@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-21T23:48:28.430073+00:00",
+    "generated_at_utc": "2026-05-22T01:50:43.575044+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.199,
-        "trend": "bajista"
+        "price": 99.242,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.586,
@@ -22,51 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Nvidia Just Raised Its Dividend By 2,400% -- and That Wasn't Even the Biggest News From Its Earnings Report",
+    "Nascar Champion Kyle Busch Dies at 41",
     "Mark Cuban says 'Bitcoin has lost the plot'",
     "177-year-old iconic beer brand ends all production",
     "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
-    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule",
-    "The $300,000 Mistake: Financial Advisor Explains Why Waiting to Buy VOO Is Costing You Compounding",
-    "42-year-old sporting goods chain quietly closed over 175 stores",
-    "Stephen Colbert’s net worth as his show's final episode airs"
+    "Costco pays new members to join in rare offer",
+    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77625.78125,
-        "perp_last_price": 77625.78125,
-        "mark_price": 77625.78125,
-        "index_price": 77625.78125,
+        "spot_price": 77589.84375,
+        "perp_last_price": 77589.84375,
+        "mark_price": 77589.84375,
+        "index_price": 77589.84375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 77625.78125,
-        "stop_loss_technical": 76631.9609375,
-        "target_1": 79116.51171875,
-        "target_2": 80607.2421875,
+        "entry_ideal": 77589.828125,
+        "stop_loss_technical": 76641.9921875,
+        "target_1": 79011.58203125,
+        "target_2": 80433.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77625.78125,
+        "entry_ideal": 77589.84375,
         "stop_loss_technical": 76029.2265625,
-        "target_1": 80020.61328125,
-        "target_2": 82415.4453125,
+        "target_1": 79930.76953125,
+        "target_2": 82271.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
