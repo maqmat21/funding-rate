@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-22T16:18:59.280632+00:00",
+    "generated_at_utc": "2026-05-22T18:09:25.617403+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.317,
-        "trend": "alcista"
+        "price": 99.231,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.582,
+        "price": 4.56,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 42m",
+    "U.S. markets close in 1h 52m",
     "News from the Yahoo Finance Network",
-    "CrossAmerica sells 16 c-stores for nearly $13M",
-    "General Dynamics Stock: Analyst Estimates & Ratings",
-    "2 of Wall Street’s Favorite Stocks Worth Your Attention and 1 We Brush Off",
-    "Trump claims he wants ‘independent’ Fed Reserve — as he swears in his hand-picked chair Kevin Warsh",
-    "The 2-Year U.S. Treasury Yield Has Now Blown Past the Federal Funds Rate. History Says the Fed Will Do This Next",
-    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'"
+    "50-year-old outdoor retailer liquidating all stores",
+    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
+    "Costco made a quiet credit card change that cost members money",
+    "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
+    "Nvidia Just Raised Its Dividend By 2,400% -- and That Wasn't Even the Biggest News From Its Earnings Report",
+    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76754.6328125,
-        "perp_last_price": 76754.6328125,
-        "mark_price": 76754.6328125,
-        "index_price": 76754.6328125,
+        "spot_price": 76651.8671875,
+        "perp_last_price": 76651.8671875,
+        "mark_price": 76651.8671875,
+        "index_price": 76651.8671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76767.640625,
-        "stop_loss_technical": 76491.3515625,
-        "target_1": 77182.07421875,
-        "target_2": 77596.5078125,
+        "entry_ideal": 76651.8671875,
+        "stop_loss_technical": 75502.08917969,
+        "target_1": 78376.53419922,
+        "target_2": 80101.20121094,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76754.6328125,
-        "stop_loss_technical": 78100.5625,
-        "target_1": 74735.73828125,
-        "target_2": 72716.84375,
+        "entry_ideal": 76651.8671875,
+        "stop_loss_technical": 75502.08917969,
+        "target_1": 78376.53419922,
+        "target_2": 80101.20121094,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
