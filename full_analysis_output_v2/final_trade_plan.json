@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-22T11:33:24.603216+00:00",
+    "generated_at_utc": "2026-05-22T13:57:21.443104+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.365,
+        "price": 99.285,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.586,
+        "price": 4.544,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 57m",
+    "U.S. markets close in 6h 3m",
     "News from the Yahoo Finance Network",
+    "The rise, fall, and revival of Victoria's Secret: America's biggest lingerie brand brings sexy back",
     "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
-    "Warren Buffett's Successor, Greg Abel, Could Have Bought Any of 478 S&P 500 Companies -- but Chose to Pile $234 Million Into the Oracle of Omaha's Favorite Stock",
-    "Time to Buy the Dip on QuantumScape Stock?",
+    "How QBTS Stock Rises 10x To $250",
+    "One couple used a ‘marital loophole’ to ‘zero out’ income taxes for 7 years — but the IRS watches it closely. Here’s how",
     "Mark Cuban 'Sold' Most Of His Bitcoin And Now Calls Memecoins 'Garbage' — What Changed The Billionaire's Mind On Crypto?",
-    "Boom or Bubble? This Is Where Micron Technology Stock Could Be in 5 Years",
-    "A 62-Year-Old Engineer’s $1.1 Million Portfolio That Pays $5,800 a Month and Drops to $3,400 When Social Security Kicks In at 67"
+    "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77208.6875,
-        "perp_last_price": 77208.6875,
-        "mark_price": 77208.6875,
-        "index_price": 77208.6875,
+        "spot_price": 77153.671875,
+        "perp_last_price": 77153.671875,
+        "mark_price": 77153.671875,
+        "index_price": 77153.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77205.6875,
-        "stop_loss_technical": 76914.359375,
-        "target_1": 77642.6796875,
-        "target_2": 78079.671875,
+        "entry_ideal": 77153.671875,
+        "stop_loss_technical": 77840.78125,
+        "target_1": 76123.0078125,
+        "target_2": 75092.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77208.6875,
+        "entry_ideal": 77153.671875,
         "stop_loss_technical": 78100.5625,
-        "target_1": 75870.875,
-        "target_2": 74533.0625,
+        "target_1": 75733.3359375,
+        "target_2": 74313.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
