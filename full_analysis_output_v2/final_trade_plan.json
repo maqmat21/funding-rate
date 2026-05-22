@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-22T20:04:20.520650+00:00",
+    "generated_at_utc": "2026-05-22T21:19:59.156385+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.286,
+        "price": 99.319,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "These Bitcoin ATMs Were Supposed to Be the Future of Finance. They Went Bankrupt Just a Decade Later.",
     "Musk may already be a trillionaire while these SpaceX employees and investors will hit multibillion-dollar jackpots after blockbuster IPO",
     "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
     "Costco made a quiet credit card change that cost members money",
     "Nvidia Just Raised Its Dividend By 2,400% -- and That Wasn't Even the Biggest News From Its Earnings Report",
     "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
-    "POET Technologies Lawsuits And Customer Losses Raise Valuation Risk Questions"
+    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule",
+    "A 62-Year-Old Engineer’s $1.1 Million Portfolio That Pays $5,800 a Month and Drops to $3,400 When Social Security Kicks In at 67"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75789.5,
-        "perp_last_price": 75789.5,
-        "mark_price": 75789.5,
-        "index_price": 75789.5,
+        "spot_price": 75946.71875,
+        "perp_last_price": 75946.71875,
+        "mark_price": 75946.71875,
+        "index_price": 75946.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 75776.8828125,
-        "stop_loss_technical": 77806.3125,
-        "target_1": 72732.73828125,
-        "target_2": 69688.59375,
+        "entry_ideal": 75946.71875,
+        "stop_loss_technical": 75573.0625,
+        "target_1": 76507.203125,
+        "target_2": 77067.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75789.5,
+        "entry_ideal": 75946.71875,
         "stop_loss_technical": 78100.5625,
-        "target_1": 72322.90625,
-        "target_2": 68856.3125,
+        "target_1": 72715.953125,
+        "target_2": 69485.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
