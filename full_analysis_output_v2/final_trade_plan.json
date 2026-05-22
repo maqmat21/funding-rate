@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-22T13:57:21.443104+00:00",
+    "generated_at_utc": "2026-05-22T16:18:59.280632+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.285,
+        "price": 99.317,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.544,
+        "price": 4.582,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 3m",
+    "U.S. markets close in 3h 42m",
     "News from the Yahoo Finance Network",
-    "The rise, fall, and revival of Victoria's Secret: America's biggest lingerie brand brings sexy back",
-    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
-    "How QBTS Stock Rises 10x To $250",
-    "One couple used a ‘marital loophole’ to ‘zero out’ income taxes for 7 years — but the IRS watches it closely. Here’s how",
-    "Mark Cuban 'Sold' Most Of His Bitcoin And Now Calls Memecoins 'Garbage' — What Changed The Billionaire's Mind On Crypto?",
-    "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees"
+    "CrossAmerica sells 16 c-stores for nearly $13M",
+    "General Dynamics Stock: Analyst Estimates & Ratings",
+    "2 of Wall Street’s Favorite Stocks Worth Your Attention and 1 We Brush Off",
+    "Trump claims he wants ‘independent’ Fed Reserve — as he swears in his hand-picked chair Kevin Warsh",
+    "The 2-Year U.S. Treasury Yield Has Now Blown Past the Federal Funds Rate. History Says the Fed Will Do This Next",
+    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77153.671875,
-        "perp_last_price": 77153.671875,
-        "mark_price": 77153.671875,
-        "index_price": 77153.671875,
+        "spot_price": 76754.6328125,
+        "perp_last_price": 76754.6328125,
+        "mark_price": 76754.6328125,
+        "index_price": 76754.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77153.671875,
-        "stop_loss_technical": 77840.78125,
-        "target_1": 76123.0078125,
-        "target_2": 75092.34375,
+        "entry_ideal": 76767.640625,
+        "stop_loss_technical": 76491.3515625,
+        "target_1": 77182.07421875,
+        "target_2": 77596.5078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77153.671875,
+        "entry_ideal": 76754.6328125,
         "stop_loss_technical": 78100.5625,
-        "target_1": 75733.3359375,
-        "target_2": 74313.0,
+        "target_1": 74735.73828125,
+        "target_2": 72716.84375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
