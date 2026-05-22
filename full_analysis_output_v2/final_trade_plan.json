@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-22T08:48:27.717991+00:00",
+    "generated_at_utc": "2026-05-22T11:33:24.603216+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.266,
+        "price": 99.365,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,27 +21,40 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 43m",
+    "U.S. markets open in 1h 57m",
     "News from the Yahoo Finance Network",
+    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
+    "Warren Buffett's Successor, Greg Abel, Could Have Bought Any of 478 S&P 500 Companies -- but Chose to Pile $234 Million Into the Oracle of Omaha's Favorite Stock",
+    "Time to Buy the Dip on QuantumScape Stock?",
     "Mark Cuban 'Sold' Most Of His Bitcoin And Now Calls Memecoins 'Garbage' — What Changed The Billionaire's Mind On Crypto?",
-    "3 Stocks to Buy Before SpaceX Goes Public",
-    "Nvidia Just Raised Its Dividend By 2,400% -- and That Wasn't Even the Biggest News From Its Earnings Report",
-    "177-year-old iconic beer brand ends all production",
-    "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
-    "Mark Cuban says 'Bitcoin has lost the plot'"
+    "Boom or Bubble? This Is Where Micron Technology Stock Could Be in 5 Years",
+    "A 62-Year-Old Engineer’s $1.1 Million Portfolio That Pays $5,800 a Month and Drops to $3,400 When Social Security Kicks In at 67"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77251.8828125,
-        "perp_last_price": 77251.8828125,
-        "mark_price": 77251.8828125,
-        "index_price": 77251.8828125,
+        "spot_price": 77208.6875,
+        "perp_last_price": 77208.6875,
+        "mark_price": 77208.6875,
+        "index_price": 77208.6875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 77205.6875,
+        "stop_loss_technical": 76914.359375,
+        "target_1": 77642.6796875,
+        "target_2": 78079.671875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 74,
@@ -49,23 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77251.8828125,
-        "stop_loss_technical": 78016.828125,
-        "target_1": 76104.46484375,
-        "target_2": 74957.046875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio < EMA20"
-        ],
-        "entry_ideal": 77251.8828125,
+        "entry_ideal": 77208.6875,
         "stop_loss_technical": 78100.5625,
-        "target_1": 75978.86328125,
-        "target_2": 74705.84375,
+        "target_1": 75870.875,
+        "target_2": 74533.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
