@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-23T01:24:40.613308+00:00",
+    "generated_at_utc": "2026-05-23T04:54:19.177273+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "Average Net Worth for Baby Boomers: What the Numbers Reveal About Wealth and Disparities",
     "Musk may already be a trillionaire while these SpaceX employees and investors will hit multibillion-dollar jackpots after blockbuster IPO",
+    "Citi resets Micron stock price target after an anomaly",
+    "3 Dividend Stocks to Hold for the Next 20 Years",
+    "Elon Musk Wants Small Investors to Buy the SpaceX IPO. Here’s Why You Shouldn’t.",
     "'You want my parents dead': Utah wife paid half for a home she doesn't legally own after 30 years on the farm",
-    "Thinking of Retiring Without Paying State Taxes? Here Are the Best States for Retirees",
-    "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
-    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
-    "Six Boring Blue Chips Generate $54,000 a Year on $920,000 Without a Single 7 Percent Yield Trap"
+    "The Best Vanguard ETF to Buy and Hold for the Next Decade (It Has Significant AI Exposure)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75362.640625,
-        "perp_last_price": 75362.640625,
-        "mark_price": 75362.640625,
-        "index_price": 75362.640625,
+        "spot_price": 75427.0625,
+        "perp_last_price": 75427.0625,
+        "mark_price": 75427.0625,
+        "index_price": 75427.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75362.640625,
-        "stop_loss_technical": 75127.328125,
-        "target_1": 75715.609375,
-        "target_2": 76068.578125,
+        "entry_ideal": 75427.0625,
+        "stop_loss_technical": 77491.2109375,
+        "target_1": 72330.83984375,
+        "target_2": 69234.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75362.640625,
+        "entry_ideal": 75427.0625,
         "stop_loss_technical": 78100.5625,
-        "target_1": 71255.7578125,
-        "target_2": 67148.875,
+        "target_1": 71416.8125,
+        "target_2": 67406.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
