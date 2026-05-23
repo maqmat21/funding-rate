@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-23T14:16:06.617308+00:00",
+    "generated_at_utc": "2026-05-23T15:31:54.997862+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,39 +23,25 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Your parents’ favorite restaurant is making a comeback after fading away decades ago",
+    "The Dividend Stocks That Generate $60,000 Tax-Free Inside a Roth (And What They Cost You in a Taxable Account)",
     "A New Social Security Garnishment Is Coming, Courtesy of the Trump Administration -- and There Are 2 Perfectly Legal Ways You Can Avoid It",
     "Fidelity, AARP flash warning over 401(k) plans: ‘You could lose 25% to 35%.’ Here’s the big risk Americans face",
-    "The Dividend Stocks That Generate $60,000 Tax-Free Inside a Roth (And What They Cost You in a Taxable Account)",
     "Why one woman bolted from ‘tax haven’ Florida, and others are leaving too",
-    "My 5 Favorite Dividend Stocks to Buy Right Now",
-    "Vanguard’s 8-for-1 Split Made VGT Look Cheaper. For Retirees Sitting on Decades of Tech Gains, the Passive Income Math Just Got More Interesting."
+    "2 High-Yield Energy Stocks to Buy and Hold Forever",
+    "My 5 Favorite Dividend Stocks to Buy Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75111.7734375,
-        "perp_last_price": 75111.7734375,
-        "mark_price": 75111.7734375,
-        "index_price": 75111.7734375,
+        "spot_price": 75362.0390625,
+        "perp_last_price": 75362.0390625,
+        "mark_price": 75362.0390625,
+        "index_price": 75362.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 75111.7734375,
-        "stop_loss_technical": 74251.296875,
-        "target_1": 76402.48828125,
-        "target_2": 77693.203125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 74,
@@ -63,10 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75111.7734375,
-        "stop_loss_technical": 78100.5625,
-        "target_1": 70628.58984375,
-        "target_2": 66145.40625,
+        "entry_ideal": 75362.0390625,
+        "stop_loss_technical": 75994.6015625,
+        "target_1": 74413.1953125,
+        "target_2": 73464.3515625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 75362.0390625,
+        "stop_loss_technical": 74251.296875,
+        "target_1": 77028.15234375,
+        "target_2": 78694.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
