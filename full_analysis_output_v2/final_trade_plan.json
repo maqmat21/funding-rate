@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-23T20:32:18.481454+00:00",
+    "generated_at_utc": "2026-05-23T21:30:47.897911+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,34 @@
     "The Dividend Stocks That Generate $60,000 Tax-Free Inside a Roth (And What They Cost You in a Taxable Account)",
     "If I Could Tell All Retirees 1 Thing About Social Security Right Now, It's This",
     "Your parents’ favorite restaurant is making a comeback after fading away decades ago",
-    "37.4% of Berkshire Hathaway's $330 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
+    "Why a 64 Year Old Retiree Is Draining Her $1.1 Million 401(k) Early to Maximize a $5,181 Social Security Check at 70",
     "My 5 Favorite Dividend Stocks to Buy Right Now",
     "A New Social Security Garnishment Is Coming, Courtesy of the Trump Administration -- and There Are 2 Perfectly Legal Ways You Can Avoid It",
-    "Another airline files for bankruptcy and cancels all flights"
+    "37.4% of Berkshire Hathaway's $330 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76126.921875,
-        "perp_last_price": 76126.921875,
-        "mark_price": 76126.921875,
-        "index_price": 76126.921875,
+        "spot_price": 76515.2734375,
+        "perp_last_price": 76515.2734375,
+        "mark_price": 76515.2734375,
+        "index_price": 76515.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76126.921875,
-        "stop_loss_technical": 74251.296875,
-        "target_1": 78940.359375,
-        "target_2": 81753.796875,
+        "entry_ideal": 76515.2734375,
+        "stop_loss_technical": 77287.03125,
+        "target_1": 75357.63671875,
+        "target_2": 74200.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 76126.921875,
-        "stop_loss_technical": 74251.296875,
-        "target_1": 78940.359375,
-        "target_2": 81753.796875,
+        "entry_ideal": 76515.2734375,
+        "stop_loss_technical": 74202.5234375,
+        "target_1": 79984.3984375,
+        "target_2": 83453.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
