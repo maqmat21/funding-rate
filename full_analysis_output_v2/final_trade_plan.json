@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-22T23:33:34.566345+00:00",
+    "generated_at_utc": "2026-05-23T01:24:40.613308+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Average Net Worth for Baby Boomers: What the Numbers Reveal About Wealth and Disparities",
     "Musk may already be a trillionaire while these SpaceX employees and investors will hit multibillion-dollar jackpots after blockbuster IPO",
-    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
-    "Costco made a quiet credit card change that cost members money",
-    "Nvidia Just Raised Its Dividend By 2,400% -- and That Wasn't Even the Biggest News From Its Earnings Report",
-    "The Roth Conversion Strategy Affluent Investors Over 55 Are Using to Empty Their 401(k)s Before Required Distributions",
+    "'You want my parents dead': Utah wife paid half for a home she doesn't legally own after 30 years on the farm",
+    "Thinking of Retiring Without Paying State Taxes? Here Are the Best States for Retirees",
     "Jeff Bezos says society benefits more when his companies do well than when he gives to charity — and Elon Musk agrees",
-    "What Happens to a $900,000 401(k) When the Owner Dies and the Beneficiary Falls Under the New 10 Year Rule"
+    "Jeff Bezos urges US to stop taxing 50% of America — and claims doubling his taxes won’t help ‘that teacher in Queens'",
+    "Six Boring Blue Chips Generate $54,000 a Year on $920,000 Without a Single 7 Percent Yield Trap"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75610.9765625,
-        "perp_last_price": 75610.9765625,
-        "mark_price": 75610.9765625,
-        "index_price": 75610.9765625,
+        "spot_price": 75362.640625,
+        "perp_last_price": 75362.640625,
+        "mark_price": 75362.640625,
+        "index_price": 75362.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75610.9765625,
-        "stop_loss_technical": 77806.3125,
-        "target_1": 72317.97265625,
-        "target_2": 69024.96875,
+        "entry_ideal": 75362.640625,
+        "stop_loss_technical": 75127.328125,
+        "target_1": 75715.609375,
+        "target_2": 76068.578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75610.9765625,
+        "entry_ideal": 75362.640625,
         "stop_loss_technical": 78100.5625,
-        "target_1": 71876.59765625,
-        "target_2": 68142.21875,
+        "target_1": 71255.7578125,
+        "target_2": 67148.875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
