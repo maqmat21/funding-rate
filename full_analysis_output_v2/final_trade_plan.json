@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-24T21:33:01.307996+00:00",
+    "generated_at_utc": "2026-05-24T22:34:58.766858+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.319,
-        "trend": "alcista"
+        "price": 99.042,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.558,
@@ -26,46 +26,48 @@
     "Chipotle rival Mexican chain closes all U.S. restaurants",
     "Warren Buffett Successor Greg Abel Could Be Buying $14.2 Billion Worth of This Stock Right Now",
     "This $25 Nuclear Stock Could Turn $10,000 Into a Fortune",
+    "Trump's green card crackdown could force 1M 'aliens' out of the US — but 75 countries have no working consulate",
     "Your parents’ favorite restaurant is making a comeback after fading away decades ago",
-    "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone",
-    "I’m 67. Our family trust earns $300,000 annually for my kids. How do I ensure they won’t get killed on taxes?"
+    "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76427.90625,
-        "perp_last_price": 76427.90625,
-        "mark_price": 76427.90625,
-        "index_price": 76427.90625,
+        "spot_price": 76760.0390625,
+        "perp_last_price": 76760.0390625,
+        "mark_price": 76760.0390625,
+        "index_price": 76760.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76427.90625,
-        "stop_loss_technical": 77374.9375,
-        "target_1": 75007.359375,
-        "target_2": 73586.8125,
+        "entry_ideal": 76761.1796875,
+        "stop_loss_technical": 76008.7109375,
+        "target_1": 77889.8828125,
+        "target_2": 79018.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76427.90625,
-        "stop_loss_technical": 78100.5625,
-        "target_1": 73918.921875,
-        "target_2": 71409.9375,
+        "entry_ideal": 76760.0390625,
+        "stop_loss_technical": 74255.234375,
+        "target_1": 80517.24609375,
+        "target_2": 84274.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
