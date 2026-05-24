@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-24T17:13:50.413243+00:00",
+    "generated_at_utc": "2026-05-24T18:11:19.624597+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.239,
-        "trend": "bajista"
+        "price": 99.319,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.558,
@@ -22,52 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Warren Buffett Successor Greg Abel Could Be Buying $14.2 Billion Worth of This Stock Right Now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Warren Buffett Successor Greg Abel Could Be Buying $14.2 Billion Worth of This Stock Right Now",
+    "Chipotle rival Mexican chain closes all U.S. restaurants",
+    "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
     "This $25 Nuclear Stock Could Turn $10,000 Into a Fortune",
     "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone",
-    "Prediction: Micron Technology Stock Will Be Worth at Least $1,500 in 1 Year.",
-    "An Ohio family says hail wrecked their roof — but State Farm will only fix three shingles, a move that might be illegal",
-    "Nvidia Just Raised Its Dividend by 2,400%. Is the AI Growth Stock a No-Brainer Buy Before the End of May?"
+    "Prediction: Micron Technology Stock Will Be Worth at Least $1,500 in 1 Year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76570.359375,
-        "perp_last_price": 76570.359375,
-        "mark_price": 76570.359375,
-        "index_price": 76570.359375,
+        "spot_price": 76598.2109375,
+        "perp_last_price": 76598.2109375,
+        "mark_price": 76598.2109375,
+        "index_price": 76598.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76570.359375,
+        "entry_ideal": 76589.0703125,
         "stop_loss_technical": 76129.421875,
-        "target_1": 77231.765625,
-        "target_2": 77893.171875,
+        "target_1": 77278.54296875,
+        "target_2": 77968.015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76570.359375,
+        "entry_ideal": 76598.2109375,
         "stop_loss_technical": 74255.234375,
-        "target_1": 80043.046875,
-        "target_2": 83515.734375,
+        "target_1": 80112.67578125,
+        "target_2": 83627.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +79,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +92,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
