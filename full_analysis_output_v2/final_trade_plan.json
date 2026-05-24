@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-24T11:24:46.134604+00:00",
+    "generated_at_utc": "2026-05-24T12:14:50.327382+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Prediction: Micron Technology Stock Will Be Worth at Least $1,500 in 1 Year.",
     "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone",
+    "Prediction: Micron Technology Stock Will Be Worth at Least $1,500 in 1 Year.",
     "An Ohio family says hail wrecked their roof — but State Farm will only fix three shingles, a move that might be illegal",
     "3 Monster Stocks to Hold for the Next 20 Years",
-    "Intel Has Soared 225% in 2026. Here's Where the AI Stock Could Be By the End of 2028",
+    "Why Billionaire Stanley Druckenmiller Dumped Nvidia but Loaded Up on These 3 AI Infrastructure Stocks for the Next Boom",
     "Nvidia's Board Just Authorized an Additional $80 Billion Buyback. Here's What That Really Signals to Investors."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77209.9921875,
-        "perp_last_price": 77209.9921875,
-        "mark_price": 77209.9921875,
-        "index_price": 77209.9921875,
+        "spot_price": 77113.7890625,
+        "perp_last_price": 77113.7890625,
+        "mark_price": 77113.7890625,
+        "index_price": 77113.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77196.4375,
-        "stop_loss_technical": 75288.2421875,
-        "target_1": 80058.73046875,
-        "target_2": 82921.0234375,
+        "entry_ideal": 77113.796875,
+        "stop_loss_technical": 77374.9375,
+        "target_1": 76722.0859375,
+        "target_2": 76330.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77209.9921875,
+        "entry_ideal": 77113.7890625,
         "stop_loss_technical": 74255.234375,
-        "target_1": 81642.12890625,
-        "target_2": 86074.265625,
+        "target_1": 81401.62109375,
+        "target_2": 85689.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
