@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-23T23:30:41.680503+00:00",
+    "generated_at_utc": "2026-05-24T01:32:06.489629+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone",
+    "37.4% of Berkshire Hathaway's $330 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
     "Your parents’ favorite restaurant is making a comeback after fading away decades ago",
     "The Dividend Stocks That Generate $60,000 Tax-Free Inside a Roth (And What They Cost You in a Taxable Account)",
-    "If I Could Tell All Retirees 1 Thing About Social Security Right Now, It's This",
     "Intel Has Soared 225% in 2026. Here's Where the AI Stock Could Be By the End of 2028",
-    "37.4% of Berkshire Hathaway's $330 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
-    "My 5 Favorite Dividend Stocks to Buy Right Now",
-    "A New Social Security Garnishment Is Coming, Courtesy of the Trump Administration -- and There Are 2 Perfectly Legal Ways You Can Avoid It"
+    "If I Could Only Hold 1 Vanguard ETF Forever, Here's What I'd Buy",
+    "If I Could Tell All Retirees 1 Thing About Social Security Right Now, It's This"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76554.9609375,
-        "perp_last_price": 76554.9609375,
-        "mark_price": 76554.9609375,
-        "index_price": 76554.9609375,
+        "spot_price": 76770.6171875,
+        "perp_last_price": 76770.6171875,
+        "mark_price": 76770.6171875,
+        "index_price": 76770.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76554.9609375,
-        "stop_loss_technical": 74202.5234375,
-        "target_1": 80083.6171875,
-        "target_2": 83612.2734375,
+        "entry_ideal": 76785.7890625,
+        "stop_loss_technical": 74251.296875,
+        "target_1": 80587.52734375,
+        "target_2": 84389.265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 76554.9609375,
-        "stop_loss_technical": 74202.5234375,
-        "target_1": 80083.6171875,
-        "target_2": 83612.2734375,
+        "entry_ideal": 76770.6171875,
+        "stop_loss_technical": 74251.296875,
+        "target_1": 80549.59765625,
+        "target_2": 84328.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
