@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-24T15:06:07.586301+00:00",
+    "generated_at_utc": "2026-05-24T16:10:13.438816+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,34 @@
     "Warren Buffett Successor Greg Abel Could Be Buying $14.2 Billion Worth of This Stock Right Now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "This $25 Nuclear Stock Could Turn $10,000 Into a Fortune",
-    "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone",
     "Prediction: Micron Technology Stock Will Be Worth at Least $1,500 in 1 Year.",
-    "Wall Street Is Sleeping on This Dividend King Industrial Stock, and That's Your Opportunity",
-    "I’m 67. Our family trust earns $300,000 annually for my kids. How do I ensure they won’t get killed on taxes?"
+    "A 75 Year Old With $3 Million in a 401(k) Discovers Three Years of RMDs Will Cost Her $42,000 in Medicare Surcharges Alone",
+    "An Ohio family says hail wrecked their roof — but State Farm will only fix three shingles, a move that might be illegal",
+    "New Fed Chair Kevin Warsh suggests he may take an Alan Greenspan-style approach at the central bank"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76381.5078125,
-        "perp_last_price": 76381.5078125,
-        "mark_price": 76381.5078125,
-        "index_price": 76381.5078125,
+        "spot_price": 76509.9765625,
+        "perp_last_price": 76509.9765625,
+        "mark_price": 76509.9765625,
+        "index_price": 76509.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76381.5078125,
-        "stop_loss_technical": 77374.9375,
-        "target_1": 74891.36328125,
-        "target_2": 73401.21875,
+        "entry_ideal": 76517.53125,
+        "stop_loss_technical": 76129.421875,
+        "target_1": 77099.6953125,
+        "target_2": 77681.859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 76381.5078125,
+        "entry_ideal": 76509.9765625,
         "stop_loss_technical": 78100.5625,
-        "target_1": 73802.92578125,
-        "target_2": 71224.34375,
+        "target_1": 74124.09765625,
+        "target_2": 71738.21875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
