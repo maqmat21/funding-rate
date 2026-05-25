@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-25T22:50:20.741429+00:00",
+    "generated_at_utc": "2026-05-25T23:51:02.325045+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "Why Did Nvidia Raise Its Dividend by 2,400%?",
+    "Spousal Social Security Benefits Could Pass a Significant Milestone in 2027 Thanks to the Cost-of-Living Adjustment (COLA)",
     "Jim Cramer warns against 'short term capital gains' —says retirement comes down to 3 assets. Which are you missing?",
-    "Dave Ramsey Says $1 Million Nest Egg Should Give You $80,000 Income 'Forever' — But 'Bogus Math' Claiming 4% Withdrawal Steals Hope",
     "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
-    "Mark Zuckerberg sends another message to Meta employees"
+    "Why Did Nvidia Raise Its Dividend by 2,400%?",
+    "Billionaire Bill Ackman Just Made a Massive Bet on Microsoft. Here's Why."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77140.703125,
-        "perp_last_price": 77140.703125,
-        "mark_price": 77140.703125,
-        "index_price": 77140.703125,
+        "spot_price": 77229.7109375,
+        "perp_last_price": 77229.7109375,
+        "mark_price": 77229.7109375,
+        "index_price": 77229.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77140.5703125,
-        "stop_loss_technical": 75983.46175781,
-        "target_1": 78876.23314453,
-        "target_2": 80611.89597656,
+        "entry_ideal": 77234.9921875,
+        "stop_loss_technical": 76899.390625,
+        "target_1": 77738.39453125,
+        "target_2": 78241.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77140.703125,
-        "stop_loss_technical": 75983.59257812,
-        "target_1": 78876.36894531,
-        "target_2": 80612.03476562,
+        "entry_ideal": 77229.7109375,
+        "stop_loss_technical": 76071.26527344,
+        "target_1": 78967.37943359,
+        "target_2": 80705.04792969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
