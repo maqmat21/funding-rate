@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-25T06:05:49.420581+00:00",
+    "generated_at_utc": "2026-05-25T10:43:06.999578+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Your parents’ favorite restaurant is making a comeback after fading away decades ago",
+    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
+    "Chipotle Rival Closes All US Restaurants (And Faces Lawsuit)",
+    "Here Are My Top 3 High-Yield Dividend Stocks to Buy Now",
     "The Dividend Stocks That Generate $60,000 Tax-Free Inside a Roth (And What They Cost You in a Taxable Account)",
-    "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
-    "Chipotle rival Mexican chain closes all U.S. restaurants",
-    "Top European Dividend Stocks To Consider"
+    "Warren Buffett Successor Greg Abel Could Be Buying $14.2 Billion Worth of This Stock Right Now",
+    "Intel Has Soared 225% in 2026. Here's Where the AI Stock Could Be By the End of 2028"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77281.3515625,
-        "perp_last_price": 77281.3515625,
-        "mark_price": 77281.3515625,
-        "index_price": 77281.3515625,
+        "spot_price": 77435.3125,
+        "perp_last_price": 77435.3125,
+        "mark_price": 77435.3125,
+        "index_price": 77435.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77281.3515625,
-        "stop_loss_technical": 76122.13128906,
-        "target_1": 79020.18197266,
-        "target_2": 80759.01238281,
+        "entry_ideal": 77435.3125,
+        "stop_loss_technical": 76273.7828125,
+        "target_1": 79177.60703125,
+        "target_2": 80919.9015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77281.3515625,
+        "entry_ideal": 77435.3125,
         "stop_loss_technical": 74255.234375,
-        "target_1": 81820.52734375,
-        "target_2": 86359.703125,
+        "target_1": 82205.4296875,
+        "target_2": 86975.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
