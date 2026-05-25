@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-25T20:46:54.238755+00:00",
+    "generated_at_utc": "2026-05-25T21:53:22.141618+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Dave Ramsey Says $1 Million Nest Egg Should Give You $80,000 Income 'Forever' — But 'Bogus Math' Claiming 4% Withdrawal Steals Hope",
-    "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
     "Why Did Nvidia Raise Its Dividend by 2,400%?",
-    "2 Dividend Stocks to Hold for the Next 5 Years",
+    "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
     "Jim Cramer warns against 'short term capital gains' —says retirement comes down to 3 assets. Which are you missing?",
-    "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know"
+    "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
+    "Mark Zuckerberg sends another message to Meta employees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77231.8515625,
-        "perp_last_price": 77231.8515625,
-        "mark_price": 77231.8515625,
-        "index_price": 77231.8515625,
+        "spot_price": 77261.6796875,
+        "perp_last_price": 77261.6796875,
+        "mark_price": 77261.6796875,
+        "index_price": 77261.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77229.71875,
-        "stop_loss_technical": 76071.27296875,
-        "target_1": 78967.38742187,
-        "target_2": 80705.05609375,
+        "entry_ideal": 77264.25,
+        "stop_loss_technical": 76881.15625,
+        "target_1": 77838.890625,
+        "target_2": 78413.53125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77231.8515625,
-        "stop_loss_technical": 76073.37378906,
-        "target_1": 78969.56822266,
-        "target_2": 80707.28488281,
+        "entry_ideal": 77261.6796875,
+        "stop_loss_technical": 76102.75449219,
+        "target_1": 79000.06748047,
+        "target_2": 80738.45527344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
