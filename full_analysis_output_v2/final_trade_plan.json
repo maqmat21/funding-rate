@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-26T20:58:31.424830+00:00",
+    "generated_at_utc": "2026-05-26T22:17:31.761214+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.149,
+        "price": 99.141,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Don’t Ignore Basic Bond Math and Jump Into TIPS: The ‘Inflation Hedge’ Story Isn’t Everything",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
     "AT&T rolls out new phone plan to keep customers from leaving",
     "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
     "Silver price predictions: What should investors expect over the next decade?",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
-    "LUNR Stock Tumbles As NASA Chooses Rivals To Deliver Lunar Vehicles For Moon Base"
+    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75993.6015625,
-        "perp_last_price": 75993.6015625,
-        "mark_price": 75993.6015625,
-        "index_price": 75993.6015625,
+        "spot_price": 75675.0,
+        "perp_last_price": 75675.0,
+        "mark_price": 75675.0,
+        "index_price": 75675.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75993.6015625,
-        "stop_loss_technical": 75651.9765625,
-        "target_1": 76506.0390625,
-        "target_2": 77018.4765625,
+        "entry_ideal": 75675.0,
+        "stop_loss_technical": 74539.875,
+        "target_1": 77377.6875,
+        "target_2": 79080.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75993.6015625,
-        "stop_loss_technical": 74853.69753906,
-        "target_1": 77703.45759766,
-        "target_2": 79413.31363281,
+        "entry_ideal": 75675.0,
+        "stop_loss_technical": 74539.875,
+        "target_1": 77377.6875,
+        "target_2": 79080.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
