@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-26T16:32:46.349344+00:00",
+    "generated_at_utc": "2026-05-26T19:06:06.402074+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.166,
+        "price": 99.171,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.504,
+        "price": 4.496,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 28m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
-    "The Best Warren Buffett Stocks to Buy With $300 Right Now",
+    "Mysterious trader burns $8 million as market crashes",
+    "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
     "Silver price predictions: What should investors expect over the next decade?",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know"
+    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76415.8984375,
-        "perp_last_price": 76415.8984375,
-        "mark_price": 76415.8984375,
-        "index_price": 76415.8984375,
+        "spot_price": 75721.359375,
+        "perp_last_price": 75721.359375,
+        "mark_price": 75721.359375,
+        "index_price": 75721.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 76415.8984375,
-        "stop_loss_technical": 76122.0,
-        "target_1": 76856.74609375,
-        "target_2": 77297.59375,
+        "entry_ideal": 75721.359375,
+        "stop_loss_technical": 77990.0,
+        "target_1": 72318.3984375,
+        "target_2": 68915.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 76415.8984375,
-        "stop_loss_technical": 78001.7109375,
-        "target_1": 74037.1796875,
-        "target_2": 71658.4609375,
+        "entry_ideal": 75721.359375,
+        "stop_loss_technical": 77990.0,
+        "target_1": 72318.3984375,
+        "target_2": 68915.4375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
