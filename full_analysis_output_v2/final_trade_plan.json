@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-26T19:06:06.402074+00:00",
+    "generated_at_utc": "2026-05-26T20:58:31.424830+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.171,
-        "trend": "alcista"
+        "price": 99.149,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.496,
+        "price": 4.493,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
-    "Mysterious trader burns $8 million as market crashes",
+    "AT&T rolls out new phone plan to keep customers from leaving",
     "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
     "Silver price predictions: What should investors expect over the next decade?",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks"
+    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
+    "LUNR Stock Tumbles As NASA Chooses Rivals To Deliver Lunar Vehicles For Moon Base"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75721.359375,
-        "perp_last_price": 75721.359375,
-        "mark_price": 75721.359375,
-        "index_price": 75721.359375,
+        "spot_price": 75993.6015625,
+        "perp_last_price": 75993.6015625,
+        "mark_price": 75993.6015625,
+        "index_price": 75993.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75721.359375,
-        "stop_loss_technical": 77990.0,
-        "target_1": 72318.3984375,
-        "target_2": 68915.4375,
+        "entry_ideal": 75993.6015625,
+        "stop_loss_technical": 75651.9765625,
+        "target_1": 76506.0390625,
+        "target_2": 77018.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75721.359375,
-        "stop_loss_technical": 77990.0,
-        "target_1": 72318.3984375,
-        "target_2": 68915.4375,
+        "entry_ideal": 75993.6015625,
+        "stop_loss_technical": 74853.69753906,
+        "target_1": 77703.45759766,
+        "target_2": 79413.31363281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
