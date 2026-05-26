@@ -1,72 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-26T12:49:25.816207+00:00",
+    "generated_at_utc": "2026-05-26T16:32:46.349344+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.112,
-        "trend": "bajista"
+        "price": 99.166,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.485,
+        "price": 4.504,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 3h 28m",
     "News from the Yahoo Finance Network",
-    "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Mom died and left boxes of old tax records and receipts — here's what you can safely throw away",
+    "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
+    "The Best Warren Buffett Stocks to Buy With $300 Right Now",
+    "Silver price predictions: What should investors expect over the next decade?",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "How $450,000 Can Deliver a $27,000 Paycheck Without Working a Day",
-    "A $10.2 Billion Hidden AI Revenue Stream Most Investors Are Missing",
     "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77003.609375,
-        "perp_last_price": 77003.609375,
-        "mark_price": 77003.609375,
-        "index_price": 77003.609375,
+        "spot_price": 76415.8984375,
+        "perp_last_price": 76415.8984375,
+        "mark_price": 76415.8984375,
+        "index_price": 76415.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77003.609375,
-        "stop_loss_technical": 76392.0,
-        "target_1": 77921.0234375,
-        "target_2": 78838.4375,
+        "entry_ideal": 76415.8984375,
+        "stop_loss_technical": 76122.0,
+        "target_1": 76856.74609375,
+        "target_2": 77297.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77003.609375,
-        "stop_loss_technical": 74255.234375,
-        "target_1": 81126.171875,
-        "target_2": 85248.734375,
+        "entry_ideal": 76415.8984375,
+        "stop_loss_technical": 78001.7109375,
+        "target_1": 74037.1796875,
+        "target_2": 71658.4609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
