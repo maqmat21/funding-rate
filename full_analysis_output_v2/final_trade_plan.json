@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-26T10:15:24.376119+00:00",
+    "generated_at_utc": "2026-05-26T12:49:25.816207+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,62 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.053,
+        "price": 99.112,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.558,
+        "price": 4.485,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 16m",
     "News from the Yahoo Finance Network",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Mom died and left boxes of old tax records and receipts — here's what you can safely throw away",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
-    "The Latest Fed May Inflation Update Is In -- and It's a Good News-Bad News Scenario for Wall Street",
-    "No Matter What Happens to the Market, These 3 Dividend Stocks Belong in Your Portfolio"
+    "How $450,000 Can Deliver a $27,000 Paycheck Without Working a Day",
+    "A $10.2 Billion Hidden AI Revenue Stream Most Investors Are Missing",
+    "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76646.0234375,
-        "perp_last_price": 76646.0234375,
-        "mark_price": 76646.0234375,
-        "index_price": 76646.0234375,
+        "spot_price": 77003.609375,
+        "perp_last_price": 77003.609375,
+        "mark_price": 77003.609375,
+        "index_price": 77003.609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76646.0234375,
-        "stop_loss_technical": 76387.6171875,
-        "target_1": 77033.6328125,
-        "target_2": 77421.2421875,
+        "entry_ideal": 77003.609375,
+        "stop_loss_technical": 76392.0,
+        "target_1": 77921.0234375,
+        "target_2": 78838.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 76646.0234375,
-        "stop_loss_technical": 75496.33308594,
-        "target_1": 78370.55896484,
-        "target_2": 80095.09449219,
+        "entry_ideal": 77003.609375,
+        "stop_loss_technical": 74255.234375,
+        "target_1": 81126.171875,
+        "target_2": 85248.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
