@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-25T23:51:02.325045+00:00",
+    "generated_at_utc": "2026-05-26T01:57:46.100146+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "Spousal Social Security Benefits Could Pass a Significant Milestone in 2027 Thanks to the Cost-of-Living Adjustment (COLA)",
-    "Jim Cramer warns against 'short term capital gains' —says retirement comes down to 3 assets. Which are you missing?",
     "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
-    "Why Did Nvidia Raise Its Dividend by 2,400%?",
-    "Billionaire Bill Ackman Just Made a Massive Bet on Microsoft. Here's Why."
+    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
+    "Jim Cramer warns against 'short term capital gains' —says retirement comes down to 3 assets. Which are you missing?",
+    "Beloved retail chain closes all stores after 46 years in business",
+    "Dear Apple Stock Fans, Mark Your Calendars for June 18"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77229.7109375,
-        "perp_last_price": 77229.7109375,
-        "mark_price": 77229.7109375,
-        "index_price": 77229.7109375,
+        "spot_price": 76660.7734375,
+        "perp_last_price": 76660.7734375,
+        "mark_price": 76660.7734375,
+        "index_price": 76660.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77234.9921875,
-        "stop_loss_technical": 76899.390625,
-        "target_1": 77738.39453125,
-        "target_2": 78241.796875,
+        "entry_ideal": 76669.5234375,
+        "stop_loss_technical": 75519.48058594,
+        "target_1": 78394.58771484,
+        "target_2": 80119.65199219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,12 +61,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77229.7109375,
-        "stop_loss_technical": 76071.26527344,
-        "target_1": 78967.37943359,
-        "target_2": 80705.04792969,
+        "entry_ideal": 76660.7734375,
+        "stop_loss_technical": 75510.86183594,
+        "target_1": 78385.64083984,
+        "target_2": 80110.50824219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
