@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-27T01:35:51.757585+00:00",
+    "generated_at_utc": "2026-05-27T05:58:08.147919+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.092,
+        "price": 99.088,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 32m",
     "News from the Yahoo Finance Network",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
     "I'm Alarmed That 64% of Americans Don't Understand This One Fact About Social Security. Here's What Retirees Need to Know",
     "“The Stupidest Thing I Ever Heard”: Suze Orman on Why Waiting Until RMDs Are Required Wrecks Retirement",
-    "Billionaire Bill Gates' Foundation Sold Its Microsoft Stake and Has 43% of Its $33 Billion Portfolio Invested in 2 Other Stocks",
     "4 Dividend Stocks to Hold for the Next 10 Years",
-    "Ferrari reverses after controversial EV announcement",
-    "Meta board member Dana White says Mark Zuckerberg is like Trump, Carl Icahn, and Michael Jordan in one key way"
+    "The U.S. Government Just Bet $2 Billion on 9 Quantum Computing Companies. Here's What It Means for Investors.",
+    "Iconic seafood chain closes more locations after bankruptcy exit"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75740.6015625,
-        "perp_last_price": 75740.6015625,
-        "mark_price": 75740.6015625,
-        "index_price": 75740.6015625,
+        "spot_price": 75594.25,
+        "perp_last_price": 75594.25,
+        "mark_price": 75594.25,
+        "index_price": 75594.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75742.2265625,
-        "stop_loss_technical": 74606.09316406,
-        "target_1": 77446.42666016,
-        "target_2": 79150.62675781,
+        "entry_ideal": 75594.2421875,
+        "stop_loss_technical": 75180.9765625,
+        "target_1": 76214.140625,
+        "target_2": 76834.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 75740.6015625,
-        "stop_loss_technical": 74604.49253906,
-        "target_1": 77444.76509766,
-        "target_2": 79148.92863281,
+        "entry_ideal": 75594.25,
+        "stop_loss_technical": 74460.33625,
+        "target_1": 77295.120625,
+        "target_2": 78995.99125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
