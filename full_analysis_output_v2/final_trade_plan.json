@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-27T09:38:14.671200+00:00",
+    "generated_at_utc": "2026-05-27T16:27:58.468830+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.076,
-        "trend": "bajista"
+        "price": 99.198,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.493,
+        "price": 4.483,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 52m",
+    "U.S. markets close in 3h 33m",
     "News from the Yahoo Finance Network",
-    "3 Leading Dividend Stocks In Global With Up To 3.8% Yield",
-    "Prediction: This Will Be Nvidia's Stock Price at the End of 2026",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
-    "Warren Buffett's Successor, Greg Abel, Just Unloaded Amazon Shares and Tripled His Position in This Magnificent Seven AI Stock That's Climbed 100% Over the Past Year",
-    "Intuit’s Q1 Earnings Call: Our Top 5 Analyst Questions",
-    "4 Dividend Stocks to Hold for the Next 10 Years"
+    "Is Your Social Security Check Keeping Up With What You Actually Spend in 2026?",
+    "4 Dividend Stocks to Hold for the Next 10 Years",
+    "Billionaire Phillipe Laffont Recently Sold Oracle, Tesla, and Nvidia and Purchased a Stock Down 94% Since Its IPO in 2020",
+    "Prediction: This Will Be Nvidia's Stock Price at the End of 2026",
+    "AT&T rolls out new phone plan to keep customers from leaving"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75799.7890625,
-        "perp_last_price": 75799.7890625,
-        "mark_price": 75799.7890625,
-        "index_price": 75799.7890625,
+        "spot_price": 74947.9921875,
+        "perp_last_price": 74947.9921875,
+        "mark_price": 74947.9921875,
+        "index_price": 74947.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75807.890625,
-        "stop_loss_technical": 75180.9765625,
-        "target_1": 76748.26171875,
-        "target_2": 77688.6328125,
+        "entry_ideal": 74947.9921875,
+        "stop_loss_technical": 76021.84375,
+        "target_1": 73337.21484375,
+        "target_2": 71726.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 75799.7890625,
-        "stop_loss_technical": 74662.79222656,
-        "target_1": 77505.28431641,
-        "target_2": 79210.77957031,
+        "entry_ideal": 74947.9921875,
+        "stop_loss_technical": 77990.8671875,
+        "target_1": 70383.6796875,
+        "target_2": 65819.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
