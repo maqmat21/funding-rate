@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-27T16:27:58.468830+00:00",
+    "generated_at_utc": "2026-05-27T18:37:41.536853+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.198,
+        "price": 99.238,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.483,
+        "price": 4.485,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 33m",
+    "U.S. markets close in 1h 23m",
     "News from the Yahoo Finance Network",
     "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
-    "Is Your Social Security Check Keeping Up With What You Actually Spend in 2026?",
     "4 Dividend Stocks to Hold for the Next 10 Years",
-    "Billionaire Phillipe Laffont Recently Sold Oracle, Tesla, and Nvidia and Purchased a Stock Down 94% Since Its IPO in 2020",
     "Prediction: This Will Be Nvidia's Stock Price at the End of 2026",
+    "Pizza Hut Classic retro dine-in locations expand to 155 U.S. sites",
+    "Warren Buffett sits on a record $397B in cash while Michael Burry shorts AI for $1B, betting it's 1999 all over again",
     "AT&T rolls out new phone plan to keep customers from leaving"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74947.9921875,
-        "perp_last_price": 74947.9921875,
-        "mark_price": 74947.9921875,
-        "index_price": 74947.9921875,
+        "spot_price": 74768.796875,
+        "perp_last_price": 74768.796875,
+        "mark_price": 74768.796875,
+        "index_price": 74768.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 74947.9921875,
-        "stop_loss_technical": 76021.84375,
-        "target_1": 73337.21484375,
-        "target_2": 71726.4375,
+        "entry_ideal": 74768.4609375,
+        "stop_loss_technical": 74532.0,
+        "target_1": 75123.15234375,
+        "target_2": 75477.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 74947.9921875,
+        "entry_ideal": 74768.796875,
         "stop_loss_technical": 77990.8671875,
-        "target_1": 70383.6796875,
-        "target_2": 65819.3671875,
+        "target_1": 69935.69140625,
+        "target_2": 65102.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
