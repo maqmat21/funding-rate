@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-27T20:37:02.690221+00:00",
+    "generated_at_utc": "2026-05-27T22:20:05.876126+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.203,
+        "price": 99.219,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Even if every California billionaire left tomorrow, it would take 25 years for the state to lose as much as it stands to gain from proposed wealth tax",
-    "Novo Nordisk Is Beating Eli Lilly in the Obesity Pill Market. Should Lilly Investors Be Worried?",
+    "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next.",
     "4 Dividend Stocks to Hold for the Next 10 Years",
-    "Prediction: This Will Be Nvidia's Stock Price at the End of 2026",
+    "MRVL Stock Rises After-Hours On Q1 Earnings Beat And Strong Outlook",
+    "Pentagon awards Microsoft $9.7 billion deal in bid to cut costs, end license sprawl",
     "AT&T rolls out new phone plan to keep customers from leaving",
-    "Salesforce’s (NYSE:CRM) Q1 CY2026 Sales Beat Estimates",
-    "Plug Power Is Up 6% but FuelCell Energy and Bloom Energy Are in the Red. What’s Going On With Fuel Cell Stocks?"
+    "Prediction: This Will Be Nvidia's Stock Price at the End of 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75118.6171875,
-        "perp_last_price": 75118.6171875,
-        "mark_price": 75118.6171875,
-        "index_price": 75118.6171875,
+        "spot_price": 74395.9609375,
+        "perp_last_price": 74395.9609375,
+        "mark_price": 74395.9609375,
+        "index_price": 74395.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75138.1328125,
-        "stop_loss_technical": 74532.0,
-        "target_1": 76047.33203125,
-        "target_2": 76956.53125,
+        "entry_ideal": 74395.9609375,
+        "stop_loss_technical": 76021.84375,
+        "target_1": 71957.13671875,
+        "target_2": 69518.3125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 75118.6171875,
+        "entry_ideal": 74395.9609375,
         "stop_loss_technical": 77990.8671875,
-        "target_1": 70810.2421875,
-        "target_2": 66501.8671875,
+        "target_1": 69003.6015625,
+        "target_2": 63611.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
