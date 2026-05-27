@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-27T18:37:41.536853+00:00",
+    "generated_at_utc": "2026-05-27T20:37:02.690221+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.238,
+        "price": 99.203,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.485,
+        "price": 4.481,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 23m",
     "News from the Yahoo Finance Network",
-    "The Stock Market Is Sounding the Alarm Right Now, and History Is Clear on What Comes Next",
+    "Even if every California billionaire left tomorrow, it would take 25 years for the state to lose as much as it stands to gain from proposed wealth tax",
+    "Novo Nordisk Is Beating Eli Lilly in the Obesity Pill Market. Should Lilly Investors Be Worried?",
     "4 Dividend Stocks to Hold for the Next 10 Years",
     "Prediction: This Will Be Nvidia's Stock Price at the End of 2026",
-    "Pizza Hut Classic retro dine-in locations expand to 155 U.S. sites",
-    "Warren Buffett sits on a record $397B in cash while Michael Burry shorts AI for $1B, betting it's 1999 all over again",
-    "AT&T rolls out new phone plan to keep customers from leaving"
+    "AT&T rolls out new phone plan to keep customers from leaving",
+    "Salesforce’s (NYSE:CRM) Q1 CY2026 Sales Beat Estimates",
+    "Plug Power Is Up 6% but FuelCell Energy and Bloom Energy Are in the Red. What’s Going On With Fuel Cell Stocks?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74768.796875,
-        "perp_last_price": 74768.796875,
-        "mark_price": 74768.796875,
-        "index_price": 74768.796875,
+        "spot_price": 75118.6171875,
+        "perp_last_price": 75118.6171875,
+        "mark_price": 75118.6171875,
+        "index_price": 75118.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 74768.4609375,
+        "entry_ideal": 75138.1328125,
         "stop_loss_technical": 74532.0,
-        "target_1": 75123.15234375,
-        "target_2": 75477.84375,
+        "target_1": 76047.33203125,
+        "target_2": 76956.53125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 74768.796875,
+        "entry_ideal": 75118.6171875,
         "stop_loss_technical": 77990.8671875,
-        "target_1": 69935.69140625,
-        "target_2": 65102.5859375,
+        "target_1": 70810.2421875,
+        "target_2": 66501.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
