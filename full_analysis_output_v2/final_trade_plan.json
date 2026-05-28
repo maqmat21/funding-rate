@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-28T09:01:10.169351+00:00",
+    "generated_at_utc": "2026-05-28T12:40:09.222204+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.34,
-        "trend": "alcista"
+        "price": 99.248,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.481,
+        "price": 4.506,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 30m",
     "News from the Yahoo Finance Network",
     "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next.",
+    "Could Buying SpaceX Stock At Its IPO Set You Up for Life? (Hint: Yes.)",
     "Even if every California billionaire left tomorrow, it would take 25 years for the state to lose as much as it stands to gain from proposed wealth tax",
-    "Tesla's Optimus robot plan hits major snag",
-    "4 Dividend Stocks to Hold for the Next 10 Years",
-    "Micron Is Nearing $1,000. Is a Stock Split Next?",
-    "Meet the Spectacular Vanguard ETF With 45.8% of Its Portfolio Parked in Nvidia, Alphabet, Apple, and Microsoft"
+    "Wealthy people are selling their million-dollar homes to live in a van all year — here's the real cost of nomad life",
+    "How To Generate $7,500 a Month in Dividend Income for a Beyond-Comfortable Retirement",
+    "Caesars Entertainment, a Las Vegas Strip icon, is sold for $6 billion",
+    "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Are Sending Shockwaves Through Wall Street With This $931 Million Warning"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73193.90625,
-        "perp_last_price": 73193.90625,
-        "mark_price": 73193.90625,
-        "index_price": 73193.90625,
+        "spot_price": 73378.5078125,
+        "perp_last_price": 73378.5078125,
+        "mark_price": 73378.5078125,
+        "index_price": 73378.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73193.90625,
-        "stop_loss_technical": 72631.453125,
-        "target_1": 74037.5859375,
-        "target_2": 74881.265625,
+        "entry_ideal": 73361.0390625,
+        "stop_loss_technical": 72637.546875,
+        "target_1": 74446.27734375,
+        "target_2": 75531.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73193.90625,
-        "stop_loss_technical": 77990.8671875,
-        "target_1": 65998.46484375,
-        "target_2": 58803.0234375,
+        "entry_ideal": 73378.5078125,
+        "stop_loss_technical": 72277.83019531,
+        "target_1": 75029.52423828,
+        "target_2": 76680.54066406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
