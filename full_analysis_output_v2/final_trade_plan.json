@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-28T16:41:20.729740+00:00",
+    "generated_at_utc": "2026-05-28T19:26:21.262368+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.965,
+        "price": 99.023,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.449,
+        "price": 4.457,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 19m",
     "News from the Yahoo Finance Network",
-    "Record Revenue, Rising Dividends—So Why Aren't Analysts Saying Buy?",
+    "Drone Stock Backed by Trump Son Soars on US Funding Hopes",
+    "47-year-old high-end steak and seafood chain closes 80 locations",
+    "Tilman Fertitta to acquire Caesars Entertainment for $5.7B",
     "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next.",
-    "Should You Buy Gold While It's Under $5,000?",
-    "Prediction: Elon Musk’s SpaceX Will Buy Intel for $1 Trillion",
+    "Palantir vs. Oracle in 2026. Which One Is the Better Buy Right Now?",
     "Even if every California billionaire left tomorrow, it would take 25 years for the state to lose as much as it stands to gain from proposed wealth tax",
-    "US families to receive $12,000 under new proposal from Bernie Sanders — and he takes a direct swipe at Jeff Bezos"
+    "ANKTIVA Label Expansion Bid in Papillary NMIBC Could Be A Game Changer For ImmunityBio (IBRX)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73136.921875,
-        "perp_last_price": 73136.921875,
-        "mark_price": 73136.921875,
-        "index_price": 73136.921875,
+        "spot_price": 73390.8828125,
+        "perp_last_price": 73390.8828125,
+        "mark_price": 73390.8828125,
+        "index_price": 73390.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73136.921875,
-        "stop_loss_technical": 72450.0,
-        "target_1": 74167.3046875,
-        "target_2": 75197.6875,
+        "entry_ideal": 73390.8828125,
+        "stop_loss_technical": 72290.01957031,
+        "target_1": 75042.17767578,
+        "target_2": 76693.47253906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73136.921875,
-        "stop_loss_technical": 72039.86804687,
-        "target_1": 74782.50261719,
-        "target_2": 76428.08335937,
+        "entry_ideal": 73390.8828125,
+        "stop_loss_technical": 72290.01957031,
+        "target_1": 75042.17767578,
+        "target_2": 76693.47253906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
