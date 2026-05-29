@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-29T07:41:46.248850+00:00",
+    "generated_at_utc": "2026-05-29T10:58:55.855369+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.081,
+        "price": 99.088,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 49m",
+    "U.S. markets open in 2h 32m",
     "News from the Yahoo Finance Network",
-    "If It Walks Like a Bubble and Quacks Like a Bubble, Then It’s Probably a Bubble",
-    "Burger chain franchise in bankruptcy liquidating 49 stores",
-    "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next.",
-    "Peter Schiff: The $1 Trillion AI CapEx Bubble Is Hiding a Massive Capital Misallocation",
-    "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
-    "First Solar (FSLR) Shares Skyrocket, What You Need To Know"
+    "Can Dividends Replace a $110,000 Salary? Sure, But Here’s What You Need Invested",
+    "63% of the Bill Gates Foundation's Stock Portfolio Is Invested in Just 3 Large-Cap Stocks",
+    "Big Changes Are Coming to Social Security: Why 2033 Is an Important Year and What to Expect Before Then",
+    "Is Bitcoin Dead? Here Are 3 Reasons It Might Be.",
+    "Fewer Than 1% of Retirees Hit the Social Security Maximum. Here’s Why and What You Can Do",
+    "Jim Cramer on NVIDIA: “The King Has Indeed Begun to Underperform When It Reports”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73332.0234375,
-        "perp_last_price": 73332.0234375,
-        "mark_price": 73332.0234375,
-        "index_price": 73332.0234375,
+        "spot_price": 73551.140625,
+        "perp_last_price": 73551.140625,
+        "mark_price": 73551.140625,
+        "index_price": 73551.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 73332.0234375,
-        "stop_loss_technical": 73842.0,
-        "target_1": 72567.05859375,
-        "target_2": 71802.09375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 73332.0234375,
-        "stop_loss_technical": 77990.8671875,
-        "target_1": 66343.7578125,
-        "target_2": 59355.4921875,
+        "entry_ideal": 73553.546875,
+        "stop_loss_technical": 73830.1796875,
+        "target_1": 73138.59765625,
+        "target_2": 72723.6484375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 73551.140625,
+        "stop_loss_technical": 72493.4140625,
+        "target_1": 75137.73046875,
+        "target_2": 76724.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
