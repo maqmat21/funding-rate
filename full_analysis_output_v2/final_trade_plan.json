@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-29T19:54:46.539973+00:00",
+    "generated_at_utc": "2026-05-29T21:30:37.796610+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.869,
+        "price": 98.942,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,51 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Former ‘Architectural Digest’ Publisher’s Colorado Ranch Lists for $66.5 Million",
+    "These 2 Tech Titans Just Declared Dividend Raises. Should You Buy One or Both?",
+    "Is Sirius XM’s 2026 Cash Flow Reaffirmation And YouTube Deal Altering The Investment Case For SIRI?",
+    "Supreme Court Verdict Tests Eli Lilly Valuation And Legal Risk Outlook",
     "Jeff Bezos Wants to Eliminate Income Taxes for Half of America: Here’s His Plan",
-    "Super Micro Stock Rally Misses the Point From Dell Earnings",
-    "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
-    "Want $1,400 in Passive Income? Invest $10,000 Into These 4 Dividend Stocks",
-    "Judge Blocks Move to Add Trump’s Name to Kennedy Center",
-    "Dear FedEx Stock Fans, Mark Your Calendars for June 1",
-    "Mark Cuban dumped most of his Bitcoin, saying it 'lost the plot.' Experts say he panic-sold at the worst possible time"
+    "Will G2 Fleet Tech Leadership and Margin Gains Shift Samsara's (IOT) Connected Operations Narrative?",
+    "JPMorgan CEO Jamie Dimon rags on Coinbase CEO Brian Armstrong's crypto lobbying push: 'He's full of shit'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73485.4375,
-        "perp_last_price": 73485.4375,
-        "mark_price": 73485.4375,
-        "index_price": 73485.4375,
+        "spot_price": 73389.578125,
+        "perp_last_price": 73389.578125,
+        "mark_price": 73389.578125,
+        "index_price": 73389.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73482.8671875,
-        "stop_loss_technical": 72383.5078125,
-        "target_1": 75131.90625,
-        "target_2": 76780.9453125,
+        "entry_ideal": 73389.578125,
+        "stop_loss_technical": 72288.73445312,
+        "target_1": 75040.84363281,
+        "target_2": 76692.10914063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73485.4375,
-        "stop_loss_technical": 72383.5078125,
-        "target_1": 75138.33203125,
-        "target_2": 76791.2265625,
+        "entry_ideal": 73389.578125,
+        "stop_loss_technical": 72288.73445312,
+        "target_1": 75040.84363281,
+        "target_2": 76692.10914063,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
