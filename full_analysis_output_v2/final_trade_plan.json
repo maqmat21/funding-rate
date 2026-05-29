@@ -1,70 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-29T10:58:55.855369+00:00",
+    "generated_at_utc": "2026-05-29T13:58:34.218762+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.088,
-        "trend": "alcista"
+        "price": 99.012,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.455,
+        "price": 4.449,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 32m",
+    "U.S. markets close in 6h 3m",
     "News from the Yahoo Finance Network",
-    "Can Dividends Replace a $110,000 Salary? Sure, But Here’s What You Need Invested",
-    "63% of the Bill Gates Foundation's Stock Portfolio Is Invested in Just 3 Large-Cap Stocks",
-    "Big Changes Are Coming to Social Security: Why 2033 Is an Important Year and What to Expect Before Then",
-    "Is Bitcoin Dead? Here Are 3 Reasons It Might Be.",
-    "Fewer Than 1% of Retirees Hit the Social Security Maximum. Here’s Why and What You Can Do",
-    "Jim Cramer on NVIDIA: “The King Has Indeed Begun to Underperform When It Reports”"
+    "GM Authorized $6 Billion in Buybacks. Will Ford Match the Move?",
+    "SpaceX and This Nuclear Stock Could Turn $10,000 Into a Fortune",
+    "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
+    "Jeff Bezos Wants to Eliminate Income Taxes for Half of America: Here’s His Plan",
+    "Social Security benefits capped at $50,000 under new, painful proposal. Shockproof your portfolio before it gets signed",
+    "Trump accounts app is live: How to sign up and get started"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73551.140625,
-        "perp_last_price": 73551.140625,
-        "mark_price": 73551.140625,
-        "index_price": 73551.140625,
+        "spot_price": 73077.0625,
+        "perp_last_price": 73077.0625,
+        "mark_price": 73077.0625,
+        "index_price": 73077.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73553.546875,
-        "stop_loss_technical": 73830.1796875,
-        "target_1": 73138.59765625,
-        "target_2": 72723.6484375,
+        "entry_ideal": 73070.953125,
+        "stop_loss_technical": 72795.953125,
+        "target_1": 73483.453125,
+        "target_2": 73895.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73551.140625,
-        "stop_loss_technical": 72493.4140625,
-        "target_1": 75137.73046875,
-        "target_2": 76724.3203125,
+        "entry_ideal": 73077.0625,
+        "stop_loss_technical": 71980.9065625,
+        "target_1": 74721.29640625,
+        "target_2": 76365.5303125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
