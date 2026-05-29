@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-28T22:52:02.986654+00:00",
+    "generated_at_utc": "2026-05-29T00:00:12.655219+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.993,
+        "price": 98.996,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Americans to recieve $3,500 each after doughnut chain settles lawsuit",
+    "Burger chain franchise in bankruptcy liquidating 49 stores",
+    "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
     "Mark Zuckerberg Celebrates Over 7,000 Meta Firings By Bringing His Superyacht To Seattle",
+    "Peter Schiff: The $1 Trillion AI CapEx Bubble Is Hiding a Massive Capital Misallocation",
     "Bessent Says Americans Dipping Into Savings To Support Themselves Could Be A Good Sign, Actually",
-    "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next.",
-    "Even if every California billionaire left tomorrow, it would take 25 years for the state to lose as much as it stands to gain from proposed wealth tax",
-    "Costco sells 'record-breaking' amounts of gas as fuel costs soar amid US-Iran war",
-    "Palantir vs. Oracle in 2026. Which One Is the Better Buy Right Now?"
+    "Americans to recieve $3,500 each after doughnut chain settles lawsuit",
+    "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73453.546875,
-        "perp_last_price": 73453.546875,
-        "mark_price": 73453.546875,
-        "index_price": 73453.546875,
+        "spot_price": 73556.0,
+        "perp_last_price": 73556.0,
+        "mark_price": 73556.0,
+        "index_price": 73556.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73453.546875,
-        "stop_loss_technical": 72351.74367187,
-        "target_1": 75106.25167969,
-        "target_2": 76758.95648437,
+        "entry_ideal": 73556.0,
+        "stop_loss_technical": 72450.0,
+        "target_1": 75215.0,
+        "target_2": 76874.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73453.546875,
-        "stop_loss_technical": 72351.74367187,
-        "target_1": 75106.25167969,
-        "target_2": 76758.95648437,
+        "entry_ideal": 73556.0,
+        "stop_loss_technical": 72450.0,
+        "target_1": 75215.0,
+        "target_2": 76874.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
