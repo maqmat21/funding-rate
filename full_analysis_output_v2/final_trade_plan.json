@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-29T17:32:11.598038+00:00",
+    "generated_at_utc": "2026-05-29T19:54:46.539973+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,62 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.898,
+        "price": 98.869,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.436,
+        "price": 4.453,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 29m",
     "News from the Yahoo Finance Network",
     "Jeff Bezos Wants to Eliminate Income Taxes for Half of America: Here’s His Plan",
-    "Why Costco Stock Was Sliding Today",
-    "Nio Just Achieved What Rivian and Lucid Dream of. Is It Finally a Buy?",
-    "Social Security’s Biggest 2026 Rule Change Just Handed 3 Million Retirees Thousands in Back Pay",
+    "Super Micro Stock Rally Misses the Point From Dell Earnings",
     "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
-    "Trump 'absolutely loved' his $250 bill portrait — but a 160-year-old law stands in the way"
+    "Want $1,400 in Passive Income? Invest $10,000 Into These 4 Dividend Stocks",
+    "Judge Blocks Move to Add Trump’s Name to Kennedy Center",
+    "Dear FedEx Stock Fans, Mark Your Calendars for June 1",
+    "Mark Cuban dumped most of his Bitcoin, saying it 'lost the plot.' Experts say he panic-sold at the worst possible time"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74190.9921875,
-        "perp_last_price": 74190.9921875,
-        "mark_price": 74190.9921875,
-        "index_price": 74190.9921875,
+        "spot_price": 73485.4375,
+        "perp_last_price": 73485.4375,
+        "mark_price": 73485.4375,
+        "index_price": 73485.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74187.3203125,
+        "entry_ideal": 73482.8671875,
         "stop_loss_technical": 72383.5078125,
-        "target_1": 76893.0390625,
-        "target_2": 79598.7578125,
+        "target_1": 75131.90625,
+        "target_2": 76780.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74190.9921875,
+        "entry_ideal": 73485.4375,
         "stop_loss_technical": 72383.5078125,
-        "target_1": 76902.21875,
-        "target_2": 79613.4453125,
+        "target_1": 75138.33203125,
+        "target_2": 76791.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
