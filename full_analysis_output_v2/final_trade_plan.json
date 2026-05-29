@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-29T00:00:12.655219+00:00",
+    "generated_at_utc": "2026-05-29T03:45:26.099474+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.996,
+        "price": 99.074,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,51 +23,52 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Burger chain franchise in bankruptcy liquidating 49 stores",
-    "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
-    "Mark Zuckerberg Celebrates Over 7,000 Meta Firings By Bringing His Superyacht To Seattle",
-    "Peter Schiff: The $1 Trillion AI CapEx Bubble Is Hiding a Massive Capital Misallocation",
+    "ASTS Stock Slides Overnight: Blue Origin Explosion Raises Fresh Fears For 45-Satellite Rollout",
+    "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next.",
     "Bessent Says Americans Dipping Into Savings To Support Themselves Could Be A Good Sign, Actually",
-    "Americans to recieve $3,500 each after doughnut chain settles lawsuit",
-    "The Stock Market Is Flashing a Rare Warning Signal. Here's What History Says Happens Next."
+    "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
+    "Peter Schiff: The $1 Trillion AI CapEx Bubble Is Hiding a Massive Capital Misallocation",
+    "Firefly Aerospace (FLY) makes jaw-dropping move on NASA contract"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73556.0,
-        "perp_last_price": 73556.0,
-        "mark_price": 73556.0,
-        "index_price": 73556.0,
+        "spot_price": 73240.2734375,
+        "perp_last_price": 73240.2734375,
+        "mark_price": 73240.2734375,
+        "index_price": 73240.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73556.0,
-        "stop_loss_technical": 72450.0,
-        "target_1": 75215.0,
-        "target_2": 76874.0,
+        "entry_ideal": 73237.8828125,
+        "stop_loss_technical": 72139.31457031,
+        "target_1": 74885.73517578,
+        "target_2": 76533.58753906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73556.0,
-        "stop_loss_technical": 72450.0,
-        "target_1": 75215.0,
-        "target_2": 76874.0,
+        "entry_ideal": 73240.2734375,
+        "stop_loss_technical": 72141.66933594,
+        "target_1": 74888.17958984,
+        "target_2": 76536.08574219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
