@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T18:56:37.880052+00:00",
+    "generated_at_utc": "2026-05-30T20:03:18.123106+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Prediction: Here's How Much Micron Stock Will Be Worth in 2 Years",
     "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near",
+    "Prediction: Here's How Much Micron Stock Will Be Worth in 2 Years",
     "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
-    "3 reasons why $2M to $5M in retirement savings can be the toughest to handle — plus an instant tip for wealthy boomers",
+    "This Unstoppable Vanguard ETF Has More Than Doubled the S&P 500 in the Last 10 Years. Could It Make You a Millionaire?",
     "Billionaire Peter Thiel moves out of U.S. citing harsh concerns",
-    "Larry Fink warns Americans’ pensions, savings will fund the trillions required for AI data centers. Protect your wealth",
-    "2 Genius Stocks That Billionaire Bill Ackman Just Loaded Up On"
+    "3 Space Stocks Flying Under the Radar and Worth Buying This Month",
+    "Dave Ramsey reveals 3 serious retirement mistakes Americans make after 55 (and regret later)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73911.578125,
-        "perp_last_price": 73911.578125,
-        "mark_price": 73911.578125,
-        "index_price": 73911.578125,
+        "spot_price": 73866.9375,
+        "perp_last_price": 73866.9375,
+        "mark_price": 73866.9375,
+        "index_price": 73866.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73911.578125,
-        "stop_loss_technical": 72802.90445312,
-        "target_1": 75574.58863281,
-        "target_2": 77237.59914062,
+        "entry_ideal": 73866.9375,
+        "stop_loss_technical": 72758.9334375,
+        "target_1": 75528.94359375,
+        "target_2": 77190.9496875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73911.578125,
+        "entry_ideal": 73866.9375,
         "stop_loss_technical": 72435.625,
-        "target_1": 76125.5078125,
-        "target_2": 78339.4375,
+        "target_1": 76013.90625,
+        "target_2": 78160.875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
