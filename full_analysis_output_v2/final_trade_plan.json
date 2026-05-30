@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-29T22:54:22.859819+00:00",
+    "generated_at_utc": "2026-05-30T00:00:54.290944+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Peter Thiel's move to Argentina reflects a growing trend among billionaires seeking a 'plan B' abroad",
+    "The Real Cost of Retirement for a Single American in Every State—And the Nest Egg Needed to Afford It",
     "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life – which should I choose?",
-    "Jeff Bezos Wants to Eliminate Income Taxes for Half of America: Here’s His Plan",
-    "Assessing Oracle (ORCL) Valuation After Strong Multi‑Month Share Price Momentum",
-    "62-Year-Old Retiree’s $2.4M Portfolio Could Drop to $1.1M by 80 in the Wrong Market",
     "JPMorgan CEO Jamie Dimon rags on Coinbase CEO Brian Armstrong's crypto lobbying push: 'He's full of shit'",
+    "Scott Bessent shares new information on stunning Iranian seizure",
     "The 0% Capital Gains Bracket: How Retirees Can Realize $94,000 in Tax-Free Gains",
-    "Want $1,400 in Passive Income? Invest $10,000 Into These 4 Dividend Stocks"
+    "Want $4,800 in Annual Passive Income? Invest $40,000 Into These 3 High Yield Dividend Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73321.546875,
-        "perp_last_price": 73321.546875,
-        "mark_price": 73321.546875,
-        "index_price": 73321.546875,
+        "spot_price": 73378.9375,
+        "perp_last_price": 73378.9375,
+        "mark_price": 73378.9375,
+        "index_price": 73378.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73322.3515625,
-        "stop_loss_technical": 72222.51628906,
-        "target_1": 74972.10447266,
-        "target_2": 76621.85738281,
+        "entry_ideal": 73378.9375,
+        "stop_loss_technical": 72383.5078125,
+        "target_1": 74872.08203125,
+        "target_2": 76365.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73321.546875,
-        "stop_loss_technical": 72221.72367188,
-        "target_1": 74971.28167969,
-        "target_2": 76621.01648437,
+        "entry_ideal": 73378.9375,
+        "stop_loss_technical": 72278.2534375,
+        "target_1": 75029.96359375,
+        "target_2": 76680.9896875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
