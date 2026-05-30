@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T10:55:30.618574+00:00",
+    "generated_at_utc": "2026-05-30T11:59:47.331653+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Surging Treasury yields expose a brutal truth: America has no margin for error on its $39 trillion debt",
     "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
     "This Dividend King Stock Just Offered a Superb Buy-the-Dip Opportunity",
-    "Breakfast giant shuts plant, cuts 100s of workers",
-    "Scott Bessent shares new information on stunning Iranian seizure",
-    "Peter Thiel's move to Argentina reflects a growing trend among billionaires seeking a 'plan B' abroad",
-    "3 Magnificent Dividend Stocks Down 20% to Buy and Hold Forever"
+    "Surging Treasury yields expose a brutal truth: America has no margin for error on its $39 trillion debt",
+    "Does Warren Buffett's Successor, Greg Abel, Know Something That Wall Street Doesn't? He's Piling Into a \"Magnificent Seven\" Stock at Close to 30x Earnings That Other Billionaire Hedge Fund Managers Are Dumping.",
+    "3 reasons why $2M to $5M in retirement savings can be the toughest to handle — plus an instant tip for wealthy boomers",
+    "Is Micron Stock a Buy Before June 24?",
+    "3 Nuclear Energy Stocks That Are Quietly Becoming the Trades of the Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73536.0078125,
-        "perp_last_price": 73536.0078125,
-        "mark_price": 73536.0078125,
-        "index_price": 73536.0078125,
+        "spot_price": 73495.3984375,
+        "perp_last_price": 73495.3984375,
+        "mark_price": 73495.3984375,
+        "index_price": 73495.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73536.0078125,
-        "stop_loss_technical": 72875.0625,
-        "target_1": 74527.42578125,
-        "target_2": 75518.84375,
+        "entry_ideal": 73495.390625,
+        "stop_loss_technical": 72392.95976562,
+        "target_1": 75149.03691406,
+        "target_2": 76802.68320312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73536.0078125,
+        "entry_ideal": 73495.3984375,
         "stop_loss_technical": 72435.625,
-        "target_1": 75186.58203125,
-        "target_2": 76837.15625,
+        "target_1": 75085.05859375,
+        "target_2": 76674.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
