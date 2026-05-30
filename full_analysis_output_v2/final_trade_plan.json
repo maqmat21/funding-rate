@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T21:11:38.757549+00:00",
+    "generated_at_utc": "2026-05-30T22:13:42.469112+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,25 +23,40 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett's Berkshire dumps entire stake in dividend stock",
-    "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near",
     "Prediction: Here's How Much Micron Stock Will Be Worth in 2 Years",
-    "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
+    "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near",
     "NuScale Power Is Still Under $13. Here's Whether Long-Term Investors Should Pounce.",
-    "Can Sandisk Become a $1 Trillion Company in 5 Years?",
-    "Billionaire Peter Thiel moves out of U.S. citing harsh concerns"
+    "Larry Fink warns Americans’ pensions, savings will fund the trillions required for AI data centers. Protect your wealth",
+    "You're Making a Huge Mistake if You Keep All Retirement Savings in an IRA or 401(k)",
+    "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73869.5625,
-        "perp_last_price": 73869.5625,
-        "mark_price": 73869.5625,
-        "index_price": 73869.5625,
+        "spot_price": 73788.1015625,
+        "perp_last_price": 73788.1015625,
+        "mark_price": 73788.1015625,
+        "index_price": 73788.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 73788.1015625,
+        "stop_loss_technical": 72681.28003906,
+        "target_1": 75448.33384766,
+        "target_2": 77108.56613281,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -49,25 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73861.40625,
-        "stop_loss_technical": 73118.046875,
-        "target_1": 74976.4453125,
-        "target_2": 76091.484375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 73869.5625,
+        "entry_ideal": 73788.1015625,
         "stop_loss_technical": 72435.625,
-        "target_1": 76020.46875,
-        "target_2": 78171.375,
+        "target_1": 75816.81640625,
+        "target_2": 77845.53125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
