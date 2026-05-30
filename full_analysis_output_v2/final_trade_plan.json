@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T09:26:04.598229+00:00",
+    "generated_at_utc": "2026-05-30T10:55:30.618574+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Surging Treasury yields expose a brutal truth: America has no margin for error on its $39 trillion debt",
     "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
+    "This Dividend King Stock Just Offered a Superb Buy-the-Dip Opportunity",
+    "Breakfast giant shuts plant, cuts 100s of workers",
     "Scott Bessent shares new information on stunning Iranian seizure",
-    "3 Magnificent Dividend Stocks Down 20% to Buy and Hold Forever",
     "Peter Thiel's move to Argentina reflects a growing trend among billionaires seeking a 'plan B' abroad",
-    "Prediction: Bitcoin Will Hit $120,000 Before the End of the Year",
-    "Is Micron Stock a Buy Before June 24?",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life – which should I choose?"
+    "3 Magnificent Dividend Stocks Down 20% to Buy and Hold Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73455.3125,
-        "perp_last_price": 73455.3125,
-        "mark_price": 73455.3125,
-        "index_price": 73455.3125,
+        "spot_price": 73536.0078125,
+        "perp_last_price": 73536.0078125,
+        "mark_price": 73536.0078125,
+        "index_price": 73536.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73455.3125,
-        "stop_loss_technical": 72400.4296875,
-        "target_1": 75037.63671875,
-        "target_2": 76619.9609375,
+        "entry_ideal": 73536.0078125,
+        "stop_loss_technical": 72875.0625,
+        "target_1": 74527.42578125,
+        "target_2": 75518.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73455.3125,
-        "stop_loss_technical": 72400.4296875,
-        "target_1": 75037.63671875,
-        "target_2": 76619.9609375,
+        "entry_ideal": 73536.0078125,
+        "stop_loss_technical": 72435.625,
+        "target_1": 75186.58203125,
+        "target_2": 76837.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
