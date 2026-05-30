@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T07:19:52.813020+00:00",
+    "generated_at_utc": "2026-05-30T09:26:04.598229+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,50 +24,50 @@
     "News from the Yahoo Finance Network",
     "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
     "Scott Bessent shares new information on stunning Iranian seizure",
+    "3 Magnificent Dividend Stocks Down 20% to Buy and Hold Forever",
     "Peter Thiel's move to Argentina reflects a growing trend among billionaires seeking a 'plan B' abroad",
+    "Prediction: Bitcoin Will Hit $120,000 Before the End of the Year",
     "Is Micron Stock a Buy Before June 24?",
-    "Here Are the 3 Cheapest Magnificent Seven Stocks According to a Popular Metric. Are They Buys?",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life – which should I choose?",
-    "Kevin O'Leary Says If You've Got $500K Saved, You Can Live Off the Interest and Do 'Nothing Else' To Make Money — 'It's All About Lifestyle'"
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life – which should I choose?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73436.4375,
-        "perp_last_price": 73436.4375,
-        "mark_price": 73436.4375,
-        "index_price": 73436.4375,
+        "spot_price": 73455.3125,
+        "perp_last_price": 73455.3125,
+        "mark_price": 73455.3125,
+        "index_price": 73455.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73428.6015625,
-        "stop_loss_technical": 72327.17253906,
-        "target_1": 75080.74509766,
-        "target_2": 76732.88863281,
+        "entry_ideal": 73455.3125,
+        "stop_loss_technical": 72400.4296875,
+        "target_1": 75037.63671875,
+        "target_2": 76619.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73436.4375,
-        "stop_loss_technical": 72334.8909375,
-        "target_1": 75088.75734375,
-        "target_2": 76741.0771875,
+        "entry_ideal": 73455.3125,
+        "stop_loss_technical": 72400.4296875,
+        "target_1": 75037.63671875,
+        "target_2": 76619.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
