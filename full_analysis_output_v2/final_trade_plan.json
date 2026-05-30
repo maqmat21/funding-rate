@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T13:39:07.032885+00:00",
+    "generated_at_utc": "2026-05-30T14:53:42.262476+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "3 reasons why $2M to $5M in retirement savings can be the toughest to handle — plus an instant tip for wealthy boomers",
     "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near",
-    "This Dividend King Stock Just Offered a Superb Buy-the-Dip Opportunity",
-    "Surging Treasury yields expose a brutal truth: America has no margin for error on its $39 trillion debt",
     "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
-    "Irrational Exuberance 2.0 Has Arrived on Wall Street",
+    "This Dividend King Stock Just Offered a Superb Buy-the-Dip Opportunity",
+    "DeSantis aims to zero out property taxes for 92% of Floridians — and make Palm Beach billionaires foot the bill",
+    "Surging Treasury yields expose a brutal truth: America has no margin for error on its $39 trillion debt",
     "Does Warren Buffett's Successor, Greg Abel, Know Something That Wall Street Doesn't? He's Piling Into a \"Magnificent Seven\" Stock at Close to 30x Earnings That Other Billionaire Hedge Fund Managers Are Dumping."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73580.109375,
-        "perp_last_price": 73580.109375,
-        "mark_price": 73580.109375,
-        "index_price": 73580.109375,
+        "spot_price": 73824.6796875,
+        "perp_last_price": 73824.6796875,
+        "mark_price": 73824.6796875,
+        "index_price": 73824.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73580.109375,
-        "stop_loss_technical": 72476.40773437,
-        "target_1": 75235.66183594,
-        "target_2": 76891.21429687,
+        "entry_ideal": 73824.6796875,
+        "stop_loss_technical": 72717.30949219,
+        "target_1": 75485.73498047,
+        "target_2": 77146.79027344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73580.109375,
+        "entry_ideal": 73824.6796875,
         "stop_loss_technical": 72435.625,
-        "target_1": 75296.8359375,
-        "target_2": 77013.5625,
+        "target_1": 75908.26171875,
+        "target_2": 77991.84375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
