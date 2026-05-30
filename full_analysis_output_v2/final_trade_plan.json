@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-30T15:57:28.557353+00:00",
+    "generated_at_utc": "2026-05-30T16:55:12.727489+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near",
-    "Billionaire Peter Thiel moves out of U.S. citing harsh concerns",
     "3 reasons why $2M to $5M in retirement savings can be the toughest to handle — plus an instant tip for wealthy boomers",
+    "Billionaire Peter Thiel moves out of U.S. citing harsh concerns",
     "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners",
-    "Irrational Exuberance 2.0 Has Arrived on Wall Street",
-    "This Dividend King Stock Just Offered a Superb Buy-the-Dip Opportunity",
-    "Prediction: After Micron and AMD, This Will Be the Next Tech Stock to Join the $1 Trillion Club"
+    "Eli Lilly and Company (LLY): A Long Term Stock to Buy",
+    "This is why NVIDIA Corporation (NVDA) is a Top Stock to Buy for The Long Term",
+    "Larry Fink warns Americans’ pensions, savings will fund the trillions required for AI data centers. Protect your wealth"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73791.53125,
-        "perp_last_price": 73791.53125,
-        "mark_price": 73791.53125,
-        "index_price": 73791.53125,
+        "spot_price": 73824.09375,
+        "perp_last_price": 73824.09375,
+        "mark_price": 73824.09375,
+        "index_price": 73824.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73791.53125,
-        "stop_loss_technical": 72684.65828125,
-        "target_1": 75451.84070312,
-        "target_2": 77112.15015625,
+        "entry_ideal": 73824.09375,
+        "stop_loss_technical": 73118.046875,
+        "target_1": 74883.1640625,
+        "target_2": 75942.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73791.53125,
+        "entry_ideal": 73824.09375,
         "stop_loss_technical": 72435.625,
-        "target_1": 75825.390625,
-        "target_2": 77859.25,
+        "target_1": 75906.796875,
+        "target_2": 77989.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
