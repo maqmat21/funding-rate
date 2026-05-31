@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-31T19:41:18.884606+00:00",
+    "generated_at_utc": "2026-05-31T20:41:44.718863+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
     "3 Monster Dividend Stocks to Buy in June (1 Yields an Eye-Popping 11.2%!)",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
     "Trump calls for physical audit of Fort Knox after $40M gold arrest",
-    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
     "Suze Orman Shows the Exact Steps on a $1.6 Million Roth Conversion to Shrink Future RMDs",
+    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
     "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73416.796875,
-        "perp_last_price": 73416.796875,
-        "mark_price": 73416.796875,
-        "index_price": 73416.796875,
+        "spot_price": 73582.0,
+        "perp_last_price": 73582.0,
+        "mark_price": 73582.0,
+        "index_price": 73582.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73416.796875,
-        "stop_loss_technical": 72315.54492188,
-        "target_1": 75068.67480469,
-        "target_2": 76720.55273438,
+        "entry_ideal": 73582.0,
+        "stop_loss_technical": 73288.46875,
+        "target_1": 74022.296875,
+        "target_2": 74462.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73416.796875,
-        "stop_loss_technical": 72315.54492188,
-        "target_1": 75068.67480469,
-        "target_2": 76720.55273438,
+        "entry_ideal": 73582.0,
+        "stop_loss_technical": 72478.27,
+        "target_1": 75237.595,
+        "target_2": 76893.19,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
