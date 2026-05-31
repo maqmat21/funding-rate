@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-31T20:41:44.718863+00:00",
+    "generated_at_utc": "2026-05-31T21:41:01.439133+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,33 +27,32 @@
     "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
     "Trump calls for physical audit of Fort Knox after $40M gold arrest",
     "Suze Orman Shows the Exact Steps on a $1.6 Million Roth Conversion to Shrink Future RMDs",
-    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
-    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year"
+    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
+    "Amazon joins Microsoft in sending shocking message to employees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73582.0,
-        "perp_last_price": 73582.0,
-        "mark_price": 73582.0,
-        "index_price": 73582.0,
+        "spot_price": 73584.34375,
+        "perp_last_price": 73584.34375,
+        "mark_price": 73584.34375,
+        "index_price": 73584.34375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73582.0,
+        "entry_ideal": 73584.34375,
         "stop_loss_technical": 73288.46875,
-        "target_1": 74022.296875,
-        "target_2": 74462.59375,
+        "target_1": 74028.15625,
+        "target_2": 74471.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73582.0,
-        "stop_loss_technical": 72478.27,
-        "target_1": 75237.595,
-        "target_2": 76893.19,
+        "entry_ideal": 73584.34375,
+        "stop_loss_technical": 72480.57859375,
+        "target_1": 75239.99148438,
+        "target_2": 76895.63921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
