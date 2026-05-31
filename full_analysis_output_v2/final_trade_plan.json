@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-31T08:08:14.149521+00:00",
+    "generated_at_utc": "2026-05-31T10:23:04.995001+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Costco says Americans are panic-buying one thing again—and it’s not toilet paper",
+    "Is Tesla Stock Your Ticket to Becoming a Millionaire?",
     "Warren Buffett's Berkshire dumps entire stake in dividend stock",
+    "Costco says Americans are panic-buying one thing again—and it’s not toilet paper",
     "Prediction: Here's How Much Micron Stock Will Be Worth in 2 Years",
-    "Billionaire Peter Thiel moves out of U.S. citing harsh concerns",
-    "Nvidia Says Big Tech Will Spend $1 Trillion in Capital Expenditures in 2027: 3 Stocks to Buy If It's Right",
-    "Proposed $100,000 Cap on Social Security Benefits: What It Means for High Earners"
+    "Americans Have Never Been This Pessimistic. The Stock Market Doesn't Agree, and History Says the Market Wins."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73801.03125,
-        "perp_last_price": 73801.03125,
-        "mark_price": 73801.03125,
-        "index_price": 73801.03125,
+        "spot_price": 73669.109375,
+        "perp_last_price": 73669.109375,
+        "mark_price": 73669.109375,
+        "index_price": 73669.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73801.03125,
-        "stop_loss_technical": 73566.4609375,
-        "target_1": 74152.88671875,
-        "target_2": 74504.7421875,
+        "entry_ideal": 73669.109375,
+        "stop_loss_technical": 72564.07273438,
+        "target_1": 75326.66433594,
+        "target_2": 76984.21929688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73801.03125,
-        "stop_loss_technical": 72694.01578125,
-        "target_1": 75461.55445313,
-        "target_2": 77122.07765625,
+        "entry_ideal": 73669.109375,
+        "stop_loss_technical": 72564.07273438,
+        "target_1": 75326.66433594,
+        "target_2": 76984.21929688,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
