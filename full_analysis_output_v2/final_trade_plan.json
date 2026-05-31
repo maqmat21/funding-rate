@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-31T11:53:32.874171+00:00",
+    "generated_at_utc": "2026-05-31T13:08:23.911483+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
     "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Is Tesla Stock Your Ticket to Becoming a Millionaire?",
     "Costco says Americans are panic-buying one thing again—and it’s not toilet paper",
-    "Warren Buffett's Berkshire dumps entire stake in dividend stock",
     "'Dead money': 3 financial advisors reveal where they're parking cash as inflation hits a 3-year high",
-    "A 67-Year-Old Widow With $1.6 Million Discovers Her Late Husband’s IRA Will Cost Her Over $100,000 in Avoidable Tax Through Retirement"
+    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
+    "Is Tesla Stock Your Ticket to Becoming a Millionaire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73801.296875,
-        "perp_last_price": 73801.296875,
-        "mark_price": 73801.296875,
-        "index_price": 73801.296875,
+        "spot_price": 73773.9921875,
+        "perp_last_price": 73773.9921875,
+        "mark_price": 73773.9921875,
+        "index_price": 73773.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73801.296875,
-        "stop_loss_technical": 72694.27742187,
-        "target_1": 75461.82605469,
-        "target_2": 77122.35523438,
+        "entry_ideal": 73781.140625,
+        "stop_loss_technical": 72674.42351563,
+        "target_1": 75441.21628906,
+        "target_2": 77101.29195312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73801.296875,
-        "stop_loss_technical": 72694.27742187,
-        "target_1": 75461.82605469,
-        "target_2": 77122.35523438,
+        "entry_ideal": 73773.9921875,
+        "stop_loss_technical": 72667.38230469,
+        "target_1": 75433.90701172,
+        "target_2": 77093.82183594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
