@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-31T18:11:48.743307+00:00",
+    "generated_at_utc": "2026-05-31T19:41:18.884606+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "3 Monster Dividend Stocks to Buy in June (1 Yields an Eye-Popping 11.2%!)",
     "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
+    "3 Monster Dividend Stocks to Buy in June (1 Yields an Eye-Popping 11.2%!)",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Trump calls for physical audit of Fort Knox after $40M gold arrest",
     "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
-    "Want to Grow Your Portfolio Without Any Effort? Buy This ETF and Hold It Till You Retire.",
+    "Suze Orman Shows the Exact Steps on a $1.6 Million Roth Conversion to Shrink Future RMDs",
     "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73567.640625,
-        "perp_last_price": 73567.640625,
-        "mark_price": 73567.640625,
-        "index_price": 73567.640625,
+        "spot_price": 73416.796875,
+        "perp_last_price": 73416.796875,
+        "mark_price": 73416.796875,
+        "index_price": 73416.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73567.640625,
-        "stop_loss_technical": 73288.46875,
-        "target_1": 73986.3984375,
-        "target_2": 74405.15625,
+        "entry_ideal": 73416.796875,
+        "stop_loss_technical": 72315.54492188,
+        "target_1": 75068.67480469,
+        "target_2": 76720.55273438,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73567.640625,
-        "stop_loss_technical": 72464.12601563,
-        "target_1": 75222.91253906,
-        "target_2": 76878.18445312,
+        "entry_ideal": 73416.796875,
+        "stop_loss_technical": 72315.54492188,
+        "target_1": 75068.67480469,
+        "target_2": 76720.55273438,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
