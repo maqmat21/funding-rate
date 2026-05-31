@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-05-31T13:08:23.911483+00:00",
+    "generated_at_utc": "2026-05-31T14:54:06.793275+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
-    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Costco says Americans are panic-buying one thing again—and it’s not toilet paper",
-    "'Dead money': 3 financial advisors reveal where they're parking cash as inflation hits a 3-year high",
-    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
-    "Is Tesla Stock Your Ticket to Becoming a Millionaire?"
+    "Trump calls for physical audit of Fort Knox after $40M gold arrest",
+    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
+    "Trump and Kevin Warsh Plan a Huge Giveaway to Retirees. There’s Only One Problem",
+    "Social Security Gets Taxed When Dividends Cross This Threshold. Most Retirees Miss It",
+    "Here’s the percentage of Americans who are millionaires — it’s likely higher than you think. Are you part of the group?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73773.9921875,
-        "perp_last_price": 73773.9921875,
-        "mark_price": 73773.9921875,
-        "index_price": 73773.9921875,
+        "spot_price": 73586.3515625,
+        "perp_last_price": 73586.3515625,
+        "mark_price": 73586.3515625,
+        "index_price": 73586.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73781.140625,
-        "stop_loss_technical": 72674.42351563,
-        "target_1": 75441.21628906,
-        "target_2": 77101.29195312,
+        "entry_ideal": 73586.3515625,
+        "stop_loss_technical": 73414.2890625,
+        "target_1": 73844.4453125,
+        "target_2": 74102.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +61,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73773.9921875,
-        "stop_loss_technical": 72667.38230469,
-        "target_1": 75433.90701172,
-        "target_2": 77093.82183594,
+        "entry_ideal": 73586.3515625,
+        "stop_loss_technical": 72482.55628906,
+        "target_1": 75242.04447266,
+        "target_2": 76897.73738281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
