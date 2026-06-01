@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-01T02:01:48.539664+00:00",
+    "generated_at_utc": "2026-06-01T07:16:44.327011+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.067,
-        "trend": "alcista"
+        "price": 98.98,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.453,
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 14m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
+    "'Rich Dad Poor Dad' Author Robert Kiyosaki Warns Against Buying Bitcoin, Gold, Silver On Hype: 'There Is Nothing Safe….from Stupidity'",
     "3 Monster Dividend Stocks to Buy in June (1 Yields an Eye-Popping 11.2%!)",
     "Suze Orman Shows the Exact Steps on a $1.6 Million Roth Conversion to Shrink Future RMDs",
-    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency",
-    "Is Tesla Stock Your Ticket to Becoming a Millionaire?",
-    "‘Ticking time bomb’: Peter Schiff issues stark warning over US stock market — and the ‘ultimate crash’ is near"
+    "President Donald Trump's Social Security Double Whammy Can Expedite Its Insolvency"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73172.1328125,
-        "perp_last_price": 73172.1328125,
-        "mark_price": 73172.1328125,
-        "index_price": 73172.1328125,
+        "spot_price": 73001.3125,
+        "perp_last_price": 73001.3125,
+        "mark_price": 73001.3125,
+        "index_price": 73001.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73172.1328125,
-        "stop_loss_technical": 74064.75,
-        "target_1": 71833.20703125,
-        "target_2": 70494.28125,
+        "entry_ideal": 73001.3125,
+        "stop_loss_technical": 71906.2928125,
+        "target_1": 74643.84203125,
+        "target_2": 76286.3715625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 73172.1328125,
-        "stop_loss_technical": 74460.125,
-        "target_1": 71240.14453125,
-        "target_2": 69308.15625,
+        "entry_ideal": 73001.3125,
+        "stop_loss_technical": 71906.2928125,
+        "target_1": 74643.84203125,
+        "target_2": 76286.3715625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
