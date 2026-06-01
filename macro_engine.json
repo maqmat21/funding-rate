@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-06-01T21:49:14.484139+00:00",
+    "timestamp": "2026-06-01T23:17:52.443631+00:00",
     "macro_bias": "RISK_ON",
     "macro_score": 20,
     "dxy": {
-        "price": 99.166,
-        "ema20": 99.1796,
-        "ema50": 99.1869,
+        "price": 99.181,
+        "ema20": 99.176,
+        "ema50": 99.1837,
         "ema_trend": "bajista",
-        "structure_1h": "bajista",
+        "structure_1h": "neutral",
         "structure_4h": "neutral",
-        "momentum_slope": -0.002979,
+        "momentum_slope": -0.000584,
         "momentum_state": "bajista",
         "breakout_24h": "none",
-        "state_summary": "consolidacion"
+        "state_summary": "rango_lateral"
     },
     "us10y": {
         "price": 4.475,
@@ -25,7 +25,7 @@
         "confidence_level": "media"
     },
     "alerts": {
-        "macro_shift": true,
+        "macro_shift": false,
         "volatility_expansion": false
     }
 }

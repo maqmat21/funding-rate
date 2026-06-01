@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-01T21:49:16.308122+00:00",
+    "generated_at_utc": "2026-06-01T23:17:54.524565+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.166,
+        "price": 99.181,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Trump to Drop Plans for $1.8 Billion Anti-Weaponization Fund",
-    "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Alphabet plans $80 billion raise for AI, backed by Buffett’s Berkshire",
     "Google Announces $80 Billion Capital Raise Amid Artificial Intelligence Spending Jump. Shares Fall.",
-    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
-    "3 Trillion-Dollar AI Stocks to Buy Now, According to Wall Street"
+    "The Social Security COLA Just Quietly Got Worse for 2026 Retirees",
+    "Abivax Hits 'Best-Case' Scenario For Ulcerative Colitis Drug; So, Why Did Shares Plummet?",
+    "Alphabet Announces $80B Fund Raise, Berkshire Hathaway To Invest $10B In Private Placement",
+    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 70989.59375,
-        "perp_last_price": 70989.59375,
-        "mark_price": 70989.59375,
-        "index_price": 70989.59375,
+        "spot_price": 71314.2734375,
+        "perp_last_price": 71314.2734375,
+        "mark_price": 71314.2734375,
+        "index_price": 71314.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 70989.59375,
-        "stop_loss_technical": 73899.8984375,
-        "target_1": 66624.13671875,
-        "target_2": 62258.6796875,
+        "entry_ideal": 71310.3671875,
+        "stop_loss_technical": 70240.71167969,
+        "target_1": 72914.85044922,
+        "target_2": 74519.33371094,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 70989.59375,
+        "entry_ideal": 71314.2734375,
         "stop_loss_technical": 74460.125,
-        "target_1": 65783.796875,
-        "target_2": 60578.0,
+        "target_1": 66595.49609375,
+        "target_2": 61876.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
