@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-01T18:29:52.685685+00:00",
+    "generated_at_utc": "2026-06-01T21:49:16.308122+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.159,
+        "price": 99.166,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.471,
-        "trend": "bajista"
+        "price": 4.475,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 31m",
     "News from the Yahoo Finance Network",
+    "Trump to Drop Plans for $1.8 Billion Anti-Weaponization Fund",
+    "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Terrance Howard's 'Bitcoin Will Die' Prediction Resurfaces as Traders Fire Back",
-    "Elon Musk brings back his McDonald's Happy Meal offer",
-    "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
-    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Amazon and More Than Tripling Berkshire's Stake in a Virtual Monopoly"
+    "Alphabet plans $80 billion raise for AI, backed by Buffett’s Berkshire",
+    "Google Announces $80 Billion Capital Raise Amid Artificial Intelligence Spending Jump. Shares Fall.",
+    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
+    "3 Trillion-Dollar AI Stocks to Buy Now, According to Wall Street"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71439.296875,
-        "perp_last_price": 71439.296875,
-        "mark_price": 71439.296875,
-        "index_price": 71439.296875,
+        "spot_price": 70989.59375,
+        "perp_last_price": 70989.59375,
+        "mark_price": 70989.59375,
+        "index_price": 70989.59375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 71439.296875,
-        "stop_loss_technical": 70565.9765625,
-        "target_1": 72749.27734375,
-        "target_2": 74059.2578125,
+        "entry_ideal": 70989.59375,
+        "stop_loss_technical": 73899.8984375,
+        "target_1": 66624.13671875,
+        "target_2": 62258.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 71439.296875,
+        "entry_ideal": 70989.59375,
         "stop_loss_technical": 74460.125,
-        "target_1": 66908.0546875,
-        "target_2": 62376.8125,
+        "target_1": 65783.796875,
+        "target_2": 60578.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
