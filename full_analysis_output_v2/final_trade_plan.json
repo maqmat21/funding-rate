@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-01T12:50:03.978330+00:00",
+    "generated_at_utc": "2026-06-01T18:29:52.685685+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.051,
+        "price": 99.159,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.451,
+        "price": 4.471,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 1h 31m",
     "News from the Yahoo Finance Network",
+    "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Amazon and More Than Tripling Berkshire's Stake in a Virtual Monopoly",
-    "How an Inherited Roth Can Double in the 10-Year Window the SECURE Act Allows",
+    "Terrance Howard's 'Bitcoin Will Die' Prediction Resurfaces as Traders Fire Back",
+    "Elon Musk brings back his McDonald's Happy Meal offer",
     "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
-    "3 Monster Dividend Stocks to Buy in June (1 Yields an Eye-Popping 11.2%!)",
-    "Prediction: Micron Stock Will Skyrocket After June 24",
-    "SpaceX IPO could hit popular index funds — and your 401(k) — in as little as 5 trading days as indexes relax their rules"
+    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Amazon and More Than Tripling Berkshire's Stake in a Virtual Monopoly"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72056.9765625,
-        "perp_last_price": 72056.9765625,
-        "mark_price": 72056.9765625,
-        "index_price": 72056.9765625,
+        "spot_price": 71439.296875,
+        "perp_last_price": 71439.296875,
+        "mark_price": 71439.296875,
+        "index_price": 71439.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 72056.9765625,
-        "stop_loss_technical": 74065.0390625,
-        "target_1": 69044.8828125,
-        "target_2": 66032.7890625,
+        "entry_ideal": 71439.296875,
+        "stop_loss_technical": 70565.9765625,
+        "target_1": 72749.27734375,
+        "target_2": 74059.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 72056.9765625,
+        "entry_ideal": 71439.296875,
         "stop_loss_technical": 74460.125,
-        "target_1": 68452.25390625,
-        "target_2": 64847.53125,
+        "target_1": 66908.0546875,
+        "target_2": 62376.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
