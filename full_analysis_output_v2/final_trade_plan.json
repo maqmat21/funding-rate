@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-01T23:17:54.524565+00:00",
+    "generated_at_utc": "2026-06-02T01:38:35.758417+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.181,
+        "price": 99.183,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump to Drop Plans for $1.8 Billion Anti-Weaponization Fund",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Google Announces $80 Billion Capital Raise Amid Artificial Intelligence Spending Jump. Shares Fall.",
+    "Trump Shovels $4 Billion Directly to Elon Musk, Who Spent a Fortune Getting Him Elected",
     "The Social Security COLA Just Quietly Got Worse for 2026 Retirees",
-    "Abivax Hits 'Best-Case' Scenario For Ulcerative Colitis Drug; So, Why Did Shares Plummet?",
-    "Alphabet Announces $80B Fund Raise, Berkshire Hathaway To Invest $10B In Private Placement",
-    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year"
+    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
+    "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
+    "Jim Cramer sends harsh message on Saylor's Bitcoin sale",
+    "Is Tesla Stock Your Ticket to Becoming a Millionaire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71314.2734375,
-        "perp_last_price": 71314.2734375,
-        "mark_price": 71314.2734375,
-        "index_price": 71314.2734375,
+        "spot_price": 70703.96875,
+        "perp_last_price": 70703.96875,
+        "mark_price": 70703.96875,
+        "index_price": 70703.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 71310.3671875,
-        "stop_loss_technical": 70240.71167969,
-        "target_1": 72914.85044922,
-        "target_2": 74519.33371094,
+        "entry_ideal": 70703.96875,
+        "stop_loss_technical": 73738.6484375,
+        "target_1": 66151.94921875,
+        "target_2": 61599.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 71314.2734375,
-        "stop_loss_technical": 74460.125,
-        "target_1": 66595.49609375,
-        "target_2": 61876.71875,
+        "entry_ideal": 70703.96875,
+        "stop_loss_technical": 74218.5625,
+        "target_1": 65432.078125,
+        "target_2": 60160.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
