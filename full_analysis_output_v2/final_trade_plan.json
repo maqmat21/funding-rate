@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-02T21:27:23.119807+00:00",
+    "generated_at_utc": "2026-06-02T23:13:58.980005+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.199,
+        "price": 99.224,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Experts Warn Bitcoin Has a MicroStrategy Problem as BTC and MSTR Stock Sink",
+    "Billionaire Bill Gates' Foundation Dumped Microsoft but Loaded Up on This Dividend Champion",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "3 Reasons You Shouldn’t Get Excited By AMC Stock’s 22% Surge",
+    "Trump to Drop $1.8 Billion Fund in IRS Deal, Keeps Tax Probe Ban",
+    "3 Overvalued AI Stocks I Would Stay Far Away From",
+    "Why Did Netflix Stock Fall Even Though the Business Kept Growing?",
     "‘You are denied, denied, denied’: Suze Orman says cars are now a ‘huge financial risk’ as drivers make the same mistakes",
-    "NVIDIA vs. Intel: Which AI Chip Stock Should Retirement Investors Own?",
-    "2 Stocks to Buy Now for a Lifetime of Passive Income -- Starting Immediately",
-    "SpaceX valued at just $780 billion by Morningstar, less than half its IPO target"
+    "Another beloved beer brand files for Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67796.0390625,
-        "perp_last_price": 67796.0390625,
-        "mark_price": 67796.0390625,
-        "index_price": 67796.0390625,
+        "spot_price": 66552.0234375,
+        "perp_last_price": 66552.0234375,
+        "mark_price": 66552.0234375,
+        "index_price": 66552.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 67796.0390625,
-        "stop_loss_technical": 66347.0,
-        "target_1": 69969.59765625,
-        "target_2": 72143.15625,
+        "entry_ideal": 66545.453125,
+        "stop_loss_technical": 70937.9921875,
+        "target_1": 59956.64453125,
+        "target_2": 53367.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 67796.0390625,
+        "entry_ideal": 66552.0234375,
         "stop_loss_technical": 74218.5625,
-        "target_1": 58162.25390625,
-        "target_2": 48528.46875,
+        "target_1": 55052.21484375,
+        "target_2": 43552.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
