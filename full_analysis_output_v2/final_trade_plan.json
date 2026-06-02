@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-02T10:56:20.855712+00:00",
+    "generated_at_utc": "2026-06-02T14:43:21.941915+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.12,
-        "trend": "bajista"
+        "price": 99.141,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.475,
-        "trend": "alcista"
+        "price": 4.449,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 34m",
+    "U.S. markets close in 5h 17m",
     "News from the Yahoo Finance Network",
-    "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
-    "Billionaire Stanley Druckenmiller Dumped 94% of His Fund's Amazon Stake and Piled Into a Scorching-Hot Chip Stock for the First Time in 8 Years",
-    "I’m 45 and I just found out about a 20-year-old 401(k) account with $25,000 in it. Where should I put the money?",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Prediction: Nvidia's Stock Will Skyrocket in June",
-    "3 Dividend Stocks to Buy and Hold Forever"
+    "Trump wants Fort Knox ‘physically audited’ after stunning $40M arrest — here's why so many are after the yellow metal",
+    "Waiting for the SpaceX IPO? These 3 stocks under $50 could skyrocket much, much higher (and you can buy them now)",
+    "Rivian just achieved something Tesla has long dominated",
+    "Warren Buffett told CNBC he could end America's deficit crisis 'in five minutes.’ Would his solution still work in 2026?",
+    "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69570.6328125,
-        "perp_last_price": 69570.6328125,
-        "mark_price": 69570.6328125,
-        "index_price": 69570.6328125,
+        "spot_price": 67818.0078125,
+        "perp_last_price": 67818.0078125,
+        "mark_price": 67818.0078125,
+        "index_price": 67818.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 69570.6328125,
-        "stop_loss_technical": 69225.21875,
-        "target_1": 70088.75390625,
-        "target_2": 70606.875,
+        "entry_ideal": 67764.796875,
+        "stop_loss_technical": 71603.4921875,
+        "target_1": 62006.75390625,
+        "target_2": 56248.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 69570.6328125,
+        "entry_ideal": 67818.0078125,
         "stop_loss_technical": 74218.5625,
-        "target_1": 62598.73828125,
-        "target_2": 55626.84375,
+        "target_1": 58217.17578125,
+        "target_2": 48616.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
