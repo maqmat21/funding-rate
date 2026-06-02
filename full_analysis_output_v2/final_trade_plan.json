@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-02T06:18:20.251637+00:00",
+    "generated_at_utc": "2026-06-02T10:56:20.855712+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.14,
+        "price": 99.12,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 13m",
+    "U.S. markets open in 2h 34m",
     "News from the Yahoo Finance Network",
+    "The Stock Market Will Drop Sharply If History Repeats. Warren Buffett Explains Why.",
+    "Billionaire Stanley Druckenmiller Dumped 94% of His Fund's Amazon Stake and Piled Into a Scorching-Hot Chip Stock for the First Time in 8 Years",
+    "I’m 45 and I just found out about a 20-year-old 401(k) account with $25,000 in it. Where should I put the money?",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Jim Cramer Predicts Super Micro (SMCI) Will Go Up",
-    "Rivian just achieved something Tesla has long dominated",
-    "45.7% of Berkshire Hathaway's Portfolio Is Parked in 3 Stocks That Could Pay the Conglomerate $1.6 Billion in Dividends This Year",
-    "Single-income Seattle mom discovers she has $18M in a single tech stock. How Dave Ramsey says to handle a windfall",
-    "The Social Security COLA Just Quietly Got Worse for 2026 Retirees"
+    "Prediction: Nvidia's Stock Will Skyrocket in June",
+    "3 Dividend Stocks to Buy and Hold Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 70210.0703125,
-        "perp_last_price": 70210.0703125,
-        "mark_price": 70210.0703125,
-        "index_price": 70210.0703125,
+        "spot_price": 69570.6328125,
+        "perp_last_price": 69570.6328125,
+        "mark_price": 69570.6328125,
+        "index_price": 69570.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 70197.9765625,
-        "stop_loss_technical": 72674.9921875,
-        "target_1": 66482.453125,
-        "target_2": 62766.9296875,
+        "entry_ideal": 69570.6328125,
+        "stop_loss_technical": 69225.21875,
+        "target_1": 70088.75390625,
+        "target_2": 70606.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 70210.0703125,
+        "entry_ideal": 69570.6328125,
         "stop_loss_technical": 74218.5625,
-        "target_1": 64197.33203125,
-        "target_2": 58184.59375,
+        "target_1": 62598.73828125,
+        "target_2": 55626.84375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
