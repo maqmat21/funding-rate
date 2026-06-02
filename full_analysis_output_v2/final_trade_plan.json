@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-02T18:25:29.013820+00:00",
+    "generated_at_utc": "2026-06-02T21:27:23.119807+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.298,
+        "price": 99.199,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.453,
+        "price": 4.455,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 36m",
     "News from the Yahoo Finance Network",
+    "Experts Warn Bitcoin Has a MicroStrategy Problem as BTC and MSTR Stock Sink",
     "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Caterpillar Outlook Strengthened by Power and Energy Momentum, UBS Says",
-    "SpaceX valued at just $780 billion by Morningstar, less than half its IPO target",
-    "After bankruptcy, iconic seafood chain closes flagship restaurant",
-    "Starbucks vs. Dutch Bros: Which Consumer Coffee Stock Is a Better Buy in 2026?",
-    "Apple is coming for the entire $200 billion glasses market"
+    "3 Reasons You Shouldn’t Get Excited By AMC Stock’s 22% Surge",
+    "‘You are denied, denied, denied’: Suze Orman says cars are now a ‘huge financial risk’ as drivers make the same mistakes",
+    "NVIDIA vs. Intel: Which AI Chip Stock Should Retirement Investors Own?",
+    "2 Stocks to Buy Now for a Lifetime of Passive Income -- Starting Immediately",
+    "SpaceX valued at just $780 billion by Morningstar, less than half its IPO target"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67245.1015625,
-        "perp_last_price": 67245.1015625,
-        "mark_price": 67245.1015625,
-        "index_price": 67245.1015625,
+        "spot_price": 67796.0390625,
+        "perp_last_price": 67796.0390625,
+        "mark_price": 67796.0390625,
+        "index_price": 67796.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 67242.9375,
-        "stop_loss_technical": 71485.390625,
-        "target_1": 60879.2578125,
-        "target_2": 54515.578125,
+        "entry_ideal": 67796.0390625,
+        "stop_loss_technical": 66347.0,
+        "target_1": 69969.59765625,
+        "target_2": 72143.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 67245.1015625,
+        "entry_ideal": 67796.0390625,
         "stop_loss_technical": 74218.5625,
-        "target_1": 56784.91015625,
-        "target_2": 46324.71875,
+        "target_1": 58162.25390625,
+        "target_2": 48528.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
