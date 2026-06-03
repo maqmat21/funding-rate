@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-03T01:48:01.477965+00:00",
+    "generated_at_utc": "2026-06-03T06:33:01.992168+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.21,
+        "price": 99.352,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 58m",
     "News from the Yahoo Finance Network",
-    "Southwest exec says the free bag and assigned seating overhaul is already paying off",
-    "Trump signs new order to shut down bank accounts",
+    "‘60 Minutes’ Correspondent Scott Pelley Fired by CBS News",
+    "Peter Schiff Predicts a Brutal Bitcoin Crash to $20,000 and Sparks Heated Backlash",
     "Billionaire Bill Gates' Foundation Dumped Microsoft but Loaded Up on This Dividend Champion",
-    "I'm 61 With $1.4 Million Saved and My CPA Just Told Me I'll Owe Six Figures in Taxes the Year I Retire. Is That Really My Only Option?",
-    "Cathie Wood buys $67 million of surging semiconductor stock",
-    "Dan Ives Says ‘Market Is Mispricing’ MSFT Stock — Here’s Why",
-    "The QCD Move That Turns a $60,000 RMD From a $1.6 Million 401(k) Into Zero Taxable Income at 73"
+    "The QCD Move That Turns a $60,000 RMD From a $1.6 Million 401(k) Into Zero Taxable Income at 73",
+    "Peter Schiff Wonders If Bitcoin's Crash Is A 'Harbinger' Of Major Trouble In Risk Assets: 'Maybe' A Catalyst To Drive Investors Into 'Safety'",
+    "Cathie Wood buys $67 million of surging semiconductor stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66454.6171875,
-        "perp_last_price": 66454.6171875,
-        "mark_price": 66454.6171875,
-        "index_price": 66454.6171875,
+        "spot_price": 67205.5234375,
+        "perp_last_price": 67205.5234375,
+        "mark_price": 67205.5234375,
+        "index_price": 67205.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 66453.2578125,
-        "stop_loss_technical": 70731.9375,
-        "target_1": 60035.23828125,
-        "target_2": 53617.21875,
+        "entry_ideal": 67207.7578125,
+        "stop_loss_technical": 65384.94921875,
+        "target_1": 69941.97070312,
+        "target_2": 72676.18359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66454.6171875,
+        "entry_ideal": 67205.5234375,
         "stop_loss_technical": 74153.5,
-        "target_1": 54906.29296875,
-        "target_2": 43357.96875,
+        "target_1": 56783.55859375,
+        "target_2": 46361.59375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
