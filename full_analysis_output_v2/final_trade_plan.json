@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-02T23:13:58.980005+00:00",
+    "generated_at_utc": "2026-06-03T01:48:01.477965+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.224,
+        "price": 99.21,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Southwest exec says the free bag and assigned seating overhaul is already paying off",
+    "Trump signs new order to shut down bank accounts",
     "Billionaire Bill Gates' Foundation Dumped Microsoft but Loaded Up on This Dividend Champion",
-    "Think you've made it with a million? You're dead wrong. Here's the real number that puts you in the top 10% of Americans",
-    "Trump to Drop $1.8 Billion Fund in IRS Deal, Keeps Tax Probe Ban",
-    "3 Overvalued AI Stocks I Would Stay Far Away From",
-    "Why Did Netflix Stock Fall Even Though the Business Kept Growing?",
-    "‘You are denied, denied, denied’: Suze Orman says cars are now a ‘huge financial risk’ as drivers make the same mistakes",
-    "Another beloved beer brand files for Chapter 11 bankruptcy"
+    "I'm 61 With $1.4 Million Saved and My CPA Just Told Me I'll Owe Six Figures in Taxes the Year I Retire. Is That Really My Only Option?",
+    "Cathie Wood buys $67 million of surging semiconductor stock",
+    "Dan Ives Says ‘Market Is Mispricing’ MSFT Stock — Here’s Why",
+    "The QCD Move That Turns a $60,000 RMD From a $1.6 Million 401(k) Into Zero Taxable Income at 73"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66552.0234375,
-        "perp_last_price": 66552.0234375,
-        "mark_price": 66552.0234375,
-        "index_price": 66552.0234375,
+        "spot_price": 66454.6171875,
+        "perp_last_price": 66454.6171875,
+        "mark_price": 66454.6171875,
+        "index_price": 66454.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66545.453125,
-        "stop_loss_technical": 70937.9921875,
-        "target_1": 59956.64453125,
-        "target_2": 53367.8359375,
+        "entry_ideal": 66453.2578125,
+        "stop_loss_technical": 70731.9375,
+        "target_1": 60035.23828125,
+        "target_2": 53617.21875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 66552.0234375,
-        "stop_loss_technical": 74218.5625,
-        "target_1": 55052.21484375,
-        "target_2": 43552.40625,
+        "entry_ideal": 66454.6171875,
+        "stop_loss_technical": 74153.5,
+        "target_1": 54906.29296875,
+        "target_2": 43357.96875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
