@@ -1,72 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-04T17:24:40.302361+00:00",
+    "generated_at_utc": "2026-06-04T19:35:17.607006+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.366,
+        "price": 99.43,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.469,
-        "trend": "bajista"
+        "price": 4.477,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 36m",
     "News from the Yahoo Finance Network",
-    "What IBM's $10-Billion Quantum Project Means For Smaller Players",
+    "Kevin O'Leary says he's 'not walking away' from his Utah AI data center, despite call to shrink it by 75%",
     "3 Absurdly Cheap Dividend Stocks to Buy With $1,000 Right Now",
-    "Is It Too Late To Consider Nokia Oyj (HLSE:NOKIA) After Its 220% One-Year Surge?",
-    "Market Chatter: General Motors Rehires Over 100 Former Cruise Team Members",
-    "Is It Time To Reassess Stantec (TSX:STN) After The Recent Share Price Slump",
-    "Mark Cuban dumped most of his Bitcoin, saying it 'lost the plot.' Experts say he panic-sold at the worst possible time"
+    "Bitcoin Price Falling to $30,000? BTC Revisits Level Last Breached During Crypto's 'Worst Contagion Event'",
+    "Is It Too Late To Consider O'Reilly Automotive (ORLY) After Its Strong Multi‑Year Run?",
+    "You’re going to pay tax on RMDs — there’s no way around it. Or is there?",
+    "Bernie Sanders says Kevin O'Leary is 'completely separated from the reality that ordinary Americans are experiencing'",
+    "Could Buying VOO Today Set You Up for Life?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63085.0390625,
-        "perp_last_price": 63085.0390625,
-        "mark_price": 63085.0390625,
-        "index_price": 63085.0390625,
+        "spot_price": 63853.078125,
+        "perp_last_price": 63853.078125,
+        "mark_price": 63853.078125,
+        "index_price": 63853.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63108.96875,
-        "stop_loss_technical": 65717.1328125,
-        "target_1": 59196.72265625,
-        "target_2": 55284.4765625,
+        "entry_ideal": 63853.078125,
+        "stop_loss_technical": 62895.28195312,
+        "target_1": 65289.77238281,
+        "target_2": 66726.46664063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63085.0390625,
+        "entry_ideal": 63853.078125,
         "stop_loss_technical": 74153.5,
-        "target_1": 46482.34765625,
-        "target_2": 29879.65625,
+        "target_1": 48402.4453125,
+        "target_2": 32951.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
