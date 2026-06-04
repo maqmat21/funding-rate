@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-04T21:15:13.486238+00:00",
+    "generated_at_utc": "2026-06-04T22:46:05.867709+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.424,
+        "price": 99.432,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Planet Labs (NYSE:PL) Delivers Impressive Q1 CY2026",
     "10,000 Boomers a day, $39 trillion in debt, and no benefit cuts: Bessent stakes Social Security on the Trump economy",
-    "Peabody gains as Trump invokes emergency powers to direct $700M to coal industry",
+    "Morgan Stanley makes bold new call on Micron stock",
     "3 Absurdly Cheap Dividend Stocks to Buy With $1,000 Right Now",
-    "Ciena Corp (CIEN) Q2 2026 Earnings Call Highlights: Record Revenue Growth and Strategic Wins",
-    "A dying satellite company sold spectrum to Elon Musk—and turned $11.1 billion in SpaceX stock into the Fortune 500’s best shareholder return",
-    "Jensen Huang Just Made a Massive Promise to Nvidia Investors"
+    "Planet Labs (NYSE:PL) Delivers Impressive Q1 CY2026",
+    "Alphabet Will Soon Be Berkshire Hathaway's Fourth-Biggest Holding. I've Got a Problem With How and Why.",
+    "Michael Burry doubles down on his Nvidia and stock market call",
+    "The Stock Market Is Doing Something Unexpected Right Now, but History Has Good News for Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63721.80859375,
-        "perp_last_price": 63721.80859375,
-        "mark_price": 63721.80859375,
-        "index_price": 63721.80859375,
+        "spot_price": 63464.5390625,
+        "perp_last_price": 63464.5390625,
+        "mark_price": 63464.5390625,
+        "index_price": 63464.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63719.421875,
-        "stop_loss_technical": 62763.63054687,
-        "target_1": 65153.10886719,
-        "target_2": 66586.79585937,
+        "entry_ideal": 63469.1484375,
+        "stop_loss_technical": 62517.11121094,
+        "target_1": 64897.20427734,
+        "target_2": 66325.26011719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63721.80859375,
+        "entry_ideal": 63464.5390625,
         "stop_loss_technical": 74153.5,
-        "target_1": 48074.27148438,
-        "target_2": 32426.734375,
+        "target_1": 47431.09765625,
+        "target_2": 31397.65625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
