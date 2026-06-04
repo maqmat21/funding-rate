@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-04T14:17:52.887881+00:00",
+    "generated_at_utc": "2026-06-04T17:24:40.302361+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.265,
-        "trend": "bajista"
+        "price": 99.366,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.449,
+        "price": 4.469,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 44m",
+    "U.S. markets close in 2h 36m",
     "News from the Yahoo Finance Network",
-    "Fed Chair Kevin Warsh Faces Trump Throwdown as Inflation Soars",
+    "What IBM's $10-Billion Quantum Project Means For Smaller Players",
     "3 Absurdly Cheap Dividend Stocks to Buy With $1,000 Right Now",
-    "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
-    "Should Upbeat NUE Earnings Revisions and Leadership Transition Plans Require Action From Nucor Investors?",
-    "SpaceX IPO: Every ETF That Will Hold SPCX — and When",
-    "Warren Buffett's Successor, Greg Abel, Has More Than 28% of Berkshire Hathaway's $330 Billion Portfolio Invested in 2 AI Titans"
+    "Is It Too Late To Consider Nokia Oyj (HLSE:NOKIA) After Its 220% One-Year Surge?",
+    "Market Chatter: General Motors Rehires Over 100 Former Cruise Team Members",
+    "Is It Time To Reassess Stantec (TSX:STN) After The Recent Share Price Slump",
+    "Mark Cuban dumped most of his Bitcoin, saying it 'lost the plot.' Experts say he panic-sold at the worst possible time"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64356.1484375,
-        "perp_last_price": 64356.1484375,
-        "mark_price": 64356.1484375,
-        "index_price": 64356.1484375,
+        "spot_price": 63085.0390625,
+        "perp_last_price": 63085.0390625,
+        "mark_price": 63085.0390625,
+        "index_price": 63085.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64360.0,
-        "stop_loss_technical": 61338.1015625,
-        "target_1": 68892.84765625,
-        "target_2": 73425.6953125,
+        "entry_ideal": 63108.96875,
+        "stop_loss_technical": 65717.1328125,
+        "target_1": 59196.72265625,
+        "target_2": 55284.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64356.1484375,
-        "stop_loss_technical": 61338.1015625,
-        "target_1": 68883.21875,
-        "target_2": 73410.2890625,
+        "entry_ideal": 63085.0390625,
+        "stop_loss_technical": 74153.5,
+        "target_1": 46482.34765625,
+        "target_2": 29879.65625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
