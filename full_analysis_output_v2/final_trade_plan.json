@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-04T08:57:04.356394+00:00",
+    "generated_at_utc": "2026-06-04T11:45:26.231182+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.448,
-        "trend": "alcista"
+        "price": 99.235,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.491,
@@ -21,53 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 34m",
+    "U.S. markets open in 1h 45m",
     "News from the Yahoo Finance Network",
-    "Nearly 36% of Berkshire Hathaway's Portfolio Is in These 2 Stocks. Are They Buys Right Now?",
+    "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
+    "Trump promised not to touch Social Security — but his Big Beautiful bill comes with a $169B shock. Protect yourself",
     "3 Absurdly Cheap Dividend Stocks to Buy With $1,000 Right Now",
-    "I’m 44 with $1.3 million in my 401(k) — can I stop contributing and still retire in 15 years?",
-    "Nvidia (NVDA) Stock Has Made Early Investors a Fortune. Is There Still Room to Run?",
-    "Warren Buffett's Successor, Greg Abel, Has More Than 28% of Berkshire Hathaway's $330 Billion Portfolio Invested in 2 AI Titans",
-    "Broadcom Inc (AVGO) Q2 2026 Earnings Call Highlights: Record Revenue Driven by AI Semiconductor ..."
+    "Can Pure Dividend Stocks Replace a $110,000 Dual-Income Household Income? Here’s What It Would Take",
+    "Why the SpaceX IPO could be a trap: Chart of the Day",
+    "Nvidia (NVDA) Stock Has Made Early Investors a Fortune. Is There Still Room to Run?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63512.12890625,
-        "perp_last_price": 63512.12890625,
-        "mark_price": 63512.12890625,
-        "index_price": 63512.12890625,
+        "spot_price": 62215.25,
+        "perp_last_price": 62215.25,
+        "mark_price": 62215.25,
+        "index_price": 62215.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63512.12890625,
-        "stop_loss_technical": 62559.44697266,
-        "target_1": 64941.15180664,
-        "target_2": 66370.17470703,
+        "entry_ideal": 62228.1796875,
+        "stop_loss_technical": 66252.296875,
+        "target_1": 56192.00390625,
+        "target_2": 50155.828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63512.12890625,
+        "entry_ideal": 62215.25,
         "stop_loss_technical": 74153.5,
-        "target_1": 47550.07226562,
-        "target_2": 31588.015625,
+        "target_1": 44307.875,
+        "target_2": 26400.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
