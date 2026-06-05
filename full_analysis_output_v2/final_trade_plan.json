@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-05T10:36:33.838396+00:00",
+    "generated_at_utc": "2026-06-05T13:38:47.690421+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.188,
-        "trend": "bajista"
+        "price": 99.604,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.477,
+        "price": 4.534,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 54m",
+    "U.S. markets close in 6h 22m",
     "News from the Yahoo Finance Network",
+    "‘Please don’t do this’: Dave Ramsey says ditch this household expense keeping Americans from acquiring wealth",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
     "Warren Buffett's Successor, Greg Abel, Dumped Amazon and Bought 3 Million Shares of This Undervalued Stock",
-    "Index Fund Investing Has Been Flawless for 33 Years, but the SpaceX IPO Threatens to Break Everything",
-    "Musk Leaves Investors Starstruck at Dimon’s SpaceX Extravaganza",
-    "Is Brookfield Asset Management (TSX:BAM) Pricing Reflect Its Recent Share Price Slide?",
-    "How A Steady Narrative Shapes Pet Valu Holdings (TSX:PET) And Its Unchanged Fair Value"
+    "‘Running out of money’: Kraft, McDonald’s, Whirlpool CEOs all issue same dire warning about US consumers. Get ready now",
+    "Buy the Dip on This Stock for Its Monthly Dividend and 5.4% Yield",
+    "Index Fund Investing Has Been Flawless for 33 Years, but the SpaceX IPO Threatens to Break Everything"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62425.0,
-        "perp_last_price": 62425.0,
-        "mark_price": 62425.0,
-        "index_price": 62425.0,
+        "spot_price": 61802.9296875,
+        "perp_last_price": 61802.9296875,
+        "mark_price": 61802.9296875,
+        "index_price": 61802.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62418.21875,
-        "stop_loss_technical": 64334.21875,
-        "target_1": 59544.21875,
-        "target_2": 56670.21875,
+        "entry_ideal": 61779.1484375,
+        "stop_loss_technical": 64062.44140625,
+        "target_1": 58354.20898438,
+        "target_2": 54929.26953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62425.0,
+        "entry_ideal": 61802.9296875,
         "stop_loss_technical": 73969.5703125,
-        "target_1": 45108.14453125,
-        "target_2": 27791.2890625,
+        "target_1": 43552.96875,
+        "target_2": 25303.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
