@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-05T16:15:46.960236+00:00",
+    "generated_at_utc": "2026-06-05T18:11:49.139818+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.012,
+        "price": 100.063,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.54,
+        "price": 4.544,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 46m",
+    "U.S. markets close in 1h 49m",
     "News from the Yahoo Finance Network",
-    "If a Stock Market Crash Is Coming, History Shows This Is the Smartest Move Investors Can Make",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
     "‘Please don’t do this’: Dave Ramsey says ditch this household expense keeping Americans from acquiring wealth",
-    "Warren Buffett Has Been Investing for More Than 60 Years. Only 5 Were Worth Getting Excited About.",
-    "Why Rigetti Computing Stock Just Crashed",
-    "PL Stock Records Sharpest Single-Day Fall In 21 Months – Why Bullish Street Calls, Earnings Beat Failed To Turn The Tide"
+    "If a Stock Market Crash Is Coming, History Shows This Is the Smartest Move Investors Can Make",
+    "Five Boring Dividend Aristocrats That Quietly Pay $36,000 a Year on $850,000 Without a Single Yield Trap",
+    "Fidelity lowers the bar for small investors to get in on SpaceX IPO",
+    "The One Very Simple Reason ‘60 Minutes’ Imploded"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61086.69921875,
-        "perp_last_price": 61086.69921875,
-        "mark_price": 61086.69921875,
-        "index_price": 61086.69921875,
+        "spot_price": 60638.03125,
+        "perp_last_price": 60638.03125,
+        "mark_price": 60638.03125,
+        "index_price": 60638.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61086.69921875,
-        "stop_loss_technical": 60170.39873047,
-        "target_1": 62461.14995117,
-        "target_2": 63835.60068359,
+        "entry_ideal": 60665.75,
+        "stop_loss_technical": 63898.0390625,
+        "target_1": 55817.31640625,
+        "target_2": 50968.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61086.69921875,
+        "entry_ideal": 60638.03125,
         "stop_loss_technical": 73969.5703125,
-        "target_1": 41762.39257812,
-        "target_2": 22438.0859375,
+        "target_1": 40640.72265625,
+        "target_2": 20643.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
