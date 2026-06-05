@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-05T22:47:29.728909+00:00",
+    "generated_at_utc": "2026-06-05T23:51:48.908678+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,39 +23,25 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
-    "Putin is running out of money to wage war on Ukraine, and this Russian-occupied territory is running out of fuel as Kyiv smashes supply lines",
     "‘Please don’t do this’: Dave Ramsey says ditch this household expense keeping Americans from acquiring wealth",
-    "Prediction: Sandisk Stock Will Hit $3,000 Next Year",
-    "Intel Just Experienced a Monster 453% Rally. Is It Time to Sell or Double Down?",
-    "Why The SpaceX IPO Matters Even If You Never Buy The Stock",
-    "If a Stock Market Crash Is Coming, History Shows This Is the Smartest Move Investors Can Make"
+    "Putin is running out of money to wage war on Ukraine, and this Russian-occupied territory is running out of fuel as Kyiv smashes supply lines",
+    "The One Very Simple Reason ‘60 Minutes’ Imploded",
+    "If a Stock Market Crash Is Coming, History Shows This Is the Smartest Move Investors Can Make",
+    "Fidelity lowers the bar for small investors to get in on SpaceX IPO",
+    "Prediction: Sandisk Stock Will Hit $3,000 Next Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61623.01953125,
-        "perp_last_price": 61623.01953125,
-        "mark_price": 61623.01953125,
-        "index_price": 61623.01953125,
+        "spot_price": 60932.0,
+        "perp_last_price": 60932.0,
+        "mark_price": 60932.0,
+        "index_price": 60932.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 61623.01953125,
-        "stop_loss_technical": 60698.67423828,
-        "target_1": 63009.5374707,
-        "target_2": 64396.05541016,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -63,10 +49,25 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61623.01953125,
+        "entry_ideal": 60932.0,
+        "stop_loss_technical": 63603.5703125,
+        "target_1": 56924.64453125,
+        "target_2": 52917.2890625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 60932.0,
         "stop_loss_technical": 73969.5703125,
-        "target_1": 43103.19335938,
-        "target_2": 24583.3671875,
+        "target_1": 41375.64453125,
+        "target_2": 21819.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
