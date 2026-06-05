@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-05T21:44:45.305575+00:00",
+    "generated_at_utc": "2026-06-05T22:47:29.728909+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
-    "Leidos Holdings (LDOS) Secures $2.7B US Army Hypersonic Weapons Contract",
     "Putin is running out of money to wage war on Ukraine, and this Russian-occupied territory is running out of fuel as Kyiv smashes supply lines",
-    "Is CBRE Group (CBRE) One of the Most Undervalued Large Cap Stocks to Buy According to Analysts?",
     "‘Please don’t do this’: Dave Ramsey says ditch this household expense keeping Americans from acquiring wealth",
-    "Here is Why Strategy (MSTR) is One of the Most Undervalued Large Cap Stocks to Buy According to Analysts",
-    "Prediction: Sandisk Stock Will Hit $3,000 Next Year"
+    "Prediction: Sandisk Stock Will Hit $3,000 Next Year",
+    "Intel Just Experienced a Monster 453% Rally. Is It Time to Sell or Double Down?",
+    "Why The SpaceX IPO Matters Even If You Never Buy The Stock",
+    "If a Stock Market Crash Is Coming, History Shows This Is the Smartest Move Investors Can Make"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61849.2890625,
-        "perp_last_price": 61849.2890625,
-        "mark_price": 61849.2890625,
-        "index_price": 61849.2890625,
+        "spot_price": 61623.01953125,
+        "perp_last_price": 61623.01953125,
+        "mark_price": 61623.01953125,
+        "index_price": 61623.01953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61849.2890625,
-        "stop_loss_technical": 60921.54972656,
-        "target_1": 63240.89806641,
-        "target_2": 64632.50707031,
+        "entry_ideal": 61623.01953125,
+        "stop_loss_technical": 60698.67423828,
+        "target_1": 63009.5374707,
+        "target_2": 64396.05541016,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61849.2890625,
-        "stop_loss_technical": 60921.54972656,
-        "target_1": 63240.89806641,
-        "target_2": 64632.50707031,
+        "entry_ideal": 61623.01953125,
+        "stop_loss_technical": 73969.5703125,
+        "target_1": 43103.19335938,
+        "target_2": 24583.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
