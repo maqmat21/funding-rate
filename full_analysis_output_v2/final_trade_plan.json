@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-05T02:06:00.290999+00:00",
+    "generated_at_utc": "2026-06-05T06:40:46.006593+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.417,
-        "trend": "alcista"
+        "price": 99.387,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.477,
@@ -21,54 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 50m",
     "News from the Yahoo Finance Network",
     "Alphabet Will Soon Be Berkshire Hathaway's Fourth-Biggest Holding. I've Got a Problem With How and Why.",
     "3 Absurdly Cheap Dividend Stocks to Buy With $1,000 Right Now",
     "You’re going to pay tax on RMDs — there’s no way around it. Or is there?",
-    "172-year-old bank makes 2026 Bitcoin prediction amid market crash",
+    "Michael Burry Takes Aim at Palantir Stock Again, But He’s Missing the Bigger Picture",
     "The Stock Market Is Doing Something Unexpected Right Now, but History Has Good News for Investors",
-    "Is the Schwab U.S. Dividend Equity ETF the Right Buy Right Now?",
-    "Amentum Joins Fortune 500 Spotlighting Scale And Investor Risk Reward Balance"
+    "10,000 Boomers a day, $39 trillion in debt, and no benefit cuts: Bessent stakes Social Security on the Trump economy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63175.44140625,
-        "perp_last_price": 63175.44140625,
-        "mark_price": 63175.44140625,
-        "index_price": 63175.44140625,
+        "spot_price": 61784.0,
+        "perp_last_price": 61784.0,
+        "mark_price": 61784.0,
+        "index_price": 61784.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63170.05859375,
+        "entry_ideal": 61804.0,
         "stop_loss_technical": 64441.26953125,
-        "target_1": 61263.2421875,
-        "target_2": 59356.42578125,
+        "target_1": 57848.09570312,
+        "target_2": 53892.19140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63175.44140625,
+        "entry_ideal": 61784.0,
         "stop_loss_technical": 73969.5703125,
-        "target_1": 46984.24804688,
-        "target_2": 30793.0546875,
+        "target_1": 43505.64453125,
+        "target_2": 25227.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
