@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-06T20:18:24.255003+00:00",
+    "generated_at_utc": "2026-06-06T21:30:08.048761+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,16 +28,16 @@
     "Bessent hints at major change in gas prices",
     "Chick-fil-A brings back its best-selling sandwich of all time",
     "Why Johnson & Johnson May Be the Closest Thing Investors Can Find to a Bulletproof Dividend Stock",
-    "SpaceX IPO Could Create More Wealth Than All IPOs in the Last 20 Years Combined. Here’s Why Early Investors Are Banking On It"
+    "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60613.6796875,
-        "perp_last_price": 60613.6796875,
-        "mark_price": 60613.6796875,
-        "index_price": 60613.6796875,
+        "spot_price": 60861.41015625,
+        "perp_last_price": 60861.41015625,
+        "mark_price": 60861.41015625,
+        "index_price": 60861.41015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60606.6796875,
-        "stop_loss_technical": 59697.57949219,
-        "target_1": 61970.32998047,
-        "target_2": 63333.98027344,
+        "entry_ideal": 60868.37109375,
+        "stop_loss_technical": 59955.34552734,
+        "target_1": 62237.90944336,
+        "target_2": 63607.44779297,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60613.6796875,
-        "stop_loss_technical": 71334.953125,
-        "target_1": 44531.76953125,
-        "target_2": 28449.859375,
+        "entry_ideal": 60861.41015625,
+        "stop_loss_technical": 59948.48900391,
+        "target_1": 62230.79188477,
+        "target_2": 63600.17361328,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
