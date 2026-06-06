@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-05T23:51:48.908678+00:00",
+    "generated_at_utc": "2026-06-06T01:57:27.950419+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
+    "If You Buy Rivian Right Now, Could It Make You a Millionaire?",
     "‘Please don’t do this’: Dave Ramsey says ditch this household expense keeping Americans from acquiring wealth",
-    "Putin is running out of money to wage war on Ukraine, and this Russian-occupied territory is running out of fuel as Kyiv smashes supply lines",
-    "The One Very Simple Reason ‘60 Minutes’ Imploded",
-    "If a Stock Market Crash Is Coming, History Shows This Is the Smartest Move Investors Can Make",
     "Fidelity lowers the bar for small investors to get in on SpaceX IPO",
-    "Prediction: Sandisk Stock Will Hit $3,000 Next Year"
+    "He lent Elon Musk $1 million to save SpaceX from bankruptcy — now his 7.2% stake could be worth $90 billion",
+    "Prediction: Sandisk Stock Will Hit $3,000 Next Year",
+    "Berkshire Hathaway Bets Big on Alphabet, Signaling a Shift Into Tech Investing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60932.0,
-        "perp_last_price": 60932.0,
-        "mark_price": 60932.0,
-        "index_price": 60932.0,
+        "spot_price": 61109.0,
+        "perp_last_price": 61109.0,
+        "mark_price": 61109.0,
+        "index_price": 61109.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60932.0,
-        "stop_loss_technical": 63603.5703125,
-        "target_1": 56924.64453125,
-        "target_2": 52917.2890625,
+        "entry_ideal": 61109.0,
+        "stop_loss_technical": 60192.365,
+        "target_1": 62483.9525,
+        "target_2": 63858.905,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60932.0,
-        "stop_loss_technical": 73969.5703125,
-        "target_1": 41375.64453125,
-        "target_2": 21819.2890625,
+        "entry_ideal": 61109.0,
+        "stop_loss_technical": 71334.953125,
+        "target_1": 45770.0703125,
+        "target_2": 30431.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
