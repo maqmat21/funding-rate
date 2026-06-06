@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-06T22:36:34.869057+00:00",
+    "generated_at_utc": "2026-06-06T23:39:02.093491+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,53 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "The Smartest Dividend ETF to Buy With $1,000 Right Now -- and It's Up 19% in 2026",
     "Warren Buffett's Berkshire Hathaway Has 67% of Its Portfolio in 5 Stocks. Should You Copy Him?",
     "SpaceX Is Finally Going Public. Here's How Much a $1,000 Investment Could Get You.",
-    "Bessent hints at major change in gas prices",
-    "Verizon CEO sends shocking message to employees",
     "Chick-fil-A brings back its best-selling sandwich of all time",
-    "Why Johnson & Johnson May Be the Closest Thing Investors Can Find to a Bulletproof Dividend Stock",
-    "Peter Schiff Says 'Young' People Who Made Money Early With Bitcoin Dishing Out Financial Advice: 'Don't Confuse Brains With A Bull Market'"
+    "Verizon CEO sends shocking message to employees",
+    "Bessent hints at major change in gas prices",
+    "Why Johnson & Johnson May Be the Closest Thing Investors Can Find to a Bulletproof Dividend Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60521.9609375,
-        "perp_last_price": 60521.9609375,
-        "mark_price": 60521.9609375,
-        "index_price": 60521.9609375,
+        "spot_price": 60779.7109375,
+        "perp_last_price": 60779.7109375,
+        "mark_price": 60779.7109375,
+        "index_price": 60779.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60526.3203125,
-        "stop_loss_technical": 61449.3984375,
-        "target_1": 59141.703125,
-        "target_2": 57757.0859375,
+        "entry_ideal": 60779.7109375,
+        "stop_loss_technical": 59868.01527344,
+        "target_1": 62147.25443359,
+        "target_2": 63514.79792969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60521.9609375,
+        "entry_ideal": 60779.7109375,
         "stop_loss_technical": 71334.953125,
-        "target_1": 44302.47265625,
-        "target_2": 28082.984375,
+        "target_1": 44946.84765625,
+        "target_2": 29113.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
