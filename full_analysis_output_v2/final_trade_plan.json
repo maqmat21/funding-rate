@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-06T10:22:44.194409+00:00",
+    "generated_at_utc": "2026-06-06T11:50:19.967737+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,52 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Market Has Only Done This 4 Times Since World War II. Here's What Comes Next.",
+    "Hoping to Ride Micron Stock Higher? Don't Ignore This Red Flag.",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
-    "Here's Why I'm Buying Bitcoin Right Now",
+    "Don't Buy Home Depot Stock Until You Know This 1 Key Metric",
     "Fidelity lowers the bar for small investors to get in on SpaceX IPO",
     "‘Please don’t do this’: Dave Ramsey says ditch this household expense keeping Americans from acquiring wealth",
-    "Bitcoin Price at Risk of Sudden Crash: How Low Can BTC Go After 18% Slide?",
-    "He lent Elon Musk $1 million to save SpaceX from bankruptcy — now his 7.2% stake could be worth $90 billion"
+    "Bitcoin Price at Risk of Sudden Crash: How Low Can BTC Go After 18% Slide?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60566.08984375,
-        "perp_last_price": 60566.08984375,
-        "mark_price": 60566.08984375,
-        "index_price": 60566.08984375,
+        "spot_price": 60845.6484375,
+        "perp_last_price": 60845.6484375,
+        "mark_price": 60845.6484375,
+        "index_price": 60845.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60566.08984375,
-        "stop_loss_technical": 61954.6796875,
-        "target_1": 58483.20507812,
-        "target_2": 56400.3203125,
+        "entry_ideal": 60845.6484375,
+        "stop_loss_technical": 59932.96371094,
+        "target_1": 62214.67552734,
+        "target_2": 63583.70261719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60566.08984375,
+        "entry_ideal": 60845.6484375,
         "stop_loss_technical": 71334.953125,
-        "target_1": 44412.79492188,
-        "target_2": 28259.5,
+        "target_1": 45111.69140625,
+        "target_2": 29377.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
