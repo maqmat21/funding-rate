@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-06T14:26:04.926336+00:00",
+    "generated_at_utc": "2026-06-06T15:47:23.781398+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett's Berkshire Hathaway Has 67% of Its Portfolio in 5 Stocks. Should You Copy Him?",
     "The Market Has Only Done This 4 Times Since World War II. Here's What Comes Next.",
-    "The Stock Market Is on the Verge of Doing Something Not Witnessed in 155 Years -- and the Implications for Wall Street Are Frightening",
     "Social Security's 2027 COLA Forecast Just Got Higher. Here's What That Means for Your Monthly Check.",
-    "AT&T launches 4 new internet plans amid fight for customers",
+    "The Stock Market Is on the Verge of Doing Something Not Witnessed in 155 Years -- and the Implications for Wall Street Are Frightening",
     "Warren Buffett's Successor, Greg Abel, Overhauled Berkshire Hathaway's Portfolio and Has 61% of Its Assets Invested in Just 5 Stocks",
-    "Prediction: The SpaceX IPO Will Be the Greatest Fleecing of Retail Investors We've Ever Witnessed",
-    "Why Oil’s Not at $200 After the Biggest Supply Shock in History"
+    "Why Johnson & Johnson May Be the Closest Thing Investors Can Find to a Bulletproof Dividend Stock",
+    "Hoping to Ride Micron Stock Higher? Don't Ignore This Red Flag."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60802.0703125,
-        "perp_last_price": 60802.0703125,
-        "mark_price": 60802.0703125,
-        "index_price": 60802.0703125,
+        "spot_price": 60800.8984375,
+        "perp_last_price": 60800.8984375,
+        "mark_price": 60800.8984375,
+        "index_price": 60800.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60794.4609375,
-        "stop_loss_technical": 61949.80078125,
-        "target_1": 59061.45117188,
-        "target_2": 57328.44140625,
+        "entry_ideal": 60814.0,
+        "stop_loss_technical": 59901.79,
+        "target_1": 62182.315,
+        "target_2": 63550.63,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60802.0703125,
+        "entry_ideal": 60800.8984375,
         "stop_loss_technical": 71334.953125,
-        "target_1": 45002.74609375,
-        "target_2": 29203.421875,
+        "target_1": 44999.81640625,
+        "target_2": 29198.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
