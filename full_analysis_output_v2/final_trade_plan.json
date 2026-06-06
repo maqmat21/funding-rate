@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-06T19:02:10.966553+00:00",
+    "generated_at_utc": "2026-06-06T20:18:24.255003+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Warren Buffett's Berkshire Hathaway Has 67% of Its Portfolio in 5 Stocks. Should You Copy Him?",
     "SpaceX Is Finally Going Public. Here's How Much a $1,000 Investment Could Get You.",
-    "Bessent hints at major change in gas prices",
     "Verizon CEO sends shocking message to employees",
-    "SpaceX IPO Could Create More Wealth Than All IPOs in the Last 20 Years Combined. Here’s Why Early Investors Are Banking On It",
+    "Bessent hints at major change in gas prices",
     "Chick-fil-A brings back its best-selling sandwich of all time",
-    "Why Johnson & Johnson May Be the Closest Thing Investors Can Find to a Bulletproof Dividend Stock"
+    "Why Johnson & Johnson May Be the Closest Thing Investors Can Find to a Bulletproof Dividend Stock",
+    "SpaceX IPO Could Create More Wealth Than All IPOs in the Last 20 Years Combined. Here’s Why Early Investors Are Banking On It"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60581.98828125,
-        "perp_last_price": 60581.98828125,
-        "mark_price": 60581.98828125,
-        "index_price": 60581.98828125,
+        "spot_price": 60613.6796875,
+        "perp_last_price": 60613.6796875,
+        "mark_price": 60613.6796875,
+        "index_price": 60613.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60570.4296875,
-        "stop_loss_technical": 59661.87324219,
-        "target_1": 61933.26435547,
-        "target_2": 63296.09902344,
+        "entry_ideal": 60606.6796875,
+        "stop_loss_technical": 59697.57949219,
+        "target_1": 61970.32998047,
+        "target_2": 63333.98027344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60581.98828125,
+        "entry_ideal": 60613.6796875,
         "stop_loss_technical": 71334.953125,
-        "target_1": 44452.54101562,
-        "target_2": 28323.09375,
+        "target_1": 44531.76953125,
+        "target_2": 28449.859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
