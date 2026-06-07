@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-07T14:45:11.774502+00:00",
+    "generated_at_utc": "2026-06-07T16:00:08.494320+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,25 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61970.26171875,
-        "perp_last_price": 61970.26171875,
-        "mark_price": 61970.26171875,
-        "index_price": 61970.26171875,
+        "spot_price": 62064.78125,
+        "perp_last_price": 62064.78125,
+        "mark_price": 62064.78125,
+        "index_price": 62064.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61965.23046875,
-        "stop_loss_technical": 62900.87109375,
-        "target_1": 60561.76953125,
-        "target_2": 59158.30859375,
+        "entry_ideal": 62083.5390625,
+        "stop_loss_technical": 61152.28597656,
+        "target_1": 63480.41869141,
+        "target_2": 64877.29832031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61970.26171875,
-        "stop_loss_technical": 61040.70779297,
-        "target_1": 63364.59260742,
-        "target_2": 64758.92349609,
+        "entry_ideal": 62064.78125,
+        "stop_loss_technical": 61133.80953125,
+        "target_1": 63461.23882813,
+        "target_2": 64857.69640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
