@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-08T01:57:44.610586+00:00",
+    "generated_at_utc": "2026-06-08T06:38:14.779531+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.066,
+        "price": 100.091,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 53m",
     "News from the Yahoo Finance Network",
-    "Want Income for Life? Here Are 3 Stocks to Buy Now and Never Sell.",
-    "Here's the Average Net Worth for Americans at 60 -- Where Do You Stand?",
+    "Former Fed Chairman Jerome Powell Just Warned of a Huge Threat Looming Over the Current Bull Market",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Joe Rogan stunned after Caleb Hammer says US boomers should have $2M-$5M savings — no ‘sympathy’ otherwise. Is he right?",
+    "Here's the Average Net Worth for Americans at 60 -- Where Do You Stand?",
     "If a Stock Market Correction Is Coming, This 1 ETF Could Be the Smartest Buy Right Now",
-    "UPS driver goes viral after sharing his weekly paycheck",
+    "Want Income for Life? Here Are 3 Stocks to Buy Now and Never Sell.",
     "Billionaire Charlie Munger Was Asked Why Warren Buffett Is ‘So Much Richer’ Despite Being Partners — ‘Why Was Albert Einstein Poorer Than I Was?’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63160.28125,
-        "perp_last_price": 63160.28125,
-        "mark_price": 63160.28125,
-        "index_price": 63160.28125,
+        "spot_price": 62928.6484375,
+        "perp_last_price": 62928.6484375,
+        "mark_price": 62928.6484375,
+        "index_price": 62928.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63160.28125,
-        "stop_loss_technical": 62212.87703125,
-        "target_1": 64581.38757813,
-        "target_2": 66002.49390625,
+        "entry_ideal": 62898.51953125,
+        "stop_loss_technical": 64102.69140625,
+        "target_1": 61092.26171875,
+        "target_2": 59286.00390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63160.28125,
-        "stop_loss_technical": 62212.87703125,
-        "target_1": 64581.38757813,
-        "target_2": 66002.49390625,
+        "entry_ideal": 62928.6484375,
+        "stop_loss_technical": 61984.71871094,
+        "target_1": 64344.54302734,
+        "target_2": 65760.43761719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
