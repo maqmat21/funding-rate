@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-09T20:26:51.130202+00:00",
+    "generated_at_utc": "2026-06-09T22:02:56.599627+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.951,
+        "price": 99.991,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Elon Musk Says He’s Building a Chip “2 to 3 Times” Better Than NVIDIA at 10% The Cost. Is He Bluffing?",
-    "Social Security fund could vanish in 6 years, trustees say",
+    "At almost 40 years old, we have $3.5 million and could hit $10 million by 50 – but how do people scale to $50 million?",
     "3 Unstoppable Quantum Computing Stocks to Buy Now",
     "Why Dave Ramsey Says Retiring at This Particular Age Is a Big Mistake",
+    "Elon Musk Says He’s Building a Chip “2 to 3 Times” Better Than NVIDIA at 10% The Cost. Is He Bluffing?",
     "Psyched about the SpaceX IPO? Don't forget the brutal lesson from Facebook's IPO.",
-    "3 Stocks I'm Not Selling No Matter What the Market Does for the Next 20 Years",
-    "SpaceX reveals its first orbital data center, 'much simpler than a Starlink satellite,' Musk says"
+    "The SpaceX IPO Is Days Away. Here's How to Prepare.",
+    "Silver Has Tumbled 46% From its Peak to $66 an Ounce. Is This Top Silver ETF Still a Buy?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61984.05859375,
-        "perp_last_price": 61984.05859375,
-        "mark_price": 61984.05859375,
-        "index_price": 61984.05859375,
+        "spot_price": 61669.5,
+        "perp_last_price": 61669.5,
+        "mark_price": 61669.5,
+        "index_price": 61669.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 61984.05859375,
+        "entry_ideal": 61660.62890625,
         "stop_loss_technical": 63490.48828125,
-        "target_1": 59724.4140625,
-        "target_2": 57464.76953125,
+        "target_1": 58915.83984375,
+        "target_2": 56171.05078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 61984.05859375,
+        "entry_ideal": 61669.5,
         "stop_loss_technical": 64185.765625,
-        "target_1": 58681.49804688,
-        "target_2": 55378.9375,
+        "target_1": 57895.1015625,
+        "target_2": 54120.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
