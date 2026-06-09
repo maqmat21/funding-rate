@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-09T22:02:56.599627+00:00",
+    "generated_at_utc": "2026-06-09T23:25:26.881865+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.991,
+        "price": 99.995,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Micron stock gets a shocking Wall Street price target",
     "At almost 40 years old, we have $3.5 million and could hit $10 million by 50 – but how do people scale to $50 million?",
-    "3 Unstoppable Quantum Computing Stocks to Buy Now",
+    "Paramount accuses Netflix of ‘scorched-earth’ campaign against Warner Bros. deal",
+    "Bank of America aggressively revamps Oracle stock price target",
     "Why Dave Ramsey Says Retiring at This Particular Age Is a Big Mistake",
-    "Elon Musk Says He’s Building a Chip “2 to 3 Times” Better Than NVIDIA at 10% The Cost. Is He Bluffing?",
-    "Psyched about the SpaceX IPO? Don't forget the brutal lesson from Facebook's IPO.",
-    "The SpaceX IPO Is Days Away. Here's How to Prepare.",
-    "Silver Has Tumbled 46% From its Peak to $66 an Ounce. Is This Top Silver ETF Still a Buy?"
+    "3 Unstoppable Quantum Computing Stocks to Buy Now",
+    "How much interest can a $200,000 CD account earn now?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61669.5,
-        "perp_last_price": 61669.5,
-        "mark_price": 61669.5,
-        "index_price": 61669.5,
+        "spot_price": 61751.6796875,
+        "perp_last_price": 61751.6796875,
+        "mark_price": 61751.6796875,
+        "index_price": 61751.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 61660.62890625,
-        "stop_loss_technical": 63490.48828125,
-        "target_1": 58915.83984375,
-        "target_2": 56171.05078125,
+        "entry_ideal": 61754.3984375,
+        "stop_loss_technical": 60740.0,
+        "target_1": 63275.99609375,
+        "target_2": 64797.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 61669.5,
+        "entry_ideal": 61751.6796875,
         "stop_loss_technical": 64185.765625,
-        "target_1": 57895.1015625,
-        "target_2": 54120.703125,
+        "target_1": 58100.55078125,
+        "target_2": 54449.421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
