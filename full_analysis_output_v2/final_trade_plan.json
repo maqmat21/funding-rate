@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-09T04:35:44.676446+00:00",
+    "generated_at_utc": "2026-06-09T08:08:03.239360+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.95,
+        "price": 99.942,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,51 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 55m",
+    "U.S. markets open in 5h 23m",
     "News from the Yahoo Finance Network",
     "Why Dave Ramsey Says Retiring at This Particular Age Is a Big Mistake",
     "Trump, who has repeatedly called climate change fake, is now threatening Brazil with tariffs over the deforestation of the Amazon",
     "3 Unstoppable Quantum Computing Stocks to Buy Now",
+    "Billionaire Jeff Bezos Says America Needs to ‘Fix It at the Root’ Like Amazon Does Instead of Picking Villains — Bottom 50% Should Pay ‘Zero’ Taxes",
     "Could Investing in the SpaceX IPO Set You Up for Life? History Offers an Answer That's Crystal Clear.",
-    "56-year-old beloved fast-food chain closes over 700 locations",
-    "Billionaire Jeff Bezos Says America Needs to ‘Fix It at the Root’ Like Amazon Does Instead of Picking Villains — Bottom 50% Should Pay ‘Zero’ Taxes"
+    "Prediction: This Will Be Palantir's Stock Price in 5 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63242.0390625,
-        "perp_last_price": 63242.0390625,
-        "mark_price": 63242.0390625,
-        "index_price": 63242.0390625,
+        "spot_price": 62865.4296875,
+        "perp_last_price": 62865.4296875,
+        "mark_price": 62865.4296875,
+        "index_price": 62865.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63242.0390625,
-        "stop_loss_technical": 62391.890625,
-        "target_1": 64517.26171875,
-        "target_2": 65792.484375,
+        "entry_ideal": 62865.4296875,
+        "stop_loss_technical": 64184.28125,
+        "target_1": 60887.15234375,
+        "target_2": 58908.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63242.0390625,
-        "stop_loss_technical": 59108.91796875,
-        "target_1": 69441.72070312,
-        "target_2": 75641.40234375,
+        "entry_ideal": 62865.4296875,
+        "stop_loss_technical": 64185.765625,
+        "target_1": 60884.92578125,
+        "target_2": 58904.421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
