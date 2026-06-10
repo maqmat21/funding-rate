@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-10T19:25:09.956032+00:00",
+    "generated_at_utc": "2026-06-10T21:32:37.384694+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.983,
+        "price": 100.012,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Got $2,000? This Stock Has A 27-Year Dividend Streak And Its On Sale",
-    "Trump says he 'loves the inflation' as US prices rise at fastest rate in three years",
     "Here's How Much a $10,000 Investment Could Get You When SpaceX Goes Public on June 12",
     "3 Dividend Stocks To Consider With Yields Up To 10.2%",
-    "A mariner put 10% of her paycheck into SpaceX for 2 years. As it goes public — she won't say what her shares are worth",
+    "The Price of Silver Just Collapsed. Here’s Why the SpaceX IPO Could be the Start of a Silver Boom.",
+    "Casey's General Stores Q4 Earnings Call Highlights",
     "Retirees: Is Now the Time to Pull Money Out of S&P 500 Index Funds?",
-    "Casey's General Stores Q4 Earnings Call Highlights"
+    "Jim Cramer on Costco: “I Think That You Buy Some Here”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61684.37890625,
-        "perp_last_price": 61684.37890625,
-        "mark_price": 61684.37890625,
-        "index_price": 61684.37890625,
+        "spot_price": 61614.01171875,
+        "perp_last_price": 61614.01171875,
+        "mark_price": 61614.01171875,
+        "index_price": 61614.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61690.0703125,
-        "stop_loss_technical": 62794.390625,
-        "target_1": 60033.58984375,
-        "target_2": 58377.109375,
+        "entry_ideal": 61609.921875,
+        "stop_loss_technical": 60685.77304688,
+        "target_1": 62996.14511719,
+        "target_2": 64382.36835938,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61684.37890625,
+        "entry_ideal": 61614.01171875,
         "stop_loss_technical": 64185.765625,
-        "target_1": 57932.29882812,
-        "target_2": 54180.21875,
+        "target_1": 57756.38085938,
+        "target_2": 53898.75,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
