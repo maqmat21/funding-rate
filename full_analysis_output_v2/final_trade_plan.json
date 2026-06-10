@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-10T01:34:12.158191+00:00",
+    "generated_at_utc": "2026-06-10T06:04:04.242098+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.974,
-        "trend": "alcista"
+        "price": 99.883,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.528,
@@ -21,51 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 27m",
     "News from the Yahoo Finance Network",
-    "How General Mills’ New COO Amid Profit Pressures Will Impact General Mills (GIS) Investors",
-    "Bank of America aggressively revamps Oracle stock price target",
+    "Prediction: SpaceX Stock Will Hit This Price in July",
     "56-year-old beloved fast-food chain closes over 700 locations",
-    "Assessing Devon Energy (DVN) Valuation After Recent Share Price Weakness",
     "3 Unstoppable Quantum Computing Stocks to Buy Now",
-    "How much interest can a $200,000 CD account earn now?",
-    "Psyched about the SpaceX IPO? Don't forget the brutal lesson from Facebook's IPO."
+    "We Retired With $1M But My Husband Won't Spend Above His Ultra-Conservative 3% Rule — So We Split a $7 Subway Footlong On Our 40th Anniversary",
+    "Why Dave Ramsey Says Retiring at This Particular Age Is a Big Mistake",
+    "Elon Musk Says He’s Building a Chip “2 to 3 Times” Better Than NVIDIA at 10% The Cost. Is He Bluffing?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61787.44921875,
-        "perp_last_price": 61787.44921875,
-        "mark_price": 61787.44921875,
-        "index_price": 61787.44921875,
+        "spot_price": 61291.3515625,
+        "perp_last_price": 61291.3515625,
+        "mark_price": 61291.3515625,
+        "index_price": 61291.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 61773.23046875,
-        "stop_loss_technical": 60743.05078125,
-        "target_1": 63318.5,
-        "target_2": 64863.76953125,
+        "entry_ideal": 61291.359375,
+        "stop_loss_technical": 60740.0,
+        "target_1": 62118.3984375,
+        "target_2": 62945.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 61787.44921875,
-        "stop_loss_technical": 64185.765625,
-        "target_1": 58189.97460938,
-        "target_2": 54592.5,
+        "entry_ideal": 61291.3515625,
+        "stop_loss_technical": 60371.98128906,
+        "target_1": 62670.40697266,
+        "target_2": 64049.46238281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
