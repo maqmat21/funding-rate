@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-10T06:04:04.242098+00:00",
+    "generated_at_utc": "2026-06-10T10:18:37.294379+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.883,
+        "price": 99.87,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 27m",
+    "U.S. markets open in 3h 12m",
     "News from the Yahoo Finance Network",
-    "Prediction: SpaceX Stock Will Hit This Price in July",
-    "56-year-old beloved fast-food chain closes over 700 locations",
-    "3 Unstoppable Quantum Computing Stocks to Buy Now",
-    "We Retired With $1M But My Husband Won't Spend Above His Ultra-Conservative 3% Rule — So We Split a $7 Subway Footlong On Our 40th Anniversary",
-    "Why Dave Ramsey Says Retiring at This Particular Age Is a Big Mistake",
-    "Elon Musk Says He’s Building a Chip “2 to 3 Times” Better Than NVIDIA at 10% The Cost. Is He Bluffing?"
+    "Elon Musk Will Receive 1 Billion Shares of SpaceX Stock If the Company Hits This Mind-Blowing Milestone",
+    "Kevin Warsh's Fed \"Regime Change\" Could Sink the Stock Market, and the Blame Lies With President Trump",
+    "Wall Street's Scariest Inflation Report of the Year Is Hours Away -- and It Has the Ability to Change the Stock Market's Fortune",
+    "SpaceX's IPO Filing Contains a 13-Word Warning That Every Investor Needs to Read Before Buying a Single Share",
+    "Why $34,000 Is the Social Security Tax Threshold Most Retirees Never See Coming",
+    "5 Best Dividend Stocks to Own in Case the AI Trade Ends"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61291.3515625,
-        "perp_last_price": 61291.3515625,
-        "mark_price": 61291.3515625,
-        "index_price": 61291.3515625,
+        "spot_price": 61129.75,
+        "perp_last_price": 61129.75,
+        "mark_price": 61129.75,
+        "index_price": 61129.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 61291.359375,
-        "stop_loss_technical": 60740.0,
-        "target_1": 62118.3984375,
-        "target_2": 62945.4375,
+        "entry_ideal": 61132.78125,
+        "stop_loss_technical": 60215.78953125,
+        "target_1": 62508.26882813,
+        "target_2": 63883.75640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 61291.3515625,
-        "stop_loss_technical": 60371.98128906,
-        "target_1": 62670.40697266,
-        "target_2": 64049.46238281,
+        "entry_ideal": 61129.75,
+        "stop_loss_technical": 60212.80375,
+        "target_1": 62505.169375,
+        "target_2": 63880.58875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
