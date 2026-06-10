@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-10T10:18:37.294379+00:00",
+    "generated_at_utc": "2026-06-10T13:50:07.886752+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.87,
+        "price": 99.757,
         "trend": "bajista"
       },
       "US10Y": {
         "price": 4.528,
-        "trend": "bajista"
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 12m",
+    "U.S. markets close in 6h 11m",
     "News from the Yahoo Finance Network",
-    "Elon Musk Will Receive 1 Billion Shares of SpaceX Stock If the Company Hits This Mind-Blowing Milestone",
-    "Kevin Warsh's Fed \"Regime Change\" Could Sink the Stock Market, and the Blame Lies With President Trump",
-    "Wall Street's Scariest Inflation Report of the Year Is Hours Away -- and It Has the Ability to Change the Stock Market's Fortune",
-    "SpaceX's IPO Filing Contains a 13-Word Warning That Every Investor Needs to Read Before Buying a Single Share",
-    "Why $34,000 Is the Social Security Tax Threshold Most Retirees Never See Coming",
-    "5 Best Dividend Stocks to Own in Case the AI Trade Ends"
+    "Warren Buffett Just Sent the Stock Market an 8-Word Warning. Here's What History Says Is Coming Next.",
+    "Billionaire Investor Ron Baron Has Already Made at Least a 1,312% Return on His Fund's Investment in SpaceX. Here's What He Thinks the Stock Will Be Worth in 10 to 15 Years",
+    "Warren Buffett's Berkshire sends jarring signal to stock buyers",
+    "Retirees: Is Now the Time to Pull Money Out of S&P 500 Index Funds?",
+    "‘We are comfortable financially’: My husband is in his 60s and has $500,000 life insurance. Is this a good time to cancel?",
+    "Warren Buffett’s $400 Billion Is Going Nowhere for Now: Here’s Why Berkshire Hathaway Is My Top Pick for the Next 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61129.75,
-        "perp_last_price": 61129.75,
-        "mark_price": 61129.75,
-        "index_price": 61129.75,
+        "spot_price": 62325.9296875,
+        "perp_last_price": 62325.9296875,
+        "mark_price": 62325.9296875,
+        "index_price": 62325.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61132.78125,
-        "stop_loss_technical": 60215.78953125,
-        "target_1": 62508.26882813,
-        "target_2": 63883.75640625,
+        "entry_ideal": 62325.0,
+        "stop_loss_technical": 60727.19921875,
+        "target_1": 64721.70117188,
+        "target_2": 67118.40234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61129.75,
-        "stop_loss_technical": 60212.80375,
-        "target_1": 62505.169375,
-        "target_2": 63880.58875,
+        "entry_ideal": 62325.9296875,
+        "stop_loss_technical": 59496.625,
+        "target_1": 66569.88671875,
+        "target_2": 70813.84375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
