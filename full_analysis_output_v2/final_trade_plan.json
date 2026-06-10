@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-10T13:50:07.886752+00:00",
+    "generated_at_utc": "2026-06-10T16:49:59.879569+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.757,
+        "price": 99.862,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 11m",
+    "U.S. markets close in 3h 11m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett Just Sent the Stock Market an 8-Word Warning. Here's What History Says Is Coming Next.",
-    "Billionaire Investor Ron Baron Has Already Made at Least a 1,312% Return on His Fund's Investment in SpaceX. Here's What He Thinks the Stock Will Be Worth in 10 to 15 Years",
-    "Warren Buffett's Berkshire sends jarring signal to stock buyers",
+    "Got $2,000? This Stock Has A 27-Year Dividend Streak And Its On Sale",
+    "A mariner put 10% of her paycheck into SpaceX for 2 years. As it goes public — she won't say what her shares are worth",
+    "Casey's General Stores Q4 Earnings Call Highlights",
     "Retirees: Is Now the Time to Pull Money Out of S&P 500 Index Funds?",
-    "‘We are comfortable financially’: My husband is in his 60s and has $500,000 life insurance. Is this a good time to cancel?",
-    "Warren Buffett’s $400 Billion Is Going Nowhere for Now: Here’s Why Berkshire Hathaway Is My Top Pick for the Next 20 Years"
+    "5 reasons why the SpaceX IPO could be an absolute dud",
+    "The Bull Case For KLA (KLAC) Could Change Following Earnings Beat, Stock Split And AI-Focused Outlook – Learn Why"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62325.9296875,
-        "perp_last_price": 62325.9296875,
-        "mark_price": 62325.9296875,
-        "index_price": 62325.9296875,
+        "spot_price": 61924.01171875,
+        "perp_last_price": 61924.01171875,
+        "mark_price": 61924.01171875,
+        "index_price": 61924.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62325.0,
-        "stop_loss_technical": 60727.19921875,
-        "target_1": 64721.70117188,
-        "target_2": 67118.40234375,
+        "entry_ideal": 61924.01171875,
+        "stop_loss_technical": 62796.55859375,
+        "target_1": 60615.19140625,
+        "target_2": 59306.37109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62325.9296875,
+        "entry_ideal": 61924.01171875,
         "stop_loss_technical": 59496.625,
-        "target_1": 66569.88671875,
-        "target_2": 70813.84375,
+        "target_1": 65565.09179688,
+        "target_2": 69206.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
