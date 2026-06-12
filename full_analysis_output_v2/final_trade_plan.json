@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-12T17:16:14.608573+00:00",
+    "generated_at_utc": "2026-06-12T19:22:30.261144+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.713,
+        "price": 99.735,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.483,
+        "price": 4.477,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 44m",
     "News from the Yahoo Finance Network",
     "Mark Cuban Said If You Want To Get Rich, Throw A 'Hail Mary' With 10% In Bitcoin And Pretend You Lost It — 9 Years Later, He Says It 'Lost The Plot'",
+    "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get",
     "A $310,000 Portfolio That Pays More Than the Rent on a Big-City East Coast Studio Apartment",
-    "Top 3 Dividend Stocks To Consider In June 2026",
-    "Warren Buffett has a message on energy prices for all Americans",
-    "Walmart launches exclusive premium beef line",
-    "Costco warns shoppers not to drink this milk"
+    "Dollar General CEO exposes bitter reality about today's economy",
+    "The Dividend Growth Strategy That Turns $50,000 a Year Into $125,000 Without Investing Another Dollar",
+    "3 Dividend Stocks You Can Buy and Hold Forever",
+    "3 Big Required Minimum Distribution (RMD) Rule Changes that Have Taken Effect in Recent Years -- and What They Mean for Retirees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63860.609375,
-        "perp_last_price": 63860.609375,
-        "mark_price": 63860.609375,
-        "index_price": 63860.609375,
+        "spot_price": 63659.421875,
+        "perp_last_price": 63659.421875,
+        "mark_price": 63659.421875,
+        "index_price": 63659.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63860.609375,
-        "stop_loss_technical": 62902.70023437,
-        "target_1": 65297.47308594,
-        "target_2": 66734.33679687,
+        "entry_ideal": 63662.12109375,
+        "stop_loss_technical": 62707.18927734,
+        "target_1": 65094.51881836,
+        "target_2": 66526.91654297,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63860.609375,
+        "entry_ideal": 63659.421875,
         "stop_loss_technical": 60756.6875,
-        "target_1": 68516.4921875,
-        "target_2": 73172.375,
+        "target_1": 68013.5234375,
+        "target_2": 72367.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
