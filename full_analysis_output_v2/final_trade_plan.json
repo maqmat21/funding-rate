@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-12T21:10:00.783519+00:00",
+    "generated_at_utc": "2026-06-12T22:44:08.828295+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.806,
+        "price": 99.807,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,49 +23,48 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "3 Dividend Stocks You Can Buy and Hold Forever",
+    "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get",
     "Mark Cuban Said If You Want To Get Rich, Throw A 'Hail Mary' With 10% In Bitcoin And Pretend You Lost It — 9 Years Later, He Says It 'Lost The Plot'",
     "A $310,000 Portfolio That Pays More Than the Rent on a Big-City East Coast Studio Apartment",
-    "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get",
     "Dollar General CEO exposes bitter reality about today's economy",
-    "Top 3 Dividend Stocks To Consider In June 2026",
+    "Walmart launches exclusive premium beef line",
     "3 Big Required Minimum Distribution (RMD) Rule Changes that Have Taken Effect in Recent Years -- and What They Mean for Retirees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63523.75,
-        "perp_last_price": 63523.75,
-        "mark_price": 63523.75,
-        "index_price": 63523.75,
+        "spot_price": 63475.98828125,
+        "perp_last_price": 63475.98828125,
+        "mark_price": 63475.98828125,
+        "index_price": 63475.98828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63523.75,
-        "stop_loss_technical": 62759.98828125,
-        "target_1": 64669.39257812,
-        "target_2": 65815.03515625,
+        "entry_ideal": 63472.671875,
+        "stop_loss_technical": 64340.48828125,
+        "target_1": 62170.94726562,
+        "target_2": 60869.22265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63523.75,
-        "stop_loss_technical": 60756.6875,
-        "target_1": 67674.34375,
-        "target_2": 71824.9375,
+        "entry_ideal": 63475.98828125,
+        "stop_loss_technical": 64340.48828125,
+        "target_1": 62179.23828125,
+        "target_2": 60882.48828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
