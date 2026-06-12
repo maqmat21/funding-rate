@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-12T02:38:11.177966+00:00",
+    "generated_at_utc": "2026-06-12T07:07:06.026551+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.815,
+        "price": 99.793,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,54 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 24m",
     "News from the Yahoo Finance Network",
     "Mark Cuban Said If You Want To Get Rich, Throw A 'Hail Mary' With 10% In Bitcoin And Pretend You Lost It — 9 Years Later, He Says It 'Lost The Plot'",
     "Top 3 Dividend Stocks To Consider In June 2026",
-    "Bankrupt burger chain franchisee liquidating 59 locations",
-    "3 Dividend Stocks To Consider With Yields Up To 10.2%",
-    "How Many Americans Reach $1 Million in Retirement Savings—And Why It's So Rare",
     "3 Top Dividend Stocks To Consider For Your Portfolio",
-    "Costco warns shoppers not to drink this milk"
+    "How Many Americans Reach $1 Million in Retirement Savings—And Why It's So Rare",
+    "SpaceX cafeteria workers poised to become millionaires after blockbuster IPO — 4,400 employees set to hit 7-figures",
+    "Bankrupt burger chain franchisee liquidating 59 locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63528.87890625,
-        "perp_last_price": 63528.87890625,
-        "mark_price": 63528.87890625,
-        "index_price": 63528.87890625,
+        "spot_price": 63010.28125,
+        "perp_last_price": 63010.28125,
+        "mark_price": 63010.28125,
+        "index_price": 63010.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63528.87890625,
+        "entry_ideal": 63006.9609375,
         "stop_loss_technical": 62261.91015625,
-        "target_1": 65429.33203125,
-        "target_2": 67329.78515625,
+        "target_1": 64124.53710938,
+        "target_2": 65242.11328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63528.87890625,
-        "stop_loss_technical": 60756.6875,
-        "target_1": 67687.16601562,
-        "target_2": 71845.453125,
+        "entry_ideal": 63010.28125,
+        "stop_loss_technical": 62065.12703125,
+        "target_1": 64428.01257813,
+        "target_2": 65845.74390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
