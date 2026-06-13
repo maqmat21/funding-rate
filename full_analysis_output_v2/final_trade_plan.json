@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-13T12:10:37.106619+00:00",
+    "generated_at_utc": "2026-06-13T14:27:01.820886+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,34 @@
     "News from the Yahoo Finance Network",
     "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
     "3 Dividend Stocks You Can Buy and Hold Forever",
-    "Costco warns shoppers not to drink this milk",
+    "Joe Rogan floored after Caleb Hammer says US boomers should have $2M-$5M saved — no sympathy if they don't. Is he right?",
     "A $310,000 Portfolio That Pays More Than the Rent on a Big-City East Coast Studio Apartment",
-    "Dollar General CEO exposes bitter reality about today's economy",
     "Ultra-rich Americans are moving cash out of the market and hoarding historic levels. Here’s where they’re putting it",
-    "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get"
+    "Costco warns shoppers not to drink this milk",
+    "Dollar General CEO exposes bitter reality about today's economy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63885.55859375,
-        "perp_last_price": 63885.55859375,
-        "mark_price": 63885.55859375,
-        "index_price": 63885.55859375,
+        "spot_price": 64106.2109375,
+        "perp_last_price": 64106.2109375,
+        "mark_price": 64106.2109375,
+        "index_price": 64106.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63886.640625,
-        "stop_loss_technical": 63361.390625,
-        "target_1": 64674.515625,
-        "target_2": 65462.390625,
+        "entry_ideal": 64106.2109375,
+        "stop_loss_technical": 64206.01953125,
+        "target_1": 63956.49804688,
+        "target_2": 63806.78515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63885.55859375,
+        "entry_ideal": 64106.2109375,
         "stop_loss_technical": 60756.6875,
-        "target_1": 68578.86523438,
-        "target_2": 73272.171875,
+        "target_1": 69130.49609375,
+        "target_2": 74154.78125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
