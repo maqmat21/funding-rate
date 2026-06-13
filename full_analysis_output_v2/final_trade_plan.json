@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-13T04:44:07.178396+00:00",
+    "generated_at_utc": "2026-06-13T08:04:17.784112+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,22 +26,35 @@
     "Costco warns shoppers not to drink this milk",
     "A $310,000 Portfolio That Pays More Than the Rent on a Big-City East Coast Studio Apartment",
     "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get",
-    "Dollar General CEO exposes bitter reality about today's economy",
     "Warren Buffett has a message on energy prices for all Americans",
-    "How to Build $12,000 a Month in Dividend Income (And Why Most Investors Underestimate the Cost)"
+    "Dollar General CEO exposes bitter reality about today's economy",
+    "3 Big Required Minimum Distribution (RMD) Rule Changes that Have Taken Effect in Recent Years -- and What They Mean for Retirees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63581.140625,
-        "perp_last_price": 63581.140625,
-        "mark_price": 63581.140625,
-        "index_price": 63581.140625,
+        "spot_price": 63768.1015625,
+        "perp_last_price": 63768.1015625,
+        "mark_price": 63768.1015625,
+        "index_price": 63768.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 63770.9609375,
+        "stop_loss_technical": 62985.98828125,
+        "target_1": 64948.41992188,
+        "target_2": 66125.87890625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -49,23 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63591.3515625,
-        "stop_loss_technical": 62985.98828125,
-        "target_1": 64499.39648438,
-        "target_2": 65407.44140625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 63581.140625,
+        "entry_ideal": 63768.1015625,
         "stop_loss_technical": 60756.6875,
-        "target_1": 67817.8203125,
-        "target_2": 72054.5,
+        "target_1": 68285.22265625,
+        "target_2": 72802.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
