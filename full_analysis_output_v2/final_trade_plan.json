@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-13T15:55:32.174605+00:00",
+    "generated_at_utc": "2026-06-13T17:07:51.772145+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,32 +27,31 @@
     "3 Dividend Stocks You Can Buy and Hold Forever",
     "A $310,000 Portfolio That Pays More Than the Rent on a Big-City East Coast Studio Apartment",
     "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
-    "Ultra-rich Americans are moving cash out of the market and hoarding historic levels. Here’s where they’re putting it",
-    "SpaceX cafeteria workers poised to become millionaires after blockbuster IPO — 4,400 employees set to hit 7-figures"
+    "Dollar General CEO exposes bitter reality about today's economy",
+    "3 Big Required Minimum Distribution (RMD) Rule Changes that Have Taken Effect in Recent Years -- and What They Mean for Retirees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64268.8984375,
-        "perp_last_price": 64268.8984375,
-        "mark_price": 64268.8984375,
-        "index_price": 64268.8984375,
+        "spot_price": 63973.80078125,
+        "perp_last_price": 63973.80078125,
+        "mark_price": 63973.80078125,
+        "index_price": 63973.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64269.80078125,
-        "stop_loss_technical": 63361.390625,
-        "target_1": 65632.41601562,
-        "target_2": 66995.03125,
+        "entry_ideal": 63974.0,
+        "stop_loss_technical": 64310.0,
+        "target_1": 63470.0,
+        "target_2": 62966.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64268.8984375,
+        "entry_ideal": 63973.80078125,
         "stop_loss_technical": 60756.6875,
-        "target_1": 69537.21484375,
-        "target_2": 74805.53125,
+        "target_1": 68799.47070312,
+        "target_2": 73625.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
