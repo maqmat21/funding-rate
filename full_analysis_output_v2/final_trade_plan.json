@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-13T18:21:07.269797+00:00",
+    "generated_at_utc": "2026-06-13T19:58:43.509876+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,8 +24,8 @@
     "News from the Yahoo Finance Network",
     "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
     "3 Dividend Stocks You Can Buy and Hold Forever",
-    "Joe Rogan floored after Caleb Hammer says US boomers should have $2M-$5M saved — no sympathy if they don't. Is he right?",
     "A $310,000 Portfolio That Pays More Than the Rent on a Big-City East Coast Studio Apartment",
+    "Joe Rogan floored after Caleb Hammer says US boomers should have $2M-$5M saved — no sympathy if they don't. Is he right?",
     "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
     "Dollar General CEO exposes bitter reality about today's economy",
     "3 Big Required Minimum Distribution (RMD) Rule Changes that Have Taken Effect in Recent Years -- and What They Mean for Retirees"
@@ -34,24 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64024.48046875,
-        "perp_last_price": 64024.48046875,
-        "mark_price": 64024.48046875,
-        "index_price": 64024.48046875,
+        "spot_price": 64279.19921875,
+        "perp_last_price": 64279.19921875,
+        "mark_price": 64279.19921875,
+        "index_price": 64279.19921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64027.28125,
-        "stop_loss_technical": 63386.8984375,
-        "target_1": 64987.85546875,
-        "target_2": 65948.4296875,
+        "entry_ideal": 64279.19921875,
+        "stop_loss_technical": 63423.37109375,
+        "target_1": 65562.94140625,
+        "target_2": 66846.68359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64024.48046875,
+        "entry_ideal": 64279.19921875,
         "stop_loss_technical": 60756.6875,
-        "target_1": 68926.16992188,
-        "target_2": 73827.859375,
+        "target_1": 69562.96679688,
+        "target_2": 74846.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
