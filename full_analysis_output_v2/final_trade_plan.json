@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-14T01:57:30.619451+00:00",
+    "generated_at_utc": "2026-06-14T06:29:18.731235+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "3 Dividend Stocks You Can Buy and Hold Forever",
-    "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
     "Can Apple Stock Double to $600 in 5 Years?",
+    "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
     "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
     "3 Nuclear Energy Stocks Powering the AI Boom in June",
-    "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get",
-    "Ultra-rich Americans are moving cash out of the market and hoarding historic levels. Here’s where they’re putting it"
+    "Want a Lifetime of Passive Income? Buy Coca-Cola in June and Never Sell.",
+    "Put $5,000 Into Coca-Cola Stock and Here Is the Quarterly Passive Income You Get"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64559.6484375,
-        "perp_last_price": 64559.6484375,
-        "mark_price": 64559.6484375,
-        "index_price": 64559.6484375,
+        "spot_price": 64316.7890625,
+        "perp_last_price": 64316.7890625,
+        "mark_price": 64316.7890625,
+        "index_price": 64316.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64551.96875,
+        "entry_ideal": 64313.6015625,
         "stop_loss_technical": 64722.16015625,
-        "target_1": 64296.68164062,
-        "target_2": 64041.39453125,
+        "target_1": 63700.76367188,
+        "target_2": 63087.92578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64559.6484375,
+        "entry_ideal": 64316.7890625,
         "stop_loss_technical": 60788.0234375,
-        "target_1": 70217.0859375,
-        "target_2": 75874.5234375,
+        "target_1": 69609.9375,
+        "target_2": 74903.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
