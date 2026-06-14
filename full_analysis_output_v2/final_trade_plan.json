@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-14T18:48:58.555861+00:00",
+    "generated_at_utc": "2026-06-14T20:10:38.035604+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,32 +27,31 @@
     "What 1,000 Shares of This High-Yield Dividend Stock Pays You Every Year",
     "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
     "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
-    "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously",
-    "The S&P 500 Is Doing Something Unseen in More Than 100 Years -- Here's What History Says Happens Next"
+    "The S&P 500 Is Doing Something Unseen in More Than 100 Years -- Here's What History Says Happens Next",
+    "Social Security Is Scheduled to Run Out of Money Sooner Than Previously Expected, and President Trump Is Partly to Blame"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63768.6484375,
-        "perp_last_price": 63768.6484375,
-        "mark_price": 63768.6484375,
-        "index_price": 63768.6484375,
+        "spot_price": 63782.44921875,
+        "perp_last_price": 63782.44921875,
+        "mark_price": 63782.44921875,
+        "index_price": 63782.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63766.01171875,
+        "entry_ideal": 63784.01953125,
         "stop_loss_technical": 63640.30859375,
-        "target_1": 63954.56640625,
-        "target_2": 64143.12109375,
+        "target_1": 63999.5859375,
+        "target_2": 64215.15234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63768.6484375,
+        "entry_ideal": 63782.44921875,
         "stop_loss_technical": 64700.87890625,
-        "target_1": 62370.30273438,
-        "target_2": 60971.95703125,
+        "target_1": 62404.8046875,
+        "target_2": 61027.16015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
