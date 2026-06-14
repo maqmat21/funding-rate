@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-14T14:24:27.322461+00:00",
+    "generated_at_utc": "2026-06-14T15:59:48.791075+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,19 +25,19 @@
     "Can Apple Stock Double to $600 in 5 Years?",
     "3 Dividend Stocks You Can Buy and Hold Forever",
     "What 1,000 Shares of This High-Yield Dividend Stock Pays You Every Year",
+    "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously",
     "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
-    "Want a Lifetime of Passive Income? Buy Coca-Cola in June and Never Sell.",
     "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
-    "Ultra-rich Americans are moving cash out of the market and hoarding historic levels. Here’s where they’re putting it"
+    "Want a Lifetime of Passive Income? Buy Coca-Cola in June and Never Sell."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64240.12890625,
-        "perp_last_price": 64240.12890625,
-        "mark_price": 64240.12890625,
-        "index_price": 64240.12890625,
+        "spot_price": 63990.0390625,
+        "perp_last_price": 63990.0390625,
+        "mark_price": 63990.0390625,
+        "index_price": 63990.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 64240.12890625,
+        "entry_ideal": 63990.0390625,
         "stop_loss_technical": 64722.16015625,
-        "target_1": 63517.08203125,
-        "target_2": 62794.03515625,
+        "target_1": 62891.85742188,
+        "target_2": 61793.67578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64240.12890625,
+        "entry_ideal": 63990.0390625,
         "stop_loss_technical": 64722.16015625,
-        "target_1": 63517.08203125,
-        "target_2": 62794.03515625,
+        "target_1": 62891.85742188,
+        "target_2": 61793.67578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
