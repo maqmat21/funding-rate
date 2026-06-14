@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-14T15:59:48.791075+00:00",
+    "generated_at_utc": "2026-06-14T17:20:39.797833+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.807,
-        "trend": "alcista"
+        "price": 99.747,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.487,
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
     "Can Apple Stock Double to $600 in 5 Years?",
-    "3 Dividend Stocks You Can Buy and Hold Forever",
     "What 1,000 Shares of This High-Yield Dividend Stock Pays You Every Year",
-    "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously",
     "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
     "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
-    "Want a Lifetime of Passive Income? Buy Coca-Cola in June and Never Sell."
+    "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously",
+    "Ultra-rich Americans are moving cash out of the market and hoarding historic levels. Here’s where they’re putting it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63990.0390625,
-        "perp_last_price": 63990.0390625,
-        "mark_price": 63990.0390625,
-        "index_price": 63990.0390625,
+        "spot_price": 63892.71875,
+        "perp_last_price": 63892.71875,
+        "mark_price": 63892.71875,
+        "index_price": 63892.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63990.0390625,
-        "stop_loss_technical": 64722.16015625,
-        "target_1": 62891.85742188,
-        "target_2": 61793.67578125,
+        "entry_ideal": 63886.94140625,
+        "stop_loss_technical": 62928.63728516,
+        "target_1": 65324.39758789,
+        "target_2": 66761.85376953,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63990.0390625,
-        "stop_loss_technical": 64722.16015625,
-        "target_1": 62891.85742188,
-        "target_2": 61793.67578125,
+        "entry_ideal": 63892.71875,
+        "stop_loss_technical": 62934.32796875,
+        "target_1": 65330.30492188,
+        "target_2": 66767.89109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
