@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-14T21:40:23.266820+00:00",
+    "generated_at_utc": "2026-06-14T22:49:10.046577+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.807,
-        "trend": "alcista"
+        "price": 99.495,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.487,
@@ -24,8 +24,8 @@
     "News from the Yahoo Finance Network",
     "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
     "Can Apple Stock Double to $600 in 5 Years?",
-    "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
     "Here's How to Snag a 20% Dividend Yield",
+    "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
     "What 1,000 Shares of This High-Yield Dividend Stock Pays You Every Year",
     "With 135 Dividend Increases (And Counting), This High-Yield Stock Remains a Top Passive Income Investment for the Long-Term",
     "The S&P 500 Is Doing Something Unseen in More Than 100 Years -- Here's What History Says Happens Next"
@@ -34,39 +34,41 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64970.73046875,
-        "perp_last_price": 64970.73046875,
-        "mark_price": 64970.73046875,
-        "index_price": 64970.73046875,
+        "spot_price": 65367.8984375,
+        "perp_last_price": 65367.8984375,
+        "mark_price": 65367.8984375,
+        "index_price": 65367.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64972.26953125,
-        "stop_loss_technical": 63642.96875,
-        "target_1": 66966.22070312,
-        "target_2": 68960.171875,
+        "entry_ideal": 65374.0,
+        "stop_loss_technical": 63640.30859375,
+        "target_1": 67974.53710938,
+        "target_2": 70575.07421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64970.73046875,
+        "entry_ideal": 65367.8984375,
         "stop_loss_technical": 60788.0234375,
-        "target_1": 71244.79101562,
-        "target_2": 77518.8515625,
+        "target_1": 72237.7109375,
+        "target_2": 79107.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
