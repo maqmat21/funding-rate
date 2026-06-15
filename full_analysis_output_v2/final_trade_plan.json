@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-15T14:45:47.943518+00:00",
+    "generated_at_utc": "2026-06-15T18:54:46.367254+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.516,
-        "trend": "bajista"
+        "price": 99.616,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.445,
+        "price": 4.471,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 15m",
+    "U.S. markets close in 1h 7m",
     "News from the Yahoo Finance Network",
+    "Elon Musk warns America will ‘1,000%’ go bankrupt. Now he’s the world’s 1st trillionaire",
     "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
     "Retirees With $1.2 Million in a 401(k) Face a Hidden Tax Bomb at 73: Here’s How to Avoid It",
-    "Social Security Is Scheduled to Run Out of Money Sooner Than Previously Expected, and President Trump Is Partly to Blame",
+    "Social Security Just Updated the Timeline Until Its Insolvency. Here's What Changed.",
     "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously",
-    "3 High-Yield Dividend Stocks to Buy Hand Over Fist in June",
-    "Costco’s dominance shows why its Pensacola debut matters"
+    "3 High-Yield Dividend Stocks to Buy Hand Over Fist in June"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66548.0078125,
-        "perp_last_price": 66548.0078125,
-        "mark_price": 66548.0078125,
-        "index_price": 66548.0078125,
+        "spot_price": 66810.953125,
+        "perp_last_price": 66810.953125,
+        "mark_price": 66810.953125,
+        "index_price": 66810.953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66548.0078125,
-        "stop_loss_technical": 63707.98828125,
-        "target_1": 70808.03710938,
-        "target_2": 75068.06640625,
+        "entry_ideal": 66806.140625,
+        "stop_loss_technical": 67254.75,
+        "target_1": 66133.2265625,
+        "target_2": 65460.3125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 66548.0078125,
+        "entry_ideal": 66810.953125,
         "stop_loss_technical": 61447.96875,
-        "target_1": 74198.06640625,
-        "target_2": 81848.125,
+        "target_1": 74855.4296875,
+        "target_2": 82899.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
