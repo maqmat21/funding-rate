@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-15T08:39:04.843555+00:00",
+    "generated_at_utc": "2026-06-15T14:45:47.943518+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.507,
+        "price": 99.516,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.487,
+        "price": 4.445,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 51m",
+    "U.S. markets close in 5h 15m",
     "News from the Yahoo Finance Network",
     "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
-    "CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?",
-    "What 1,000 Shares of This High-Yield Dividend Stock Pays You Every Year",
-    "Joe Rogan floored after Caleb Hammer says US boomers should have $2M-$5M saved — no sympathy if they don't. Is he right?",
     "Retirees With $1.2 Million in a 401(k) Face a Hidden Tax Bomb at 73: Here’s How to Avoid It",
-    "Dave Ramsey says most millionaires just copied the guy in the next cubicle — not debating the perfect portfolio"
+    "Social Security Is Scheduled to Run Out of Money Sooner Than Previously Expected, and President Trump Is Partly to Blame",
+    "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously",
+    "3 High-Yield Dividend Stocks to Buy Hand Over Fist in June",
+    "Costco’s dominance shows why its Pensacola debut matters"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65660.9375,
-        "perp_last_price": 65660.9375,
-        "mark_price": 65660.9375,
-        "index_price": 65660.9375,
+        "spot_price": 66548.0078125,
+        "perp_last_price": 66548.0078125,
+        "mark_price": 66548.0078125,
+        "index_price": 66548.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 65660.9375,
-        "stop_loss_technical": 64676.0234375,
-        "target_1": 67138.30859375,
-        "target_2": 68615.6796875,
+        "entry_ideal": 66548.0078125,
+        "stop_loss_technical": 63707.98828125,
+        "target_1": 70808.03710938,
+        "target_2": 75068.06640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 65660.9375,
+        "entry_ideal": 66548.0078125,
         "stop_loss_technical": 61447.96875,
-        "target_1": 71980.390625,
-        "target_2": 78299.84375,
+        "target_1": 74198.06640625,
+        "target_2": 81848.125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
