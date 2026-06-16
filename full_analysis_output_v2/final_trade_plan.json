@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-16T02:04:28.247050+00:00",
+    "generated_at_utc": "2026-06-16T07:37:17.628281+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.647,
+        "price": 99.691,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,50 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 5h 54m",
     "News from the Yahoo Finance Network",
     "Elon Musk warns America will ‘1,000%’ go bankrupt. Now he’s the world’s 1st trillionaire",
     "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American",
-    "Kiyosaki warns Americans are victims of a ‘slow, invisible heist’ they won’t notice until too late. Protect yourself now",
-    "Costco’s dominance shows why its Pensacola debut matters",
     "The Retiree Who Chose $65,000 Instead of $120,000 and Ended Up Richer",
     "3 High-Yield Dividend Stocks to Buy Hand Over Fist in June",
-    "‘It sounds like crazy’: Dave Ramsey warns not to sacrifice retirement for tithing. Build your wealth and give generously"
+    "Kiyosaki warns Americans are victims of a ‘slow, invisible heist’ they won’t notice until too late. Protect yourself now",
+    "Costco’s dominance shows why its Pensacola debut matters"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66312.71875,
-        "perp_last_price": 66312.71875,
-        "mark_price": 66312.71875,
-        "index_price": 66312.71875,
+        "spot_price": 66320.3125,
+        "perp_last_price": 66320.3125,
+        "mark_price": 66320.3125,
+        "index_price": 66320.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 66324.1015625,
+        "stop_loss_technical": 67254.7265625,
+        "target_1": 64928.1640625,
+        "target_2": 63532.2265625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 66318.671875,
-        "stop_loss_technical": 65466.0,
-        "target_1": 67597.6796875,
-        "target_2": 68876.6875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 66312.71875,
+        "entry_ideal": 66320.3125,
         "stop_loss_technical": 62778.79296875,
-        "target_1": 71613.60742188,
-        "target_2": 76914.49609375,
+        "target_1": 71632.59179688,
+        "target_2": 76944.87109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
