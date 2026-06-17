@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-17T22:23:03.442315+00:00",
+    "generated_at_utc": "2026-06-17T23:54:25.953549+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.388,
+        "price": 100.338,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,10 +23,10 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Popular Mexican chain closes nearly all U.S. restaurants leaving 5 locations",
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
     "McDonald's revives beloved menu item after 34 years",
-    "New Fed Chair Kevin Warsh Just Broke 14 Years of Precedent With A Controversial Move That Signals the Beginning of A New Regime",
     "Mark Cuban says your 401(k) is why billionaires get 'insanely rich' — and argues their wealth is building yours too",
-    "Why Beneficiary Designations Take Priority Over Your Will for Inheriting Accounts and Policies",
+    "New Fed Chair Kevin Warsh Just Broke 14 Years of Precedent With A Controversial Move That Signals the Beginning of A New Regime",
     "Chick-fil-A's reign is over. See who is now the top fast food chain",
     "'Go for it, Elon': Most Americans are OK with trillionaires — under one condition"
   ],
@@ -34,10 +34,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64145.171875,
-        "perp_last_price": 64145.171875,
-        "mark_price": 64145.171875,
-        "index_price": 64145.171875,
+        "spot_price": 64434.859375,
+        "perp_last_price": 64434.859375,
+        "mark_price": 64434.859375,
+        "index_price": 64434.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64145.171875,
-        "stop_loss_technical": 63182.99429687,
-        "target_1": 65588.43824219,
-        "target_2": 67031.70460937,
+        "entry_ideal": 64434.859375,
+        "stop_loss_technical": 63468.33648438,
+        "target_1": 65884.64371094,
+        "target_2": 67334.42804687,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64145.171875,
+        "entry_ideal": 64434.859375,
         "stop_loss_technical": 67248.1328125,
-        "target_1": 59490.73046875,
-        "target_2": 54836.2890625,
+        "target_1": 60214.94921875,
+        "target_2": 55995.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
