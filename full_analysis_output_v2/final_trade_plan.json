@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-17T20:30:49.074514+00:00",
+    "generated_at_utc": "2026-06-17T22:23:03.442315+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.425,
+        "price": 100.388,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Popular Mexican chain closes nearly all U.S. restaurants leaving 5 locations",
     "McDonald's revives beloved menu item after 34 years",
+    "New Fed Chair Kevin Warsh Just Broke 14 Years of Precedent With A Controversial Move That Signals the Beginning of A New Regime",
     "Mark Cuban says your 401(k) is why billionaires get 'insanely rich' — and argues their wealth is building yours too",
+    "Why Beneficiary Designations Take Priority Over Your Will for Inheriting Accounts and Policies",
     "Chick-fil-A's reign is over. See who is now the top fast food chain",
-    "McDonald’s (MCD) Brings Back Fried Apple Pie After More Than 30 Years",
-    "'Go for it, Elon': Most Americans are OK with trillionaires — under one condition",
-    "No Matter What Happens to the Market, These 3 Dividend Stocks Belong in Your Portfolio",
-    "You Can Now Invest in Alphabet With a 6% Dividend Yield, but There's a Catch"
+    "'Go for it, Elon': Most Americans are OK with trillionaires — under one condition"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64308.94921875,
-        "perp_last_price": 64308.94921875,
-        "mark_price": 64308.94921875,
-        "index_price": 64308.94921875,
+        "spot_price": 64145.171875,
+        "perp_last_price": 64145.171875,
+        "mark_price": 64145.171875,
+        "index_price": 64145.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64308.94921875,
-        "stop_loss_technical": 66370.421875,
-        "target_1": 61216.74023438,
-        "target_2": 58124.53125,
+        "entry_ideal": 64145.171875,
+        "stop_loss_technical": 63182.99429687,
+        "target_1": 65588.43824219,
+        "target_2": 67031.70460937,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64308.94921875,
+        "entry_ideal": 64145.171875,
         "stop_loss_technical": 67248.1328125,
-        "target_1": 59900.17382812,
-        "target_2": 55491.3984375,
+        "target_1": 59490.73046875,
+        "target_2": 54836.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
