@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-17T12:06:01.629161+00:00",
+    "generated_at_utc": "2026-06-17T15:58:34.284652+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.68,
+        "price": 99.672,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.428,
+        "price": 4.434,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 24m",
+    "U.S. markets close in 4h 2m",
     "News from the Yahoo Finance Network",
-    "States Where You Can Retire Without Paying State Taxes on Your Retirement Income",
-    "‘Social Security is on a collision course toward insolvency,’ watchdog says. It hasn’t been this bad since 1983",
-    "The man who lived through the fall of the Soviet Union and helped wealthy Chinese move to Canada sees a familiar picture in America",
-    "How Many Americans Wait for Full Retirement Age to Claim Social Security—and Why That Decision Affects Their Income",
-    "Caterpillar (CAT) Is Recasting Its Growth Story With A $63 Billion AI Backlog",
-    "Elon Musk warns America will ‘1,000%’ go bankrupt. Now he’s the world’s 1st trillionaire"
+    "McDonald's revives beloved menu item after 34 years",
+    "Mark Cuban says your 401(k) is why billionaires get 'insanely rich' — and argues their wealth is building yours too",
+    "SpaceX Stock Hit $2 Trillion on IPO Day. History Says a $10,000 Investment Will Be Worth This Much in a Year.",
+    "Chick-fil-A's reign is over. See who is now the top fast food chain",
+    "Bank of America takes firm position on inflation, economy",
+    "'Go for it, Elon': Most Americans are OK with trillionaires — under one condition"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64792.5,
-        "perp_last_price": 64792.5,
-        "mark_price": 64792.5,
-        "index_price": 64792.5,
+        "spot_price": 65679.5234375,
+        "perp_last_price": 65679.5234375,
+        "mark_price": 65679.5234375,
+        "index_price": 65679.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64777.9296875,
-        "stop_loss_technical": 64494.01953125,
-        "target_1": 65203.79492188,
-        "target_2": 65629.66015625,
+        "entry_ideal": 65677.9765625,
+        "stop_loss_technical": 64491.87890625,
+        "target_1": 67457.12304688,
+        "target_2": 69236.26953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64792.5,
-        "stop_loss_technical": 67248.1328125,
-        "target_1": 61109.05078125,
-        "target_2": 57425.6015625,
+        "entry_ideal": 65679.5234375,
+        "stop_loss_technical": 63431.3203125,
+        "target_1": 69051.828125,
+        "target_2": 72424.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
