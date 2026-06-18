@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-18T21:55:10.782948+00:00",
+    "generated_at_utc": "2026-06-18T23:27:23.489937+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.797,
+        "price": 100.814,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,10 +22,10 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How Much Could $1,000 in SpaceX Stock Be Worth in 3 Years?",
-    "Warren Buffett Has Recommended This 1 Investment for Decades. History Says He's Been Right Every Single Time.",
     "Prediction: These Will Be Micron's and Sandisk's Stock Prices by the End of 2027",
+    "Warren Buffett Has Recommended This 1 Investment for Decades. History Says He's Been Right Every Single Time.",
     "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
+    "2 Reasons Investors Should Not Short SpaceX Stock",
     "Popular Mexican chain closes nearly all U.S. restaurants leaving 5 locations",
     "'Go for it, Elon': Most Americans are OK with trillionaires — under one condition",
     "Why Own Rental Property When Dividend Income Can Pay You $10,000 a Month?"
@@ -34,26 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62848.671875,
-        "perp_last_price": 62848.671875,
-        "mark_price": 62848.671875,
-        "index_price": 62848.671875,
+        "spot_price": 62770.94140625,
+        "perp_last_price": 62770.94140625,
+        "mark_price": 62770.94140625,
+        "index_price": 62770.94140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62852.69140625,
-        "stop_loss_technical": 64701.4296875,
-        "target_1": 60079.58398438,
-        "target_2": 57306.4765625,
+        "entry_ideal": 62777.1484375,
+        "stop_loss_technical": 61835.49121094,
+        "target_1": 64189.63427734,
+        "target_2": 65602.12011719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62848.671875,
+        "entry_ideal": 62770.94140625,
         "stop_loss_technical": 67248.1328125,
-        "target_1": 56249.48046875,
-        "target_2": 49650.2890625,
+        "target_1": 56055.15429688,
+        "target_2": 49339.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
