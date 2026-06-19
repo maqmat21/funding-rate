@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-19T18:51:12.468994+00:00",
+    "generated_at_utc": "2026-06-19T20:23:08.334649+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,25 +23,40 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Dave Ramsey Surveyed 10,167 Wealthy Americans. This Career Produced the Most Millionaires.",
+    "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
+    "The $1 Million Retirement Mistake: Counting Income You’ll Never Get to Spend",
     "How Much You Need To Retire Comfortably in All 50 States, Based on Your Social Security Check",
+    "The Stock Market Is Doing Something Not Witnessed Since the Dot-Com Bubble. Here's What History Says Comes Next.",
     "Warren Buffett Has Recommended This 1 Investment for Decades. History Says He's Been Right Every Single Time.",
-    "Here's How Many Shares of Coca-Cola You'd Need to Buy for $1,000 in Yearly Dividends",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
-    "Everything Could Change for Micron Stock on June 24",
-    "Regional pizza chain closes final restaurant after 51 years"
+    "Here's How Many Shares of Coca-Cola You'd Need to Buy for $1,000 in Yearly Dividends"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63002.33984375,
-        "perp_last_price": 63002.33984375,
-        "mark_price": 63002.33984375,
-        "index_price": 63002.33984375,
+        "spot_price": 62938.03125,
+        "perp_last_price": 62938.03125,
+        "mark_price": 62938.03125,
+        "index_price": 62938.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 62938.01953125,
+        "stop_loss_technical": 63344.01171875,
+        "target_1": 62329.03125,
+        "target_2": 61720.04296875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,24 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62997.76171875,
-        "stop_loss_technical": 63344.01171875,
-        "target_1": 62478.38671875,
-        "target_2": 61959.01171875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 63002.33984375,
-        "stop_loss_technical": 62057.30474609,
-        "target_1": 64419.89249023,
-        "target_2": 65837.44513672,
+        "entry_ideal": 62938.03125,
+        "stop_loss_technical": 67248.1328125,
+        "target_1": 56472.87890625,
+        "target_2": 50007.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
