@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-19T16:57:57.096230+00:00",
+    "generated_at_utc": "2026-06-19T18:51:12.468994+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Dave Ramsey Surveyed 10,167 Wealthy Americans. This Career Produced the Most Millionaires.",
     "How Much You Need To Retire Comfortably in All 50 States, Based on Your Social Security Check",
     "Warren Buffett Has Recommended This 1 Investment for Decades. History Says He's Been Right Every Single Time.",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
-    "Ask an Advisor: We're in Our 70s With $3.5 Million in Stocks. Should We Move to a 60/40 Portfolio?",
     "Here's How Many Shares of Coca-Cola You'd Need to Buy for $1,000 in Yearly Dividends",
-    "RFK Jr. Recommends Social Security Immediately “Reduce Scheduled Benefits by 25.2%” as Insolvency Looms",
-    "Billionaire Mark Cuban Says To Get Rich, You Need Cash And Discipline — Save Every Penny, Drink Water, Eat Mac & Cheese, And Cut Up Your Credit Cards"
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
+    "Everything Could Change for Micron Stock on June 24",
+    "Regional pizza chain closes final restaurant after 51 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62949.96875,
-        "perp_last_price": 62949.96875,
-        "mark_price": 62949.96875,
-        "index_price": 62949.96875,
+        "spot_price": 63002.33984375,
+        "perp_last_price": 63002.33984375,
+        "mark_price": 63002.33984375,
+        "index_price": 63002.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62949.96875,
+        "entry_ideal": 62997.76171875,
         "stop_loss_technical": 63344.01171875,
-        "target_1": 62358.90429688,
-        "target_2": 61767.83984375,
+        "target_1": 62478.38671875,
+        "target_2": 61959.01171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62949.96875,
-        "stop_loss_technical": 62005.71921875,
-        "target_1": 64366.34304688,
-        "target_2": 65782.71734375,
+        "entry_ideal": 63002.33984375,
+        "stop_loss_technical": 62057.30474609,
+        "target_1": 64419.89249023,
+        "target_2": 65837.44513672,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
