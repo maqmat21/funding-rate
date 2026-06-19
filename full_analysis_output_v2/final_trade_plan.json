@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-19T07:29:21.639448+00:00",
+    "generated_at_utc": "2026-06-19T11:47:40.672846+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "How Much You Need To Retire Comfortably in All 50 States, Based on Your Social Security Check",
+    "Adam Carolla’s stark message to US renters who don’t own property: ‘You’re not really completely invested in America’",
     "RFK Jr. Recommends Social Security Immediately “Reduce Scheduled Benefits by 25.2%” as Insolvency Looms",
     "Warren Buffett Has Recommended This 1 Investment for Decades. History Says He's Been Right Every Single Time.",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
-    "Should You Buy SpaceX Stock After Its IPO Pop? History Offers a Clear Answer.",
-    "Abu Dhabi Tells Buyers to Load Oil Shipments Inside Hormuz",
-    "Elon Musk Says Dollars Will Be Replaced By 'Mass & Energy,' Reaffirms Lunar Factories, Mass Drivers For AI Goals",
-    "'Go for it, Elon': Most Americans are OK with trillionaires — under one condition"
+    "Did Congress Steal Trillions From Social Security's Trust Funds? The Data Tells the Irrefutable Truth.",
+    "SpaceX Has a Rapidly Approaching $20 Billion Surprise for Its Shareholders -- and They're Not Going to Be Happy",
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62685.859375,
-        "perp_last_price": 62685.859375,
-        "mark_price": 62685.859375,
-        "index_price": 62685.859375,
+        "spot_price": 62616.8984375,
+        "perp_last_price": 62616.8984375,
+        "mark_price": 62616.8984375,
+        "index_price": 62616.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62662.33984375,
-        "stop_loss_technical": 64375.71875,
-        "target_1": 60092.27148438,
-        "target_2": 57522.203125,
+        "entry_ideal": 62616.8984375,
+        "stop_loss_technical": 61677.64496094,
+        "target_1": 64025.77865234,
+        "target_2": 65434.65886719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62685.859375,
+        "entry_ideal": 62616.8984375,
         "stop_loss_technical": 67248.1328125,
-        "target_1": 55842.44921875,
-        "target_2": 48999.0390625,
+        "target_1": 55670.046875,
+        "target_2": 48723.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
