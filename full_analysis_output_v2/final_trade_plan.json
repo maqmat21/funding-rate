@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-20T01:52:03.542839+00:00",
+    "generated_at_utc": "2026-06-20T06:08:24.734392+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
+    "3 \"Magnificent Seven\" Stocks to Buy and Hold Right Now",
     "Dave Ramsey Surveyed 10,167 Wealthy Americans. This Career Produced the Most Millionaires.",
     "Warren Buffett Has Recommended This 1 Investment for Decades. History Says He's Been Right Every Single Time.",
-    "Here's How Many Shares of Coca-Cola You'd Need to Buy for $1,000 in Yearly Dividends",
-    "Billionaire Mark Cuban Says To Get Rich, You Need Cash And Discipline — Save Every Penny, Drink Water, Eat Mac & Cheese, And Cut Up Your Credit Cards",
     "How Much You Need To Retire Comfortably in All 50 States, Based on Your Social Security Check",
-    "3 Simple ETFs to Buy With $1,000 and Hold for a Lifetime"
+    "Here's How Many Shares of Coca-Cola You'd Need to Buy for $1,000 in Yearly Dividends",
+    "Billionaire Mark Cuban Says To Get Rich, You Need Cash And Discipline — Save Every Penny, Drink Water, Eat Mac & Cheese, And Cut Up Your Credit Cards"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63518.5,
-        "perp_last_price": 63518.5,
-        "mark_price": 63518.5,
-        "index_price": 63518.5,
+        "spot_price": 63608.19140625,
+        "perp_last_price": 63608.19140625,
+        "mark_price": 63608.19140625,
+        "index_price": 63608.19140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63518.5,
-        "stop_loss_technical": 62565.7225,
-        "target_1": 64947.66625,
-        "target_2": 66376.8325,
+        "entry_ideal": 63608.19140625,
+        "stop_loss_technical": 63811.80078125,
+        "target_1": 63302.77734375,
+        "target_2": 62997.36328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63518.5,
-        "stop_loss_technical": 62565.7225,
-        "target_1": 64947.66625,
-        "target_2": 66376.8325,
+        "entry_ideal": 63608.19140625,
+        "stop_loss_technical": 62654.06853516,
+        "target_1": 65039.37571289,
+        "target_2": 66470.56001953,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
