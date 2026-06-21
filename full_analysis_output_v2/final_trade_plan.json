@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-21T05:20:19.783495+00:00",
+    "generated_at_utc": "2026-06-21T09:04:13.516091+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,50 +25,48 @@
     "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Millions of Apple users losing access to Microsoft Office",
-    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'",
-    "Where Will Micron Technology Be in 5 Years?",
     "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
-    "Dave Ramsey Surveyed 10,167 Wealthy Americans. This Career Produced the Most Millionaires."
+    "Elon Musk has blunt proposal for U.S. Treasury",
+    "Want to Retire on $500,000? 3 Stocks to Buy and Never Sell",
+    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64160.08984375,
-        "perp_last_price": 64160.08984375,
-        "mark_price": 64160.08984375,
-        "index_price": 64160.08984375,
+        "spot_price": 63925.2109375,
+        "perp_last_price": 63925.2109375,
+        "mark_price": 63925.2109375,
+        "index_price": 63925.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 64142.44140625,
-        "stop_loss_technical": 64492.19140625,
-        "target_1": 63617.81640625,
-        "target_2": 63093.19140625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64160.08984375,
-        "stop_loss_technical": 63197.68849609,
-        "target_1": 65603.69186523,
-        "target_2": 67047.29388672,
+        "entry_ideal": 63925.2109375,
+        "stop_loss_technical": 62966.33277344,
+        "target_1": 65363.52818359,
+        "target_2": 66801.84542969,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 63925.2109375,
+        "stop_loss_technical": 66354.625,
+        "target_1": 60281.08984375,
+        "target_2": 56636.96875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
