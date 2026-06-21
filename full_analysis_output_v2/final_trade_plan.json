@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-21T18:19:06.386353+00:00",
+    "generated_at_utc": "2026-06-21T20:06:10.082933+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Discontinued Pepsi soda brand quietly returns to stores",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
     "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
+    "Robert Kiyosaki makes stunning prediction on gold and silver prices",
+    "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
     "Millions of Apple users losing access to Microsoft Office",
-    "The 'magic number' for a comfortable retirement just got bigger",
-    "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
-    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'"
+    "Think a Roth IRA Is Your Best Bet for Retirement Savings? Here's Why It Could Backfire."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63940.1484375,
-        "perp_last_price": 63940.1484375,
-        "mark_price": 63940.1484375,
-        "index_price": 63940.1484375,
+        "spot_price": 64174.0,
+        "perp_last_price": 64174.0,
+        "mark_price": 64174.0,
+        "index_price": 64174.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63940.1484375,
-        "stop_loss_technical": 64500.3515625,
-        "target_1": 63099.84375,
-        "target_2": 62259.5390625,
+        "entry_ideal": 64174.0,
+        "stop_loss_technical": 63211.39,
+        "target_1": 65617.915,
+        "target_2": 67061.83,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63940.1484375,
-        "stop_loss_technical": 66354.625,
-        "target_1": 60318.43359375,
-        "target_2": 56696.71875,
+        "entry_ideal": 64174.0,
+        "stop_loss_technical": 63211.39,
+        "target_1": 65617.915,
+        "target_2": 67061.83,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
