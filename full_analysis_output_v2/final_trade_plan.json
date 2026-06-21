@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-21T13:26:55.190799+00:00",
+    "generated_at_utc": "2026-06-21T15:21:14.550619+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The 'magic number' for a comfortable retirement just got bigger",
+    "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
     "Millions of Apple users losing access to Microsoft Office",
-    "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
-    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'",
-    "Prediction: Here's How Much SpaceX Will Be Worth by the End of 2026"
+    "The 'magic number' for a comfortable retirement just got bigger",
+    "Millennials are buying $7M to $25M homes — and their boomer parents' tax-free gifts are fueling the spree",
+    "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64060.578125,
-        "perp_last_price": 64060.578125,
-        "mark_price": 64060.578125,
-        "index_price": 64060.578125,
+        "spot_price": 64117.44921875,
+        "perp_last_price": 64117.44921875,
+        "mark_price": 64117.44921875,
+        "index_price": 64117.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64060.578125,
-        "stop_loss_technical": 63099.66945313,
-        "target_1": 65501.94113281,
-        "target_2": 66943.30414062,
+        "entry_ideal": 64116.390625,
+        "stop_loss_technical": 63154.64476563,
+        "target_1": 65559.00941406,
+        "target_2": 67001.62820313,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64060.578125,
-        "stop_loss_technical": 63099.66945313,
-        "target_1": 65501.94113281,
-        "target_2": 66943.30414062,
+        "entry_ideal": 64117.44921875,
+        "stop_loss_technical": 63155.68748047,
+        "target_1": 65560.09182617,
+        "target_2": 67002.73443359,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
