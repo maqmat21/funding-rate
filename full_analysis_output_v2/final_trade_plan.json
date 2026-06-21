@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-21T16:59:10.173871+00:00",
+    "generated_at_utc": "2026-06-21T18:19:06.386353+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,26 +22,41 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
-    "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
+    "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
     "Millions of Apple users losing access to Microsoft Office",
     "The 'magic number' for a comfortable retirement just got bigger",
-    "Millennials are buying $7M to $25M homes — and their boomer parents' tax-free gifts are fueling the spree",
-    "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today"
+    "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
+    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64059.80859375,
-        "perp_last_price": 64059.80859375,
-        "mark_price": 64059.80859375,
-        "index_price": 64059.80859375,
+        "spot_price": 63940.1484375,
+        "perp_last_price": 63940.1484375,
+        "mark_price": 63940.1484375,
+        "index_price": 63940.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 63940.1484375,
+        "stop_loss_technical": 64500.3515625,
+        "target_1": 63099.84375,
+        "target_2": 62259.5390625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,24 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64059.80859375,
-        "stop_loss_technical": 64500.3515625,
-        "target_1": 63398.99414062,
-        "target_2": 62738.1796875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 64059.80859375,
-        "stop_loss_technical": 63098.91146484,
-        "target_1": 65501.15428711,
-        "target_2": 66942.49998047,
+        "entry_ideal": 63940.1484375,
+        "stop_loss_technical": 66354.625,
+        "target_1": 60318.43359375,
+        "target_2": 56696.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
