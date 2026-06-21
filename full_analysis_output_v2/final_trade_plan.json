@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-21T11:50:10.395315+00:00",
+    "generated_at_utc": "2026-06-21T13:26:55.190799+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Millions of Apple users losing access to Microsoft Office",
     "The 'magic number' for a comfortable retirement just got bigger",
+    "Millions of Apple users losing access to Microsoft Office",
     "If You'd Invested $10,000 in Tesla 10 Years Ago, Here's How Much You'd Have Today",
-    "Prediction: Here's How Much SpaceX Will Be Worth by the End of 2026",
-    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'"
+    "This 23-year-old put his entire $450K inheritance in a CD. Dave Ramsey's advice: 'Pretend like you don't have it'",
+    "Prediction: Here's How Much SpaceX Will Be Worth by the End of 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64197.01953125,
-        "perp_last_price": 64197.01953125,
-        "mark_price": 64197.01953125,
-        "index_price": 64197.01953125,
+        "spot_price": 64060.578125,
+        "perp_last_price": 64060.578125,
+        "mark_price": 64060.578125,
+        "index_price": 64060.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64146.87890625,
-        "stop_loss_technical": 64500.3515625,
-        "target_1": 63616.66992188,
-        "target_2": 63086.4609375,
+        "entry_ideal": 64060.578125,
+        "stop_loss_technical": 63099.66945313,
+        "target_1": 65501.94113281,
+        "target_2": 66943.30414062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +61,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64197.01953125,
-        "stop_loss_technical": 63234.06423828,
-        "target_1": 65641.4524707,
-        "target_2": 67085.88541016,
+        "entry_ideal": 64060.578125,
+        "stop_loss_technical": 63099.66945313,
+        "target_1": 65501.94113281,
+        "target_2": 66943.30414062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
