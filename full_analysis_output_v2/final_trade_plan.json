@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-22T09:32:45.355156+00:00",
+    "generated_at_utc": "2026-06-22T15:06:57.873090+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.878,
+        "price": 100.876,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.451,
+        "price": 4.495,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 59m",
+    "U.S. markets close in 4h 54m",
     "News from the Yahoo Finance Network",
-    "Mark Cuban Says the Stock Market Makes Guys Like Elon Musk ‘Insanely Rich’ — But Eliminating Billionaires Would Trigger the ‘Worst Depression’ Ever Seen",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Prediction: Micron Stock Will Skyrocket After June 24",
+    "Alan Greenspan, who steered the Federal Reserve through both boom and crisis, dies at 100",
+    "Silver price predictions: What to expect over the next 10 years",
     "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
-    "Dear Microsoft Stock Fans, Mark Your Calendars for June 30",
-    "Eos Energy vs. Plug Power: One Clean Energy Stock Looks Compelling Right Now"
+    "iPhone 18 Pro Release Date: Apple Freezes Out Android Competition",
+    "Dave Ramsey Has a One Word Strategy for Big Roth Conversions and It Quietly Saves Retirees Six Figures in Lifetime Tax"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64046.01953125,
-        "perp_last_price": 64046.01953125,
-        "mark_price": 64046.01953125,
-        "index_price": 64046.01953125,
+        "spot_price": 64857.44140625,
+        "perp_last_price": 64857.44140625,
+        "mark_price": 64857.44140625,
+        "index_price": 64857.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,10 +50,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64046.01953125,
-        "stop_loss_technical": 64697.3203125,
-        "target_1": 63069.06835938,
-        "target_2": 62092.1171875,
+        "entry_ideal": 64857.44140625,
+        "stop_loss_technical": 65550.0,
+        "target_1": 63818.60351562,
+        "target_2": 62779.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64046.01953125,
-        "stop_loss_technical": 63085.32923828,
-        "target_1": 65487.0549707,
-        "target_2": 66928.09041016,
+        "entry_ideal": 64857.44140625,
+        "stop_loss_technical": 63884.57978516,
+        "target_1": 66316.73383789,
+        "target_2": 67776.02626953,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
