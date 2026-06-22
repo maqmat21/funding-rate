@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-22T21:27:11.776038+00:00",
+    "generated_at_utc": "2026-06-22T22:59:17.257391+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.999,
+        "price": 100.996,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Mark Cuban doubles down on the stock market and Elon Musk",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Mark Cuban doubles down on the stock market and Elon Musk",
+    "PSLF in 2026: What's new and what to do if you're in SAVE",
     "Silver price predictions: What to expect over the next 10 years",
     "Warning: The S&P 500 Could Be on the Verge of Doing Something for the First Time in 155 Years, and It's Not Good News for Investors",
-    "IBM shares pop following Trump’s praise at White House quantum summit",
     "Trump’s new standard deduction for 65+ Americans will benefit the rich — unless you prepare yourself now",
-    "Discontinued Pepsi soda brand quietly returns to stores"
+    "Elon Musk to get a billion shares of SpaceX if he can settle a million humans on Mars"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64233.83984375,
-        "perp_last_price": 64233.83984375,
-        "mark_price": 64233.83984375,
-        "index_price": 64233.83984375,
+        "spot_price": 63901.51171875,
+        "perp_last_price": 63901.51171875,
+        "mark_price": 63901.51171875,
+        "index_price": 63901.51171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64233.83984375,
-        "stop_loss_technical": 65549.9375,
-        "target_1": 62259.69335938,
-        "target_2": 60285.546875,
+        "entry_ideal": 63890.0,
+        "stop_loss_technical": 65550.0,
+        "target_1": 61400.0,
+        "target_2": 58910.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64233.83984375,
-        "stop_loss_technical": 65549.9375,
-        "target_1": 62259.69335938,
-        "target_2": 60285.546875,
+        "entry_ideal": 63901.51171875,
+        "stop_loss_technical": 65550.0,
+        "target_1": 61428.77929688,
+        "target_2": 58956.046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
