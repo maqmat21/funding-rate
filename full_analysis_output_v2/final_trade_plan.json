@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-24T19:00:57.358199+00:00",
+    "generated_at_utc": "2026-06-24T20:53:04.750966+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.604,
+        "price": 101.574,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Had You Parked $10,000 in This Vanguard ETF When Warren Buffett Recommended It in 2014, Here's How Much You'd Have Today",
+    "Delta Air Lines Has Big Plans for the Future",
+    "Micron's blowout earnings just reset the AI memory trade",
     "Ashley St. Clair says she rejected Elon Musk's $40M NDA offer: 'I would rather go to a studio apartment'",
+    "Retirees face a new challenge: How to spend their 401(k) savings",
+    "Vanguard S&P 500 Growth ETF vs iShares Russell 2000 Growth ETF: Which Growth Stock Fund Is the Better Buy?",
     "Tim Cook issues chilling warning as ‘hundred-year-flood’ strikes US tech giants like Apple, Dell, HP. Get protection now",
-    "Trump abruptly halts housing affordability legislation, holds bill hostage in effort to pass voter ID law",
-    "Jeff Bezos-backed Slate reveals $24,950 starting price for EV pickup, making it the cheapest truck in America",
-    "The Dividend Portfolio That Starts Like A Honda And Ends Like A Ferrari",
-    "Should You Buy NRG Energy, Inc. (NRG)’s Shares?"
+    "Jeff Bezos-backed Slate reveals $24,950 starting price for EV pickup, making it the cheapest truck in America"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59555.08984375,
-        "perp_last_price": 59555.08984375,
-        "mark_price": 59555.08984375,
-        "index_price": 59555.08984375,
+        "spot_price": 61047.3984375,
+        "perp_last_price": 61047.3984375,
+        "mark_price": 61047.3984375,
+        "index_price": 61047.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 59555.08984375,
+        "entry_ideal": 61058.171875,
         "stop_loss_technical": 59022.7890625,
-        "target_1": 60353.54101562,
-        "target_2": 61151.9921875,
+        "target_1": 64111.24609375,
+        "target_2": 67164.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 59555.08984375,
+        "entry_ideal": 61047.3984375,
         "stop_loss_technical": 65544.0,
-        "target_1": 50571.72460938,
-        "target_2": 41588.359375,
+        "target_1": 54302.49609375,
+        "target_2": 47557.59375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
