@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-24T02:01:09.534622+00:00",
+    "generated_at_utc": "2026-06-24T06:14:26.066480+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.413,
+        "price": 101.464,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 16m",
     "News from the Yahoo Finance Network",
     "Had You Parked $10,000 in This Vanguard ETF When Warren Buffett Recommended It in 2014, Here's How Much You'd Have Today",
-    "Bank of America strongly resets Micron stock price target",
     "Mark Cuban doubles down on the stock market and Elon Musk",
-    "A Social Security Benefits Cut Seems Inevitable. Here Is When It Could Possibly Happen.",
-    "Gates Told Congress Epstein Considered Blackmail Over Affairs",
     "Trump’s new standard deduction for 65+ Americans will benefit the rich — unless you prepare yourself now",
-    "Ashley St. Clair says she rejected Elon Musk's $40M NDA offer: 'I would rather go to a studio apartment'"
+    "Bank of America strongly resets Micron stock price target",
+    "Ashley St. Clair says she rejected Elon Musk's $40M NDA offer: 'I would rather go to a studio apartment'",
+    "The Dow Jones Industrial Average Will Change Forever on June 29, With Verizon Getting the Boot and a Virtual Monopoly Joining the Index"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62850.0,
-        "perp_last_price": 62850.0,
-        "mark_price": 62850.0,
-        "index_price": 62850.0,
+        "spot_price": 62745.48828125,
+        "perp_last_price": 62745.48828125,
+        "mark_price": 62745.48828125,
+        "index_price": 62745.48828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,10 +49,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62850.0,
-        "stop_loss_technical": 63317.48828125,
-        "target_1": 62148.76757812,
-        "target_2": 61447.53515625,
+        "entry_ideal": 62745.48828125,
+        "stop_loss_technical": 63032.390625,
+        "target_1": 62315.13476562,
+        "target_2": 61884.78125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62850.0,
-        "stop_loss_technical": 61907.25,
-        "target_1": 64264.125,
-        "target_2": 65678.25,
+        "entry_ideal": 62745.48828125,
+        "stop_loss_technical": 61804.30595703,
+        "target_1": 64157.26176758,
+        "target_2": 65569.03525391,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
