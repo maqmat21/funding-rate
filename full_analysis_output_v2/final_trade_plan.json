@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-24T09:51:00.119563+00:00",
+    "generated_at_utc": "2026-06-24T12:12:38.401252+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.616,
+        "price": 101.631,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 40m",
+    "U.S. markets open in 1h 19m",
     "News from the Yahoo Finance Network",
     "Had You Parked $10,000 in This Vanguard ETF When Warren Buffett Recommended It in 2014, Here's How Much You'd Have Today",
     "Mark Cuban doubles down on the stock market and Elon Musk",
-    "Should Investors Choose IonQ Over a More Established Quantum Computing Stock?",
     "Move Over, Coca-Cola: Warren Buffett's Successor, Greg Abel, Has a New No. 3 Holding at Berkshire Hathaway",
     "Ashley St. Clair says she rejected Elon Musk's $40M NDA offer: 'I would rather go to a studio apartment'",
-    "Here are the 10 wealthiest suburbs in America"
+    "Bitcoin Is Down 48% From Its All-Time High. Here's What History Says Happens Next",
+    "SpaceX Will Swallow Nearly the Entire U.S. Economy, According to Elon Musk"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62594.0,
-        "perp_last_price": 62594.0,
-        "mark_price": 62594.0,
-        "index_price": 62594.0,
+        "spot_price": 62785.80078125,
+        "perp_last_price": 62785.80078125,
+        "mark_price": 62785.80078125,
+        "index_price": 62785.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62594.0,
-        "stop_loss_technical": 63032.390625,
-        "target_1": 61936.4140625,
-        "target_2": 61278.828125,
+        "entry_ideal": 62775.91015625,
+        "stop_loss_technical": 61834.27150391,
+        "target_1": 64188.36813477,
+        "target_2": 65600.82611328,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62594.0,
-        "stop_loss_technical": 65544.0,
-        "target_1": 58169.0,
-        "target_2": 53744.0,
+        "entry_ideal": 62785.80078125,
+        "stop_loss_technical": 61844.01376953,
+        "target_1": 64198.48129883,
+        "target_2": 65611.16181641,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
