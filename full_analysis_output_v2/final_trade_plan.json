@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-25T13:31:30.328939+00:00",
+    "generated_at_utc": "2026-06-25T16:05:38.270183+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.547,
+        "price": 101.376,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.388,
+        "price": 4.38,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 29m",
+    "U.S. markets close in 3h 56m",
     "News from the Yahoo Finance Network",
     "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
-    "Tesla to hire an additional 1,000 workers at its only European plant",
     "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
-    "Is college worth it? Here are the majors that pay off.",
+    "Retirees face a new challenge: How to spend their 401(k) savings",
     "SpaceX Stock Is Down 23% From Its Post-IPO High. History Says This Will Happen Next. (Hint: It's a Big Move.)",
-    "MacKenzie Scott alone accounted for one-third of America’s $19.2 billion in megagifts last year"
+    "Ferrari marketing chief ousted after launching car that looks like a Nissan",
+    "RFK Jr. Recommends Immediately Hiking Taxes as Much as $7,841 to Close Social Security’s “Unfunded Obligation” Gap"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60938.0,
-        "perp_last_price": 60938.0,
-        "mark_price": 60938.0,
-        "index_price": 60938.0,
+        "spot_price": 59422.1484375,
+        "perp_last_price": 59422.1484375,
+        "mark_price": 59422.1484375,
+        "index_price": 59422.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60938.0,
-        "stop_loss_technical": 60023.93,
-        "target_1": 62309.105,
-        "target_2": 63680.21,
+        "entry_ideal": 59422.1484375,
+        "stop_loss_technical": 58026.0,
+        "target_1": 61516.37109375,
+        "target_2": 63610.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60938.0,
-        "stop_loss_technical": 60023.93,
-        "target_1": 62309.105,
-        "target_2": 63680.21,
+        "entry_ideal": 59422.1484375,
+        "stop_loss_technical": 58530.81621094,
+        "target_1": 60759.14677734,
+        "target_2": 62096.14511719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
