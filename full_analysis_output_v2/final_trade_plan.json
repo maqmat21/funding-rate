@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-25T16:05:38.270183+00:00",
+    "generated_at_utc": "2026-06-25T18:21:31.873969+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.376,
+        "price": 101.412,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.38,
+        "price": 4.398,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 56m",
+    "U.S. markets close in 1h 40m",
     "News from the Yahoo Finance Network",
+    "US Supreme Court hands win to Bayer in weedkiller litigation",
     "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
     "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
+    "Nvidia CEO sends serious wake up call to all Americans",
     "Retirees face a new challenge: How to spend their 401(k) savings",
-    "SpaceX Stock Is Down 23% From Its Post-IPO High. History Says This Will Happen Next. (Hint: It's a Big Move.)",
-    "Ferrari marketing chief ousted after launching car that looks like a Nissan",
-    "RFK Jr. Recommends Immediately Hiking Taxes as Much as $7,841 to Close Social Security’s “Unfunded Obligation” Gap"
+    "He Moved His Cash Into 4% Treasury Bills for Safe Income. The Interest Pulled More of His Social Security Into the Tax Torpedo."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59422.1484375,
-        "perp_last_price": 59422.1484375,
-        "mark_price": 59422.1484375,
-        "index_price": 59422.1484375,
+        "spot_price": 59529.01171875,
+        "perp_last_price": 59529.01171875,
+        "mark_price": 59529.01171875,
+        "index_price": 59529.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59422.1484375,
-        "stop_loss_technical": 58026.0,
-        "target_1": 61516.37109375,
-        "target_2": 63610.59375,
+        "entry_ideal": 59513.8984375,
+        "stop_loss_technical": 58029.5390625,
+        "target_1": 61740.4375,
+        "target_2": 63966.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59422.1484375,
-        "stop_loss_technical": 58530.81621094,
-        "target_1": 60759.14677734,
-        "target_2": 62096.14511719,
+        "entry_ideal": 59529.01171875,
+        "stop_loss_technical": 58636.07654297,
+        "target_1": 60868.41448242,
+        "target_2": 62207.81724609,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
