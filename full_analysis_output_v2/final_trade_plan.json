@@ -1,70 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-25T11:18:22.105204+00:00",
+    "generated_at_utc": "2026-06-25T13:31:30.328939+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.671,
-        "trend": "alcista"
+        "price": 101.547,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.402,
+        "price": 4.388,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 12m",
+    "U.S. markets close in 6h 29m",
     "News from the Yahoo Finance Network",
-    "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
-    "MacKenzie Scott alone accounted for one-third of America’s $19.2 billion in megagifts last year",
-    "SpaceX Stock Is Down 23% From Its Post-IPO High. History Says This Will Happen Next. (Hint: It's a Big Move.)",
-    "Is college worth it? Here are the majors that pay off.",
     "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
-    "If You Crave Dividends, This Tasty Dividend Stock Is a Buy at New 52-Week Lows"
+    "Tesla to hire an additional 1,000 workers at its only European plant",
+    "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
+    "Is college worth it? Here are the majors that pay off.",
+    "SpaceX Stock Is Down 23% From Its Post-IPO High. History Says This Will Happen Next. (Hint: It's a Big Move.)",
+    "MacKenzie Scott alone accounted for one-third of America’s $19.2 billion in megagifts last year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61218.16015625,
-        "perp_last_price": 61218.16015625,
-        "mark_price": 61218.16015625,
-        "index_price": 61218.16015625,
+        "spot_price": 60938.0,
+        "perp_last_price": 60938.0,
+        "mark_price": 60938.0,
+        "index_price": 60938.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 61222.9609375,
-        "stop_loss_technical": 59022.7890625,
-        "target_1": 64523.21875,
-        "target_2": 67823.4765625,
+        "entry_ideal": 60938.0,
+        "stop_loss_technical": 60023.93,
+        "target_1": 62309.105,
+        "target_2": 63680.21,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 61218.16015625,
-        "stop_loss_technical": 65544.0,
-        "target_1": 54729.40039062,
-        "target_2": 48240.640625,
+        "entry_ideal": 60938.0,
+        "stop_loss_technical": 60023.93,
+        "target_1": 62309.105,
+        "target_2": 63680.21,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
