@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-26T15:54:57.841662+00:00",
+    "generated_at_utc": "2026-06-26T17:27:52.450598+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.209,
-        "trend": "bajista"
+        "price": 101.321,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.367,
+        "price": 4.375,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 6m",
+    "U.S. markets close in 2h 33m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
+    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
+    "SpaceX volatility just entered ordinary 401(k)s",
     "105-year-old burger chain closes one of its oldest restaurants",
     "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
     "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
-    "Jeremy Grantham Warns U.S. Stocks Could Plunge 70% in the Most Expensive Market in History",
-    "Mark Cuban Says There Are Some ‘Greedy Blood-Sucking Business People That Will Do Anything for a Dollar’ But ‘Eat the Rich’ Only Helps Politicians"
+    "Netflix Stock Plunges 45% From Peak, Hit Worst Technical Level in Four Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60177.9609375,
-        "perp_last_price": 60177.9609375,
-        "mark_price": 60177.9609375,
-        "index_price": 60177.9609375,
+        "spot_price": 60135.12109375,
+        "perp_last_price": 60135.12109375,
+        "mark_price": 60135.12109375,
+        "index_price": 60135.12109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 60177.9609375,
-        "stop_loss_technical": 58254.26953125,
-        "target_1": 63063.49804688,
-        "target_2": 65949.03515625,
+        "entry_ideal": 60138.0390625,
+        "stop_loss_technical": 58251.0,
+        "target_1": 62968.59765625,
+        "target_2": 65799.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 60177.9609375,
+        "entry_ideal": 60135.12109375,
         "stop_loss_technical": 58075.921875,
-        "target_1": 63331.01953125,
-        "target_2": 66484.078125,
+        "target_1": 63223.91992188,
+        "target_2": 66312.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
