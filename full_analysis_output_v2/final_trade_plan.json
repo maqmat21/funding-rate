@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-26T13:34:07.763601+00:00",
+    "generated_at_utc": "2026-06-26T15:54:57.841662+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.104,
+        "price": 101.209,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.41,
+        "price": 4.367,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 27m",
+    "U.S. markets close in 4h 6m",
     "News from the Yahoo Finance Network",
-    "AMC (NYSE:AMC) Raises $200 Million To Tackle Debt And Fund Corporate Plans",
-    "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
     "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
     "105-year-old burger chain closes one of its oldest restaurants",
     "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
+    "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
+    "Jeremy Grantham Warns U.S. Stocks Could Plunge 70% in the Most Expensive Market in History",
     "Mark Cuban Says There Are Some ‘Greedy Blood-Sucking Business People That Will Do Anything for a Dollar’ But ‘Eat the Rich’ Only Helps Politicians"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58758.9296875,
-        "perp_last_price": 58758.9296875,
-        "mark_price": 58758.9296875,
-        "index_price": 58758.9296875,
+        "spot_price": 60177.9609375,
+        "perp_last_price": 60177.9609375,
+        "mark_price": 60177.9609375,
+        "index_price": 60177.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 58776.01953125,
-        "stop_loss_technical": 57894.37923828,
-        "target_1": 60098.4799707,
-        "target_2": 61420.94041016,
+        "entry_ideal": 60177.9609375,
+        "stop_loss_technical": 58254.26953125,
+        "target_1": 63063.49804688,
+        "target_2": 65949.03515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 58758.9296875,
-        "stop_loss_technical": 57877.54574219,
-        "target_1": 60081.00560547,
-        "target_2": 61403.08152344,
+        "entry_ideal": 60177.9609375,
+        "stop_loss_technical": 58075.921875,
+        "target_1": 63331.01953125,
+        "target_2": 66484.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
