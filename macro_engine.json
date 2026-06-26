@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-06-26T11:32:36.299207+00:00",
+    "timestamp": "2026-06-26T13:34:05.663379+00:00",
     "macro_bias": "RISK_ON",
-    "macro_score": 30,
+    "macro_score": 20,
     "dxy": {
-        "price": 101.201,
-        "ema20": 101.2096,
-        "ema50": 101.2459,
+        "price": 101.105,
+        "ema20": 101.1668,
+        "ema50": 101.2065,
         "ema_trend": "bajista",
-        "structure_1h": "alcista",
+        "structure_1h": "neutral",
         "structure_4h": "bajista",
-        "momentum_slope": 0.000514,
-        "momentum_state": "alcista",
+        "momentum_slope": -0.012024,
+        "momentum_state": "bajista",
         "breakout_24h": "none",
-        "state_summary": "posible_reversion"
+        "state_summary": "rango_lateral"
     },
     "us10y": {
-        "price": 4.392,
-        "direction_1h": "cayendo",
-        "momentum_state": "bajista"
+        "price": 4.41,
+        "direction_1h": "subiendo",
+        "momentum_state": "alcista"
     },
     "risk_environment": {
         "btc_probability_bias": "alcista",
@@ -25,7 +25,7 @@
         "confidence_level": "media"
     },
     "alerts": {
-        "macro_shift": true,
+        "macro_shift": false,
         "volatility_expansion": false
     }
 }
