@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-26T08:41:46.992688+00:00",
+    "generated_at_utc": "2026-06-26T11:32:38.158083+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.252,
+        "price": 101.2,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 49m",
+    "U.S. markets open in 1h 59m",
     "News from the Yahoo Finance Network",
+    "Titan Mining unit wins EUL notices for two US Army sites",
+    "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
     "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
-    "Mark Cuban Says There Are Some ‘Greedy Blood-Sucking Business People That Will Do Anything for a Dollar’ But ‘Eat the Rich’ Only Helps Politicians",
-    "105-year-old burger chain closes one of its oldest restaurants",
-    "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
-    "Why Is Nvidia Stock So Cheap? This Is the Only Plausible Answer",
-    "RFK Jr. Recommends Immediately Hiking Taxes as Much as $7,841 to Close Social Security’s “Unfunded Obligation” Gap"
+    "I Own These 2 High Dividend Stocks and Plan to Hold Them Forever. Here's Why.",
+    "Ray Dalio says the U.S. just had its ‘Suez moment’—and history says what comes next could end an empire",
+    "Michael Saylor's Strategy faces no easy way out as bitcoin prices continue to drop"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60105.4296875,
-        "perp_last_price": 60105.4296875,
-        "mark_price": 60105.4296875,
-        "index_price": 60105.4296875,
+        "spot_price": 59348.7109375,
+        "perp_last_price": 59348.7109375,
+        "mark_price": 59348.7109375,
+        "index_price": 59348.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60105.4296875,
-        "stop_loss_technical": 59203.84824219,
-        "target_1": 61457.80185547,
-        "target_2": 62810.17402344,
+        "entry_ideal": 59348.7109375,
+        "stop_loss_technical": 58458.48027344,
+        "target_1": 60684.05693359,
+        "target_2": 62019.40292969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60105.4296875,
-        "stop_loss_technical": 58029.5390625,
-        "target_1": 63219.265625,
-        "target_2": 66333.1015625,
+        "entry_ideal": 59348.7109375,
+        "stop_loss_technical": 58458.48027344,
+        "target_1": 60684.05693359,
+        "target_2": 62019.40292969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
