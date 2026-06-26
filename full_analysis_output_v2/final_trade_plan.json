@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-26T21:00:48.876887+00:00",
+    "generated_at_utc": "2026-06-26T22:20:58.736440+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.357,
+        "price": 101.366,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Scott Bessent Recommends Social Security Cut Benefits “by 30.3%” for New Retirees as Trust Fund Collapse Accelerates",
     "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
     "105-year-old burger chain closes one of its oldest restaurants",
     "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
-    "Hong Kong billionaire scrambles to sell Harvey Nichols after heavy losses",
     "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
-    "Millionaire shorts SpaceX as price crashes",
-    "Is Bloom Energy a Buy Now?"
+    "Why Is Nvidia Stock So Cheap? This Is the Only Plausible Answer",
+    "Leavitt fires back at Walz, says 'deranged' Democratic donors vandalized $16M Reflecting Pool — experts point elsewhere"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59611.828125,
-        "perp_last_price": 59611.828125,
-        "mark_price": 59611.828125,
-        "index_price": 59611.828125,
+        "spot_price": 59850.01171875,
+        "perp_last_price": 59850.01171875,
+        "mark_price": 59850.01171875,
+        "index_price": 59850.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 59612.51171875,
-        "stop_loss_technical": 60649.19140625,
-        "target_1": 58057.4921875,
-        "target_2": 56502.47265625,
+        "entry_ideal": 59850.01171875,
+        "stop_loss_technical": 58251.0,
+        "target_1": 62248.52929688,
+        "target_2": 64647.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 59611.828125,
-        "stop_loss_technical": 65544.0,
-        "target_1": 50713.5703125,
-        "target_2": 41815.3125,
+        "entry_ideal": 59850.01171875,
+        "stop_loss_technical": 58075.921875,
+        "target_1": 62511.14648438,
+        "target_2": 65172.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
