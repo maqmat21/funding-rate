@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-25T23:14:47.339057+00:00",
+    "generated_at_utc": "2026-06-26T01:30:22.777999+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.458,
-        "trend": "alcista"
+        "price": 101.463,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.392,
@@ -24,48 +24,51 @@
     "News from the Yahoo Finance Network",
     "Warren Buffett's Favorite Holdings: 3 Stocks Worth Owning for a Lifetime",
     "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
+    "Trump turns on Big Oil donors who spent nearly $100 million to get him elected—now he wants the DOJ to investigate them for price gouging",
     "105-year-old burger chain closes one of its oldest restaurants",
-    "XRP Quietly Loses Its Last Line of Support",
-    "Bessent drops a bombshell on Iran oil, dollar",
+    "Would Warren Buffett Buy SpaceX Stock? Here's What the Oracle of Omaha Says About IPOs",
     "RFK Jr. Recommends Immediately Hiking Taxes as Much as $7,841 to Close Social Security’s “Unfunded Obligation” Gap",
-    "If You Bought the S&P 500 the Day Trump Won, Here’s Exactly What $10,000 Is Worth Today"
+    "Investor Anthony Scaramucci Says When People Start Missing Mortgage Payments, Immigrants Become A Threat. 'That's Not Racism. That's Economics'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59853.46875,
-        "perp_last_price": 59853.46875,
-        "mark_price": 59853.46875,
-        "index_price": 59853.46875,
+        "spot_price": 59207.140625,
+        "perp_last_price": 59207.140625,
+        "mark_price": 59207.140625,
+        "index_price": 59207.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59853.46875,
-        "stop_loss_technical": 58026.0,
-        "target_1": 62594.671875,
-        "target_2": 65335.875,
+        "entry_ideal": 59207.140625,
+        "stop_loss_technical": 58319.03351563,
+        "target_1": 60539.30128906,
+        "target_2": 61871.46195312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59853.46875,
-        "stop_loss_technical": 65544.0,
-        "target_1": 51317.671875,
-        "target_2": 42781.875,
+        "entry_ideal": 59207.140625,
+        "stop_loss_technical": 58319.03351563,
+        "target_1": 60539.30128906,
+        "target_2": 61871.46195312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
