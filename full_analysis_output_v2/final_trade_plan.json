@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T20:02:11.602812+00:00",
+    "generated_at_utc": "2026-06-27T21:15:24.697577+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,35 @@
     "News from the Yahoo Finance Network",
     "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
     "49-year-old popular steakhouse chain closes 41 locations",
-    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
+    "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
     "Nancy Pelosi places big bets on two surging tech stocks",
-    "Here's What a $50,000 Investment in SpaceX Stock Could Look Like in 10 Years, According to Billionaire Investor Ron Baron"
+    "Wall Street Bets Investors Are Bullish Again on Wendy’s. How to Play WEN Stock Amid a Meme Surge Here.",
+    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60122.87890625,
-        "perp_last_price": 60122.87890625,
-        "mark_price": 60122.87890625,
-        "index_price": 60122.87890625,
+        "spot_price": 60283.91015625,
+        "perp_last_price": 60283.91015625,
+        "mark_price": 60283.91015625,
+        "index_price": 60283.91015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60122.87890625,
-        "stop_loss_technical": 60838.91015625,
-        "target_1": 59048.83203125,
-        "target_2": 57974.78515625,
+        "entry_ideal": 60283.91015625,
+        "stop_loss_technical": 59828.75,
+        "target_1": 60966.65039062,
+        "target_2": 61649.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 60122.87890625,
+        "entry_ideal": 60283.91015625,
         "stop_loss_technical": 64196.5625,
-        "target_1": 54012.35351562,
-        "target_2": 47901.828125,
+        "target_1": 54414.93164062,
+        "target_2": 48545.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
