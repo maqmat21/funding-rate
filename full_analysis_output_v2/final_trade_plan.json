@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T15:47:45.276620+00:00",
+    "generated_at_utc": "2026-06-27T16:48:09.253665+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Here's What a $50,000 Investment in SpaceX Stock Could Look Like in 10 Years, According to Billionaire Investor Ron Baron",
+    "Hertz Global Holdings (HTZ) Is Down 47.7% After Dilutive Equity Raise And Cut Earnings Outlook - What's Changed",
     "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
     "Laid Off at 57, She Faces a Double Social Security Hit: Years of Zero Earnings Now, and the Pull to Claim Early at 62",
     "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
     "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too.",
-    "Philanthropy leader at Warren Buffett and Bill Gates’ Giving Pledge says children of billionaires are pushing them to give their wealth away faster",
-    "Silver price predictions: What to expect over the next 10 years"
+    "Will Bitcoin Crash to $20K? ChatGPT and Claude Explain the Worst-Case Scenario"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60649.19921875,
-        "perp_last_price": 60649.19921875,
-        "mark_price": 60649.19921875,
-        "index_price": 60649.19921875,
+        "spot_price": 60690.5,
+        "perp_last_price": 60690.5,
+        "mark_price": 60690.5,
+        "index_price": 60690.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60655.01171875,
-        "stop_loss_technical": 60837.8203125,
-        "target_1": 60380.79882812,
-        "target_2": 60106.5859375,
+        "entry_ideal": 60690.5,
+        "stop_loss_technical": 59578.21875,
+        "target_1": 62358.921875,
+        "target_2": 64027.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 60649.19921875,
+        "entry_ideal": 60690.5,
         "stop_loss_technical": 58075.921875,
-        "target_1": 64509.11523438,
-        "target_2": 68369.03125,
+        "target_1": 64612.3671875,
+        "target_2": 68534.234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
