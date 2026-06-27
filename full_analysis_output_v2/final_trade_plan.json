@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T17:47:16.215416+00:00",
+    "generated_at_utc": "2026-06-27T18:54:03.157012+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,50 +23,48 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
-    "Ignore Every Utility Bill And Still Keep The Lights On. Here’s How",
-    "Here's What a $50,000 Investment in SpaceX Stock Could Look Like in 10 Years, According to Billionaire Investor Ron Baron",
+    "49-year-old popular steakhouse chain closes 41 locations",
     "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
+    "Here's What a $50,000 Investment in SpaceX Stock Could Look Like in 10 Years, According to Billionaire Investor Ron Baron",
+    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
     "Laid Off at 57, She Faces a Double Social Security Hit: Years of Zero Earnings Now, and the Pull to Claim Early at 62",
-    "Michael Burry Just Bet Big Microsoft Will More Than Double by 2028",
-    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen"
+    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60468.83984375,
-        "perp_last_price": 60468.83984375,
-        "mark_price": 60468.83984375,
-        "index_price": 60468.83984375,
+        "spot_price": 60423.48828125,
+        "perp_last_price": 60423.48828125,
+        "mark_price": 60423.48828125,
+        "index_price": 60423.48828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 60469.1484375,
-        "stop_loss_technical": 60837.8203125,
-        "target_1": 59916.140625,
-        "target_2": 59363.1328125,
+        "entry_ideal": 60423.48828125,
+        "stop_loss_technical": 60838.91015625,
+        "target_1": 59800.35546875,
+        "target_2": 59177.22265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 60468.83984375,
+        "entry_ideal": 60423.48828125,
         "stop_loss_technical": 58075.921875,
-        "target_1": 64058.21679688,
-        "target_2": 67647.59375,
+        "target_1": 63944.83789062,
+        "target_2": 67466.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
