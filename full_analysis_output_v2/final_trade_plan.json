@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T11:50:11.003098+00:00",
+    "generated_at_utc": "2026-06-27T12:58:50.332100+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too.",
-    "What General Dynamics (GD)'s Expanded Navy C5ISR Role Means For Shareholders",
     "Laid Off at 57, She Faces a Double Social Security Hit: Years of Zero Earnings Now, and the Pull to Claim Early at 62",
+    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too.",
+    "This Stock Market Metric Just Hit \"Extreme Fear.\" Warren Buffett Has 11 Encouraging Words for Investors Right Now.",
+    "With Just 6 Words, Fed Chair Kevin Warsh Demolished Expectations. \"It's Hard to Believe,\" Says President Trump.",
     "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
-    "Big Short legend Steve Eisman says everyone is buying the wrong AI stocks",
-    "105-year-old burger chain closes one of its oldest restaurants",
-    "Social Security Fairness Act Slams 71-Year-Old Retired Teacher With IRMAA Penalty"
+    "The top 10 wealthiest US suburbs have average incomes as high as $612K, but experts warn they're magnets for crime",
+    "105-year-old burger chain closes one of its oldest restaurants"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60252.609375,
-        "perp_last_price": 60252.609375,
-        "mark_price": 60252.609375,
-        "index_price": 60252.609375,
+        "spot_price": 60310.9296875,
+        "perp_last_price": 60310.9296875,
+        "mark_price": 60310.9296875,
+        "index_price": 60310.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60255.94140625,
+        "entry_ideal": 60306.48828125,
         "stop_loss_technical": 59473.390625,
-        "target_1": 61429.76757812,
-        "target_2": 62603.59375,
+        "target_1": 61556.13476562,
+        "target_2": 62805.78125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 60252.609375,
+        "entry_ideal": 60310.9296875,
         "stop_loss_technical": 58075.921875,
-        "target_1": 63517.640625,
-        "target_2": 66782.671875,
+        "target_1": 63663.44140625,
+        "target_2": 67015.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
