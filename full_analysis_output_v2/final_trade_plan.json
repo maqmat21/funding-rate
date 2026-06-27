@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T14:27:53.811684+00:00",
+    "generated_at_utc": "2026-06-27T15:47:45.276620+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Laid Off at 57, She Faces a Double Social Security Hit: Years of Zero Earnings Now, and the Pull to Claim Early at 62",
+    "Here's What a $50,000 Investment in SpaceX Stock Could Look Like in 10 Years, According to Billionaire Investor Ron Baron",
     "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
-    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too.",
+    "Laid Off at 57, She Faces a Double Social Security Hit: Years of Zero Earnings Now, and the Pull to Claim Early at 62",
     "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
-    "Big Short legend Steve Eisman says everyone is buying the wrong AI stocks",
-    "105-year-old burger chain closes one of its oldest restaurants",
-    "New Data Suggests Social Security Cut Benefits “by 30.3%” for New Retirees as Trust Fund Collapse Accelerates"
+    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too.",
+    "Philanthropy leader at Warren Buffett and Bill Gates’ Giving Pledge says children of billionaires are pushing them to give their wealth away faster",
+    "Silver price predictions: What to expect over the next 10 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60515.609375,
-        "perp_last_price": 60515.609375,
-        "mark_price": 60515.609375,
-        "index_price": 60515.609375,
+        "spot_price": 60649.19921875,
+        "perp_last_price": 60649.19921875,
+        "mark_price": 60649.19921875,
+        "index_price": 60649.19921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 60515.609375,
-        "stop_loss_technical": 59488.51171875,
-        "target_1": 62056.25585938,
-        "target_2": 63596.90234375,
+        "entry_ideal": 60655.01171875,
+        "stop_loss_technical": 60837.8203125,
+        "target_1": 60380.79882812,
+        "target_2": 60106.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 60515.609375,
+        "entry_ideal": 60649.19921875,
         "stop_loss_technical": 58075.921875,
-        "target_1": 64175.140625,
-        "target_2": 67834.671875,
+        "target_1": 64509.11523438,
+        "target_2": 68369.03125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
