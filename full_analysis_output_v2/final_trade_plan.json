@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T05:33:11.496760+00:00",
+    "generated_at_utc": "2026-06-27T08:11:52.724271+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,49 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too.",
-    "105-year-old burger chain closes one of its oldest restaurants",
     "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
+    "105-year-old burger chain closes one of its oldest restaurants",
     "Red Lobster lost millions on its endless shrimp disaster. Shareholders say it was a ‘car crash’ designed to squeeze profits",
     "Scott Bessent Recommends Social Security Cut Benefits “by 30.3%” for New Retirees as Trust Fund Collapse Accelerates",
-    "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
-    "SEC Settles Charges With Advisor Who Falsely Promised Investors Pre-IPO Shares of Anduril"
+    "Goldman Sachs Predicts 3 Stocks to Benefit Most From $757B AI’s Capex Supercycle",
+    "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60095.33984375,
-        "perp_last_price": 60095.33984375,
-        "mark_price": 60095.33984375,
-        "index_price": 60095.33984375,
+        "spot_price": 60391.51953125,
+        "perp_last_price": 60391.51953125,
+        "mark_price": 60391.51953125,
+        "index_price": 60391.51953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 60107.5703125,
-        "stop_loss_technical": 60463.98828125,
-        "target_1": 59572.94335938,
-        "target_2": 59038.31640625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 60095.33984375,
+        "entry_ideal": 60391.51953125,
+        "stop_loss_technical": 58436.12890625,
+        "target_1": 63324.60546875,
+        "target_2": 66257.69140625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 60391.51953125,
         "stop_loss_technical": 58075.921875,
-        "target_1": 63124.46679688,
-        "target_2": 66153.59375,
+        "target_1": 63864.91601562,
+        "target_2": 67338.3125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
