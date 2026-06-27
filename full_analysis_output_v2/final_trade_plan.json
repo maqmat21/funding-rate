@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-26T23:39:51.728889+00:00",
+    "generated_at_utc": "2026-06-27T01:31:35.204662+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Scott Bessent Recommends Social Security Cut Benefits “by 30.3%” for New Retirees as Trust Fund Collapse Accelerates",
-    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
     "105-year-old burger chain closes one of its oldest restaurants",
-    "Billionaire Bill Gates Has 78% of His Foundation's $34 Billion Portfolio Invested in 4 Fantastic Stocks",
+    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen",
+    "Red Lobster lost millions on its endless shrimp disaster. Shareholders say it was a ‘car crash’ designed to squeeze profits",
+    "SpaceX just put every US carrier on notice",
     "Here’s the Biggest Social Security Check Anyone Can Get—And Why So Few People Qualify",
-    "Bankrupt fried chicken chain franchisee closes more locations",
-    "Why Lucid (LCID) Stock Is Up Today"
+    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59923.0,
-        "perp_last_price": 59923.0,
-        "mark_price": 59923.0,
-        "index_price": 59923.0,
+        "spot_price": 59871.890625,
+        "perp_last_price": 59871.890625,
+        "mark_price": 59871.890625,
+        "index_price": 59871.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 59946.53125,
-        "stop_loss_technical": 58550.0,
-        "target_1": 62041.328125,
-        "target_2": 64136.125,
+        "entry_ideal": 59869.12890625,
+        "stop_loss_technical": 60641.96875,
+        "target_1": 58709.86914062,
+        "target_2": 57550.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 59923.0,
+        "entry_ideal": 59871.890625,
         "stop_loss_technical": 58075.921875,
-        "target_1": 62693.6171875,
-        "target_2": 65464.234375,
+        "target_1": 62565.84375,
+        "target_2": 65259.796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
