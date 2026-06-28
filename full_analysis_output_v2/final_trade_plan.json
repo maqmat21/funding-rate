@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-28T21:14:00.938506+00:00",
+    "generated_at_utc": "2026-06-28T22:15:25.137458+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "3 Dividend Stocks Yielding Over 8.5% to Buy With $1,000 Right Now -- and Hold for a Lifetime of Passive Income",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
-    "This Florida woman, 79, lost $200K to scammers. With cops in her living room, they called for $30K, kicking off a sting",
+    "3 Dividend Stocks Yielding Over 8.5% to Buy With $1,000 Right Now -- and Hold for a Lifetime of Passive Income",
     "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
-    "Is a Stock Market Crash Looming Under President Donald Trump? History Doesn't Mince Its Words...",
-    "Billionaire Mark Cuban Says If We Fined Insurance Companies and Providers $100 Each Time They Overbilled, ‘We Could Pay Off the National Debt’"
+    "This Florida woman, 79, lost $200K to scammers. With cops in her living room, they called for $30K, kicking off a sting",
+    "Billionaire Mark Cuban Says If We Fined Insurance Companies and Providers $100 Each Time They Overbilled, ‘We Could Pay Off the National Debt’",
+    "The Smartest Dividend Stocks to Buy With $3,000 Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59578.19921875,
-        "perp_last_price": 59578.19921875,
-        "mark_price": 59578.19921875,
-        "index_price": 59578.19921875,
+        "spot_price": 59498.94140625,
+        "perp_last_price": 59498.94140625,
+        "mark_price": 59498.94140625,
+        "index_price": 59498.94140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 59578.19921875,
-        "stop_loss_technical": 59190.8203125,
-        "target_1": 60159.26757812,
-        "target_2": 60740.3359375,
+        "entry_ideal": 59501.69140625,
+        "stop_loss_technical": 60428.87890625,
+        "target_1": 58110.91015625,
+        "target_2": 56720.12890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 59578.19921875,
+        "entry_ideal": 59498.94140625,
         "stop_loss_technical": 63097.7578125,
-        "target_1": 54298.86132812,
-        "target_2": 49019.5234375,
+        "target_1": 54100.71679688,
+        "target_2": 48702.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
