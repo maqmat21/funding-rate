@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-27T23:17:34.179326+00:00",
+    "generated_at_utc": "2026-06-28T00:16:15.534424+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,47 +26,46 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
     "49-year-old popular steakhouse chain closes 41 locations",
+    "2 Warren Buffett Stocks to Buy and Hold for the Next 20 Years",
     "Nancy Pelosi places big bets on two surging tech stocks",
-    "Here's What a $50,000 Investment in SpaceX Stock Could Look Like in 10 Years, According to Billionaire Investor Ron Baron",
-    "Elon Musk and Tim Cook issue the same red alert over new crisis in America — and it’s unlike anything they’ve ever seen"
+    "Got $1,000 to Invest? This Stock Could Turn It Into $100,000 in 10 Years."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59935.328125,
-        "perp_last_price": 59935.328125,
-        "mark_price": 59935.328125,
-        "index_price": 59935.328125,
+        "spot_price": 60050.96875,
+        "perp_last_price": 60050.96875,
+        "mark_price": 60050.96875,
+        "index_price": 60050.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 59935.01953125,
-        "stop_loss_technical": 60837.8203125,
-        "target_1": 58580.81835938,
-        "target_2": 57226.6171875,
+        "entry_ideal": 60050.96875,
+        "stop_loss_technical": 59785.48828125,
+        "target_1": 60449.18945312,
+        "target_2": 60847.41015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 59935.328125,
-        "stop_loss_technical": 64196.5625,
-        "target_1": 53543.4765625,
-        "target_2": 47151.625,
+        "entry_ideal": 60050.96875,
+        "stop_loss_technical": 63097.7578125,
+        "target_1": 55480.78515625,
+        "target_2": 50910.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
