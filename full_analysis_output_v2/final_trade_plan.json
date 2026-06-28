@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-28T08:15:02.682201+00:00",
+    "generated_at_utc": "2026-06-28T10:35:22.907484+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You.",
     "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
     "Billionaire Mark Cuban Says If We Fined Insurance Companies and Providers $100 Each Time They Overbilled, ‘We Could Pay Off the National Debt’",
     "Missouri dad stashes stocks in a coffee can for his 3 daughters. He says with time, they’ll grow to $500 million",
-    "3 Favorite Stocks to Buy Without Hesitation",
-    "49-year-old popular steakhouse chain closes 41 locations"
+    "President Donald Trump Just Took a Jab at His Handpicked Fed Chair, Kevin Warsh, Over Interest Rates"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60094.96875,
-        "perp_last_price": 60094.96875,
-        "mark_price": 60094.96875,
-        "index_price": 60094.96875,
+        "spot_price": 60025.26171875,
+        "perp_last_price": 60025.26171875,
+        "mark_price": 60025.26171875,
+        "index_price": 60025.26171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 60090.5,
-        "stop_loss_technical": 59688.359375,
-        "target_1": 60693.7109375,
-        "target_2": 61296.921875,
+        "entry_ideal": 60025.26171875,
+        "stop_loss_technical": 60837.8203125,
+        "target_1": 58806.42382812,
+        "target_2": 57587.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 60094.96875,
+        "entry_ideal": 60025.26171875,
         "stop_loss_technical": 63097.7578125,
-        "target_1": 55590.78515625,
-        "target_2": 51086.6015625,
+        "target_1": 55416.51757812,
+        "target_2": 50807.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
