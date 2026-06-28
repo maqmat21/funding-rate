@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-28T00:16:15.534424+00:00",
+    "generated_at_utc": "2026-06-28T04:52:29.953785+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "NBA Legend Shaq Told ‘Brilliant’ Oldest Son To Pick Out Any Car — He Chose A Mercedes Benz. ‘I’m Rich. We’re Not Rich. Here’s a Chevrolet’",
+    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
+    "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You.",
+    "Billionaire Mark Cuban Says If We Fined Insurance Companies and Providers $100 Each Time They Overbilled, ‘We Could Pay Off the National Debt’",
     "49-year-old popular steakhouse chain closes 41 locations",
-    "2 Warren Buffett Stocks to Buy and Hold for the Next 20 Years",
-    "Nancy Pelosi places big bets on two surging tech stocks",
-    "Got $1,000 to Invest? This Stock Could Turn It Into $100,000 in 10 Years."
+    "Missouri dad stashes stocks in a coffee can for his 3 daughters. He says with time, they’ll grow to $500 million",
+    "Peter Thiel Took $1,700 and a Standard Roth IRA Account and Turned It Into $5 Billion. You Can Do It Too."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60050.96875,
-        "perp_last_price": 60050.96875,
-        "mark_price": 60050.96875,
-        "index_price": 60050.96875,
+        "spot_price": 60086.16015625,
+        "perp_last_price": 60086.16015625,
+        "mark_price": 60086.16015625,
+        "index_price": 60086.16015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 60050.96875,
-        "stop_loss_technical": 59785.48828125,
-        "target_1": 60449.18945312,
-        "target_2": 60847.41015625,
+        "entry_ideal": 60086.16015625,
+        "stop_loss_technical": 60838.91015625,
+        "target_1": 58957.03515625,
+        "target_2": 57827.91015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 60050.96875,
+        "entry_ideal": 60086.16015625,
         "stop_loss_technical": 63097.7578125,
-        "target_1": 55480.78515625,
-        "target_2": 50910.6015625,
+        "target_1": 55568.76367188,
+        "target_2": 51051.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
