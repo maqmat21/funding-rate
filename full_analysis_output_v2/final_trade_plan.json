@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-28T18:54:12.094593+00:00",
+    "generated_at_utc": "2026-06-28T20:04:20.471382+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "3 Dividend Stocks Yielding Over 8.5% to Buy With $1,000 Right Now -- and Hold for a Lifetime of Passive Income",
     "This Florida woman, 79, lost $200K to scammers. With cops in her living room, they called for $30K, kicking off a sting",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "How Rich Are You? Here’s The Net Worth It Takes To Crack The Top 10%, 5% And 1% In America",
     "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
-    "Is a Stock Market Crash Looming Under President Donald Trump? History Doesn't Mince Its Words...",
-    "Billionaire Mark Cuban Says If We Fined Insurance Companies and Providers $100 Each Time They Overbilled, ‘We Could Pay Off the National Debt’"
+    "Is a Stock Market Crash Looming Under President Donald Trump? History Doesn't Mince Its Words..."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59475.98046875,
-        "perp_last_price": 59475.98046875,
-        "mark_price": 59475.98046875,
-        "index_price": 59475.98046875,
+        "spot_price": 59434.01171875,
+        "perp_last_price": 59434.01171875,
+        "mark_price": 59434.01171875,
+        "index_price": 59434.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 59471.48828125,
-        "stop_loss_technical": 60428.87890625,
-        "target_1": 58035.40234375,
-        "target_2": 56599.31640625,
+        "entry_ideal": 59434.01171875,
+        "stop_loss_technical": 59190.8203125,
+        "target_1": 59798.79882812,
+        "target_2": 60163.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 59475.98046875,
+        "entry_ideal": 59434.01171875,
         "stop_loss_technical": 63097.7578125,
-        "target_1": 54043.31445312,
-        "target_2": 48610.6484375,
+        "target_1": 53938.39257812,
+        "target_2": 48442.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
