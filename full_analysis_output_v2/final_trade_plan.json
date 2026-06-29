@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-29T14:57:24.041428+00:00",
+    "generated_at_utc": "2026-06-29T17:31:15.705164+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.194,
+        "price": 101.128,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 3m",
+    "U.S. markets close in 2h 30m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Why Gold ETFs Are Suddenly Tarnishing",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
-    "Costco made several changes to get members to its warehouses more",
-    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
-    "Mission Produce Insider Buys 100,000 Shares as Avocado Production Surges. Is AVO a Buy?",
-    "Silver price predictions: What to expect over the next 10 years"
+    "Silver price predictions: What to expect over the next 10 years",
+    "J.P. Morgan unleashes $50 billion buyback after stress test",
+    "Prediction: Micron Technology Stock Is Going to $3,900 in 1 Year After Its Blowout Quarter"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59368.19140625,
-        "perp_last_price": 59368.19140625,
-        "mark_price": 59368.19140625,
-        "index_price": 59368.19140625,
+        "spot_price": 60509.76953125,
+        "perp_last_price": 60509.76953125,
+        "mark_price": 60509.76953125,
+        "index_price": 60509.76953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59373.6796875,
+        "entry_ideal": 60505.69140625,
         "stop_loss_technical": 58830.0,
-        "target_1": 60189.19921875,
-        "target_2": 61004.71875,
+        "target_1": 63019.22851562,
+        "target_2": 65532.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59368.19140625,
-        "stop_loss_technical": 58477.66853516,
-        "target_1": 60703.97571289,
-        "target_2": 62039.76001953,
+        "entry_ideal": 60509.76953125,
+        "stop_loss_technical": 58075.921875,
+        "target_1": 64160.54101562,
+        "target_2": 67811.3125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
