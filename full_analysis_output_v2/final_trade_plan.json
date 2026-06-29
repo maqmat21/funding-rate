@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-29T01:32:55.969339+00:00",
+    "generated_at_utc": "2026-06-29T06:21:11.812236+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.341,
-        "trend": "alcista"
+        "price": 101.301,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.372,
@@ -21,51 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 9m",
     "News from the Yahoo Finance Network",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "3 Dividend Stocks Yielding Over 8.5% to Buy With $1,000 Right Now -- and Hold for a Lifetime of Passive Income",
     "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
-    "This Unstoppable Vanguard ETF Could Set You Up for Life With $300 a Month. Here's How.",
-    "Ex-Google engineer says Larry Page, Sergey Brin and Sundar Pichai share the same trait—it’s the lesson he swears by as a $7.2 billion AI CEO",
-    "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You."
+    "Billionaire Who Called The Dot-Com Bubble And 2008 Housing Crash Now Says Bitcoin Will 'Certainly Go To Zero'",
+    "It's Been 2 Years Since Chipotle Issued Its 50-for-1 Stock Split. Here's How Much You'd Have Today if You Had Invested $10,000 in Chipotle the Day Before It Split.",
+    "AAPL Stock Rises Overnight: After Price Hikes, Apple Reportedly Seeks US Approval To Buy Chinese Memory Chips"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59265.62109375,
-        "perp_last_price": 59265.62109375,
-        "mark_price": 59265.62109375,
-        "index_price": 59265.62109375,
+        "spot_price": 60219.9609375,
+        "perp_last_price": 60219.9609375,
+        "mark_price": 60219.9609375,
+        "index_price": 60219.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59265.62109375,
-        "stop_loss_technical": 60428.87890625,
-        "target_1": 57520.734375,
-        "target_2": 55775.84765625,
+        "entry_ideal": 60185.9296875,
+        "stop_loss_technical": 58826.9296875,
+        "target_1": 62224.4296875,
+        "target_2": 64262.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59265.62109375,
-        "stop_loss_technical": 61868.90625,
-        "target_1": 55360.69335938,
-        "target_2": 51455.765625,
+        "entry_ideal": 60219.9609375,
+        "stop_loss_technical": 58075.921875,
+        "target_1": 63436.01953125,
+        "target_2": 66652.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
