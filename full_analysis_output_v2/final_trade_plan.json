@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-29T06:21:11.812236+00:00",
+    "generated_at_utc": "2026-06-29T11:28:41.666767+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.301,
+        "price": 101.232,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,54 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 9m",
+    "U.S. markets open in 2h 2m",
     "News from the Yahoo Finance Network",
+    "Florida, Pennsylvania, Or California? Which Retiree Keeps The Most Money?",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
-    "Billionaire Who Called The Dot-Com Bubble And 2008 Housing Crash Now Says Bitcoin Will 'Certainly Go To Zero'",
-    "It's Been 2 Years Since Chipotle Issued Its 50-for-1 Stock Split. Here's How Much You'd Have Today if You Had Invested $10,000 in Chipotle the Day Before It Split.",
-    "AAPL Stock Rises Overnight: After Price Hikes, Apple Reportedly Seeks US Approval To Buy Chinese Memory Chips"
+    "Harvard’s housing report has a darker message than affordability—the middle-class home was always a historical accident",
+    "International Paper to Shut Four North American Facilities by Third Quarter of 2026 (IP)",
+    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60219.9609375,
-        "perp_last_price": 60219.9609375,
-        "mark_price": 60219.9609375,
-        "index_price": 60219.9609375,
+        "spot_price": 59877.609375,
+        "perp_last_price": 59877.609375,
+        "mark_price": 59877.609375,
+        "index_price": 59877.609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60185.9296875,
-        "stop_loss_technical": 58826.9296875,
-        "target_1": 62224.4296875,
-        "target_2": 64262.9296875,
+        "entry_ideal": 59877.609375,
+        "stop_loss_technical": 58979.44523438,
+        "target_1": 61224.85558594,
+        "target_2": 62572.10179688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60219.9609375,
+        "entry_ideal": 59877.609375,
         "stop_loss_technical": 58075.921875,
-        "target_1": 63436.01953125,
-        "target_2": 66652.078125,
+        "target_1": 62580.140625,
+        "target_2": 65282.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
