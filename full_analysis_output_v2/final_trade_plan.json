@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-29T11:28:41.666767+00:00",
+    "generated_at_utc": "2026-06-29T14:57:24.041428+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,51 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.232,
+        "price": 101.194,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.372,
+        "price": 4.376,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 2m",
+    "U.S. markets close in 5h 3m",
     "News from the Yahoo Finance Network",
-    "Florida, Pennsylvania, Or California? Which Retiree Keeps The Most Money?",
-    "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Harvard’s housing report has a darker message than affordability—the middle-class home was always a historical accident",
-    "International Paper to Shut Four North American Facilities by Third Quarter of 2026 (IP)",
-    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make"
+    "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
+    "Costco made several changes to get members to its warehouses more",
+    "This Vanguard Index Fund Could Be the Best Financial Decision You Ever Make",
+    "Mission Produce Insider Buys 100,000 Shares as Avocado Production Surges. Is AVO a Buy?",
+    "Silver price predictions: What to expect over the next 10 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59877.609375,
-        "perp_last_price": 59877.609375,
-        "mark_price": 59877.609375,
-        "index_price": 59877.609375,
+        "spot_price": 59368.19140625,
+        "perp_last_price": 59368.19140625,
+        "mark_price": 59368.19140625,
+        "index_price": 59368.19140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 59373.6796875,
+        "stop_loss_technical": 58830.0,
+        "target_1": 60189.19921875,
+        "target_2": 61004.71875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59877.609375,
-        "stop_loss_technical": 58979.44523438,
-        "target_1": 61224.85558594,
-        "target_2": 62572.10179688,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 59877.609375,
-        "stop_loss_technical": 58075.921875,
-        "target_1": 62580.140625,
-        "target_2": 65282.671875,
+        "entry_ideal": 59368.19140625,
+        "stop_loss_technical": 58477.66853516,
+        "target_1": 60703.97571289,
+        "target_2": 62039.76001953,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
