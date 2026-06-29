@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-29T21:02:21.441882+00:00",
+    "generated_at_utc": "2026-06-29T22:16:36.709733+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.122,
+        "price": 101.111,
         "trend": "bajista"
       },
       "US10Y": {
@@ -25,35 +25,34 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
     "Silver price predictions: What to expect over the next 10 years",
-    "Is Kimberly-Clark Corporation (KMB) A Good Stock To Buy Now?",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "‘Don’t own US stocks’: Market legend Jeremy Grantham warns of a 70% stock market catastrophe. Time to ‘sell it all’?",
-    "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You."
+    "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You.",
+    "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60232.30078125,
-        "perp_last_price": 60232.30078125,
-        "mark_price": 60232.30078125,
-        "index_price": 60232.30078125,
+        "spot_price": 60377.48046875,
+        "perp_last_price": 60377.48046875,
+        "mark_price": 60377.48046875,
+        "index_price": 60377.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60232.30078125,
-        "stop_loss_technical": 59328.81626953,
-        "target_1": 61587.52754883,
-        "target_2": 62942.75431641,
+        "entry_ideal": 60377.48046875,
+        "stop_loss_technical": 58892.12890625,
+        "target_1": 62605.5078125,
+        "target_2": 64833.53515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60232.30078125,
+        "entry_ideal": 60377.48046875,
         "stop_loss_technical": 58075.921875,
-        "target_1": 63466.86914062,
-        "target_2": 66701.4375,
+        "target_1": 63829.81835938,
+        "target_2": 67282.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
