@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-29T23:16:51.390937+00:00",
+    "generated_at_utc": "2026-06-30T01:25:51.490044+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.111,
-        "trend": "bajista"
+        "price": 101.264,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.374,
@@ -23,52 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "VSAT Stock Clocks Best Day In Over 10 Months — Analyst Calls It ‘Last Major Global Satellite Spectrum Play’ After Rocket Lab-Iridium Deal",
     "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
-    "Silver price predictions: What to expect over the next 10 years",
+    "The Stock Market Just Did Something It Hasn't Done Since 2000 -- and It's Terrifying",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
-    "Should You Buy Bitcoin While It's Under $70,000? The Answer Might Surprise You.",
-    "‘Don’t own US stocks’: Market legend Jeremy Grantham warns of a 70% stock market catastrophe. Time to ‘sell it all’?"
+    "Silver price predictions: What to expect over the next 10 years",
+    "Supreme Court gives Trump sweeping new powers to fire government employees, but says Federal Reserve is 'protected'",
+    "Why Is FuelCell Energy (FCEL) Stock Soaring Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60264.1015625,
-        "perp_last_price": 60264.1015625,
-        "mark_price": 60264.1015625,
-        "index_price": 60264.1015625,
+        "spot_price": 59855.890625,
+        "perp_last_price": 59855.890625,
+        "mark_price": 59855.890625,
+        "index_price": 59855.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60264.1015625,
-        "stop_loss_technical": 59360.14003906,
-        "target_1": 61620.04384766,
-        "target_2": 62975.98613281,
+        "entry_ideal": 59855.890625,
+        "stop_loss_technical": 58899.37890625,
+        "target_1": 61290.65820312,
+        "target_2": 62725.42578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 60264.1015625,
-        "stop_loss_technical": 58075.921875,
-        "target_1": 63546.37109375,
-        "target_2": 66828.640625,
+        "entry_ideal": 59855.890625,
+        "stop_loss_technical": 60835.046875,
+        "target_1": 58387.15625,
+        "target_2": 56918.421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
