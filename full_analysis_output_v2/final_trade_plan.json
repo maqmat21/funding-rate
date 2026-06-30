@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-30T17:29:38.084560+00:00",
+    "generated_at_utc": "2026-06-30T19:18:18.070755+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.215,
+        "price": 101.187,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.41,
+        "price": 4.416,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 31m",
     "News from the Yahoo Finance Network",
     "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
-    "California AG Rob Bonta Downplays Report He’s Pushing Paramount to Sell CNN",
     "Jeff Bezos' ex-wife Mackenzie Scott donated $26.3B in 5 years — yet she's richer now. Here's why the 'giving' is wrong",
     "‘Don’t own US stocks’: Market legend Jeremy Grantham warns of a 70% stock market catastrophe. Time to ‘sell it all’?",
     "Another airline files for bankruptcy protection, cancels all flights",
-    "Speaker Johnson warns of 'desperate times' for Social Security — and Democrats say that means benefit cuts"
+    "Here's how much interest a $100,000 high-yield savings account can earn currently",
+    "Fox Outbid Netflix to Buy Roku, So Why Are Both Stocks Falling?",
+    "How Much Money You Really Need To Safely Retire At 50"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58306.3203125,
-        "perp_last_price": 58306.3203125,
-        "mark_price": 58306.3203125,
-        "index_price": 58306.3203125,
+        "spot_price": 58547.75,
+        "perp_last_price": 58547.75,
+        "mark_price": 58547.75,
+        "index_price": 58547.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 58295.7890625,
-        "stop_loss_technical": 60427.98828125,
-        "target_1": 55097.49023438,
-        "target_2": 51899.19140625,
+        "entry_ideal": 58541.46875,
+        "stop_loss_technical": 58076.8984375,
+        "target_1": 59238.32421875,
+        "target_2": 59935.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 58306.3203125,
+        "entry_ideal": 58547.75,
         "stop_loss_technical": 60835.046875,
-        "target_1": 54513.23046875,
-        "target_2": 50720.140625,
+        "target_1": 55116.8046875,
+        "target_2": 51685.859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
