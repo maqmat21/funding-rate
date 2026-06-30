@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-30T01:25:51.490044+00:00",
+    "generated_at_utc": "2026-06-30T05:36:58.396539+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.264,
+        "price": 101.365,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 55m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
-    "The Stock Market Just Did Something It Hasn't Done Since 2000 -- and It's Terrifying",
+    "Prediction: Tesla Stock Could Go Parabolic After July 2",
     "‘High on Coke’: Elon Musk floored by Berkshire Hathaway's Coca-Cola dividend windfall. How to tap in and get rich",
     "Silver price predictions: What to expect over the next 10 years",
-    "Supreme Court gives Trump sweeping new powers to fire government employees, but says Federal Reserve is 'protected'",
-    "Why Is FuelCell Energy (FCEL) Stock Soaring Today"
+    "Supreme Court gives Trump sweeping new powers to fire government employees, but says Federal Reserve is 'protected'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59855.890625,
-        "perp_last_price": 59855.890625,
-        "mark_price": 59855.890625,
-        "index_price": 59855.890625,
+        "spot_price": 59267.5,
+        "perp_last_price": 59267.5,
+        "mark_price": 59267.5,
+        "index_price": 59267.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 59855.890625,
-        "stop_loss_technical": 58899.37890625,
-        "target_1": 61290.65820312,
-        "target_2": 62725.42578125,
+        "entry_ideal": 59260.9609375,
+        "stop_loss_technical": 60687.30078125,
+        "target_1": 57121.45117188,
+        "target_2": 54981.94140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 59855.890625,
+        "entry_ideal": 59267.5,
         "stop_loss_technical": 60835.046875,
-        "target_1": 58387.15625,
-        "target_2": 56918.421875,
+        "target_1": 56916.1796875,
+        "target_2": 54564.859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
