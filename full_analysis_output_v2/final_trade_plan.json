@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-06-30T13:26:02.886252+00:00",
+    "generated_at_utc": "2026-06-30T15:45:21.217926+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.311,
-        "trend": "alcista"
+        "price": 101.154,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.394,
+        "price": 4.404,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 16m",
     "News from the Yahoo Finance Network",
     "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
-    "Silver price predictions: What to expect over the next 10 years",
-    "3 stocks you’ll wish you bought on SpaceX’s nightmare 2-week crash — 1 has 257% upside according to analysts",
-    "Nicolas Cage once blew through $150M — and it wasn't the dinosaur skull or king cobras that broke him",
-    "Trump now 'hates' his own trade deal. But he'll have a hard time killing it.",
+    "Jeff Bezos' ex-wife Mackenzie Scott donated $26.3B in 5 years — yet she's richer now. Here's why the 'giving' is wrong",
     "‘Don’t own US stocks’: Market legend Jeremy Grantham warns of a 70% stock market catastrophe. Time to ‘sell it all’?",
-    "Warren Buffett Says This ETF Is Perfect for Everyday Investors"
+    "This Dividend Strategy Generates $85,000 a Year for Retirees",
+    "When Does the Stock Market Close for the Independence Day Holiday? Here's the Summer Trading Schedule",
+    "Should You Buy Wendy's Stock for Its 7.1%-Yielding Dividend?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58361.98828125,
-        "perp_last_price": 58361.98828125,
-        "mark_price": 58361.98828125,
-        "index_price": 58361.98828125,
+        "spot_price": 58354.53125,
+        "perp_last_price": 58354.53125,
+        "mark_price": 58354.53125,
+        "index_price": 58354.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 58361.98828125,
-        "stop_loss_technical": 60493.23828125,
-        "target_1": 55165.11328125,
-        "target_2": 51968.23828125,
+        "entry_ideal": 58414.41015625,
+        "stop_loss_technical": 58074.609375,
+        "target_1": 58924.11132812,
+        "target_2": 59433.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 58361.98828125,
+        "entry_ideal": 58354.53125,
         "stop_loss_technical": 60835.046875,
-        "target_1": 54652.40039062,
-        "target_2": 50942.8125,
+        "target_1": 54633.7578125,
+        "target_2": 50912.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
