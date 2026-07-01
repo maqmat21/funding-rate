@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-01T22:16:34.304302+00:00",
+    "generated_at_utc": "2026-07-01T23:44:57.740288+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,36 @@
     "News from the Yahoo Finance Network",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
     "This is what a $1,000 investment in $TRUMP coin looks like today",
-    "Michael Burry makes first-ever bet against longtime favorite stock",
-    "Top analysts set jaw-dropping Micron stock target after surge",
-    "Buffett just paused a gift he hadn't skipped in 20 years"
+    "Miss Your First RMD and the Penalty Is 25%. Here’s the April 1 “First Year” Trap that Catches People Every Year",
+    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
+    "Trump got a $78K pension from the Screen Actors Guild in 2025 because he appeared in Home Alone 2 in 1992",
+    "Top analysts set jaw-dropping Micron stock target after surge"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60749.9609375,
-        "perp_last_price": 60749.9609375,
-        "mark_price": 60749.9609375,
-        "index_price": 60749.9609375,
+        "spot_price": 60087.640625,
+        "perp_last_price": 60087.640625,
+        "mark_price": 60087.640625,
+        "index_price": 60087.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60749.94921875,
-        "stop_loss_technical": 59838.69998047,
-        "target_1": 62116.82307617,
-        "target_2": 63483.69693359,
+        "entry_ideal": 60087.640625,
+        "stop_loss_technical": 61211.8515625,
+        "target_1": 58401.32421875,
+        "target_2": 56715.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60749.9609375,
-        "stop_loss_technical": 59838.71152344,
-        "target_1": 62116.83505859,
-        "target_2": 63483.70917969,
+        "entry_ideal": 60087.640625,
+        "stop_loss_technical": 59186.32601563,
+        "target_1": 61439.61253906,
+        "target_2": 62791.58445312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
