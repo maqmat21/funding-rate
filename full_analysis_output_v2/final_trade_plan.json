@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-01T19:21:29.157737+00:00",
+    "generated_at_utc": "2026-07-01T20:59:22.264825+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,11 +11,11 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.387,
+        "price": 101.432,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.477,
+        "price": 4.475,
         "trend": "alcista"
       }
     }
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
-    "This US Stock Skyrocketed 70% in June Amid the AI Data Center Pivot",
-    "Robinhood Launches Trump Accounts App Ahead Of July 4 Rollout",
+    "Top analysts set jaw-dropping Micron stock target after surge",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "Jeff Bezos' ex-wife Mackenzie Scott donated $26.3B in 5 years — yet she's richer now. Here's why the 'giving' is wrong",
-    "Microsoft Plans Fresh Job Cuts",
-    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow."
+    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
+    "Trump got a $78K pension from the Screen Actors Guild in 2025 because he appeared in Home Alone 2 in 1992",
+    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Domino's and Making a Virtual Monopoly Berkshire's New No. 5 Holding",
+    "Trump Reports at Least $1.2 Billion in 2025 Crypto Earnings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60178.01953125,
-        "perp_last_price": 60178.01953125,
-        "mark_price": 60178.01953125,
-        "index_price": 60178.01953125,
+        "spot_price": 60067.23046875,
+        "perp_last_price": 60067.23046875,
+        "mark_price": 60067.23046875,
+        "index_price": 60067.23046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60178.03125,
-        "stop_loss_technical": 59275.36078125,
-        "target_1": 61532.03695313,
-        "target_2": 62886.04265625,
+        "entry_ideal": 60067.21875,
+        "stop_loss_technical": 59166.21046875,
+        "target_1": 61418.73117187,
+        "target_2": 62770.24359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60178.01953125,
-        "stop_loss_technical": 59275.34923828,
-        "target_1": 61532.0249707,
-        "target_2": 62886.03041016,
+        "entry_ideal": 60067.23046875,
+        "stop_loss_technical": 59166.22201172,
+        "target_1": 61418.7431543,
+        "target_2": 62770.25583984,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
