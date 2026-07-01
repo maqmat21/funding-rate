@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-01T06:19:01.873389+00:00",
+    "generated_at_utc": "2026-07-01T10:16:57.575344+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.299,
+        "price": 101.403,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 12m",
+    "U.S. markets open in 3h 14m",
     "News from the Yahoo Finance Network",
+    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
+    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Domino's and Making a Virtual Monopoly Berkshire's New No. 5 Holding",
+    "Buy SpaceX Stock Before It Soars, Says Wall Street. A $10,000 Investment Could Be Worth This Much in a Year.",
+    "Big Tech is spending billions to not employ people",
     "Trump Reports at Least $1.2 Billion in 2025 Crypto Earnings",
-    "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
-    "SpaceX Nears a Major Milestone Within 15 Days, and Investors Should Pay Attention",
-    "Jeff Bezos' ex-wife Mackenzie Scott donated $26.3B in 5 years — yet she's richer now. Here's why the 'giving' is wrong",
-    "Dear Micron Stock Fans, Mark Your Calendars for July 10",
-    "This Quantum Computing Stock Recently Went Public, and It Could Be the Buy of the Year"
+    "SpaceX Nears a Major Milestone Within 15 Days, and Investors Should Pay Attention"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58792.55078125,
-        "perp_last_price": 58792.55078125,
-        "mark_price": 58792.55078125,
-        "index_price": 58792.55078125,
+        "spot_price": 58675.05078125,
+        "perp_last_price": 58675.05078125,
+        "mark_price": 58675.05078125,
+        "index_price": 58675.05078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 58792.55078125,
+        "entry_ideal": 58675.05078125,
         "stop_loss_technical": 59357.75,
-        "target_1": 57944.75195312,
-        "target_2": 57096.953125,
+        "target_1": 57651.00195312,
+        "target_2": 56626.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 58792.55078125,
+        "entry_ideal": 58675.05078125,
         "stop_loss_technical": 60835.046875,
-        "target_1": 55728.80664062,
-        "target_2": 52665.0625,
+        "target_1": 55435.05664062,
+        "target_2": 52195.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
