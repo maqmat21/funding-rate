@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-01T12:48:50.435912+00:00",
+    "generated_at_utc": "2026-07-01T15:31:01.315857+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,64 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.516,
+        "price": 101.34,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.491,
+        "price": 4.465,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 30m",
     "News from the Yahoo Finance Network",
-    "Does Toyota’s Manufacturing JV With Joby Aviation (JOBY) Quietly Redefine Its Path to Scale?",
-    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Domino's and Making a Virtual Monopoly Berkshire's New No. 5 Holding",
-    "Ford 'Mistakenly' Thought It Could Produce 'High Quality' with AI, Now Its Reportedly Rehiring 350 Veteran Engineers: 'Results Were Not Good Enough'",
+    "What Klarna’s $2 Billion Antitrust Suit Victory vs. Google Means for the BNPL Stock",
+    "US 'Opportunity Zone' Tax Credits Now Permanent",
     "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
-    "Gorilla Technology Group (GRRR) Is Up 16.3% After Hiking Q2 2026 AI Revenue Guidance - What's Changed",
-    "Carnival Corporation (CCL) Gets A Price Target Increase At Wells Fargo",
-    "If a Stock Market Crash Is Coming, History Says Investors Who Do This 1 Thing Will Win Out"
+    "Trump Reports at Least $1.2 Billion in 2025 Crypto Earnings",
+    "Jeff Bezos' ex-wife Mackenzie Scott donated $26.3B in 5 years — yet she's richer now. Here's why the 'giving' is wrong",
+    "Gold flashed a death cross at the end of its worst quarter in 13 years. Here's what's weighing it down."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58255.03125,
-        "perp_last_price": 58255.03125,
-        "mark_price": 58255.03125,
-        "index_price": 58255.03125,
+        "spot_price": 60274.75,
+        "perp_last_price": 60274.75,
+        "mark_price": 60274.75,
+        "index_price": 60274.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 58265.5390625,
-        "stop_loss_technical": 59357.75,
-        "target_1": 56627.22265625,
-        "target_2": 54988.90625,
+        "entry_ideal": 60276.609375,
+        "stop_loss_technical": 59372.46023438,
+        "target_1": 61632.83308594,
+        "target_2": 62989.05679687,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 58255.03125,
-        "stop_loss_technical": 60835.046875,
-        "target_1": 54385.0078125,
-        "target_2": 50514.984375,
+        "entry_ideal": 60274.75,
+        "stop_loss_technical": 59370.62875,
+        "target_1": 61630.931875,
+        "target_2": 62987.11375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
