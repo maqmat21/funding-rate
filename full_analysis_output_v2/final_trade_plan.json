@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-01T01:57:03.048101+00:00",
+    "generated_at_utc": "2026-07-01T06:19:01.873389+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.292,
+        "price": 101.299,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,42 +21,27 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 12m",
     "News from the Yahoo Finance Network",
     "Trump Reports at Least $1.2 Billion in 2025 Crypto Earnings",
-    "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
     "Elon Musk on MacKenzie Scott giving away $26 billion of her fortune: ‘Sadly,’ it makes the world a worse place",
-    "Micron’s stock buybacks explained: When & why the chipmaker repurchases shares",
+    "SpaceX Nears a Major Milestone Within 15 Days, and Investors Should Pay Attention",
     "Jeff Bezos' ex-wife Mackenzie Scott donated $26.3B in 5 years — yet she's richer now. Here's why the 'giving' is wrong",
-    "How Buying SpaceX Today Could 10X Your Investment",
-    "Dear Micron Stock Fans, Mark Your Calendars for July 10"
+    "Dear Micron Stock Fans, Mark Your Calendars for July 10",
+    "This Quantum Computing Stock Recently Went Public, and It Could Be the Buy of the Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58726.359375,
-        "perp_last_price": 58726.359375,
-        "mark_price": 58726.359375,
-        "index_price": 58726.359375,
+        "spot_price": 58792.55078125,
+        "perp_last_price": 58792.55078125,
+        "mark_price": 58792.55078125,
+        "index_price": 58792.55078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 58726.359375,
-        "stop_loss_technical": 57845.46398437,
-        "target_1": 60047.70246094,
-        "target_2": 61369.04554688,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -65,10 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 58726.359375,
+        "entry_ideal": 58792.55078125,
+        "stop_loss_technical": 59357.75,
+        "target_1": 57944.75195312,
+        "target_2": 57096.953125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 58792.55078125,
         "stop_loss_technical": 60835.046875,
-        "target_1": 55563.328125,
-        "target_2": 52400.296875,
+        "target_1": 55728.80664062,
+        "target_2": 52665.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
