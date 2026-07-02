@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-01T23:44:57.740288+00:00",
+    "generated_at_utc": "2026-07-02T01:49:57.733461+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.413,
+        "price": 101.378,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,36 +24,36 @@
     "News from the Yahoo Finance Network",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "This is what a $1,000 investment in $TRUMP coin looks like today",
-    "Miss Your First RMD and the Penalty Is 25%. Here’s the April 1 “First Year” Trap that Catches People Every Year",
+    "Microsoft reportedly makes another brutal workforce move",
     "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
-    "Trump got a $78K pension from the Screen Actors Guild in 2025 because he appeared in Home Alone 2 in 1992",
-    "Top analysts set jaw-dropping Micron stock target after surge"
+    "38.6% of Berkshire Hathaway's $328 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks",
+    "This is what a $1,000 investment in $TRUMP coin looks like today",
+    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Domino's and Making a Virtual Monopoly Berkshire's New No. 5 Holding"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60087.640625,
-        "perp_last_price": 60087.640625,
-        "mark_price": 60087.640625,
-        "index_price": 60087.640625,
+        "spot_price": 60150.23828125,
+        "perp_last_price": 60150.23828125,
+        "mark_price": 60150.23828125,
+        "index_price": 60150.23828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60087.640625,
-        "stop_loss_technical": 61211.8515625,
-        "target_1": 58401.32421875,
-        "target_2": 56715.0078125,
+        "entry_ideal": 60143.19921875,
+        "stop_loss_technical": 59241.05123047,
+        "target_1": 61496.42120117,
+        "target_2": 62849.64318359,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 60087.640625,
-        "stop_loss_technical": 59186.32601563,
-        "target_1": 61439.61253906,
-        "target_2": 62791.58445312,
+        "entry_ideal": 60150.23828125,
+        "stop_loss_technical": 59247.98470703,
+        "target_1": 61503.61864258,
+        "target_2": 62856.99900391,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
