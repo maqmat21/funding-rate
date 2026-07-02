@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T17:08:58.260890+00:00",
+    "generated_at_utc": "2026-07-02T18:44:55.722028+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.812,
+        "price": 100.838,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.479,
+        "price": 4.487,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 52m",
+    "U.S. markets close in 1h 16m",
     "News from the Yahoo Finance Network",
+    "Major hotel chain switches from Pepsi to Coke at 10,000 locations",
+    "Americans are escaping the U.S. for New Zealand where house prices have hit a new low—but only wealthy Americans with $3 million spare can invest",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
     "TSA issues stern new warning about peanut butter",
-    "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "The White House said Trump 'lost money' in office — then his disclosure revealed $2.2 billion in 2025 earnings",
-    "Microsoft vs. Nvidia: Which Is the Better AI Stock to Own for the Next 3 Years?",
-    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow."
+    "Elon Musk Says Tesla's Model S, Model X Line Is Now Building Optimus Robots",
+    "Wendy's (WEN) Appoints Steve Cirulis As CFO As Dividend Questions Grow"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61694.6015625,
-        "perp_last_price": 61694.6015625,
-        "mark_price": 61694.6015625,
-        "index_price": 61694.6015625,
+        "spot_price": 61707.62890625,
+        "perp_last_price": 61707.62890625,
+        "mark_price": 61707.62890625,
+        "index_price": 61707.62890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61707.30078125,
-        "stop_loss_technical": 59522.48828125,
-        "target_1": 64984.51953125,
-        "target_2": 68261.73828125,
+        "entry_ideal": 61707.62890625,
+        "stop_loss_technical": 62128.671875,
+        "target_1": 61076.06445312,
+        "target_2": 60444.5,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61694.6015625,
+        "entry_ideal": 61707.62890625,
         "stop_loss_technical": 57747.765625,
-        "target_1": 67614.85546875,
-        "target_2": 73535.109375,
+        "target_1": 67647.42382812,
+        "target_2": 73587.21875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
