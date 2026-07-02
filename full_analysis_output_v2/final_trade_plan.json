@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T05:43:39.991870+00:00",
+    "generated_at_utc": "2026-07-02T08:33:59.031552+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.357,
+        "price": 100.983,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 47m",
+    "U.S. markets open in 4h 57m",
     "News from the Yahoo Finance Network",
     "TSA issues stern new warning about peanut butter",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
     "The Stock Market Is on the Verge of Doing Something for the First Time in 155 Years, and History Is Crystal Clear on What It Could Mean for Investors",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow.",
-    "38.6% of Berkshire Hathaway's $328 Billion Portfolio Is Parked in 3 Artificial Intelligence (AI) Stocks"
+    "TSLA Stock Slips Overnight: Tesla Model Y L Rumors Heat Up After ‘Long Weekend’ Tease As Investors Await Q2 Deliveries",
+    "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says a Big Drop Could Follow."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60573.01953125,
-        "perp_last_price": 60573.01953125,
-        "mark_price": 60573.01953125,
-        "index_price": 60573.01953125,
+        "spot_price": 60285.94140625,
+        "perp_last_price": 60285.94140625,
+        "mark_price": 60285.94140625,
+        "index_price": 60285.94140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60585.01171875,
-        "stop_loss_technical": 61248.01171875,
-        "target_1": 59590.51171875,
-        "target_2": 58596.01171875,
+        "entry_ideal": 60305.7890625,
+        "stop_loss_technical": 58446.0,
+        "target_1": 63095.47265625,
+        "target_2": 65885.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 60573.01953125,
-        "stop_loss_technical": 58111.671875,
-        "target_1": 64265.04101562,
-        "target_2": 67957.0625,
+        "entry_ideal": 60285.94140625,
+        "stop_loss_technical": 57747.765625,
+        "target_1": 64093.20507812,
+        "target_2": 67900.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
