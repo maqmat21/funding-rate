@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T21:20:58.685300+00:00",
+    "generated_at_utc": "2026-07-02T22:33:17.196471+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.853,
+        "price": 100.848,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,34 +24,34 @@
     "News from the Yahoo Finance Network",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
     "TSA issues stern new warning about peanut butter",
-    "Micron Just Delivered Massive News for Shareholders",
+    "Jersey Mike’s IPO Filing Reveals $50 Million In Pay For A Stepson, A $41 Million Aircraft And A Family On Payroll",
     "Americans are escaping the U.S. for New Zealand where house prices have hit a new low—but only wealthy Americans with $3 million spare can invest",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "Jim Cramer Just Named His Favorite Stock, and It’s the Comeback Nobody Saw Coming",
-    "Here's Why Bitcoin Could Be the Smartest Buy of the Decade"
+    "Here's Why Bitcoin Could Be the Smartest Buy of the Decade",
+    "Progress, further delay risk for Boeing Air Force One: report"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61470.078125,
-        "perp_last_price": 61470.078125,
-        "mark_price": 61470.078125,
-        "index_price": 61470.078125,
+        "spot_price": 61447.421875,
+        "perp_last_price": 61447.421875,
+        "mark_price": 61447.421875,
+        "index_price": 61447.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61470.078125,
-        "stop_loss_technical": 59953.98046875,
-        "target_1": 63744.22460938,
-        "target_2": 66018.37109375,
+        "entry_ideal": 61447.41015625,
+        "stop_loss_technical": 62128.671875,
+        "target_1": 60425.51757812,
+        "target_2": 59403.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61470.078125,
+        "entry_ideal": 61447.421875,
         "stop_loss_technical": 57747.765625,
-        "target_1": 67053.546875,
-        "target_2": 72637.015625,
+        "target_1": 66996.90625,
+        "target_2": 72546.390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
