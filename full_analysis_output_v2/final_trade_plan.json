@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T22:33:17.196471+00:00",
+    "generated_at_utc": "2026-07-02T23:41:21.813984+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,31 +27,31 @@
     "Jersey Mike’s IPO Filing Reveals $50 Million In Pay For A Stepson, A $41 Million Aircraft And A Family On Payroll",
     "Americans are escaping the U.S. for New Zealand where house prices have hit a new low—but only wealthy Americans with $3 million spare can invest",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "Here's Why Bitcoin Could Be the Smartest Buy of the Decade",
-    "Progress, further delay risk for Boeing Air Force One: report"
+    "Why Apple (AAPL) Stock Is Trading Up Today",
+    "Dave Ramsey: This 62-Year-Old Millionaire Is ‘Scared to Live’ Because of the 4% Rule"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61447.421875,
-        "perp_last_price": 61447.421875,
-        "mark_price": 61447.421875,
-        "index_price": 61447.421875,
+        "spot_price": 61413.26171875,
+        "perp_last_price": 61413.26171875,
+        "mark_price": 61413.26171875,
+        "index_price": 61413.26171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 61447.41015625,
-        "stop_loss_technical": 62128.671875,
-        "target_1": 60425.51757812,
-        "target_2": 59403.625,
+        "entry_ideal": 61413.26171875,
+        "stop_loss_technical": 60026.37109375,
+        "target_1": 63493.59765625,
+        "target_2": 65573.93359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61447.421875,
+        "entry_ideal": 61413.26171875,
         "stop_loss_technical": 57747.765625,
-        "target_1": 66996.90625,
-        "target_2": 72546.390625,
+        "target_1": 66911.50585938,
+        "target_2": 72409.75,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
