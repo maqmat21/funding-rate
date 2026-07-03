@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-03T01:17:29.579331+00:00",
+    "generated_at_utc": "2026-07-03T04:59:21.636874+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.894,
+        "price": 100.8,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
     "TSA issues stern new warning about peanut butter",
-    "Jersey Mike’s IPO Filing Reveals $50 Million In Pay For A Stepson, A $41 Million Aircraft And A Family On Payroll",
+    "Fresh lawsuit drops bombshell on Micron stock price",
     "Americans are escaping the U.S. for New Zealand where house prices have hit a new low—but only wealthy Americans with $3 million spare can invest",
+    "Pfizer's CEO Says His Company Has a \"Very Big Balance Sheet\" to Do Deals. Here's the Perfect Next Acquisition Target for the Pharma Giant.",
     "Here's Why Bitcoin Could Be the Smartest Buy of the Decade",
-    "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "How Trump made more than $1 billion on crypto when most of his coin’s investors lost money"
+    "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61426.8203125,
-        "perp_last_price": 61426.8203125,
-        "mark_price": 61426.8203125,
-        "index_price": 61426.8203125,
+        "spot_price": 61380.0,
+        "perp_last_price": 61380.0,
+        "mark_price": 61380.0,
+        "index_price": 61380.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 61442.0,
-        "stop_loss_technical": 60020.0,
-        "target_1": 63575.0,
-        "target_2": 65708.0,
+        "entry_ideal": 61379.98828125,
+        "stop_loss_technical": 60297.23046875,
+        "target_1": 63004.125,
+        "target_2": 64628.26171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61426.8203125,
+        "entry_ideal": 61380.0,
         "stop_loss_technical": 57747.765625,
-        "target_1": 66945.40234375,
-        "target_2": 72463.984375,
+        "target_1": 66828.3515625,
+        "target_2": 72276.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
