@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-03T08:07:55.486588+00:00",
+    "generated_at_utc": "2026-07-03T10:47:40.334102+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "'Poor, hungry, driven': Billionaire Michael Lee-Chin says rich people become wealthy by doing 5 simple things",
     "Suze Orman says this is “the biggest waste of money out there” but 1 in 5 Americans do it anyway",
-    "The Stock Market Is Flashing a Clear Warning to Investors: Here's What History Says Could Happen in 2026 and Beyond",
     "TSA issues stern new warning about peanut butter",
-    "Student loan changes are here; Ohio’s average student loan debt is about $35,000",
-    "Fresh lawsuit drops bombshell on Micron stock price",
-    "Americans are escaping the U.S. for New Zealand where house prices have hit a new low—but only wealthy Americans with $3 million spare can invest",
-    "Here's Why Bitcoin Could Be the Smartest Buy of the Decade"
+    "Organized crime is building an AI hardware cargo theft economy: ‘The economics have become just crazy from the criminal opportunistic perspective’",
+    "Trump Allies Double Down on Efforts to Reshape Federal Reserve",
+    "The Stock Market Is Flashing a Clear Warning to Investors: Here's What History Says Could Happen in 2026 and Beyond",
+    "Apple Just Made a Controversial Move. Is the Stock One to Avoid or Is Now the Time to Buy?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61671.578125,
-        "perp_last_price": 61671.578125,
-        "mark_price": 61671.578125,
-        "index_price": 61671.578125,
+        "spot_price": 61850.9609375,
+        "perp_last_price": 61850.9609375,
+        "mark_price": 61850.9609375,
+        "index_price": 61850.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61671.578125,
-        "stop_loss_technical": 62128.671875,
-        "target_1": 60985.9375,
-        "target_2": 60300.296875,
+        "entry_ideal": 61850.9609375,
+        "stop_loss_technical": 61094.66015625,
+        "target_1": 62985.41210938,
+        "target_2": 64119.86328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61671.578125,
+        "entry_ideal": 61850.9609375,
         "stop_loss_technical": 57747.765625,
-        "target_1": 67557.296875,
-        "target_2": 73443.015625,
+        "target_1": 68005.75390625,
+        "target_2": 74160.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
