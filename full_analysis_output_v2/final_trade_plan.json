@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-02T23:41:21.813984+00:00",
+    "generated_at_utc": "2026-07-03T01:17:29.579331+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.848,
+        "price": 100.894,
         "trend": "bajista"
       },
       "US10Y": {
@@ -26,32 +26,33 @@
     "TSA issues stern new warning about peanut butter",
     "Jersey Mike’s IPO Filing Reveals $50 Million In Pay For A Stepson, A $41 Million Aircraft And A Family On Payroll",
     "Americans are escaping the U.S. for New Zealand where house prices have hit a new low—but only wealthy Americans with $3 million spare can invest",
+    "Here's Why Bitcoin Could Be the Smartest Buy of the Decade",
     "Kroger Is Buying This Family-Owned Supermarket For $1.65 Billion, Promising To Bring Customers 'Affordable Prices'",
-    "Why Apple (AAPL) Stock Is Trading Up Today",
-    "Dave Ramsey: This 62-Year-Old Millionaire Is ‘Scared to Live’ Because of the 4% Rule"
+    "How Trump made more than $1 billion on crypto when most of his coin’s investors lost money"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61413.26171875,
-        "perp_last_price": 61413.26171875,
-        "mark_price": 61413.26171875,
-        "index_price": 61413.26171875,
+        "spot_price": 61426.8203125,
+        "perp_last_price": 61426.8203125,
+        "mark_price": 61426.8203125,
+        "index_price": 61426.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61413.26171875,
-        "stop_loss_technical": 60026.37109375,
-        "target_1": 63493.59765625,
-        "target_2": 65573.93359375,
+        "entry_ideal": 61442.0,
+        "stop_loss_technical": 60020.0,
+        "target_1": 63575.0,
+        "target_2": 65708.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61413.26171875,
+        "entry_ideal": 61426.8203125,
         "stop_loss_technical": 57747.765625,
-        "target_1": 66911.50585938,
-        "target_2": 72409.75,
+        "target_1": 66945.40234375,
+        "target_2": 72463.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
