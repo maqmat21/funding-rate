@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-04T17:19:45.066503+00:00",
+    "generated_at_utc": "2026-07-04T18:15:11.252805+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,34 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Social Security's 2027 COLA Is on Pace for a Historic \"Trump Bump\" -- but It Comes With Unintended Consequences",
     "Here's How Many Shares of Coca-Cola You'd Need for $5,000 in Yearly Dividends",
-    "Warren Buffett Just Sent Investors an 11-Word Warning About the Stock Market. History Says He's Right.",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Even as Elon Musk calls philanthropy ‘very hard,’ everyday Americans gave a record $617 billion—despite feeling the squeeze over the cost of living",
-    "'Poor, hungry, driven': Billionaire Michael Lee-Chin says rich people become wealthy by doing 5 simple things"
+    "Warren Buffett Just Sent Investors an 11-Word Warning About the Stock Market. History Says He's Right.",
+    "A Couple Wants to Sell a Rental Without Setting Off a Medicare Surcharge. A 1031 Exchange or Installment Sale Can Spread the Gain.",
+    "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62862.66015625,
-        "perp_last_price": 62862.66015625,
-        "mark_price": 62862.66015625,
-        "index_price": 62862.66015625,
+        "spot_price": 63273.8984375,
+        "perp_last_price": 63273.8984375,
+        "mark_price": 63273.8984375,
+        "index_price": 63273.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62862.7890625,
+        "entry_ideal": 63273.8984375,
         "stop_loss_technical": 62274.16015625,
-        "target_1": 63745.73242188,
-        "target_2": 64628.67578125,
+        "target_1": 64773.50585938,
+        "target_2": 66273.11328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62862.66015625,
+        "entry_ideal": 63273.8984375,
         "stop_loss_technical": 57747.765625,
-        "target_1": 70535.00195312,
-        "target_2": 78207.34375,
+        "target_1": 71563.09765625,
+        "target_2": 79852.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
