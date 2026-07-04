@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-04T21:32:21.736713+00:00",
+    "generated_at_utc": "2026-07-04T22:32:52.871659+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "The Smartest Dividend Stock to Buy With $1,000 Right Now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Prediction: SpaceX Stock Will Hit This Price by the End of 2026",
     "Social Security's 2027 COLA Is on Pace for a Historic \"Trump Bump\" -- but It Comes With Unintended Consequences",
-    "Net Worth of Americans Under 35: Median Wealth, Debt, and Financial Milestones for Young Adults",
-    "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
+    "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
     "Here's How Many Shares of Coca-Cola You'd Need for $5,000 in Yearly Dividends"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63390.1015625,
-        "perp_last_price": 63390.1015625,
-        "mark_price": 63390.1015625,
-        "index_price": 63390.1015625,
+        "spot_price": 63173.69140625,
+        "perp_last_price": 63173.69140625,
+        "mark_price": 63173.69140625,
+        "index_price": 63173.69140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63390.1015625,
-        "stop_loss_technical": 62274.16015625,
-        "target_1": 65064.01367188,
-        "target_2": 66737.92578125,
+        "entry_ideal": 63173.69140625,
+        "stop_loss_technical": 63402.87109375,
+        "target_1": 62829.921875,
+        "target_2": 62486.15234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63390.1015625,
+        "entry_ideal": 63173.69140625,
         "stop_loss_technical": 57747.765625,
-        "target_1": 71853.60546875,
-        "target_2": 80317.109375,
+        "target_1": 71312.58007812,
+        "target_2": 79451.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
