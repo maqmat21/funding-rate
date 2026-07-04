@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-04T12:15:03.101366+00:00",
+    "generated_at_utc": "2026-07-04T13:58:37.467149+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Social Security's 2027 COLA Is on Pace for a Historic \"Trump Bump\" -- but It Comes With Unintended Consequences",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "I'm 57 And Just Found Out My Pension Is Underfunded By 30% — Now I Have To Decide Between A Lump Sum Buyout Or Monthly Payments That May Not Be There When I Need Them",
     "Here's How Many Shares of Coca-Cola You'd Need for $5,000 in Yearly Dividends",
+    "Oil is Starting to Flow Out of the Strait of Hormuz Again. Should You Still Buy Oil Stocks?",
     "Warren Buffett Just Sent Investors an 11-Word Warning About the Stock Market. History Says He's Right.",
-    "Micron Earned $24.67 Per Share Last Quarter. Its Dividend Is Still 15 Cents. Something Has to Give.",
-    "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Social Security Pays $2,081 a Month. Here’s How Much You Need Invested to Match It.",
-    "3 Reasons Micron Stock Could Soar to $2,000"
+    "Here's the Precise Timeline of When SpaceX Insiders Can Dump Their Shares on Retail Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62509.2109375,
-        "perp_last_price": 62509.2109375,
-        "mark_price": 62509.2109375,
-        "index_price": 62509.2109375,
+        "spot_price": 62539.48046875,
+        "perp_last_price": 62539.48046875,
+        "mark_price": 62539.48046875,
+        "index_price": 62539.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62509.2109375,
-        "stop_loss_technical": 62009.640625,
-        "target_1": 63258.56640625,
-        "target_2": 64007.921875,
+        "entry_ideal": 62536.87109375,
+        "stop_loss_technical": 62064.0,
+        "target_1": 63246.17773438,
+        "target_2": 63955.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62509.2109375,
+        "entry_ideal": 62539.48046875,
         "stop_loss_technical": 57747.765625,
-        "target_1": 69651.37890625,
-        "target_2": 76793.546875,
+        "target_1": 69727.05273438,
+        "target_2": 76914.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
