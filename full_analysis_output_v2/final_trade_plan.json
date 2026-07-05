@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-05T17:53:53.095904+00:00",
+    "generated_at_utc": "2026-07-05T18:57:27.785379+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,48 +25,47 @@
     "A Dividend Portfolio That Out-Earns the Average California Family",
     "Robert Kiyosaki says the ‘everything bubble’ is about to pop in the ‘worst crash in history.’ Protect yourself now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Prediction: This Stock Will Be One of the Biggest Winners of the Second Half of 2026",
+    "Nvidia Stock Is Down 13% Over the Last Month. Here's Why That Could Be Good News.",
     "80% of retirees are sitting on their nest eggs too long — and a new $6,000 tax break is slipping away",
-    "Trump Accounts are now available for kids. Here’s where the money will be invested in the stock market—in line with Warren Buffett’s advice",
-    "The Smartest Dividend Stock to Buy With $1,000 Right Now",
-    "Here's How Many Shares of Coca-Cola You'd Need for $5,000 in Yearly Dividends"
+    "Coca-Cola Is Crushing the Nasdaq and S&P 500 in 2026, but This Higher-Yield Dividend King Could Be an Even Better Stock to Buy for the Second Half of 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62553.359375,
-        "perp_last_price": 62553.359375,
-        "mark_price": 62553.359375,
-        "index_price": 62553.359375,
+        "spot_price": 62759.25,
+        "perp_last_price": 62759.25,
+        "mark_price": 62759.25,
+        "index_price": 62759.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62553.359375,
-        "stop_loss_technical": 63258.33984375,
-        "target_1": 61495.88867188,
-        "target_2": 60438.41796875,
+        "entry_ideal": 62758.26171875,
+        "stop_loss_technical": 62408.0,
+        "target_1": 63283.65429688,
+        "target_2": 63809.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62553.359375,
-        "stop_loss_technical": 63398.41015625,
-        "target_1": 61285.78320312,
-        "target_2": 60018.20703125,
+        "entry_ideal": 62759.25,
+        "stop_loss_technical": 57747.765625,
+        "target_1": 70276.4765625,
+        "target_2": 77793.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
