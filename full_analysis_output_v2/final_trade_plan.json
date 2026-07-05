@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-05T10:29:05.314978+00:00",
+    "generated_at_utc": "2026-07-05T11:53:53.474242+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Robert Kiyosaki says the ‘everything bubble’ is about to pop in the ‘worst crash in history.’ Protect yourself now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "3 Dividend Stocks That Could Be Easy Wealth Builders",
     "The Smartest Dividend Stock to Buy With $1,000 Right Now",
-    "Prediction: $1,000 Invested in SpaceX Today Will Be Worth This Much By 2030",
-    "Warren Buffett Just Offered 11 Words of Warning That Could Reshape Your Investing Strategy",
+    "3 Dividend Stocks That Could Be Easy Wealth Builders",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why"
+    "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
+    "Prediction: $1,000 Invested in SpaceX Today Will Be Worth This Much By 2030"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62639.87890625,
-        "perp_last_price": 62639.87890625,
-        "mark_price": 62639.87890625,
-        "index_price": 62639.87890625,
+        "spot_price": 62613.98046875,
+        "perp_last_price": 62613.98046875,
+        "mark_price": 62613.98046875,
+        "index_price": 62613.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62639.87890625,
-        "stop_loss_technical": 62408.0,
-        "target_1": 62987.69726562,
-        "target_2": 63335.515625,
+        "entry_ideal": 62613.98046875,
+        "stop_loss_technical": 63404.859375,
+        "target_1": 61427.66210938,
+        "target_2": 60241.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 62639.87890625,
-        "stop_loss_technical": 63402.87109375,
-        "target_1": 61495.390625,
-        "target_2": 60350.90234375,
+        "entry_ideal": 62613.98046875,
+        "stop_loss_technical": 63404.859375,
+        "target_1": 61427.66210938,
+        "target_2": 60241.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
