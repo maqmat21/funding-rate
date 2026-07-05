@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-05T20:08:52.226690+00:00",
+    "generated_at_utc": "2026-07-05T21:16:37.328928+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,19 +25,19 @@
     "A Dividend Portfolio That Out-Earns the Average California Family",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Prediction: This Stock Will Be One of the Biggest Winners of the Second Half of 2026",
+    "Is Micron Technology Stock Going to $1,500? The Bull Case Is Stronger Than You Think.",
     "Robert Kiyosaki says the ‘everything bubble’ is about to pop in the ‘worst crash in history.’ Protect yourself now",
-    "What a $1,000 Investment in a SpaceX Could Be Worth in 5 Years",
     "Top-rated analyst sets a jaw-dropping Intel stock price target",
-    "Warren Buffett unveils 11-word stock market warning"
+    "What a $1,000 Investment in a SpaceX Could Be Worth in 5 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62743.55859375,
-        "perp_last_price": 62743.55859375,
-        "mark_price": 62743.55859375,
-        "index_price": 62743.55859375,
+        "spot_price": 62670.25,
+        "perp_last_price": 62670.25,
+        "mark_price": 62670.25,
+        "index_price": 62670.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,23 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 62743.55859375,
+        "entry_ideal": 62670.25,
         "stop_loss_technical": 62408.0,
-        "target_1": 63246.89648438,
-        "target_2": 63750.234375,
+        "target_1": 63063.625,
+        "target_2": 63457.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62743.55859375,
-        "stop_loss_technical": 57747.765625,
-        "target_1": 70237.24804688,
-        "target_2": 77730.9375,
+        "entry_ideal": 62670.25,
+        "stop_loss_technical": 63398.41015625,
+        "target_1": 61578.00976562,
+        "target_2": 60485.76953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
