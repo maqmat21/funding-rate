@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-05T14:50:03.619664+00:00",
+    "generated_at_utc": "2026-07-05T15:54:25.377281+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "A Dividend Portfolio That Out-Earns the Average California Family",
     "Robert Kiyosaki says the ‘everything bubble’ is about to pop in the ‘worst crash in history.’ Protect yourself now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "80% of retirees are sitting on their nest eggs too long — and a new $6,000 tax break is slipping away",
-    "California vs. Elon Musk: Tesla Snubbed as New EV Incentives Boost Rivian, Lucid",
     "The Smartest Dividend Stock to Buy With $1,000 Right Now",
     "Trump Accounts are now available for kids. Here’s where the money will be invested in the stock market—in line with Warren Buffett’s advice",
-    "Here's How Many Shares of Coca-Cola You'd Need for $5,000 in Yearly Dividends"
+    "The 3 Best Dividend Stocks to Buy in July"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62671.41015625,
-        "perp_last_price": 62671.41015625,
-        "mark_price": 62671.41015625,
-        "index_price": 62671.41015625,
+        "spot_price": 62691.55078125,
+        "perp_last_price": 62691.55078125,
+        "mark_price": 62691.55078125,
+        "index_price": 62691.55078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62671.3984375,
-        "stop_loss_technical": 62408.0,
-        "target_1": 63066.49609375,
-        "target_2": 63461.59375,
+        "entry_ideal": 62691.5390625,
+        "stop_loss_technical": 63402.87109375,
+        "target_1": 61624.54101562,
+        "target_2": 60557.54296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 62671.41015625,
+        "entry_ideal": 62691.55078125,
         "stop_loss_technical": 63402.87109375,
-        "target_1": 61574.21875,
-        "target_2": 60477.02734375,
+        "target_1": 61624.5703125,
+        "target_2": 60557.58984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
