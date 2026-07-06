@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-06T22:48:36.241510+00:00",
+    "generated_at_utc": "2026-07-06T23:47:47.952681+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "$50M Disney settlement: What to know to claim your share",
     "Once You Achieve This Wealth Threshold, You're Officially In The Top 1%",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard",
     "A Dividend Portfolio That Out-Earns the Average California Family",
-    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
-    "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Silver price predictions: What can investors expect over the next 10 years?"
+    "Want Durable Dividend Income That Can Last for Decades? Buy This Stock and Never Look Back.",
+    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard",
+    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64168.7109375,
-        "perp_last_price": 64168.7109375,
-        "mark_price": 64168.7109375,
-        "index_price": 64168.7109375,
+        "spot_price": 64003.9609375,
+        "perp_last_price": 64003.9609375,
+        "mark_price": 64003.9609375,
+        "index_price": 64003.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64168.7109375,
+        "entry_ideal": 64010.98828125,
         "stop_loss_technical": 64596.55078125,
-        "target_1": 63526.95117188,
-        "target_2": 62885.19140625,
+        "target_1": 63132.64453125,
+        "target_2": 62254.30078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64168.7109375,
+        "entry_ideal": 64003.9609375,
         "stop_loss_technical": 59532.32421875,
-        "target_1": 71123.29101562,
-        "target_2": 78077.87109375,
+        "target_1": 70711.41601562,
+        "target_2": 77418.87109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
