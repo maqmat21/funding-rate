@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-06T12:34:03.463989+00:00",
+    "generated_at_utc": "2026-07-06T16:03:15.545180+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.084,
-        "trend": "alcista"
+        "price": 101.013,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.485,
+        "price": 4.481,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 3h 57m",
     "News from the Yahoo Finance Network",
     "Once You Achieve This Wealth Threshold, You're Officially In The Top 1%",
-    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Apple Could Have Purchased Any of 487 S&P 500 Companies -- but CEO Tim Cook Chose to Invest $853 Billion Into This Game-Changing Opportunity",
     "A Dividend Portfolio That Out-Earns the Average California Family",
-    "Prediction: This Magnificent Artificial Intelligence (AI) Stock Will Become Berkshire's Next Forever Holding",
-    "2 Monster Dividend Stocks to Buy Now and Hold Forever"
+    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
+    "Popular pizza chain franchisee files Chapter 11 bankruptcy",
+    "Silver price predictions: What can investors expect over the next 10 years?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62056.0,
-        "perp_last_price": 62056.0,
-        "mark_price": 62056.0,
-        "index_price": 62056.0,
+        "spot_price": 63490.28125,
+        "perp_last_price": 63490.28125,
+        "mark_price": 63490.28125,
+        "index_price": 63490.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62084.87109375,
-        "stop_loss_technical": 63938.05078125,
-        "target_1": 59305.1015625,
-        "target_2": 56525.33203125,
+        "entry_ideal": 63515.98828125,
+        "stop_loss_technical": 61276.55859375,
+        "target_1": 66875.1328125,
+        "target_2": 70234.27734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62056.0,
-        "stop_loss_technical": 63938.05078125,
-        "target_1": 59232.92382812,
-        "target_2": 56409.84765625,
+        "entry_ideal": 63490.28125,
+        "stop_loss_technical": 59532.32421875,
+        "target_1": 69427.21679688,
+        "target_2": 75364.15234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
