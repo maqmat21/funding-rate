@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-06T04:43:05.756634+00:00",
+    "generated_at_utc": "2026-07-06T08:50:54.785455+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.938,
+        "price": 101.073,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,54 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 47m",
+    "U.S. markets open in 4h 40m",
     "News from the Yahoo Finance Network",
     "Once You Achieve This Wealth Threshold, You're Officially In The Top 1%",
-    "A Dividend Portfolio That Out-Earns the Average California Family",
+    "Apple Could Have Purchased Any of 487 S&P 500 Companies -- but CEO Tim Cook Chose to Invest $853 Billion Into This Game-Changing Opportunity",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Smartest Dividend Stock to Buy With $1,000 Right Now",
-    "Coca-Cola Is Crushing the Nasdaq and S&P 500 in 2026, but This Higher-Yield Dividend King Could Be an Even Better Stock to Buy for the Second Half of 2026",
-    "Social Security's 2027 COLA Is on Pace for a Historic \"Trump Bump\" -- but It Comes With Unintended Consequences"
+    "Prediction: This Magnificent Artificial Intelligence (AI) Stock Will Become Berkshire's Next Forever Holding",
+    "A Dividend Portfolio That Out-Earns the Average California Family",
+    "President Trump Sells Palantir Stock and Buys an AI Stock Up 2,100% Since 2023"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63284.1015625,
-        "perp_last_price": 63284.1015625,
-        "mark_price": 63284.1015625,
-        "index_price": 63284.1015625,
+        "spot_price": 62832.66015625,
+        "perp_last_price": 62832.66015625,
+        "mark_price": 62832.66015625,
+        "index_price": 62832.66015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63284.1015625,
-        "stop_loss_technical": 62334.84003906,
-        "target_1": 64707.99384766,
-        "target_2": 66131.88613281,
+        "entry_ideal": 62832.66015625,
+        "stop_loss_technical": 63938.05078125,
+        "target_1": 61174.57421875,
+        "target_2": 59516.48828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63284.1015625,
-        "stop_loss_technical": 62334.84003906,
-        "target_1": 64707.99384766,
-        "target_2": 66131.88613281,
+        "entry_ideal": 62832.66015625,
+        "stop_loss_technical": 63938.05078125,
+        "target_1": 61174.57421875,
+        "target_2": 59516.48828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
