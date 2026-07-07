@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T13:39:28.004178+00:00",
+    "generated_at_utc": "2026-07-07T16:08:08.319609+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.916,
-        "trend": "bajista"
+        "price": 100.982,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.499,
+        "price": 4.517,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 21m",
+    "U.S. markets close in 3h 53m",
     "News from the Yahoo Finance Network",
-    "Trump Again Asks Supreme Court to Block $5 Million Carroll Award",
-    "Why Coinbase's co-founder wants you to take a financial literacy test",
-    "Despite a $220 million net worth, Rafael Nadal says he won’t retire because he hates waking up to no plans—so he’s opened a chain of hotels instead",
+    "What CX leaders should do when a brand dies",
     "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
-    "Micron Technology Just Dropped a $50 Billion Revenue Bombshell. Time to Buy the Stock?",
-    "Here's who won — and lost — under Trump's \"big, beautiful bill\""
+    "Despite a $220 million net worth, Rafael Nadal says he won’t retire because he hates waking up to no plans—so he’s opened a chain of hotels instead",
+    "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
+    "Popular pizza chain franchisee files Chapter 11 bankruptcy",
+    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62999.05859375,
-        "perp_last_price": 62999.05859375,
-        "mark_price": 62999.05859375,
-        "index_price": 62999.05859375,
+        "spot_price": 63871.5703125,
+        "perp_last_price": 63871.5703125,
+        "mark_price": 63871.5703125,
+        "index_price": 63871.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62975.890625,
-        "stop_loss_technical": 64596.55078125,
-        "target_1": 60544.90039062,
-        "target_2": 58113.91015625,
+        "entry_ideal": 63852.7890625,
+        "stop_loss_technical": 62894.99722656,
+        "target_1": 65289.47681641,
+        "target_2": 66726.16457031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62999.05859375,
-        "stop_loss_technical": 64597.5703125,
-        "target_1": 60601.29101562,
-        "target_2": 58203.5234375,
+        "entry_ideal": 63871.5703125,
+        "stop_loss_technical": 62913.49675781,
+        "target_1": 65308.68064453,
+        "target_2": 66745.79097656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
