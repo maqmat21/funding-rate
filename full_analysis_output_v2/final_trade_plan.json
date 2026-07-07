@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T16:08:08.319609+00:00",
+    "generated_at_utc": "2026-07-07T18:14:25.703234+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.982,
+        "price": 100.95,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.517,
+        "price": 4.521,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 53m",
+    "U.S. markets close in 1h 46m",
     "News from the Yahoo Finance Network",
-    "What CX leaders should do when a brand dies",
+    "Massachusetts utilities ink contracts for 4.5 GWh of energy storage",
+    "Did Meta Overbuy AI Compute, or Is the Market Asking the Wrong Question?",
+    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
     "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
-    "Despite a $220 million net worth, Rafael Nadal says he won’t retire because he hates waking up to no plans—so he’s opened a chain of hotels instead",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Popular pizza chain franchisee files Chapter 11 bankruptcy",
-    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard"
+    "Disney's ABC blasts the FCC (again) in defense of 'The View'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63871.5703125,
-        "perp_last_price": 63871.5703125,
-        "mark_price": 63871.5703125,
-        "index_price": 63871.5703125,
+        "spot_price": 63986.21875,
+        "perp_last_price": 63986.21875,
+        "mark_price": 63986.21875,
+        "index_price": 63986.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63852.7890625,
-        "stop_loss_technical": 62894.99722656,
-        "target_1": 65289.47681641,
-        "target_2": 66726.16457031,
+        "entry_ideal": 63986.21875,
+        "stop_loss_technical": 64285.5,
+        "target_1": 63537.296875,
+        "target_2": 63088.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63871.5703125,
-        "stop_loss_technical": 62913.49675781,
-        "target_1": 65308.68064453,
-        "target_2": 66745.79097656,
+        "entry_ideal": 63986.21875,
+        "stop_loss_technical": 63026.42546875,
+        "target_1": 65425.90867187,
+        "target_2": 66865.59859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
