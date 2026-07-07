@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T18:14:25.703234+00:00",
+    "generated_at_utc": "2026-07-07T20:14:57.473041+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.95,
+        "price": 101.055,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.521,
+        "price": 4.529,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 46m",
     "News from the Yahoo Finance Network",
-    "Massachusetts utilities ink contracts for 4.5 GWh of energy storage",
-    "Did Meta Overbuy AI Compute, or Is the Market Asking the Wrong Question?",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
     "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Disney's ABC blasts the FCC (again) in defense of 'The View'"
+    "Rocket Lab Announces a Big Acquisition That Could Be Problematic for SpaceX",
+    "Popular pizza chain franchisee files Chapter 11 bankruptcy",
+    "He went from working in a factory to being rich enough to retire at 32—but 3 decades later, this millionaire still works and takes public transport",
+    "Oil prices jump as Iran attacks vessels in Hormuz strait, US revokes license allowing Iran to sell oil"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63986.21875,
-        "perp_last_price": 63986.21875,
-        "mark_price": 63986.21875,
-        "index_price": 63986.21875,
+        "spot_price": 63740.171875,
+        "perp_last_price": 63740.171875,
+        "mark_price": 63740.171875,
+        "index_price": 63740.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63986.21875,
-        "stop_loss_technical": 64285.5,
-        "target_1": 63537.296875,
-        "target_2": 63088.375,
+        "entry_ideal": 63724.37890625,
+        "stop_loss_technical": 64198.19921875,
+        "target_1": 63013.6484375,
+        "target_2": 62302.91796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +61,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63986.21875,
-        "stop_loss_technical": 63026.42546875,
-        "target_1": 65425.90867187,
-        "target_2": 66865.59859375,
+        "entry_ideal": 63740.171875,
+        "stop_loss_technical": 62784.06929688,
+        "target_1": 65174.32574219,
+        "target_2": 66608.47960938,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
