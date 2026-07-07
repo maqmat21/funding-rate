@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T21:41:43.964411+00:00",
+    "generated_at_utc": "2026-07-07T22:44:10.927500+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.121,
+        "price": 101.122,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Does Index Removal Amid Solid Results Change The Bull Case For Cardinal Health (CAH)?",
     "Google Co-Founder Worth $280 Billion Flees NYC Real Estate at 94% Loss Ahead of Mamdani’s Rent Freeze",
+    "After His Gold Blunder, Robert Kiyosaki Issues a Surprising Recommendation",
+    "Nervous About the Stock Market? These 7 Words From Warren Buffett Might Change Your Mind.",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
+    "GOP Leaders Speak With McConnell Amid Questions About Health",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Is Western Digital (WDC) Cheap Following Its AI Driven Index Shift?",
     "Popular pizza chain franchisee files Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63331.609375,
-        "perp_last_price": 63331.609375,
-        "mark_price": 63331.609375,
-        "index_price": 63331.609375,
+        "spot_price": 63580.671875,
+        "perp_last_price": 63580.671875,
+        "mark_price": 63580.671875,
+        "index_price": 63580.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63334.12890625,
-        "stop_loss_technical": 64198.19921875,
-        "target_1": 62038.0234375,
-        "target_2": 60741.91796875,
+        "entry_ideal": 63580.66015625,
+        "stop_loss_technical": 62626.95025391,
+        "target_1": 65011.22500977,
+        "target_2": 66441.78986328,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63331.609375,
-        "stop_loss_technical": 64597.5703125,
-        "target_1": 61432.66796875,
-        "target_2": 59533.7265625,
+        "entry_ideal": 63580.671875,
+        "stop_loss_technical": 62626.96179688,
+        "target_1": 65011.23699219,
+        "target_2": 66441.80210937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
