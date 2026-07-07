@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T05:13:30.709906+00:00",
+    "generated_at_utc": "2026-07-07T08:43:49.186081+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.881,
+        "price": 100.897,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 17m",
+    "U.S. markets open in 4h 47m",
     "News from the Yahoo Finance Network",
     "Once You Achieve This Wealth Threshold, You're Officially In The Top 1%",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Meta says US states are seeking $1.4 trillion in penalties in August youth safety trial",
     "I'm 64, My Husband Passed Away Last Year, And My Financial Planner Just Told Me My Retirement Is 'On Track' — But He's Been Saying That For Five Years And I Still Don't Understand What It Means",
-    "In-N-Out unveils 6 new locations across 5 states. See where",
-    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard"
+    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard",
+    "Xi Gives Trump an ‘Easy’ Win, Smoothing Path for Next Summit",
+    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62857.140625,
-        "perp_last_price": 62857.140625,
-        "mark_price": 62857.140625,
-        "index_price": 62857.140625,
+        "spot_price": 63002.7890625,
+        "perp_last_price": 63002.7890625,
+        "mark_price": 63002.7890625,
+        "index_price": 63002.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62867.26953125,
-        "stop_loss_technical": 64596.55078125,
-        "target_1": 60273.34765625,
-        "target_2": 57679.42578125,
+        "entry_ideal": 63008.98828125,
+        "stop_loss_technical": 64601.71875,
+        "target_1": 60619.89257812,
+        "target_2": 58230.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62857.140625,
-        "stop_loss_technical": 64596.55078125,
-        "target_1": 60248.02539062,
-        "target_2": 57638.91015625,
+        "entry_ideal": 63002.7890625,
+        "stop_loss_technical": 64601.71875,
+        "target_1": 60604.39453125,
+        "target_2": 58206.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
