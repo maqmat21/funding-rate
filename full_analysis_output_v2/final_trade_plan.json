@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T08:43:49.186081+00:00",
+    "generated_at_utc": "2026-07-07T11:31:25.304815+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.897,
+        "price": 100.893,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 47m",
     "News from the Yahoo Finance Network",
     "Once You Achieve This Wealth Threshold, You're Officially In The Top 1%",
+    "Micron Technology Just Dropped a $50 Billion Revenue Bombshell. Time to Buy the Stock?",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "I'm 64, My Husband Passed Away Last Year, And My Financial Planner Just Told Me My Retirement Is 'On Track' — But He's Been Saying That For Five Years And I Still Don't Understand What It Means",
-    "Billionaire Mark Cuban says it’s ‘embarrassing’ to not pay employees well—and a $20 minimum wage should be standard",
-    "Xi Gives Trump an ‘Easy’ Win, Smoothing Path for Next Summit",
-    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More."
+    "Trump Again Asks Supreme Court to Block $5 Million Carroll Award",
+    "Despite a $220 million net worth, Rafael Nadal says he won’t retire because he hates waking up to no plans—so he’s opened a chain of hotels instead",
+    "The 3 Best Buy-and-Hold Dividend Stocks to Load Up on for Lifetime Income",
+    "VOO vs. QQQ: Which Index Fund Is the Better Buy for Long-Term Investors?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63002.7890625,
-        "perp_last_price": 63002.7890625,
-        "mark_price": 63002.7890625,
-        "index_price": 63002.7890625,
+        "spot_price": 63136.078125,
+        "perp_last_price": 63136.078125,
+        "mark_price": 63136.078125,
+        "index_price": 63136.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63008.98828125,
+        "entry_ideal": 63136.078125,
         "stop_loss_technical": 64601.71875,
-        "target_1": 60619.89257812,
-        "target_2": 58230.796875,
+        "target_1": 60937.6171875,
+        "target_2": 58739.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63002.7890625,
+        "entry_ideal": 63136.078125,
         "stop_loss_technical": 64601.71875,
-        "target_1": 60604.39453125,
-        "target_2": 58206.0,
+        "target_1": 60937.6171875,
+        "target_2": 58739.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
