@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T11:31:25.304815+00:00",
+    "generated_at_utc": "2026-07-07T13:39:28.004178+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.893,
+        "price": 100.916,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.479,
+        "price": 4.499,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 6h 21m",
     "News from the Yahoo Finance Network",
-    "Once You Achieve This Wealth Threshold, You're Officially In The Top 1%",
-    "Micron Technology Just Dropped a $50 Billion Revenue Bombshell. Time to Buy the Stock?",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Trump Again Asks Supreme Court to Block $5 Million Carroll Award",
+    "Why Coinbase's co-founder wants you to take a financial literacy test",
     "Despite a $220 million net worth, Rafael Nadal says he won’t retire because he hates waking up to no plans—so he’s opened a chain of hotels instead",
-    "The 3 Best Buy-and-Hold Dividend Stocks to Load Up on for Lifetime Income",
-    "VOO vs. QQQ: Which Index Fund Is the Better Buy for Long-Term Investors?"
+    "Has Greg Abel Found Berkshire Hathaway's Next Apple? He's Put $23 Billion Into This Company So Far and Could Buy Even More.",
+    "Micron Technology Just Dropped a $50 Billion Revenue Bombshell. Time to Buy the Stock?",
+    "Here's who won — and lost — under Trump's \"big, beautiful bill\""
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63136.078125,
-        "perp_last_price": 63136.078125,
-        "mark_price": 63136.078125,
-        "index_price": 63136.078125,
+        "spot_price": 62999.05859375,
+        "perp_last_price": 62999.05859375,
+        "mark_price": 62999.05859375,
+        "index_price": 62999.05859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63136.078125,
-        "stop_loss_technical": 64601.71875,
-        "target_1": 60937.6171875,
-        "target_2": 58739.15625,
+        "entry_ideal": 62975.890625,
+        "stop_loss_technical": 64596.55078125,
+        "target_1": 60544.90039062,
+        "target_2": 58113.91015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63136.078125,
-        "stop_loss_technical": 64601.71875,
-        "target_1": 60937.6171875,
-        "target_2": 58739.15625,
+        "entry_ideal": 62999.05859375,
+        "stop_loss_technical": 64597.5703125,
+        "target_1": 60601.29101562,
+        "target_2": 58203.5234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
