@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-07T22:44:10.927500+00:00",
+    "generated_at_utc": "2026-07-07T23:37:32.621409+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,51 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Google Co-Founder Worth $280 Billion Flees NYC Real Estate at 94% Loss Ahead of Mamdani’s Rent Freeze",
-    "After His Gold Blunder, Robert Kiyosaki Issues a Surprising Recommendation",
-    "Nervous About the Stock Market? These 7 Words From Warren Buffett Might Change Your Mind.",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "GOP Leaders Speak With McConnell Amid Questions About Health",
+    "Nervous About the Stock Market? These 7 Words From Warren Buffett Might Change Your Mind.",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Popular pizza chain franchisee files Chapter 11 bankruptcy"
+    "The Micron Stock Rally Is Far From Over. Here’s Why Bulls See $2,200 for MU Next.",
+    "Popular pizza chain franchisee files Chapter 11 bankruptcy",
+    "Trump Again Asks Supreme Court to Block $5 Million Carroll Award"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63580.671875,
-        "perp_last_price": 63580.671875,
-        "mark_price": 63580.671875,
-        "index_price": 63580.671875,
+        "spot_price": 63514.171875,
+        "perp_last_price": 63514.171875,
+        "mark_price": 63514.171875,
+        "index_price": 63514.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63580.66015625,
-        "stop_loss_technical": 62626.95025391,
-        "target_1": 65011.22500977,
-        "target_2": 66441.78986328,
+        "entry_ideal": 63514.171875,
+        "stop_loss_technical": 64196.19140625,
+        "target_1": 62491.14257812,
+        "target_2": 61468.11328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63580.671875,
-        "stop_loss_technical": 62626.96179688,
-        "target_1": 65011.23699219,
-        "target_2": 66441.80210937,
+        "entry_ideal": 63514.171875,
+        "stop_loss_technical": 64597.5703125,
+        "target_1": 61889.07421875,
+        "target_2": 60263.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
