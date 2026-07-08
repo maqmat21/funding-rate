@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T16:46:55.129540+00:00",
+    "generated_at_utc": "2026-07-08T18:08:02.370521+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.16,
-        "trend": "alcista"
+        "price": 101.045,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.585,
+        "price": 4.575,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 14m",
+    "U.S. markets close in 1h 53m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
+    "'He doesn’t care about anyone': MAGA fans who lost billions buying Trump stocks and crypto now believe they were conned",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
     "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "McDonald's Franchise Owners Make A Surprising Amount Of Money",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 58% of Berkshire Hathaway's Portfolio Invested in Just 5 Dow Stocks. Here's My Top Pick for July."
+    "McDonald's Franchise Owners Make A Surprising Amount Of Money"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61979.078125,
-        "perp_last_price": 61979.078125,
-        "mark_price": 61979.078125,
-        "index_price": 61979.078125,
+        "spot_price": 62124.26171875,
+        "perp_last_price": 62124.26171875,
+        "mark_price": 62124.26171875,
+        "index_price": 62124.26171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61974.76171875,
-        "stop_loss_technical": 61045.14029297,
-        "target_1": 63369.19385742,
-        "target_2": 64763.62599609,
+        "entry_ideal": 62124.26171875,
+        "stop_loss_technical": 63700.98046875,
+        "target_1": 59759.18359375,
+        "target_2": 57394.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 61979.078125,
+        "entry_ideal": 62124.26171875,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 58051.33984375,
-        "target_2": 54123.6015625,
+        "target_1": 58414.29882812,
+        "target_2": 54704.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
