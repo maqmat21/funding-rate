@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T06:43:15.428099+00:00",
+    "generated_at_utc": "2026-07-08T09:14:12.606928+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -8,11 +8,11 @@
   },
   "macro_context_auto": {
     "macro_bias": "RISK_OFF",
-    "macro_score": 65,
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.18,
-        "trend": "unknown"
+        "price": 101.163,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.529,
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 48m",
+    "U.S. markets open in 4h 17m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 58% of Berkshire Hathaway's Portfolio Invested in Just 5 Dow Stocks. Here's My Top Pick for July.",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
+    "How Investing in Bitcoin Could Make You a Millionaire",
     "Nervous About the Stock Market? These 7 Words From Warren Buffett Might Change Your Mind.",
-    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "McDonald's Franchise Owners Make A Surprising Amount Of Money",
-    "‘Two million could quit work’: Burnham warned on tax rises"
+    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62501.12109375,
-        "perp_last_price": 62501.12109375,
-        "mark_price": 62501.12109375,
-        "index_price": 62501.12109375,
+        "spot_price": 61855.55078125,
+        "perp_last_price": 61855.55078125,
+        "mark_price": 61855.55078125,
+        "index_price": 61855.55078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,10 +50,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62505.390625,
-        "stop_loss_technical": 64196.19140625,
-        "target_1": 59969.18945312,
-        "target_2": 57432.98828125,
+        "entry_ideal": 61855.55078125,
+        "stop_loss_technical": 64198.19921875,
+        "target_1": 58341.578125,
+        "target_2": 54827.60546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62501.12109375,
+        "entry_ideal": 61855.55078125,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 59356.44726562,
-        "target_2": 56211.7734375,
+        "target_1": 57742.52148438,
+        "target_2": 53629.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
