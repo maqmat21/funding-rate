@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T22:53:36.171233+00:00",
+    "generated_at_utc": "2026-07-08T23:58:26.361049+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.066,
+        "price": 101.027,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
     "'He doesn’t care about anyone': MAGA fans who lost billions buying Trump stocks and crypto now believe they were conned",
+    "Warren Buffett's Successor Greg Abel Has Poured More Than $20 Billion of Berkshire Hathaway's Cash Into Alphabet. This May Be Why.",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
     "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "AT&T leaves rivals flat-footed as bankrupt carrier folds",
-    "US Military Launches Strikes on Iran for Second Straight Day"
+    "If a Recession Is Coming, History Shows This 1 Vanguard ETF Has Never Let Investors Down."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62227.23828125,
-        "perp_last_price": 62227.23828125,
-        "mark_price": 62227.23828125,
-        "index_price": 62227.23828125,
+        "spot_price": 62269.01953125,
+        "perp_last_price": 62269.01953125,
+        "mark_price": 62269.01953125,
+        "index_price": 62269.01953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62219.2109375,
-        "stop_loss_technical": 63049.21875,
-        "target_1": 60974.19921875,
-        "target_2": 59729.1875,
+        "entry_ideal": 62269.0,
+        "stop_loss_technical": 61470.921875,
+        "target_1": 63466.1171875,
+        "target_2": 64663.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 62227.23828125,
+        "entry_ideal": 62269.01953125,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 58671.74023438,
-        "target_2": 55116.2421875,
+        "target_1": 58776.19335938,
+        "target_2": 55283.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
