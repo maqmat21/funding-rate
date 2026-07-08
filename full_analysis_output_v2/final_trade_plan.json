@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T15:06:30.213127+00:00",
+    "generated_at_utc": "2026-07-08T16:46:55.129540+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.151,
+        "price": 101.16,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.589,
+        "price": 4.585,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 55m",
+    "U.S. markets close in 3h 14m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 58% of Berkshire Hathaway's Portfolio Invested in Just 5 Dow Stocks. Here's My Top Pick for July.",
-    "'We may just do it without a deal': Trump muses about new blockade in Strait of Hormuz, taking over Kharg Island",
+    "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required"
+    "McDonald's Franchise Owners Make A Surprising Amount Of Money",
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 58% of Berkshire Hathaway's Portfolio Invested in Just 5 Dow Stocks. Here's My Top Pick for July."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61765.98046875,
-        "perp_last_price": 61765.98046875,
-        "mark_price": 61765.98046875,
-        "index_price": 61765.98046875,
+        "spot_price": 61979.078125,
+        "perp_last_price": 61979.078125,
+        "mark_price": 61979.078125,
+        "index_price": 61979.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61757.9296875,
-        "stop_loss_technical": 63863.69140625,
-        "target_1": 58599.28710938,
-        "target_2": 55440.64453125,
+        "entry_ideal": 61974.76171875,
+        "stop_loss_technical": 61045.14029297,
+        "target_1": 63369.19385742,
+        "target_2": 64763.62599609,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61765.98046875,
+        "entry_ideal": 61979.078125,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 57518.59570312,
-        "target_2": 53271.2109375,
+        "target_1": 58051.33984375,
+        "target_2": 54123.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
