@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T18:08:02.370521+00:00",
+    "generated_at_utc": "2026-07-08T19:50:21.927085+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.045,
+        "price": 100.959,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.575,
+        "price": 4.569,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 53m",
     "News from the Yahoo Finance Network",
+    "What ExxonMobil (XOM)'s Texas Move and Governance Overhaul Means For Shareholders",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
     "'He doesn’t care about anyone': MAGA fans who lost billions buying Trump stocks and crypto now believe they were conned",
+    "Navitas Semiconductor (NVTS) Stock Looks Rich On Book Value But Strong On Returns",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
-    "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
-    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "McDonald's Franchise Owners Make A Surprising Amount Of Money"
+    "4 Reasons I'm Claiming Social Security at 65 -- and Why It Makes Sense for Me",
+    "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62124.26171875,
-        "perp_last_price": 62124.26171875,
-        "mark_price": 62124.26171875,
-        "index_price": 62124.26171875,
+        "spot_price": 62117.1484375,
+        "perp_last_price": 62117.1484375,
+        "mark_price": 62117.1484375,
+        "index_price": 62117.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62124.26171875,
-        "stop_loss_technical": 63700.98046875,
-        "target_1": 59759.18359375,
-        "target_2": 57394.10546875,
+        "entry_ideal": 62093.41015625,
+        "stop_loss_technical": 63696.2109375,
+        "target_1": 59689.20898438,
+        "target_2": 57285.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62124.26171875,
+        "entry_ideal": 62117.1484375,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 58414.29882812,
-        "target_2": 54704.3359375,
+        "target_1": 58396.515625,
+        "target_2": 54675.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
