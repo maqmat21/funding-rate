@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T20:48:48.204868+00:00",
+    "generated_at_utc": "2026-07-08T21:51:10.282317+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.069,
+        "price": 101.057,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,35 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
+    "BE Stock Drops 6% After Short Seller Flags Supply Chain Snag On Chinese Overreliance; Bloom Energy Says “Will Correct Record”",
     "'He doesn’t care about anyone': MAGA fans who lost billions buying Trump stocks and crypto now believe they were conned",
+    "Barrick Mining (TSX:ABX) Introduces Cash Flow Linked Dividend And Plans Asset IPO",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
-    "Huntington Ingalls Industries (HII) Wins Defense Awards And Expands Autonomous Vessel Production",
     "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
-    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "Mining CEO worth $24 billion nearly drowned and had to break his own leg in a freak hiking accident—he used the recovery time to go back to school"
+    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62168.33984375,
-        "perp_last_price": 62168.33984375,
-        "mark_price": 62168.33984375,
-        "index_price": 62168.33984375,
+        "spot_price": 62052.69921875,
+        "perp_last_price": 62052.69921875,
+        "mark_price": 62052.69921875,
+        "index_price": 62052.69921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62168.33984375,
-        "stop_loss_technical": 61470.921875,
-        "target_1": 63214.46679688,
-        "target_2": 64260.59375,
+        "entry_ideal": 62049.6015625,
+        "stop_loss_technical": 63049.21875,
+        "target_1": 60550.17578125,
+        "target_2": 59050.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62168.33984375,
+        "entry_ideal": 62052.69921875,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 58524.49414062,
-        "target_2": 54880.6484375,
+        "target_1": 58235.39257812,
+        "target_2": 54418.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
