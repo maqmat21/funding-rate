@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T01:06:41.400495+00:00",
+    "generated_at_utc": "2026-07-08T04:25:40.187155+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.135,
+        "price": 101.115,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,27 +21,41 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 6m",
     "News from the Yahoo Finance Network",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
-    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
     "Nervous About the Stock Market? These 7 Words From Warren Buffett Might Change Your Mind.",
-    "'I Don't Think I'm Ever Going to Stop,' Says Mark Zuckerberg. Even With 'Infinite Money,' He Has No Plans to Retreat to His Massive Hawaii Estate",
-    "SpaceX stock now enters the post-honeymoon faith phase",
-    "Google Co-Founder Worth $280 Billion Flees NYC Real Estate at 94% Loss Ahead of Mamdani’s Rent Freeze",
-    "Here's who won — and lost — under Trump's \"big, beautiful bill\""
+    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
+    "McDonald's Franchise Owners Make A Surprising Amount Of Money",
+    "Samsung's Preliminary Quarterly Profit Just Jumped 19-Fold -- and Micron Stock Fell on the News. Here's Why.",
+    "Tesla's new SUV could be its smartest profit play yet"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63468.6484375,
-        "perp_last_price": 63468.6484375,
-        "mark_price": 63468.6484375,
-        "index_price": 63468.6484375,
+        "spot_price": 62831.44921875,
+        "perp_last_price": 62831.44921875,
+        "mark_price": 62831.44921875,
+        "index_price": 62831.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 62825.98828125,
+        "stop_loss_technical": 61883.59845703,
+        "target_1": 64239.57301758,
+        "target_2": 65653.15775391,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63468.671875,
-        "stop_loss_technical": 64198.19921875,
-        "target_1": 62374.38085938,
-        "target_2": 61280.08984375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 63468.6484375,
+        "entry_ideal": 62831.44921875,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 61775.265625,
-        "target_2": 60081.8828125,
+        "target_1": 60182.26757812,
+        "target_2": 57533.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
