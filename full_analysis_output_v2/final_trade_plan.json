@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-08T04:25:40.187155+00:00",
+    "generated_at_utc": "2026-07-08T06:43:15.428099+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -8,11 +8,11 @@
   },
   "macro_context_auto": {
     "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_score": 65,
     "assets": {
       "DXY": {
-        "price": 101.115,
-        "trend": "alcista"
+        "price": 100.18,
+        "trend": "unknown"
       },
       "US10Y": {
         "price": 4.529,
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 6m",
+    "U.S. markets open in 6h 48m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 58% of Berkshire Hathaway's Portfolio Invested in Just 5 Dow Stocks. Here's My Top Pick for July.",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
     "Nervous About the Stock Market? These 7 Words From Warren Buffett Might Change Your Mind.",
     "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
     "McDonald's Franchise Owners Make A Surprising Amount Of Money",
-    "Samsung's Preliminary Quarterly Profit Just Jumped 19-Fold -- and Micron Stock Fell on the News. Here's Why.",
-    "Tesla's new SUV could be its smartest profit play yet"
+    "‘Two million could quit work’: Burnham warned on tax rises"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62831.44921875,
-        "perp_last_price": 62831.44921875,
-        "mark_price": 62831.44921875,
-        "index_price": 62831.44921875,
+        "spot_price": 62501.12109375,
+        "perp_last_price": 62501.12109375,
+        "mark_price": 62501.12109375,
+        "index_price": 62501.12109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62825.98828125,
-        "stop_loss_technical": 61883.59845703,
-        "target_1": 64239.57301758,
-        "target_2": 65653.15775391,
+        "entry_ideal": 62505.390625,
+        "stop_loss_technical": 64196.19140625,
+        "target_1": 59969.18945312,
+        "target_2": 57432.98828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62831.44921875,
+        "entry_ideal": 62501.12109375,
         "stop_loss_technical": 64597.5703125,
-        "target_1": 60182.26757812,
-        "target_2": 57533.0859375,
+        "target_1": 59356.44726562,
+        "target_2": 56211.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
