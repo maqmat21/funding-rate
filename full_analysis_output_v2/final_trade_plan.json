@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-09T10:02:35.034653+00:00",
+    "generated_at_utc": "2026-07-09T15:44:50.139130+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.965,
+        "price": 100.931,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.569,
+        "price": 4.549,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 29m",
+    "U.S. markets close in 4h 16m",
     "News from the Yahoo Finance Network",
+    "Delta sued over Seattle job posting that allegedly lacked required pay range",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
-    "'He doesn’t care about anyone': MAGA fans who lost billions buying Trump stocks and crypto now believe they were conned",
-    "A major housing affordability bill is about to become law, even without Trump's signature",
-    "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
-    "Mortgage and refinance interest rates today, Thursday, July 9, 2026: Rates moving upward today",
-    "Jeff Bezos Says ‘We Don’t Have a Revenue Problem’ in America — Bottom Half Paying Just 3% of Taxes Means ‘We Can Find 3%’"
+    "Elon Musk Lost His Trillionaire Status as SpaceX Shares Dropped 26%. Are Tesla and SpaceX Stock Still a Buy?",
+    "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
+    "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
+    "Here's who won — and lost — under Trump's \"big, beautiful bill\""
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62865.8515625,
-        "perp_last_price": 62865.8515625,
-        "mark_price": 62865.8515625,
-        "index_price": 62865.8515625,
+        "spot_price": 62915.75,
+        "perp_last_price": 62915.75,
+        "mark_price": 62915.75,
+        "index_price": 62915.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62875.078125,
-        "stop_loss_technical": 61470.30078125,
-        "target_1": 64982.24414062,
-        "target_2": 67089.41015625,
+        "entry_ideal": 62912.6015625,
+        "stop_loss_technical": 63182.0,
+        "target_1": 62508.50390625,
+        "target_2": 62104.40625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62865.8515625,
+        "entry_ideal": 62915.75,
         "stop_loss_technical": 61275.828125,
-        "target_1": 65250.88671875,
-        "target_2": 67635.921875,
+        "target_1": 65375.6328125,
+        "target_2": 67835.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
