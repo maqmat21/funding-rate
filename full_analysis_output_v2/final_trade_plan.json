@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-09T22:12:02.457676+00:00",
+    "generated_at_utc": "2026-07-09T23:36:52.337797+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.944,
+        "price": 100.937,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Worried About Dividend Cuts? Buy These 3 Dividend Stocks and Sleep Well At Night",
     "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
-    "3 Bank Stocks With High Dividends and Earnings Growth",
     "Union warns of 'conflict' as Volkswagen eyes mass job cuts",
     "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
-    "This Medicare Advantage Stock Is Shrugging Off a Whistleblower Lawsuit",
-    "Broadcom Stock Investors Just Got Incredible News from Apple CEO Tim Cook",
+    "If you invested $10,000 in Bitcoin, Trump meme coin, and gold when Trump took office, here's what you'd have today",
+    "'Because I Could' — Mark Cuban Holds the Guinness World Record for the Largest Single E-Commerce Transaction. He Spent $40M in One Email",
     "Here's who won — and lost — under Trump's \"big, beautiful bill\""
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63214.01171875,
-        "perp_last_price": 63214.01171875,
-        "mark_price": 63214.01171875,
-        "index_price": 63214.01171875,
+        "spot_price": 63185.8203125,
+        "perp_last_price": 63185.8203125,
+        "mark_price": 63185.8203125,
+        "index_price": 63185.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63214.01171875,
-        "stop_loss_technical": 62265.80154297,
-        "target_1": 64636.32698242,
-        "target_2": 66058.64224609,
+        "entry_ideal": 63185.828125,
+        "stop_loss_technical": 61908.390625,
+        "target_1": 65101.984375,
+        "target_2": 67018.140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63214.01171875,
+        "entry_ideal": 63185.8203125,
         "stop_loss_technical": 61275.828125,
-        "target_1": 66121.28710938,
-        "target_2": 69028.5625,
+        "target_1": 66050.80859375,
+        "target_2": 68915.796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
