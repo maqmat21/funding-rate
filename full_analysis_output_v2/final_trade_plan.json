@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-09T19:09:55.506006+00:00",
+    "generated_at_utc": "2026-07-09T20:54:56.664931+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.904,
+        "price": 100.936,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.537,
+        "price": 4.539,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How Large Does Your Portfolio Need to Be to Generate $12,000 a Month?",
+    "Smucker’s CEO Said Buying Twinkies ‘Tastes Like Growth.’ Three Years Later, It Tastes Like a $5 Billion Mistake.",
     "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
     "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
-    "Here's who won — and lost — under Trump's \"big, beautiful bill\"",
-    "Jeff Bezos Says ‘We Don’t Have a Revenue Problem’ in America — Bottom Half Paying Just 3% of Taxes Means ‘We Can Find 3%’",
-    "Another low-cost airline files for Chapter 11 bankruptcy",
-    "Elon Musk will pay just $1.5 million in settlement over his acquisition of Twitter and the judge isn't happy about it"
+    "Dave Ramsey: “There’s No Possible Way I Would Pull Money Out of a Roth and Pay Off a Mortgage.” Here’s Why",
+    "SLV vs SGDM: Is a Silver ETF Better Than a Gold Miner Fund to Ride the Commodity Boom in 2026?",
+    "Why Did Costco Stock Fall Today? Because It Had ‘Little Room for Error’",
+    "Here's who won — and lost — under Trump's \"big, beautiful bill\""
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63212.05078125,
-        "perp_last_price": 63212.05078125,
-        "mark_price": 63212.05078125,
-        "index_price": 63212.05078125,
+        "spot_price": 63204.3515625,
+        "perp_last_price": 63204.3515625,
+        "mark_price": 63204.3515625,
+        "index_price": 63204.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63219.578125,
-        "stop_loss_technical": 61641.0390625,
-        "target_1": 65587.38671875,
-        "target_2": 67955.1953125,
+        "entry_ideal": 63204.3515625,
+        "stop_loss_technical": 62256.28628906,
+        "target_1": 64626.44947266,
+        "target_2": 66048.54738281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63212.05078125,
+        "entry_ideal": 63204.3515625,
         "stop_loss_technical": 61275.828125,
-        "target_1": 66116.38476562,
-        "target_2": 69020.71875,
+        "target_1": 66097.13671875,
+        "target_2": 68989.921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
