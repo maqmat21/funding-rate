@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-09T02:36:12.411018+00:00",
+    "generated_at_utc": "2026-07-09T06:27:42.913279+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.982,
+        "price": 100.893,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 3m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Warns Investors as the Stock Market Sounds an Alarm. History Says This Will Happen Next.",
     "'He doesn’t care about anyone': MAGA fans who lost billions buying Trump stocks and crypto now believe they were conned",
+    "Here's When Elon Musk Can Sell His Billions of SpaceX Shares",
     "Jeff Bezos Says ‘We Don’t Have a Revenue Problem’ in America — Bottom Half Paying Just 3% of Taxes Means ‘We Can Find 3%’",
     "Billionaire Warren Buffett Says a Quarter of His 2,700 Daily Calories Come from Coke — But He Once Loved Rival Brand And Was Nicknamed ‘Pepsi Warren’",
-    "How Much a Typical Couple Needs to Retire in Every State—And the Size of the Nest Egg Required",
-    "A 29-Year-Old With $550K Saved Asked If He Could Retire at 50. Ramsey’s Answer: “You’ll Likely Have About $5 Million”",
-    "AT&T leaves rivals flat-footed as bankrupt carrier folds"
+    "Micron Raised Its Guidance on Surging Memory Prices. Here's What It Means for the Stock."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61769.30078125,
-        "perp_last_price": 61769.30078125,
-        "mark_price": 61769.30078125,
-        "index_price": 61769.30078125,
+        "spot_price": 62802.25,
+        "perp_last_price": 62802.25,
+        "mark_price": 62802.25,
+        "index_price": 62802.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61769.30078125,
-        "stop_loss_technical": 62888.2109375,
-        "target_1": 60090.93554688,
-        "target_2": 58412.5703125,
+        "entry_ideal": 62802.25,
+        "stop_loss_technical": 61470.30078125,
+        "target_1": 64800.17382812,
+        "target_2": 66798.09765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61769.30078125,
-        "stop_loss_technical": 64597.5703125,
-        "target_1": 57526.89648438,
-        "target_2": 53284.4921875,
+        "entry_ideal": 62802.25,
+        "stop_loss_technical": 61275.828125,
+        "target_1": 65091.8828125,
+        "target_2": 67381.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
