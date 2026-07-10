@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-10T01:12:42.171819+00:00",
+    "generated_at_utc": "2026-07-10T05:08:12.073673+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.843,
+        "price": 100.776,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 22m",
     "News from the Yahoo Finance Network",
     "Top Dividend King Down 12% and Worth Loading Up On Now",
     "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
-    "If you invested $10,000 in Bitcoin, Trump meme coin, and gold when Trump took office, here's what you'd have today",
     "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
-    "'Because I Could' — Mark Cuban Holds the Guinness World Record for the Largest Single E-Commerce Transaction. He Spent $40M in One Email",
-    "Why Exxon Could Be the Market's Next Big Comeback Stock",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?"
+    "They Did Everything Right. $2 Million Saved, No Debt, Home Paid Off. Suze Orman Says They Still Made a Huge Mistake",
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
+    "Bank of America sets alarming SpaceX stock price target"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63025.390625,
-        "perp_last_price": 63025.390625,
-        "mark_price": 63025.390625,
-        "index_price": 63025.390625,
+        "spot_price": 63933.1015625,
+        "perp_last_price": 63933.1015625,
+        "mark_price": 63933.1015625,
+        "index_price": 63933.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63025.390625,
-        "stop_loss_technical": 61903.19140625,
-        "target_1": 64708.68945312,
-        "target_2": 66391.98828125,
+        "entry_ideal": 63933.1015625,
+        "stop_loss_technical": 62974.10503906,
+        "target_1": 65371.59634766,
+        "target_2": 66810.09113281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63025.390625,
+        "entry_ideal": 63933.1015625,
         "stop_loss_technical": 61275.828125,
-        "target_1": 65649.734375,
-        "target_2": 68274.078125,
+        "target_1": 67919.01171875,
+        "target_2": 71904.921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
