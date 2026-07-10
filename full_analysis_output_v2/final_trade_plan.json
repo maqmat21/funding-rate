@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-10T11:28:26.423843+00:00",
+    "generated_at_utc": "2026-07-10T13:25:00.306953+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.85,
+        "price": 100.907,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.539,
-        "trend": "bajista"
+        "price": 4.549,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 2m",
     "News from the Yahoo Finance Network",
-    "Top Dividend King Down 12% and Worth Loading Up On Now",
+    "U.S. Treasury has borrowed $155 billion every month of this fiscal year—and is now paying $24 billion a week in interest on its debts",
     "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
+    "Top Dividend King Down 12% and Worth Loading Up On Now",
     "How Your Income Compares With the Top 10% in the U.S.—Net Worth, Salaries, and Savings",
-    "Warren Buffett's No. 1 Valuation Tool Recently Made History -- and His $187 Billion Warning to Wall Street Echoes Louder Than Ever",
     "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
-    "Could Microsoft sell off Xbox amid the company's major 'reset'? — Analysts say it's more likely that interested parties would go after 'specific pieces' of Xbox and it's possible 'individual studios, IPs, and teams are sold or spun off piecemeal'"
+    "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+    "Warren Buffett's No. 1 Valuation Tool Recently Made History -- and His $187 Billion Warning to Wall Street Echoes Louder Than Ever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64383.53125,
-        "perp_last_price": 64383.53125,
-        "mark_price": 64383.53125,
-        "index_price": 64383.53125,
+        "spot_price": 64126.0,
+        "perp_last_price": 64126.0,
+        "mark_price": 64126.0,
+        "index_price": 64126.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64391.12890625,
-        "stop_loss_technical": 62505.44140625,
-        "target_1": 67219.66015625,
-        "target_2": 70048.19140625,
+        "entry_ideal": 64126.0,
+        "stop_loss_technical": 64564.3984375,
+        "target_1": 63468.40234375,
+        "target_2": 62810.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64383.53125,
-        "stop_loss_technical": 61275.828125,
-        "target_1": 69045.0859375,
-        "target_2": 73706.640625,
+        "entry_ideal": 64126.0,
+        "stop_loss_technical": 63164.11,
+        "target_1": 65568.835,
+        "target_2": 67011.67,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
