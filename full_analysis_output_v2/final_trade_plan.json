@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-10T15:42:41.452310+00:00",
+    "generated_at_utc": "2026-07-10T17:27:36.767447+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.807,
-        "trend": "bajista"
+        "price": 100.848,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.545,
+        "price": 4.563,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 18m",
+    "U.S. markets close in 2h 34m",
     "News from the Yahoo Finance Network",
     "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
     "Top Dividend King Down 12% and Worth Loading Up On Now",
     "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
-    "How Your Income Compares With the Top 10% in the U.S.—Net Worth, Salaries, and Savings",
+    "TRAX Stock Hits All-Time High — What's Driving The Super Rally?",
     "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
-    "Warren Buffett's No. 1 Valuation Tool Recently Made History -- and His $187 Billion Warning to Wall Street Echoes Louder Than Ever"
+    "They Did Everything Right. $2 Million Saved, No Debt, Home Paid Off. Suze Orman Says They Still Made a Huge Mistake"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63887.12890625,
-        "perp_last_price": 63887.12890625,
-        "mark_price": 63887.12890625,
-        "index_price": 63887.12890625,
+        "spot_price": 63948.6484375,
+        "perp_last_price": 63948.6484375,
+        "mark_price": 63948.6484375,
+        "index_price": 63948.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63886.80859375,
-        "stop_loss_technical": 64659.98828125,
-        "target_1": 62727.0390625,
-        "target_2": 61567.26953125,
+        "entry_ideal": 63948.6484375,
+        "stop_loss_technical": 62989.41871094,
+        "target_1": 65387.49302734,
+        "target_2": 66826.33761719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63887.12890625,
-        "stop_loss_technical": 61275.828125,
-        "target_1": 67804.08007812,
-        "target_2": 71721.03125,
+        "entry_ideal": 63948.6484375,
+        "stop_loss_technical": 62989.41871094,
+        "target_1": 65387.49302734,
+        "target_2": 66826.33761719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
