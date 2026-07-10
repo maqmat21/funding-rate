@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-10T17:27:36.767447+00:00",
+    "generated_at_utc": "2026-07-10T18:56:41.102197+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.848,
+        "price": 100.972,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.563,
+        "price": 4.569,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 34m",
+    "U.S. markets close in 1h 4m",
     "News from the Yahoo Finance Network",
-    "Trump wants to borrow Australia's retirement 'super' system — but experts say the U.S. may not be ready for it",
     "Top Dividend King Down 12% and Worth Loading Up On Now",
     "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
-    "TRAX Stock Hits All-Time High — What's Driving The Super Rally?",
-    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
-    "They Did Everything Right. $2 Million Saved, No Debt, Home Paid Off. Suze Orman Says They Still Made a Huge Mistake"
+    "He Claimed Social Security at 62 Against His Advisor’s Advice. At 78, His $900,000 Portfolio Says It Was the Right Call.",
+    "Trump touts mysterious 'Freedom Fuel' network of cheap gas stations as pump prices rise",
+    "Wyoming officials say Meta’s 715,000-square-foot data center is responsible for contaminating its water system with a rare bacterium",
+    "Palm Beach airport is officially renamed President Donald J. Trump International Airport in $5.5 million rebrand"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63948.6484375,
-        "perp_last_price": 63948.6484375,
-        "mark_price": 63948.6484375,
-        "index_price": 63948.6484375,
+        "spot_price": 63753.98046875,
+        "perp_last_price": 63753.98046875,
+        "mark_price": 63753.98046875,
+        "index_price": 63753.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63948.6484375,
-        "stop_loss_technical": 62989.41871094,
-        "target_1": 65387.49302734,
-        "target_2": 66826.33761719,
+        "entry_ideal": 63748.30078125,
+        "stop_loss_technical": 64659.98828125,
+        "target_1": 62380.76953125,
+        "target_2": 61013.23828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63948.6484375,
-        "stop_loss_technical": 62989.41871094,
-        "target_1": 65387.49302734,
-        "target_2": 66826.33761719,
+        "entry_ideal": 63753.98046875,
+        "stop_loss_technical": 64659.98828125,
+        "target_1": 62394.96875,
+        "target_2": 61035.95703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
