@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-11T12:34:14.722017+00:00",
+    "generated_at_utc": "2026-07-11T14:04:37.869641+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,35 @@
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "I’m 43 and was set to inherit $400,000 — until my dad had my grandma change her will. Can I demand she change it back?",
     "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
+    "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
     "SpaceX Stock Just Received Its Highest Price Target Yet. Here's What a $10,000 Investment Would Be Worth if This Insanely Bullish Wall Street Analyst Is Right.",
-    "Should Investors Be Concerned That Walmart Got Kicked Out of the $1 Trillion Club and Now the $900 Billion Club?",
-    "Want Reliable Dividend Income? Then Buy This Industrial Stock and Never Sell.",
-    "Trump fan saved $100,000 for a house, put it into Truth Social, and now says, 'I'm broke'"
+    "What the housing affordability bill means for buyers and sellers",
+    "Top Dividend King Down 12% and Worth Loading Up On Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64085.51953125,
-        "perp_last_price": 64085.51953125,
-        "mark_price": 64085.51953125,
-        "index_price": 64085.51953125,
+        "spot_price": 64219.98046875,
+        "perp_last_price": 64219.98046875,
+        "mark_price": 64219.98046875,
+        "index_price": 64219.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64088.9296875,
-        "stop_loss_technical": 64260.55078125,
-        "target_1": 63831.49804688,
-        "target_2": 63574.06640625,
+        "entry_ideal": 64219.98046875,
+        "stop_loss_technical": 63256.68076172,
+        "target_1": 65664.9300293,
+        "target_2": 67109.87958984,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64085.51953125,
-        "stop_loss_technical": 63124.23673828,
-        "target_1": 65527.4437207,
-        "target_2": 66969.36791016,
+        "entry_ideal": 64219.98046875,
+        "stop_loss_technical": 63256.68076172,
+        "target_1": 65664.9300293,
+        "target_2": 67109.87958984,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
