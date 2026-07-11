@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-11T22:01:12.927772+00:00",
+    "generated_at_utc": "2026-07-11T23:01:22.990592+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,19 +25,19 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "Coca-Cola Is Crushing the S&P 500 and Nasdaq-100. But There's an Even Better Reason to Buy the Stock in July.",
-    "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
     "What the housing affordability bill means for buyers and sellers",
-    "2 Beaten-Down Stocks That Still Aren't Worth Buying",
+    "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks – Some Might Surprise You (CORRECTED)",
+    "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
     "Top Dividend King Down 12% and Worth Loading Up On Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64301.1796875,
-        "perp_last_price": 64301.1796875,
-        "mark_price": 64301.1796875,
-        "index_price": 64301.1796875,
+        "spot_price": 64150.0,
+        "perp_last_price": 64150.0,
+        "mark_price": 64150.0,
+        "index_price": 64150.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64301.1796875,
-        "stop_loss_technical": 64446.62109375,
-        "target_1": 64083.01757812,
-        "target_2": 63864.85546875,
+        "entry_ideal": 64150.0,
+        "stop_loss_technical": 64453.19921875,
+        "target_1": 63695.20117188,
+        "target_2": 63240.40234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64301.1796875,
-        "stop_loss_technical": 63336.66199219,
-        "target_1": 65747.95623047,
-        "target_2": 67194.73277344,
+        "entry_ideal": 64150.0,
+        "stop_loss_technical": 64658.96875,
+        "target_1": 63386.546875,
+        "target_2": 62623.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
