@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-11T11:36:29.059641+00:00",
+    "generated_at_utc": "2026-07-11T12:34:14.722017+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "I’m 43 and was set to inherit $400,000 — until my dad had my grandma change her will. Can I demand she change it back?",
+    "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
     "SpaceX Stock Just Received Its Highest Price Target Yet. Here's What a $10,000 Investment Would Be Worth if This Insanely Bullish Wall Street Analyst Is Right.",
-    "Broadcom Just Gave Investors Another $30 Billion Reason to Buy the Stock",
-    "Trump fan saved $100,000 for a house, put it into Truth Social, and now says, 'I'm broke'",
-    "If a Stock Market Crash Is Brewing, History Says Investors Who Do This 1 Thing Will Win Out",
-    "The 2 Magnificent Seven Stocks With the Most Upside Potential, According to Wall Street",
-    "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults"
+    "Should Investors Be Concerned That Walmart Got Kicked Out of the $1 Trillion Club and Now the $900 Billion Club?",
+    "Want Reliable Dividend Income? Then Buy This Industrial Stock and Never Sell.",
+    "Trump fan saved $100,000 for a house, put it into Truth Social, and now says, 'I'm broke'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64150.87109375,
-        "perp_last_price": 64150.87109375,
-        "mark_price": 64150.87109375,
-        "index_price": 64150.87109375,
+        "spot_price": 64085.51953125,
+        "perp_last_price": 64085.51953125,
+        "mark_price": 64085.51953125,
+        "index_price": 64085.51953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64150.87109375,
-        "stop_loss_technical": 63188.60802734,
-        "target_1": 65594.26569336,
-        "target_2": 67037.66029297,
+        "entry_ideal": 64088.9296875,
+        "stop_loss_technical": 64260.55078125,
+        "target_1": 63831.49804688,
+        "target_2": 63574.06640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64150.87109375,
-        "stop_loss_technical": 63188.60802734,
-        "target_1": 65594.26569336,
-        "target_2": 67037.66029297,
+        "entry_ideal": 64085.51953125,
+        "stop_loss_technical": 63124.23673828,
+        "target_1": 65527.4437207,
+        "target_2": 66969.36791016,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
