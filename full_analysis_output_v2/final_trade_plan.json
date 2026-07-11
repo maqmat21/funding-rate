@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-11T15:07:11.346237+00:00",
+    "generated_at_utc": "2026-07-11T16:05:29.363819+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,24 +24,39 @@
     "News from the Yahoo Finance Network",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "I’m 43 and was set to inherit $400,000 — until my dad had my grandma change her will. Can I demand she change it back?",
-    "Elon Musk is The World’s First Trillionaire. Here’s How Big His Future Social Security Benefit Will Be",
+    "What $5,000 Invested in SpaceX Could Be Worth by 2030",
     "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
-    "AT&T Yields 5.3% and Trades Near a 52-Week Low. Is the SpaceX Threat Really Worth That Discount?",
-    "Iran Rejects US Talks Unless Washington Meets Its Conditions",
-    "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults"
+    "What the housing affordability bill means for buyers and sellers",
+    "Elon Musk's No. 2 just gave 2 million kids 1 share of SpaceX each — here's what it could be worth when they're adults",
+    "Elon Musk is The World’s First Trillionaire. Here’s How Big His Future Social Security Benefit Will Be"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64317.98828125,
-        "perp_last_price": 64317.98828125,
-        "mark_price": 64317.98828125,
-        "index_price": 64317.98828125,
+        "spot_price": 64079.0703125,
+        "perp_last_price": 64079.0703125,
+        "mark_price": 64079.0703125,
+        "index_price": 64079.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 64079.0703125,
+        "stop_loss_technical": 64453.19921875,
+        "target_1": 63517.87695312,
+        "target_2": 62956.68359375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,25 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64317.98828125,
-        "stop_loss_technical": 64453.19921875,
-        "target_1": 64115.171875,
-        "target_2": 63912.35546875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 64317.98828125,
-        "stop_loss_technical": 63353.21845703,
-        "target_1": 65765.14301758,
-        "target_2": 67212.29775391,
+        "entry_ideal": 64079.0703125,
+        "stop_loss_technical": 64658.96875,
+        "target_1": 63209.22265625,
+        "target_2": 62339.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
