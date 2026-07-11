@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-11T17:09:20.465788+00:00",
+    "generated_at_utc": "2026-07-11T18:03:03.955140+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "I’m 43 and was set to inherit $400,000 — until my dad had my grandma change her will. Can I demand she change it back?",
+    "If You Invest $5,000 in SCHD Today, Here's the Passive Income It Could Deliver in 20 Years",
     "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
     "What the housing affordability bill means for buyers and sellers",
-    "What $5,000 Invested in SpaceX Could Be Worth by 2030",
     "Elon Musk is The World’s First Trillionaire. Here’s How Big His Future Social Security Benefit Will Be",
-    "Iran Rejects US Talks Unless Washington Meets Its Conditions"
+    "Top Dividend King Down 12% and Worth Loading Up On Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64174.37890625,
-        "perp_last_price": 64174.37890625,
-        "mark_price": 64174.37890625,
-        "index_price": 64174.37890625,
+        "spot_price": 64249.62890625,
+        "perp_last_price": 64249.62890625,
+        "mark_price": 64249.62890625,
+        "index_price": 64249.62890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64174.37890625,
-        "stop_loss_technical": 63211.76322266,
-        "target_1": 65618.30243164,
-        "target_2": 67062.22595703,
+        "entry_ideal": 64249.62890625,
+        "stop_loss_technical": 64453.19921875,
+        "target_1": 63944.2734375,
+        "target_2": 63638.91796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64174.37890625,
-        "stop_loss_technical": 63211.76322266,
-        "target_1": 65618.30243164,
-        "target_2": 67062.22595703,
+        "entry_ideal": 64249.62890625,
+        "stop_loss_technical": 63285.88447266,
+        "target_1": 65695.24555664,
+        "target_2": 67140.86220703,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
