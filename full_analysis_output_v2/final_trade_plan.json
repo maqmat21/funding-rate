@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-12T08:33:31.948862+00:00",
+    "generated_at_utc": "2026-07-12T10:09:33.946417+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,35 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "Warren Buffett Swears By This 1 Low-Cost Investment. History Proves He's Been Right Every Time.",
-    "3 High-Yield Dividend Stocks Paying 5% or More That Are Worth Buying Now",
-    "Coca-Cola Is Crushing the S&P 500 and Nasdaq-100. But There's an Even Better Reason to Buy the Stock in July.",
+    "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words",
+    "A 70-year-old blew through one-third of his $3 million nest egg in 3 years — financial advisors say he needs to act now",
     "What the housing affordability bill means for buyers and sellers",
-    "Warren Buffett's Most Recent Warning to Wall Street Echoes One He Issued During the Dot-Com Bubble. Is It Time to Listen?"
+    "Coca-Cola Is Crushing the S&P 500 and Nasdaq-100. But There's an Even Better Reason to Buy the Stock in July."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63960.80078125,
-        "perp_last_price": 63960.80078125,
-        "mark_price": 63960.80078125,
-        "index_price": 63960.80078125,
+        "spot_price": 63863.33984375,
+        "perp_last_price": 63863.33984375,
+        "mark_price": 63863.33984375,
+        "index_price": 63863.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63960.80078125,
-        "stop_loss_technical": 63001.38876953,
-        "target_1": 65399.91879883,
-        "target_2": 66839.03681641,
+        "entry_ideal": 63863.33984375,
+        "stop_loss_technical": 64428.078125,
+        "target_1": 63016.23242188,
+        "target_2": 62169.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63960.80078125,
+        "entry_ideal": 63863.33984375,
         "stop_loss_technical": 64658.96875,
-        "target_1": 62913.54882812,
-        "target_2": 61866.296875,
+        "target_1": 62669.89648438,
+        "target_2": 61476.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
