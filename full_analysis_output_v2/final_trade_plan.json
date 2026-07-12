@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-12T16:35:25.303877+00:00",
+    "generated_at_utc": "2026-07-12T17:37:09.160202+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
-    "When is a retiree considered ‘wealthy’ in America? Here’s what the data shows (and what to do if you’re not there yet)",
-    "The Stock Market Is on the Verge of Doing Something That's Never Been Observed in 155 Years -- and It Has Worrisome Ramifications for Wall Street",
-    "If I Could Tell Every Dividend Investor 1 Thing About Building Passive Income in 2026, It's This",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words",
-    "The Stock Market Just Flashed a Warning Sign Seen Only One Other Time Since 1890. History Couldn't Be Any Clearer About What Happens Next."
+    "Trump Embraces Australian Retirement System Backed by Larry Fink",
+    "When is a retiree considered ‘wealthy’ in America? Here’s what the data shows (and what to do if you’re not there yet)",
+    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
+    "If I Could Tell Every Dividend Investor 1 Thing About Building Passive Income in 2026, It's This"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64135.4609375,
-        "perp_last_price": 64135.4609375,
-        "mark_price": 64135.4609375,
-        "index_price": 64135.4609375,
+        "spot_price": 64086.390625,
+        "perp_last_price": 64086.390625,
+        "mark_price": 64086.390625,
+        "index_price": 64086.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64135.4609375,
-        "stop_loss_technical": 63173.42902344,
-        "target_1": 65578.50880859,
-        "target_2": 67021.55667969,
+        "entry_ideal": 64086.390625,
+        "stop_loss_technical": 64384.30859375,
+        "target_1": 63639.51367188,
+        "target_2": 63192.63671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64135.4609375,
-        "stop_loss_technical": 63173.42902344,
-        "target_1": 65578.50880859,
-        "target_2": 67021.55667969,
+        "entry_ideal": 64086.390625,
+        "stop_loss_technical": 63125.09476562,
+        "target_1": 65528.33441406,
+        "target_2": 66970.27820312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
