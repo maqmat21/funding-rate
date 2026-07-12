@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-11T23:01:22.990592+00:00",
+    "generated_at_utc": "2026-07-12T00:04:42.732135+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "The Vanguard ETF Warren Buffett Endorsed in 2014 Would Have Turned $5,000 Into $20,465 Today",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "Coca-Cola Is Crushing the S&P 500 and Nasdaq-100. But There's an Even Better Reason to Buy the Stock in July.",
-    "What the housing affordability bill means for buyers and sellers",
-    "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks – Some Might Surprise You (CORRECTED)",
-    "BlackRock cautions buying and holding the S&P 500 is no longer enough for retirement. What they say to do instead",
-    "Top Dividend King Down 12% and Worth Loading Up On Now"
+    "Warren Buffett Swears By This 1 Low-Cost Investment. History Proves He's Been Right Every Time.",
+    "I’m 43 and was set to inherit $400,000 — until my dad had my grandma change her will. Can I demand she change it back?",
+    "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64150.0,
-        "perp_last_price": 64150.0,
-        "mark_price": 64150.0,
-        "index_price": 64150.0,
+        "spot_price": 63838.30859375,
+        "perp_last_price": 63838.30859375,
+        "mark_price": 63838.30859375,
+        "index_price": 63838.30859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64150.0,
+        "entry_ideal": 63840.859375,
         "stop_loss_technical": 64453.19921875,
-        "target_1": 63695.20117188,
-        "target_2": 63240.40234375,
+        "target_1": 62922.34960938,
+        "target_2": 62003.83984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64150.0,
+        "entry_ideal": 63838.30859375,
         "stop_loss_technical": 64658.96875,
-        "target_1": 63386.546875,
-        "target_2": 62623.09375,
+        "target_1": 62607.31835938,
+        "target_2": 61376.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
