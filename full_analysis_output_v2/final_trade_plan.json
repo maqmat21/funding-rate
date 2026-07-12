@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-12T17:37:09.160202+00:00",
+    "generated_at_utc": "2026-07-12T18:31:17.004364+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
     "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Trump Embraces Australian Retirement System Backed by Larry Fink",
     "When is a retiree considered ‘wealthy’ in America? Here’s what the data shows (and what to do if you’re not there yet)",
-    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
-    "If I Could Tell Every Dividend Investor 1 Thing About Building Passive Income in 2026, It's This"
+    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64086.390625,
-        "perp_last_price": 64086.390625,
-        "mark_price": 64086.390625,
-        "index_price": 64086.390625,
+        "spot_price": 64034.87890625,
+        "perp_last_price": 64034.87890625,
+        "mark_price": 64034.87890625,
+        "index_price": 64034.87890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64086.390625,
-        "stop_loss_technical": 64384.30859375,
-        "target_1": 63639.51367188,
-        "target_2": 63192.63671875,
+        "entry_ideal": 64034.87109375,
+        "stop_loss_technical": 63074.34802734,
+        "target_1": 65475.65569336,
+        "target_2": 66916.44029297,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64086.390625,
-        "stop_loss_technical": 63125.09476562,
-        "target_1": 65528.33441406,
-        "target_2": 66970.27820312,
+        "entry_ideal": 64034.87890625,
+        "stop_loss_technical": 63074.35572266,
+        "target_1": 65475.66368164,
+        "target_2": 66916.44845703,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
