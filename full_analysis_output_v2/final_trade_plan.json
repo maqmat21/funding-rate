@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-12T11:22:51.537491+00:00",
+    "generated_at_utc": "2026-07-12T12:11:03.339185+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "When is a retiree considered ‘wealthy’ in America? Here’s what the data shows (and what to do if you’re not there yet)",
     "The Stock Market Is on the Verge of Doing Something That's Never Been Observed in 155 Years -- and It Has Worrisome Ramifications for Wall Street",
+    "When is a retiree considered ‘wealthy’ in America? Here’s what the data shows (and what to do if you’re not there yet)",
+    "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words",
     "I'm Calling It. It's Time to Load Up on These 3 High-Yielding Dividend Stocks Right Now (1 Currently Yields Over 8.5%)",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words",
-    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
-    "Warren Buffett Swears By This 1 Low-Cost Investment. History Proves He's Been Right Every Time."
+    "US Senator Lindsey Graham Dies at 71 After Sudden Illness",
+    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63812.828125,
-        "perp_last_price": 63812.828125,
-        "mark_price": 63812.828125,
-        "index_price": 63812.828125,
+        "spot_price": 64023.37109375,
+        "perp_last_price": 64023.37109375,
+        "mark_price": 64023.37109375,
+        "index_price": 64023.37109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63812.828125,
-        "stop_loss_technical": 64416.98828125,
-        "target_1": 62906.58789062,
-        "target_2": 62000.34765625,
+        "entry_ideal": 64023.37109375,
+        "stop_loss_technical": 63063.02052734,
+        "target_1": 65463.89694336,
+        "target_2": 66904.42279297,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63812.828125,
-        "stop_loss_technical": 64658.96875,
-        "target_1": 62543.6171875,
-        "target_2": 61274.40625,
+        "entry_ideal": 64023.37109375,
+        "stop_loss_technical": 63063.02052734,
+        "target_1": 65463.89694336,
+        "target_2": 66904.42279297,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
