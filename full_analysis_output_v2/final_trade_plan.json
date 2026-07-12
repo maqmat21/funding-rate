@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-12T14:47:42.674075+00:00",
+    "generated_at_utc": "2026-07-12T15:42:32.065279+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
-    "The Stock Market Is on the Verge of Doing Something That's Never Been Observed in 155 Years -- and It Has Worrisome Ramifications for Wall Street",
     "When is a retiree considered ‘wealthy’ in America? Here’s what the data shows (and what to do if you’re not there yet)",
+    "1 Top Vanguard ETF to Buy Before the Next Market Crash",
+    "The Stock Market Is on the Verge of Doing Something That's Never Been Observed in 155 Years -- and It Has Worrisome Ramifications for Wall Street",
     "If I Could Tell Every Dividend Investor 1 Thing About Building Passive Income in 2026, It's This",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words",
-    "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there"
+    "Millionaires in America: How common is it to have a 7-figure net worth?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64110.0,
-        "perp_last_price": 64110.0,
-        "mark_price": 64110.0,
-        "index_price": 64110.0,
+        "spot_price": 64095.26171875,
+        "perp_last_price": 64095.26171875,
+        "mark_price": 64095.26171875,
+        "index_price": 64095.26171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64104.46875,
-        "stop_loss_technical": 63142.90171875,
-        "target_1": 65546.81929687,
-        "target_2": 66989.16984375,
+        "entry_ideal": 64095.26171875,
+        "stop_loss_technical": 64416.98046875,
+        "target_1": 63612.68359375,
+        "target_2": 63130.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64110.0,
-        "stop_loss_technical": 63148.35,
-        "target_1": 65552.475,
-        "target_2": 66994.95,
+        "entry_ideal": 64095.26171875,
+        "stop_loss_technical": 63133.83279297,
+        "target_1": 65537.40510742,
+        "target_2": 66979.54849609,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
