@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-13T18:52:46.187539+00:00",
+    "generated_at_utc": "2026-07-13T20:06:07.014542+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.234,
+        "price": 101.281,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.614,
+        "price": 4.609,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 9m",
     "News from the Yahoo Finance Network",
+    "Trump takes a page from Iran’s playbook on the Strait of Hormuz, leveraging U.S. influence over the contested chokepoint to generate revenue",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
-    "New U.S. travel warning comes with threat of prison time",
+    "America's Biggest Utility Sees Blackouts Ahead",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
-    "I'm Calling It. It's Time to Load Up on These 3 High-Yielding Dividend Stocks Right Now (1 Currently Yields Over 8.5%)"
+    "Gold ETF vs. gold IRA vs. physical gold: What you're actually buying"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61990.66015625,
-        "perp_last_price": 61990.66015625,
-        "mark_price": 61990.66015625,
-        "index_price": 61990.66015625,
+        "spot_price": 64198.71875,
+        "perp_last_price": 64198.71875,
+        "mark_price": 64198.71875,
+        "index_price": 64198.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,25 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61990.62890625,
-        "stop_loss_technical": 61060.76947266,
-        "target_1": 63385.41805664,
-        "target_2": 64780.20720703,
+        "entry_ideal": 64198.71875,
+        "stop_loss_technical": 63235.73796875,
+        "target_1": 65643.18992188,
+        "target_2": 67087.66109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61990.66015625,
-        "stop_loss_technical": 64658.96875,
-        "target_1": 57988.19726562,
-        "target_2": 53985.734375,
+        "entry_ideal": 64198.71875,
+        "stop_loss_technical": 63235.73796875,
+        "target_1": 65643.18992188,
+        "target_2": 67087.66109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
