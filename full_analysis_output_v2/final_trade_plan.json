@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-13T17:24:12.042731+00:00",
+    "generated_at_utc": "2026-07-13T18:52:46.187539+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.24,
+        "price": 101.234,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 37m",
+    "U.S. markets close in 1h 9m",
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
+    "New U.S. travel warning comes with threat of prison time",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
-    "Elon Musk's startling claim to SpaceX investors",
     "I'm Calling It. It's Time to Load Up on These 3 High-Yielding Dividend Stocks Right Now (1 Currently Yields Over 8.5%)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62156.578125,
-        "perp_last_price": 62156.578125,
-        "mark_price": 62156.578125,
-        "index_price": 62156.578125,
+        "spot_price": 61990.66015625,
+        "perp_last_price": 61990.66015625,
+        "mark_price": 61990.66015625,
+        "index_price": 61990.66015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62143.91015625,
-        "stop_loss_technical": 64337.73828125,
-        "target_1": 58853.16796875,
-        "target_2": 55562.42578125,
+        "entry_ideal": 61990.62890625,
+        "stop_loss_technical": 61060.76947266,
+        "target_1": 63385.41805664,
+        "target_2": 64780.20720703,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 62156.578125,
+        "entry_ideal": 61990.66015625,
         "stop_loss_technical": 64658.96875,
-        "target_1": 58402.9921875,
-        "target_2": 54649.40625,
+        "target_1": 57988.19726562,
+        "target_2": 53985.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
