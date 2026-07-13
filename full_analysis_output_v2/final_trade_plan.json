@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-13T00:04:33.948733+00:00",
+    "generated_at_utc": "2026-07-13T03:49:52.491798+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.091,
+        "price": 101.143,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
-    "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "I'm Calling It. It's Time to Load Up on These 3 High-Yielding Dividend Stocks Right Now (1 Currently Yields Over 8.5%)",
+    "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
-    "An Aura Minerals Insider Sold Shares as Revenue Jumped 136%",
-    "Trump Embraces Australian Retirement System Backed by Larry Fink"
+    "I'm Calling It. It's Time to Load Up on These 3 High-Yielding Dividend Stocks Right Now (1 Currently Yields Over 8.5%)",
+    "The U.S. Is Considering Removing Steering Wheels From Cars. Tesla Is the Reason Why.",
+    "President Donald Trump Just Proclaimed the \"Market's Going to Go Through the Roof\" -- but He May Soon Be Eating Those Words"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63841.9609375,
-        "perp_last_price": 63841.9609375,
-        "mark_price": 63841.9609375,
-        "index_price": 63841.9609375,
+        "spot_price": 63744.1796875,
+        "perp_last_price": 63744.1796875,
+        "mark_price": 63744.1796875,
+        "index_price": 63744.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63841.9609375,
-        "stop_loss_technical": 62884.33152344,
-        "target_1": 65278.40505859,
-        "target_2": 66714.84917969,
+        "entry_ideal": 63744.1796875,
+        "stop_loss_technical": 64232.48046875,
+        "target_1": 63011.72851562,
+        "target_2": 62279.27734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63841.9609375,
+        "entry_ideal": 63744.1796875,
         "stop_loss_technical": 64658.96875,
-        "target_1": 62616.44921875,
-        "target_2": 61390.9375,
+        "target_1": 62371.99609375,
+        "target_2": 60999.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
