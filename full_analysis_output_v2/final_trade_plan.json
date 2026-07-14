@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T15:45:47.321434+00:00",
+    "generated_at_utc": "2026-07-14T16:52:14.626746+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.785,
+        "price": 100.849,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.557,
-        "trend": "bajista"
+        "price": 4.581,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 15m",
+    "U.S. markets close in 3h 9m",
     "News from the Yahoo Finance Network",
     "Carroll’s $5.6 Million from Trump Paid in Sexual-Abuse Case",
-    "HCA cuts 2026 earnings forecast on insurance coverage losses",
-    "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
+    "Want to Invest in SpaceX? Don't Buy the Stock. Do This Instead.",
     "Iconic burger chain closes 89-year-old restaurant for good",
-    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong."
+    "Buffett to Offload Berkshire Stake in 8 Years, Gates Snubbed",
+    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64756.51171875,
-        "perp_last_price": 64756.51171875,
-        "mark_price": 64756.51171875,
-        "index_price": 64756.51171875,
+        "spot_price": 64799.98828125,
+        "perp_last_price": 64799.98828125,
+        "mark_price": 64799.98828125,
+        "index_price": 64799.98828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64756.51171875,
+        "entry_ideal": 64799.98828125,
         "stop_loss_technical": 61799.30859375,
-        "target_1": 69192.31640625,
-        "target_2": 73628.12109375,
+        "target_1": 69301.0078125,
+        "target_2": 73802.02734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64756.51171875,
+        "entry_ideal": 64799.98828125,
         "stop_loss_technical": 61769.0,
-        "target_1": 69237.77929688,
-        "target_2": 73719.046875,
+        "target_1": 69346.47070312,
+        "target_2": 73892.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,

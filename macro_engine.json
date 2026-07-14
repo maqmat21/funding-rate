@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-07-14T15:45:45.257549+00:00",
+    "timestamp": "2026-07-14T16:52:11.684260+00:00",
     "macro_bias": "RISK_ON",
     "macro_score": 30,
     "dxy": {
-        "price": 100.785,
-        "ema20": 100.7427,
-        "ema50": 100.8061,
-        "ema_trend": "bajista",
+        "price": 100.849,
+        "ema20": 100.8394,
+        "ema50": 100.8353,
+        "ema_trend": "alcista",
         "structure_1h": "alcista",
-        "structure_4h": "bajista",
-        "momentum_slope": 0.004913,
-        "momentum_state": "alcista",
+        "structure_4h": "neutral",
+        "momentum_slope": -0.005815,
+        "momentum_state": "bajista",
         "breakout_24h": "none",
-        "state_summary": "posible_reversion"
+        "state_summary": "consolidacion"
     },
     "us10y": {
-        "price": 4.557,
+        "price": 4.581,
         "direction_1h": "cayendo",
         "momentum_state": "bajista"
     },
@@ -25,7 +25,7 @@
         "confidence_level": "media"
     },
     "alerts": {
-        "macro_shift": true,
+        "macro_shift": false,
         "volatility_expansion": false
     }
 }
