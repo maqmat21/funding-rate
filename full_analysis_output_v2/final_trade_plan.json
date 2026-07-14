@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T17:55:17.118245+00:00",
+    "generated_at_utc": "2026-07-14T18:58:33.619552+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.911,
+        "price": 100.953,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.581,
+        "price": 4.592,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 5m",
+    "U.S. markets close in 1h 2m",
     "News from the Yahoo Finance Network",
+    "Trump Shelves 20% Fee for Hormuz Cargo After Gulf Pressure",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
     "Iconic burger chain closes 89-year-old restaurant for good",
-    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations",
-    "Daughter Says Dad Is Banking on Inheriting Millions So Spends Freely — But Grandparents Made Her Promise Not to Tell Him He’s Only Getting $50K",
-    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong.",
-    "Bessent's Treasury has troubling news for every taxpayer"
+    "Oppenheimer has a warning for investors before the fall",
+    "Lucid shares pare losses after rebuffing bankruptcy rumors,",
+    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64631.83984375,
-        "perp_last_price": 64631.83984375,
-        "mark_price": 64631.83984375,
-        "index_price": 64631.83984375,
+        "spot_price": 64516.4296875,
+        "perp_last_price": 64516.4296875,
+        "mark_price": 64516.4296875,
+        "index_price": 64516.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64631.83984375,
-        "stop_loss_technical": 61799.30859375,
-        "target_1": 68880.63671875,
-        "target_2": 73129.43359375,
+        "entry_ideal": 64517.5,
+        "stop_loss_technical": 64878.87109375,
+        "target_1": 63975.44335938,
+        "target_2": 63433.38671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64631.83984375,
+        "entry_ideal": 64516.4296875,
         "stop_loss_technical": 61769.0,
-        "target_1": 68926.09960938,
-        "target_2": 73220.359375,
+        "target_1": 68637.57421875,
+        "target_2": 72758.71875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
