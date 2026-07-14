@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T07:28:49.478118+00:00",
+    "generated_at_utc": "2026-07-14T09:23:47.103809+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.218,
-        "trend": "alcista"
+        "price": 101.065,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.609,
@@ -21,54 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 2m",
+    "U.S. markets open in 4h 8m",
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
     "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Robert Kiyosaki Is $1.2B in Debt and Says ‘Biggest Mistake Ever’ Was 401(k) — ‘It’s Going to Decimate This…Nail the Boomers. They’re Finished’",
-    "Iconic burger chain closes 89-year-old restaurant for good",
-    "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think"
+    "President Trump Sells Micron Stock and Buys an AI Stock Up 1,340% Since 2023",
+    "Can you afford to retire in New York? It may cost you almost $1 million",
+    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63560.94140625,
-        "perp_last_price": 63560.94140625,
-        "mark_price": 63560.94140625,
-        "index_price": 63560.94140625,
+        "spot_price": 62593.12109375,
+        "perp_last_price": 62593.12109375,
+        "mark_price": 62593.12109375,
+        "index_price": 62593.12109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63560.94140625,
-        "stop_loss_technical": 64353.94921875,
-        "target_1": 62371.4296875,
-        "target_2": 61181.91796875,
+        "entry_ideal": 62593.12109375,
+        "stop_loss_technical": 62901.87890625,
+        "target_1": 62129.984375,
+        "target_2": 61666.84765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63560.94140625,
-        "stop_loss_technical": 64658.96875,
-        "target_1": 61913.90039062,
-        "target_2": 60266.859375,
+        "entry_ideal": 62593.12109375,
+        "stop_loss_technical": 61750.8984375,
+        "target_1": 63856.45507812,
+        "target_2": 65119.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +79,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
