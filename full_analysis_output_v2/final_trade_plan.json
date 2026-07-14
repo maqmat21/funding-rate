@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T21:11:10.389249+00:00",
+    "generated_at_utc": "2026-07-14T22:12:43.012875+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.932,
+        "price": 100.945,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "15 of the Highest-Yielding Dividend Stocks in the S&P 500",
+    "Is DIS Stock A Bargain Or A Trap? Mostly A Bargain",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
     "Iconic burger chain closes 89-year-old restaurant for good",
+    "15 of the Highest-Yielding Dividend Stocks in the S&P 500",
     "Warren Buffett Drops a Bombshell About His Berkshire Hathaway Shares",
-    "Daughter Says Dad Is Banking on Inheriting Millions So Spends Freely — But Grandparents Made Her Promise Not to Tell Him He’s Only Getting $50K",
-    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations",
-    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong."
+    "QCOM: A Cash Gusher At A Marked-Down Price",
+    "Daughter Says Dad Is Banking on Inheriting Millions So Spends Freely — But Grandparents Made Her Promise Not to Tell Him He’s Only Getting $50K"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64565.640625,
-        "perp_last_price": 64565.640625,
-        "mark_price": 64565.640625,
-        "index_price": 64565.640625,
+        "spot_price": 64503.03125,
+        "perp_last_price": 64503.03125,
+        "mark_price": 64503.03125,
+        "index_price": 64503.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64565.640625,
-        "stop_loss_technical": 62240.76171875,
-        "target_1": 68052.95898438,
-        "target_2": 71540.27734375,
+        "entry_ideal": 64503.03125,
+        "stop_loss_technical": 64878.87109375,
+        "target_1": 63939.27148438,
+        "target_2": 63375.51171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64565.640625,
+        "entry_ideal": 64503.03125,
         "stop_loss_technical": 61769.0,
-        "target_1": 68760.6015625,
-        "target_2": 72955.5625,
+        "target_1": 68604.078125,
+        "target_2": 72705.125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
