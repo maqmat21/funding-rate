@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T09:23:47.103809+00:00",
+    "generated_at_utc": "2026-07-14T11:00:09.195189+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.065,
+        "price": 101.128,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,50 +21,50 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 8m",
+    "U.S. markets open in 2h 31m",
     "News from the Yahoo Finance Network",
-    "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
     "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
+    "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "President Trump Sells Micron Stock and Buys an AI Stock Up 1,340% Since 2023",
-    "Can you afford to retire in New York? It may cost you almost $1 million",
-    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong."
+    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong.",
+    "Robert Kiyosaki Is $1.2B in Debt and Says ‘Biggest Mistake Ever’ Was 401(k) — ‘It’s Going to Decimate This…Nail the Boomers. They’re Finished’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62593.12109375,
-        "perp_last_price": 62593.12109375,
-        "mark_price": 62593.12109375,
-        "index_price": 62593.12109375,
+        "spot_price": 63907.3984375,
+        "perp_last_price": 63907.3984375,
+        "mark_price": 63907.3984375,
+        "index_price": 63907.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio < EMA20"
-        ],
-        "entry_ideal": 62593.12109375,
-        "stop_loss_technical": 62901.87890625,
-        "target_1": 62129.984375,
-        "target_2": 61666.84765625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 62593.12109375,
-        "stop_loss_technical": 61750.8984375,
-        "target_1": 63856.45507812,
-        "target_2": 65119.7890625,
+        "entry_ideal": 63907.3984375,
+        "stop_loss_technical": 63355.7109375,
+        "target_1": 64734.9296875,
+        "target_2": 65562.4609375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 63907.3984375,
+        "stop_loss_technical": 64658.96875,
+        "target_1": 62780.04296875,
+        "target_2": 61652.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
