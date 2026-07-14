@@ -1,70 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T12:12:38.612549+00:00",
+    "generated_at_utc": "2026-07-14T14:14:06.981435+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.053,
+        "price": 100.664,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.609,
-        "trend": "alcista"
+        "price": 4.571,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 19m",
+    "U.S. markets close in 5h 46m",
     "News from the Yahoo Finance Network",
     "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
-    "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
+    "Wells Fargo stock slips as bank holds guidance despite strong Q2 beat",
+    "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
+    "Iconic burger chain closes 89-year-old restaurant for good",
     "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong.",
-    "President Trump Sells Micron Stock and Buys an AI Stock Up 1,340% Since 2023",
-    "Robert Kiyosaki Is $1.2B in Debt and Says ‘Biggest Mistake Ever’ Was 401(k) — ‘It’s Going to Decimate This…Nail the Boomers. They’re Finished’",
-    "Iconic burger chain closes 89-year-old restaurant for good"
+    "Daughter Says Dad Is Banking on Inheriting Millions So Spends Freely — But Grandparents Made Her Promise Not to Tell Him He’s Only Getting $50K"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62719.98828125,
-        "perp_last_price": 62719.98828125,
-        "mark_price": 62719.98828125,
-        "index_price": 62719.98828125,
+        "spot_price": 63775.98046875,
+        "perp_last_price": 63775.98046875,
+        "mark_price": 63775.98046875,
+        "index_price": 63775.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62736.1015625,
-        "stop_loss_technical": 62840.62109375,
-        "target_1": 62579.32226562,
-        "target_2": 62422.54296875,
+        "entry_ideal": 63759.671875,
+        "stop_loss_technical": 61799.30859375,
+        "target_1": 66700.21679688,
+        "target_2": 69640.76171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62719.98828125,
-        "stop_loss_technical": 61750.8984375,
-        "target_1": 64173.62304688,
-        "target_2": 65627.2578125,
+        "entry_ideal": 63775.98046875,
+        "stop_loss_technical": 61769.0,
+        "target_1": 66786.45117188,
+        "target_2": 69796.921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
