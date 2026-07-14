@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T18:58:33.619552+00:00",
+    "generated_at_utc": "2026-07-14T20:07:28.414982+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.953,
+        "price": 100.917,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.592,
+        "price": 4.585,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 2m",
     "News from the Yahoo Finance Network",
-    "Trump Shelves 20% Fee for Hormuz Cargo After Gulf Pressure",
+    "Lucid Stock Dives As Much As 56% On Bankruptcy, Take-Private Buzz; EV Maker Denies Report",
+    "T-Mobile Will Survive Threat from SpaceX’s Starlink and Is Best Bet in Wireless",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
     "Iconic burger chain closes 89-year-old restaurant for good",
-    "Oppenheimer has a warning for investors before the fall",
-    "Lucid shares pare losses after rebuffing bankruptcy rumors,",
-    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations"
+    "Lucid Stock Crashes 50% on Alleged False Report",
+    "Why IBM (IBM) Shares Are Plunging Today",
+    "Social Security's 2027 COLA could be the biggest since 2023"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64516.4296875,
-        "perp_last_price": 64516.4296875,
-        "mark_price": 64516.4296875,
-        "index_price": 64516.4296875,
+        "spot_price": 64437.140625,
+        "perp_last_price": 64437.140625,
+        "mark_price": 64437.140625,
+        "index_price": 64437.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64517.5,
+        "entry_ideal": 64438.1796875,
         "stop_loss_technical": 64878.87109375,
-        "target_1": 63975.44335938,
-        "target_2": 63433.38671875,
+        "target_1": 63777.14257812,
+        "target_2": 63116.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64516.4296875,
+        "entry_ideal": 64437.140625,
         "stop_loss_technical": 61769.0,
-        "target_1": 68637.57421875,
-        "target_2": 72758.71875,
+        "target_1": 68439.3515625,
+        "target_2": 72441.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
