@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-13T23:05:39.959437+00:00",
+    "generated_at_utc": "2026-07-14T00:00:47.045412+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.277,
+        "price": 101.279,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Coca-Cola Just Declared Its 64th Dividend Increase. Here's How Much $10,000 Invested Pays Annually.",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Lindsey Graham dies at 71 with an estimated $1M–$3M fortune — inside his assets and financial legacy",
-    "What to know about Trump's move to shrink the size of 2 national monuments in Utah",
-    "Daughter Says Dad Is Banking on Inheriting Millions So Spends Freely — But Grandparents Made Her Promise Not to Tell Him He’s Only Getting $50K",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "If you invested just $100 a month in Bitcoin since 2015, here's what it's worth today",
+    "Iconic burger chain closes 89-year-old restaurant for good",
     "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
-    "Iconic burger chain closes 89-year-old restaurant for good"
+    "Why Chipotle Stock Topped the Market Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61913.53125,
-        "perp_last_price": 61913.53125,
-        "mark_price": 61913.53125,
-        "index_price": 61913.53125,
+        "spot_price": 62261.83984375,
+        "perp_last_price": 62261.83984375,
+        "mark_price": 62261.83984375,
+        "index_price": 62261.83984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61908.73828125,
-        "stop_loss_technical": 63219.30859375,
-        "target_1": 59942.8828125,
-        "target_2": 57977.02734375,
+        "entry_ideal": 62277.5703125,
+        "stop_loss_technical": 61343.40675781,
+        "target_1": 63678.81564453,
+        "target_2": 65080.06097656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61913.53125,
+        "entry_ideal": 62261.83984375,
         "stop_loss_technical": 64658.96875,
-        "target_1": 57795.375,
-        "target_2": 53677.21875,
+        "target_1": 58666.14648438,
+        "target_2": 55070.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
