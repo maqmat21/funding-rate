@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-15T22:33:37.555288+00:00",
+    "generated_at_utc": "2026-07-15T23:34:05.513972+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Scorpio Tankers (STNG) Stock Looks Fully Priced On Fresh Fleet Funding News",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "Here’s How Social Security’s Full Retirement Age Is Changing in 2026",
-    "The parasite fueling the ‘explosive’ diarrhea outbreak can't be washed off your produce — what to buy instead",
+    "I’m 52 with $4 million saved but I’m worried about the years before I start Social Security and I don’t want to tap into my savings",
+    "Elon Musk Discreetly Bought a $1 Billion Gas Turbine Company to Power AI. Here's What it Means for SpaceX Investors.",
     "Warren Buffett explains why his kids, not the Gates Foundation, will now give away all his fortune",
     "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now",
+    "The parasite fueling the ‘explosive’ diarrhea outbreak can't be washed off your produce — what to buy instead",
     "Social Security's 2027 COLA estimate is out as inflation cools"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64869.53125,
-        "perp_last_price": 64869.53125,
-        "mark_price": 64869.53125,
-        "index_price": 64869.53125,
+        "spot_price": 64826.1484375,
+        "perp_last_price": 64826.1484375,
+        "mark_price": 64826.1484375,
+        "index_price": 64826.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64857.2109375,
-        "stop_loss_technical": 64437.96875,
-        "target_1": 65486.07421875,
-        "target_2": 66114.9375,
+        "entry_ideal": 64819.0,
+        "stop_loss_technical": 63846.715,
+        "target_1": 66277.4275,
+        "target_2": 67735.855,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64869.53125,
+        "entry_ideal": 64826.1484375,
         "stop_loss_technical": 61769.0,
-        "target_1": 69520.328125,
-        "target_2": 74171.125,
+        "target_1": 69411.87109375,
+        "target_2": 73997.59375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
