@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-14T23:11:15.401997+00:00",
+    "generated_at_utc": "2026-07-15T00:05:34.333388+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.941,
+        "price": 100.89,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Warren Buffett Has Recommended This Surprising Investment for All Investors During Any Market Environment. Here's How It's Turned Out, According to History.",
-    "60% of Millennials Will Inherit Nothing From the $93 Trillion Boomer Wealth Transfer, And That Money Is Going Exactly Where You Think",
-    "Iconic burger chain closes 89-year-old restaurant for good",
-    "Warren Buffett Drops a Bombshell About His Berkshire Hathaway Shares",
-    "Here Are the Coca-Cola Shares You'd Need to Generate $12,000 in Annual Dividend Income",
+    "Micron vs. SK Hynix: Which AI Memory Stock Is the Better Buy?",
+    "After donating $48 billion to the Gates Foundation, Warren Buffett is quietly ending one of the biggest philanthropic relationships in history",
     "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong.",
-    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations"
+    "Warren Buffett cuts off donations to Gates Foundation following Epstein revelations",
+    "Here Are the Coca-Cola Shares You'd Need to Generate $12,000 in Annual Dividend Income",
+    "Social Security's 2027 COLA could be the biggest in years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64976.671875,
-        "perp_last_price": 64976.671875,
-        "mark_price": 64976.671875,
-        "index_price": 64976.671875,
+        "spot_price": 64944.640625,
+        "perp_last_price": 64944.640625,
+        "mark_price": 64944.640625,
+        "index_price": 64944.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64976.671875,
-        "stop_loss_technical": 62425.94140625,
-        "target_1": 68802.76757812,
-        "target_2": 72628.86328125,
+        "entry_ideal": 64944.640625,
+        "stop_loss_technical": 65020.78125,
+        "target_1": 64830.4296875,
+        "target_2": 64716.21875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64976.671875,
+        "entry_ideal": 64944.640625,
         "stop_loss_technical": 61769.0,
-        "target_1": 69788.1796875,
-        "target_2": 74599.6875,
+        "target_1": 69708.1015625,
+        "target_2": 74471.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
