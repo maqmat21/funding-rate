@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-15T12:42:43.738248+00:00",
+    "generated_at_utc": "2026-07-15T14:27:00.376763+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.898,
+        "price": 100.796,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.61,
-        "trend": "alcista"
+        "price": 4.559,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 34m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Has Recommended This Surprising Investment for All Investors During Any Market Environment. Here's How It's Turned Out, According to History.",
-    "SpaceX Fell Below Its Debut Price. History Says a $10,000 Investment Will be Worth This Much in a Year.",
     "Fast-food chicken giant quietly closed 207 U.S. restaurants",
-    "Prediction: Sandisk Stock Is Going to Hit $3,000 by the End of 2026. Here's the Math",
-    "The $124 trillion Great Wealth Transfer is more than just cash: More U.S. businesses are now being inherited than bought, BofA finds",
-    "After donating $48 billion to the Gates Foundation, Warren Buffett is quietly ending one of the biggest philanthropic relationships in history",
-    "Midwest burger chain targets California, taking on In-N-Out"
+    "I’m 61 Years Old With $200,000 Saved for Retirement. What’s My Game Plan?",
+    "He sold his last company to Palantir. Now he’s betting $32 million that robots can fix construction’s labor crisis",
+    "California sends Tesla a message with its new EV rebate",
+    "Veradermics Hair Loss Pill Shows Strong Phase II Signal in Women"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64791.3515625,
-        "perp_last_price": 64791.3515625,
-        "mark_price": 64791.3515625,
-        "index_price": 64791.3515625,
+        "spot_price": 65165.75,
+        "perp_last_price": 65165.75,
+        "mark_price": 65165.75,
+        "index_price": 65165.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64806.37890625,
-        "stop_loss_technical": 64277.58984375,
-        "target_1": 65599.5625,
-        "target_2": 66392.74609375,
+        "entry_ideal": 65165.75,
+        "stop_loss_technical": 64188.26375,
+        "target_1": 66631.979375,
+        "target_2": 68098.20875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64791.3515625,
+        "entry_ideal": 65165.75,
         "stop_loss_technical": 61769.0,
-        "target_1": 69324.87890625,
-        "target_2": 73858.40625,
+        "target_1": 70260.875,
+        "target_2": 75356.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
