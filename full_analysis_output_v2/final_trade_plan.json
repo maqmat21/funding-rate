@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-15T05:44:21.267797+00:00",
+    "generated_at_utc": "2026-07-15T07:32:35.959305+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.804,
+        "price": 100.887,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 46m",
+    "U.S. markets open in 5h 59m",
     "News from the Yahoo Finance Network",
     "Fast-food chicken giant quietly closed 207 U.S. restaurants",
     "Warren Buffett Has Recommended This Surprising Investment for All Investors During Any Market Environment. Here's How It's Turned Out, According to History.",
-    "Viridian Therapeutics (VRDN) Stock Still Looks Above Fair Value Today",
-    "Fantastic News for SpaceX Stock Investors!",
     "After donating $48 billion to the Gates Foundation, Warren Buffett is quietly ending one of the biggest philanthropic relationships in history",
+    "Warren Buffett Has Said the Same Thing About Stock Market Corrections for Nearly 50 Years. History Shows He's Never Been Wrong.",
+    "Stripe & Advent Bid $53 Billion to Acquire PayPal amid Stablecoin Push",
     "Prediction: This Will Be Nvidia's Stock Price Next Year (Hint: The Time to Buy Is Now)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64653.921875,
-        "perp_last_price": 64653.921875,
-        "mark_price": 64653.921875,
-        "index_price": 64653.921875,
+        "spot_price": 64497.83984375,
+        "perp_last_price": 64497.83984375,
+        "mark_price": 64497.83984375,
+        "index_price": 64497.83984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64653.921875,
-        "stop_loss_technical": 62535.03125,
-        "target_1": 67832.2578125,
-        "target_2": 71010.59375,
+        "entry_ideal": 64496.640625,
+        "stop_loss_technical": 65213.28125,
+        "target_1": 63421.6796875,
+        "target_2": 62346.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64653.921875,
+        "entry_ideal": 64497.83984375,
         "stop_loss_technical": 61769.0,
-        "target_1": 68981.3046875,
-        "target_2": 73308.6875,
+        "target_1": 68591.09960938,
+        "target_2": 72684.359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
