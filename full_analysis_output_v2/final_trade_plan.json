@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-15T20:39:02.398965+00:00",
+    "generated_at_utc": "2026-07-15T21:34:27.348399+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.52,
+        "price": 100.504,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Trump Leans Toward Expanding U.S. Military Operations in Iran",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "IBM Stock Just Suffered a Gruesome Massacre, But Algos Likely Sense a Huge Discount Here",
-    "Warren Buffett explains why his kids, not the Gates Foundation, will now give away all his fortune",
+    "BlackBerry Stock Looks Strong at a 5-Year High with Double-Digit Growth in Revenue and Earnings Ahead",
     "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now",
-    "Warren Buffett Has Recommended This Surprising Investment for All Investors During Any Market Environment. Here's How It's Turned Out, According to History.",
-    "Fast-food chicken giant quietly closed 207 U.S. restaurants",
-    "Why Micron Stock Just Dropped Again"
+    "If You Invest $5,000 in the Vanguard Information Technology ETF Today, Here's What You Might Have in 20 Years",
+    "Warren Buffett explains why his kids, not the Gates Foundation, will now give away all his fortune",
+    "Lucid (LCID) Denies Bankruptcy Rumors While Reshaping Leadership And Operations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64951.62890625,
-        "perp_last_price": 64951.62890625,
-        "mark_price": 64951.62890625,
-        "index_price": 64951.62890625,
+        "spot_price": 64800.05859375,
+        "perp_last_price": 64800.05859375,
+        "mark_price": 64800.05859375,
+        "index_price": 64800.05859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64951.640625,
-        "stop_loss_technical": 64431.51953125,
-        "target_1": 65731.82226562,
-        "target_2": 66512.00390625,
+        "entry_ideal": 64800.05859375,
+        "stop_loss_technical": 63828.05771484,
+        "target_1": 66258.05991211,
+        "target_2": 67716.06123047,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64951.62890625,
-        "stop_loss_technical": 61769.0,
-        "target_1": 69725.57226562,
-        "target_2": 74499.515625,
+        "entry_ideal": 64800.05859375,
+        "stop_loss_technical": 63828.05771484,
+        "target_1": 66258.05991211,
+        "target_2": 67716.06123047,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
