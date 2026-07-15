@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-15T11:12:49.599054+00:00",
+    "generated_at_utc": "2026-07-15T12:42:43.738248+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.972,
-        "trend": "alcista"
+        "price": 100.898,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.585,
+        "price": 4.61,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 18m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Has Recommended This Surprising Investment for All Investors During Any Market Environment. Here's How It's Turned Out, According to History.",
     "SpaceX Fell Below Its Debut Price. History Says a $10,000 Investment Will be Worth This Much in a Year.",
     "Fast-food chicken giant quietly closed 207 U.S. restaurants",
+    "Prediction: Sandisk Stock Is Going to Hit $3,000 by the End of 2026. Here's the Math",
     "The $124 trillion Great Wealth Transfer is more than just cash: More U.S. businesses are now being inherited than bought, BofA finds",
-    "What It Takes to Earn $8,000 a Month From Dividends Without Chasing Yield",
-    "With a Nearly 7% Dividend Yield, Is Verizon Stock a Buy on SpaceX Fears?"
+    "After donating $48 billion to the Gates Foundation, Warren Buffett is quietly ending one of the biggest philanthropic relationships in history",
+    "Midwest burger chain targets California, taking on In-N-Out"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64685.96875,
-        "perp_last_price": 64685.96875,
-        "mark_price": 64685.96875,
-        "index_price": 64685.96875,
+        "spot_price": 64791.3515625,
+        "perp_last_price": 64791.3515625,
+        "mark_price": 64791.3515625,
+        "index_price": 64791.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64683.05859375,
-        "stop_loss_technical": 63712.81271484,
-        "target_1": 66138.42741211,
-        "target_2": 67593.79623047,
+        "entry_ideal": 64806.37890625,
+        "stop_loss_technical": 64277.58984375,
+        "target_1": 65599.5625,
+        "target_2": 66392.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64685.96875,
-        "stop_loss_technical": 63715.67921875,
-        "target_1": 66141.40304687,
-        "target_2": 67596.83734375,
+        "entry_ideal": 64791.3515625,
+        "stop_loss_technical": 61769.0,
+        "target_1": 69324.87890625,
+        "target_2": 73858.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
