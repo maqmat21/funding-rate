@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-16T19:31:33.560097+00:00",
+    "generated_at_utc": "2026-07-16T20:29:31.708590+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.777,
+        "price": 100.749,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,49 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Renewables remain cheapest, but their LCOE is rising: Lazard",
+    "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "Trump media firm plans to sell high speed access to Truth Social posts, possibly Trump's own",
-    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
+    "Veteran trader who called 50% gold crash spots 'unconventional' pattern",
     "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
     "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now",
-    "SoftBank CEO Says You’re Too Stupid to Understand What’s Going on If You Believe the AI Bubble Is Real"
+    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
+    "Analyst: ‘We’re In One Of The Most Dangerous Times In History’ For Passive Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64192.98046875,
-        "perp_last_price": 64192.98046875,
-        "mark_price": 64192.98046875,
-        "index_price": 64192.98046875,
+        "spot_price": 64131.66015625,
+        "perp_last_price": 64131.66015625,
+        "mark_price": 64131.66015625,
+        "index_price": 64131.66015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64184.640625,
-        "stop_loss_technical": 63802.48828125,
-        "target_1": 64757.86914062,
-        "target_2": 65331.09765625,
+        "entry_ideal": 64131.6484375,
+        "stop_loss_technical": 64940.75,
+        "target_1": 62917.99609375,
+        "target_2": 61704.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64192.98046875,
+        "entry_ideal": 64131.66015625,
         "stop_loss_technical": 65507.59375,
-        "target_1": 62221.06054688,
-        "target_2": 60249.140625,
+        "target_1": 62067.75976562,
+        "target_2": 60003.859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
