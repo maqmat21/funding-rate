@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-16T15:51:52.174315+00:00",
+    "generated_at_utc": "2026-07-16T17:00:21.872984+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,62 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.704,
+        "price": 100.783,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.573,
+        "price": 4.58,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 9m",
+    "U.S. markets close in 3h 1m",
     "News from the Yahoo Finance Network",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
+    "A Larger Social Security Check Is Coming. The Catch Is It Means You Are Already Losing Out",
+    "Bank Of America's Earnings Were Great, But Its New Guidance Is The Real Story",
     "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
-    "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now",
-    "Warren Buffett explains why his kids, not the Gates Foundation, will now give away all his fortune",
-    "Warren Buffett's Successor, Greg Abel, Has Nearly 30% of Berkshire Hathaway's $351 Billion Portfolio in These 2 Magnificent Artificial Intelligence (AI) Stocks"
+    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
+    "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64696.328125,
-        "perp_last_price": 64696.328125,
-        "mark_price": 64696.328125,
-        "index_price": 64696.328125,
+        "spot_price": 64434.828125,
+        "perp_last_price": 64434.828125,
+        "mark_price": 64434.828125,
+        "index_price": 64434.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64671.23046875,
-        "stop_loss_technical": 63701.16201172,
-        "target_1": 66126.3331543,
-        "target_2": 67581.43583984,
+        "entry_ideal": 64434.828125,
+        "stop_loss_technical": 64942.328125,
+        "target_1": 63673.578125,
+        "target_2": 62912.328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64696.328125,
-        "stop_loss_technical": 63725.88320312,
-        "target_1": 66151.99550781,
-        "target_2": 67607.66289062,
+        "entry_ideal": 64434.828125,
+        "stop_loss_technical": 65507.59375,
+        "target_1": 62825.6796875,
+        "target_2": 61216.53125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
