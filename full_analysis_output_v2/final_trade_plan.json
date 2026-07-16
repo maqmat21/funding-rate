@@ -1,43 +1,43 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-16T12:10:52.106564+00:00",
+    "generated_at_utc": "2026-07-16T14:23:26.727654+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.529,
-        "trend": "bajista"
+        "price": 100.67,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.545,
-        "trend": "bajista"
+        "price": 4.577,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 20m",
+    "U.S. markets close in 5h 38m",
     "News from the Yahoo Finance Network",
-    "AST SpaceMobile Shares Sink After $1 Billion Convertible Notes Deal",
-    "Prediction: This Will Be Micron's Stock Price by Late 2027 (Hint: It Implies a Big Move)",
     "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "Social Security's future is shaky. Trump prefers this country's system",
-    "The MacKenzie Scott paradox: How a bull market lets billionaires give away tens of billions without getting poorer"
+    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
+    "You are missing the bond deal of the decade — and it is guaranteed to beat inflation",
+    "Intel Stock Looks Beaten Down Today, but Here Is Where It Could Be Headed in 5 Years",
+    "Warren Buffett explains why his kids, not the Gates Foundation, will now give away all his fortune"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64139.1015625,
-        "perp_last_price": 64139.1015625,
-        "mark_price": 64139.1015625,
-        "index_price": 64139.1015625,
+        "spot_price": 64558.359375,
+        "perp_last_price": 64558.359375,
+        "mark_price": 64558.359375,
+        "index_price": 64558.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -46,13 +46,14 @@
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64139.1015625,
-        "stop_loss_technical": 63177.01503906,
-        "target_1": 65582.23134766,
-        "target_2": 67025.36113281,
+        "entry_ideal": 64555.859375,
+        "stop_loss_technical": 63587.52148438,
+        "target_1": 66008.36621094,
+        "target_2": 67460.87304688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -60,14 +61,13 @@
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64139.1015625,
-        "stop_loss_technical": 63177.01503906,
-        "target_1": 65582.23134766,
-        "target_2": 67025.36113281,
+        "entry_ideal": 64558.359375,
+        "stop_loss_technical": 63589.98398438,
+        "target_1": 66010.92246094,
+        "target_2": 67463.48554688,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
