@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T15:46:03.281139+00:00",
+    "generated_at_utc": "2026-07-17T16:48:19.410718+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.739,
+        "price": 100.749,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.533,
+        "price": 4.545,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 15m",
+    "U.S. markets close in 3h 13m",
     "News from the Yahoo Finance Network",
-    "Ransomware attack forces Coca-Cola to suspend US production at dairy unit",
-    "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
+    "Costco opens first-of-its kind location and there’s no $1.50 hotdog in site",
     "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
-    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
+    "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
     "Fast-food chicken giant quietly closed 207 U.S. restaurants",
-    "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?"
+    "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?",
+    "You are missing the bond deal of the decade — and it is guaranteed to beat inflation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63109.19921875,
-        "perp_last_price": 63109.19921875,
-        "mark_price": 63109.19921875,
-        "index_price": 63109.19921875,
+        "spot_price": 63577.08984375,
+        "perp_last_price": 63577.08984375,
+        "mark_price": 63577.08984375,
+        "index_price": 63577.08984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63109.640625,
-        "stop_loss_technical": 62162.99601563,
-        "target_1": 64529.60753906,
-        "target_2": 65949.57445312,
+        "entry_ideal": 63592.48046875,
+        "stop_loss_technical": 62462.5390625,
+        "target_1": 65287.39257812,
+        "target_2": 66982.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63109.19921875,
-        "stop_loss_technical": 62162.56123047,
-        "target_1": 64529.15620117,
-        "target_2": 65949.11318359,
+        "entry_ideal": 63577.08984375,
+        "stop_loss_technical": 61769.0,
+        "target_1": 66289.22460938,
+        "target_2": 69001.359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
