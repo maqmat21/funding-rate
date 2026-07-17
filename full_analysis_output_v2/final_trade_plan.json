@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T12:48:50.464625+00:00",
+    "generated_at_utc": "2026-07-17T14:19:31.603955+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.819,
+        "price": 100.763,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.529,
+        "price": 4.523,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 41m",
     "News from the Yahoo Finance Network",
+    "Oppenheimer sends warning on IBM after shares crash",
+    "Her Social Security Can’t Fund a Roth IRA. At 80, Her Hobby Income Can.",
     "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
-    "Trump’s 25-Minute Speech Opens Can of Worms on Elections",
-    "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
-    "Stephen King has brutal response to Trump's salary donation claim",
-    "Boomers Swear by These High-Yield 5% and More Kings They Can Buy and Hold Forever",
-    "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?",
-    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year"
+    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
+    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
+    "You are missing the bond deal of the decade — and it is guaranteed to beat inflation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63049.44140625,
-        "perp_last_price": 63049.44140625,
-        "mark_price": 63049.44140625,
-        "index_price": 63049.44140625,
+        "spot_price": 63249.96875,
+        "perp_last_price": 63249.96875,
+        "mark_price": 63249.96875,
+        "index_price": 63249.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63049.44140625,
-        "stop_loss_technical": 64434.828125,
-        "target_1": 60971.36132812,
-        "target_2": 58893.28125,
+        "entry_ideal": 63249.96875,
+        "stop_loss_technical": 62462.5390625,
+        "target_1": 64431.11328125,
+        "target_2": 65612.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63049.44140625,
+        "entry_ideal": 63249.96875,
         "stop_loss_technical": 65507.59375,
-        "target_1": 59362.21289062,
-        "target_2": 55674.984375,
+        "target_1": 59863.53125,
+        "target_2": 56477.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
