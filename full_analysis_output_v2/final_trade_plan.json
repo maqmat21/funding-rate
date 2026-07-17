@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T06:28:52.541625+00:00",
+    "generated_at_utc": "2026-07-17T08:33:33.688165+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.7,
-        "trend": "bajista"
+        "price": 100.753,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.569,
@@ -21,53 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 3m",
+    "U.S. markets open in 4h 57m",
     "News from the Yahoo Finance Network",
-    "Trump Stokes Doubts on US Election Security in Combative Speech",
+    "Warren Buffett Says \"Gambling\" Is Going on in Today's Market. Here's What History Says Happens Next.",
+    "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?",
     "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
+    "Trump Stokes Doubts on US Election Security in Combative Speech",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "SpaceX Is Back at Its IPO Price. Here Is When I Would Buy It.",
-    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
-    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’"
+    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62844.01953125,
-        "perp_last_price": 62844.01953125,
-        "mark_price": 62844.01953125,
-        "index_price": 62844.01953125,
+        "spot_price": 62665.08984375,
+        "perp_last_price": 62665.08984375,
+        "mark_price": 62665.08984375,
+        "index_price": 62665.08984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62860.80078125,
-        "stop_loss_technical": 62657.51953125,
-        "target_1": 63165.72265625,
-        "target_2": 63470.64453125,
+        "entry_ideal": 62665.08984375,
+        "stop_loss_technical": 64825.37890625,
+        "target_1": 59424.65625,
+        "target_2": 56184.22265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 62844.01953125,
-        "stop_loss_technical": 61901.35923828,
-        "target_1": 64258.0099707,
-        "target_2": 65672.00041016,
+        "entry_ideal": 62665.08984375,
+        "stop_loss_technical": 65507.59375,
+        "target_1": 58401.33398438,
+        "target_2": 54137.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
