@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T10:21:22.333873+00:00",
+    "generated_at_utc": "2026-07-17T11:47:27.673150+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.772,
+        "price": 100.786,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 10m",
+    "U.S. markets open in 1h 44m",
     "News from the Yahoo Finance Network",
+    "Starbucks wins a shareholder lawsuit over its sales slump",
+    "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
     "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?",
     "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
-    "12 Words From Billionaire Warren Buffett That Will Echo Through Wall Street for Years to Come",
-    "Should You Buy SpaceX Stock Below $135 Per Share? Here's What History Says.",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year"
+    "Should You Buy SpaceX Stock Below $135 Per Share? Here's What History Says."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63003.0,
-        "perp_last_price": 63003.0,
-        "mark_price": 63003.0,
-        "index_price": 63003.0,
+        "spot_price": 63269.1015625,
+        "perp_last_price": 63269.1015625,
+        "mark_price": 63269.1015625,
+        "index_price": 63269.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63000.55078125,
+        "entry_ideal": 63270.23046875,
         "stop_loss_technical": 62603.78125,
-        "target_1": 63595.70507812,
-        "target_2": 64190.859375,
+        "target_1": 64269.90429688,
+        "target_2": 65269.578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63003.0,
+        "entry_ideal": 63269.1015625,
         "stop_loss_technical": 65507.59375,
-        "target_1": 59246.109375,
-        "target_2": 55489.21875,
+        "target_1": 59911.36328125,
+        "target_2": 56553.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
