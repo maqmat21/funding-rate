@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T20:36:19.631905+00:00",
+    "generated_at_utc": "2026-07-17T21:26:37.510266+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.764,
+        "price": 100.755,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "How Net Worth Differs for Single and Married Americans, According to Federal Reserve Data",
     "United Airlines makes bold offer after airport name change",
-    "Short Sellers Are Betting Against UroGen Pharma Stock, But Wall Street Expects 263% Earnings Growth in 2027",
     "Donald Trump Once Said He Would Eliminate America’s $19 Trillion in Debt. The Total Is Now Approaching $50 Trillion.",
+    "Long-Term Investors Should Listen Up",
     "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises",
     "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
-    "Fast-food chicken giant quietly closed 207 U.S. restaurants",
-    "Apple Had the Cash to Buy Any of 486 S&P 500 Companies, but Tim Cook Bet $851 Billion on This Instead"
+    "Fast-food chicken giant quietly closed 207 U.S. restaurants"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63964.58984375,
-        "perp_last_price": 63964.58984375,
-        "mark_price": 63964.58984375,
-        "index_price": 63964.58984375,
+        "spot_price": 64143.94140625,
+        "perp_last_price": 64143.94140625,
+        "mark_price": 64143.94140625,
+        "index_price": 64143.94140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63964.58984375,
-        "stop_loss_technical": 64353.55859375,
-        "target_1": 63381.13671875,
-        "target_2": 62797.68359375,
+        "entry_ideal": 64143.94140625,
+        "stop_loss_technical": 62462.5390625,
+        "target_1": 66666.04492188,
+        "target_2": 69188.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63964.58984375,
+        "entry_ideal": 64143.94140625,
         "stop_loss_technical": 61769.0,
-        "target_1": 67257.97460938,
-        "target_2": 70551.359375,
+        "target_1": 67706.35351562,
+        "target_2": 71268.765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
