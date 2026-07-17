@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T11:47:27.673150+00:00",
+    "generated_at_utc": "2026-07-17T12:48:50.464625+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.786,
+        "price": 100.819,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.569,
+        "price": 4.529,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 44m",
     "News from the Yahoo Finance Network",
-    "Starbucks wins a shareholder lawsuit over its sales slump",
     "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
-    "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?",
+    "Trump’s 25-Minute Speech Opens Can of Worms on Elections",
     "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "Should You Buy SpaceX Stock Below $135 Per Share? Here's What History Says."
+    "Boomers Swear by These High-Yield 5% and More Kings They Can Buy and Hold Forever",
+    "History Might Be Telling Us Why Nvidia Stock Is So Cheap. Should Investors Listen?",
+    "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63269.1015625,
-        "perp_last_price": 63269.1015625,
-        "mark_price": 63269.1015625,
-        "index_price": 63269.1015625,
+        "spot_price": 63049.44140625,
+        "perp_last_price": 63049.44140625,
+        "mark_price": 63049.44140625,
+        "index_price": 63049.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63270.23046875,
-        "stop_loss_technical": 62603.78125,
-        "target_1": 64269.90429688,
-        "target_2": 65269.578125,
+        "entry_ideal": 63049.44140625,
+        "stop_loss_technical": 64434.828125,
+        "target_1": 60971.36132812,
+        "target_2": 58893.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63269.1015625,
+        "entry_ideal": 63049.44140625,
         "stop_loss_technical": 65507.59375,
-        "target_1": 59911.36328125,
-        "target_2": 56553.625,
+        "target_1": 59362.21289062,
+        "target_2": 55674.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
