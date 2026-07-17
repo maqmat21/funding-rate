@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-16T23:30:32.122865+00:00",
+    "generated_at_utc": "2026-07-17T01:06:17.152534+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.708,
+        "price": 100.716,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
+    "SpaceX Just Fell Below Its IPO Price. Here's What Happens Next, According to History.",
+    "Recalled Costco product poses big threat",
     "Stephen King has brutal response to Trump's salary donation claim",
-    "SpaceX suddenly aborts second Starship V3 launch after ignition",
-    "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now",
+    "Warren Buffett Just Revealed He -- Not Greg Abel -- Made Berkshire's Big Alphabet Bet. Should You Follow Him In?",
     "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
-    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
-    "Fast-food chicken giant quietly closed 207 U.S. restaurants"
+    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63759.96875,
-        "perp_last_price": 63759.96875,
-        "mark_price": 63759.96875,
-        "index_price": 63759.96875,
+        "spot_price": 63953.6484375,
+        "perp_last_price": 63953.6484375,
+        "mark_price": 63953.6484375,
+        "index_price": 63953.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63746.7890625,
-        "stop_loss_technical": 64940.75,
-        "target_1": 61955.84765625,
-        "target_2": 60164.90625,
+        "entry_ideal": 63953.6484375,
+        "stop_loss_technical": 63559.62890625,
+        "target_1": 64544.67773438,
+        "target_2": 65135.70703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63759.96875,
+        "entry_ideal": 63953.6484375,
         "stop_loss_technical": 65507.59375,
-        "target_1": 61138.53125,
-        "target_2": 58517.09375,
+        "target_1": 61622.73046875,
+        "target_2": 59291.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
