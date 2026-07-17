@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T04:17:06.715162+00:00",
+    "generated_at_utc": "2026-07-17T06:28:52.541625+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.771,
-        "trend": "alcista"
+        "price": 100.7,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.569,
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 14m",
+    "U.S. markets open in 7h 3m",
     "News from the Yahoo Finance Network",
     "Trump Stokes Doubts on US Election Security in Combative Speech",
     "The global rich like Peter Thiel are eyeing the exit door. Argentina wants to be a ‘serious contender’ in the migration game",
     "Stephen King has brutal response to Trump's salary donation claim",
+    "SpaceX Is Back at Its IPO Price. Here Is When I Would Buy It.",
     "Meet the Dividend King Stock That Yields More Than Double the S&P 500 and Just Raised Its Dividend for the 64th Straight Year",
-    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’",
-    "Warren Buffett explains why his kids, not the Gates Foundation, will now give away all his fortune"
+    "Billionaire Warren Buffett Has a ‘McGold Card’ That Gives Him Free Food for Life — ‘So That’s Why the Buffett Family Has Christmas Dinner at McDonald’s’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63457.078125,
-        "perp_last_price": 63457.078125,
-        "mark_price": 63457.078125,
-        "index_price": 63457.078125,
+        "spot_price": 62844.01953125,
+        "perp_last_price": 62844.01953125,
+        "mark_price": 62844.01953125,
+        "index_price": 62844.01953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63457.078125,
-        "stop_loss_technical": 64825.37890625,
-        "target_1": 61404.62695312,
-        "target_2": 59352.17578125,
+        "entry_ideal": 62860.80078125,
+        "stop_loss_technical": 62657.51953125,
+        "target_1": 63165.72265625,
+        "target_2": 63470.64453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63457.078125,
-        "stop_loss_technical": 65507.59375,
-        "target_1": 60381.3046875,
-        "target_2": 57305.53125,
+        "entry_ideal": 62844.01953125,
+        "stop_loss_technical": 61901.35923828,
+        "target_1": 64258.0099707,
+        "target_2": 65672.00041016,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
