@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-17T23:08:31.961401+00:00",
+    "generated_at_utc": "2026-07-18T00:04:13.530569+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "United Airlines makes bold offer after airport name change",
-    "Donald Trump Once Said He Would Eliminate America’s $19 Trillion in Debt. The Total Is Now Approaching $50 Trillion.",
     "Apple Had the Cash to Buy Any of 486 S&P 500 Companies, but Tim Cook Bet $851 Billion on This Instead",
-    "GameStop owns nearly 10% of eBay, SEC filing shows",
+    "Fast-food chicken giant quietly closed 207 U.S. restaurants",
+    "Donald Trump Once Said He Would Eliminate America’s $19 Trillion in Debt. The Total Is Now Approaching $50 Trillion.",
     "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
     "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises",
-    "Fast-food chicken giant quietly closed 207 U.S. restaurants"
+    "You are missing the bond deal of the decade — and it is guaranteed to beat inflation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63867.98046875,
-        "perp_last_price": 63867.98046875,
-        "mark_price": 63867.98046875,
-        "index_price": 63867.98046875,
+        "spot_price": 63900.1796875,
+        "perp_last_price": 63900.1796875,
+        "mark_price": 63900.1796875,
+        "index_price": 63900.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63859.0390625,
+        "entry_ideal": 63900.1796875,
         "stop_loss_technical": 64353.55859375,
-        "target_1": 63117.25976562,
-        "target_2": 62375.48046875,
+        "target_1": 63220.11132812,
+        "target_2": 62540.04296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63867.98046875,
-        "stop_loss_technical": 61769.0,
-        "target_1": 67016.45117188,
-        "target_2": 70164.921875,
+        "entry_ideal": 63900.1796875,
+        "stop_loss_technical": 62207.5234375,
+        "target_1": 66439.1640625,
+        "target_2": 68978.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
