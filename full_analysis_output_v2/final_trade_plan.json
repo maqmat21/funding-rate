@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T07:16:25.599916+00:00",
+    "generated_at_utc": "2026-07-18T08:59:28.770697+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Warren Buffett Is Disposing of His Berkshire Shares. Here's How.",
+    "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
     "United Airlines makes bold offer after airport name change",
     "Elon Musk Reacts to Jamie Dimon's ‘Einstein’ Praise With Two-Word Reply as Viral Post Hails His SpaceX and Tesla Legacy",
-    "Missed Out on Sandisk's 580% Rally? Here Are 3 Chip Stocks You Can Buy Now.",
     "Donald Trump Once Said He Would Eliminate America’s $19 Trillion in Debt. The Total Is Now Approaching $50 Trillion.",
     "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises",
-    "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'"
+    "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
+    "SpaceX Stock vs. Micron Stock: Buy One and Sell the Other, According to Certain Wall Street Analysts"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63951.33984375,
-        "perp_last_price": 63951.33984375,
-        "mark_price": 63951.33984375,
-        "index_price": 63951.33984375,
+        "spot_price": 63943.890625,
+        "perp_last_price": 63943.890625,
+        "mark_price": 63943.890625,
+        "index_price": 63943.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63951.33984375,
-        "stop_loss_technical": 62462.5390625,
-        "target_1": 66184.54101562,
-        "target_2": 68417.7421875,
+        "entry_ideal": 63943.890625,
+        "stop_loss_technical": 64353.55859375,
+        "target_1": 63329.38867188,
+        "target_2": 62714.88671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63951.33984375,
+        "entry_ideal": 63943.890625,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 66567.06445312,
-        "target_2": 69182.7890625,
+        "target_1": 66548.44140625,
+        "target_2": 69152.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
