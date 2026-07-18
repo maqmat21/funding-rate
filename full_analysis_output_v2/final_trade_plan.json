@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T18:31:39.527342+00:00",
+    "generated_at_utc": "2026-07-18T19:45:39.718852+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Foreclosures hit highest level since 2019, sparking interest from bargain hunters",
-    "Investing Legend John Templeton Has a Warning for Micron and SK Hynix Investors",
     "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
     "United Airlines makes bold offer after airport name change",
-    "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026",
     "What the housing affordability bill means for buyers and sellers",
-    "This \"Hands-Off\" ETF Could Be Your Ticket to Becoming a Millionaire"
+    "Verizon shifts gears as customers continue to leave",
+    "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026",
+    "Investing Legend John Templeton Has a Warning for Micron and SK Hynix Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64477.41015625,
-        "perp_last_price": 64477.41015625,
-        "mark_price": 64477.41015625,
-        "index_price": 64477.41015625,
+        "spot_price": 64484.73046875,
+        "perp_last_price": 64484.73046875,
+        "mark_price": 64484.73046875,
+        "index_price": 64484.73046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64477.41015625,
-        "stop_loss_technical": 63840.640625,
-        "target_1": 65432.56445312,
-        "target_2": 66387.71875,
+        "entry_ideal": 64484.73046875,
+        "stop_loss_technical": 63842.3515625,
+        "target_1": 65448.29882812,
+        "target_2": 66411.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64477.41015625,
+        "entry_ideal": 64484.73046875,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 67882.24023438,
-        "target_2": 71287.0703125,
+        "target_1": 67900.54101562,
+        "target_2": 71316.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
