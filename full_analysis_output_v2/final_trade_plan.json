@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T15:34:03.060472+00:00",
+    "generated_at_utc": "2026-07-18T16:31:55.103518+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
+    "Another popular soda giant closes warehouse operation, cuts 184 jobs",
+    "Foreclosures hit highest level since 2019, sparking interest from bargain hunters",
     "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026",
     "United Airlines makes bold offer after airport name change",
     "What the housing affordability bill means for buyers and sellers",
-    "The Portfolio That Gives You a $2,000 Raise Every Year",
-    "Indeed chief economist: Aging Baby Boomers are America’s real labor problem, not AI",
     "Elon Musk Reacts to Jamie Dimon's ‘Einstein’ Praise With Two-Word Reply as Viral Post Hails His SpaceX and Tesla Legacy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64027.03125,
-        "perp_last_price": 64027.03125,
-        "mark_price": 64027.03125,
-        "index_price": 64027.03125,
+        "spot_price": 64115.69140625,
+        "perp_last_price": 64115.69140625,
+        "mark_price": 64115.69140625,
+        "index_price": 64115.69140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64027.03125,
-        "stop_loss_technical": 64211.98046875,
-        "target_1": 63749.60742188,
-        "target_2": 63472.18359375,
+        "entry_ideal": 64115.69140625,
+        "stop_loss_technical": 63840.640625,
+        "target_1": 64528.26757812,
+        "target_2": 64940.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64027.03125,
+        "entry_ideal": 64115.69140625,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 66756.29296875,
-        "target_2": 69485.5546875,
+        "target_1": 66977.94335938,
+        "target_2": 69840.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
