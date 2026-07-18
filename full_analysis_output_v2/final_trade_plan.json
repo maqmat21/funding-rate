@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T13:42:50.800260+00:00",
+    "generated_at_utc": "2026-07-18T14:39:44.811239+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How P&G’s Latest Dividend Hike Amid Cost Cuts Will Impact Procter & Gamble (PG) Investors",
     "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
-    "Scott Bessent assures Americans Fort Knox gold is still there — then reminds them the dollar is no longer backed by it",
-    "Kevin O'Leary says save $100,000 by age 33 — most Americans in that age group aren't even close to that",
     "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026",
-    "Warren Buffett's Top Rule for Dealing With a Stock Market Crash",
-    "5 Top Dividend Stocks Yielding 5% or More to Buy Right Now for Passive Income"
+    "United Airlines makes bold offer after airport name change",
+    "Indeed chief economist: Aging Baby Boomers are America’s real labor problem, not AI",
+    "Pfizer Paid Out $14.6 Billion in Dividends Over the Last 18 Months. Can It Keep This Up Through the Patent Cliff?",
+    "Here's the latest retirement 'magic number.' Can you reach it?",
+    "Elon Musk Reacts to Jamie Dimon's ‘Einstein’ Praise With Two-Word Reply as Viral Post Hails His SpaceX and Tesla Legacy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64031.73828125,
-        "perp_last_price": 64031.73828125,
-        "mark_price": 64031.73828125,
-        "index_price": 64031.73828125,
+        "spot_price": 64121.390625,
+        "perp_last_price": 64121.390625,
+        "mark_price": 64121.390625,
+        "index_price": 64121.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64031.73828125,
+        "entry_ideal": 64129.7890625,
         "stop_loss_technical": 63840.640625,
-        "target_1": 64318.38476562,
-        "target_2": 64605.03125,
+        "target_1": 64563.51171875,
+        "target_2": 64997.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64031.73828125,
+        "entry_ideal": 64121.390625,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 66768.06054688,
-        "target_2": 69504.3828125,
+        "target_1": 66992.19140625,
+        "target_2": 69862.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
