@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T08:59:28.770697+00:00",
+    "generated_at_utc": "2026-07-18T10:17:39.458512+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett's Top Rule for Dealing With a Stock Market Crash",
     "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
     "United Airlines makes bold offer after airport name change",
     "Elon Musk Reacts to Jamie Dimon's ‘Einstein’ Praise With Two-Word Reply as Viral Post Hails His SpaceX and Tesla Legacy",
     "Donald Trump Once Said He Would Eliminate America’s $19 Trillion in Debt. The Total Is Now Approaching $50 Trillion.",
     "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises",
-    "In 50 years, they’ll be ‘laughing’: Investor Jeremy Grantham says SpaceX is the ‘craziest IPO in the history of man.'",
-    "SpaceX Stock vs. Micron Stock: Buy One and Sell the Other, According to Certain Wall Street Analysts"
+    "Prediction: SpaceX Stock Could Be Worth $5 Trillion or More If This 1 Thing Happens"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63943.890625,
-        "perp_last_price": 63943.890625,
-        "mark_price": 63943.890625,
-        "index_price": 63943.890625,
+        "spot_price": 63946.5,
+        "perp_last_price": 63946.5,
+        "mark_price": 63946.5,
+        "index_price": 63946.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63943.890625,
-        "stop_loss_technical": 64353.55859375,
-        "target_1": 63329.38867188,
-        "target_2": 62714.88671875,
+        "entry_ideal": 63946.5,
+        "stop_loss_technical": 62799.078125,
+        "target_1": 65667.6328125,
+        "target_2": 67388.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63943.890625,
+        "entry_ideal": 63946.5,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 66548.44140625,
-        "target_2": 69152.9921875,
+        "target_1": 66554.96484375,
+        "target_2": 69163.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
