@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T03:21:30.511014+00:00",
+    "generated_at_utc": "2026-07-18T05:39:38.358492+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,38 +34,37 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63930.37890625,
-        "perp_last_price": 63930.37890625,
-        "mark_price": 63930.37890625,
-        "index_price": 63930.37890625,
+        "spot_price": 63910.55859375,
+        "perp_last_price": 63910.55859375,
+        "mark_price": 63910.55859375,
+        "index_price": 63910.55859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 63910.55859375,
+        "stop_loss_technical": 64353.55859375,
+        "target_1": 63246.05859375,
+        "target_2": 62581.55859375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63930.37890625,
-        "stop_loss_technical": 62462.5390625,
-        "target_1": 66132.13867188,
-        "target_2": 68333.8984375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 63930.37890625,
+        "entry_ideal": 63910.55859375,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 66514.66210938,
-        "target_2": 69098.9453125,
+        "target_1": 66465.11132812,
+        "target_2": 69019.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
