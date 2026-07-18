@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T19:45:39.718852+00:00",
+    "generated_at_utc": "2026-07-18T20:29:10.439323+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Verizon shifts gears as customers continue to leave",
+    "United Airlines makes bold offer after airport name change",
     "Foreclosures hit highest level since 2019, sparking interest from bargain hunters",
     "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
-    "United Airlines makes bold offer after airport name change",
-    "What the housing affordability bill means for buyers and sellers",
-    "Verizon shifts gears as customers continue to leave",
-    "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026",
-    "Investing Legend John Templeton Has a Warning for Micron and SK Hynix Investors"
+    "Here’s the net worth you need to start getting ahead in your 20s, 30s, 40s and beyond in the U.S.",
+    "What the housing affordability bill means for buyers and sellers"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64484.73046875,
-        "perp_last_price": 64484.73046875,
-        "mark_price": 64484.73046875,
-        "index_price": 64484.73046875,
+        "spot_price": 64610.4609375,
+        "perp_last_price": 64610.4609375,
+        "mark_price": 64610.4609375,
+        "index_price": 64610.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64484.73046875,
+        "entry_ideal": 64610.4609375,
         "stop_loss_technical": 63842.3515625,
-        "target_1": 65448.29882812,
-        "target_2": 66411.8671875,
+        "target_1": 65762.625,
+        "target_2": 66914.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64484.73046875,
+        "entry_ideal": 64610.4609375,
         "stop_loss_technical": 62207.5234375,
-        "target_1": 67900.54101562,
-        "target_2": 71316.3515625,
+        "target_1": 68214.8671875,
+        "target_2": 71819.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
