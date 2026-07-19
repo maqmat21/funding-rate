@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T17:35:28.418070+00:00",
+    "generated_at_utc": "2026-07-19T18:32:35.503639+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,39 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64653.91015625,
-        "perp_last_price": 64653.91015625,
-        "mark_price": 64653.91015625,
-        "index_price": 64653.91015625,
+        "spot_price": 64330.87890625,
+        "perp_last_price": 64330.87890625,
+        "mark_price": 64330.87890625,
+        "index_price": 64330.87890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64653.91015625,
-        "stop_loss_technical": 64238.078125,
-        "target_1": 65277.65820312,
-        "target_2": 65901.40625,
+        "entry_ideal": 64330.87890625,
+        "stop_loss_technical": 64910.03125,
+        "target_1": 63462.15039062,
+        "target_2": 62593.421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64653.91015625,
-        "stop_loss_technical": 62489.453125,
-        "target_1": 67900.59570312,
-        "target_2": 71147.28125,
+        "entry_ideal": 64330.87890625,
+        "stop_loss_technical": 65507.59375,
+        "target_1": 62565.80664062,
+        "target_2": 60800.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
