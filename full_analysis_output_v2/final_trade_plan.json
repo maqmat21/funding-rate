@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T14:41:48.778966+00:00",
+    "generated_at_utc": "2026-07-19T15:39:28.411311+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "Costco makes surprising change that may hurt its bottom line",
+    "Why Warren Buffett Warns That the Market Is Headed for Trouble",
+    "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
     "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
     "Verizon shifts gears as customers continue to leave",
-    "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now."
+    "Trump Accounts Bring Windfall for Babies — and Also This One Fund"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64440.48046875,
-        "perp_last_price": 64440.48046875,
-        "mark_price": 64440.48046875,
-        "index_price": 64440.48046875,
+        "spot_price": 64509.75,
+        "perp_last_price": 64509.75,
+        "mark_price": 64509.75,
+        "index_price": 64509.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,23 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 64436.80078125,
+        "entry_ideal": 64517.75,
         "stop_loss_technical": 64238.078125,
-        "target_1": 64734.88476562,
-        "target_2": 65032.96875,
+        "target_1": 64937.2578125,
+        "target_2": 65356.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64440.48046875,
-        "stop_loss_technical": 65507.59375,
-        "target_1": 62839.81054688,
-        "target_2": 61239.140625,
+        "entry_ideal": 64509.75,
+        "stop_loss_technical": 62489.453125,
+        "target_1": 67540.1953125,
+        "target_2": 70570.640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
