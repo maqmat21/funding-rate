@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T13:46:32.894440+00:00",
+    "generated_at_utc": "2026-07-19T14:41:48.778966+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
     "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
+    "Costco makes surprising change that may hurt its bottom line",
     "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
     "Verizon shifts gears as customers continue to leave",
-    "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now.",
-    "Microsoft cut 4,800 jobs, filed 2,879 H-1B visas — but the real reason behind its $1.2T market value drop is far bigger"
+    "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64408.83984375,
-        "perp_last_price": 64408.83984375,
-        "mark_price": 64408.83984375,
-        "index_price": 64408.83984375,
+        "spot_price": 64440.48046875,
+        "perp_last_price": 64440.48046875,
+        "mark_price": 64440.48046875,
+        "index_price": 64440.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64410.44140625,
+        "entry_ideal": 64436.80078125,
         "stop_loss_technical": 64238.078125,
-        "target_1": 64668.98632812,
-        "target_2": 64927.53125,
+        "target_1": 64734.88476562,
+        "target_2": 65032.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64408.83984375,
+        "entry_ideal": 64440.48046875,
         "stop_loss_technical": 65507.59375,
-        "target_1": 62760.70898438,
-        "target_2": 61112.578125,
+        "target_1": 62839.81054688,
+        "target_2": 61239.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
