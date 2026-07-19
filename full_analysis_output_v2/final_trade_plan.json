@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T12:08:10.772155+00:00",
+    "generated_at_utc": "2026-07-19T13:46:32.894440+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Meet the (Almost) Dividend King with a 49-Year Streak That Wall Street Is Sleeping On",
-    "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
-    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Stock Market Is Doing Something Observed Only 3 Times in 155 Years -- 1999, 2022, and 2026 -- and It Offers a Dire Warning for Wall Street",
-    "Here's My Highest-Yielding Dividend Stock Right Now (It Pays 10.9%)",
-    "United Airlines makes bold offer after airport name change"
+    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
+    "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+    "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
+    "Verizon shifts gears as customers continue to leave",
+    "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now.",
+    "Microsoft cut 4,800 jobs, filed 2,879 H-1B visas — but the real reason behind its $1.2T market value drop is far bigger"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64366.6796875,
-        "perp_last_price": 64366.6796875,
-        "mark_price": 64366.6796875,
-        "index_price": 64366.6796875,
+        "spot_price": 64408.83984375,
+        "perp_last_price": 64408.83984375,
+        "mark_price": 64408.83984375,
+        "index_price": 64408.83984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64379.01953125,
-        "stop_loss_technical": 64910.03125,
-        "target_1": 63582.50195312,
-        "target_2": 62785.984375,
+        "entry_ideal": 64410.44140625,
+        "stop_loss_technical": 64238.078125,
+        "target_1": 64668.98632812,
+        "target_2": 64927.53125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64366.6796875,
+        "entry_ideal": 64408.83984375,
         "stop_loss_technical": 65507.59375,
-        "target_1": 62655.30859375,
-        "target_2": 60943.9375,
+        "target_1": 62760.70898438,
+        "target_2": 61112.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
