@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T19:46:16.714867+00:00",
+    "generated_at_utc": "2026-07-19T20:29:44.311101+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,49 +24,47 @@
     "News from the Yahoo Finance Network",
     "Why Warren Buffett Warns That the Market Is Headed for Trouble",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "SpaceX (SPCX) Stock Has Plunged 45% From Its Post-IPO High, and Cathie Wood Recently Bought $51 Million of It",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "68% of Greg Abel's Berkshire Hathaway Portfolio Is Invested in Just 5 Stocks. Here's My Favorite of the Bunch.",
+    "SpaceX (SPCX) Stock Has Plunged 45% From Its Post-IPO High, and Cathie Wood Recently Bought $51 Million of It",
     "Verizon shifts gears as customers continue to leave",
+    "68% of Greg Abel's Berkshire Hathaway Portfolio Is Invested in Just 5 Stocks. Here's My Favorite of the Bunch.",
     "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64358.51953125,
-        "perp_last_price": 64358.51953125,
-        "mark_price": 64358.51953125,
-        "index_price": 64358.51953125,
+        "spot_price": 64440.0703125,
+        "perp_last_price": 64440.0703125,
+        "mark_price": 64440.0703125,
+        "index_price": 64440.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64358.51953125,
-        "stop_loss_technical": 64910.03125,
-        "target_1": 63531.25195312,
-        "target_2": 62703.984375,
+        "entry_ideal": 64440.0703125,
+        "stop_loss_technical": 64238.078125,
+        "target_1": 64743.05859375,
+        "target_2": 65046.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64358.51953125,
+        "entry_ideal": 64440.0703125,
         "stop_loss_technical": 65507.59375,
-        "target_1": 62634.90820312,
-        "target_2": 60911.296875,
+        "target_1": 62838.78515625,
+        "target_2": 61237.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
