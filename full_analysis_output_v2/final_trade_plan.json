@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T03:48:14.959124+00:00",
+    "generated_at_utc": "2026-07-19T06:17:04.799364+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
+    "Warren Buffett sends a strong reminder to stock market investors",
     "Verizon shifts gears as customers continue to leave",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "How Buying SpaceX Today Could More Than 10X Your Net Worth",
-    "Warren Buffett sends a strong reminder to stock market investors",
     "United Airlines makes bold offer after airport name change",
-    "‘Dr. Doom’ Nouriel Roubini says we’re headed for universal basic income or ‘some form of socialism’ as AI revolutionizes work—He calls that optimistic",
+    "How Buying SpaceX Today Could More Than 10X Your Net Worth",
     "5% Bond Returns Are a Gift for Retirement Investors. My Favorite Way to Invest in Treasurys Lets You Earn a Paycheck No Matter What the Market Does."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64642.26171875,
-        "perp_last_price": 64642.26171875,
-        "mark_price": 64642.26171875,
-        "index_price": 64642.26171875,
+        "spot_price": 64690.7109375,
+        "perp_last_price": 64690.7109375,
+        "mark_price": 64690.7109375,
+        "index_price": 64690.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64642.26171875,
-        "stop_loss_technical": 64910.03125,
-        "target_1": 64240.60742188,
-        "target_2": 63838.953125,
+        "entry_ideal": 64682.0390625,
+        "stop_loss_technical": 63921.6015625,
+        "target_1": 65822.6953125,
+        "target_2": 66963.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64642.26171875,
+        "entry_ideal": 64690.7109375,
         "stop_loss_technical": 62489.453125,
-        "target_1": 67871.47460938,
-        "target_2": 71100.6875,
+        "target_1": 67992.59765625,
+        "target_2": 71294.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
