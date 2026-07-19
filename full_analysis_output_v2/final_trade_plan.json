@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T08:34:13.016243+00:00",
+    "generated_at_utc": "2026-07-19T10:09:25.741206+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,17 +27,17 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Verizon shifts gears as customers continue to leave",
     "Warren Buffett sends a strong reminder to stock market investors",
-    "Warren Buffett Made a Move That Should Have Every Investor Watching This Stock",
+    "President Donald Trump Just Told Congress to Pass the Clarity Act. Here's the Most Likely Scenario for What Happens Next.",
     "United Airlines makes bold offer after airport name change"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64628.0,
-        "perp_last_price": 64628.0,
-        "mark_price": 64628.0,
-        "index_price": 64628.0,
+        "spot_price": 64493.62109375,
+        "perp_last_price": 64493.62109375,
+        "mark_price": 64493.62109375,
+        "index_price": 64493.62109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,24 +48,23 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64628.0,
+        "entry_ideal": 64493.62109375,
         "stop_loss_technical": 64910.03125,
-        "target_1": 64204.953125,
-        "target_2": 63781.90625,
+        "target_1": 63869.00585938,
+        "target_2": 63244.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64628.0,
-        "stop_loss_technical": 62489.453125,
-        "target_1": 67835.8203125,
-        "target_2": 71043.640625,
+        "entry_ideal": 64493.62109375,
+        "stop_loss_technical": 65507.59375,
+        "target_1": 62972.66210938,
+        "target_2": 61451.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
