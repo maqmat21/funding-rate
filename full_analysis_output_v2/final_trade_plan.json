@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-18T23:11:09.416114+00:00",
+    "generated_at_utc": "2026-07-19T00:10:20.500501+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Verizon shifts gears as customers continue to leave",
-    "5% Bond Returns Are a Gift for Retirement Investors. My Favorite Way to Invest in Treasurys Lets You Earn a Paycheck No Matter What the Market Does.",
     "How Buying SpaceX Today Could More Than 10X Your Net Worth",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "United Airlines makes bold offer after airport name change",
     "I Know That a Bear Market Is Coming Eventually. This Is Warren Buffett's Single Best Piece of Advice for Investors.",
+    "5% Bond Returns Are a Gift for Retirement Investors. My Favorite Way to Invest in Treasurys Lets You Earn a Paycheck No Matter What the Market Does.",
     "Foreclosures hit highest level since 2019, sparking interest from bargain hunters"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64693.578125,
-        "perp_last_price": 64693.578125,
-        "mark_price": 64693.578125,
-        "index_price": 64693.578125,
+        "spot_price": 64801.0,
+        "perp_last_price": 64801.0,
+        "mark_price": 64801.0,
+        "index_price": 64801.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64693.578125,
-        "stop_loss_technical": 64825.671875,
-        "target_1": 64495.4375,
-        "target_2": 64297.296875,
+        "entry_ideal": 64801.0,
+        "stop_loss_technical": 63842.3515625,
+        "target_1": 66238.97265625,
+        "target_2": 67676.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64693.578125,
-        "stop_loss_technical": 62207.5234375,
-        "target_1": 68422.66015625,
-        "target_2": 72151.7421875,
+        "entry_ideal": 64801.0,
+        "stop_loss_technical": 62489.453125,
+        "target_1": 68268.3203125,
+        "target_2": 71735.640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
