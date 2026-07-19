@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-19T16:31:31.715095+00:00",
+    "generated_at_utc": "2026-07-19T17:35:28.418070+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,46 +25,48 @@
     "Why Warren Buffett Warns That the Market Is Headed for Trouble",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
     "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
     "Verizon shifts gears as customers continue to leave",
-    "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now."
+    "Bill Ackman Runs a $14 Billion Fund on Just 11 Stocks. These Are His 3 Biggest Bets Right Now.",
+    "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64543.51953125,
-        "perp_last_price": 64543.51953125,
-        "mark_price": 64543.51953125,
-        "index_price": 64543.51953125,
+        "spot_price": 64653.91015625,
+        "perp_last_price": 64653.91015625,
+        "mark_price": 64653.91015625,
+        "index_price": 64653.91015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64543.51953125,
+        "entry_ideal": 64653.91015625,
         "stop_loss_technical": 64238.078125,
-        "target_1": 65001.68164062,
-        "target_2": 65459.84375,
+        "target_1": 65277.65820312,
+        "target_2": 65901.40625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64543.51953125,
+        "entry_ideal": 64653.91015625,
         "stop_loss_technical": 62489.453125,
-        "target_1": 67624.61914062,
-        "target_2": 70705.71875,
+        "target_1": 67900.59570312,
+        "target_2": 71147.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
