@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T00:12:27.652210+00:00",
+    "generated_at_utc": "2026-07-20T04:04:50.599789+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.842,
-        "trend": "alcista"
+        "price": 100.715,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.541,
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 26m",
     "News from the Yahoo Finance Network",
-    "Why Warren Buffett Warns That the Market Is Headed for Trouble",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "SpaceX (SPCX) Stock Has Plunged 45% From Its Post-IPO High, and Cathie Wood Recently Bought $51 Million of It",
-    "Elon Musk Says If SpaceX Accomplishes Its Goals, ‘It Will Be Worth More Than The Rest of Earth’ — Though He’s Also Said ‘Money Will Stop Being Relevant’",
-    "68% of Greg Abel's Berkshire Hathaway Portfolio Is Invested in Just 5 Stocks. Here's My Favorite of the Bunch.",
-    "Verizon shifts gears as customers continue to leave"
+    "Why Warren Buffett Warns That the Market Is Headed for Trouble",
+    "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right.",
+    "Verizon shifts gears as customers continue to leave",
+    "Elon Musk Says If SpaceX Accomplishes Its Goals, ‘It Will Be Worth More Than The Rest of Earth’ — Though He’s Also Said ‘Money Will Stop Being Relevant’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64900.0,
-        "perp_last_price": 64900.0,
-        "mark_price": 64900.0,
-        "index_price": 64900.0,
+        "spot_price": 64750.33984375,
+        "perp_last_price": 64750.33984375,
+        "mark_price": 64750.33984375,
+        "index_price": 64750.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64905.01171875,
-        "stop_loss_technical": 64238.078125,
-        "target_1": 65905.41210938,
-        "target_2": 66905.8125,
+        "entry_ideal": 64750.33984375,
+        "stop_loss_technical": 63779.08474609,
+        "target_1": 66207.22249023,
+        "target_2": 67664.10513672,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64900.0,
+        "entry_ideal": 64750.33984375,
         "stop_loss_technical": 62489.453125,
-        "target_1": 68515.8203125,
-        "target_2": 72131.640625,
+        "target_1": 68141.66992188,
+        "target_2": 71533.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
