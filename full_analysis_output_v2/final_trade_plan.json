@@ -1,70 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T12:28:39.859169+00:00",
+    "generated_at_utc": "2026-07-20T14:37:29.993717+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.871,
+        "price": 100.911,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.541,
-        "trend": "bajista"
+        "price": 4.58,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 2m",
+    "U.S. markets close in 5h 24m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett says his $147 billion investing career was an accident: ‘I may be one of the 10 luckiest in the world’",
-    "At 50, she quit her career to retire to Mexico — then spent 'year one' making endless mistakes. Here's what she learned",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "Domino's Pizza Q2 2026 earnings: revenue beats, profit misses",
-    "Why Warren Buffett Warns That the Market Is Headed for Trouble"
+    "Why Warren Buffett Warns That the Market Is Headed for Trouble",
+    "Prediction: This Is Where SpaceX Stock Will Finish 2026",
+    "Retiring With $3 Million? Here's What That Might Look Like.",
+    "Warren Buffett says his $147 billion investing career was an accident: ‘I may be one of the 10 luckiest in the world’",
+    "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64674.01171875,
-        "perp_last_price": 64674.01171875,
-        "mark_price": 64674.01171875,
-        "index_price": 64674.01171875,
+        "spot_price": 64312.69140625,
+        "perp_last_price": 64312.69140625,
+        "mark_price": 64312.69140625,
+        "index_price": 64312.69140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64674.01171875,
+        "entry_ideal": 64312.69140625,
         "stop_loss_technical": 65040.46875,
-        "target_1": 64124.32617188,
-        "target_2": 63574.640625,
+        "target_1": 63221.02539062,
+        "target_2": 62129.359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64674.01171875,
-        "stop_loss_technical": 62489.453125,
-        "target_1": 67950.84960938,
-        "target_2": 71227.6875,
+        "entry_ideal": 64312.69140625,
+        "stop_loss_technical": 65040.46875,
+        "target_1": 63221.02539062,
+        "target_2": 62129.359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
