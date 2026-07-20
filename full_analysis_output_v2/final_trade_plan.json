@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T21:11:24.798966+00:00",
+    "generated_at_utc": "2026-07-20T22:13:23.243376+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.961,
+        "price": 100.997,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,11 +22,11 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Drug company to pay $4.7M after admitting it paid providers to use its product",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
-    "SpaceX sets date for maiden earnings report: Why August 4 is make-or-break",
+    "Trump announces 50% tariffs focused on Canadian autos, dairy, and alcohol in response to 'continued discrimination'",
     "Another beloved beer brand files for Chapter 11 bankruptcy",
+    "Trump Says Netanyahu Won’t Be Arrested After Mamdani Threat",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
     "Why Warren Buffett Warns That the Market Is Headed for Trouble"
   ],
@@ -34,25 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65299.71875,
-        "perp_last_price": 65299.71875,
-        "mark_price": 65299.71875,
-        "index_price": 65299.71875,
+        "spot_price": 65155.01953125,
+        "perp_last_price": 65155.01953125,
+        "mark_price": 65155.01953125,
+        "index_price": 65155.01953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65299.7109375,
-        "stop_loss_technical": 64320.21527344,
-        "target_1": 66768.95443359,
-        "target_2": 68238.19792969,
+        "entry_ideal": 65156.98828125,
+        "stop_loss_technical": 65742.1328125,
+        "target_1": 64279.27148438,
+        "target_2": 63401.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65299.71875,
-        "stop_loss_technical": 64320.22296875,
-        "target_1": 66768.96242187,
-        "target_2": 68238.20609375,
+        "entry_ideal": 65155.01953125,
+        "stop_loss_technical": 64177.69423828,
+        "target_1": 66621.0074707,
+        "target_2": 68086.99541016,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
