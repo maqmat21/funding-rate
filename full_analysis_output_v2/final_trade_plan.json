@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T22:13:23.243376+00:00",
+    "generated_at_utc": "2026-07-20T23:14:52.980685+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.997,
+        "price": 100.999,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
+    "Trump Says Netanyahu Won’t Be Arrested After Mamdani Threat",
     "Trump announces 50% tariffs focused on Canadian autos, dairy, and alcohol in response to 'continued discrimination'",
     "Another beloved beer brand files for Chapter 11 bankruptcy",
-    "Trump Says Netanyahu Won’t Be Arrested After Mamdani Threat",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "Why Warren Buffett Warns That the Market Is Headed for Trouble"
+    "Baltimore woman inherits her dad's house, then finds a $228,000 water bill taped to the door — now she can't sell it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65155.01953125,
-        "perp_last_price": 65155.01953125,
-        "mark_price": 65155.01953125,
-        "index_price": 65155.01953125,
+        "spot_price": 65120.80078125,
+        "perp_last_price": 65120.80078125,
+        "mark_price": 65120.80078125,
+        "index_price": 65120.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65156.98828125,
+        "entry_ideal": 65120.80078125,
         "stop_loss_technical": 65742.1328125,
-        "target_1": 64279.27148438,
-        "target_2": 63401.5546875,
+        "target_1": 64188.80273438,
+        "target_2": 63256.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65155.01953125,
-        "stop_loss_technical": 64177.69423828,
-        "target_1": 66621.0074707,
-        "target_2": 68086.99541016,
+        "entry_ideal": 65120.80078125,
+        "stop_loss_technical": 64143.98876953,
+        "target_1": 66586.01879883,
+        "target_2": 68051.23681641,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
