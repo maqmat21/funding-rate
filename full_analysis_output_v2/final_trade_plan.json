@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T14:37:29.993717+00:00",
+    "generated_at_utc": "2026-07-20T16:11:06.767058+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,64 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.911,
+        "price": 100.991,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.58,
+        "price": 4.592,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 24m",
+    "U.S. markets close in 3h 50m",
     "News from the Yahoo Finance Network",
+    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Another beloved beer brand files for Chapter 11 bankruptcy",
+    "Terra Innovatum, Waiken ILW Will Deploy Microreactors for Data Center Infrastructure",
     "Why Warren Buffett Warns That the Market Is Headed for Trouble",
-    "Prediction: This Is Where SpaceX Stock Will Finish 2026",
-    "Retiring With $3 Million? Here's What That Might Look Like.",
-    "Warren Buffett says his $147 billion investing career was an accident: ‘I may be one of the 10 luckiest in the world’",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64312.69140625,
-        "perp_last_price": 64312.69140625,
-        "mark_price": 64312.69140625,
-        "index_price": 64312.69140625,
+        "spot_price": 65497.2109375,
+        "perp_last_price": 65497.2109375,
+        "mark_price": 65497.2109375,
+        "index_price": 65497.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64312.69140625,
-        "stop_loss_technical": 65040.46875,
-        "target_1": 63221.02539062,
-        "target_2": 62129.359375,
+        "entry_ideal": 65497.2109375,
+        "stop_loss_technical": 64514.75277344,
+        "target_1": 66970.89818359,
+        "target_2": 68444.58542969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64312.69140625,
-        "stop_loss_technical": 65040.46875,
-        "target_1": 63221.02539062,
-        "target_2": 62129.359375,
+        "entry_ideal": 65497.2109375,
+        "stop_loss_technical": 64514.75277344,
+        "target_1": 66970.89818359,
+        "target_2": 68444.58542969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
