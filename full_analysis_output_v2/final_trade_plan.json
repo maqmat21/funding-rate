@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-20T07:21:13.165053+00:00",
+    "generated_at_utc": "2026-07-20T10:22:46.092426+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.753,
+        "price": 100.78,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 10m",
+    "U.S. markets open in 3h 9m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett says his $147 billion investing career was an accident: ‘I may be one of the 10 luckiest in the world’",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett Donated $6 Billion in Berkshire Hathaway Shares Recently -- and Cut the Gates Foundation Off for the First Time in 20 Years",
-    "Why Warren Buffett Warns That the Market Is Headed for Trouble",
-    "Peter Thiel said real estate ‘catastrophe’ will deal massive blow to young Americans. Are the numbers proving him right?",
-    "Verizon shifts gears as customers continue to leave",
-    "\"It's Gambling\": Warren Buffett Just Issued a Blunt Warning to Investors -- and History Says He's Right."
+    "SpaceX Stock Is Down 45% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by Mid-2027.",
+    "Meta Platforms Looks Set to Abandon a $174 Billion Investment to Fuel Its AI Ambitions",
+    "Why Warren Buffett Warns That the Market Is Headed for Trouble"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63879.01171875,
-        "perp_last_price": 63879.01171875,
-        "mark_price": 63879.01171875,
-        "index_price": 63879.01171875,
+        "spot_price": 64256.3984375,
+        "perp_last_price": 64256.3984375,
+        "mark_price": 64256.3984375,
+        "index_price": 64256.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 64258.4609375,
+        "stop_loss_technical": 63702.01171875,
+        "target_1": 65093.13476562,
+        "target_2": 65927.80859375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63879.01171875,
+        "entry_ideal": 64256.3984375,
         "stop_loss_technical": 65040.46875,
-        "target_1": 62136.82617188,
-        "target_2": 60394.640625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 63879.01171875,
-        "stop_loss_technical": 65040.46875,
-        "target_1": 62136.82617188,
-        "target_2": 60394.640625,
+        "target_1": 63080.29296875,
+        "target_2": 61904.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
