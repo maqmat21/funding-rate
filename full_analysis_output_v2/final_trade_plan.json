@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T12:13:07.518552+00:00",
+    "generated_at_utc": "2026-07-21T14:22:35.752979+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.987,
+        "price": 101.037,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.598,
+        "price": 4.628,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 18m",
+    "U.S. markets close in 5h 38m",
     "News from the Yahoo Finance Network",
     "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "Millions of 401(k) Holders Were Forced to Buy SpaceX at $160. They’ve Already Lost More Than $1 Billion.",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
+    "Utz Brands to go private in $2.9 billion acquisition by Intersnack Group (UTZ)",
     "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
-    "Bitcoin Price to $200K if CLARITY Act Passes? Trump Issues Critical Approval But Passing Odds Remain Low"
+    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
+    "Charles Schwab tops second-quarter forecasts with record revenue as shares fall (SCHW)",
+    "Circle CEO Jeremy Allaire Suggests Stablecoins Will Become Invisible Soon"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66370.859375,
-        "perp_last_price": 66370.859375,
-        "mark_price": 66370.859375,
-        "index_price": 66370.859375,
+        "spot_price": 66682.2890625,
+        "perp_last_price": 66682.2890625,
+        "mark_price": 66682.2890625,
+        "index_price": 66682.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66380.6875,
-        "stop_loss_technical": 65384.9771875,
-        "target_1": 67874.25296875,
-        "target_2": 69367.8184375,
+        "entry_ideal": 66693.8984375,
+        "stop_loss_technical": 66915.8984375,
+        "target_1": 66360.8984375,
+        "target_2": 66027.8984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66370.859375,
-        "stop_loss_technical": 65375.29648438,
-        "target_1": 67864.20371094,
-        "target_2": 69357.54804688,
+        "entry_ideal": 66682.2890625,
+        "stop_loss_technical": 65682.05472656,
+        "target_1": 68182.64056641,
+        "target_2": 69682.99207031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
