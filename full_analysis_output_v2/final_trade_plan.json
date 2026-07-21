@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T20:05:08.149295+00:00",
+    "generated_at_utc": "2026-07-21T21:21:12.678409+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.171,
+        "price": 101.194,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
-    "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
-    "SpaceX’s Great Unlocking Begins With $116 Billion Share Release",
-    "Retire on Dividends Alone: The Super-High-Yield Stocks Boomers Are Buying and Never Selling",
     "Florida HOA hits 155 seniors with $1,000 each to force 28-year-old influencer out of inherited 55+ community home",
-    "Trump Extends Pardons to Companies, Echoing a 17th Century King"
+    "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
+    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
+    "SpaceX Stock Is Down 40% From Its Post-IPO Peak. Here's What History Says Happens to Mega-IPOs After a Drop Like This.",
+    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
+    "Intel makes another painful move in one of its key businesses",
+    "Supermicro shares surge 20% as robust margins, $60B backlog eclipse soft revenue"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66406.96875,
-        "perp_last_price": 66406.96875,
-        "mark_price": 66406.96875,
-        "index_price": 66406.96875,
+        "spot_price": 66307.390625,
+        "perp_last_price": 66307.390625,
+        "mark_price": 66307.390625,
+        "index_price": 66307.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66404.0078125,
-        "stop_loss_technical": 65407.94769531,
-        "target_1": 67898.09798828,
-        "target_2": 69392.18816406,
+        "entry_ideal": 66299.65625,
+        "stop_loss_technical": 66915.8984375,
+        "target_1": 65375.29296875,
+        "target_2": 64450.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66406.96875,
-        "stop_loss_technical": 65410.86421875,
-        "target_1": 67901.12554688,
-        "target_2": 69395.28234375,
+        "entry_ideal": 66307.390625,
+        "stop_loss_technical": 65312.77976562,
+        "target_1": 67799.30691406,
+        "target_2": 69291.22320313,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
