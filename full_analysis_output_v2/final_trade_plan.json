@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T17:12:32.047252+00:00",
+    "generated_at_utc": "2026-07-21T18:40:27.579410+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.108,
+        "price": 101.17,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.626,
+        "price": 4.632,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 48m",
+    "U.S. markets close in 1h 21m",
     "News from the Yahoo Finance Network",
-    "Retire on Dividends Alone: The Super-High-Yield Stocks Boomers Are Buying and Never Selling",
-    "SpaceX’s Great Unlocking Begins With $116 Billion Share Release",
-    "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
+    "These 2 Popular Sub Shops Are Actually Sister Chains",
     "Trump Extends Pardons to Companies, Echoing a 17th Century King",
-    "Will Micron Split Its Stock This Year?"
+    "SpaceX’s Great Unlocking Begins With $116 Billion Share Release",
+    "She Converted $25,000 to a Roth to Cut Future Taxes. It Cost Her the Senior Property-Tax Freeze, and Her Medicare Premium Could Be Next.",
+    "Crescent Energy (CRGY) Stock Looks Undervalued On Its 30% One Year Run",
+    "VEA Is Crushing SPY This Year, but the Decade-Long Scorecard Tells a Different Story"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66454.0,
-        "perp_last_price": 66454.0,
-        "mark_price": 66454.0,
-        "index_price": 66454.0,
+        "spot_price": 66201.2265625,
+        "perp_last_price": 66201.2265625,
+        "mark_price": 66201.2265625,
+        "index_price": 66201.2265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66454.0,
+        "entry_ideal": 66201.2265625,
         "stop_loss_technical": 66915.8984375,
-        "target_1": 65761.15234375,
-        "target_2": 65068.3046875,
+        "target_1": 65129.21875,
+        "target_2": 64057.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66454.0,
-        "stop_loss_technical": 65457.19,
-        "target_1": 67949.215,
-        "target_2": 69444.43,
+        "entry_ideal": 66201.2265625,
+        "stop_loss_technical": 65208.20816406,
+        "target_1": 67690.75416016,
+        "target_2": 69180.28175781,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
