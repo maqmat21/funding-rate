@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T15:58:16.858437+00:00",
+    "generated_at_utc": "2026-07-21T17:12:32.047252+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.142,
+        "price": 101.108,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 3m",
+    "U.S. markets close in 2h 48m",
     "News from the Yahoo Finance Network",
-    "KeyCorp Q2 Earnings Call Highlights",
+    "Retire on Dividends Alone: The Super-High-Yield Stocks Boomers Are Buying and Never Selling",
     "SpaceX’s Great Unlocking Begins With $116 Billion Share Release",
-    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
     "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
-    "Another beloved beer brand files for Chapter 11 bankruptcy"
+    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
+    "Trump Extends Pardons to Companies, Echoing a 17th Century King",
+    "Will Micron Split Its Stock This Year?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66675.7109375,
-        "perp_last_price": 66675.7109375,
-        "mark_price": 66675.7109375,
-        "index_price": 66675.7109375,
+        "spot_price": 66454.0,
+        "perp_last_price": 66454.0,
+        "mark_price": 66454.0,
+        "index_price": 66454.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66675.7109375,
-        "stop_loss_technical": 65675.57527344,
-        "target_1": 68175.91443359,
-        "target_2": 69676.11792969,
+        "entry_ideal": 66454.0,
+        "stop_loss_technical": 66915.8984375,
+        "target_1": 65761.15234375,
+        "target_2": 65068.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66675.7109375,
-        "stop_loss_technical": 65675.57527344,
-        "target_1": 68175.91443359,
-        "target_2": 69676.11792969,
+        "entry_ideal": 66454.0,
+        "stop_loss_technical": 65457.19,
+        "target_1": 67949.215,
+        "target_2": 69444.43,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
