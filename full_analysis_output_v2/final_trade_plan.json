@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T00:09:26.389021+00:00",
+    "generated_at_utc": "2026-07-21T03:38:49.615081+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.962,
+        "price": 100.987,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
-    "SpaceX Is Learning a Nasty Lesson About Going Public When Your Main Product Is Experimental",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "SpaceX Is Learning a Nasty Lesson About Going Public When Your Main Product Is Experimental",
     "Trump Says Netanyahu Won’t Be Arrested After Mamdani Threat",
-    "Aston Martin confirms talks with financing providers over capital structure",
     "Another beloved beer brand files for Chapter 11 bankruptcy",
-    "At 50, she quit her career to retire to Mexico — then spent 'year one' making endless mistakes. Here's what she learned"
+    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
+    "Why Warren Buffett Warns That the Market Is Headed for Trouble"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65169.51171875,
-        "perp_last_price": 65169.51171875,
-        "mark_price": 65169.51171875,
-        "index_price": 65169.51171875,
+        "spot_price": 65458.19140625,
+        "perp_last_price": 65458.19140625,
+        "mark_price": 65458.19140625,
+        "index_price": 65458.19140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65158.73046875,
-        "stop_loss_technical": 65742.1328125,
-        "target_1": 64283.62695312,
-        "target_2": 63408.5234375,
+        "entry_ideal": 65458.19140625,
+        "stop_loss_technical": 64476.31853516,
+        "target_1": 66931.00071289,
+        "target_2": 68403.81001953,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65169.51171875,
-        "stop_loss_technical": 64191.96904297,
-        "target_1": 66635.82573242,
-        "target_2": 68102.13974609,
+        "entry_ideal": 65458.19140625,
+        "stop_loss_technical": 64476.31853516,
+        "target_1": 66931.00071289,
+        "target_2": 68403.81001953,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
