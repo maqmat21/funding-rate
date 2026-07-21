@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-21T18:40:27.579410+00:00",
+    "generated_at_utc": "2026-07-21T20:05:08.149295+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.17,
+        "price": 101.171,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.632,
+        "price": 4.628,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 21m",
     "News from the Yahoo Finance Network",
-    "These 2 Popular Sub Shops Are Actually Sister Chains",
-    "Trump Extends Pardons to Companies, Echoing a 17th Century King",
+    "‘I want to die broke’: Billionaire philanthropist Denny Sanford dies after giving away $4 billion",
+    "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
+    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
     "SpaceX’s Great Unlocking Begins With $116 Billion Share Release",
-    "She Converted $25,000 to a Roth to Cut Future Taxes. It Cost Her the Senior Property-Tax Freeze, and Her Medicare Premium Could Be Next.",
-    "Crescent Energy (CRGY) Stock Looks Undervalued On Its 30% One Year Run",
-    "VEA Is Crushing SPY This Year, but the Decade-Long Scorecard Tells a Different Story"
+    "Retire on Dividends Alone: The Super-High-Yield Stocks Boomers Are Buying and Never Selling",
+    "Florida HOA hits 155 seniors with $1,000 each to force 28-year-old influencer out of inherited 55+ community home",
+    "Trump Extends Pardons to Companies, Echoing a 17th Century King"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66201.2265625,
-        "perp_last_price": 66201.2265625,
-        "mark_price": 66201.2265625,
-        "index_price": 66201.2265625,
+        "spot_price": 66406.96875,
+        "perp_last_price": 66406.96875,
+        "mark_price": 66406.96875,
+        "index_price": 66406.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66201.2265625,
-        "stop_loss_technical": 66915.8984375,
-        "target_1": 65129.21875,
-        "target_2": 64057.2109375,
+        "entry_ideal": 66404.0078125,
+        "stop_loss_technical": 65407.94769531,
+        "target_1": 67898.09798828,
+        "target_2": 69392.18816406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66201.2265625,
-        "stop_loss_technical": 65208.20816406,
-        "target_1": 67690.75416016,
-        "target_2": 69180.28175781,
+        "entry_ideal": 66406.96875,
+        "stop_loss_technical": 65410.86421875,
+        "target_1": 67901.12554688,
+        "target_2": 69395.28234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
