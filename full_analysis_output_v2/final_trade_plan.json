@@ -1,70 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-22T15:57:39.871661+00:00",
+    "generated_at_utc": "2026-07-22T17:10:27.664717+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.109,
-        "trend": "bajista"
+        "price": 101.137,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.646,
+        "price": 4.648,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 3m",
+    "U.S. markets close in 2h 51m",
     "News from the Yahoo Finance Network",
+    "How To Bank 8.4% On GOOGL Stock Before Buying A Single Share",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
     "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
+    "Is Apple stock overvalued? Here's what AlphaSpace valuation metrics say.",
     "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "Want Income for Life? Here Are 3 Stocks to Buy Now and Never Sell.",
-    "How to sell appreciated assets without a big tax bill now and later",
-    "SpaceX’s Great Unlocking Begins With $116 Billion Share Release"
+    "Monster Beverage up 23% YTD on Strong Sales, Institutional Support"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65983.1875,
-        "perp_last_price": 65983.1875,
-        "mark_price": 65983.1875,
-        "index_price": 65983.1875,
+        "spot_price": 66183.53125,
+        "perp_last_price": 66183.53125,
+        "mark_price": 66183.53125,
+        "index_price": 66183.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65983.1875,
-        "stop_loss_technical": 65500.96875,
-        "target_1": 66706.515625,
-        "target_2": 67429.84375,
+        "entry_ideal": 66183.53125,
+        "stop_loss_technical": 65190.77828125,
+        "target_1": 67672.66070313,
+        "target_2": 69161.79015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65983.1875,
-        "stop_loss_technical": 66910.0625,
-        "target_1": 64592.875,
-        "target_2": 63202.5625,
+        "entry_ideal": 66183.53125,
+        "stop_loss_technical": 65190.77828125,
+        "target_1": 67672.66070313,
+        "target_2": 69161.79015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
