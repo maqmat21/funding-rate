@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-22T10:51:44.827051+00:00",
+    "generated_at_utc": "2026-07-22T12:19:50.564455+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.165,
+        "price": 101.138,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 39m",
+    "U.S. markets open in 1h 11m",
     "News from the Yahoo Finance Network",
     "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
-    "I'm Officially Sounding the Alarm on GE Vernova: Here's What Investors Should Buy Instead",
-    "Warren Buffett Just Revealed He Personally Chose Berkshire's Newest Mega-Stock. Here's Why That Changes Everything.",
-    "How to sell appreciated assets without a big tax bill now and later",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
-    "GE Vernova’s (NYSE:GEV) Q2 CY2026 Sales Top Estimates, Full-Year Outlook Slightly Exceeds Expectations"
+    "How to sell appreciated assets without a big tax bill now and later",
+    "‘Worse than people expect': Jamie Dimon sounds alarm about the next credit crisis — here's what big bank earnings show",
+    "Netflix Is Getting Crushed. Here’s Why I’ll Start Buying",
+    "George Soros never signed the Giving Pledge. He’s given away more of his fortune than the billionaires who did"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66040.0,
-        "perp_last_price": 66040.0,
-        "mark_price": 66040.0,
-        "index_price": 66040.0,
+        "spot_price": 65813.75,
+        "perp_last_price": 65813.75,
+        "mark_price": 65813.75,
+        "index_price": 65813.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66040.0,
-        "stop_loss_technical": 65049.4,
-        "target_1": 67525.9,
-        "target_2": 69011.8,
+        "entry_ideal": 65813.7578125,
+        "stop_loss_technical": 66696.421875,
+        "target_1": 64489.76171875,
+        "target_2": 63165.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 66040.0,
+        "entry_ideal": 65813.75,
         "stop_loss_technical": 66910.0625,
-        "target_1": 64734.90625,
-        "target_2": 63429.8125,
+        "target_1": 64169.28125,
+        "target_2": 62524.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
