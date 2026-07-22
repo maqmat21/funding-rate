@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-22T08:44:56.381198+00:00",
+    "generated_at_utc": "2026-07-22T10:51:44.827051+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.111,
-        "trend": "bajista"
+        "price": 101.165,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.628,
@@ -21,51 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 47m",
+    "U.S. markets open in 2h 39m",
     "News from the Yahoo Finance Network",
+    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
+    "I'm Officially Sounding the Alarm on GE Vernova: Here's What Investors Should Buy Instead",
+    "Warren Buffett Just Revealed He Personally Chose Berkshire's Newest Mega-Stock. Here's Why That Changes Everything.",
+    "How to sell appreciated assets without a big tax bill now and later",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
-    "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
-    "Elon Musk Says the Short Sellers Betting Against SpaceX Have a \"Very Low\" Survival Probability. Their Bets Now Equal 32% of the Float.",
-    "SpaceX Stock Is Down 40% From Its Post-IPO Peak. Here's What History Says Happens to Mega-IPOs After a Drop Like This.",
-    "SpaceX’s Great Unlocking Begins With $116 Billion Share Release"
+    "GE Vernova’s (NYSE:GEV) Q2 CY2026 Sales Top Estimates, Full-Year Outlook Slightly Exceeds Expectations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65883.96875,
-        "perp_last_price": 65883.96875,
-        "mark_price": 65883.96875,
-        "index_price": 65883.96875,
+        "spot_price": 66040.0,
+        "perp_last_price": 66040.0,
+        "mark_price": 66040.0,
+        "index_price": 66040.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65883.96875,
-        "stop_loss_technical": 66915.8984375,
-        "target_1": 64336.07421875,
-        "target_2": 62788.1796875,
+        "entry_ideal": 66040.0,
+        "stop_loss_technical": 65049.4,
+        "target_1": 67525.9,
+        "target_2": 69011.8,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65883.96875,
-        "stop_loss_technical": 66915.8984375,
-        "target_1": 64336.07421875,
-        "target_2": 62788.1796875,
+        "entry_ideal": 66040.0,
+        "stop_loss_technical": 66910.0625,
+        "target_1": 64734.90625,
+        "target_2": 63429.8125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
