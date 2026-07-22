@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-22T18:20:04.030680+00:00",
+    "generated_at_utc": "2026-07-22T19:48:21.336395+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.15,
+        "price": 101.131,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 41m",
     "News from the Yahoo Finance Network",
+    "USAR Stock Alert: What to Know as USA Rare Earth Announces Leadership Transition",
     "Warren Buffett called Bill Gates’ Epstein ties ‘distasteful’ and pulled out of the Gates Foundation. Days later, a review revealed 30 meetings",
+    "Brookfield Infrastructure Partners (BIP) Stock Looks Overvalued On Earnings Despite A 38% Return",
     "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
-    "AT&T CEO Dismisses the Starlink Threat: “They’re Coming to the Game Very Late”",
-    "Here's How Much Berkshire Hathaway's Apple Stake Would Be Worth If Warren Buffett Never Sold a Share",
-    "The average retirement savings in America by age 60: Are you ready to retire or way behind?"
+    "ServiceNow (NOW) AI Utility Narrative Puts Fair Value Back In Focus",
+    "Florida HOA hits 155 seniors with $1,000 each to force 28-year-old influencer out of inherited 55+ community home"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65967.078125,
-        "perp_last_price": 65967.078125,
-        "mark_price": 65967.078125,
-        "index_price": 65967.078125,
+        "spot_price": 65839.796875,
+        "perp_last_price": 65839.796875,
+        "mark_price": 65839.796875,
+        "index_price": 65839.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65985.9765625,
+        "entry_ideal": 65837.1328125,
         "stop_loss_technical": 66696.421875,
-        "target_1": 64920.30859375,
-        "target_2": 63854.640625,
+        "target_1": 64548.19921875,
+        "target_2": 63259.265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65967.078125,
+        "entry_ideal": 65839.796875,
         "stop_loss_technical": 66910.0625,
-        "target_1": 64552.6015625,
-        "target_2": 63138.125,
+        "target_1": 64234.3984375,
+        "target_2": 62629.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
