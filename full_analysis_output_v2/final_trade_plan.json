@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-22T12:19:50.564455+00:00",
+    "generated_at_utc": "2026-07-22T14:28:26.624922+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.138,
-        "trend": "alcista"
+        "price": 101.048,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.628,
+        "price": 4.648,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 11m",
+    "U.S. markets close in 5h 32m",
     "News from the Yahoo Finance Network",
-    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
-    "How to sell appreciated assets without a big tax bill now and later",
-    "‘Worse than people expect': Jamie Dimon sounds alarm about the next credit crisis — here's what big bank earnings show",
-    "Netflix Is Getting Crushed. Here’s Why I’ll Start Buying",
-    "George Soros never signed the Giving Pledge. He’s given away more of his fortune than the billionaires who did"
+    "Why Mark Cuban says many AI data centers could wind up as 'pickleball courts'",
+    "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
+    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
+    "ServisFirst Bancshares (SFBS) Announces Two For One Stock Split For August 2026",
+    "How to sell appreciated assets without a big tax bill now and later"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65813.75,
-        "perp_last_price": 65813.75,
-        "mark_price": 65813.75,
-        "index_price": 65813.75,
+        "spot_price": 65625.9375,
+        "perp_last_price": 65625.9375,
+        "mark_price": 65625.9375,
+        "index_price": 65625.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 65813.7578125,
+        "entry_ideal": 65625.9375,
         "stop_loss_technical": 66696.421875,
-        "target_1": 64489.76171875,
-        "target_2": 63165.765625,
+        "target_1": 64020.2109375,
+        "target_2": 62414.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 65813.75,
+        "entry_ideal": 65625.9375,
         "stop_loss_technical": 66910.0625,
-        "target_1": 64169.28125,
-        "target_2": 62524.8125,
+        "target_1": 63699.75,
+        "target_2": 61773.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
