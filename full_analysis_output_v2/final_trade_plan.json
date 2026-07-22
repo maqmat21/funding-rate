@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-22T03:46:51.840898+00:00",
+    "generated_at_utc": "2026-07-22T06:15:38.136725+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.142,
-        "trend": "alcista"
+        "price": 101.108,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.628,
@@ -21,53 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 15m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
     "History Says Investors Should Listen to Warren Buffett: The S&P 500 Is on the Verge of Doing Something for the First Time in 155 Years as Investors Buy \"Nothing But Hope.\"",
-    "Billionaire Jeff Bezos Called Amazon’s Customer Service to Prove a Point But Waited in Silence for More Than 10 Minutes — ‘It Was Really Long’",
+    "Elon Musk Says the Short Sellers Betting Against SpaceX Have a \"Very Low\" Survival Probability. Their Bets Now Equal 32% of the Float.",
     "Prediction: Microsoft Stock Will Go Parabolic After July 29. Here's Why.",
     "3 Dividend Stocks I'd Never Sell No Matter What the Market Does",
-    "Trump Plans 100% Tariff on Generic Drugs From August 2028",
-    "SpaceX Is Down 20%: Here's Why I'm Still Not Buying"
+    "Trump Plans 100% Tariff on Generic Drugs From August 2028"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 66292.0078125,
-        "perp_last_price": 66292.0078125,
-        "mark_price": 66292.0078125,
-        "index_price": 66292.0078125,
+        "spot_price": 65912.28125,
+        "perp_last_price": 65912.28125,
+        "mark_price": 65912.28125,
+        "index_price": 65912.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 66288.8671875,
-        "stop_loss_technical": 65294.53417969,
-        "target_1": 67780.36669922,
-        "target_2": 69271.86621094,
+        "entry_ideal": 65912.28125,
+        "stop_loss_technical": 66915.8984375,
+        "target_1": 64406.85546875,
+        "target_2": 62901.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 66292.0078125,
-        "stop_loss_technical": 65297.62769531,
-        "target_1": 67783.57798828,
-        "target_2": 69275.14816406,
+        "entry_ideal": 65912.28125,
+        "stop_loss_technical": 66915.8984375,
+        "target_1": 64406.85546875,
+        "target_2": 62901.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
