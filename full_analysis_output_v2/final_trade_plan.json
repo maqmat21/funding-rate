@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T19:39:16.290395+00:00",
+    "generated_at_utc": "2026-07-23T20:39:26.399976+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.448,
+        "price": 101.434,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.705,
+        "price": 4.703,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Getty Realty Q2 Earnings Call Highlights",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
+    "BlackRock Sees Treasury Gains Up to 11.6% Despite Higher Yields",
+    "Chipmaker MaxLinear Tops Wall Street's Targets But Stock Slides",
+    "What You Need To Know Ahead of Sandisk's Earnings Release",
     "JPMorgan CEO Jamie Dimon Just Issued a Stark Warning About Long-Term US Bonds: 'I Would Not Be a Buyer...'",
-    "Here’s Why BofA Thinks Fervo Energy’s Pullback Is a Buying Opportunity",
-    "Warren Buffett called Bill Gates’ Epstein ties ‘distasteful’ and pulled out of the Gates Foundation. Days later, a review revealed 30 meetings",
-    "Nike Stock for the Next 10 Years: Buy, Hold, or Avoid?",
-    "Robert Kiyosaki reveals what he’d buy with $10,000 if he lost everything — and it can’t be taxed, crashed or stolen",
-    "Qualcomm (QCOM) Stock Gets Fair Value Boost After Investor Day Reset"
+    "Warren Buffett called Bill Gates’ Epstein ties ‘distasteful’ and pulled out of the Gates Foundation. Days later, a review revealed 30 meetings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64764.3984375,
-        "perp_last_price": 64764.3984375,
-        "mark_price": 64764.3984375,
-        "index_price": 64764.3984375,
+        "spot_price": 65085.7109375,
+        "perp_last_price": 65085.7109375,
+        "mark_price": 65085.7109375,
+        "index_price": 65085.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64757.859375,
-        "stop_loss_technical": 66280.609375,
-        "target_1": 62473.734375,
-        "target_2": 60189.609375,
+        "entry_ideal": 65086.6015625,
+        "stop_loss_technical": 64110.30253906,
+        "target_1": 66551.05009766,
+        "target_2": 68015.49863281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64764.3984375,
+        "entry_ideal": 65085.7109375,
         "stop_loss_technical": 66910.0625,
-        "target_1": 61545.90234375,
-        "target_2": 58327.40625,
+        "target_1": 62349.18359375,
+        "target_2": 59612.65625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
