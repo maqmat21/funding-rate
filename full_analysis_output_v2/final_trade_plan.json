@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T09:36:40.223204+00:00",
+    "generated_at_utc": "2026-07-23T11:27:58.610859+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.15,
+        "price": 101.206,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 54m",
+    "U.S. markets open in 2h 3m",
     "News from the Yahoo Finance Network",
+    "Michael Burry's $39 a month Substack hits 300,000 subscribers, fueling speculation of a $113M-a-year newsletter empire",
+    "Lockheed Martin stock jumps on earnings beat, raised guidance",
     "JPMorgan CEO Jamie Dimon Just Issued a Stark Warning About Long-Term US Bonds: 'I Would Not Be a Buyer...'",
-    "SEC draws 200,000+ comments opposing its plan to make quarterly earnings reports optional for public companies",
-    "This Dividend Stock Yields 6.6% and Stands to Benefit From the Iran War",
-    "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
-    "These 4 Dividend Stocks Are Money-Printing Machines",
-    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027."
+    "Bitcoin to $92,000? Bitwise CEO Says ‘Biggest Bull Market Yet’ as Analysts Spot BTC Growth Signal",
+    "Many Americans retire earlier than planned. They have regrets",
+    "This Dividend Stock Yields 6.6% and Stands to Benefit From the Iran War"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65665.1015625,
-        "perp_last_price": 65665.1015625,
-        "mark_price": 65665.1015625,
-        "index_price": 65665.1015625,
+        "spot_price": 65623.640625,
+        "perp_last_price": 65623.640625,
+        "mark_price": 65623.640625,
+        "index_price": 65623.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65665.1015625,
-        "stop_loss_technical": 64680.12503906,
-        "target_1": 67142.56634766,
-        "target_2": 68620.03113281,
+        "entry_ideal": 65623.640625,
+        "stop_loss_technical": 66364.359375,
+        "target_1": 64512.5625,
+        "target_2": 63401.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65665.1015625,
+        "entry_ideal": 65623.640625,
         "stop_loss_technical": 66910.0625,
-        "target_1": 63797.66015625,
-        "target_2": 61930.21875,
+        "target_1": 63694.0078125,
+        "target_2": 61764.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
