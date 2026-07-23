@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T04:34:31.570391+00:00",
+    "generated_at_utc": "2026-07-23T07:11:09.963303+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.965,
+        "price": 101.027,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 57m",
+    "U.S. markets open in 6h 20m",
     "News from the Yahoo Finance Network",
     "JPMorgan CEO Jamie Dimon Just Issued a Stark Warning About Long-Term US Bonds: 'I Would Not Be a Buyer...'",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
+    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
     "Warren Buffett called Bill Gates’ Epstein ties ‘distasteful’ and pulled out of the Gates Foundation. Days later, a review revealed 30 meetings",
-    "QS Stock Drops Overnight Despite Earnings Beat: CEO Sees Bigger Opportunity In AI Data Centers And Aerospace",
-    "Scott Bessent casually says the U.S. has more than $1 trillion in gold—and that it doesn’t matter for the dollar",
-    "‘The man who dies rich dies disgraced’: The last time America had such wealth inequality, Andrew Carnegie knew he had to give it all away"
+    "‘The man who dies rich dies disgraced’: The last time America had such wealth inequality, Andrew Carnegie knew he had to give it all away",
+    "Jim Cramer reveals 4 surging chip stocks he likes best"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65632.5703125,
-        "perp_last_price": 65632.5703125,
-        "mark_price": 65632.5703125,
-        "index_price": 65632.5703125,
+        "spot_price": 65579.1171875,
+        "perp_last_price": 65579.1171875,
+        "mark_price": 65579.1171875,
+        "index_price": 65579.1171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 65632.5703125,
+        "entry_ideal": 65579.1171875,
         "stop_loss_technical": 66364.359375,
-        "target_1": 64534.88671875,
-        "target_2": 63437.203125,
+        "target_1": 64401.25390625,
+        "target_2": 63223.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 65632.5703125,
+        "entry_ideal": 65579.1171875,
         "stop_loss_technical": 66910.0625,
-        "target_1": 63716.33203125,
-        "target_2": 61800.09375,
+        "target_1": 63582.69921875,
+        "target_2": 61586.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
