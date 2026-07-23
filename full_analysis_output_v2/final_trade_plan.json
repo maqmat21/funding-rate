@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T22:34:55.704722+00:00",
+    "generated_at_utc": "2026-07-23T23:31:37.477109+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,41 +22,26 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "XRP is down 69%, yet millionaires are buying",
-    "T Mobile US (TMUS) Could Be 33% Undervalued On Its Earnings Sell Off",
     "Prediction: $1,000 Invested in SpaceX Stock Will Be Worth This Amount in 3 Years",
     "JPMorgan CEO Jamie Dimon Just Issued a Stark Warning About Long-Term US Bonds: 'I Would Not Be a Buyer...'",
-    "5 Countries Where $500,000 Retires Better Than $1 Million Does in Florida",
+    "Better Stock for Passive Income: Enbridge with Its 70+ Years of Payouts or Energy Transfer with Its 6.6% Yield?",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "Trump announces next phase of global tariffs, affecting 99.4% of US imports"
+    "Robert Kiyosaki reveals what he’d buy with $10,000 if he lost everything — and it can’t be taxed, crashed or stolen",
+    "How a 55-Year-Old Teacher Could Replace an $85,000 Salary With Dividend Growth Plus Covered Calls",
+    "Is Pfizer's 7% Dividend Yield Too Good to Be True? Here's the Straight Answer"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65142.96875,
-        "perp_last_price": 65142.96875,
-        "mark_price": 65142.96875,
-        "index_price": 65142.96875,
+        "spot_price": 65110.9609375,
+        "perp_last_price": 65110.9609375,
+        "mark_price": 65110.9609375,
+        "index_price": 65110.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 65142.96875,
-        "stop_loss_technical": 64165.82421875,
-        "target_1": 66608.68554688,
-        "target_2": 68074.40234375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -64,10 +49,25 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65142.96875,
+        "entry_ideal": 65110.9609375,
+        "stop_loss_technical": 65785.7109375,
+        "target_1": 64098.8359375,
+        "target_2": 63086.7109375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 65110.9609375,
         "stop_loss_technical": 66910.0625,
-        "target_1": 62492.328125,
-        "target_2": 59841.6875,
+        "target_1": 62412.30859375,
+        "target_2": 59713.65625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
