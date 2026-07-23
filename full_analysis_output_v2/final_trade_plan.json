@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T07:11:09.963303+00:00",
+    "generated_at_utc": "2026-07-23T09:36:40.223204+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.027,
-        "trend": "bajista"
+        "price": 101.15,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.657,
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 20m",
+    "U.S. markets open in 3h 54m",
     "News from the Yahoo Finance Network",
     "JPMorgan CEO Jamie Dimon Just Issued a Stark Warning About Long-Term US Bonds: 'I Would Not Be a Buyer...'",
+    "SEC draws 200,000+ comments opposing its plan to make quarterly earnings reports optional for public companies",
+    "This Dividend Stock Yields 6.6% and Stands to Benefit From the Iran War",
     "Warren Buffett Keeps 67% of Berkshire's $263 Billion Stock Portfolio in Just 5 Companies",
-    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027.",
-    "Warren Buffett called Bill Gates’ Epstein ties ‘distasteful’ and pulled out of the Gates Foundation. Days later, a review revealed 30 meetings",
-    "‘The man who dies rich dies disgraced’: The last time America had such wealth inequality, Andrew Carnegie knew he had to give it all away",
-    "Jim Cramer reveals 4 surging chip stocks he likes best"
+    "These 4 Dividend Stocks Are Money-Printing Machines",
+    "SpaceX Stock Is Down 36% From Its Post-IPO Peak. History Says a $10,000 Investment Will Be Worth This Much by June 2027."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65579.1171875,
-        "perp_last_price": 65579.1171875,
-        "mark_price": 65579.1171875,
-        "index_price": 65579.1171875,
+        "spot_price": 65665.1015625,
+        "perp_last_price": 65665.1015625,
+        "mark_price": 65665.1015625,
+        "index_price": 65665.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65579.1171875,
-        "stop_loss_technical": 66364.359375,
-        "target_1": 64401.25390625,
-        "target_2": 63223.390625,
+        "entry_ideal": 65665.1015625,
+        "stop_loss_technical": 64680.12503906,
+        "target_1": 67142.56634766,
+        "target_2": 68620.03113281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65579.1171875,
+        "entry_ideal": 65665.1015625,
         "stop_loss_technical": 66910.0625,
-        "target_1": 63582.69921875,
-        "target_2": 61586.28125,
+        "target_1": 63797.66015625,
+        "target_2": 61930.21875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
