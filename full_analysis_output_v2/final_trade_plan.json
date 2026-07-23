@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-23T20:39:26.399976+00:00",
+    "generated_at_utc": "2026-07-23T21:39:05.061790+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.434,
+        "price": 101.438,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Getty Realty Q2 Earnings Call Highlights",
-    "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "BlackRock Sees Treasury Gains Up to 11.6% Despite Higher Yields",
-    "Chipmaker MaxLinear Tops Wall Street's Targets But Stock Slides",
-    "What You Need To Know Ahead of Sandisk's Earnings Release",
+    "Tesla sends a quiet but powerful message on Bitcoin",
+    "Trump Reimposing Tariffs On 60 Countries, Citing Forced Labor",
+    "Prediction: $1,000 Invested in SpaceX Stock Will Be Worth This Amount in 3 Years",
     "JPMorgan CEO Jamie Dimon Just Issued a Stark Warning About Long-Term US Bonds: 'I Would Not Be a Buyer...'",
-    "Warren Buffett called Bill Gates’ Epstein ties ‘distasteful’ and pulled out of the Gates Foundation. Days later, a review revealed 30 meetings"
+    "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
+    "Robert Kiyosaki reveals what he’d buy with $10,000 if he lost everything — and it can’t be taxed, crashed or stolen",
+    "His 401(k) Held $400,000 of Company Stock. Rolling It Into an IRA Would Have Erased a Six-Figure Tax Break"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65085.7109375,
-        "perp_last_price": 65085.7109375,
-        "mark_price": 65085.7109375,
-        "index_price": 65085.7109375,
+        "spot_price": 65026.94140625,
+        "perp_last_price": 65026.94140625,
+        "mark_price": 65026.94140625,
+        "index_price": 65026.94140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65086.6015625,
-        "stop_loss_technical": 64110.30253906,
-        "target_1": 66551.05009766,
-        "target_2": 68015.49863281,
+        "entry_ideal": 65024.0,
+        "stop_loss_technical": 65818.140625,
+        "target_1": 63832.7890625,
+        "target_2": 62641.578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65085.7109375,
+        "entry_ideal": 65026.94140625,
         "stop_loss_technical": 66910.0625,
-        "target_1": 62349.18359375,
-        "target_2": 59612.65625,
+        "target_1": 62202.25976562,
+        "target_2": 59377.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
