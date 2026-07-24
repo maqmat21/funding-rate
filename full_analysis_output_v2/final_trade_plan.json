@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-24T22:18:29.516547+00:00",
+    "generated_at_utc": "2026-07-24T23:18:09.894666+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
+    "Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
     "If You'd Invested $10,000 in Tesla Stock 10 Years Ago, Here's How Much You'd Have Today",
+    "How To Earn $500 A Month From American Express Stock Ahead Of Q2 Earnings",
     "SpaceX at $100 Would Imply Zero AI Value, Morgan Stanley Says",
-    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager",
-    "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-    "Trump's flurry of tariff moves still leaves rates below pre-Supreme Court peaks"
+    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64098.66015625,
-        "perp_last_price": 64098.66015625,
-        "mark_price": 64098.66015625,
-        "index_price": 64098.66015625,
+        "spot_price": 64092.23046875,
+        "perp_last_price": 64092.23046875,
+        "mark_price": 64092.23046875,
+        "index_price": 64092.23046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64098.66015625,
-        "stop_loss_technical": 63137.18025391,
-        "target_1": 65540.88000977,
-        "target_2": 66983.09986328,
+        "entry_ideal": 64092.23046875,
+        "stop_loss_technical": 65756.7578125,
+        "target_1": 61595.43945312,
+        "target_2": 59098.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64098.66015625,
+        "entry_ideal": 64092.23046875,
         "stop_loss_technical": 66910.0625,
-        "target_1": 59881.55664062,
-        "target_2": 55664.453125,
+        "target_1": 59865.48242188,
+        "target_2": 55638.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
