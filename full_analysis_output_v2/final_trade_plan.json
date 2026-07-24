@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-24T01:01:03.810511+00:00",
+    "generated_at_utc": "2026-07-24T04:23:51.799437+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.437,
+        "price": 101.403,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 7m",
     "News from the Yahoo Finance Network",
-    "Tesla's Operating Margin Just Fell to 1.4% and Free Cash Flow Went Negative. Here's Where the Money Is Going.",
-    "Trump Says US to Use Iranian Funds to Pay for Damage to Ships",
+    "Warren Buffett Just Said This About Berkshire Hathaway's Massive Google Investment",
+    "Alphabet Just Revealed a $94 Billion Stake in SpaceX -- and It Can't Sell a Single Share Yet",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "Prediction: $1,000 Invested in SpaceX Stock Will Be Worth This Amount in 3 Years",
-    "PG&E (PCG) Q2 2026 Earnings Call Transcript",
+    "A Vanguard Index Fund Built for Long-Term Wealth Could Be Your Smartest Buy",
     "Robert Kiyosaki reveals what he’d buy with $10,000 if he lost everything — and it can’t be taxed, crashed or stolen",
-    "A Vanguard Index Fund Built for Long-Term Wealth Could Be Your Smartest Buy"
+    "Trump Says US to Use Iranian Funds to Pay for Damage to Ships"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64912.03125,
-        "perp_last_price": 64912.03125,
-        "mark_price": 64912.03125,
-        "index_price": 64912.03125,
+        "spot_price": 65361.46875,
+        "perp_last_price": 65361.46875,
+        "mark_price": 65361.46875,
+        "index_price": 65361.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64912.03125,
-        "stop_loss_technical": 63938.35078125,
-        "target_1": 66372.55195313,
-        "target_2": 67833.07265625,
+        "entry_ideal": 65390.01171875,
+        "stop_loss_technical": 64409.16154297,
+        "target_1": 66861.28698242,
+        "target_2": 68332.56224609,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64912.03125,
-        "stop_loss_technical": 66910.0625,
-        "target_1": 61914.984375,
-        "target_2": 58917.9375,
+        "entry_ideal": 65361.46875,
+        "stop_loss_technical": 64381.04671875,
+        "target_1": 66832.10179687,
+        "target_2": 68302.73484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
