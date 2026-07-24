@@ -1,34 +1,34 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-24T15:50:50.183304+00:00",
+    "generated_at_utc": "2026-07-24T17:18:32.909414+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.314,
-        "trend": "bajista"
+        "price": 101.453,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.655,
-        "trend": "bajista"
+        "price": 4.667,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 10m",
+    "U.S. markets close in 2h 43m",
     "News from the Yahoo Finance Network",
+    "Jeff Bezos Said ‘I Predict One Day Amazon Will Fail. Amazon Will Go Bankrupt’ — But the Key to Prolonging That Demise Is to ‘Obsess Over Customers’",
+    "Orchid Island Capital, Inc. Q2 2026 Earnings Call Summary",
+    "1 Monthly-Paying ETF Retirees Are Buying Hand Over Fist, and the 1 Thing They’re Giving Up",
     "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
-    "Warren Buffett Just Said This About Berkshire Hathaway's Massive Google Investment",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager",
-    "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
-    "‘The demographic dividend of the last 40 years is ending’: J.P. Morgan says the world is running out of the two things that kept interest rates down"
+    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager"
   ],
   "assets": {
     "BTCUSDT": {
@@ -42,33 +42,33 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
           "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Macro RISK_OFF (Presión)"
         ],
         "entry_ideal": 63925.96875,
-        "stop_loss_technical": 62967.07921875,
-        "target_1": 65364.30304688,
-        "target_2": 66802.63734375,
+        "stop_loss_technical": 65756.75,
+        "target_1": 61179.796875,
+        "target_2": 58433.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
           "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Macro RISK_OFF (Presión)"
         ],
         "entry_ideal": 63925.96875,
-        "stop_loss_technical": 62967.07921875,
-        "target_1": 65364.30304688,
-        "target_2": 66802.63734375,
+        "stop_loss_technical": 66910.0625,
+        "target_1": 59449.828125,
+        "target_2": 54973.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
