@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-24T09:10:00.233454+00:00",
+    "generated_at_utc": "2026-07-24T11:08:42.304193+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.38,
+        "price": 101.378,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,27 +21,41 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 21m",
+    "U.S. markets open in 2h 23m",
     "News from the Yahoo Finance Network",
+    "‘The demographic dividend of the last 40 years is ending’: J.P. Morgan says the world is running out of the two things that kept interest rates down",
+    "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
     "Warren Buffett Just Said This About Berkshire Hathaway's Massive Google Investment",
     "Alphabet Just Revealed a $94 Billion Stake in SpaceX -- and It Can't Sell a Single Share Yet",
-    "Want to Be a Millionaire? Buy These 3 Stocks and Hold for 20 Years",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "Why are France's top earners leaving and where are they going?",
-    "Robert Kiyosaki reveals what he’d buy with $10,000 if he lost everything — and it can’t be taxed, crashed or stolen"
+    "Why are France's top earners leaving and where are they going?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65085.3203125,
-        "perp_last_price": 65085.3203125,
-        "mark_price": 65085.3203125,
-        "index_price": 65085.3203125,
+        "spot_price": 64957.62890625,
+        "perp_last_price": 64957.62890625,
+        "mark_price": 64957.62890625,
+        "index_price": 64957.62890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 64957.62109375,
+        "stop_loss_technical": 63983.25677734,
+        "target_1": 66419.16756836,
+        "target_2": 67880.71404297,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65085.3203125,
-        "stop_loss_technical": 65756.7578125,
-        "target_1": 64078.1640625,
-        "target_2": 63071.0078125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 65085.3203125,
+        "entry_ideal": 64957.62890625,
         "stop_loss_technical": 66910.0625,
-        "target_1": 62348.20703125,
-        "target_2": 59611.09375,
+        "target_1": 62028.97851562,
+        "target_2": 59100.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
