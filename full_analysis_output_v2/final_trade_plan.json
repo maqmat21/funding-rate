@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-24T11:08:42.304193+00:00",
+    "generated_at_utc": "2026-07-24T12:41:44.701681+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.378,
+        "price": 101.448,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.703,
+        "price": 4.685,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 23m",
     "News from the Yahoo Finance Network",
-    "‘The demographic dividend of the last 40 years is ending’: J.P. Morgan says the world is running out of the two things that kept interest rates down",
     "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
+    "‘The demographic dividend of the last 40 years is ending’: J.P. Morgan says the world is running out of the two things that kept interest rates down",
     "Warren Buffett Just Said This About Berkshire Hathaway's Massive Google Investment",
-    "Alphabet Just Revealed a $94 Billion Stake in SpaceX -- and It Can't Sell a Single Share Yet",
-    "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "Why are France's top earners leaving and where are they going?"
+    "How Much Could a $5,000 Investment in SpaceX Be Worth By 2030? Here's Why This Industrial Stock May Be a Better Buy Today.",
+    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager",
+    "Here's the Price Where I'd Start Considering Buying Micron Stock",
+    "‘You just hired a million bad employees’: How the brief tokenmaxxing era delivered the opposite of what it promised"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64957.62890625,
-        "perp_last_price": 64957.62890625,
-        "mark_price": 64957.62890625,
-        "index_price": 64957.62890625,
+        "spot_price": 64946.33984375,
+        "perp_last_price": 64946.33984375,
+        "mark_price": 64946.33984375,
+        "index_price": 64946.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64957.62109375,
-        "stop_loss_technical": 63983.25677734,
-        "target_1": 66419.16756836,
-        "target_2": 67880.71404297,
+        "entry_ideal": 64946.33984375,
+        "stop_loss_technical": 65756.7578125,
+        "target_1": 63730.71289062,
+        "target_2": 62515.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64957.62890625,
+        "entry_ideal": 64946.33984375,
         "stop_loss_technical": 66910.0625,
-        "target_1": 62028.97851562,
-        "target_2": 59100.328125,
+        "target_1": 62000.75585938,
+        "target_2": 59055.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
