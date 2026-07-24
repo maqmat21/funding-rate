@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-24T21:15:29.872351+00:00",
+    "generated_at_utc": "2026-07-24T22:18:29.516547+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
-    "Canadian National Railway Co (CNI) Q2 2026 Earnings Call Highlights: Strong EPS Growth and ...",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "Like It or Not, Apple Built a Perfect Mousetrap, So I Keep on Buying",
-    "Intel Just Posted Its Fastest Revenue Growth in More Than 15 Years, but the Stock Is Falling. Here's What's Going On.",
-    "Verizon Communications Inc (VZ) Q2 2026 Earnings Call Highlights: Strong Cash Flow and ...",
-    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager"
+    "If You'd Invested $10,000 in Tesla Stock 10 Years Ago, Here's How Much You'd Have Today",
+    "SpaceX at $100 Would Imply Zero AI Value, Morgan Stanley Says",
+    "A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager",
+    "I am a 63-year-old semiretired physician. If I saved $2 million for retirement, should my Social Security become optional?",
+    "Trump's flurry of tariff moves still leaves rates below pre-Supreme Court peaks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64089.4609375,
-        "perp_last_price": 64089.4609375,
-        "mark_price": 64089.4609375,
-        "index_price": 64089.4609375,
+        "spot_price": 64098.66015625,
+        "perp_last_price": 64098.66015625,
+        "mark_price": 64098.66015625,
+        "index_price": 64098.66015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64084.30859375,
-        "stop_loss_technical": 65756.7578125,
-        "target_1": 61575.63476562,
-        "target_2": 59066.9609375,
+        "entry_ideal": 64098.66015625,
+        "stop_loss_technical": 63137.18025391,
+        "target_1": 65540.88000977,
+        "target_2": 66983.09986328,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64089.4609375,
+        "entry_ideal": 64098.66015625,
         "stop_loss_technical": 66910.0625,
-        "target_1": 59858.55859375,
-        "target_2": 55627.65625,
+        "target_1": 59881.55664062,
+        "target_2": 55664.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
