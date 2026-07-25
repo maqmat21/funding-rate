@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-25T03:39:26.197837+00:00",
+    "generated_at_utc": "2026-07-25T06:03:47.208143+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,35 @@
     "Alphabet Just Dropped a $94 Billion Surprise for SpaceX Stock. How to Play SPCX from Here.",
     "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
     "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google. Here's What It Means for the 6.3% Dividend.",
-    "‘You’re going to be slaughtered’: Jim Cramer gives troubling alert to US investors in highly popular sector",
     "Suddenly, as His Empire Crumbles, Elon Musk Admits He Made a Huge Mistake With DOGE",
-    "Michael Burry Doubles Down On MU, NVDA Shorts While Holding TSLA, PLTR Bets — Here’s What He’s Buying",
-    "If You'd Invested $10,000 in Tesla Stock 10 Years Ago, Here's How Much You'd Have Today"
+    "SpaceX at $100 Would Imply Zero AI Value, Morgan Stanley Says",
+    "If You'd Invested $10,000 in Tesla Stock 10 Years Ago, Here's How Much You'd Have Today",
+    "Anthropic’s head of economics just explained why we haven’t seen a white-collar bloodbath — yet"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64019.19921875,
-        "perp_last_price": 64019.19921875,
-        "mark_price": 64019.19921875,
-        "index_price": 64019.19921875,
+        "spot_price": 63989.28125,
+        "perp_last_price": 63989.28125,
+        "mark_price": 63989.28125,
+        "index_price": 63989.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64019.19921875,
-        "stop_loss_technical": 63058.91123047,
-        "target_1": 65459.63120117,
-        "target_2": 66900.06318359,
+        "entry_ideal": 63989.28125,
+        "stop_loss_technical": 65072.98828125,
+        "target_1": 62363.72070312,
+        "target_2": 60738.16015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64019.19921875,
+        "entry_ideal": 63989.28125,
         "stop_loss_technical": 66910.0625,
-        "target_1": 59682.90429688,
-        "target_2": 55346.609375,
+        "target_1": 59608.109375,
+        "target_2": 55226.9375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
