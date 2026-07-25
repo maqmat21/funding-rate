@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-25T15:13:51.822129+00:00",
+    "generated_at_utc": "2026-07-25T16:12:31.324036+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?",
-    "The Clock Is Ticking on Wall Street's $1.5 Trillion Powder Keg, and History Says Time Is Almost Up",
-    "Alphabet Just Dropped a $94 Billion Surprise for SpaceX Stock. How to Play SPCX from Here.",
-    "Why Most People Overpay Taxes in Retirement — and Don't Even Know It",
-    "Americans rewire their grocery shopping routines while digesting the biggest price jump in 50 years",
     "Social Security's 4.7% 'Trump Bump' for 2027 sounds great — until you see what's fueling it",
-    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google. Here's What It Means for the 6.3% Dividend."
+    "Alphabet Just Dropped a $94 Billion Surprise for SpaceX Stock. How to Play SPCX from Here.",
+    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google. Here's What It Means for the 6.3% Dividend.",
+    "The Clock Is Ticking on Wall Street's $1.5 Trillion Powder Keg, and History Says Time Is Almost Up",
+    "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now",
+    "Why Most People Overpay Taxes in Retirement — and Don't Even Know It"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64197.9609375,
-        "perp_last_price": 64197.9609375,
-        "mark_price": 64197.9609375,
-        "index_price": 64197.9609375,
+        "spot_price": 64119.1484375,
+        "perp_last_price": 64119.1484375,
+        "mark_price": 64119.1484375,
+        "index_price": 64119.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64197.9609375,
-        "stop_loss_technical": 63234.99152344,
-        "target_1": 65642.41505859,
-        "target_2": 67086.86917969,
+        "entry_ideal": 64119.140625,
+        "stop_loss_technical": 64214.421875,
+        "target_1": 63976.21875,
+        "target_2": 63833.296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64197.9609375,
-        "stop_loss_technical": 63234.99152344,
-        "target_1": 65642.41505859,
-        "target_2": 67086.86917969,
+        "entry_ideal": 64119.1484375,
+        "stop_loss_technical": 63157.36121094,
+        "target_1": 65561.82927734,
+        "target_2": 67004.51011719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
