@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-25T14:01:56.719849+00:00",
+    "generated_at_utc": "2026-07-25T15:13:51.822129+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,52 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?",
-    "Americans rewire their grocery shopping routines while digesting the biggest price jump in 50 years",
-    "Pfizer's Dividend Yield Looks Almost Too Good. Here's Why Management Isn't Worried.",
+    "The Clock Is Ticking on Wall Street's $1.5 Trillion Powder Keg, and History Says Time Is Almost Up",
     "Alphabet Just Dropped a $94 Billion Surprise for SpaceX Stock. How to Play SPCX from Here.",
-    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google. Here's What It Means for the 6.3% Dividend.",
-    "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Buy Right Now?",
-    "‘Big Short’ legend Michael Burry says markets are acting like in the last months of 1999-2000. Prepare for the crash now"
+    "Why Most People Overpay Taxes in Retirement — and Don't Even Know It",
+    "Americans rewire their grocery shopping routines while digesting the biggest price jump in 50 years",
+    "Social Security's 4.7% 'Trump Bump' for 2027 sounds great — until you see what's fueling it",
+    "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google. Here's What It Means for the 6.3% Dividend."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64057.26953125,
-        "perp_last_price": 64057.26953125,
-        "mark_price": 64057.26953125,
-        "index_price": 64057.26953125,
+        "spot_price": 64197.9609375,
+        "perp_last_price": 64197.9609375,
+        "mark_price": 64197.9609375,
+        "index_price": 64197.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64059.98828125,
-        "stop_loss_technical": 64236.1796875,
-        "target_1": 63795.70117188,
-        "target_2": 63531.4140625,
+        "entry_ideal": 64197.9609375,
+        "stop_loss_technical": 63234.99152344,
+        "target_1": 65642.41505859,
+        "target_2": 67086.86917969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64057.26953125,
-        "stop_loss_technical": 66910.0625,
-        "target_1": 59778.08007812,
-        "target_2": 55498.890625,
+        "entry_ideal": 64197.9609375,
+        "stop_loss_technical": 63234.99152344,
+        "target_1": 65642.41505859,
+        "target_2": 67086.86917969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
