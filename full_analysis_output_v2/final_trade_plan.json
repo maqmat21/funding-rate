@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-25T20:25:13.791396+00:00",
+    "generated_at_utc": "2026-07-25T21:13:50.085320+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,34 @@
     "Elon Musk Says ‘Only Way’ the U.S. Deficit Will Actually Get Paid Is by ‘Taxing the Living Daylights Out of Everyone’",
     "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?",
     "Why Most People Overpay Taxes in Retirement — and Don't Even Know It",
-    "Where Is the Floor for SpaceX Stock Right Now?",
     "Social Security's 4.7% 'Trump Bump' for 2027 sounds great — until you see what's fueling it",
-    "Alphabet Just Dropped a $94 Billion Surprise for SpaceX Stock. How to Play SPCX from Here."
+    "Alphabet Just Dropped a $94 Billion Surprise for SpaceX Stock. How to Play SPCX from Here.",
+    "Where Is the Floor for SpaceX Stock Right Now?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64315.98828125,
-        "perp_last_price": 64315.98828125,
-        "mark_price": 64315.98828125,
-        "index_price": 64315.98828125,
+        "spot_price": 64214.8984375,
+        "perp_last_price": 64214.8984375,
+        "mark_price": 64214.8984375,
+        "index_price": 64214.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64315.98828125,
+        "entry_ideal": 64217.98828125,
         "stop_loss_technical": 64386.73828125,
-        "target_1": 64209.86328125,
-        "target_2": 64103.73828125,
+        "target_1": 63964.86328125,
+        "target_2": 63711.73828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64315.98828125,
-        "stop_loss_technical": 63351.24845703,
-        "target_1": 65763.09801758,
-        "target_2": 67210.20775391,
+        "entry_ideal": 64214.8984375,
+        "stop_loss_technical": 63251.67496094,
+        "target_1": 65659.73365234,
+        "target_2": 67104.56886719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
