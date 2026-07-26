@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T00:13:49.079204+00:00",
+    "generated_at_utc": "2026-07-26T03:55:48.734399+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "Jack Whittaker won $315M in Powerball, gave away $50M — then lost his granddaughter, his wife and business reputation",
     "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason",
-    "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?",
-    "Claiming Social Security at 62 vs. Building a Dividend Bridge: Which Leaves You Richer at 75?",
     "Why Most People Overpay Taxes in Retirement — and Don't Even Know It",
+    "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?",
     "Elon Musk Says ‘Only Way’ the U.S. Deficit Will Actually Get Paid Is by ‘Taxing the Living Daylights Out of Everyone’",
-    "My 3 Highest-Conviction Energy Stocks for the Second Half of 2026"
+    "You can ‘ease off the gas’ once you hit $100,000, said Charlie Munger. Here’s how to get there as fast as possible",
+    "Americans rewire their grocery shopping routines while digesting the biggest price jump in 50 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64377.4296875,
-        "perp_last_price": 64377.4296875,
-        "mark_price": 64377.4296875,
-        "index_price": 64377.4296875,
+        "spot_price": 64481.5,
+        "perp_last_price": 64481.5,
+        "mark_price": 64481.5,
+        "index_price": 64481.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64375.80859375,
-        "stop_loss_technical": 63410.17146484,
-        "target_1": 65824.26428711,
-        "target_2": 67272.71998047,
+        "entry_ideal": 64481.5,
+        "stop_loss_technical": 64524.48828125,
+        "target_1": 64417.01757812,
+        "target_2": 64352.53515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64377.4296875,
-        "stop_loss_technical": 63411.76824219,
-        "target_1": 65825.92185547,
-        "target_2": 67274.41402344,
+        "entry_ideal": 64481.5,
+        "stop_loss_technical": 63514.2775,
+        "target_1": 65932.33375,
+        "target_2": 67383.1675,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
