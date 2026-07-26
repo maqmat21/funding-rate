@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T20:39:21.316355+00:00",
+    "generated_at_utc": "2026-07-26T21:33:42.405064+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,35 +25,35 @@
     "How to Build $4,000 a Month in Dividend Income Without Selling a Single Share",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Here's How Much You'd Need to Invest in SCHD to Generate $1,000 per Month in Dividends",
     "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason",
+    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
     "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach",
-    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low"
+    "Jack Whittaker won $315M in Powerball, gave away $50M — then lost his granddaughter, his wife and business reputation"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64604.0,
-        "perp_last_price": 64604.0,
-        "mark_price": 64604.0,
-        "index_price": 64604.0,
+        "spot_price": 64774.87109375,
+        "perp_last_price": 64774.87109375,
+        "mark_price": 64774.87109375,
+        "index_price": 64774.87109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64604.0,
-        "stop_loss_technical": 64868.94140625,
-        "target_1": 64206.58789062,
-        "target_2": 63809.17578125,
+        "entry_ideal": 64774.87109375,
+        "stop_loss_technical": 63803.24802734,
+        "target_1": 66232.30569336,
+        "target_2": 67689.74029297,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64604.0,
-        "stop_loss_technical": 63634.94,
-        "target_1": 66057.59,
-        "target_2": 67511.18,
+        "entry_ideal": 64774.87109375,
+        "stop_loss_technical": 63803.24802734,
+        "target_1": 66232.30569336,
+        "target_2": 67689.74029297,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
