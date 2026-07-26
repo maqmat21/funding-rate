@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T06:27:56.994478+00:00",
+    "generated_at_utc": "2026-07-26T08:43:52.908674+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "3 Top Dividend Stocks Yielding 4.3% or More to Buy Right Now for Passive Income",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason",
     "Jack Whittaker won $315M in Powerball, gave away $50M — then lost his granddaughter, his wife and business reputation",
-    "Why Most People Overpay Taxes in Retirement — and Don't Even Know It",
-    "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?",
     "Prediction: Micron Stock Will Return to All-Time Highs Soon",
-    "Elon Musk Says ‘Only Way’ the U.S. Deficit Will Actually Get Paid Is by ‘Taxing the Living Daylights Out of Everyone’"
+    "Why Most People Overpay Taxes in Retirement — and Don't Even Know It",
+    "My mom just died and I found out she borrowed $90,000 to put me through school and never paid it back. Am I on the hook?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64247.98828125,
-        "perp_last_price": 64247.98828125,
-        "mark_price": 64247.98828125,
-        "index_price": 64247.98828125,
+        "spot_price": 64370.0,
+        "perp_last_price": 64370.0,
+        "mark_price": 64370.0,
+        "index_price": 64370.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64247.98828125,
-        "stop_loss_technical": 64538.0,
-        "target_1": 63812.97070312,
-        "target_2": 63377.953125,
+        "entry_ideal": 64371.8515625,
+        "stop_loss_technical": 63406.27378906,
+        "target_1": 65820.21822266,
+        "target_2": 67268.58488281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64247.98828125,
-        "stop_loss_technical": 66694.6484375,
-        "target_1": 60577.99804688,
-        "target_2": 56908.0078125,
+        "entry_ideal": 64370.0,
+        "stop_loss_technical": 63404.45,
+        "target_1": 65818.325,
+        "target_2": 67266.65,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
