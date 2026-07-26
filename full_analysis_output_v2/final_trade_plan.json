@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T21:33:42.405064+00:00",
+    "generated_at_utc": "2026-07-26T22:34:32.027156+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.465,
-        "trend": "alcista"
+        "price": 101.298,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.679,
@@ -27,48 +27,46 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason",
     "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
-    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach",
-    "Jack Whittaker won $315M in Powerball, gave away $50M — then lost his granddaughter, his wife and business reputation"
+    "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low.",
+    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64774.87109375,
-        "perp_last_price": 64774.87109375,
-        "mark_price": 64774.87109375,
-        "index_price": 64774.87109375,
+        "spot_price": 65349.328125,
+        "perp_last_price": 65349.328125,
+        "mark_price": 65349.328125,
+        "index_price": 65349.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64774.87109375,
-        "stop_loss_technical": 63803.24802734,
-        "target_1": 66232.30569336,
-        "target_2": 67689.74029297,
+        "entry_ideal": 65343.33984375,
+        "stop_loss_technical": 64229.6015625,
+        "target_1": 67013.94726562,
+        "target_2": 68684.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64774.87109375,
-        "stop_loss_technical": 63803.24802734,
-        "target_1": 66232.30569336,
-        "target_2": 67689.74029297,
+        "entry_ideal": 65349.328125,
+        "stop_loss_technical": 63686.03515625,
+        "target_1": 67844.26757812,
+        "target_2": 70339.20703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
