@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T18:37:19.840594+00:00",
+    "generated_at_utc": "2026-07-26T19:47:48.724028+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,34 @@
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "How to Build $4,000 a Month in Dividend Income Without Selling a Single Share",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Prediction: Nvidia Stock Will Hit $800 Per Share by 2030",
     "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach",
-    "3 High-Yielding Dividend Stocks Worth Loading Up On Now (1 Yields Over 5.5%)",
-    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low"
+    "Prediction: Nvidia Stock Will Hit $800 Per Share by 2030",
+    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
+    "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64646.46875,
-        "perp_last_price": 64646.46875,
-        "mark_price": 64646.46875,
-        "index_price": 64646.46875,
+        "spot_price": 64652.5390625,
+        "perp_last_price": 64652.5390625,
+        "mark_price": 64652.5390625,
+        "index_price": 64652.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64646.46875,
-        "stop_loss_technical": 63676.77171875,
-        "target_1": 66101.01429688,
-        "target_2": 67555.55984375,
+        "entry_ideal": 64652.5390625,
+        "stop_loss_technical": 64868.7890625,
+        "target_1": 64328.1640625,
+        "target_2": 64003.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64646.46875,
-        "stop_loss_technical": 63676.77171875,
-        "target_1": 66101.01429688,
-        "target_2": 67555.55984375,
+        "entry_ideal": 64652.5390625,
+        "stop_loss_technical": 63682.75097656,
+        "target_1": 66107.22119141,
+        "target_2": 67561.90332031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
