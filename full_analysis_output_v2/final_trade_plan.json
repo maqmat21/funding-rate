@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T22:34:32.027156+00:00",
+    "generated_at_utc": "2026-07-26T23:33:15.184060+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.298,
+        "price": 101.315,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How to Build $4,000 a Month in Dividend Income Without Selling a Single Share",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "How to Build $4,000 a Month in Dividend Income Without Selling a Single Share",
     "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason",
-    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
     "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low.",
+    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
     "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65349.328125,
-        "perp_last_price": 65349.328125,
-        "mark_price": 65349.328125,
-        "index_price": 65349.328125,
+        "spot_price": 65268.94921875,
+        "perp_last_price": 65268.94921875,
+        "mark_price": 65268.94921875,
+        "index_price": 65268.94921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 65343.33984375,
-        "stop_loss_technical": 64229.6015625,
-        "target_1": 67013.94726562,
-        "target_2": 68684.5546875,
+        "entry_ideal": 65268.94921875,
+        "stop_loss_technical": 65504.80859375,
+        "target_1": 64915.16015625,
+        "target_2": 64561.37109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65349.328125,
+        "entry_ideal": 65268.94921875,
         "stop_loss_technical": 63686.03515625,
-        "target_1": 67844.26757812,
-        "target_2": 70339.20703125,
+        "target_1": 67643.3203125,
+        "target_2": 70017.69140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
