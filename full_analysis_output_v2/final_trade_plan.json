@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T16:13:51.184848+00:00",
+    "generated_at_utc": "2026-07-27T17:55:58.752670+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.469,
+        "price": 101.524,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.647,
+        "price": 4.651,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 47m",
+    "U.S. markets close in 2h 5m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
-    "4 key takeaways about Albertsons’ performance",
-    "Forget Social Security: 5 Sleep-at-Night Dividend Stocks Retirees Are Using to Replace a Paycheck",
+    "I want to retire at age 62 in 5 years with $1.1 million in a 401(k) and a paid-off $475K home; is this possible?",
     "Trump Says 660-Mile Highway in Disputed Sahara to Bear His Name",
-    "SanDisk’s $42 Billion Backlog Is Real — So Is the Valuation Question Now Hitting Every Memory Stock"
+    "Silver price predictions: What can investors expect over the next 10 years?",
+    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64548.21875,
-        "perp_last_price": 64548.21875,
-        "mark_price": 64548.21875,
-        "index_price": 64548.21875,
+        "spot_price": 64911.48046875,
+        "perp_last_price": 64911.48046875,
+        "mark_price": 64911.48046875,
+        "index_price": 64911.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,24 +48,23 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 64546.58984375,
+        "entry_ideal": 64911.48046875,
         "stop_loss_technical": 64369.1796875,
-        "target_1": 64812.70507812,
-        "target_2": 65078.8203125,
+        "target_1": 65724.93164062,
+        "target_2": 66538.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64548.21875,
+        "entry_ideal": 64911.48046875,
         "stop_loss_technical": 66282.3828125,
-        "target_1": 61946.97265625,
-        "target_2": 59345.7265625,
+        "target_1": 62855.12695312,
+        "target_2": 60798.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
