@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T11:44:15.403094+00:00",
+    "generated_at_utc": "2026-07-27T13:58:34.065660+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.319,
+        "price": 101.407,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.679,
-        "trend": "alcista"
+        "price": 4.647,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 47m",
+    "U.S. markets close in 6h 2m",
     "News from the Yahoo Finance Network",
-    "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Nvidia’s Rumored $600 Billion OpenAI Deal Could Reignite Its Biggest AI Controversy",
-    "SpaceX Stock Is Down 49% — Elon Musk Says That’s Exactly What Investors Should Expect",
+    "Philip Morris expands Colorado Zyn investment to $1.2 billion",
+    "Trump Says 660-Mile Highway in Disputed Sahara to Bear His Name",
+    "Will NVIDIA or Apple Be the Largest Company By Year’s End? — Here’s the Name I’m Putting My Chips On",
     "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65109.98046875,
-        "perp_last_price": 65109.98046875,
-        "mark_price": 65109.98046875,
-        "index_price": 65109.98046875,
+        "spot_price": 65179.87890625,
+        "perp_last_price": 65179.87890625,
+        "mark_price": 65179.87890625,
+        "index_price": 65179.87890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 65106.421875,
-        "stop_loss_technical": 65650.671875,
-        "target_1": 64290.046875,
-        "target_2": 63473.671875,
+        "entry_ideal": 65182.12890625,
+        "stop_loss_technical": 65654.8671875,
+        "target_1": 64473.02148438,
+        "target_2": 63763.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 65109.98046875,
-        "stop_loss_technical": 64133.33076172,
-        "target_1": 66574.9550293,
-        "target_2": 68039.92958984,
+        "entry_ideal": 65179.87890625,
+        "stop_loss_technical": 63686.03515625,
+        "target_1": 67420.64453125,
+        "target_2": 69661.41015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
