@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T01:12:43.426919+00:00",
+    "generated_at_utc": "2026-07-27T04:52:16.764812+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.192,
+        "price": 101.208,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 38m",
     "News from the Yahoo Finance Network",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach",
+    "Dear SpaceX Stock Fans, Mark Your Calendars for August 6",
     "How to Build $4,000 a Month in Dividend Income Without Selling a Single Share",
-    "3 High-Yielding Dividend Stocks Worth Loading Up On Now (1 Yields Over 5.5%)",
-    "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
-    "Plug Power Stock Jumped 83% in the First 5 Months of 2026 Only to Give up 100% of the Gains. Here's What to Expect From the Hydrogen Stock the Rest of the Year."
+    "1 Top Warren Buffett Stock for Dividend Investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65036.0,
-        "perp_last_price": 65036.0,
-        "mark_price": 65036.0,
-        "index_price": 65036.0,
+        "spot_price": 65273.98828125,
+        "perp_last_price": 65273.98828125,
+        "mark_price": 65273.98828125,
+        "index_price": 65273.98828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 65042.05078125,
+        "entry_ideal": 65272.69140625,
         "stop_loss_technical": 65511.359375,
-        "target_1": 64338.08789062,
-        "target_2": 63634.125,
+        "target_1": 64914.68945312,
+        "target_2": 64556.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65036.0,
+        "entry_ideal": 65273.98828125,
         "stop_loss_technical": 63686.03515625,
-        "target_1": 67060.94726562,
-        "target_2": 69085.89453125,
+        "target_1": 67655.91796875,
+        "target_2": 70037.84765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
