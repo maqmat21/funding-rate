@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T20:40:52.110456+00:00",
+    "generated_at_utc": "2026-07-27T21:48:03.588060+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.516,
+        "price": 101.505,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Billionaire Charlie Munger Said Your First $100K Is the Key to Getting Rich — ‘I Don’t Care What You Have to Do. Find a Way.’ Then You Can Ease Off the Gas a Little.",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
-    "Sanmina (NASDAQ:SANM) Beats Q2 CY2026 Sales Expectations But Stock Drops",
-    "Kiyosaki says ‘greatest depression in world history’ is starting — with boomers facing disaster. Protect your money now",
-    "Amkor (NASDAQ:AMKR) Posts Better-Than-Expected Sales In Q2, Stock Soars",
-    "Trump Says 660-Mile Highway in Disputed Sahara to Bear His Name",
-    "Silver price predictions: What can investors expect over the next 10 years?"
+    "Prediction: Micron Stock Will Be Worth This Much by Late 2027 (Hint: The Time to Buy Is Now)",
+    "BuzzFeed Cutting Staff By 35% Under New Owner Byron Allen",
+    "Shopify CEO calls pensioners 'dependents' who should lose voting rights — then agreed the ultra-rich should get 5 votes"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64882.078125,
-        "perp_last_price": 64882.078125,
-        "mark_price": 64882.078125,
-        "index_price": 64882.078125,
+        "spot_price": 64745.921875,
+        "perp_last_price": 64745.921875,
+        "mark_price": 64745.921875,
+        "index_price": 64745.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64882.078125,
+        "entry_ideal": 64742.25,
         "stop_loss_technical": 65654.8671875,
-        "target_1": 63722.89453125,
-        "target_2": 62563.7109375,
+        "target_1": 63373.32421875,
+        "target_2": 62004.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64882.078125,
+        "entry_ideal": 64745.921875,
         "stop_loss_technical": 66282.3828125,
-        "target_1": 62781.62109375,
-        "target_2": 60681.1640625,
+        "target_1": 62441.23046875,
+        "target_2": 60136.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
