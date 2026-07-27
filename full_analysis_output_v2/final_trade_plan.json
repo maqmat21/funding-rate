@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T08:20:10.041118+00:00",
+    "generated_at_utc": "2026-07-27T11:44:15.403094+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.276,
-        "trend": "bajista"
+        "price": 101.319,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.679,
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 11m",
+    "U.S. markets open in 1h 47m",
     "News from the Yahoo Finance Network",
-    "Kiyosaki says ‘greatest depression in world history’ is starting — with boomers facing disaster. Protect your money now",
+    "After Losing 40% Of His Net Worth In A Month, Elon Musk Attempts To Raise $4 Billion For Another Company",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach",
-    "Is the Stock Market in a Bubble? Here's What Warren Buffett's Own Indicator -- and His Cash Pile -- Are Telling Us.",
-    "Dear SpaceX Stock Fans, Mark Your Calendars for August 6"
+    "Nvidia’s Rumored $600 Billion OpenAI Deal Could Reignite Its Biggest AI Controversy",
+    "SpaceX Stock Is Down 49% — Elon Musk Says That’s Exactly What Investors Should Expect",
+    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65175.51953125,
-        "perp_last_price": 65175.51953125,
-        "mark_price": 65175.51953125,
-        "index_price": 65175.51953125,
+        "spot_price": 65109.98046875,
+        "perp_last_price": 65109.98046875,
+        "mark_price": 65109.98046875,
+        "index_price": 65109.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65175.51953125,
-        "stop_loss_technical": 65642.9296875,
-        "target_1": 64474.40429688,
-        "target_2": 63773.2890625,
+        "entry_ideal": 65106.421875,
+        "stop_loss_technical": 65650.671875,
+        "target_1": 64290.046875,
+        "target_2": 63473.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65175.51953125,
-        "stop_loss_technical": 63686.03515625,
-        "target_1": 67409.74609375,
-        "target_2": 69643.97265625,
+        "entry_ideal": 65109.98046875,
+        "stop_loss_technical": 64133.33076172,
+        "target_1": 66574.9550293,
+        "target_2": 68039.92958984,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
