@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T13:58:34.065660+00:00",
+    "generated_at_utc": "2026-07-27T16:13:51.184848+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.407,
+        "price": 101.469,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 2m",
+    "U.S. markets close in 3h 47m",
     "News from the Yahoo Finance Network",
-    "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Philip Morris expands Colorado Zyn investment to $1.2 billion",
+    "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
+    "4 key takeaways about Albertsons’ performance",
+    "Forget Social Security: 5 Sleep-at-Night Dividend Stocks Retirees Are Using to Replace a Paycheck",
     "Trump Says 660-Mile Highway in Disputed Sahara to Bear His Name",
-    "Will NVIDIA or Apple Be the Largest Company By Year’s End? — Here’s the Name I’m Putting My Chips On",
-    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
+    "SanDisk’s $42 Billion Backlog Is Real — So Is the Valuation Question Now Hitting Every Memory Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65179.87890625,
-        "perp_last_price": 65179.87890625,
-        "mark_price": 65179.87890625,
-        "index_price": 65179.87890625,
+        "spot_price": 64548.21875,
+        "perp_last_price": 64548.21875,
+        "mark_price": 64548.21875,
+        "index_price": 64548.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 65182.12890625,
-        "stop_loss_technical": 65654.8671875,
-        "target_1": 64473.02148438,
-        "target_2": 63763.9140625,
+        "entry_ideal": 64546.58984375,
+        "stop_loss_technical": 64369.1796875,
+        "target_1": 64812.70507812,
+        "target_2": 65078.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 65179.87890625,
-        "stop_loss_technical": 63686.03515625,
-        "target_1": 67420.64453125,
-        "target_2": 69661.41015625,
+        "entry_ideal": 64548.21875,
+        "stop_loss_technical": 66282.3828125,
+        "target_1": 61946.97265625,
+        "target_2": 59345.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
