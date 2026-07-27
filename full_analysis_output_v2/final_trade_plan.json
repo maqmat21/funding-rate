@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-26T23:33:15.184060+00:00",
+    "generated_at_utc": "2026-07-27T01:12:43.426919+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.315,
+        "price": 101.192,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach",
     "How to Build $4,000 a Month in Dividend Income Without Selling a Single Share",
-    "Prediction: Greg Abel Will Buy a Stock That Warren Buffett Spent Decades Passing On for This Simple Reason",
-    "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low.",
+    "3 High-Yielding Dividend Stocks Worth Loading Up On Now (1 Yields Over 5.5%)",
     "Democrats killed Trump's $3B plan to buy oil at $20 a barrel — now the reserve has dropped to 311M barrels, a 1983 low",
-    "The Pete behind Jersey Mike’s was only 17 years old when he borrowed $125,000 to buy the chain—with some help from his high school football coach"
+    "Plug Power Stock Jumped 83% in the First 5 Months of 2026 Only to Give up 100% of the Gains. Here's What to Expect From the Hydrogen Stock the Rest of the Year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65268.94921875,
-        "perp_last_price": 65268.94921875,
-        "mark_price": 65268.94921875,
-        "index_price": 65268.94921875,
+        "spot_price": 65036.0,
+        "perp_last_price": 65036.0,
+        "mark_price": 65036.0,
+        "index_price": 65036.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 65268.94921875,
-        "stop_loss_technical": 65504.80859375,
-        "target_1": 64915.16015625,
-        "target_2": 64561.37109375,
+        "entry_ideal": 65042.05078125,
+        "stop_loss_technical": 65511.359375,
+        "target_1": 64338.08789062,
+        "target_2": 63634.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65268.94921875,
+        "entry_ideal": 65036.0,
         "stop_loss_technical": 63686.03515625,
-        "target_1": 67643.3203125,
-        "target_2": 70017.69140625,
+        "target_1": 67060.94726562,
+        "target_2": 69085.89453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
