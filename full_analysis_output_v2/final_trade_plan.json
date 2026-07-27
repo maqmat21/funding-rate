@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-27T21:48:03.588060+00:00",
+    "generated_at_utc": "2026-07-27T22:43:59.304614+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.505,
+        "price": 101.514,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Billionaire Charlie Munger Said Your First $100K Is the Key to Getting Rich — ‘I Don’t Care What You Have to Do. Find a Way.’ Then You Can Ease Off the Gas a Little.",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
-    "Prediction: Micron Stock Will Be Worth This Much by Late 2027 (Hint: The Time to Buy Is Now)",
-    "BuzzFeed Cutting Staff By 35% Under New Owner Byron Allen",
-    "Shopify CEO calls pensioners 'dependents' who should lose voting rights — then agreed the ultra-rich should get 5 votes"
+    "How to Build $2,000 a Month in Dividend Income Starting From Zero",
+    "Meet the Dividend Growth Stock That Warren Buffett Held for Decades, and Greg Abel Pegged as One of Berkshire Hathaway's Multidecade Compounders",
+    "Shopify CEO calls pensioners 'dependents' who should lose voting rights — then agreed the ultra-rich should get 5 votes",
+    "New CEO inherits Cracker Barrel still recovering from rebrand backlash"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64745.921875,
-        "perp_last_price": 64745.921875,
-        "mark_price": 64745.921875,
-        "index_price": 64745.921875,
+        "spot_price": 64183.6015625,
+        "perp_last_price": 64183.6015625,
+        "mark_price": 64183.6015625,
+        "index_price": 64183.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 64742.25,
+        "entry_ideal": 64189.25,
         "stop_loss_technical": 65654.8671875,
-        "target_1": 63373.32421875,
-        "target_2": 62004.3984375,
+        "target_1": 61990.82421875,
+        "target_2": 59792.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64745.921875,
+        "entry_ideal": 64183.6015625,
         "stop_loss_technical": 66282.3828125,
-        "target_1": 62441.23046875,
-        "target_2": 60136.5390625,
+        "target_1": 61035.4296875,
+        "target_2": 57887.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
