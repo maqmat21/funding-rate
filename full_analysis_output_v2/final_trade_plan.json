@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T22:13:10.472339+00:00",
+    "generated_at_utc": "2026-07-28T23:15:37.788528+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,51 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump Administration to End Drug Plan Subsidy for Medicare",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
-    "Apple Is Set to Report Earnings Thursday. Here’s How Much The Stock Is Expected to Move",
+    "Tilray Brands Q4 Earnings Call Highlights",
+    "Enphase Energy Q2 Earnings Call Highlights",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
-    "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
-    "'You are getting f-----!': Kevin O'Leary says New Yorkers will pay the price for Mamdani's 30% cheaper groceries plan"
+    "Trump Administration to End Drug Plan Subsidy for Medicare",
+    "Seagate Technology Q4 Earnings Call Highlights",
+    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63922.5,
-        "perp_last_price": 63922.5,
-        "mark_price": 63922.5,
-        "index_price": 63922.5,
+        "spot_price": 63566.8203125,
+        "perp_last_price": 63566.8203125,
+        "mark_price": 63566.8203125,
+        "index_price": 63566.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63914.828125,
-        "stop_loss_technical": 62711.5,
-        "target_1": 65719.8203125,
-        "target_2": 67524.8125,
+        "entry_ideal": 63573.671875,
+        "stop_loss_technical": 62620.06679687,
+        "target_1": 65004.07949219,
+        "target_2": 66434.48710937,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63922.5,
-        "stop_loss_technical": 62711.5,
-        "target_1": 65739.0,
-        "target_2": 67555.5,
+        "entry_ideal": 63566.8203125,
+        "stop_loss_technical": 62613.31800781,
+        "target_1": 64997.07376953,
+        "target_2": 66427.32722656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
