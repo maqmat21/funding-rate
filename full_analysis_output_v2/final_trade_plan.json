@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T15:34:46.800877+00:00",
+    "generated_at_utc": "2026-07-28T17:04:18.815992+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.333,
+        "price": 101.311,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.592,
+        "price": 4.598,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 26m",
+    "U.S. markets close in 2h 57m",
     "News from the Yahoo Finance Network",
-    "She was a custodian at a data center. Now Mike Rowe and Meta are training her to become an advanced technician",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
-    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
+    "Trump Criticized Biden for Draining America’s Oil Reserves. They’re Now at a 43-Year Low Amidst a Middle East War.",
+    "Moving States to Save on 401(k) RMDs? A $2.1 Million Case Study Reveals the Hidden Federal Cost",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "Does IBM pay dividends? History, yield & payout ratio explained",
-    "The Stock Market Sounds an Alarm Triggered Just Once Before. History Says This Will Happen Next."
+    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
+    "Warren Buffett Just Shared a 10-Word Warning With Investors. Here's What History Says Happens Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63682.6796875,
-        "perp_last_price": 63682.6796875,
-        "mark_price": 63682.6796875,
-        "index_price": 63682.6796875,
+        "spot_price": 63894.12890625,
+        "perp_last_price": 63894.12890625,
+        "mark_price": 63894.12890625,
+        "index_price": 63894.12890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63682.6796875,
+        "entry_ideal": 63895.19921875,
         "stop_loss_technical": 62711.5,
-        "target_1": 65139.44921875,
-        "target_2": 66596.21875,
+        "target_1": 65670.74804688,
+        "target_2": 67446.296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63682.6796875,
+        "entry_ideal": 63894.12890625,
         "stop_loss_technical": 62711.5,
-        "target_1": 65139.44921875,
-        "target_2": 66596.21875,
+        "target_1": 65668.07226562,
+        "target_2": 67442.015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
