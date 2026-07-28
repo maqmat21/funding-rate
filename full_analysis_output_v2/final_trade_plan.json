@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T01:05:29.343647+00:00",
+    "generated_at_utc": "2026-07-28T04:18:51.036327+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.515,
+        "price": 101.505,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 12m",
     "News from the Yahoo Finance Network",
-    "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
+    "Cracker Barrel's ‘Woke’ Rebrand Fiasco Costs CEO Her Job: Stock Is About To Snap 3-Month Winning Streak",
     "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
-    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
+    "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
-    "McDonald's decided you are not worth helping anymore",
-    "How Your Retirement Contribution Rate Compares Across Age Groups—And Why It’s Important"
+    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
+    "JPMorgan CEO Jamie Dimon Reveals the Chilling Moment He Knew It 'Might Be Goodbye' During Emergency Heart Surgery— and He Had One Request for His Wife: 'Call The Company...'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63346.3515625,
-        "perp_last_price": 63346.3515625,
-        "mark_price": 63346.3515625,
-        "index_price": 63346.3515625,
+        "spot_price": 63264.28125,
+        "perp_last_price": 63264.28125,
+        "mark_price": 63264.28125,
+        "index_price": 63264.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63346.3515625,
-        "stop_loss_technical": 65654.8671875,
-        "target_1": 59883.578125,
-        "target_2": 56420.8046875,
+        "entry_ideal": 63267.7890625,
+        "stop_loss_technical": 63007.8203125,
+        "target_1": 63657.7421875,
+        "target_2": 64047.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63346.3515625,
+        "entry_ideal": 63264.28125,
         "stop_loss_technical": 65760.484375,
-        "target_1": 59725.15234375,
-        "target_2": 56103.953125,
+        "target_1": 59519.9765625,
+        "target_2": 55775.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
