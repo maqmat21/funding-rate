@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T11:32:19.949750+00:00",
+    "generated_at_utc": "2026-07-28T13:14:16.400129+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.585,
+        "price": 101.525,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.641,
+        "price": 4.63,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 58m",
     "News from the Yahoo Finance Network",
+    "Boeing reports loss on Air Force One but sees progress in turnaround",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
+    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
+    "My financial adviser is against a withdrawal plan for my $2.3 million portfolio. Is he making a mistake?",
     "Prediction: Warren Buffett's Successor, Greg Abel, Extended a Dubious 15-Quarter Net-Selling Streak at Berkshire Hathaway in the 2nd Quarter",
-    "Average 401(k) Balances in Your 50s: How You Compare and Factors That Influence Your Savings",
-    "Average Net Worth for Baby Boomers: How Much They Have and Why Wealth Is Unevenly Distributed",
-    "Elon Musk flags that America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — Here’s what he says can save us",
+    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
     "The Stock Market Sounds an Alarm Triggered Just Once Before. History Says This Will Happen Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63440.6015625,
-        "perp_last_price": 63440.6015625,
-        "mark_price": 63440.6015625,
-        "index_price": 63440.6015625,
+        "spot_price": 63420.33984375,
+        "perp_last_price": 63420.33984375,
+        "mark_price": 63420.33984375,
+        "index_price": 63420.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63440.26953125,
-        "stop_loss_technical": 63007.8203125,
-        "target_1": 64088.94335938,
-        "target_2": 64737.6171875,
+        "entry_ideal": 63423.1015625,
+        "stop_loss_technical": 65014.3515625,
+        "target_1": 61036.2265625,
+        "target_2": 58649.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63440.6015625,
+        "entry_ideal": 63420.33984375,
         "stop_loss_technical": 65760.484375,
-        "target_1": 59960.77734375,
-        "target_2": 56480.953125,
+        "target_1": 59910.12304688,
+        "target_2": 56399.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
