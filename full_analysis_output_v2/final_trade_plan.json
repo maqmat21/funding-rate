@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T13:14:16.400129+00:00",
+    "generated_at_utc": "2026-07-28T15:34:46.800877+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.525,
-        "trend": "alcista"
+        "price": 101.333,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.63,
+        "price": 4.592,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 26m",
     "News from the Yahoo Finance Network",
-    "Boeing reports loss on Air Force One but sees progress in turnaround",
+    "She was a custodian at a data center. Now Mike Rowe and Meta are training her to become an advanced technician",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
     "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
-    "My financial adviser is against a withdrawal plan for my $2.3 million portfolio. Is he making a mistake?",
-    "Prediction: Warren Buffett's Successor, Greg Abel, Extended a Dubious 15-Quarter Net-Selling Streak at Berkshire Hathaway in the 2nd Quarter",
-    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
+    "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
+    "Does IBM pay dividends? History, yield & payout ratio explained",
     "The Stock Market Sounds an Alarm Triggered Just Once Before. History Says This Will Happen Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63420.33984375,
-        "perp_last_price": 63420.33984375,
-        "mark_price": 63420.33984375,
-        "index_price": 63420.33984375,
+        "spot_price": 63682.6796875,
+        "perp_last_price": 63682.6796875,
+        "mark_price": 63682.6796875,
+        "index_price": 63682.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63423.1015625,
-        "stop_loss_technical": 65014.3515625,
-        "target_1": 61036.2265625,
-        "target_2": 58649.3515625,
+        "entry_ideal": 63682.6796875,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65139.44921875,
+        "target_2": 66596.21875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63420.33984375,
-        "stop_loss_technical": 65760.484375,
-        "target_1": 59910.12304688,
-        "target_2": 56399.90625,
+        "entry_ideal": 63682.6796875,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65139.44921875,
+        "target_2": 66596.21875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
