@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T18:22:02.229606+00:00",
+    "generated_at_utc": "2026-07-28T19:57:41.909096+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,52 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.398,
+        "price": 101.382,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.602,
+        "price": 4.604,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 39m",
     "News from the Yahoo Finance Network",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
-    "Warren Buffett’s 2 rules look prescient as the S&P 500 slides",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
     "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
-    "Goodbye, 4.7% COLA: Why the Latest Estimates for Social Security Recipients Just Changed",
-    "Dave Ramsey Slams A Couple Who Pulled $190K Out Of The Stock Market And Lost At Least $26K. 'You Don't Have The Backbone To Stand The Volatility'"
+    "Super Micro Computer Booked More Than $60 Billion of Orders Last Quarter. The Entire Company Is Worth $19 Billion.",
+    "Elme reaches deal to sell last property for $250M",
+    "Dave Ramsey Slams A Couple Who Pulled $190K Out Of The Stock Market And Lost At Least $26K. 'You Don't Have The Backbone To Stand The Volatility'",
+    "Peapack-Gladstone Financial Q2 Earnings Call Highlights"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63639.94921875,
-        "perp_last_price": 63639.94921875,
-        "mark_price": 63639.94921875,
-        "index_price": 63639.94921875,
+        "spot_price": 63792.671875,
+        "perp_last_price": 63792.671875,
+        "mark_price": 63792.671875,
+        "index_price": 63792.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 63792.671875,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65414.4296875,
+        "target_2": 67036.1875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -49,24 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63654.0390625,
+        "entry_ideal": 63792.671875,
         "stop_loss_technical": 62711.5,
-        "target_1": 65067.84765625,
-        "target_2": 66481.65625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 63639.94921875,
-        "stop_loss_technical": 62685.34998047,
-        "target_1": 65071.84807617,
-        "target_2": 66503.74693359,
+        "target_1": 65414.4296875,
+        "target_2": 67036.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
