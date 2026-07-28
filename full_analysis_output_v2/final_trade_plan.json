@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T17:04:18.815992+00:00",
+    "generated_at_utc": "2026-07-28T18:22:02.229606+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.311,
+        "price": 101.398,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.598,
+        "price": 4.602,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 57m",
+    "U.S. markets close in 1h 39m",
     "News from the Yahoo Finance Network",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
-    "Trump Criticized Biden for Draining America’s Oil Reserves. They’re Now at a 43-Year Low Amidst a Middle East War.",
-    "Moving States to Save on 401(k) RMDs? A $2.1 Million Case Study Reveals the Hidden Federal Cost",
+    "Warren Buffett’s 2 rules look prescient as the S&P 500 slides",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
     "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
-    "Warren Buffett Just Shared a 10-Word Warning With Investors. Here's What History Says Happens Next."
+    "Goodbye, 4.7% COLA: Why the Latest Estimates for Social Security Recipients Just Changed",
+    "Dave Ramsey Slams A Couple Who Pulled $190K Out Of The Stock Market And Lost At Least $26K. 'You Don't Have The Backbone To Stand The Volatility'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63894.12890625,
-        "perp_last_price": 63894.12890625,
-        "mark_price": 63894.12890625,
-        "index_price": 63894.12890625,
+        "spot_price": 63639.94921875,
+        "perp_last_price": 63639.94921875,
+        "mark_price": 63639.94921875,
+        "index_price": 63639.94921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63895.19921875,
+        "entry_ideal": 63654.0390625,
         "stop_loss_technical": 62711.5,
-        "target_1": 65670.74804688,
-        "target_2": 67446.296875,
+        "target_1": 65067.84765625,
+        "target_2": 66481.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63894.12890625,
-        "stop_loss_technical": 62711.5,
-        "target_1": 65668.07226562,
-        "target_2": 67442.015625,
+        "entry_ideal": 63639.94921875,
+        "stop_loss_technical": 62685.34998047,
+        "target_1": 65071.84807617,
+        "target_2": 66503.74693359,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
