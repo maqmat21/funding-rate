@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T13:17:37.168988+00:00",
+    "generated_at_utc": "2026-07-29T15:20:28.533615+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.477,
+        "price": 101.421,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.627,
-        "trend": "bajista"
+        "price": 4.639,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 41m",
     "News from the Yahoo Finance Network",
+    "Chevron Stock: Is Wall Street Bullish or Bearish?",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "IBM vs Verizon: The Most Undervalued Dow Stocks Right Now",
-    "Their Grandma, 88, Owes $26K Across 4 Credit Cards. Should She File for Bankruptcy, Consolidate or Do Nothing?",
-    "Investors are selling Meta as it heads to its earnings report",
-    "What Does Figma Chief Revenue Officer's Sale of Over 11,000 Company Shares Mean for Investors?",
-    "Caterpillar (CAT) Shrugs Off Tariff Hit as Demand ‘Heats Up’",
-    "Jamie Dimon says his stockbroker father taught him to invest with a ‘brutally hard’ childhood game"
+    "Do Wall Street Analysts Like Wells Fargo Stock?",
+    "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
+    "Trump Asks Supreme Court to Scrap $83.3 Million Carroll Verdict",
+    "Norwegian Cruise Line Stock: Analyst Estimates & Ratings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64140.01171875,
-        "perp_last_price": 64140.01171875,
-        "mark_price": 64140.01171875,
-        "index_price": 64140.01171875,
+        "spot_price": 63926.7109375,
+        "perp_last_price": 63926.7109375,
+        "mark_price": 63926.7109375,
+        "index_price": 63926.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64140.01171875,
-        "stop_loss_technical": 64641.78125,
-        "target_1": 63387.35742188,
-        "target_2": 62634.703125,
+        "entry_ideal": 63926.7109375,
+        "stop_loss_technical": 64654.80078125,
+        "target_1": 62834.57617188,
+        "target_2": 61742.44140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64140.01171875,
-        "stop_loss_technical": 62714.8046875,
-        "target_1": 66277.82226562,
-        "target_2": 68415.6328125,
+        "entry_ideal": 63926.7109375,
+        "stop_loss_technical": 65658.3359375,
+        "target_1": 61329.2734375,
+        "target_2": 58731.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
