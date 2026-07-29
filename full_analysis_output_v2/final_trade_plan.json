@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T16:40:16.079884+00:00",
+    "generated_at_utc": "2026-07-29T17:52:32.555895+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.456,
-        "trend": "alcista"
+        "price": 101.368,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.651,
+        "price": 4.643,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 21m",
+    "U.S. markets close in 2h 9m",
     "News from the Yahoo Finance Network",
+    "Costco’s $14 million email settlement: Who qualifies for an up-to $500 payment and how to claim before the Aug. 24 deadline",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "Littelfuse Q2 Earnings Call Highlights",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "All Eyes Are on Kevin Warsh: 1 Reason the Federal Reserve's Actions Don't Matter to Long-Term Investors.",
-    "How much interest can a $15,000 1-year CD account earn now (and is it worth opening)?",
-    "Is the Private Credit Boom a Gift or a Risk for BDC Income Investors?"
+    "Redfin reveals surprising turn in America’s housing market",
+    "Seacoast Banking Corporation of Florida Q2 Earnings Call Highlights",
+    "Foreign buyers seem to be following Zohran Mamdani’s cue — and fleeing American real estate"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63808.421875,
-        "perp_last_price": 63808.421875,
-        "mark_price": 63808.421875,
-        "index_price": 63808.421875,
+        "spot_price": 63983.98046875,
+        "perp_last_price": 63983.98046875,
+        "mark_price": 63983.98046875,
+        "index_price": 63983.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63808.421875,
-        "stop_loss_technical": 64654.80078125,
-        "target_1": 62538.85351562,
-        "target_2": 61269.28515625,
+        "entry_ideal": 63986.3984375,
+        "stop_loss_technical": 63469.62890625,
+        "target_1": 64761.55273438,
+        "target_2": 65536.70703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63808.421875,
+        "entry_ideal": 63983.98046875,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 61033.55078125,
-        "target_2": 58258.6796875,
+        "target_1": 61472.44726562,
+        "target_2": 58960.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
