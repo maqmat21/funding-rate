@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T03:32:48.552794+00:00",
+    "generated_at_utc": "2026-07-29T06:16:02.332278+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.321,
+        "price": 101.289,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,53 +21,53 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 14m",
     "News from the Yahoo Finance Network",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
     "Trump Asks Supreme Court to Scrap $83.3 Million Carroll Verdict",
-    "2 ETFs That Are Perfect For Retirement Income",
-    "Raymond James issues absurd price target for SpaceX stock",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "Anthony Scaramucci Says This Is Not the Capitalism He Grew Up With. 'Billionaire Know-It-Alls' Tell Him He 'Bought Into the Propaganda'",
-    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion"
+    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027.",
+    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
+    "Elon Musk and Brother Ate 4 Meals a Day at Jack in the Box, Showered at the YMCA and Slept in the Office in 1990s — Menu Still 'Seared into My Brain'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63653.98046875,
-        "perp_last_price": 63653.98046875,
-        "mark_price": 63653.98046875,
-        "index_price": 63653.98046875,
+        "spot_price": 64013.78125,
+        "perp_last_price": 64013.78125,
+        "mark_price": 64013.78125,
+        "index_price": 64013.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63653.98046875,
-        "stop_loss_technical": 62699.17076172,
-        "target_1": 65086.1950293,
-        "target_2": 66518.40958984,
+        "entry_ideal": 64013.78125,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65967.203125,
+        "target_2": 67920.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63653.98046875,
-        "stop_loss_technical": 62699.17076172,
-        "target_1": 65086.1950293,
-        "target_2": 66518.40958984,
+        "entry_ideal": 64013.78125,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65967.203125,
+        "target_2": 67920.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
