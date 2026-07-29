@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T18:51:31.974839+00:00",
+    "generated_at_utc": "2026-07-29T20:06:15.199232+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.051,
+        "price": 100.93,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.647,
-        "trend": "alcista"
+        "price": 4.622,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 10m",
     "News from the Yahoo Finance Network",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "Piper Sandler turns heads with bold Rivian stock prediction",
-    "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "Costco’s $14 million email settlement: Who qualifies for an up-to $500 payment and how to claim before the Aug. 24 deadline",
-    "He worked 100-hour weeks to save a nearly bankrupt boat company. At 83, he’s just turned down $400 million for it—and gave it all to charity instead",
-    "Dave Ramsey Slams A Couple Who Pulled $190K Out Of The Stock Market And Lost At Least $26K. 'You Don't Have The Backbone To Stand The Volatility'"
+    "Snowflake Director Benoit Dageville Sells $18.4 Million Stock",
+    "Dave Ramsey Slams A Couple Who Pulled $190K Out Of The Stock Market And Lost At Least $26K. 'You Don't Have The Backbone To Stand The Volatility'",
+    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
+    "Bond Yields Shoot Lower on Fed Decision",
+    "Bloom Energy Earnings Surge 680%, But AI Power Player Skids",
+    "He worked 100-hour weeks to save a nearly bankrupt boat company. At 83, he’s just turned down $400 million for it—and gave it all to charity instead"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64379.48046875,
-        "perp_last_price": 64379.48046875,
-        "mark_price": 64379.48046875,
-        "index_price": 64379.48046875,
+        "spot_price": 63459.7109375,
+        "perp_last_price": 63459.7109375,
+        "mark_price": 63459.7109375,
+        "index_price": 63459.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64379.48046875,
-        "stop_loss_technical": 63469.62109375,
-        "target_1": 65744.26953125,
-        "target_2": 67109.05859375,
+        "entry_ideal": 63459.7109375,
+        "stop_loss_technical": 62507.81527344,
+        "target_1": 64887.55443359,
+        "target_2": 66315.39792969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64379.48046875,
-        "stop_loss_technical": 62714.8046875,
-        "target_1": 66876.49414062,
-        "target_2": 69373.5078125,
+        "entry_ideal": 63459.7109375,
+        "stop_loss_technical": 62507.81527344,
+        "target_1": 64887.55443359,
+        "target_2": 66315.39792969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
