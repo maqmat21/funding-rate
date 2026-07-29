@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T00:09:36.273007+00:00",
+    "generated_at_utc": "2026-07-29T03:32:48.552794+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.428,
+        "price": 101.321,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Trump Asks Supreme Court to Scrap $83.3 Million Carroll Verdict",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
-    "Trump Administration to End Drug Plan Subsidy for Medicare",
+    "Trump Asks Supreme Court to Scrap $83.3 Million Carroll Verdict",
+    "2 ETFs That Are Perfect For Retirement Income",
+    "Raymond James issues absurd price target for SpaceX stock",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
-    "87-year-old grocery giant closing more stores",
-    "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027."
+    "Anthony Scaramucci Says This Is Not the Capitalism He Grew Up With. 'Billionaire Know-It-Alls' Tell Him He 'Bought Into the Propaganda'",
+    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63970.30078125,
-        "perp_last_price": 63970.30078125,
-        "mark_price": 63970.30078125,
-        "index_price": 63970.30078125,
+        "spot_price": 63653.98046875,
+        "perp_last_price": 63653.98046875,
+        "mark_price": 63653.98046875,
+        "index_price": 63653.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63967.30859375,
-        "stop_loss_technical": 62711.5,
-        "target_1": 65851.02148438,
-        "target_2": 67734.734375,
+        "entry_ideal": 63653.98046875,
+        "stop_loss_technical": 62699.17076172,
+        "target_1": 65086.1950293,
+        "target_2": 66518.40958984,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63970.30078125,
-        "stop_loss_technical": 62711.5,
-        "target_1": 65858.50195312,
-        "target_2": 67746.703125,
+        "entry_ideal": 63653.98046875,
+        "stop_loss_technical": 62699.17076172,
+        "target_1": 65086.1950293,
+        "target_2": 66518.40958984,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
