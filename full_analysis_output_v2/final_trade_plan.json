@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T11:31:52.747633+00:00",
+    "generated_at_utc": "2026-07-29T13:17:37.168988+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,61 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.402,
+        "price": 101.477,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.604,
+        "price": 4.627,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 59m",
     "News from the Yahoo Finance Network",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "Trump broke his promise to lower — and eliminate — the national debt. A top investor thinks he’s the ‘worst-spending president in history’",
-    "Banc of California (NYSE:BANC) Misses Q2 CY2026 Sales Expectations",
-    "Elon Musk said money doesn’t matter. Then he rolled out X Money and admitted he’s a ‘former trillionaire’",
-    "Prosperity Bancshares (NYSE:PB) Exceeds Q2 CY2026 Expectations",
+    "IBM vs Verizon: The Most Undervalued Dow Stocks Right Now",
+    "Their Grandma, 88, Owes $26K Across 4 Credit Cards. Should She File for Bankruptcy, Consolidate or Do Nothing?",
+    "Investors are selling Meta as it heads to its earnings report",
+    "What Does Figma Chief Revenue Officer's Sale of Over 11,000 Company Shares Mean for Investors?",
+    "Caterpillar (CAT) Shrugs Off Tariff Hit as Demand ‘Heats Up’",
     "Jamie Dimon says his stockbroker father taught him to invest with a ‘brutally hard’ childhood game"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64430.37109375,
-        "perp_last_price": 64430.37109375,
-        "mark_price": 64430.37109375,
-        "index_price": 64430.37109375,
+        "spot_price": 64140.01171875,
+        "perp_last_price": 64140.01171875,
+        "mark_price": 64140.01171875,
+        "index_price": 64140.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64431.390625,
+        "entry_ideal": 64140.01171875,
         "stop_loss_technical": 64641.78125,
-        "target_1": 64115.8046875,
-        "target_2": 63800.21875,
+        "target_1": 63387.35742188,
+        "target_2": 62634.703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64430.37109375,
+        "entry_ideal": 64140.01171875,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 67003.72070312,
-        "target_2": 69577.0703125,
+        "target_1": 66277.82226562,
+        "target_2": 68415.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
