@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T15:20:28.533615+00:00",
+    "generated_at_utc": "2026-07-29T16:40:16.079884+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.421,
+        "price": 101.456,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.639,
+        "price": 4.651,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 41m",
+    "U.S. markets close in 3h 21m",
     "News from the Yahoo Finance Network",
-    "Chevron Stock: Is Wall Street Bullish or Bearish?",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "Do Wall Street Analysts Like Wells Fargo Stock?",
+    "Littelfuse Q2 Earnings Call Highlights",
     "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
-    "Trump Asks Supreme Court to Scrap $83.3 Million Carroll Verdict",
-    "Norwegian Cruise Line Stock: Analyst Estimates & Ratings"
+    "All Eyes Are on Kevin Warsh: 1 Reason the Federal Reserve's Actions Don't Matter to Long-Term Investors.",
+    "How much interest can a $15,000 1-year CD account earn now (and is it worth opening)?",
+    "Is the Private Credit Boom a Gift or a Risk for BDC Income Investors?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63926.7109375,
-        "perp_last_price": 63926.7109375,
-        "mark_price": 63926.7109375,
-        "index_price": 63926.7109375,
+        "spot_price": 63808.421875,
+        "perp_last_price": 63808.421875,
+        "mark_price": 63808.421875,
+        "index_price": 63808.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,10 +50,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63926.7109375,
+        "entry_ideal": 63808.421875,
         "stop_loss_technical": 64654.80078125,
-        "target_1": 62834.57617188,
-        "target_2": 61742.44140625,
+        "target_1": 62538.85351562,
+        "target_2": 61269.28515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63926.7109375,
+        "entry_ideal": 63808.421875,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 61329.2734375,
-        "target_2": 58731.8359375,
+        "target_1": 61033.55078125,
+        "target_2": 58258.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
