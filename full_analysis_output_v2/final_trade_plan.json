@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-29T21:08:19.791064+00:00",
+    "generated_at_utc": "2026-07-29T22:09:15.982581+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.812,
+        "price": 100.849,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "Teradyne Inc (TER) Q2 2026 Earnings Call Highlights: Record Revenue and Robust AI Demand Propel ...",
-    "Watsco Inc (WSO) Q2 2026 Earnings Call Highlights: Strong Cash Position and Strategic ...",
-    "Old Dominion Freight Line Inc (ODFL) Q2 2026 Earnings Call Highlights: Record Revenue and ...",
-    "Flex Ltd (FLEX) Q1 2027 Earnings Call Highlights: Record Growth and Strategic Advancements",
-    "OneMain Holdings Inc (OMF) Q2 2026 Earnings Call Highlights: Strong Receivables Growth and ...",
-    "Waste Management Inc (WM) Q2 2026 Earnings Call Highlights: Strong Cash Flow and Margin ..."
+    "President Trump Threw Social Security Retirees a Bone. Here’s the Fallout",
+    "An economist dared Elon Musk to give away his $1t fortune in the next decade – Musk says he’s planning something similar",
+    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
+    "Tesla Closed Tuesday 3% Above Its 52-Week Low. Here's What Happened the Last 3 Times It Got This Close.",
+    "TPG RE Finance Trust Inc (TRTX) Q2 2026 Earnings Call Highlights: Navigating Market Challenges ...",
+    "Sandisk Stock Has Surged More Than 2,000% in a Year. History Suggests This Is Where the Stock Could Be in 2028"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63221.80859375,
-        "perp_last_price": 63221.80859375,
-        "mark_price": 63221.80859375,
-        "index_price": 63221.80859375,
+        "spot_price": 63943.73046875,
+        "perp_last_price": 63943.73046875,
+        "mark_price": 63943.73046875,
+        "index_price": 63943.73046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63223.4609375,
-        "stop_loss_technical": 62275.10902344,
-        "target_1": 64645.98880859,
-        "target_2": 66068.51667969,
+        "entry_ideal": 63947.71875,
+        "stop_loss_technical": 63201.76953125,
+        "target_1": 65066.64257812,
+        "target_2": 66185.56640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63221.80859375,
-        "stop_loss_technical": 62273.48146484,
-        "target_1": 64644.29928711,
-        "target_2": 66066.78998047,
+        "entry_ideal": 63943.73046875,
+        "stop_loss_technical": 62984.57451172,
+        "target_1": 65382.4644043,
+        "target_2": 66821.19833984,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
