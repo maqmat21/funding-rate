@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-28T23:15:37.788528+00:00",
+    "generated_at_utc": "2026-07-29T00:09:36.273007+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.393,
+        "price": 101.428,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Trump Asks Supreme Court to Scrap $83.3 Million Carroll Verdict",
     "A Nobel economist challenged Elon Musk to donate his entire $1T fortune by 2036. Musk’s reply: ‘I am actually going to do something along these lines’",
-    "Tilray Brands Q4 Earnings Call Highlights",
-    "Enphase Energy Q2 Earnings Call Highlights",
-    "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
     "Trump Administration to End Drug Plan Subsidy for Medicare",
-    "Seagate Technology Q4 Earnings Call Highlights",
+    "Elon Musk Spent Months Trying to Cut Government Spending. Now He Says The Treasury Should Just “Issue People Checks”",
+    "'Rich Dad Poor Dad' author warns of gold seizure as U.S. debt nears $40 trillion",
+    "87-year-old grocery giant closing more stores",
     "SpaceX Stock Plummets 50% Below Its Post-IPO High. History Says a $5,000 Investment Will Be Worth This Much by June 2027."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63566.8203125,
-        "perp_last_price": 63566.8203125,
-        "mark_price": 63566.8203125,
-        "index_price": 63566.8203125,
+        "spot_price": 63970.30078125,
+        "perp_last_price": 63970.30078125,
+        "mark_price": 63970.30078125,
+        "index_price": 63970.30078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63573.671875,
-        "stop_loss_technical": 62620.06679687,
-        "target_1": 65004.07949219,
-        "target_2": 66434.48710937,
+        "entry_ideal": 63967.30859375,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65851.02148438,
+        "target_2": 67734.734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63566.8203125,
-        "stop_loss_technical": 62613.31800781,
-        "target_1": 64997.07376953,
-        "target_2": 66427.32722656,
+        "entry_ideal": 63970.30078125,
+        "stop_loss_technical": 62711.5,
+        "target_1": 65858.50195312,
+        "target_2": 67746.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
