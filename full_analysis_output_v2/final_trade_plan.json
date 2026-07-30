@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T12:21:25.185703+00:00",
+    "generated_at_utc": "2026-07-30T14:38:12.831690+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.676,
+        "price": 100.004,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.622,
-        "trend": "bajista"
+        "price": 4.657,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 10m",
+    "U.S. markets close in 5h 23m",
     "News from the Yahoo Finance Network",
+    "People from this country are buying up the most homes in America right now, even as international sales dry up",
     "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
-    "My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait?",
     "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
-    "9 States Where You Can Avoid Taxes on Capital Gains, Dividends, and Investment Income",
-    "Elon Musk hints at donating entire $1T fortune after shock 2036 prediction — why extreme deflation could be ahead",
-    "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years"
+    "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
+    "QCOM Stock Has Lost 41% In Two Months — Wall Street Turns Cautious After Qualcomm Warns AAPL's Exit Is Accelerating",
+    "After 587 closures, seafood chain has 494 restaurants left"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64799.80078125,
-        "perp_last_price": 64799.80078125,
-        "mark_price": 64799.80078125,
-        "index_price": 64799.80078125,
+        "spot_price": 64745.9296875,
+        "perp_last_price": 64745.9296875,
+        "mark_price": 64745.9296875,
+        "index_price": 64745.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64799.80078125,
-        "stop_loss_technical": 63201.76953125,
-        "target_1": 67196.84765625,
-        "target_2": 69593.89453125,
+        "entry_ideal": 64725.73046875,
+        "stop_loss_technical": 65113.578125,
+        "target_1": 64143.95898438,
+        "target_2": 63562.1875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64799.80078125,
+        "entry_ideal": 64745.9296875,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 67927.29492188,
-        "target_2": 71054.7890625,
+        "target_1": 67792.6171875,
+        "target_2": 70839.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
