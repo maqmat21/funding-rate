@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T03:29:03.964562+00:00",
+    "generated_at_utc": "2026-07-30T06:05:31.857468+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.948,
+        "price": 100.945,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 25m",
     "News from the Yahoo Finance Network",
     "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
     "Elon Musk Says He Is ‘Going to Do Something...’ After Nobel Economist Dares Him to Pledge $1 Trillion to Charity If ‘Money Won’t Matter In 2036’",
-    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
-    "Why JPMorgan CEO Jamie Dimon Says Investors Should Skip 4.6% Yields — ‘I Would Not Be A Buyer’",
-    "Did AI Momentum and France’s Exit Just Shift Palantir Technologies' (PLTR) Investment Narrative?",
-    "Intel Stock Sinks 40%, But Most Analysts Still Aren’t Bullish on INTC"
+    "Microsoft Corp (MSFT) (Q4 2026) Earnings Call Highlights: Record Revenue Surpasses $331 ...",
+    "Intel Stock Sinks 40%, But Most Analysts Still Aren’t Bullish on INTC",
+    "Why JPMorgan CEO Jamie Dimon Says Investors Should Skip 4.6% Yields — ‘I Would Not Be A Buyer’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64175.1484375,
-        "perp_last_price": 64175.1484375,
-        "mark_price": 64175.1484375,
-        "index_price": 64175.1484375,
+        "spot_price": 63955.71875,
+        "perp_last_price": 63955.71875,
+        "mark_price": 63955.71875,
+        "index_price": 63955.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64175.1484375,
-        "stop_loss_technical": 63206.0,
-        "target_1": 65628.87109375,
-        "target_2": 67082.59375,
+        "entry_ideal": 63955.71875,
+        "stop_loss_technical": 62996.38296875,
+        "target_1": 65394.72242187,
+        "target_2": 66833.72609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64175.1484375,
-        "stop_loss_technical": 62714.8046875,
-        "target_1": 66365.6640625,
-        "target_2": 68556.1796875,
+        "entry_ideal": 63955.71875,
+        "stop_loss_technical": 62996.38296875,
+        "target_1": 65394.72242187,
+        "target_2": 66833.72609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
