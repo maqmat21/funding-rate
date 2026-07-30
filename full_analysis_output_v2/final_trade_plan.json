@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T22:42:34.970000+00:00",
+    "generated_at_utc": "2026-07-30T23:42:17.801702+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.969,
+        "price": 100.023,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,35 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
-    "Micron Technology (MU) Stock Gets Fair Value Bump As AI Demand And Contracts Draw Praise",
+    "Warren Buffett's Legacy Oil Bet Is Paying Off Under Greg Abel. Nobody's Talking About It.",
     "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
-    "Terex Corp (TEX) (Q2 2026) Earnings Call Highlights: Revenue and Bookings Surge, but Tariff ...",
-    "Coca-Cola Just Hit an All-Time High. Here's How Much $25,000 Invested Pays Annually.",
-    "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
-    "After 587 closures, seafood chain has 494 restaurants left"
+    "Everyone Wants to Build the Best AI Model. Amazon Wants Something More Valuable.",
+    "Micron Technology (MU) Stock Gets Fair Value Bump As AI Demand And Contracts Draw Praise",
+    "Apple beats estimates as iPhone revenue jumps 22%",
+    "She Inherited Her Mother’s $800,000 Portfolio and Sold Everything the Next Month. Total Tax Bill: $0"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64841.98828125,
-        "perp_last_price": 64841.98828125,
-        "mark_price": 64841.98828125,
-        "index_price": 64841.98828125,
+        "spot_price": 64869.37890625,
+        "perp_last_price": 64869.37890625,
+        "mark_price": 64869.37890625,
+        "index_price": 64869.37890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64841.98046875,
-        "stop_loss_technical": 63822.01171875,
-        "target_1": 66371.93359375,
-        "target_2": 67901.88671875,
+        "entry_ideal": 64869.37890625,
+        "stop_loss_technical": 65113.578125,
+        "target_1": 64503.08007812,
+        "target_2": 64136.78125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64841.98828125,
+        "entry_ideal": 64869.37890625,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 68032.76367188,
-        "target_2": 71223.5390625,
+        "target_1": 68101.24023438,
+        "target_2": 71333.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
