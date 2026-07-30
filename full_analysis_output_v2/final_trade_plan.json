@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T08:43:35.106407+00:00",
+    "generated_at_utc": "2026-07-30T10:51:26.961777+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.936,
+        "price": 100.655,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,27 +21,41 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 47m",
+    "U.S. markets open in 2h 39m",
     "News from the Yahoo Finance Network",
+    "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
+    "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
+    "Mamdani’s pied-à-terre tax was designed to hit the wealthy, but it’s sending most New Yorkers to their estate lawyers",
     "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "Lithia Motors (LAD) Could Be 15% Above Fair Value After Earnings Beat",
-    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
-    "Elon Musk Says He Is ‘Going to Do Something...’ After Nobel Economist Dares Him to Pledge $1 Trillion to Charity If ‘Money Won’t Matter In 2036’",
-    "Why JPMorgan CEO Jamie Dimon Says Investors Should Skip 4.6% Yields — ‘I Would Not Be A Buyer’"
+    "Rich young Americans are ditching the stock market"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64214.23046875,
-        "perp_last_price": 64214.23046875,
-        "mark_price": 64214.23046875,
-        "index_price": 64214.23046875,
+        "spot_price": 64497.0,
+        "perp_last_price": 64497.0,
+        "mark_price": 64497.0,
+        "index_price": 64497.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 64496.98828125,
+        "stop_loss_technical": 63529.53345703,
+        "target_1": 65948.17051758,
+        "target_2": 67399.35275391,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 90,
@@ -50,24 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64214.23046875,
-        "stop_loss_technical": 63206.0,
-        "target_1": 65726.57617188,
-        "target_2": 67238.921875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 64214.23046875,
+        "entry_ideal": 64497.0,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 66463.36914062,
-        "target_2": 68712.5078125,
+        "target_1": 67170.29296875,
+        "target_2": 69843.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
