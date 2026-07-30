@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T14:38:12.831690+00:00",
+    "generated_at_utc": "2026-07-30T16:11:03.896107+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.004,
+        "price": 100.0,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.657,
+        "price": 4.663,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 23m",
+    "U.S. markets close in 3h 49m",
     "News from the Yahoo Finance Network",
-    "People from this country are buying up the most homes in America right now, even as international sales dry up",
     "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
+    "Does This Top Warren Buffett Stock Have the Widest Moat in Payments?",
     "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
     "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
-    "QCOM Stock Has Lost 41% In Two Months — Wall Street Turns Cautious After Qualcomm Warns AAPL's Exit Is Accelerating",
-    "After 587 closures, seafood chain has 494 restaurants left"
+    "$19.6 Billion: The Microsoft Earnings Number That Matters Most",
+    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64745.9296875,
-        "perp_last_price": 64745.9296875,
-        "mark_price": 64745.9296875,
-        "index_price": 64745.9296875,
+        "spot_price": 64773.390625,
+        "perp_last_price": 64773.390625,
+        "mark_price": 64773.390625,
+        "index_price": 64773.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64725.73046875,
-        "stop_loss_technical": 65113.578125,
-        "target_1": 64143.95898438,
-        "target_2": 63562.1875,
+        "entry_ideal": 64773.390625,
+        "stop_loss_technical": 63206.0,
+        "target_1": 67124.4765625,
+        "target_2": 69475.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64745.9296875,
+        "entry_ideal": 64773.390625,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 67792.6171875,
-        "target_2": 70839.3046875,
+        "target_1": 67861.26953125,
+        "target_2": 70949.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
