@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T17:48:55.715518+00:00",
+    "generated_at_utc": "2026-07-30T19:02:26.029466+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.96,
+        "price": 99.9,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 13m",
     "News from the Yahoo Finance Network",
     "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
     "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
     "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
+    "‘I predict one day Amazon will fail’: Jeff Bezos once warned his company might only last 30 years. At 31, it’s the biggest company in the world",
+    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
     "Jersey Mike's stock opens at $21 per share, valuing the company at over $7 billion",
-    "Is Nike the Ultimate Dividend Stock You Should Buy Right Now?",
-    "Jersey Mike’s Prices Below What Blackstone Paid For It"
+    "Coca-Cola Just Hit an All-Time High. Here's How Much $25,000 Invested Pays Annually."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64869.71875,
-        "perp_last_price": 64869.71875,
-        "mark_price": 64869.71875,
-        "index_price": 64869.71875,
+        "spot_price": 64672.3203125,
+        "perp_last_price": 64672.3203125,
+        "mark_price": 64672.3203125,
+        "index_price": 64672.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64869.71875,
-        "stop_loss_technical": 63513.44140625,
-        "target_1": 66904.13476562,
-        "target_2": 68938.55078125,
+        "entry_ideal": 64672.3203125,
+        "stop_loss_technical": 65075.75,
+        "target_1": 64067.17578125,
+        "target_2": 63462.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64869.71875,
+        "entry_ideal": 64672.3203125,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 68102.08984375,
-        "target_2": 71334.4609375,
+        "target_1": 67608.59375,
+        "target_2": 70544.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
