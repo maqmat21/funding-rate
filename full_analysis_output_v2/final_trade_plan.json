@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T00:11:09.866707+00:00",
+    "generated_at_utc": "2026-07-30T03:29:03.964562+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.791,
+        "price": 100.948,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,52 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
-    "The Memory Crash Has 4 Big Stocks Down 30% or More From Their Highs. I'd Buy 2 of Them.",
-    "President Trump Threw Social Security Retirees a Bone. Here’s the Fallout",
-    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
-    "An economist dared Elon Musk to give away his $1t fortune in the next decade – Musk says he’s planning something similar",
     "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
-    "Micron’s CEO sold big last week. Was it a warning sign?"
+    "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
+    "Elon Musk Says He Is ‘Going to Do Something...’ After Nobel Economist Dares Him to Pledge $1 Trillion to Charity If ‘Money Won’t Matter In 2036’",
+    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
+    "Why JPMorgan CEO Jamie Dimon Says Investors Should Skip 4.6% Yields — ‘I Would Not Be A Buyer’",
+    "Did AI Momentum and France’s Exit Just Shift Palantir Technologies' (PLTR) Investment Narrative?",
+    "Intel Stock Sinks 40%, But Most Analysts Still Aren’t Bullish on INTC"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63949.71875,
-        "perp_last_price": 63949.71875,
-        "mark_price": 63949.71875,
-        "index_price": 63949.71875,
+        "spot_price": 64175.1484375,
+        "perp_last_price": 64175.1484375,
+        "mark_price": 64175.1484375,
+        "index_price": 64175.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63949.73828125,
-        "stop_loss_technical": 63500.62890625,
-        "target_1": 64623.40234375,
-        "target_2": 65297.06640625,
+        "entry_ideal": 64175.1484375,
+        "stop_loss_technical": 63206.0,
+        "target_1": 65628.87109375,
+        "target_2": 67082.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63949.71875,
-        "stop_loss_technical": 62990.47296875,
-        "target_1": 65388.58742188,
-        "target_2": 66827.45609375,
+        "entry_ideal": 64175.1484375,
+        "stop_loss_technical": 62714.8046875,
+        "target_1": 66365.6640625,
+        "target_2": 68556.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
