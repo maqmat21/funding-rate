@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T06:05:31.857468+00:00",
+    "generated_at_utc": "2026-07-30T08:43:35.106407+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.945,
+        "price": 100.936,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 25m",
+    "U.S. markets open in 4h 47m",
     "News from the Yahoo Finance Network",
     "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
     "How much cash do you need invested in 2026 to completely live off dividends? Probably less than you think",
+    "Lithia Motors (LAD) Could Be 15% Above Fair Value After Earnings Beat",
+    "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
     "Elon Musk Says He Is ‘Going to Do Something...’ After Nobel Economist Dares Him to Pledge $1 Trillion to Charity If ‘Money Won’t Matter In 2036’",
-    "Microsoft Corp (MSFT) (Q4 2026) Earnings Call Highlights: Record Revenue Surpasses $331 ...",
-    "Intel Stock Sinks 40%, But Most Analysts Still Aren’t Bullish on INTC",
     "Why JPMorgan CEO Jamie Dimon Says Investors Should Skip 4.6% Yields — ‘I Would Not Be A Buyer’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63955.71875,
-        "perp_last_price": 63955.71875,
-        "mark_price": 63955.71875,
-        "index_price": 63955.71875,
+        "spot_price": 64214.23046875,
+        "perp_last_price": 64214.23046875,
+        "mark_price": 64214.23046875,
+        "index_price": 64214.23046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63955.71875,
-        "stop_loss_technical": 62996.38296875,
-        "target_1": 65394.72242187,
-        "target_2": 66833.72609375,
+        "entry_ideal": 64214.23046875,
+        "stop_loss_technical": 63206.0,
+        "target_1": 65726.57617188,
+        "target_2": 67238.921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63955.71875,
-        "stop_loss_technical": 62996.38296875,
-        "target_1": 65394.72242187,
-        "target_2": 66833.72609375,
+        "entry_ideal": 64214.23046875,
+        "stop_loss_technical": 62714.8046875,
+        "target_1": 66463.36914062,
+        "target_2": 68712.5078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
