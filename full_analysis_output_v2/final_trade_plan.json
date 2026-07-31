@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-31T14:35:27.878567+00:00",
+    "generated_at_utc": "2026-07-31T16:18:35.871237+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.33,
-        "trend": "alcista"
+        "price": 100.059,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.726,
+        "price": 4.737,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 25m",
+    "U.S. markets close in 3h 42m",
     "News from the Yahoo Finance Network",
-    "Apple's iPhone leasing program: How it works, what to consider",
+    "Top nuclear power firm files for US IPO",
     "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
+    "Bessent Invokes Satoshi to Force Senate Vote on Crypto Clarity Act",
     "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
-    "Denver's 21-ton potato giveaway vanished in 90 minutes — exposing a global surplus farmers can't escape",
-    "Sell Your Winners, Pay 0% Tax, and Buy Them Right Back the Same Day. It’s the Reset the Wash-Sale Rule Can’t Touch",
-    "Netflix Is Down 46% -- Here's Why I'm Buying More"
+    "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
+    "Sell Your Winners, Pay 0% Tax, and Buy Them Right Back the Same Day. It’s the Reset the Wash-Sale Rule Can’t Touch"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62712.75,
-        "perp_last_price": 62712.75,
-        "mark_price": 62712.75,
-        "index_price": 62712.75,
+        "spot_price": 62828.171875,
+        "perp_last_price": 62828.171875,
+        "mark_price": 62828.171875,
+        "index_price": 62828.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62712.75,
-        "stop_loss_technical": 65329.5703125,
-        "target_1": 58787.51953125,
-        "target_2": 54862.2890625,
+        "entry_ideal": 62828.171875,
+        "stop_loss_technical": 62390.0,
+        "target_1": 63485.4296875,
+        "target_2": 64142.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 62712.75,
+        "entry_ideal": 62828.171875,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 58294.37109375,
-        "target_2": 53875.9921875,
+        "target_1": 58582.92578125,
+        "target_2": 54337.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
