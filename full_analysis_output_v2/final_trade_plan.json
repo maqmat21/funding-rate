@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-31T19:03:45.233141+00:00",
+    "generated_at_utc": "2026-07-31T20:25:22.810935+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.962,
+        "price": 99.885,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.743,
+        "price": 4.745,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millennials say they’ll refuse to care for aging boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
+    "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
     "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
     "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
-    "Equity Residential, AvalonBay announce name of combined firm: Vivmark Residential",
     "Sell Your Winners, Pay 0% Tax, and Buy Them Right Back the Same Day. It’s the Reset the Wash-Sale Rule Can’t Touch",
-    "The Smartest ETF to Buy With $2,000 Right Now -- and Why Warren Buffett Would Approve",
-    "Coca-Cola Just Hit an All-Time High. Here's How Much $25,000 Invested Pays Annually."
+    "Forget SpaceX's Upcoming Q2 Results. History Says You Should Wait at Least This Long Before Buying SpaceX Stock.",
+    "Netflix Is Down 46% -- Here's Why I'm Buying More",
+    "Pfizer Yields 6.8%, Trades at 8.5X Earnings, and Has a Promising Late-Stage Weight Loss Drug. Why Are So Many Investors Still Ignoring the Stock?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63034.55859375,
-        "perp_last_price": 63034.55859375,
-        "mark_price": 63034.55859375,
-        "index_price": 63034.55859375,
+        "spot_price": 62912.7890625,
+        "perp_last_price": 62912.7890625,
+        "mark_price": 62912.7890625,
+        "index_price": 62912.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63034.55859375,
-        "stop_loss_technical": 62390.7109375,
-        "target_1": 64000.33007812,
-        "target_2": 64966.1015625,
+        "entry_ideal": 62910.01953125,
+        "stop_loss_technical": 65329.5703125,
+        "target_1": 59280.69335938,
+        "target_2": 55651.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63034.55859375,
+        "entry_ideal": 62912.7890625,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 59098.89257812,
-        "target_2": 55163.2265625,
+        "target_1": 58794.46875,
+        "target_2": 54676.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
