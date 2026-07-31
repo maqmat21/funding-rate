@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-31T21:33:25.487611+00:00",
+    "generated_at_utc": "2026-07-31T22:36:26.854303+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett’s Son Sold His Inheritance For $90K At 19. It’d Be $500M Today, But He’s Got No Regrets — ‘I Don’t Believe I Would Have Been as Driven’",
     "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
     "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
     "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
-    "Marvell Stock Has Been Cut in Half. Its Biggest Fear May No Longer Be Valid.",
-    "The S-Corp Split: How Business Owners Pay Themselves Twice and Skip the 15.3% Tax on Half of It",
     "Netflix Is Down 46% -- Here's Why I'm Buying More",
-    "Sell Your Winners, Pay 0% Tax, and Buy Them Right Back the Same Day. It’s the Reset the Wash-Sale Rule Can’t Touch"
+    "Is A. O. Smith (AOS) Undervalued On Strong Q2 Earnings And Higher Buybacks?",
+    "Raising Taxes on Higher Earners to Save Social Security Has (Shocking) Bipartisan Support"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62936.05859375,
-        "perp_last_price": 62936.05859375,
-        "mark_price": 62936.05859375,
-        "index_price": 62936.05859375,
+        "spot_price": 62860.71875,
+        "perp_last_price": 62860.71875,
+        "mark_price": 62860.71875,
+        "index_price": 62860.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62936.0703125,
-        "stop_loss_technical": 62390.7109375,
-        "target_1": 63754.109375,
-        "target_2": 64572.1484375,
+        "entry_ideal": 62864.94140625,
+        "stop_loss_technical": 64429.1484375,
+        "target_1": 60518.63085938,
+        "target_2": 58172.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62936.05859375,
+        "entry_ideal": 62860.71875,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 58852.64257812,
-        "target_2": 54769.2265625,
+        "target_1": 58664.29296875,
+        "target_2": 54467.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
