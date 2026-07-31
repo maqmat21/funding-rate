@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-31T07:35:01.048625+00:00",
+    "generated_at_utc": "2026-07-31T10:09:31.206327+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.159,
+        "price": 100.175,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 56m",
+    "U.S. markets open in 3h 21m",
     "News from the Yahoo Finance Network",
+    "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
+    "If a Bear Market Is Coming in 2026, History Says This 1 Investment Is the Safest Place to Park Your Money",
+    "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
     "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
-    "Billionaire Bill Ackman Called SpaceX's Starlink a \"Near Monopoly\" in Global Satellite Internet, But Said He Won't Buy the Stock.",
-    "Warren Buffett's 1 Recommendation for Most Investors Turned $10,000 Into More Than $40,000 in 10 Years",
-    "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
-    "Coca-Cola Just Hit an All-Time High. Here's How Much $25,000 Invested Pays Annually.",
-    "Sell Your Winners, Pay 0% Tax, and Buy Them Right Back the Same Day. It’s the Reset the Wash-Sale Rule Can’t Touch"
+    "'I don’t need a 200-foot yacht': Boat baron gives up $400 million payday to pledge all profits to charity instead",
+    "Billionaire Bill Ackman Called SpaceX's Starlink a \"Near Monopoly\" in Global Satellite Internet, But Said He Won't Buy the Stock."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63925.80859375,
-        "perp_last_price": 63925.80859375,
-        "mark_price": 63925.80859375,
-        "index_price": 63925.80859375,
+        "spot_price": 63635.16015625,
+        "perp_last_price": 63635.16015625,
+        "mark_price": 63635.16015625,
+        "index_price": 63635.16015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63924.80859375,
+        "entry_ideal": 63634.0390625,
         "stop_loss_technical": 65329.5703125,
-        "target_1": 61817.66601562,
-        "target_2": 59710.5234375,
+        "target_1": 61090.7421875,
+        "target_2": 58547.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63925.80859375,
+        "entry_ideal": 63635.16015625,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 61327.01757812,
-        "target_2": 58728.2265625,
+        "target_1": 60600.39648438,
+        "target_2": 57565.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
