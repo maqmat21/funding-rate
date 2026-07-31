@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-31T17:55:06.701464+00:00",
+    "generated_at_utc": "2026-07-31T19:03:45.233141+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.816,
+        "price": 99.962,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 6m",
     "News from the Yahoo Finance Network",
-    "Down 45%, is SanDisk stock a bargain buy or value trap?",
-    "Exelon ‘high probability’ data center load falls 40%",
-    "The 35-Year Social Security Rule That Can Quietly Reduce Your Monthly Check",
     "Millennials say they’ll refuse to care for aging boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
     "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
-    "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends."
+    "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
+    "Equity Residential, AvalonBay announce name of combined firm: Vivmark Residential",
+    "Sell Your Winners, Pay 0% Tax, and Buy Them Right Back the Same Day. It’s the Reset the Wash-Sale Rule Can’t Touch",
+    "The Smartest ETF to Buy With $2,000 Right Now -- and Why Warren Buffett Would Approve",
+    "Coca-Cola Just Hit an All-Time High. Here's How Much $25,000 Invested Pays Annually."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63188.109375,
-        "perp_last_price": 63188.109375,
-        "mark_price": 63188.109375,
-        "index_price": 63188.109375,
+        "spot_price": 63034.55859375,
+        "perp_last_price": 63034.55859375,
+        "mark_price": 63034.55859375,
+        "index_price": 63034.55859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63192.19921875,
-        "stop_loss_technical": 62390.0,
-        "target_1": 64395.49804688,
-        "target_2": 65598.796875,
+        "entry_ideal": 63034.55859375,
+        "stop_loss_technical": 62390.7109375,
+        "target_1": 64000.33007812,
+        "target_2": 64966.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63188.109375,
+        "entry_ideal": 63034.55859375,
         "stop_loss_technical": 65658.3359375,
-        "target_1": 59482.76953125,
-        "target_2": 55777.4296875,
+        "target_1": 59098.89257812,
+        "target_2": 55163.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
