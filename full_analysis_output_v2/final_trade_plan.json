@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-07-30T23:42:17.801702+00:00",
+    "generated_at_utc": "2026-07-31T01:14:23.658856+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.023,
+        "price": 100.12,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Arizona Man’s Wild Bet Turns $10,000 Roth IRA Into $96 Million. He Will Never Owe A Penny Of Tax. The Same Rules Apply to Your Account",
-    "Warren Buffett's Legacy Oil Bet Is Paying Off Under Greg Abel. Nobody's Talking About It.",
     "If you want $12K/month to live out a luxe retirement, here’s the ‘magic number’ you’ll need to hit first",
-    "Everyone Wants to Build the Best AI Model. Amazon Wants Something More Valuable.",
-    "Micron Technology (MU) Stock Gets Fair Value Bump As AI Demand And Contracts Draw Praise",
-    "Apple beats estimates as iPhone revenue jumps 22%",
-    "She Inherited Her Mother’s $800,000 Portfolio and Sold Everything the Next Month. Total Tax Bill: $0"
+    "Prediction: Bitcoin Will Be Worth $2.5 Trillion in 3 Years",
+    "She Inherited Her Mother’s $800,000 Portfolio and Sold Everything the Next Month. Total Tax Bill: $0",
+    "Is AMD Stock Heading to $600 per Share?",
+    "After 587 closures, seafood chain has 494 restaurants left",
+    "Billionaire Charlie Munger, 99, Said Want to Ruin Your Life? Spend It Trying to Change Your Spouse — Marry the ‘Best Person Who Will Have You’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64869.37890625,
-        "perp_last_price": 64869.37890625,
-        "mark_price": 64869.37890625,
-        "index_price": 64869.37890625,
+        "spot_price": 65163.3984375,
+        "perp_last_price": 65163.3984375,
+        "mark_price": 65163.3984375,
+        "index_price": 65163.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64869.37890625,
-        "stop_loss_technical": 65113.578125,
-        "target_1": 64503.08007812,
-        "target_2": 64136.78125,
+        "entry_ideal": 65163.3984375,
+        "stop_loss_technical": 63822.01171875,
+        "target_1": 67175.47851562,
+        "target_2": 69187.55859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64869.37890625,
+        "entry_ideal": 65163.3984375,
         "stop_loss_technical": 62714.8046875,
-        "target_1": 68101.24023438,
-        "target_2": 71333.1015625,
+        "target_1": 68836.2890625,
+        "target_2": 72509.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
