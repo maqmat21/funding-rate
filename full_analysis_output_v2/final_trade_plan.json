@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-01T01:08:36.543823+00:00",
+    "generated_at_utc": "2026-08-01T04:30:41.728194+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,33 @@
     "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
     "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
     "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
-    "Amerigo Resources Ltd (ARREF) (Q2 2026) Earnings Call Highlights: Record Net Income and ...",
     "Netflix Is Down 46% -- Here's Why I'm Buying More",
-    "Craftsman Automation Ltd (BOM:543276) (Q1 2027) Earnings Call Highlights: Aluminum and Heavy ..."
+    "Warren Buffett's 1 Recommendation for Most Investors Turned $10,000 Into More Than $40,000 in 10 Years",
+    "Pfizer Yields 6.8%, Trades at 8.5X Earnings, and Has a Promising Late-Stage Weight Loss Drug. Why Are So Many Investors Still Ignoring the Stock?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62884.890625,
-        "perp_last_price": 62884.890625,
-        "mark_price": 62884.890625,
-        "index_price": 62884.890625,
+        "spot_price": 62984.98828125,
+        "perp_last_price": 62984.98828125,
+        "mark_price": 62984.98828125,
+        "index_price": 62984.98828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62885.44140625,
-        "stop_loss_technical": 64429.1484375,
-        "target_1": 60569.88085938,
-        "target_2": 58254.3203125,
+        "entry_ideal": 62984.98828125,
+        "stop_loss_technical": 62390.0,
+        "target_1": 63877.47070312,
+        "target_2": 64769.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62884.890625,
+        "entry_ideal": 62984.98828125,
         "stop_loss_technical": 65071.4453125,
-        "target_1": 59605.05859375,
-        "target_2": 56325.2265625,
+        "target_1": 59855.30273438,
+        "target_2": 56725.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
