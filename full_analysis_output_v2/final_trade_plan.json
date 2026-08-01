@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-01T04:30:41.728194+00:00",
+    "generated_at_utc": "2026-08-01T07:05:45.413075+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This.",
     "Warren Buffett’s Son Sold His Inheritance For $90K At 19. It’d Be $500M Today, But He’s Got No Regrets — ‘I Don’t Believe I Would Have Been as Driven’",
+    "Tesla's $99-a-Month FSD Plan Is on Pace to Generate $1.8 Billion a Year. Is This New Profit Lever a Signal to Buy the Elon Musk-Led Stock?",
     "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
     "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
     "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
-    "Netflix Is Down 46% -- Here's Why I'm Buying More",
-    "Warren Buffett's 1 Recommendation for Most Investors Turned $10,000 Into More Than $40,000 in 10 Years",
-    "Pfizer Yields 6.8%, Trades at 8.5X Earnings, and Has a Promising Late-Stage Weight Loss Drug. Why Are So Many Investors Still Ignoring the Stock?"
+    "Netflix Is Down 46% -- Here's Why I'm Buying More"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62984.98828125,
-        "perp_last_price": 62984.98828125,
-        "mark_price": 62984.98828125,
-        "index_price": 62984.98828125,
+        "spot_price": 63024.671875,
+        "perp_last_price": 63024.671875,
+        "mark_price": 63024.671875,
+        "index_price": 63024.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,10 +49,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62984.98828125,
+        "entry_ideal": 63024.671875,
         "stop_loss_technical": 62390.0,
-        "target_1": 63877.47070312,
-        "target_2": 64769.953125,
+        "target_1": 63976.6796875,
+        "target_2": 64928.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62984.98828125,
-        "stop_loss_technical": 65071.4453125,
-        "target_1": 59855.30273438,
-        "target_2": 56725.6171875,
+        "entry_ideal": 63024.671875,
+        "stop_loss_technical": 65328.18359375,
+        "target_1": 59569.40429688,
+        "target_2": 56114.13671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
