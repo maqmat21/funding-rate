@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-01T07:05:45.413075+00:00",
+    "generated_at_utc": "2026-08-01T09:14:22.802329+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This.",
+    "Rich Americans use IRAs to make tax-free millions. Is that fair?",
     "Warren Buffett’s Son Sold His Inheritance For $90K At 19. It’d Be $500M Today, But He’s Got No Regrets — ‘I Don’t Believe I Would Have Been as Driven’",
     "Tesla's $99-a-Month FSD Plan Is on Pace to Generate $1.8 Billion a Year. Is This New Profit Lever a Signal to Buy the Elon Musk-Led Stock?",
+    "Suze Orman says couples are losing as much as $14,000 in 'free money' by failing to save smart as a team",
     "Millennials say they’ll refuse to care for aging Boomer parents—but they’ll be forced to as their inheritance shrinks to 40 cents on the dollar",
-    "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends.",
-    "1 Unstoppable Dividend ETF Up 26% in 2026 to Buy and Hold for the Next 20 Years",
-    "Netflix Is Down 46% -- Here's Why I'm Buying More"
+    "Coca-Cola Just Raised Its Full-Year Guidance. Here's How Much $30,000 Invested Pays in Quarterly Dividends."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63024.671875,
-        "perp_last_price": 63024.671875,
-        "mark_price": 63024.671875,
-        "index_price": 63024.671875,
+        "spot_price": 63056.87109375,
+        "perp_last_price": 63056.87109375,
+        "mark_price": 63056.87109375,
+        "index_price": 63056.87109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63024.671875,
+        "entry_ideal": 63056.87109375,
         "stop_loss_technical": 62390.0,
-        "target_1": 63976.6796875,
-        "target_2": 64928.6875,
+        "target_1": 64057.17773438,
+        "target_2": 65057.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63024.671875,
+        "entry_ideal": 63056.87109375,
         "stop_loss_technical": 65328.18359375,
-        "target_1": 59569.40429688,
-        "target_2": 56114.13671875,
+        "target_1": 59649.90234375,
+        "target_2": 56242.93359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
