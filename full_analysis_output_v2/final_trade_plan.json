@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-01T11:49:19.802121+00:00",
+    "generated_at_utc": "2026-08-01T12:41:40.260920+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Robert Kiyosaki warns boomers are set up for a historic rug pull and will end up homeless. Are you ready for the crash?",
     "None of Warren Buffett's 3 kids ever finished college. Here's what the billionaire wanted them to do instead",
     "3 Magnificent Stocks to Buy That Are Near 52-Week Lows",
     "Here's Why I Keep Buying This 10%-Yielding Dividend Stock",
-    "Mark Cuban, Michael Burry raise the same red flag warning over giant US sector — is your nest egg at risk?",
     "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This.",
-    "Prediction: This Is Where Micron Stock Will Be at the End of 2026",
-    "Rich Americans use IRAs to make tax-free millions. Is that fair?"
+    "Mark Cuban, Michael Burry raise the same red flag warning over giant US sector — is your nest egg at risk?",
+    "Prediction: This Is Where Micron Stock Will Be at the End of 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63012.6484375,
-        "perp_last_price": 63012.6484375,
-        "mark_price": 63012.6484375,
-        "index_price": 63012.6484375,
+        "spot_price": 63029.890625,
+        "perp_last_price": 63029.890625,
+        "mark_price": 63029.890625,
+        "index_price": 63029.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63010.2890625,
-        "stop_loss_technical": 62615.76171875,
-        "target_1": 63602.08007812,
-        "target_2": 64193.87109375,
+        "entry_ideal": 63029.890625,
+        "stop_loss_technical": 63235.4609375,
+        "target_1": 62721.53515625,
+        "target_2": 62413.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63012.6484375,
+        "entry_ideal": 63029.890625,
         "stop_loss_technical": 65328.18359375,
-        "target_1": 59539.34570312,
-        "target_2": 56066.04296875,
+        "target_1": 59582.45117188,
+        "target_2": 56135.01171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
