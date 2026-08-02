@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-01T23:24:28.481815+00:00",
+    "generated_at_utc": "2026-08-02T01:02:03.911783+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "If You Invest $1,000 in the Vanguard High Dividend Yield ETF Right Now and Never Add Another Dollar, Here's What History Says It Could Deliver in 20 Years",
+    "This $17 Nuclear Stock Could Turn $5,000 Into a Fortune",
     "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
-    "SpaceX Is Down 19% From Its IPO Price. Tesla's History Suggests This May Happen Next",
     "None of Warren Buffett's 3 kids ever finished college. Here's what the billionaire wanted them to do instead",
     "Why Aug. 4 Could Be a Big Day for the Stock Market",
-    "Jensen Huang says ‘a lot’ of six-figure jobs in plumbing and construction will soon be unlocked because someone needs to build new AI centers",
-    "Where Will Micron Stock Be in 2030?"
+    "Where Will Micron Stock Be in 2030?",
+    "Robert Kiyosaki warns boomers are set up for a historic rug pull and will end up homeless. Are you ready for the crash?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62723.58984375,
-        "perp_last_price": 62723.58984375,
-        "mark_price": 62723.58984375,
-        "index_price": 62723.58984375,
+        "spot_price": 62782.51171875,
+        "perp_last_price": 62782.51171875,
+        "mark_price": 62782.51171875,
+        "index_price": 62782.51171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62723.58984375,
+        "entry_ideal": 62782.078125,
         "stop_loss_technical": 63093.0,
-        "target_1": 62169.47460938,
-        "target_2": 61615.359375,
+        "target_1": 62315.6953125,
+        "target_2": 61849.3125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62723.58984375,
+        "entry_ideal": 62782.51171875,
         "stop_loss_technical": 65328.18359375,
-        "target_1": 58816.69921875,
-        "target_2": 54909.80859375,
+        "target_1": 58964.00390625,
+        "target_2": 55145.49609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
