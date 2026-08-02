@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-02T10:55:18.244371+00:00",
+    "generated_at_utc": "2026-08-02T11:51:57.590888+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?",
     "Warren Buffett and Greg Abel Have Already Made Close to $8 Billion in Gains and $424 Million in Dividends This Year on 1 of Their Oldest, Most Boring Stocks",
+    "The Stock Market Is Doing Something Observed Only 6 Times Since 1871 -- and the Previous 5 Occurrences Ended in Disaster for Wall Street",
     "If You Invest $1,000 in the Vanguard High Dividend Yield ETF Right Now and Never Add Another Dollar, Here's What History Says It Could Deliver in 20 Years",
     "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
     "This $17 Nuclear Stock Could Turn $5,000 Into a Fortune",
-    "None of Warren Buffett's 3 kids ever finished college. Here's what the billionaire wanted them to do instead",
-    "Mamdani’s city-owned supermarkets will fight the one force no city has ever beaten: the market"
+    "Wall Street Analysts Are Predicting a Huge Move in SpaceX Stock by Mid-2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63134.03125,
-        "perp_last_price": 63134.03125,
-        "mark_price": 63134.03125,
-        "index_price": 63134.03125,
+        "spot_price": 63060.80859375,
+        "perp_last_price": 63060.80859375,
+        "mark_price": 63060.80859375,
+        "index_price": 63060.80859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,23 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63134.03125,
-        "stop_loss_technical": 63561.75,
-        "target_1": 62492.453125,
-        "target_2": 61850.875,
+        "entry_ideal": 63060.80859375,
+        "stop_loss_technical": 63567.62109375,
+        "target_1": 62300.58984375,
+        "target_2": 61540.37109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63134.03125,
-        "stop_loss_technical": 62222.6015625,
-        "target_1": 64501.17578125,
-        "target_2": 65868.3203125,
+        "entry_ideal": 63060.80859375,
+        "stop_loss_technical": 65328.18359375,
+        "target_1": 59659.74609375,
+        "target_2": 56258.68359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
