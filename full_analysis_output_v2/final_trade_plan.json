@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-02T15:33:49.493480+00:00",
+    "generated_at_utc": "2026-08-02T16:30:34.567549+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?",
-    "Warren Buffett and Greg Abel Have Already Made Close to $8 Billion in Gains and $424 Million in Dividends This Year on 1 of Their Oldest, Most Boring Stocks",
     "If You Invest $1,000 in the Vanguard High Dividend Yield ETF Right Now and Never Add Another Dollar, Here's What History Says It Could Deliver in 20 Years",
-    "Warren Buffett Stepped Back From Berkshire Hathaway With a Bang; Its Investment in 1 AI Stock Now Tops $30 Billion",
+    "Warren Buffett and Greg Abel Have Already Made Close to $8 Billion in Gains and $424 Million in Dividends This Year on 1 of Their Oldest, Most Boring Stocks",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
-    "Micron Stock Is Down 39% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by Mid-2028."
+    "This $17 Nuclear Stock Could Turn $5,000 Into a Fortune",
+    "The Stock Market Is Doing Something Observed Only 6 Times Since 1871 -- and the Previous 5 Occurrences Ended in Disaster for Wall Street"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63086.91015625,
-        "perp_last_price": 63086.91015625,
-        "mark_price": 63086.91015625,
-        "index_price": 63086.91015625,
+        "spot_price": 63047.26171875,
+        "perp_last_price": 63047.26171875,
+        "mark_price": 63047.26171875,
+        "index_price": 63047.26171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63086.91015625,
-        "stop_loss_technical": 62432.55859375,
-        "target_1": 64068.4375,
-        "target_2": 65049.96484375,
+        "entry_ideal": 63047.26171875,
+        "stop_loss_technical": 62603.48828125,
+        "target_1": 63712.921875,
+        "target_2": 64378.58203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63086.91015625,
+        "entry_ideal": 63047.26171875,
         "stop_loss_technical": 65328.18359375,
-        "target_1": 59725.0,
-        "target_2": 56363.08984375,
+        "target_1": 59625.87890625,
+        "target_2": 56204.49609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
