@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-02T11:51:57.590888+00:00",
+    "generated_at_utc": "2026-08-02T12:52:48.436286+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,30 +28,31 @@
     "If You Invest $1,000 in the Vanguard High Dividend Yield ETF Right Now and Never Add Another Dollar, Here's What History Says It Could Deliver in 20 Years",
     "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
     "This $17 Nuclear Stock Could Turn $5,000 Into a Fortune",
-    "Wall Street Analysts Are Predicting a Huge Move in SpaceX Stock by Mid-2027"
+    "Micron Stock Is Down 39% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by Mid-2028."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63060.80859375,
-        "perp_last_price": 63060.80859375,
-        "mark_price": 63060.80859375,
-        "index_price": 63060.80859375,
+        "spot_price": 63057.08984375,
+        "perp_last_price": 63057.08984375,
+        "mark_price": 63057.08984375,
+        "index_price": 63057.08984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63060.80859375,
+        "entry_ideal": 63057.08984375,
         "stop_loss_technical": 63567.62109375,
-        "target_1": 62300.58984375,
-        "target_2": 61540.37109375,
+        "target_1": 62291.29296875,
+        "target_2": 61525.49609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63060.80859375,
+        "entry_ideal": 63057.08984375,
         "stop_loss_technical": 65328.18359375,
-        "target_1": 59659.74609375,
-        "target_2": 56258.68359375,
+        "target_1": 59650.44921875,
+        "target_2": 56243.80859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
