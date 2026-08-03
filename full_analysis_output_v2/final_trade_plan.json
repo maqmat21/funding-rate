@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-02T23:27:30.464905+00:00",
+    "generated_at_utc": "2026-08-03T01:04:23.633237+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.711,
+        "price": 99.486,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,50 +23,48 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "If You Invest $1,000 in the Vanguard High Dividend Yield ETF Right Now and Never Add Another Dollar, Here's What History Says It Could Deliver in 20 Years",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
-    "This $17 Nuclear Stock Could Turn $5,000 Into a Fortune",
-    "3 Dividend Stocks That Are No-Brainer Buys for the Second Half of 2026",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Warren Buffett and Greg Abel Have Already Made Close to $8 Billion in Gains and $424 Million in Dividends This Year on 1 of Their Oldest, Most Boring Stocks",
     "None of Warren Buffett's 3 kids ever finished college. Here's what the billionaire wanted them to do instead",
-    "Warren Buffett and Greg Abel Have Already Made Close to $8 Billion in Gains and $424 Million in Dividends This Year on 1 of Their Oldest, Most Boring Stocks"
+    "Trump just invoked a 1930 tariff law no president has ever used — against Canada",
+    "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63450.26953125,
-        "perp_last_price": 63450.26953125,
-        "mark_price": 63450.26953125,
-        "index_price": 63450.26953125,
+        "spot_price": 63248.91015625,
+        "perp_last_price": 63248.91015625,
+        "mark_price": 63248.91015625,
+        "index_price": 63248.91015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63450.26171875,
-        "stop_loss_technical": 62923.46875,
-        "target_1": 64240.45117188,
-        "target_2": 65030.640625,
+        "entry_ideal": 63248.921875,
+        "stop_loss_technical": 63561.75,
+        "target_1": 62779.6796875,
+        "target_2": 62310.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63450.26953125,
+        "entry_ideal": 63248.91015625,
         "stop_loss_technical": 62233.01171875,
-        "target_1": 65276.15625,
-        "target_2": 67102.04296875,
+        "target_1": 64772.7578125,
+        "target_2": 66296.60546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
