@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-03T04:38:47.817345+00:00",
+    "generated_at_utc": "2026-08-03T08:00:51.348821+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.72,
+        "price": 99.8,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 53m",
+    "U.S. markets open in 5h 30m",
     "News from the Yahoo Finance Network",
     "If You Invest $1,000 in the Vanguard High Dividend Yield ETF Right Now and Never Add Another Dollar, Here's What History Says It Could Deliver in 20 Years",
     "Ray Dalio warns this major asset will have the ‘worst return’ guaranteed — and you probably own a lot of it",
@@ -34,10 +34,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62902.328125,
-        "perp_last_price": 62902.328125,
-        "mark_price": 62902.328125,
-        "index_price": 62902.328125,
+        "spot_price": 62548.8984375,
+        "perp_last_price": 62548.8984375,
+        "mark_price": 62548.8984375,
+        "index_price": 62548.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 62898.640625,
-        "stop_loss_technical": 62716.19140625,
-        "target_1": 63172.31445312,
-        "target_2": 63445.98828125,
+        "entry_ideal": 62553.69921875,
+        "stop_loss_technical": 62480.96875,
+        "target_1": 62662.79492188,
+        "target_2": 62771.890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62902.328125,
+        "entry_ideal": 62548.8984375,
         "stop_loss_technical": 65328.18359375,
-        "target_1": 59263.54492188,
-        "target_2": 55624.76171875,
+        "target_1": 58379.97070312,
+        "target_2": 54211.04296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
