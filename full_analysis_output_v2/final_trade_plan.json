@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T15:37:07.138516+00:00",
+    "generated_at_utc": "2026-08-04T17:14:51.075343+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,64 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.947,
+        "price": 99.917,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.641,
+        "price": 4.627,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 24m",
+    "U.S. markets close in 2h 47m",
     "News from the Yahoo Finance Network",
-    "Diversified Healthcare Trust Q2 Earnings Call Highlights",
+    "Days after John Oliver's dare, Buc-ee's sues again",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
-    "Here's the Max Social Security Benefit at Age 67 -- and How to Get It",
+    "Pressures Are Adding Up for China’s Footwear Producers Amid Fluctuating Global Demand",
     "Costco keeps its gas super cheap for a very specific reason — and it could cost you every time you fill up",
-    "Is Elevance Health (ELV) Positioned for Margin Recovery?",
-    "A forgotten Swedish economist’s 130-year-old theory explains why investors won’t quit funding America’s near-$40 trillion pile of debt"
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?",
+    "How Couche-Tard’s Żabka deal could impact its broader business"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63770.46875,
-        "perp_last_price": 63770.46875,
-        "mark_price": 63770.46875,
-        "index_price": 63770.46875,
+        "spot_price": 64017.30078125,
+        "perp_last_price": 64017.30078125,
+        "mark_price": 64017.30078125,
+        "index_price": 64017.30078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63770.48046875,
-        "stop_loss_technical": 62813.92326172,
-        "target_1": 65205.3162793,
-        "target_2": 66640.15208984,
+        "entry_ideal": 64017.2890625,
+        "stop_loss_technical": 63268.01171875,
+        "target_1": 65141.20507812,
+        "target_2": 66265.12109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63770.46875,
+        "entry_ideal": 64017.30078125,
         "stop_loss_technical": 62226.578125,
-        "target_1": 66086.3046875,
-        "target_2": 68402.140625,
+        "target_1": 66703.38476562,
+        "target_2": 69389.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
