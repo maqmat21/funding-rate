@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T06:13:04.313195+00:00",
+    "generated_at_utc": "2026-08-04T09:07:54.475551+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.033,
+        "price": 100.019,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 18m",
+    "U.S. markets open in 4h 23m",
     "News from the Yahoo Finance Network",
     "Xi Jinping warns world is ‘crumbling into disarray’ as 'dangerous' U.S. blockade hits markets. Protect your nest egg now",
-    "Nvidia CEO Jensen Huang Said the Semiconductor Industry Could Grow to $7.9 Trillion to Support the Agentic AI Boom. Here Are 2 Stocks That Could Benefit",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
+    "Wall Street Execs Distance From Trump’s ‘Insane’ Cash Grab",
     "Not Papa Johns, Not Pizza Hut: This Is The Best-Selling Pizza Chain In The World In 2026",
     "Jeff Bezos Plans to Sell $4.07 Billion Worth of Amazon Stock as Shares Shoot Up Over 20% After Earnings: Jim Cramer Calls it 'Buzzkill'",
-    "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?"
+    "Caterpillar Earnings Are Coming. Only 1 Thing Matters."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63744.44140625,
-        "perp_last_price": 63744.44140625,
-        "mark_price": 63744.44140625,
-        "index_price": 63744.44140625,
+        "spot_price": 63481.80078125,
+        "perp_last_price": 63481.80078125,
+        "mark_price": 63481.80078125,
+        "index_price": 63481.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63744.44140625,
+        "entry_ideal": 63487.30078125,
         "stop_loss_technical": 64164.0,
-        "target_1": 63115.10351562,
-        "target_2": 62485.765625,
+        "target_1": 62472.25195312,
+        "target_2": 61457.203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63744.44140625,
-        "stop_loss_technical": 62233.01171875,
-        "target_1": 66011.5859375,
-        "target_2": 68278.73046875,
+        "entry_ideal": 63481.80078125,
+        "stop_loss_technical": 65328.18359375,
+        "target_1": 60712.2265625,
+        "target_2": 57942.65234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
