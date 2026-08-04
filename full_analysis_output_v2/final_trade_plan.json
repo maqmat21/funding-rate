@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T18:53:07.782537+00:00",
+    "generated_at_utc": "2026-08-04T20:16:05.712909+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.911,
+        "price": 99.871,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.631,
+        "price": 4.627,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 8m",
     "News from the Yahoo Finance Network",
-    "Elon Musk issues ominous warning as SpaceX short interest hits danger zone",
+    "Judge sets March 2027 trial on Paramount-Warner Bros deal",
     "Days after John Oliver's dare, Buc-ee's sues again",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
+    "SpaceX quarterly revenue surges in debut results on strong growth in its Starlink business",
     "Costco keeps its gas super cheap for a very specific reason — and it could cost you every time you fill up",
     "‘This is insider trading by definition’: Trump sells $100,000 monthly subscription service to Wall Street to further monetize the presidency",
-    "Churchill Downs (CHDN) Stock Looks Well Below Fair Value Today"
+    "My old job had a pension and they offered me to cash out for $24k or get $100 per month for life — which should I choose?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64266.5,
-        "perp_last_price": 64266.5,
-        "mark_price": 64266.5,
-        "index_price": 64266.5,
+        "spot_price": 64074.71875,
+        "perp_last_price": 64074.71875,
+        "mark_price": 64074.71875,
+        "index_price": 64074.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64266.5,
-        "stop_loss_technical": 63268.01171875,
-        "target_1": 65764.23242188,
-        "target_2": 67261.96484375,
+        "entry_ideal": 64074.71875,
+        "stop_loss_technical": 63113.59796875,
+        "target_1": 65516.39992188,
+        "target_2": 66958.08109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64266.5,
+        "entry_ideal": 64074.71875,
         "stop_loss_technical": 62226.578125,
-        "target_1": 67326.3828125,
-        "target_2": 70386.265625,
+        "target_1": 66846.9296875,
+        "target_2": 69619.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
