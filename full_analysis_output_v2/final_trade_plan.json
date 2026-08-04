@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T21:36:46.464529+00:00",
+    "generated_at_utc": "2026-08-04T22:39:22.137809+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Tidewater Inc. Q2 2026 Earnings Call Summary",
-    "Elon Musk says SpaceX will build exclusively with Nvidia, touts space-based AI servers",
-    "Advanced Micro Devices (AMD) Rebounds On AI Optimism, Is It Already Fully Valued?",
-    "SpaceX Clears Estimates For First Public Report, Revenue Soars 92%",
-    "SpaceX shows strong growth in its first earnings report since IPO",
     "Days after John Oliver's dare, Buc-ee's sues again",
-    "Paramount CEO says politics fueling Warner Bros. merger battle"
+    "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
+    "SpaceX shows strong growth in its first earnings report since IPO",
+    "SpaceX Clears Estimates For First Public Report, Revenue Soars 92%, But SPCX Tumbles Late",
+    "Costco keeps its gas super cheap for a very specific reason — and it could cost you every time you fill up",
+    "Kimco Realty Corporation Q2 2026 Earnings Call Summary",
+    "Jim Cramer Is Selling His Bitcoin Over Quantum Threat—Crypto Twitter Is Thrilled"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64182.359375,
-        "perp_last_price": 64182.359375,
-        "mark_price": 64182.359375,
-        "index_price": 64182.359375,
+        "spot_price": 64179.23046875,
+        "perp_last_price": 64179.23046875,
+        "mark_price": 64179.23046875,
+        "index_price": 64179.23046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64182.359375,
-        "stop_loss_technical": 63219.62398438,
-        "target_1": 65626.46246094,
-        "target_2": 67070.56554688,
+        "entry_ideal": 64179.23046875,
+        "stop_loss_technical": 63382.671875,
+        "target_1": 65374.06835938,
+        "target_2": 66568.90625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64182.359375,
+        "entry_ideal": 64179.23046875,
         "stop_loss_technical": 62226.578125,
-        "target_1": 67116.03125,
-        "target_2": 70049.703125,
+        "target_1": 67108.20898438,
+        "target_2": 70037.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
