@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T03:37:36.394009+00:00",
+    "generated_at_utc": "2026-08-04T06:13:04.313195+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.98,
+        "price": 100.033,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 18m",
     "News from the Yahoo Finance Network",
     "Xi Jinping warns world is ‘crumbling into disarray’ as 'dangerous' U.S. blockade hits markets. Protect your nest egg now",
-    "Not Papa Johns, Not Pizza Hut: This Is The Best-Selling Pizza Chain In The World In 2026",
+    "Nvidia CEO Jensen Huang Said the Semiconductor Industry Could Grow to $7.9 Trillion to Support the Agentic AI Boom. Here Are 2 Stocks That Could Benefit",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
-    "Nissan Motor (TSE:7201) Returned To Profit, Is The Stock Still Undervalued?",
-    "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?",
-    "Pfizer's Stock Has Been a Dud Over the Past 5 Years, but Is It Still Worth Buying for Its 6.9% Yield?",
-    "Buffett's AI concerns clash with Berkshire's Alphabet buy"
+    "Not Papa Johns, Not Pizza Hut: This Is The Best-Selling Pizza Chain In The World In 2026",
+    "Jeff Bezos Plans to Sell $4.07 Billion Worth of Amazon Stock as Shares Shoot Up Over 20% After Earnings: Jim Cramer Calls it 'Buzzkill'",
+    "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63750.76953125,
-        "perp_last_price": 63750.76953125,
-        "mark_price": 63750.76953125,
-        "index_price": 63750.76953125,
+        "spot_price": 63744.44140625,
+        "perp_last_price": 63744.44140625,
+        "mark_price": 63744.44140625,
+        "index_price": 63744.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63754.48046875,
-        "stop_loss_technical": 62210.1484375,
-        "target_1": 66070.97851562,
-        "target_2": 68387.4765625,
+        "entry_ideal": 63744.44140625,
+        "stop_loss_technical": 64164.0,
+        "target_1": 63115.10351562,
+        "target_2": 62485.765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63750.76953125,
-        "stop_loss_technical": 62210.1484375,
-        "target_1": 66061.70117188,
-        "target_2": 68372.6328125,
+        "entry_ideal": 63744.44140625,
+        "stop_loss_technical": 62233.01171875,
+        "target_1": 66011.5859375,
+        "target_2": 68278.73046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
