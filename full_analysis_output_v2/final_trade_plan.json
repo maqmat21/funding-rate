@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T11:30:53.190193+00:00",
+    "generated_at_utc": "2026-08-04T13:17:26.704138+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.948,
+        "price": 99.969,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.686,
+        "price": 4.663,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 1m",
     "News from the Yahoo Finance Network",
-    "XPeng (XPEV) Stock Could Be 28% Overvalued As Global Expansion Plans Build",
+    "Costco keeps its gas super cheap for a very specific reason — and it could cost you every time you fill up",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
     "401(k) Balances in Your 60s: Average and Median Savings vs. What You May Need for Retirement",
-    "10 Items Retirees Can Sell to Simplify, Downsize and Increase Cash",
-    "Bezos Sells $4 Billion In Amazon Stock As It Hits $3 Trillion For First Time. Cramer Calls It A “Buzzkill.”",
-    "Pfizer's Stock Has Been a Dud Over the Past 5 Years, but Is It Still Worth Buying for Its 6.9% Yield?"
+    "Ray Dalio on the AI bubble nearing 1929, 2000 levels and the lesson people always forget: ‘wealth is not the same as money’",
+    "Warren Buffett keeps pointing at the same ETF for a reason",
+    "Cummins falls 8% as earnings miss overshadows revenue beat",
+    "AI offers 'lifeline' for emerging economies, World Bank says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63707.69140625,
-        "perp_last_price": 63707.69140625,
-        "mark_price": 63707.69140625,
-        "index_price": 63707.69140625,
+        "spot_price": 63874.44140625,
+        "perp_last_price": 63874.44140625,
+        "mark_price": 63874.44140625,
+        "index_price": 63874.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63707.69140625,
+        "entry_ideal": 63874.44140625,
         "stop_loss_technical": 63265.01171875,
-        "target_1": 64371.7109375,
-        "target_2": 65035.73046875,
+        "target_1": 64788.5859375,
+        "target_2": 65702.73046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63707.69140625,
+        "entry_ideal": 63874.44140625,
         "stop_loss_technical": 62233.01171875,
-        "target_1": 65919.7109375,
-        "target_2": 68131.73046875,
+        "target_1": 66336.5859375,
+        "target_2": 68798.73046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
