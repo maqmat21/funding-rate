@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T09:07:54.475551+00:00",
+    "generated_at_utc": "2026-08-04T11:30:53.190193+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.019,
-        "trend": "alcista"
+        "price": 99.948,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.686,
@@ -21,51 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 23m",
+    "U.S. markets open in 2h 1m",
     "News from the Yahoo Finance Network",
-    "Xi Jinping warns world is ‘crumbling into disarray’ as 'dangerous' U.S. blockade hits markets. Protect your nest egg now",
+    "XPeng (XPEV) Stock Could Be 28% Overvalued As Global Expansion Plans Build",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
-    "Wall Street Execs Distance From Trump’s ‘Insane’ Cash Grab",
-    "Not Papa Johns, Not Pizza Hut: This Is The Best-Selling Pizza Chain In The World In 2026",
-    "Jeff Bezos Plans to Sell $4.07 Billion Worth of Amazon Stock as Shares Shoot Up Over 20% After Earnings: Jim Cramer Calls it 'Buzzkill'",
-    "Caterpillar Earnings Are Coming. Only 1 Thing Matters."
+    "401(k) Balances in Your 60s: Average and Median Savings vs. What You May Need for Retirement",
+    "10 Items Retirees Can Sell to Simplify, Downsize and Increase Cash",
+    "Bezos Sells $4 Billion In Amazon Stock As It Hits $3 Trillion For First Time. Cramer Calls It A “Buzzkill.”",
+    "Pfizer's Stock Has Been a Dud Over the Past 5 Years, but Is It Still Worth Buying for Its 6.9% Yield?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63481.80078125,
-        "perp_last_price": 63481.80078125,
-        "mark_price": 63481.80078125,
-        "index_price": 63481.80078125,
+        "spot_price": 63707.69140625,
+        "perp_last_price": 63707.69140625,
+        "mark_price": 63707.69140625,
+        "index_price": 63707.69140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63487.30078125,
-        "stop_loss_technical": 64164.0,
-        "target_1": 62472.25195312,
-        "target_2": 61457.203125,
+        "entry_ideal": 63707.69140625,
+        "stop_loss_technical": 63265.01171875,
+        "target_1": 64371.7109375,
+        "target_2": 65035.73046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63481.80078125,
-        "stop_loss_technical": 65328.18359375,
-        "target_1": 60712.2265625,
-        "target_2": 57942.65234375,
+        "entry_ideal": 63707.69140625,
+        "stop_loss_technical": 62233.01171875,
+        "target_1": 65919.7109375,
+        "target_2": 68131.73046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
