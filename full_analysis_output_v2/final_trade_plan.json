@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-04T22:39:22.137809+00:00",
+    "generated_at_utc": "2026-08-04T23:38:59.463053+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,36 @@
     "News from the Yahoo Finance Network",
     "Days after John Oliver's dare, Buc-ee's sues again",
     "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
-    "SpaceX shows strong growth in its first earnings report since IPO",
-    "SpaceX Clears Estimates For First Public Report, Revenue Soars 92%, But SPCX Tumbles Late",
+    "How Many Retirees Have No Savings Beyond Social Security?",
+    "SpaceX revenue jumps 92% in first earnings report, but shares slide",
+    "Jim Cramer Is Selling His Bitcoin Over Quantum Threat—Crypto Twitter Is Thrilled",
     "Costco keeps its gas super cheap for a very specific reason — and it could cost you every time you fill up",
-    "Kimco Realty Corporation Q2 2026 Earnings Call Summary",
-    "Jim Cramer Is Selling His Bitcoin Over Quantum Threat—Crypto Twitter Is Thrilled"
+    "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64179.23046875,
-        "perp_last_price": 64179.23046875,
-        "mark_price": 64179.23046875,
-        "index_price": 64179.23046875,
+        "spot_price": 64096.26953125,
+        "perp_last_price": 64096.26953125,
+        "mark_price": 64096.26953125,
+        "index_price": 64096.26953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64179.23046875,
-        "stop_loss_technical": 63382.671875,
-        "target_1": 65374.06835938,
-        "target_2": 66568.90625,
+        "entry_ideal": 64102.109375,
+        "stop_loss_technical": 63140.57773438,
+        "target_1": 65544.40683594,
+        "target_2": 66986.70429688,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64179.23046875,
+        "entry_ideal": 64096.26953125,
         "stop_loss_technical": 62226.578125,
-        "target_1": 67108.20898438,
-        "target_2": 70037.1875,
+        "target_1": 66900.80664062,
+        "target_2": 69705.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
