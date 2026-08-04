@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-03T23:13:58.765352+00:00",
+    "generated_at_utc": "2026-08-04T00:16:03.985964+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.991,
+        "price": 99.99,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Not Papa Johns, Not Pizza Hut: This Is The Best-Selling Pizza Chain In The World In 2026",
+    "CEO Alex Karp Just Delivered the News Palantir Stock Investors Have Been Waiting For",
+    "Clorox Q4 Earnings Call Highlights",
     "Capital One says it shut down hundreds of Trump Organization accounts over money-laundering concerns",
-    "Pfizer's Stock Has Been a Dud Over the Past 5 Years, but Is It Still Worth Buying for Its 6.9% Yield?",
-    "Silver price predictions: What can investors expect over the next 10 years?",
     "My dad just died and his 401(k) somehow only has $20,000 left. His boss says he withdrew the rest — how can I be sure?",
-    "The Most Important Number in Palantir's Earnings Report Was 134%"
+    "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Slashing Berkshire's Chevron Stake and Making a Virtual Monopoly the New No. 5 Holding"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63475.21875,
-        "perp_last_price": 63475.21875,
-        "mark_price": 63475.21875,
-        "index_price": 63475.21875,
+        "spot_price": 63390.578125,
+        "perp_last_price": 63390.578125,
+        "mark_price": 63390.578125,
+        "index_price": 63390.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63475.21875,
-        "stop_loss_technical": 64018.8984375,
-        "target_1": 62659.69921875,
-        "target_2": 61844.1796875,
+        "entry_ideal": 63390.578125,
+        "stop_loss_technical": 64029.421875,
+        "target_1": 62432.3125,
+        "target_2": 61474.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63475.21875,
-        "stop_loss_technical": 62210.1484375,
-        "target_1": 65372.82421875,
-        "target_2": 67270.4296875,
+        "entry_ideal": 63390.578125,
+        "stop_loss_technical": 62210.140625,
+        "target_1": 65161.234375,
+        "target_2": 66931.890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
