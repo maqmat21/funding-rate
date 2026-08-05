@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-05T11:34:29.487442+00:00",
+    "generated_at_utc": "2026-08-05T13:15:37.750205+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.737,
+        "price": 99.742,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.627,
+        "price": 4.625,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 57m",
     "News from the Yahoo Finance Network",
-    "Taboola (NASDAQ:TBLA) Misses Q2 CY2026 Revenue Estimates, Stock Drops",
-    "Opinion: The Greatest Fleecing of Retail Investors in Wall Street's Storied History Begins Tomorrow, Aug. 6",
+    "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
     "If a Stock Market Crash Is Coming, History Says the Smartest Investors Are Already Making This 1 Move",
-    "The Treasury Has Now Refunded $100 Billion Of Tariff Revenue, and Scott Bessent Predicts None of It Is Going to You",
-    "Millrose Properties Q2 Earnings Call Highlights",
-    "'This was not an exceptional result': Why AMD stock tanked 10% after earnings"
+    "Arizona has lost half its SNAP users in less than a year — and is the 'canary in the coal mine' for the US",
+    "SHOP Stock Soars Toward Best Single-Day Gain Since 2015 After ‘Monster Quarter’",
+    "Want $500 Per Month in Passive Income? This Dividend ETF Can Get You There.",
+    "Days after John Oliver's dare, Buc-ee's sues again",
+    "Opinion: The Greatest Fleecing of Retail Investors in Wall Street's Storied History Begins Tomorrow, Aug. 6"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64092.890625,
-        "perp_last_price": 64092.890625,
-        "mark_price": 64092.890625,
-        "index_price": 64092.890625,
+        "spot_price": 64080.16015625,
+        "perp_last_price": 64080.16015625,
+        "mark_price": 64080.16015625,
+        "index_price": 64080.16015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64086.4296875,
-        "stop_loss_technical": 63844.4609375,
-        "target_1": 64449.3828125,
-        "target_2": 64812.3359375,
+        "entry_ideal": 64084.48046875,
+        "stop_loss_technical": 63123.21326172,
+        "target_1": 65526.3812793,
+        "target_2": 66968.28208984,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64092.890625,
+        "entry_ideal": 64080.16015625,
         "stop_loss_technical": 62226.578125,
-        "target_1": 66892.359375,
-        "target_2": 69691.828125,
+        "target_1": 66860.53320312,
+        "target_2": 69640.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
