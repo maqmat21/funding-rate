@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-05T09:25:49.676903+00:00",
+    "generated_at_utc": "2026-08-05T11:34:29.487442+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.848,
+        "price": 99.737,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 5m",
+    "U.S. markets open in 1h 57m",
     "News from the Yahoo Finance Network",
-    "Elon Musk delivers ‘totally nuts’ plans for moon robots and insists $1 trillion revenue target will hit but capex tanks SpaceX on debut earnings",
-    "Dividends vs. an Annuity: Which Turns $675,000 Into More Monthly Income for Life?",
-    "SpaceX's Lockup Expires on Aug. 6. Here's Why 911.5 Million Insider Shares Could Hit the Market -- and What That Means for Investors.",
-    "Days after John Oliver's dare, Buc-ee's sues again",
-    "MU, SNDK, SKHY Stocks In Focus: Elon Musk Says Memory Demand Is Growing ‘200% A Year, Maybe Higher,’ Calls It A ‘Limiting Factor’",
-    "Costco keeps its gas super cheap for a very specific reason — and it could cost you every time you fill up"
+    "Taboola (NASDAQ:TBLA) Misses Q2 CY2026 Revenue Estimates, Stock Drops",
+    "Opinion: The Greatest Fleecing of Retail Investors in Wall Street's Storied History Begins Tomorrow, Aug. 6",
+    "If a Stock Market Crash Is Coming, History Says the Smartest Investors Are Already Making This 1 Move",
+    "The Treasury Has Now Refunded $100 Billion Of Tariff Revenue, and Scott Bessent Predicts None of It Is Going to You",
+    "Millrose Properties Q2 Earnings Call Highlights",
+    "'This was not an exceptional result': Why AMD stock tanked 10% after earnings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64103.37890625,
-        "perp_last_price": 64103.37890625,
-        "mark_price": 64103.37890625,
-        "index_price": 64103.37890625,
+        "spot_price": 64092.890625,
+        "perp_last_price": 64092.890625,
+        "mark_price": 64092.890625,
+        "index_price": 64092.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64103.37890625,
-        "stop_loss_technical": 63546.33984375,
-        "target_1": 64938.9375,
-        "target_2": 65774.49609375,
+        "entry_ideal": 64086.4296875,
+        "stop_loss_technical": 63844.4609375,
+        "target_1": 64449.3828125,
+        "target_2": 64812.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64103.37890625,
+        "entry_ideal": 64092.890625,
         "stop_loss_technical": 62226.578125,
-        "target_1": 66918.58007812,
-        "target_2": 69733.78125,
+        "target_1": 66892.359375,
+        "target_2": 69691.828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
