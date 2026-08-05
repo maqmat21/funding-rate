@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-05T04:13:11.510389+00:00",
+    "generated_at_utc": "2026-08-05T06:41:52.997402+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.796,
+        "price": 99.865,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 18m",
+    "U.S. markets open in 6h 49m",
     "News from the Yahoo Finance Network",
     "Elon Musk delivers ‘totally nuts’ plans for moon robots and insists $1 trillion revenue target will hit but capex tanks SpaceX on debut earnings",
-    "Kevin Costner’s Prenup Held. He Kept the Ranch, the Catalog, and Nearly Everything Else Because of Clauses Any Couple Can Copy",
+    "SpaceX investors have a new, unexpected liability to worry about",
     "Days after John Oliver's dare, Buc-ee's sues again",
+    "Elon Musk says SpaceX data centers will crush competitors because its rocket scientists are like the Yankees ‘playing a little league team’",
     "Is Micron Stock Going Higher? You Need To Hear What Elon Musk Just Said",
-    "This Boring Company Has Hiked Its Dividend for 71 Straight Years, and It's an Income Investor's Dream",
     "Jim Cramer Is Selling His Bitcoin Over Quantum Threat—Crypto Twitter Is Thrilled"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64099.87109375,
-        "perp_last_price": 64099.87109375,
-        "mark_price": 64099.87109375,
-        "index_price": 64099.87109375,
+        "spot_price": 64263.5,
+        "perp_last_price": 64263.5,
+        "mark_price": 64263.5,
+        "index_price": 64263.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,27 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64099.87109375,
-        "stop_loss_technical": 63138.37302734,
-        "target_1": 65542.11819336,
-        "target_2": 66984.36529297,
+        "entry_ideal": 64263.5,
+        "stop_loss_technical": 63299.5475,
+        "target_1": 65709.42875,
+        "target_2": 67155.3575,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64099.87109375,
+        "entry_ideal": 64263.5,
         "stop_loss_technical": 62226.578125,
-        "target_1": 66909.81054688,
-        "target_2": 69719.75,
+        "target_1": 67318.8828125,
+        "target_2": 70374.265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
