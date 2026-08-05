@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-05T13:15:37.750205+00:00",
+    "generated_at_utc": "2026-08-05T15:27:56.664498+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,52 +11,37 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.742,
+        "price": 99.716,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.625,
+        "price": 4.627,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 33m",
     "News from the Yahoo Finance Network",
+    "Eos Energy Enterprises Q2 Earnings Call Highlights",
+    "Scott Bessent just declared the K-shaped economy is over, saying he’s ‘sick of hearing about’ it—but the data would beg to disagree",
     "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
-    "If a Stock Market Crash Is Coming, History Says the Smartest Investors Are Already Making This 1 Move",
-    "Arizona has lost half its SNAP users in less than a year — and is the 'canary in the coal mine' for the US",
-    "SHOP Stock Soars Toward Best Single-Day Gain Since 2015 After ‘Monster Quarter’",
-    "Want $500 Per Month in Passive Income? This Dividend ETF Can Get You There.",
-    "Days after John Oliver's dare, Buc-ee's sues again",
-    "Opinion: The Greatest Fleecing of Retail Investors in Wall Street's Storied History Begins Tomorrow, Aug. 6"
+    "Jeff Bezos Files to Sell $4B in Amazon Shares After Report the ‘Wiped’ CEO Is ‘Hanging on for Dear Life’ with His New Wife",
+    "Extreme Networks Q4 Earnings Call Highlights",
+    "Days after John Oliver's dare, Buc-ee's sues again"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64080.16015625,
-        "perp_last_price": 64080.16015625,
-        "mark_price": 64080.16015625,
-        "index_price": 64080.16015625,
+        "spot_price": 64496.94921875,
+        "perp_last_price": 64496.94921875,
+        "mark_price": 64496.94921875,
+        "index_price": 64496.94921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 64084.48046875,
-        "stop_loss_technical": 63123.21326172,
-        "target_1": 65526.3812793,
-        "target_2": 66968.28208984,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -64,10 +49,25 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64080.16015625,
+        "entry_ideal": 64495.3203125,
+        "stop_loss_technical": 63821.55078125,
+        "target_1": 65505.97460938,
+        "target_2": 66516.62890625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 64496.94921875,
         "stop_loss_technical": 62226.578125,
-        "target_1": 66860.53320312,
-        "target_2": 69640.90625,
+        "target_1": 67902.50585938,
+        "target_2": 71308.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
