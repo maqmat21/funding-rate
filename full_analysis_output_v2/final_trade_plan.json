@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-05T19:57:45.746899+00:00",
+    "generated_at_utc": "2026-08-05T21:01:42.427213+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.714,
+        "price": 99.7,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "17-year-old Mexican restaurant chain closes all locations",
+    "Centrus Energy (NYSE:LEU) Beats Expectations in Strong Q2 CY2026",
+    "Bumble (NASDAQ:BMBL) Reports Q2 CY2026 In Line With Expectations But Stock Drops",
     "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
+    "17-year-old Mexican restaurant chain closes all locations",
     "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
-    "Days after John Oliver's dare, Buc-ee's sues again",
-    "Jeff Bezos Files to Sell $4B in Amazon Shares After Report the ‘Wiped’ CEO Is ‘Hanging on for Dear Life’ with His New Wife",
-    "Bankrupt Fried Chicken Chain Franchisee Is Closing 39 Restaurants After Selling Off The Rest",
-    "Arizona has lost half its SNAP users in less than a year — and is the 'canary in the coal mine' for the US"
+    "Dutch Bros’s (NYSE:BROS) Q2 CY2026: Strong Sales But Stock Drops",
+    "This is the salary needed to afford a typical US home in 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64848.62890625,
-        "perp_last_price": 64848.62890625,
-        "mark_price": 64848.62890625,
-        "index_price": 64848.62890625,
+        "spot_price": 64666.6015625,
+        "perp_last_price": 64666.6015625,
+        "mark_price": 64666.6015625,
+        "index_price": 64666.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64848.62890625,
-        "stop_loss_technical": 63821.55078125,
-        "target_1": 66389.24609375,
-        "target_2": 67929.86328125,
+        "entry_ideal": 64665.30078125,
+        "stop_loss_technical": 63695.32126953,
+        "target_1": 66120.27004883,
+        "target_2": 67575.23931641,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64848.62890625,
+        "entry_ideal": 64666.6015625,
         "stop_loss_technical": 62226.578125,
-        "target_1": 68781.70507812,
-        "target_2": 72714.78125,
+        "target_1": 68326.63671875,
+        "target_2": 71986.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
