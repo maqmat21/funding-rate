@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-06T03:37:59.724676+00:00",
+    "generated_at_utc": "2026-08-06T06:13:19.656481+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.715,
+        "price": 99.702,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 18m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
     "Trump Calls El-Sayed a ‘Man of Hate’ After Michigan Primary Win",
-    "How Buc-ee's is building a ruthless rest-stop empire",
     "17-year-old Mexican restaurant chain closes all locations",
-    "MannKind Q2 Earnings Call Highlights",
+    "Nvidia Grew Revenue 71% and Still Costs 21 Times Forward Earnings. The Market Is Betting the Growth Stops.",
     "Alphabet CEO Sundar Pichai Just Made a $200 Billion Infrastructure Move. Nvidia, Micron, and Broadcom Investors Should Rejoice.",
-    "You Sold the Big House and Banked $300K. These 3 ETFs Turn the Windfall Into a Monthly Check"
+    "Palantir Says Companies Are Paying to Give Away Their 'Most Important Secrets'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64477.8203125,
-        "perp_last_price": 64477.8203125,
-        "mark_price": 64477.8203125,
-        "index_price": 64477.8203125,
+        "spot_price": 64727.55078125,
+        "perp_last_price": 64727.55078125,
+        "mark_price": 64727.55078125,
+        "index_price": 64727.55078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,28 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64477.828125,
-        "stop_loss_technical": 63510.66070313,
-        "target_1": 65928.57925781,
-        "target_2": 67379.33039062,
+        "entry_ideal": 64727.55078125,
+        "stop_loss_technical": 63756.63751953,
+        "target_1": 66183.92067383,
+        "target_2": 67640.29056641,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64477.8203125,
+        "entry_ideal": 64727.55078125,
         "stop_loss_technical": 62226.578125,
-        "target_1": 67854.68359375,
-        "target_2": 71231.546875,
+        "target_1": 68479.00976562,
+        "target_2": 72230.46875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
