@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-06T13:09:45.789313+00:00",
+    "generated_at_utc": "2026-08-06T15:24:49.426866+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,62 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.78,
+        "price": 99.916,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.645,
+        "price": 4.647,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 4h 36m",
     "News from the Yahoo Finance Network",
-    "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
-    "Papa John's (NASDAQ:PZZA) Reports Q2 CY2026 In Line With Expectations But Stock Drops",
+    "American Fusion Expands Texatron Patent Portfolio with Six New U.S. Patent Applications",
     "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
-    "ConocoPhillips Q2 2026 earnings beat estimates on higher oil prices",
-    "Investors expect SpaceX to slide to $100 per share, suggesting zero AI business value. Is it too late to get rich?",
-    "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery— 'Hope You...'",
-    "17-year-old Mexican restaurant chain closes all locations"
+    "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
+    "Jeff Dean's new startup pitch deck slides are an insane flex",
+    "17-year-old Mexican restaurant chain closes all locations",
+    "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64132.8984375,
-        "perp_last_price": 64132.8984375,
-        "mark_price": 64132.8984375,
-        "index_price": 64132.8984375,
+        "spot_price": 64753.7109375,
+        "perp_last_price": 64753.7109375,
+        "mark_price": 64753.7109375,
+        "index_price": 64753.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64132.8984375,
-        "stop_loss_technical": 64954.28125,
-        "target_1": 62900.82421875,
-        "target_2": 61668.75,
+        "entry_ideal": 64753.7109375,
+        "stop_loss_technical": 64091.3203125,
+        "target_1": 65747.296875,
+        "target_2": 66740.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64132.8984375,
-        "stop_loss_technical": 64954.34765625,
-        "target_1": 62900.72460938,
-        "target_2": 61668.55078125,
+        "entry_ideal": 64753.7109375,
+        "stop_loss_technical": 62226.578125,
+        "target_1": 68544.41015625,
+        "target_2": 72335.109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
