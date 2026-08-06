@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-06T11:29:52.590965+00:00",
+    "generated_at_utc": "2026-08-06T13:09:45.789313+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.742,
+        "price": 99.78,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.617,
+        "price": 4.645,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 1m",
     "News from the Yahoo Finance Network",
-    "SpaceX Investor Nightmare: He Paid for “Pre-IPO” Exposure, Only to Learn the Shares Were Already Sold",
-    "Michael Dell’s son built a $13 billion home battery business—and he’s going on 30 years old",
-    "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
-    "LegalZoom.com, Inc. Q2 2026 Earnings Call Summary",
     "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
-    "Prediction: Nvidia CEO Jensen Huang Will Shock Wall Street on Aug. 26"
+    "Papa John's (NASDAQ:PZZA) Reports Q2 CY2026 In Line With Expectations But Stock Drops",
+    "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
+    "ConocoPhillips Q2 2026 earnings beat estimates on higher oil prices",
+    "Investors expect SpaceX to slide to $100 per share, suggesting zero AI business value. Is it too late to get rich?",
+    "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery— 'Hope You...'",
+    "17-year-old Mexican restaurant chain closes all locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64786.19921875,
-        "perp_last_price": 64786.19921875,
-        "mark_price": 64786.19921875,
-        "index_price": 64786.19921875,
+        "spot_price": 64132.8984375,
+        "perp_last_price": 64132.8984375,
+        "mark_price": 64132.8984375,
+        "index_price": 64132.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 64786.19921875,
-        "stop_loss_technical": 64955.6484375,
-        "target_1": 64532.02539062,
-        "target_2": 64277.8515625,
+        "entry_ideal": 64132.8984375,
+        "stop_loss_technical": 64954.28125,
+        "target_1": 62900.82421875,
+        "target_2": 61668.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64786.19921875,
-        "stop_loss_technical": 62226.578125,
-        "target_1": 68625.63085938,
-        "target_2": 72465.0625,
+        "entry_ideal": 64132.8984375,
+        "stop_loss_technical": 64954.34765625,
+        "target_1": 62900.72460938,
+        "target_2": 61668.55078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
