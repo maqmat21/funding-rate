@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T18:45:41.703185+00:00",
+    "generated_at_utc": "2026-08-07T19:39:19.642007+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,20 +11,20 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.542,
+        "price": 99.502,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.656,
+        "price": 4.66,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 15m",
     "News from the Yahoo Finance Network",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
-    "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery— 'Hope You...'",
+    "Trump considers moving forward with removal of Fed governor Lisa Cook",
+    "Trump Again Moves to Fire Cook, Reviving Fed Independence Fight",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
     "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN",
     "Jeff Bezos’ Ex-Wife’s $40M Financial Change Revealed After He Filed to Sell $4B in Amazon Shares as He ‘Hangs on for Dear Life’ with His New Wife",
@@ -34,38 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64691.33984375,
-        "perp_last_price": 64691.33984375,
-        "mark_price": 64691.33984375,
-        "index_price": 64691.33984375,
+        "spot_price": 64919.76171875,
+        "perp_last_price": 64919.76171875,
+        "mark_price": 64919.76171875,
+        "index_price": 64919.76171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64691.33984375,
-        "stop_loss_technical": 65348.23828125,
-        "target_1": 63705.9921875,
-        "target_2": 62720.64453125,
+        "entry_ideal": 64919.7890625,
+        "stop_loss_technical": 64112.26953125,
+        "target_1": 66131.06835938,
+        "target_2": 67342.34765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64691.33984375,
+        "entry_ideal": 64919.76171875,
         "stop_loss_technical": 62226.578125,
-        "target_1": 68388.48242188,
-        "target_2": 72085.625,
+        "target_1": 68959.53710938,
+        "target_2": 72999.3125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
