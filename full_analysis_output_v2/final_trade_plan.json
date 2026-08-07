@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T11:21:23.613711+00:00",
+    "generated_at_utc": "2026-08-07T12:04:01.405012+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.9,
+        "price": 99.878,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 10m",
+    "U.S. markets open in 1h 27m",
     "News from the Yahoo Finance Network",
+    "Ford’s new electric pickup will cost $28,350. It’s an extremely expensive bet on a very cheap truck",
     "Warren Buffett's Successor, Greg Abel, Has 63% of Berkshire Hathaway's $355 Billion Portfolio Invested in Just 5 Standout Stocks",
+    "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
+    "Cirrus Logic, Inc. Q1 2027 Earnings Call Summary",
     "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
-    "AMD Stock tumbles because of SpaceX",
-    "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN",
-    "3 Social Security changes are headed for boomers in 2027 — and Trump's promises won't stop them",
-    "Bank of America Spends $250 Million a Year on Ozempic and Other GLP-1 Drugs, CEO Calls It 'a Good Investment'"
+    "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64980.0,
-        "perp_last_price": 64980.0,
-        "mark_price": 64980.0,
-        "index_price": 64980.0,
+        "spot_price": 64989.1015625,
+        "perp_last_price": 64989.1015625,
+        "mark_price": 64989.1015625,
+        "index_price": 64989.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64982.01953125,
+        "entry_ideal": 64989.1015625,
         "stop_loss_technical": 64112.26953125,
-        "target_1": 66286.64453125,
-        "target_2": 67591.26953125,
+        "target_1": 66304.34960938,
+        "target_2": 67619.59765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64980.0,
+        "entry_ideal": 64989.1015625,
         "stop_loss_technical": 62226.578125,
-        "target_1": 69110.1328125,
-        "target_2": 73240.265625,
+        "target_1": 69132.88671875,
+        "target_2": 73276.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
