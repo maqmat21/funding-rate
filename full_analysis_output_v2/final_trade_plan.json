@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T21:02:15.176098+00:00",
+    "generated_at_utc": "2026-08-07T21:50:17.194044+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.613,
+        "price": 99.604,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,11 +22,11 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Layoffs rock San Francisco’s largest employer as tech giant replaces workers with AI",
+    "How Beach Energy’s Profit Rebound Despite Lower Sales At Beach Energy (ASX:BPT) Has Changed Its Investment Story",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
-    "Axon Enterprise vs. Chewy: Do Customers of Police or Pets Make One Stock a Better Buy in 2026?",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
-    "Leon's Furniture Ltd (LEFUF) (Q2 2026) Earnings Call Highlights: Navigating Soft Demand with ...",
-    "Jeff Bezos’ Ex-Wife’s $40M Financial Change Revealed After He Filed to Sell $4B in Amazon Shares as He ‘Hangs on for Dear Life’ with His New Wife",
+    "The deportation economy is backfiring on American workers, top economist warns",
     "Bankrupt Mexican fast-food chain operator closes 47 locations",
     "Warren Buffett's Berkshire Hathaway stock shows investors warming to Greg Abel's leadership"
   ],
@@ -34,24 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64935.2890625,
-        "perp_last_price": 64935.2890625,
-        "mark_price": 64935.2890625,
-        "index_price": 64935.2890625,
+        "spot_price": 64938.8515625,
+        "perp_last_price": 64938.8515625,
+        "mark_price": 64938.8515625,
+        "index_price": 64938.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64935.2890625,
-        "stop_loss_technical": 64112.26953125,
-        "target_1": 66169.81835938,
-        "target_2": 67404.34765625,
+        "entry_ideal": 64938.83984375,
+        "stop_loss_technical": 65348.23828125,
+        "target_1": 64324.7421875,
+        "target_2": 63710.64453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64935.2890625,
+        "entry_ideal": 64938.8515625,
         "stop_loss_technical": 62226.578125,
-        "target_1": 68998.35546875,
-        "target_2": 73061.421875,
+        "target_1": 69007.26171875,
+        "target_2": 73075.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
