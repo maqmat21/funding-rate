@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T07:41:41.510634+00:00",
+    "generated_at_utc": "2026-08-07T08:39:45.750715+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.948,
+        "price": 99.976,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 49m",
+    "U.S. markets open in 4h 51m",
     "News from the Yahoo Finance Network",
+    "Real-World Asset Deposits Jump to $7.4 Billion Through DeFi Downturn",
     "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
+    "Will Intellia’s (NTLA) Narrowing Losses and Heavy R&D Spend Shift Its Risk Reward Narrative?",
     "Bankrupt Mexican fast-food chain owner closing 47 locations",
     "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN",
-    "CVRx Inc (CVRX) (Q2 2026) Earnings Call Highlights: Sales Execution Challenges Offset Strong ...",
-    "Warren Buffett and Wife Susie Ate Fritos, Steak, Chocolate and Cookies—Then She Asked Him to Pay Her to Stay 118 Lbs, but Money Didn’t Motivate Her",
-    "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns"
+    "Warren Buffett and Wife Susie Ate Fritos, Steak, Chocolate and Cookies—Then She Asked Him to Pay Her to Stay 118 Lbs, but Money Didn’t Motivate Her"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64327.171875,
-        "perp_last_price": 64327.171875,
-        "mark_price": 64327.171875,
-        "index_price": 64327.171875,
+        "spot_price": 64429.53125,
+        "perp_last_price": 64429.53125,
+        "mark_price": 64429.53125,
+        "index_price": 64429.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64327.171875,
-        "stop_loss_technical": 63362.26429688,
-        "target_1": 65774.53324219,
-        "target_2": 67221.89460937,
+        "entry_ideal": 64429.51953125,
+        "stop_loss_technical": 63463.07673828,
+        "target_1": 65879.1837207,
+        "target_2": 67328.84791016,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64327.171875,
-        "stop_loss_technical": 64954.34765625,
-        "target_1": 63386.40820312,
-        "target_2": 62445.64453125,
+        "entry_ideal": 64429.53125,
+        "stop_loss_technical": 63463.08828125,
+        "target_1": 65879.19570313,
+        "target_2": 67328.86015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
