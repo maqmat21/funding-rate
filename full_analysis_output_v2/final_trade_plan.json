@@ -1,72 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T17:57:52.606527+00:00",
+    "generated_at_utc": "2026-08-07T18:45:41.703185+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.535,
+        "price": 99.542,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.649,
-        "trend": "bajista"
+        "price": 4.656,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 3m",
+    "U.S. markets close in 1h 15m",
     "News from the Yahoo Finance Network",
-    "Her Divorce Settlement Totaled $900,000 — Now Her Ex-Husband's New Wife Says She Should Have Received Less",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
-    "Jeff Bezos’ Ex-Wife’s $40M Financial Change Revealed After He Filed to Sell $4B in Amazon Shares as He ‘Hangs on for Dear Life’ with His New Wife",
+    "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery— 'Hope You...'",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
     "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN",
-    "Warren Buffett's Berkshire Hathaway stock shows investors warming to Greg Abel's leadership"
+    "Jeff Bezos’ Ex-Wife’s $40M Financial Change Revealed After He Filed to Sell $4B in Amazon Shares as He ‘Hangs on for Dear Life’ with His New Wife",
+    "Bankrupt Mexican fast-food chain operator closes 47 locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64701.3203125,
-        "perp_last_price": 64701.3203125,
-        "mark_price": 64701.3203125,
-        "index_price": 64701.3203125,
+        "spot_price": 64691.33984375,
+        "perp_last_price": 64691.33984375,
+        "mark_price": 64691.33984375,
+        "index_price": 64691.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64700.01171875,
-        "stop_loss_technical": 64112.26953125,
-        "target_1": 65581.625,
-        "target_2": 66463.23828125,
+        "entry_ideal": 64691.33984375,
+        "stop_loss_technical": 65348.23828125,
+        "target_1": 63705.9921875,
+        "target_2": 62720.64453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64701.3203125,
+        "entry_ideal": 64691.33984375,
         "stop_loss_technical": 62226.578125,
-        "target_1": 68413.43359375,
-        "target_2": 72125.546875,
+        "target_1": 68388.48242188,
+        "target_2": 72085.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
