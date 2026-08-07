@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T00:27:09.379713+00:00",
+    "generated_at_utc": "2026-08-07T03:24:35.797610+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.973,
+        "price": 99.968,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
-    "Michael Burry Re-Enters ORCL Puts And Shorts NBIS — Adds To Select Long Holdings",
-    "‘Pure insanity’—Elon Musk details SpaceX’s plan to turn the moon into its newest manufacturing site",
-    "Bankrupt fast-food Mexican chain operator closing 47 locations",
+    "Bankrupt Mexican fast-food chain owner closing 47 locations",
+    "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN",
     "Warren Buffett and Wife Susie Ate Fritos, Steak, Chocolate and Cookies—Then She Asked Him to Pay Her to Stay 118 Lbs, but Money Didn’t Motivate Her",
-    "Nuclear Wipeout: These 5 Nuclear Stocks Are Now Down 44.3% to 82.2%. Time to Buy?",
-    "59-Year-Old Who Inherited a $640,000 401(k) Is About to Hand the IRS $170,000"
+    "ICU Medical Q2 Earnings Call Highlights",
+    "Jamie Dimon makes huge call on AI and U.S. economy",
+    "Trump could net big tax windfall in crypto bill divestiture plan, Bloomberg News reports"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64241.48046875,
-        "perp_last_price": 64241.48046875,
-        "mark_price": 64241.48046875,
-        "index_price": 64241.48046875,
+        "spot_price": 64241.44921875,
+        "perp_last_price": 64241.44921875,
+        "mark_price": 64241.44921875,
+        "index_price": 64241.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64241.48046875,
-        "stop_loss_technical": 64944.16015625,
-        "target_1": 63187.4609375,
-        "target_2": 62133.44140625,
+        "entry_ideal": 64241.4609375,
+        "stop_loss_technical": 64934.609375,
+        "target_1": 63201.73828125,
+        "target_2": 62162.015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64241.48046875,
+        "entry_ideal": 64241.44921875,
         "stop_loss_technical": 64954.34765625,
-        "target_1": 63172.1796875,
-        "target_2": 62102.87890625,
+        "target_1": 63172.1015625,
+        "target_2": 62102.75390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
