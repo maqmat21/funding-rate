@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T23:28:46.943992+00:00",
+    "generated_at_utc": "2026-08-07T23:57:22.189621+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
-    "Trump Tariff Refunds Just Topped $100 Billion, and These Companies Are Receiving Some of the Largest Checks",
-    "Layoffs rock San Francisco’s largest employer as tech giant replaces workers with AI",
+    "Layoffs rock Salesforce in San Francisco’s as tech giant leans in to AI",
+    "Elon Musk to build the biggest building in the world — spanning a colossal 100M square feet",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
     "The deportation economy is backfiring on American workers, top economist warns",
-    "Warren Buffett Set a Personal Goal to Give Away His Entire $140 Billion Berkshire Stake by 2034. Here's What That Means for Future Share Supply.",
-    "You May Not Need $1 Million to Retire Comfortably—$800,000 Works in 28 States"
+    "Trump Tariff Refunds Just Topped $100 Billion, and These Companies Are Receiving Some of the Largest Checks",
+    "Bankrupt Mexican fast-food chain operator closes 47 locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64851.62890625,
-        "perp_last_price": 64851.62890625,
-        "mark_price": 64851.62890625,
-        "index_price": 64851.62890625,
+        "spot_price": 64888.73046875,
+        "perp_last_price": 64888.73046875,
+        "mark_price": 64888.73046875,
+        "index_price": 64888.73046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64851.62890625,
-        "stop_loss_technical": 65348.23828125,
-        "target_1": 64106.71484375,
-        "target_2": 63361.80078125,
+        "entry_ideal": 64888.73046875,
+        "stop_loss_technical": 64112.26953125,
+        "target_1": 66053.421875,
+        "target_2": 67218.11328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64851.62890625,
+        "entry_ideal": 64888.73046875,
         "stop_loss_technical": 62226.578125,
-        "target_1": 68789.20507812,
-        "target_2": 72726.78125,
+        "target_1": 68881.95898438,
+        "target_2": 72875.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
