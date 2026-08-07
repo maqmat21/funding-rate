@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T13:23:22.278705+00:00",
+    "generated_at_utc": "2026-08-07T14:28:58.104256+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.481,
+        "price": 99.555,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.621,
+        "price": 4.643,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 32m",
     "News from the Yahoo Finance Network",
+    "Billionaire Charlie Munger Got Rich Off Real Estate and Lived in the Same House for 70 Years — Yet Still Called It a ‘Very Lousy Investment’",
+    "Top Rare-Earths Stocks Poised to Ride the U.S. Reshoring Wave",
     "Warren Buffett's Berkshire Hathaway stock shows investors  warming to Greg Abel's leadership",
-    "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
-    "Take-Two’s Earnings and Bookings Guidance Shows How World Awaits ‘Grand Theft Auto VI’",
-    "Ford’s new electric pickup will cost $28,350. It’s an extremely expensive bet on a very cheap truck",
-    "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
     "Warren Buffett's Successor, Greg Abel, Has 63% of Berkshire Hathaway's $355 Billion Portfolio Invested in Just 5 Standout Stocks",
-    "Claritev Beats Second-Quarter Expectations and Raises Full-Year Guidance"
+    "How a 70-Year-Old Collects $6,500 a Month From Just Four Tickers: SCHD, JEPQ, O, and MAIN",
+    "Bankrupt Mexican fast-food chain owner closing 47 locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65183.0390625,
-        "perp_last_price": 65183.0390625,
-        "mark_price": 65183.0390625,
-        "index_price": 65183.0390625,
+        "spot_price": 65138.359375,
+        "perp_last_price": 65138.359375,
+        "mark_price": 65138.359375,
+        "index_price": 65138.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 65183.0390625,
-        "stop_loss_technical": 64205.29347656,
-        "target_1": 66649.65744141,
-        "target_2": 68116.27582031,
+        "entry_ideal": 65127.421875,
+        "stop_loss_technical": 64112.26953125,
+        "target_1": 66650.15039062,
+        "target_2": 68172.87890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 65183.0390625,
+        "entry_ideal": 65138.359375,
         "stop_loss_technical": 62226.578125,
-        "target_1": 69617.73046875,
-        "target_2": 74052.421875,
+        "target_1": 69506.03125,
+        "target_2": 73873.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
