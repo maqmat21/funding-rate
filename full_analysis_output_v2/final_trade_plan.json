@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-07T21:50:17.194044+00:00",
+    "generated_at_utc": "2026-08-07T22:20:15.174243+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,10 +23,10 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Layoffs rock San Francisco’s largest employer as tech giant replaces workers with AI",
-    "How Beach Energy’s Profit Rebound Despite Lower Sales At Beach Energy (ASX:BPT) Has Changed Its Investment Story",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
-    "The deportation economy is backfiring on American workers, top economist warns",
+    "Elon Musk to build the biggest building in the world — spanning a colossal 100M square feet",
+    "Bank of America doubles down on Sandisk stock after earnings",
     "Bankrupt Mexican fast-food chain operator closes 47 locations",
     "Warren Buffett's Berkshire Hathaway stock shows investors warming to Greg Abel's leadership"
   ],
@@ -34,24 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64938.8515625,
-        "perp_last_price": 64938.8515625,
-        "mark_price": 64938.8515625,
-        "index_price": 64938.8515625,
+        "spot_price": 64875.01953125,
+        "perp_last_price": 64875.01953125,
+        "mark_price": 64875.01953125,
+        "index_price": 64875.01953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64938.83984375,
+        "entry_ideal": 64875.01953125,
         "stop_loss_technical": 65348.23828125,
-        "target_1": 64324.7421875,
-        "target_2": 63710.64453125,
+        "target_1": 64165.19140625,
+        "target_2": 63455.36328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64938.8515625,
+        "entry_ideal": 64875.01953125,
         "stop_loss_technical": 62226.578125,
-        "target_1": 69007.26171875,
-        "target_2": 73075.671875,
+        "target_1": 68847.68164062,
+        "target_2": 72820.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
