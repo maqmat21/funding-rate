@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-06T15:24:49.426866+00:00",
+    "generated_at_utc": "2026-08-07T00:27:09.379713+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.916,
+        "price": 99.973,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.647,
-        "trend": "bajista"
+        "price": 4.67,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 36m",
     "News from the Yahoo Finance Network",
-    "American Fusion Expands Texatron Patent Portfolio with Six New U.S. Patent Applications",
-    "Warren Buffett Just Issued a Blunt Warning About the Stock Market. History Is Clear About What Comes Next.",
     "Virginia Man Turns $70,000 Into $264 Million Roth IRA Buying Only Public Stocks. He Won’t Owe Another Penny of Tax. The Same Rules Apply To You",
-    "Jeff Dean's new startup pitch deck slides are an insane flex",
-    "17-year-old Mexican restaurant chain closes all locations",
-    "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?"
+    "Michael Burry Re-Enters ORCL Puts And Shorts NBIS — Adds To Select Long Holdings",
+    "‘Pure insanity’—Elon Musk details SpaceX’s plan to turn the moon into its newest manufacturing site",
+    "Bankrupt fast-food Mexican chain operator closing 47 locations",
+    "Warren Buffett and Wife Susie Ate Fritos, Steak, Chocolate and Cookies—Then She Asked Him to Pay Her to Stay 118 Lbs, but Money Didn’t Motivate Her",
+    "Nuclear Wipeout: These 5 Nuclear Stocks Are Now Down 44.3% to 82.2%. Time to Buy?",
+    "59-Year-Old Who Inherited a $640,000 401(k) Is About to Hand the IRS $170,000"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64753.7109375,
-        "perp_last_price": 64753.7109375,
-        "mark_price": 64753.7109375,
-        "index_price": 64753.7109375,
+        "spot_price": 64241.48046875,
+        "perp_last_price": 64241.48046875,
+        "mark_price": 64241.48046875,
+        "index_price": 64241.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64753.7109375,
-        "stop_loss_technical": 64091.3203125,
-        "target_1": 65747.296875,
-        "target_2": 66740.8828125,
+        "entry_ideal": 64241.48046875,
+        "stop_loss_technical": 64944.16015625,
+        "target_1": 63187.4609375,
+        "target_2": 62133.44140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64753.7109375,
-        "stop_loss_technical": 62226.578125,
-        "target_1": 68544.41015625,
-        "target_2": 72335.109375,
+        "entry_ideal": 64241.48046875,
+        "stop_loss_technical": 64954.34765625,
+        "target_1": 63172.1796875,
+        "target_2": 62102.87890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
