@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T10:33:27.926762+00:00",
+    "generated_at_utc": "2026-08-08T11:03:18.591481+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,11 +22,11 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+    "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
     "All It Takes Is 1,700 Shares of This High-Yielding Dividend Stock to Generate Over $1,000 in Yearly Dividends.",
-    "This Summer’s Hottest Arm Candy Is a Private Equity Boyfriend",
+    "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
     "Warren Buffett sends a blunt message to stock market investors",
-    "History Says the Investors Who Stay the Course During Bear Markets Have Always Come Out Ahead. Here's the Proof.",
+    "Warren Buffett Has Recommended the Same Investment for Decades -- and the Long-Term Results Have Been Extraordinary",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
     "Billionaire Ken Griffin Once Said 'If You Don't Like to Sell, Get Over It' - Here's What That Means for Traders Today"
   ],
@@ -34,25 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64980.05078125,
-        "perp_last_price": 64980.05078125,
-        "mark_price": 64980.05078125,
-        "index_price": 64980.05078125,
+        "spot_price": 64967.05859375,
+        "perp_last_price": 64967.05859375,
+        "mark_price": 64967.05859375,
+        "index_price": 64967.05859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64980.05859375,
-        "stop_loss_technical": 64470.01953125,
-        "target_1": 65745.1171875,
-        "target_2": 66510.17578125,
+        "entry_ideal": 64967.05859375,
+        "stop_loss_technical": 65058.12109375,
+        "target_1": 64830.46484375,
+        "target_2": 64693.87109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64980.05078125,
+        "entry_ideal": 64967.05859375,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67533.6015625,
-        "target_2": 70087.15234375,
+        "target_1": 67501.12109375,
+        "target_2": 70035.18359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
