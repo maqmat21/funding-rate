@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T18:01:23.455017+00:00",
+    "generated_at_utc": "2026-08-08T18:52:25.872151+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,32 +26,33 @@
     "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
     "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
     "Elon Musk issues red flag warning to group of SpaceX traders — but they keep doubling down. Are you making the same bet?",
+    "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
     "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game",
-    "Bill Ackman’s $35 billion hedge fund has under 50 employees and all of them — from janitors to receptionists — own millions in company stock",
     "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65073.12890625,
-        "perp_last_price": 65073.12890625,
-        "mark_price": 65073.12890625,
-        "index_price": 65073.12890625,
+        "spot_price": 65000.44921875,
+        "perp_last_price": 65000.44921875,
+        "mark_price": 65000.44921875,
+        "index_price": 65000.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 65073.5,
+        "entry_ideal": 65000.4609375,
         "stop_loss_technical": 65148.921875,
-        "target_1": 64960.3671875,
-        "target_2": 64847.234375,
+        "target_1": 64777.76953125,
+        "target_2": 64555.078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65073.12890625,
+        "entry_ideal": 65000.44921875,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67766.296875,
-        "target_2": 70459.46484375,
+        "target_1": 67584.59765625,
+        "target_2": 70168.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
