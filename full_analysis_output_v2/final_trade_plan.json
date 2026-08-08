@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T06:30:48.958783+00:00",
+    "generated_at_utc": "2026-08-08T07:31:42.621291+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,32 @@
     "Warren Buffett sends a blunt message to stock market investors",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
-    "Elon Musk to build the biggest building in the world — spanning a colossal 100M square feet",
     "After blowing through its entire 2026 AI budget in months, Uber CTO says, ‘We’re coming to the end of the so-called tokenmaxxing era’",
+    "Elon Musk to build the biggest building in the world — spanning a colossal 100M square feet",
     "Bankrupt Mexican fast-food chain operator closes 47 locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64939.671875,
-        "perp_last_price": 64939.671875,
-        "mark_price": 64939.671875,
-        "index_price": 64939.671875,
+        "spot_price": 64964.2890625,
+        "perp_last_price": 64964.2890625,
+        "mark_price": 64964.2890625,
+        "index_price": 64964.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64939.671875,
-        "stop_loss_technical": 65346.671875,
-        "target_1": 64329.171875,
-        "target_2": 63718.671875,
+        "entry_ideal": 64964.30078125,
+        "stop_loss_technical": 64474.6015625,
+        "target_1": 65698.84960938,
+        "target_2": 66433.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64939.671875,
+        "entry_ideal": 64964.2890625,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67432.65429688,
-        "target_2": 69925.63671875,
+        "target_1": 67494.19726562,
+        "target_2": 70024.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
