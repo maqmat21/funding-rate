@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T09:25:40.656775+00:00",
+    "generated_at_utc": "2026-08-08T10:00:06.315189+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+    "Is Micron Stock Too Cheap to Ignore?",
+    "Fiserv (FISV) Stock May Still Be Cheap As Activist Pressure Builds",
     "Warren Buffett sends a blunt message to stock market investors",
-    "The White House Continues to Promote the Strategic Bitcoin Reserve. Here's What It Means for Bitcoin.",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
-    "After blowing through its entire 2026 AI budget in months, Uber CTO says, ‘We’re coming to the end of the so-called tokenmaxxing era’",
-    "Bankrupt Mexican fast-food chain operator closes 47 locations"
+    "After blowing through its entire 2026 AI budget in months, Uber CTO says, ‘We’re coming to the end of the so-called tokenmaxxing era’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64975.37890625,
-        "perp_last_price": 64975.37890625,
-        "mark_price": 64975.37890625,
-        "index_price": 64975.37890625,
+        "spot_price": 64955.2890625,
+        "perp_last_price": 64955.2890625,
+        "mark_price": 64955.2890625,
+        "index_price": 64955.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64975.37890625,
-        "stop_loss_technical": 64474.6015625,
-        "target_1": 65726.54492188,
-        "target_2": 66477.7109375,
+        "entry_ideal": 64955.2890625,
+        "stop_loss_technical": 65077.51171875,
+        "target_1": 64771.95507812,
+        "target_2": 64588.62109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64975.37890625,
+        "entry_ideal": 64955.2890625,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67521.921875,
-        "target_2": 70068.46484375,
+        "target_1": 67471.69726562,
+        "target_2": 69988.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
