@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T08:55:14.182315+00:00",
+    "generated_at_utc": "2026-08-08T09:25:40.656775+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,7 +24,7 @@
     "News from the Yahoo Finance Network",
     "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
     "Warren Buffett sends a blunt message to stock market investors",
-    "Ecolab (ECL) Could Be 12% Undervalued After Its Dividend Affirmation",
+    "The White House Continues to Promote the Strategic Bitcoin Reserve. Here's What It Means for Bitcoin.",
     "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
     "Charlie Munger said $100K was where net worth 'explodes' — but in 2026, the real magic number is $200K",
     "After blowing through its entire 2026 AI budget in months, Uber CTO says, ‘We’re coming to the end of the so-called tokenmaxxing era’",
@@ -34,24 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64947.94140625,
-        "perp_last_price": 64947.94140625,
-        "mark_price": 64947.94140625,
-        "index_price": 64947.94140625,
+        "spot_price": 64975.37890625,
+        "perp_last_price": 64975.37890625,
+        "mark_price": 64975.37890625,
+        "index_price": 64975.37890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64947.94140625,
-        "stop_loss_technical": 65292.83984375,
-        "target_1": 64430.59375,
-        "target_2": 63913.24609375,
+        "entry_ideal": 64975.37890625,
+        "stop_loss_technical": 64474.6015625,
+        "target_1": 65726.54492188,
+        "target_2": 66477.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64947.94140625,
+        "entry_ideal": 64975.37890625,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67453.328125,
-        "target_2": 69958.71484375,
+        "target_1": 67521.921875,
+        "target_2": 70068.46484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
