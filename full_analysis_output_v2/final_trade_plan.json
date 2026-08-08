@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T20:41:45.555995+00:00",
+    "generated_at_utc": "2026-08-08T21:06:24.620715+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,31 +27,31 @@
     "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
     "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
     "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
-    "3 Ultra-High-Yield Dividend Stocks to Buy in August (1 Yields Over 13.5%)",
-    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game"
+    "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
+    "3 Ultra-High-Yield Dividend Stocks to Buy in August (1 Yields Over 13.5%)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65023.359375,
-        "perp_last_price": 65023.359375,
-        "mark_price": 65023.359375,
-        "index_price": 65023.359375,
+        "spot_price": 65023.76171875,
+        "perp_last_price": 65023.76171875,
+        "mark_price": 65023.76171875,
+        "index_price": 65023.76171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 65023.359375,
-        "stop_loss_technical": 64855.19140625,
-        "target_1": 65275.61132812,
-        "target_2": 65527.86328125,
+        "entry_ideal": 65023.76171875,
+        "stop_loss_technical": 65148.921875,
+        "target_1": 64836.02148438,
+        "target_2": 64648.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65023.359375,
+        "entry_ideal": 65023.76171875,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67641.87304688,
-        "target_2": 70260.38671875,
+        "target_1": 67642.87890625,
+        "target_2": 70261.99609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
