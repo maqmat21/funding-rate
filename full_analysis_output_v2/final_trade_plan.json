@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T19:19:59.980764+00:00",
+    "generated_at_utc": "2026-08-08T19:47:26.561886+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,47 +25,48 @@
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
     "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
-    "Warren Buffett is out, and Berkshire Hathaway is spending again",
     "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
-    "Elon Musk issues red flag warning to group of SpaceX traders — but they keep doubling down. Are you making the same bet?",
-    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game"
+    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game",
+    "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
+    "Elon Musk issues red flag warning to group of SpaceX traders — but they keep doubling down. Are you making the same bet?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64964.87109375,
-        "perp_last_price": 64964.87109375,
-        "mark_price": 64964.87109375,
-        "index_price": 64964.87109375,
+        "spot_price": 64994.87890625,
+        "perp_last_price": 64994.87890625,
+        "mark_price": 64994.87890625,
+        "index_price": 64994.87890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64964.87109375,
-        "stop_loss_technical": 65148.921875,
-        "target_1": 64688.79492188,
-        "target_2": 64412.71875,
+        "entry_ideal": 64994.87890625,
+        "stop_loss_technical": 64789.890625,
+        "target_1": 65302.36132812,
+        "target_2": 65609.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64964.87109375,
+        "entry_ideal": 64994.87890625,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67495.65234375,
-        "target_2": 70026.43359375,
+        "target_1": 67570.671875,
+        "target_2": 70146.46484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
