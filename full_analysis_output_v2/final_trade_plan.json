@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T21:40:08.393136+00:00",
+    "generated_at_utc": "2026-08-08T21:59:57.893044+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
-    "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
     "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
     "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
-    "Dear SanDisk Stock Fans, Mark Your Calendars for a Fresh Catalyst on August 13",
-    "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term"
+    "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
+    "Berkshire Hathaway Just Did Something It Hasn’t Done in More Than 3 Years",
+    "3 Ultra-High-Yield Dividend Stocks to Buy in August (1 Yields Over 13.5%)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64986.25,
-        "perp_last_price": 64986.25,
-        "mark_price": 64986.25,
-        "index_price": 64986.25,
+        "spot_price": 64968.03125,
+        "perp_last_price": 64968.03125,
+        "mark_price": 64968.03125,
+        "index_price": 64968.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 64986.140625,
+        "entry_ideal": 64968.03125,
         "stop_loss_technical": 65148.921875,
-        "target_1": 64741.96875,
-        "target_2": 64497.796875,
+        "target_1": 64696.6953125,
+        "target_2": 64425.359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64986.25,
-        "stop_loss_technical": 63277.68359375,
-        "target_1": 67549.09960938,
-        "target_2": 70111.94921875,
+        "entry_ideal": 64968.03125,
+        "stop_loss_technical": 65330.609375,
+        "target_1": 64424.1640625,
+        "target_2": 63880.296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
