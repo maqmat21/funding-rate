@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T22:57:26.765467+00:00",
+    "generated_at_utc": "2026-08-08T23:21:25.020624+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
-    "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
-    "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
-    "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
     "Warren Buffett Warned About the Dot-Com Bubble. Now, the Stock Market Is Flashing the Same Warning Signal.",
-    "Why the Market Continues to Sleep on Micron's Growth Potential"
+    "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
+    "25 Best Midwest Towns for Affordable and Peaceful Retirement Living",
+    "Warren Buffett's Successor, Greg Abel, Just Ended Berkshire Hathaway's 14-Quarter Selling Streak. Is This the Screaming Buy Signal Investors Have Been Waiting For?",
+    "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64896.01171875,
-        "perp_last_price": 64896.01171875,
-        "mark_price": 64896.01171875,
-        "index_price": 64896.01171875,
+        "spot_price": 64908.05859375,
+        "perp_last_price": 64908.05859375,
+        "mark_price": 64908.05859375,
+        "index_price": 64908.05859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64896.01171875,
-        "stop_loss_technical": 65148.921875,
-        "target_1": 64516.64648438,
-        "target_2": 64137.28125,
+        "entry_ideal": 64912.609375,
+        "stop_loss_technical": 64880.0,
+        "target_1": 64961.5234375,
+        "target_2": 65010.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64896.01171875,
+        "entry_ideal": 64908.05859375,
         "stop_loss_technical": 65330.609375,
-        "target_1": 64244.11523438,
-        "target_2": 63592.21875,
+        "target_1": 64274.23242188,
+        "target_2": 63640.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
