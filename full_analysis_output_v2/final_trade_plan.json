@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T11:58:00.949723+00:00",
+    "generated_at_utc": "2026-08-08T12:36:31.328486+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,33 @@
     "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
     "All It Takes Is 1,700 Shares of This High-Yielding Dividend Stock to Generate Over $1,000 in Yearly Dividends.",
     "Elon Musk issues red flag warning to group of SpaceX traders — but they keep doubling down. Are you making the same bet?",
-    "Warren Buffett sends a blunt message to stock market investors",
     "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game",
     "Is Micron Stock Too Cheap to Ignore?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64928.46875,
-        "perp_last_price": 64928.46875,
-        "mark_price": 64928.46875,
-        "index_price": 64928.46875,
+        "spot_price": 64956.921875,
+        "perp_last_price": 64956.921875,
+        "mark_price": 64956.921875,
+        "index_price": 64956.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64928.46875,
-        "stop_loss_technical": 65058.12109375,
-        "target_1": 64733.99023438,
-        "target_2": 64539.51171875,
+        "entry_ideal": 64956.921875,
+        "stop_loss_technical": 64470.01953125,
+        "target_1": 65687.27539062,
+        "target_2": 66417.62890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64928.46875,
+        "entry_ideal": 64956.921875,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67404.64648438,
-        "target_2": 69880.82421875,
+        "target_1": 67475.77929688,
+        "target_2": 69994.63671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
