@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-08T16:33:10.973400+00:00",
+    "generated_at_utc": "2026-08-08T17:04:55.565790+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,34 @@
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "US wages plummet to 43% of national income — lowest since the Great Depression. Did Nixon’s gold breakup kill paychecks?",
     "Elon Musk issues red flag warning to group of SpaceX traders — but they keep doubling down. Are you making the same bet?",
-    "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
+    "Tecnoglass Inc. Q2 2026 Earnings Call Summary",
     "Bill Ackman’s $35 billion hedge fund has under 50 employees and all of them — from janitors to receptionists — own millions in company stock",
-    "3 Ultra-High-Yield Dividend Stocks to Buy in August (1 Yields Over 13.5%)",
-    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game"
+    "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
+    "3 Ultra-High-Yield Dividend Stocks to Buy in August (1 Yields Over 13.5%)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65012.1796875,
-        "perp_last_price": 65012.1796875,
-        "mark_price": 65012.1796875,
-        "index_price": 65012.1796875,
+        "spot_price": 65034.890625,
+        "perp_last_price": 65034.890625,
+        "mark_price": 65034.890625,
+        "index_price": 65034.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 65012.171875,
-        "stop_loss_technical": 65148.921875,
-        "target_1": 64807.046875,
-        "target_2": 64601.921875,
+        "entry_ideal": 65040.0,
+        "stop_loss_technical": 64789.890625,
+        "target_1": 65415.1640625,
+        "target_2": 65790.328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65012.1796875,
+        "entry_ideal": 65034.890625,
         "stop_loss_technical": 63277.68359375,
-        "target_1": 67613.92382812,
-        "target_2": 70215.66796875,
+        "target_1": 67670.70117188,
+        "target_2": 70306.51171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
