@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-09T11:52:11.523837+00:00",
+    "generated_at_utc": "2026-08-09T12:23:15.042419+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,49 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
+    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "This Is the 1 ETF Warren Buffett Recommends Most People Buy -- and History Says He's Always Been Right",
     "The Stock Market Is Doing Something Observed Only 4 Times Since 1997 -- and the Previous 3 Instances Ended in Disaster for Wall Street",
-    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
-    "Great disappointment will follow the Great Wealth Transfer as baby boomers pass on just a fraction of their fortune to millennials and Gen Xers",
+    "Warren Buffett Recently Called the Stock Market \"A Church With a Casino Attached.\" Is He Right?",
     "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64931.51953125,
-        "perp_last_price": 64931.51953125,
-        "mark_price": 64931.51953125,
-        "index_price": 64931.51953125,
+        "spot_price": 64888.83984375,
+        "perp_last_price": 64888.83984375,
+        "mark_price": 64888.83984375,
+        "index_price": 64888.83984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64931.51171875,
+        "entry_ideal": 64889.6484375,
         "stop_loss_technical": 65107.98046875,
-        "target_1": 64666.80859375,
-        "target_2": 64402.10546875,
+        "target_1": 64562.15039062,
+        "target_2": 64234.65234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64931.51953125,
+        "entry_ideal": 64888.83984375,
         "stop_loss_technical": 63829.71875,
-        "target_1": 66584.22070312,
-        "target_2": 68236.921875,
+        "target_1": 66477.52148438,
+        "target_2": 68066.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
