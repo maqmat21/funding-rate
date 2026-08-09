@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-09T09:07:46.217905+00:00",
+    "generated_at_utc": "2026-08-09T09:52:14.245953+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
+    "This Is the 1 ETF Warren Buffett Recommends Most People Buy -- and History Says He's Always Been Right",
+    "All It Takes Is $10,000 in Each of These 3 Dividend Stocks for $1,700+ a Year in Passive Income",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
-    "My 3 Favorite Value Stocks to Buy Right Now",
-    "Jim Cramer Compares SpaceX Stock to 100-Year Railroad Bonds: Asks Investors to Think of Their Children and Grandchildren",
-    "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
-    "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever",
-    "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now."
+    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
+    "3 Required Minimum Distribution (RMD) Rule Changes You Need to Know in 2026",
+    "What Happens to a Bond ETF's Price When the Fed Cuts Rates -- Using the Actual Historical Data",
+    "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64775.94921875,
-        "perp_last_price": 64775.94921875,
-        "mark_price": 64775.94921875,
-        "index_price": 64775.94921875,
+        "spot_price": 64773.80078125,
+        "perp_last_price": 64773.80078125,
+        "mark_price": 64773.80078125,
+        "index_price": 64773.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64775.94921875,
-        "stop_loss_technical": 65148.921875,
-        "target_1": 64216.49023438,
-        "target_2": 63657.03125,
+        "entry_ideal": 64773.80078125,
+        "stop_loss_technical": 64675.21875,
+        "target_1": 64921.67382812,
+        "target_2": 65069.546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 64775.94921875,
+        "entry_ideal": 64773.80078125,
         "stop_loss_technical": 65330.609375,
-        "target_1": 63943.95898438,
-        "target_2": 63111.96875,
+        "target_1": 63938.58789062,
+        "target_2": 63103.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
