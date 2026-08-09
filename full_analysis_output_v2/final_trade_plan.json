@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-09T06:46:52.989237+00:00",
+    "generated_at_utc": "2026-08-09T07:40:39.859134+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,34 @@
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "Jim Cramer Compares SpaceX Stock to 100-Year Railroad Bonds: Asks Investors to Think of Their Children and Grandchildren",
-    "Great disappointment will follow the Great Wealth Transfer as baby boomers pass on just a fraction of their fortune to millennials and Gen Xers",
-    "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever",
     "Elon Musk Owns 20% of Tesla, a Stake Worth Roughly $200 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+    "Don't Be Fooled: Warren Buffett's and Greg Abel's $366 Billion Warning to Wall Street Echoes Louder Than Ever",
+    "Great disappointment will follow the Great Wealth Transfer as baby boomers pass on just a fraction of their fortune to millennials and Gen Xers",
     "Berkshire Hathaway Buys Back $4.5 Billion of Its Own Shares",
-    "Billionaire Jensen Huang Says That When America Goes to War He Would Rather Not Be Asked About His Own Technology: ‘I Would Really Appreciate Not Getting a Phone Call…'"
+    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64813.890625,
-        "perp_last_price": 64813.890625,
-        "mark_price": 64813.890625,
-        "index_price": 64813.890625,
+        "spot_price": 64780.578125,
+        "perp_last_price": 64780.578125,
+        "mark_price": 64780.578125,
+        "index_price": 64780.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64813.890625,
-        "stop_loss_technical": 64675.21875,
-        "target_1": 65021.8984375,
-        "target_2": 65229.90625,
+        "entry_ideal": 64780.578125,
+        "stop_loss_technical": 65148.921875,
+        "target_1": 64228.0625,
+        "target_2": 63675.546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 64813.890625,
+        "entry_ideal": 64780.578125,
         "stop_loss_technical": 65330.609375,
-        "target_1": 64038.8125,
-        "target_2": 63263.734375,
+        "target_1": 63955.53125,
+        "target_2": 63130.484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
