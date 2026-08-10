@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T22:51:50.358288+00:00",
+    "generated_at_utc": "2026-08-10T23:23:36.564553+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Microsoft Stock Runs One Of The Market's Biggest Cash-Return Machines",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "Traffic On Trump’s Truth Social Tanks",
+    "SpaceX Stock Is Down 17% Since Its IPO. Here's What a $10,000 Investment Could Look Like in 5 Years.",
+    "8.3 Trillion Reasons the Trump Bull Market Is Running on Borrowed Time",
+    "Hims Stock Falls on Earnings. Why a Guidance Hike Isn’t Enough.",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
+    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "‘I Don’t Think She’s Entitled to a Freaking Dime’: Dave Ramsey to Mom Debating Whether to Cut Estranged Daughter From Her Will",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
-    "SpaceX Stock Is Down 17% Since Its IPO. Here's What a $10,000 Investment Could Look Like in 5 Years."
+    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63939.0,
-        "perp_last_price": 63939.0,
-        "mark_price": 63939.0,
-        "index_price": 63939.0,
+        "spot_price": 63890.859375,
+        "perp_last_price": 63890.859375,
+        "mark_price": 63890.859375,
+        "index_price": 63890.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63938.98828125,
-        "stop_loss_technical": 62979.90345703,
-        "target_1": 65377.61551758,
-        "target_2": 66816.24275391,
+        "entry_ideal": 63892.46875,
+        "stop_loss_technical": 65319.26953125,
+        "target_1": 61752.26757812,
+        "target_2": 59612.06640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63939.0,
+        "entry_ideal": 63890.859375,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61744.96289062,
-        "target_2": 59550.92578125,
+        "target_1": 61624.61132812,
+        "target_2": 59358.36328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
