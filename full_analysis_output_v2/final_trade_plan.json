@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T08:22:59.899175+00:00",
+    "generated_at_utc": "2026-08-10T09:53:50.377180+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.615,
+        "price": 99.674,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,51 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 8m",
+    "U.S. markets open in 3h 37m",
     "News from the Yahoo Finance Network",
-    "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
+    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "Starlink 'Unbelievable Juggernaut Cash Machine,' Says VC David Friedberg; SpaceX CEO Elon Musk Responds With $1 Trillion+ Annual Revenue Projection",
-    "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
-    "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed"
+    "Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.",
+    "How to Build $13,000 a Month in Dividend Income From Three Income Buckets"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65230.140625,
-        "perp_last_price": 65230.140625,
-        "mark_price": 65230.140625,
-        "index_price": 65230.140625,
+        "spot_price": 64900.01953125,
+        "perp_last_price": 64900.01953125,
+        "mark_price": 64900.01953125,
+        "index_price": 64900.01953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 65230.140625,
-        "stop_loss_technical": 64772.66015625,
-        "target_1": 65916.36132812,
-        "target_2": 66602.58203125,
+        "entry_ideal": 64900.03125,
+        "stop_loss_technical": 65400.3515625,
+        "target_1": 64149.55078125,
+        "target_2": 63399.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 65230.140625,
-        "stop_loss_technical": 64098.4765625,
-        "target_1": 66927.63671875,
-        "target_2": 68625.1328125,
+        "entry_ideal": 64900.01953125,
+        "stop_loss_technical": 65401.69140625,
+        "target_1": 64147.51171875,
+        "target_2": 63395.00390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
