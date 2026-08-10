@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T06:57:34.424764+00:00",
+    "generated_at_utc": "2026-08-10T08:22:59.899175+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.685,
+        "price": 99.615,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 33m",
+    "U.S. markets open in 5h 8m",
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
@@ -34,25 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65255.37890625,
-        "perp_last_price": 65255.37890625,
-        "mark_price": 65255.37890625,
-        "index_price": 65255.37890625,
+        "spot_price": 65230.140625,
+        "perp_last_price": 65230.140625,
+        "mark_price": 65230.140625,
+        "index_price": 65230.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 65255.37890625,
+        "entry_ideal": 65230.140625,
         "stop_loss_technical": 64772.66015625,
-        "target_1": 65979.45703125,
-        "target_2": 66703.53515625,
+        "target_1": 65916.36132812,
+        "target_2": 66602.58203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 65255.37890625,
+        "entry_ideal": 65230.140625,
         "stop_loss_technical": 64098.4765625,
-        "target_1": 66990.73242188,
-        "target_2": 68726.0859375,
+        "target_1": 66927.63671875,
+        "target_2": 68625.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
