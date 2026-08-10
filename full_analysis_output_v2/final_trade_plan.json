@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T21:30:13.356485+00:00",
+    "generated_at_utc": "2026-08-10T22:07:05.043969+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.814,
+        "price": 99.808,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "US oil reserve just hit a low not seen since 1983",
+    "The IRS Just Gave 65-Year-Olds a New $6,000 Deduction. These 3 ETFs Turn the Tax Break Into Monthly Income",
     "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
-    "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-    "Plug Power beats revenue estimates, raises guidance",
     "‘I Don’t Think She’s Entitled to a Freaking Dime’: Dave Ramsey to Mom Debating Whether to Cut Estranged Daughter From Her Will",
-    "Johnson & Johnson Has Increased Its Dividend for 64 Consecutive Years. Here's How Much $10,000 Invested in the Dividend King Pays Annually."
+    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
+    "Trump Media Loses $238 Million on Only $1.7 Million in Revenue",
+    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64055.98828125,
-        "perp_last_price": 64055.98828125,
-        "mark_price": 64055.98828125,
-        "index_price": 64055.98828125,
+        "spot_price": 63922.12890625,
+        "perp_last_price": 63922.12890625,
+        "mark_price": 63922.12890625,
+        "index_price": 63922.12890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64055.98828125,
-        "stop_loss_technical": 63095.14845703,
-        "target_1": 65497.24801758,
-        "target_2": 66938.50775391,
+        "entry_ideal": 63922.12890625,
+        "stop_loss_technical": 65319.26953125,
+        "target_1": 61826.41796875,
+        "target_2": 59730.70703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64055.98828125,
+        "entry_ideal": 63922.12890625,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 62037.43359375,
-        "target_2": 60018.87890625,
+        "target_1": 61702.78515625,
+        "target_2": 59483.44140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
