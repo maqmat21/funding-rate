@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T13:54:22.774118+00:00",
+    "generated_at_utc": "2026-08-10T14:48:35.138825+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.764,
+        "price": 99.715,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.676,
+        "price": 4.684,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 7m",
+    "U.S. markets close in 5h 12m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett Personally Initiated Berkshire's $30 Billion Alphabet Stake, a Sign He's Still Making Calls Despite Stepping Back as Chairman",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "The Jersey Pump Principle: why AI’s trillion-dollar bet could stall like a 1949 gas pump law",
-    "How a 61-Year-Old Built a $3,500 Monthly Paycheck From Just Two Funds: SCHD and JEPQ",
+    "GameStop weighs dropping $56 billion eBay bid in favour of partnership",
+    "Silicon Motion shares slide 8% after unveiling $800 million convertible notes offering",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston"
+    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64489.328125,
-        "perp_last_price": 64489.328125,
-        "mark_price": 64489.328125,
-        "index_price": 64489.328125,
+        "spot_price": 64732.4609375,
+        "perp_last_price": 64732.4609375,
+        "mark_price": 64732.4609375,
+        "index_price": 64732.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64489.328125,
-        "stop_loss_technical": 65398.26953125,
-        "target_1": 63125.91601562,
-        "target_2": 61762.50390625,
+        "entry_ideal": 64758.0,
+        "stop_loss_technical": 63786.63,
+        "target_1": 66215.055,
+        "target_2": 67672.11,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64489.328125,
+        "entry_ideal": 64732.4609375,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 63120.78320312,
-        "target_2": 61752.23828125,
+        "target_1": 63728.61523438,
+        "target_2": 62724.76953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
