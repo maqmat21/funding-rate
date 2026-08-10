@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T02:54:21.565413+00:00",
+    "generated_at_utc": "2026-08-10T04:20:19.345283+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.696,
+        "price": 99.722,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 10m",
     "News from the Yahoo Finance Network",
-    "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
-    "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August.",
-    "How a 61-Year-Old Built a $3,500 Monthly Paycheck From Just Two Funds: SCHD and JEPQ"
+    "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
+    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
+    "Billionaire Larry Fink Warns Keeping Your Savings in a Bank Account Is 'One Of The Worst Financial Decisions Of A Lifetime' — But Mark Cuban Told People To Do the Opposite"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65051.12890625,
-        "perp_last_price": 65051.12890625,
-        "mark_price": 65051.12890625,
-        "index_price": 65051.12890625,
+        "spot_price": 65008.0390625,
+        "perp_last_price": 65008.0390625,
+        "mark_price": 65008.0390625,
+        "index_price": 65008.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65051.12890625,
-        "stop_loss_technical": 64075.36197266,
-        "target_1": 66514.77930664,
-        "target_2": 67978.42970703,
+        "entry_ideal": 65008.0390625,
+        "stop_loss_technical": 64032.91847656,
+        "target_1": 66470.71994141,
+        "target_2": 67933.40082031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65051.12890625,
-        "stop_loss_technical": 64075.36197266,
-        "target_1": 66514.77930664,
-        "target_2": 67978.42970703,
+        "entry_ideal": 65008.0390625,
+        "stop_loss_technical": 65398.26953125,
+        "target_1": 64422.69335938,
+        "target_2": 63837.34765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
