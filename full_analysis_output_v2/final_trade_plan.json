@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T05:48:28.167811+00:00",
+    "generated_at_utc": "2026-08-10T06:57:34.424764+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.698,
-        "trend": "alcista"
+        "price": 99.685,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.66,
@@ -21,53 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 42m",
+    "U.S. markets open in 6h 33m",
     "News from the Yahoo Finance Network",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "Starlink 'Unbelievable Juggernaut Cash Machine,' Says VC David Friedberg; SpaceX CEO Elon Musk Responds With $1 Trillion+ Annual Revenue Projection",
-    "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August."
+    "Berkshire breaks 14-quarter selling streak with $23.5B of stock buys — $10B went to 1 company at a private price",
+    "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65013.55078125,
-        "perp_last_price": 65013.55078125,
-        "mark_price": 65013.55078125,
-        "index_price": 65013.55078125,
+        "spot_price": 65255.37890625,
+        "perp_last_price": 65255.37890625,
+        "mark_price": 65255.37890625,
+        "index_price": 65255.37890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 65013.55078125,
-        "stop_loss_technical": 64038.34751953,
-        "target_1": 66476.35567383,
-        "target_2": 67939.16056641,
+        "entry_ideal": 65255.37890625,
+        "stop_loss_technical": 64772.66015625,
+        "target_1": 65979.45703125,
+        "target_2": 66703.53515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 65013.55078125,
-        "stop_loss_technical": 64038.34751953,
-        "target_1": 66476.35567383,
-        "target_2": 67939.16056641,
+        "entry_ideal": 65255.37890625,
+        "stop_loss_technical": 64098.4765625,
+        "target_1": 66990.73242188,
+        "target_2": 68726.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
