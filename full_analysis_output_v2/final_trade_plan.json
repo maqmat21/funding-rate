@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T18:22:57.192944+00:00",
+    "generated_at_utc": "2026-08-10T19:26:43.305240+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.791,
+        "price": 99.819,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 38m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Vistra Corp (VST) Stock’s Underperformance Could Open Up a Contrarian Options Trade",
     "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "This stock market indicator just flashed a warning not seen since the dot-com bubble",
-    "How a 61-Year-Old Built a $3,500 Monthly Paycheck From Just Two Funds: SCHD and JEPQ",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer."
+    "How much interest can a $75,000 high-yield savings account earn over the next year?",
+    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
+    "How a 61-Year-Old Built a $3,500 Monthly Paycheck From Just Two Funds: SCHD and JEPQ"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63878.08984375,
-        "perp_last_price": 63878.08984375,
-        "mark_price": 63878.08984375,
-        "index_price": 63878.08984375,
+        "spot_price": 63932.7890625,
+        "perp_last_price": 63932.7890625,
+        "mark_price": 63932.7890625,
+        "index_price": 63932.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63878.08984375,
-        "stop_loss_technical": 62919.91849609,
-        "target_1": 65315.34686523,
-        "target_2": 66752.60388672,
+        "entry_ideal": 63932.7890625,
+        "stop_loss_technical": 62973.79722656,
+        "target_1": 65371.27681641,
+        "target_2": 66809.76457031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63878.08984375,
+        "entry_ideal": 63932.7890625,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61592.6875,
-        "target_2": 59307.28515625,
+        "target_1": 61729.43554688,
+        "target_2": 59526.08203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
