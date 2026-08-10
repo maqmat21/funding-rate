@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T09:53:50.377180+00:00",
+    "generated_at_utc": "2026-08-10T10:54:59.341184+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.674,
-        "trend": "bajista"
+        "price": 99.693,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.66,
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 37m",
+    "U.S. markets open in 2h 36m",
     "News from the Yahoo Finance Network",
     "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
+    "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "Micron Trades at 6 Times Next Year's Earnings. The $38 Billion of Capacity That Ends This Cycle Doesn't Open Until 2028.",
-    "How to Build $13,000 a Month in Dividend Income From Three Income Buckets"
+    "Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64900.01953125,
-        "perp_last_price": 64900.01953125,
-        "mark_price": 64900.01953125,
-        "index_price": 64900.01953125,
+        "spot_price": 64966.0,
+        "perp_last_price": 64966.0,
+        "mark_price": 64966.0,
+        "index_price": 64966.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64900.03125,
-        "stop_loss_technical": 65400.3515625,
-        "target_1": 64149.55078125,
-        "target_2": 63399.0703125,
+        "entry_ideal": 64966.0,
+        "stop_loss_technical": 65398.26953125,
+        "target_1": 64317.59570312,
+        "target_2": 63669.19140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64900.01953125,
+        "entry_ideal": 64966.0,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 64147.51171875,
-        "target_2": 63395.00390625,
+        "target_1": 64312.46289062,
+        "target_2": 63658.92578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
