@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T10:54:59.341184+00:00",
+    "generated_at_utc": "2026-08-10T11:39:52.965335+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.693,
+        "price": 99.724,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 36m",
+    "U.S. markets open in 1h 51m",
     "News from the Yahoo Finance Network",
     "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Robert Kiyosaki warned Americans who own 401(k)s that the US could be on the brink of ‘Great Depression.’ Prepare now",
     "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert."
+    "The US's hottest ZIP codes are Northeastern and Midwestern suburbs with easy commutes and more space",
+    "Sandisk Can Now Buy Back $15.5 Billion of Its Own Stock. That's 8.6% of the Company."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64966.0,
-        "perp_last_price": 64966.0,
-        "mark_price": 64966.0,
-        "index_price": 64966.0,
+        "spot_price": 65016.44921875,
+        "perp_last_price": 65016.44921875,
+        "mark_price": 65016.44921875,
+        "index_price": 65016.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64966.0,
-        "stop_loss_technical": 65398.26953125,
-        "target_1": 64317.59570312,
-        "target_2": 63669.19140625,
+        "entry_ideal": 65014.0,
+        "stop_loss_technical": 64038.79,
+        "target_1": 66476.815,
+        "target_2": 67939.63,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64966.0,
+        "entry_ideal": 65016.44921875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 64312.46289062,
-        "target_2": 63658.92578125,
+        "target_1": 64438.5859375,
+        "target_2": 63860.72265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
