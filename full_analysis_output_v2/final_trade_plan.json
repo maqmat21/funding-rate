@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-10T12:28:48.036131+00:00",
+    "generated_at_utc": "2026-08-10T13:54:22.774118+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.723,
+        "price": 99.764,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.66,
+        "price": 4.676,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 2m",
+    "U.S. markets close in 6h 7m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Cost of Living in All 50 States: What Drives Major Regional Price Differences?",
+    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
+    "The Jersey Pump Principle: why AI’s trillion-dollar bet could stall like a 1949 gas pump law",
+    "How a 61-Year-Old Built a $3,500 Monthly Paycheck From Just Two Funds: SCHD and JEPQ",
     "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
     "Elon Musk Plans to Spend $119 Billion to Construct the World’s Largest Building, Just Outside Houston"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64983.80859375,
-        "perp_last_price": 64983.80859375,
-        "mark_price": 64983.80859375,
-        "index_price": 64983.80859375,
+        "spot_price": 64489.328125,
+        "perp_last_price": 64489.328125,
+        "mark_price": 64489.328125,
+        "index_price": 64489.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64983.80859375,
-        "stop_loss_technical": 65400.3515625,
-        "target_1": 64358.99414062,
-        "target_2": 63734.1796875,
+        "entry_ideal": 64489.328125,
+        "stop_loss_technical": 65398.26953125,
+        "target_1": 63125.91601562,
+        "target_2": 61762.50390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64983.80859375,
+        "entry_ideal": 64489.328125,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 64356.984375,
-        "target_2": 63730.16015625,
+        "target_1": 63120.78320312,
+        "target_2": 61752.23828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
