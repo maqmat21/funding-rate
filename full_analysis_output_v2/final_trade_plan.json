@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T15:10:21.409464+00:00",
+    "generated_at_utc": "2026-08-11T16:08:36.300512+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.803,
-        "trend": "bajista"
+        "price": 99.815,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.684,
+        "price": 4.688,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 50m",
+    "U.S. markets close in 3h 53m",
     "News from the Yahoo Finance Network",
-    "1911 Gold unveils 712,000 ounce resource at Ogama-Rockland",
+    "Meta backs Texas data center standards but leaves infrastructure commitment unpriced",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
     "Alphabet Invested $900 Million Into SpaceX Back in 2015 -- Here's What That Stake Is Worth Now",
-    "Fennec Pharmaceuticals surges 8% as Q2 earnings and revenue beat estimates",
-    "How many employees does Coca-Cola have? Its workforce & layoffs explained",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)"
+    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
+    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
+    "908 Devices Q2 Earnings Call Highlights"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63754.5703125,
-        "perp_last_price": 63754.5703125,
-        "mark_price": 63754.5703125,
-        "index_price": 63754.5703125,
+        "spot_price": 63525.51171875,
+        "perp_last_price": 63525.51171875,
+        "mark_price": 63525.51171875,
+        "index_price": 63525.51171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63754.5703125,
+        "entry_ideal": 63534.53125,
         "stop_loss_technical": 64434.7109375,
-        "target_1": 62734.359375,
-        "target_2": 61714.1484375,
+        "target_1": 62184.26171875,
+        "target_2": 60833.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63754.5703125,
+        "entry_ideal": 63525.51171875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61283.88867188,
-        "target_2": 58813.20703125,
+        "target_1": 60711.2421875,
+        "target_2": 57896.97265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
