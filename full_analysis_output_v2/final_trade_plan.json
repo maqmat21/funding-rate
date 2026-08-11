@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T19:15:03.864184+00:00",
+    "generated_at_utc": "2026-08-11T20:04:37.695233+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.831,
-        "trend": "alcista"
+        "price": 99.813,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.684,
@@ -22,53 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Jamie Dimon warns dollar dominance depends on the military: ‘If we’re not the strongest military in 25 years…we won’t be the reserve currency either’",
-    "Stifel Settles 2 More Chuck Roberts Cases. At least 16 More Are Pending.",
+    "Elon Musk could get his near-$1 trillion payday a lot sooner if SpaceX buys Tesla",
+    "Google shuts down service pretty much everyone uses",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
-    "3 of the Best Dividend Stocks to Buy for Under $100 Right Now",
+    "Skip short-term gains: Jim Cramer says retirement wealth comes down to 3 key assets. Do you own the right ones?",
     "Alphabet Invested $900 Million Into SpaceX Back in 2015 -- Here's What That Stake Is Worth Now",
-    "Sundar Pichai Raised Alphabet's 2026 Capex Forecast to as Much as $205 Billion, Sending the Stock Down 7%. Is This an Overreaction Investors Should Buy Into?",
-    "Are Wall Street Analysts Bullish on Cigna Group Stock?"
+    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
+    "All It Takes Is $10,000 Invested in Equal Parts of These 3 High-Yield Dividend Stocks to Generate Over $1,500 in Yearly Dividends."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63176.94140625,
-        "perp_last_price": 63176.94140625,
-        "mark_price": 63176.94140625,
-        "index_price": 63176.94140625,
+        "spot_price": 63598.4296875,
+        "perp_last_price": 63598.4296875,
+        "mark_price": 63598.4296875,
+        "index_price": 63598.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63182.6015625,
-        "stop_loss_technical": 64434.7109375,
-        "target_1": 61304.4375,
-        "target_2": 59426.2734375,
+        "entry_ideal": 63598.4296875,
+        "stop_loss_technical": 63167.4609375,
+        "target_1": 64244.8828125,
+        "target_2": 64891.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63176.94140625,
+        "entry_ideal": 63598.4296875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 59839.81640625,
-        "target_2": 56502.69140625,
+        "target_1": 60893.53710938,
+        "target_2": 58188.64453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
