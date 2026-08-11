@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T09:36:50.699131+00:00",
+    "generated_at_utc": "2026-08-11T10:28:13.377600+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.879,
+        "price": 99.862,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 54m",
+    "U.S. markets open in 3h 3m",
     "News from the Yahoo Finance Network",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
-    "California Will Never Tax a Dime of Shohei Ohtani’s $680 Million. The Federal Law He’s Counting On Also Protects Your 401(k) the Day You Retire Across State Lines",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
-    "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-    "Sunoco (SUN) Stock Could Be Undervalued Following Its 177% Five Year Run"
+    "Ryman to Acquire Orlando Resort and Ritz-Carlton for $1.38B",
+    "Rocket Lab Stock Fell Nearly 50% From Its Record High. History Says Do This Next.",
+    "A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Dividend Stock Down 45% to Buy Right Now",
+    "Cadeler signs $929m contract for T-class wind installation vessels",
+    "Wall Street's Latest Blockbuster Stock Split Has Arrived -- and This Industry Titan Has Rallied 337,000% Over the Last 32 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64124.76171875,
-        "perp_last_price": 64124.76171875,
-        "mark_price": 64124.76171875,
-        "index_price": 64124.76171875,
+        "spot_price": 64207.76953125,
+        "perp_last_price": 64207.76953125,
+        "mark_price": 64207.76953125,
+        "index_price": 64207.76953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64124.76171875,
-        "stop_loss_technical": 63162.89029297,
-        "target_1": 65567.56885742,
-        "target_2": 67010.37599609,
+        "entry_ideal": 64207.76953125,
+        "stop_loss_technical": 63244.65298828,
+        "target_1": 65652.4443457,
+        "target_2": 67097.11916016,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64124.76171875,
-        "stop_loss_technical": 65401.69140625,
-        "target_1": 62209.3671875,
-        "target_2": 60293.97265625,
+        "entry_ideal": 64207.76953125,
+        "stop_loss_technical": 63244.65298828,
+        "target_1": 65652.4443457,
+        "target_2": 67097.11916016,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
