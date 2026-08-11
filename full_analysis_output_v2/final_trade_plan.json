@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T05:37:56.738511+00:00",
+    "generated_at_utc": "2026-08-11T06:31:23.956168+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.805,
+        "price": 99.846,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 53m",
     "News from the Yahoo Finance Network",
-    "Costco Delivered Another Strong Sales Print in July. Here’s What That Signals for the Second Half of the Year.",
-    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
+    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-    "Trump media company announces a massive loss and new turnaround effort"
+    "How a 65-Year-Old Turned a $950,000 401(k) Rollover Into a $4,500 Monthly Paycheck Without Buying an Annuity",
+    "Berkshire Hathaway’s earnings paint misleading picture",
+    "Johnson & Johnson Has Increased Its Dividend for 64 Consecutive Years. Here's How Much $10,000 Invested in the Dividend King Pays Annually."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63969.05859375,
-        "perp_last_price": 63969.05859375,
-        "mark_price": 63969.05859375,
-        "index_price": 63969.05859375,
+        "spot_price": 63858.94921875,
+        "perp_last_price": 63858.94921875,
+        "mark_price": 63858.94921875,
+        "index_price": 63858.94921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63969.05859375,
-        "stop_loss_technical": 63009.52271484,
-        "target_1": 65408.36241211,
-        "target_2": 66847.66623047,
+        "entry_ideal": 63858.94921875,
+        "stop_loss_technical": 65176.05859375,
+        "target_1": 61883.28515625,
+        "target_2": 59907.62109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63969.05859375,
+        "entry_ideal": 63858.94921875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61820.109375,
-        "target_2": 59671.16015625,
+        "target_1": 61544.8359375,
+        "target_2": 59230.72265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
