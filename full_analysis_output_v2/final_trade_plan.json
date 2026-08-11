@@ -1,72 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T14:06:02.211924+00:00",
+    "generated_at_utc": "2026-08-11T15:10:21.409464+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.794,
+        "price": 99.803,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.668,
-        "trend": "bajista"
+        "price": 4.684,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 55m",
+    "U.S. markets close in 4h 50m",
     "News from the Yahoo Finance Network",
+    "1911 Gold unveils 712,000 ounce resource at Ogama-Rockland",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
     "Alphabet Invested $900 Million Into SpaceX Back in 2015 -- Here's What That Stake Is Worth Now",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
-    "Signet Jewelers Appoints New Leaders For Zales, Banter And Blue Nile"
+    "Fennec Pharmaceuticals surges 8% as Q2 earnings and revenue beat estimates",
+    "How many employees does Coca-Cola have? Its workforce & layoffs explained",
+    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64141.62890625,
-        "perp_last_price": 64141.62890625,
-        "mark_price": 64141.62890625,
-        "index_price": 64141.62890625,
+        "spot_price": 63754.5703125,
+        "perp_last_price": 63754.5703125,
+        "mark_price": 63754.5703125,
+        "index_price": 63754.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 64145.1484375,
-        "stop_loss_technical": 63798.2109375,
-        "target_1": 64665.5546875,
-        "target_2": 65185.9609375,
+        "entry_ideal": 63754.5703125,
+        "stop_loss_technical": 64434.7109375,
+        "target_1": 62734.359375,
+        "target_2": 61714.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 64141.62890625,
-        "stop_loss_technical": 63179.50447266,
-        "target_1": 65584.81555664,
-        "target_2": 67028.00220703,
+        "entry_ideal": 63754.5703125,
+        "stop_loss_technical": 65401.69140625,
+        "target_1": 61283.88867188,
+        "target_2": 58813.20703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
