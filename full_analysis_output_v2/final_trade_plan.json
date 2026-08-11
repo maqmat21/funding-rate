@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T21:38:02.911988+00:00",
+    "generated_at_utc": "2026-08-11T22:22:16.479695+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.826,
-        "trend": "alcista"
+        "price": 99.812,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.684,
@@ -22,53 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "VOYG Stock Alert: What to Know as Voyager Technologies Scores New Space Force Contract",
-    "Oracle And Quantinuum Join Forces To Bring Quantum Computing To Oracle Cloud — ORCL, QNT Stocks End Lower",
+    "AirSculpt Sees Core Stabilization, Targets $100M-Plus GLP-1 Opportunity",
+    "Astronics Q2 Earnings Call Highlights",
+    "GrowGeneration Q2 Earnings Call Highlights",
+    "'Sheer folly': Iran adviser says no Trump deal until America votes him out in 2028. Can your wallet survive a long war?",
     "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
-    "Alphabet Invested $900 Million Into SpaceX Back in 2015 -- Here's What That Stake Is Worth Now",
-    "Google cofounder Sergey Brin has now spent $100 million to fight California’s proposed billionaire tax—he could owe $13 billion if he loses",
-    "Super Micro forecasts upbeat annual revenue on AI boom"
+    "Kroger, Walmart, Trader Joe's products recalled over Salmonella outbreak"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63599.98828125,
-        "perp_last_price": 63599.98828125,
-        "mark_price": 63599.98828125,
-        "index_price": 63599.98828125,
+        "spot_price": 63661.2890625,
+        "perp_last_price": 63661.2890625,
+        "mark_price": 63661.2890625,
+        "index_price": 63661.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63589.73828125,
-        "stop_loss_technical": 64434.7109375,
-        "target_1": 62322.27929688,
-        "target_2": 61054.8203125,
+        "entry_ideal": 63661.2890625,
+        "stop_loss_technical": 63167.4609375,
+        "target_1": 64402.03125,
+        "target_2": 65142.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63599.98828125,
+        "entry_ideal": 63661.2890625,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60897.43359375,
-        "target_2": 58194.87890625,
+        "target_1": 61050.68554688,
+        "target_2": 58440.08203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
