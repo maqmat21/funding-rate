@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T08:38:33.027586+00:00",
+    "generated_at_utc": "2026-08-11T09:36:50.699131+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.877,
+        "price": 99.879,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 53m",
+    "U.S. markets open in 3h 54m",
     "News from the Yahoo Finance Network",
-    "3 Dividend-Paying Industrial Stocks to Buy in August",
+    "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
+    "California Will Never Tax a Dime of Shohei Ohtani’s $680 Million. The Federal Law He’s Counting On Also Protects Your 401(k) the Day You Retire Across State Lines",
     "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
     "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
-    "Here's How Many Shares of Coca-Cola You'd Need for $30,000 in Yearly Dividends. (Spoiler: It's a Lot.)",
     "If a Stock Market Crash Is Coming, History Says This Investing Strategy Has Never Once Failed",
-    "Rocket Lab Corp (RKLB) (Q2 2026) Earnings Call Highlights: Record Revenue, Iridium Acquisition, ..."
+    "Sunoco (SUN) Stock Could Be Undervalued Following Its 177% Five Year Run"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64010.609375,
-        "perp_last_price": 64010.609375,
-        "mark_price": 64010.609375,
-        "index_price": 64010.609375,
+        "spot_price": 64124.76171875,
+        "perp_last_price": 64124.76171875,
+        "mark_price": 64124.76171875,
+        "index_price": 64124.76171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64010.609375,
-        "stop_loss_technical": 63050.45023437,
-        "target_1": 65450.84808594,
-        "target_2": 66891.08679687,
+        "entry_ideal": 64124.76171875,
+        "stop_loss_technical": 63162.89029297,
+        "target_1": 65567.56885742,
+        "target_2": 67010.37599609,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64010.609375,
+        "entry_ideal": 64124.76171875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61923.98632812,
-        "target_2": 59837.36328125,
+        "target_1": 62209.3671875,
+        "target_2": 60293.97265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
