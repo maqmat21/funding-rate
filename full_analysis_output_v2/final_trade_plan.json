@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-11T16:08:36.300512+00:00",
+    "generated_at_utc": "2026-08-11T17:08:47.940782+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.815,
+        "price": 99.824,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.688,
+        "price": 4.684,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 53m",
+    "U.S. markets close in 2h 53m",
     "News from the Yahoo Finance Network",
-    "Meta backs Texas data center standards but leaves infrastructure commitment unpriced",
+    "Elon Musk Says Memory Is Now AI's Biggest Bottleneck. Here's What That Means for Micron and Sandisk.",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
     "Alphabet Invested $900 Million Into SpaceX Back in 2015 -- Here's What That Stake Is Worth Now",
-    "Warren Buffett's Successor, Greg Abel, Just Bought $4.5 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
-    "Is It Really Safe to Invest in the S&P 500 Right Now? History Offers a Clear Answer.",
-    "908 Devices Q2 Earnings Call Highlights"
+    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
+    "ACIU Stock Heads For Best Day In Over 10 Months On FDA Fast Track Nod For Parkinson’s Disease Therapy – Retail Sees ‘Breakout Soon’",
+    "All It Takes Is $10,000 Invested in Equal Parts of These 3 High-Yield Dividend Stocks to Generate Over $1,500 in Yearly Dividends."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63525.51171875,
-        "perp_last_price": 63525.51171875,
-        "mark_price": 63525.51171875,
-        "index_price": 63525.51171875,
+        "spot_price": 63409.8515625,
+        "perp_last_price": 63409.8515625,
+        "mark_price": 63409.8515625,
+        "index_price": 63409.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63534.53125,
+        "entry_ideal": 63405.51953125,
         "stop_loss_technical": 64434.7109375,
-        "target_1": 62184.26171875,
-        "target_2": 60833.9921875,
+        "target_1": 61861.73242188,
+        "target_2": 60317.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63525.51171875,
+        "entry_ideal": 63409.8515625,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60711.2421875,
-        "target_2": 57896.97265625,
+        "target_1": 60422.09179688,
+        "target_2": 57434.33203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
