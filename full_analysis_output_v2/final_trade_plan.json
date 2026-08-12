@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T18:07:06.938459+00:00",
+    "generated_at_utc": "2026-08-12T19:15:08.384568+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.999,
+        "price": 100.013,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.676,
+        "price": 4.684,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 54m",
     "News from the Yahoo Finance Network",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
-    "Integra Resources Corp. Q2 2026 Earnings Call Summary",
-    "Elon Musk: SpaceX’s AI Revenue Will Surpass Its Entire Space Business “Next Month”",
-    "Schwab REIT ETF vs. State Street Real Estate SPDR: Which Real Estate ETF Is Actually More Diversified?",
-    "The Bull Case For Moog (MOG.A) Could Change Following Raised 2026 Guidance And Acquisition Push - Learn Why",
-    "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever"
+    "Kevin O’Leary Says Your Parents Had 8% Interest Rates And Were Fine So ‘Get Over It’ — ‘You Just Buy a Smaller House and Get on With Life. Chop, Chop’",
+    "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
+    "Elon Musk's AI warning about the dollar is starting to come true",
+    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
+    "Longtime grocery chain exits entire market after 49 years",
+    "Elon Musk: SpaceX’s AI Revenue Will Surpass Its Entire Space Business “Next Month”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63396.0,
-        "perp_last_price": 63396.0,
-        "mark_price": 63396.0,
-        "index_price": 63396.0,
+        "spot_price": 63300.1484375,
+        "perp_last_price": 63300.1484375,
+        "mark_price": 63300.1484375,
+        "index_price": 63300.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63396.0,
-        "stop_loss_technical": 64409.76171875,
-        "target_1": 61875.35742188,
-        "target_2": 60354.71484375,
+        "entry_ideal": 63293.26171875,
+        "stop_loss_technical": 64383.83984375,
+        "target_1": 61657.39453125,
+        "target_2": 60021.52734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63396.0,
+        "entry_ideal": 63300.1484375,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60387.46289062,
-        "target_2": 57378.92578125,
+        "target_1": 60147.83398438,
+        "target_2": 56995.51953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
