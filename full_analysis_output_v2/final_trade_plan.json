@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T06:22:22.226678+00:00",
+    "generated_at_utc": "2026-08-12T07:57:22.690449+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.879,
+        "price": 99.86,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,54 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 9m",
+    "U.S. markets open in 5h 33m",
     "News from the Yahoo Finance Network",
     "Elon Musk's AI warning about the dollar is starting to come true",
-    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
     "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
-    "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
     "Longtime grocery chain exits entire market after 49 years",
-    "This Mag 7 Dividend Stock Is Trading Near 2026 Highs. Why It's Still a Buy."
+    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
+    "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
+    "The Trump administration claims oil is flowing normally again. There’s just one problem"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63626.30859375,
-        "perp_last_price": 63626.30859375,
-        "mark_price": 63626.30859375,
-        "index_price": 63626.30859375,
+        "spot_price": 63710.98828125,
+        "perp_last_price": 63710.98828125,
+        "mark_price": 63710.98828125,
+        "index_price": 63710.98828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63626.30859375,
-        "stop_loss_technical": 64434.7109375,
-        "target_1": 62413.70507812,
-        "target_2": 61201.1015625,
+        "entry_ideal": 63710.98828125,
+        "stop_loss_technical": 62755.32345703,
+        "target_1": 65144.48551758,
+        "target_2": 66577.98275391,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63626.30859375,
+        "entry_ideal": 63710.98828125,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60963.234375,
-        "target_2": 58300.16015625,
+        "target_1": 61174.93359375,
+        "target_2": 58638.87890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
