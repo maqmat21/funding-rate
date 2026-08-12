@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T00:55:04.404938+00:00",
+    "generated_at_utc": "2026-08-12T03:16:28.875687+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.809,
-        "trend": "bajista"
+        "price": 99.861,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.684,
@@ -22,51 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "United States Antimony Q2 Earnings Call Highlights",
     "Elon Musk's AI warning about the dollar is starting to come true",
-    "Costco's new service beats Amazon at its own game",
+    "Boomers Are Getting Rich and Retiring Early. 1 No-Brainer Stock To Buy Now",
     "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
+    "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
     "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
-    "More Americans are having a harder time keeping up with their home and car payments",
-    "Michael Burry Adds To NVDA, PLTR, ORCL Shorts — Why He’s Thinking About 2005 Again",
-    "Near-Retirees Are Taking Radically Different Risks With Their 401(k)s"
+    "Longtime grocery chain exits entire market after 49 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63679.71875,
-        "perp_last_price": 63679.71875,
-        "mark_price": 63679.71875,
-        "index_price": 63679.71875,
+        "spot_price": 63655.19921875,
+        "perp_last_price": 63655.19921875,
+        "mark_price": 63655.19921875,
+        "index_price": 63655.19921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63679.71875,
-        "stop_loss_technical": 63167.4609375,
-        "target_1": 64448.10546875,
-        "target_2": 65216.4921875,
+        "entry_ideal": 63655.19921875,
+        "stop_loss_technical": 64434.7109375,
+        "target_1": 62485.93164062,
+        "target_2": 61316.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63679.71875,
+        "entry_ideal": 63655.19921875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61096.75976562,
-        "target_2": 58513.80078125,
+        "target_1": 61035.4609375,
+        "target_2": 58415.72265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
