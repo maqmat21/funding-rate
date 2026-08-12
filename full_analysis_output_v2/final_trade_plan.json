@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T23:07:19.811031+00:00",
+    "generated_at_utc": "2026-08-12T23:53:29.373324+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.985,
+        "price": 99.96,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
-    "Elon Musk Says AI Revenue Will Eclipse the Rest of SpaceX by September. Here’s What Investors Need to Know",
+    "Where Will SpaceX Stock Be in 5 Years?",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
-    "Hyliion Holdings Corp (HYLN) (Q2 2026) Earnings Call Highlights: Navy Contract Win and 50% ...",
     "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
-    "LiveOne Inc (LVO) (Q1 2027) Earnings Call Highlights: Record Revenue and Strategic Expansion ...",
-    "SpaceX Stock Just Rallied 12% in a Single Day. Did Elon Musk Survive the Lockup Expiration Unscathed?"
+    "Elon Musk's AI warning about the dollar is starting to come true",
+    "No tax on Social Security? The facts about Trump’s plan are here — and they could hurt US retirees the most",
+    "Wall Street Analysts Are Predicting a Huge Move for Micron by Mid-2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63324.01171875,
-        "perp_last_price": 63324.01171875,
-        "mark_price": 63324.01171875,
-        "index_price": 63324.01171875,
+        "spot_price": 63350.01171875,
+        "perp_last_price": 63350.01171875,
+        "mark_price": 63350.01171875,
+        "index_price": 63350.01171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63323.921875,
+        "entry_ideal": 63350.01171875,
         "stop_loss_technical": 64383.83984375,
-        "target_1": 61734.04492188,
-        "target_2": 60144.16796875,
+        "target_1": 61799.26953125,
+        "target_2": 60248.52734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63324.01171875,
+        "entry_ideal": 63350.01171875,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60207.4921875,
-        "target_2": 57090.97265625,
+        "target_1": 60272.4921875,
+        "target_2": 57194.97265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
