@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T14:23:25.069453+00:00",
+    "generated_at_utc": "2026-08-12T15:25:33.259547+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.741,
-        "trend": "bajista"
+        "price": 99.818,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.668,
+        "price": 4.672,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 37m",
+    "U.S. markets close in 4h 36m",
     "News from the Yahoo Finance Network",
-    "7 Brew vies for piece of Salad and Go portfolio",
-    "Stanley Black & Decker outlines $1 billion U.S. investment through 2028",
-    "A New Luxury Hotel Canceled a YouTuber’s $4,663 Stay. Then Came the Viral Feud.",
+    "Gladstone Land Q2 Earnings Call Highlights",
     "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
-    "Altimmune Q2 Earnings Call Highlights",
-    "Elon Musk's AI warning about the dollar is starting to come true"
+    "Elon Musk's AI warning about the dollar is starting to come true",
+    "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever",
+    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
+    "Longtime grocery chain exits entire market after 49 years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63734.390625,
-        "perp_last_price": 63734.390625,
-        "mark_price": 63734.390625,
-        "index_price": 63734.390625,
+        "spot_price": 63407.890625,
+        "perp_last_price": 63407.890625,
+        "mark_price": 63407.890625,
+        "index_price": 63407.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63734.390625,
-        "stop_loss_technical": 62778.37476562,
-        "target_1": 65168.41441406,
-        "target_2": 66602.43820312,
+        "entry_ideal": 63407.890625,
+        "stop_loss_technical": 64383.83984375,
+        "target_1": 61943.96679688,
+        "target_2": 60480.04296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63734.390625,
-        "stop_loss_technical": 62778.37476562,
-        "target_1": 65168.41441406,
-        "target_2": 66602.43820312,
+        "entry_ideal": 63407.890625,
+        "stop_loss_technical": 65401.69140625,
+        "target_1": 60417.18945312,
+        "target_2": 57426.48828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
