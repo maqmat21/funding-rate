@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T11:59:13.583789+00:00",
+    "generated_at_utc": "2026-08-12T13:04:54.898419+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.803,
+        "price": 99.666,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.684,
-        "trend": "alcista"
+        "price": 4.654,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 32m",
     "News from the Yahoo Finance Network",
+    "Nine Mile Metals reports high-grade VMS intercept at Wedge Mine in New Brunswick",
     "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
     "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever",
     "Iran wants a mafia-style ‘protection’ toll on the Strait of Hormuz, but the eye-popping $20 billion per year haul is a pipe dream",
-    "Wall Street’s Favorite Tesla Rumor Could Unlock $824 Billion Pay Day For Elon Musk",
-    "College costs are rising. Here's what the average family pays",
-    "Does the Big Short's Michael Burry Know Something Wall Street Doesn't? The Famed Investor No Longer Views Berkshire Hathaway as an \"Attractive Investment\""
+    "These 4 Dividend Stocks Yield 8%. Only Roth Owners Keep All of It",
+    "Elon Musk's AI warning about the dollar is starting to come true",
+    "College costs are rising. Here's what the average family pays"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64169.98828125,
-        "perp_last_price": 64169.98828125,
-        "mark_price": 64169.98828125,
-        "index_price": 64169.98828125,
+        "spot_price": 64009.58984375,
+        "perp_last_price": 64009.58984375,
+        "mark_price": 64009.58984375,
+        "index_price": 64009.58984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64174.98828125,
-        "stop_loss_technical": 63173.62890625,
-        "target_1": 65677.02734375,
-        "target_2": 67179.06640625,
+        "entry_ideal": 64015.19140625,
+        "stop_loss_technical": 63054.96353516,
+        "target_1": 65455.53321289,
+        "target_2": 66895.87501953,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64169.98828125,
-        "stop_loss_technical": 63173.62890625,
-        "target_1": 65664.52734375,
-        "target_2": 67159.06640625,
+        "entry_ideal": 64009.58984375,
+        "stop_loss_technical": 63167.4609375,
+        "target_1": 65272.78320312,
+        "target_2": 66535.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
