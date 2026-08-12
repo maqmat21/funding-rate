@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T13:04:54.898419+00:00",
+    "generated_at_utc": "2026-08-12T14:23:25.069453+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.666,
+        "price": 99.741,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.654,
+        "price": 4.668,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 5h 37m",
     "News from the Yahoo Finance Network",
-    "Nine Mile Metals reports high-grade VMS intercept at Wedge Mine in New Brunswick",
+    "7 Brew vies for piece of Salad and Go portfolio",
+    "Stanley Black & Decker outlines $1 billion U.S. investment through 2028",
+    "A New Luxury Hotel Canceled a YouTuber’s $4,663 Stay. Then Came the Viral Feud.",
     "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
-    "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever",
-    "Iran wants a mafia-style ‘protection’ toll on the Strait of Hormuz, but the eye-popping $20 billion per year haul is a pipe dream",
-    "These 4 Dividend Stocks Yield 8%. Only Roth Owners Keep All of It",
-    "Elon Musk's AI warning about the dollar is starting to come true",
-    "College costs are rising. Here's what the average family pays"
+    "Altimmune Q2 Earnings Call Highlights",
+    "Elon Musk's AI warning about the dollar is starting to come true"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64009.58984375,
-        "perp_last_price": 64009.58984375,
-        "mark_price": 64009.58984375,
-        "index_price": 64009.58984375,
+        "spot_price": 63734.390625,
+        "perp_last_price": 63734.390625,
+        "mark_price": 63734.390625,
+        "index_price": 63734.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64015.19140625,
-        "stop_loss_technical": 63054.96353516,
-        "target_1": 65455.53321289,
-        "target_2": 66895.87501953,
+        "entry_ideal": 63734.390625,
+        "stop_loss_technical": 62778.37476562,
+        "target_1": 65168.41441406,
+        "target_2": 66602.43820312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64009.58984375,
-        "stop_loss_technical": 63167.4609375,
-        "target_1": 65272.78320312,
-        "target_2": 66535.9765625,
+        "entry_ideal": 63734.390625,
+        "stop_loss_technical": 62778.37476562,
+        "target_1": 65168.41441406,
+        "target_2": 66602.43820312,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
