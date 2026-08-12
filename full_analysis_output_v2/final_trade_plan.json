@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T09:05:22.475964+00:00",
+    "generated_at_utc": "2026-08-12T10:16:20.777736+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.86,
-        "trend": "alcista"
+        "price": 99.835,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.684,
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 25m",
+    "U.S. markets open in 3h 15m",
     "News from the Yahoo Finance Network",
+    "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
+    "Iran wants a mafia-style ‘protection’ toll on the Strait of Hormuz, but the eye-popping $20 billion per year haul is a pipe dream",
     "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever",
+    "T-Mobile's CEO just dismantled SpaceX and Starlink's big goal",
     "Elon Musk's AI warning about the dollar is starting to come true",
-    "Longtime grocery chain exits entire market after 49 years",
-    "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
-    "Amazon Grew Revenue 20%. Here's the Only Reason I Can Think Of for Why Amazon Trades at Just 22 Times Forward Earnings.",
-    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong."
+    "College costs are rising. Here's what the average family pays"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63732.19140625,
-        "perp_last_price": 63732.19140625,
-        "mark_price": 63732.19140625,
-        "index_price": 63732.19140625,
+        "spot_price": 64048.8984375,
+        "perp_last_price": 64048.8984375,
+        "mark_price": 64048.8984375,
+        "index_price": 64048.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 63732.19140625,
-        "stop_loss_technical": 62776.20853516,
-        "target_1": 65166.16571289,
-        "target_2": 66600.14001953,
+        "entry_ideal": 64048.8984375,
+        "stop_loss_technical": 63167.4609375,
+        "target_1": 65371.0546875,
+        "target_2": 66693.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63732.19140625,
-        "stop_loss_technical": 65401.69140625,
-        "target_1": 61227.94140625,
-        "target_2": 58723.69140625,
+        "entry_ideal": 64048.8984375,
+        "stop_loss_technical": 63167.4609375,
+        "target_1": 65371.0546875,
+        "target_2": 66693.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
