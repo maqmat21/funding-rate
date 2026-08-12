@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T07:57:22.690449+00:00",
+    "generated_at_utc": "2026-08-12T09:05:22.475964+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 33m",
+    "U.S. markets open in 4h 25m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever",
     "Elon Musk's AI warning about the dollar is starting to come true",
-    "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
     "Longtime grocery chain exits entire market after 49 years",
-    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
-    "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
-    "The Trump administration claims oil is flowing normally again. There’s just one problem"
+    "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
+    "Amazon Grew Revenue 20%. Here's the Only Reason I Can Think Of for Why Amazon Trades at Just 22 Times Forward Earnings.",
+    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63710.98828125,
-        "perp_last_price": 63710.98828125,
-        "mark_price": 63710.98828125,
-        "index_price": 63710.98828125,
+        "spot_price": 63732.19140625,
+        "perp_last_price": 63732.19140625,
+        "mark_price": 63732.19140625,
+        "index_price": 63732.19140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63710.98828125,
-        "stop_loss_technical": 62755.32345703,
-        "target_1": 65144.48551758,
-        "target_2": 66577.98275391,
+        "entry_ideal": 63732.19140625,
+        "stop_loss_technical": 62776.20853516,
+        "target_1": 65166.16571289,
+        "target_2": 66600.14001953,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63710.98828125,
+        "entry_ideal": 63732.19140625,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61174.93359375,
-        "target_2": 58638.87890625,
+        "target_1": 61227.94140625,
+        "target_2": 58723.69140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
