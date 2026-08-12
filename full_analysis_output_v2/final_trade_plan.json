@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T15:25:33.259547+00:00",
+    "generated_at_utc": "2026-08-12T16:14:52.214228+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.818,
+        "price": 99.853,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.672,
+        "price": 4.668,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 36m",
+    "U.S. markets close in 3h 46m",
     "News from the Yahoo Finance Network",
-    "Gladstone Land Q2 Earnings Call Highlights",
+    "Guest Experience Continues to Drive Black Rock Coffee Bar’s Growth 200 Stores In",
     "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
     "Elon Musk's AI warning about the dollar is starting to come true",
-    "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever",
-    "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
-    "Longtime grocery chain exits entire market after 49 years"
+    "Trump officials say Strait of Hormuz stats are wrong as data casts doubt on US being in 'total control'",
+    "Amazon Stock's Next Leg Is Already On The Order Book",
+    "Warren Buffett's Favorite Compounders: 3 Stocks to Hold Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63407.890625,
-        "perp_last_price": 63407.890625,
-        "mark_price": 63407.890625,
-        "index_price": 63407.890625,
+        "spot_price": 63397.2109375,
+        "perp_last_price": 63397.2109375,
+        "mark_price": 63397.2109375,
+        "index_price": 63397.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63407.890625,
-        "stop_loss_technical": 64383.83984375,
-        "target_1": 61943.96679688,
-        "target_2": 60480.04296875,
+        "entry_ideal": 63397.2109375,
+        "stop_loss_technical": 63248.91015625,
+        "target_1": 63619.66210938,
+        "target_2": 63842.11328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63407.890625,
+        "entry_ideal": 63397.2109375,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60417.18945312,
-        "target_2": 57426.48828125,
+        "target_1": 60390.49023438,
+        "target_2": 57383.76953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
