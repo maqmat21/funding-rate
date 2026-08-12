@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-12T05:03:53.176435+00:00",
+    "generated_at_utc": "2026-08-12T06:22:22.226678+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 27m",
+    "U.S. markets open in 7h 9m",
     "News from the Yahoo Finance Network",
     "Elon Musk's AI warning about the dollar is starting to come true",
-    "Pixelworks Inc (PXLW) (Q2 2026) Earnings Call Highlights: Strategic Transformation Drives New ...",
     "Warren Buffett Has Always Said This 1 Thing About Long-Term Investing. History Has Never Once Proved Him Wrong.",
-    "Longtime grocery chain exits entire market after 49 years",
     "As Greg Abel Deploys Cash, Michael Burry Argues Berkshire Hathaway Is No Longer 'An Attractive Investment'",
-    "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors."
+    "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
+    "Longtime grocery chain exits entire market after 49 years",
+    "This Mag 7 Dividend Stock Is Trading Near 2026 Highs. Why It's Still a Buy."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63682.1484375,
-        "perp_last_price": 63682.1484375,
-        "mark_price": 63682.1484375,
-        "index_price": 63682.1484375,
+        "spot_price": 63626.30859375,
+        "perp_last_price": 63626.30859375,
+        "mark_price": 63626.30859375,
+        "index_price": 63626.30859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,25 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63682.1484375,
+        "entry_ideal": 63626.30859375,
         "stop_loss_technical": 64434.7109375,
-        "target_1": 62553.3046875,
-        "target_2": 61424.4609375,
+        "target_1": 62413.70507812,
+        "target_2": 61201.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63682.1484375,
+        "entry_ideal": 63626.30859375,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 61102.83398438,
-        "target_2": 58523.51953125,
+        "target_1": 60963.234375,
+        "target_2": 58300.16015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
