@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T22:21:20.482478+00:00",
+    "generated_at_utc": "2026-08-13T23:09:04.478946+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,49 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Stock Market Just Flashed a Warning Seen Only 5 Times Before. History Is Crystal Clear About What Happens Next (Hint: It's Not Good).",
-    "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts",
-    "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
-    "AppLovin at 52-Week Low: Buy, Sell or Hold?",
-    "Trump Says Giving Away Free Rent, Food and Housing Sounds Good at First — It ‘Leads to Death, Destruction and Squalor 100% of the Time’",
     "Mark Cuban Says If You Win The Lottery, Don’t Take The Lump Sum — And Tell People Who Ask for Money No, But ‘Be Nice. No One Likes a Mean Billionaire’",
-    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy"
+    "Chicago Atlantic BDC Inc (LIEN) (Q2 2026) Earnings Call Highlights: Record Credit Quality and ...",
+    "Restaurant giant quietly closes locations across major brands",
+    "Trump Says Giving Away Free Rent, Food and Housing Sounds Good at First — It ‘Leads to Death, Destruction and Squalor 100% of the Time’",
+    "SCHD: The Biggest Mistake New Dividend Investors Make",
+    "Trump Orders Navy to Restore Older Tech on Aircraft Carriers, Costing Billions"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63518.3984375,
-        "perp_last_price": 63518.3984375,
-        "mark_price": 63518.3984375,
-        "index_price": 63518.3984375,
+        "spot_price": 63403.46875,
+        "perp_last_price": 63403.46875,
+        "mark_price": 63403.46875,
+        "index_price": 63403.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63512.23828125,
-        "stop_loss_technical": 62782.2109375,
-        "target_1": 64607.27929688,
-        "target_2": 65702.3203125,
+        "entry_ideal": 63406.37109375,
+        "stop_loss_technical": 63947.6015625,
+        "target_1": 62594.52539062,
+        "target_2": 61782.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63518.3984375,
-        "stop_loss_technical": 62782.2109375,
-        "target_1": 64622.6796875,
-        "target_2": 65726.9609375,
+        "entry_ideal": 63403.46875,
+        "stop_loss_technical": 65401.69140625,
+        "target_1": 60406.13476562,
+        "target_2": 57408.80078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
