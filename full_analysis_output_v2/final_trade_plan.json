@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T14:39:51.977680+00:00",
+    "generated_at_utc": "2026-08-13T15:34:45.290113+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.844,
+        "price": 99.886,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.617,
+        "price": 4.637,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 21m",
+    "U.S. markets close in 4h 26m",
     "News from the Yahoo Finance Network",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
+    "If a Stock Market Crash Is Coming, History Says This 1 Investing Move Is Crucial",
     "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
     "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
-    "All It Takes Is $17,000 Invested in This High-Yield Dividend King Stock to Generate Over $500 in Yearly Dividends",
-    "If a Stock Market Crash Comes in August, You'll Still Rest Easy Knowing You Bought This Dividend Stock",
-    "‘Learn to code’ is so 2010 — now AI boot camps are where it’s at for the future of work"
+    "Polestar Dealer Claims Automaker ‘Orchestrated’ Its U.S. Ban in Lawsuit",
+    "No tax on Social Security? The facts about Trump’s plan are here — and they could hurt US retirees the most"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63893.37890625,
-        "perp_last_price": 63893.37890625,
-        "mark_price": 63893.37890625,
-        "index_price": 63893.37890625,
+        "spot_price": 63598.44921875,
+        "perp_last_price": 63598.44921875,
+        "mark_price": 63598.44921875,
+        "index_price": 63598.44921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63893.37890625,
-        "stop_loss_technical": 63241.171875,
-        "target_1": 64871.68945312,
-        "target_2": 65850.0,
+        "entry_ideal": 63599.98046875,
+        "stop_loss_technical": 62645.98076172,
+        "target_1": 65030.9800293,
+        "target_2": 66461.97958984,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63893.37890625,
-        "stop_loss_technical": 63185.47265625,
-        "target_1": 64955.23828125,
-        "target_2": 66017.09765625,
+        "entry_ideal": 63598.44921875,
+        "stop_loss_technical": 62644.47248047,
+        "target_1": 65029.41432617,
+        "target_2": 66460.37943359,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
