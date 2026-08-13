@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T15:34:45.290113+00:00",
+    "generated_at_utc": "2026-08-13T16:28:59.261926+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.886,
-        "trend": "bajista"
+        "price": 99.96,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.637,
+        "price": 4.645,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 26m",
+    "U.S. markets close in 3h 32m",
     "News from the Yahoo Finance Network",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
-    "If a Stock Market Crash Is Coming, History Says This 1 Investing Move Is Crucial",
+    "Senator says emotional goodbye to his 49-year-old vacuum 'Beth' — as Americans cling to their devices longer than ever",
     "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
     "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
-    "Polestar Dealer Claims Automaker ‘Orchestrated’ Its U.S. Ban in Lawsuit",
-    "No tax on Social Security? The facts about Trump’s plan are here — and they could hurt US retirees the most"
+    "Trump Says Giving Away Free Rent, Food and Housing Sounds Good at First — It ‘Leads to Death, Destruction and Squalor 100% of the Time’",
+    "Dave Ramsey calls out the 3 ‘Dumb! Really dumb!’ money mistakes his callers make. Avoid these financial pitfalls now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63598.44921875,
-        "perp_last_price": 63598.44921875,
-        "mark_price": 63598.44921875,
-        "index_price": 63598.44921875,
+        "spot_price": 63364.921875,
+        "perp_last_price": 63364.921875,
+        "mark_price": 63364.921875,
+        "index_price": 63364.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63599.98046875,
-        "stop_loss_technical": 62645.98076172,
-        "target_1": 65030.9800293,
-        "target_2": 66461.97958984,
+        "entry_ideal": 63364.921875,
+        "stop_loss_technical": 63947.6015625,
+        "target_1": 62490.90234375,
+        "target_2": 61616.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 63598.44921875,
-        "stop_loss_technical": 62644.47248047,
-        "target_1": 65029.41432617,
-        "target_2": 66460.37943359,
+        "entry_ideal": 63364.921875,
+        "stop_loss_technical": 65401.69140625,
+        "target_1": 60309.76757812,
+        "target_2": 57254.61328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
