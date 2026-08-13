@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T10:32:40.730909+00:00",
+    "generated_at_utc": "2026-08-13T11:23:21.886576+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.886,
+        "price": 99.881,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 58m",
+    "U.S. markets open in 2h 8m",
     "News from the Yahoo Finance Network",
+    "Cisco Q4 2026 earnings beat sends stock lower after hours",
     "Google Parent Alphabet Just Revealed How Many SpaceX Shares It Owns... and the Figure Is a Doozy",
+    "Elon Musk’s New Texas Facility Will be 36 Times Bigger Than the Empire State Building. Here’s Everything We Know So Far.",
+    "Elon Musk Predicts 90% of Internet Traffic Will Flow Through His Company. That Would Be a Nightmare.",
     "All It Takes Is $17,000 Invested in This High-Yield Dividend King Stock to Generate Over $500 in Yearly Dividends",
-    "Rand Paul Inspects Fort Knox Gold, Says Dollar’s 97% Collapse Since 1913 Is Behind America’s 'Affordability' Crisis: 'The Real Point Is...'",
-    "If a Stock Market Crash Comes in August, You'll Still Rest Easy Knowing You Bought This Dividend Stock",
-    "While AGNC Investment Offers a 13.5% Yield, I Just Bought This High-Yield Dividend Stock Instead",
-    "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’"
+    "If a Stock Market Crash Comes in August, You'll Still Rest Easy Knowing You Bought This Dividend Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63554.46875,
-        "perp_last_price": 63554.46875,
-        "mark_price": 63554.46875,
-        "index_price": 63554.46875,
+        "spot_price": 63397.58984375,
+        "perp_last_price": 63397.58984375,
+        "mark_price": 63397.58984375,
+        "index_price": 63397.58984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63554.46875,
-        "stop_loss_technical": 63941.46875,
-        "target_1": 62973.96875,
-        "target_2": 62393.46875,
+        "entry_ideal": 63411.921875,
+        "stop_loss_technical": 63947.6015625,
+        "target_1": 62608.40234375,
+        "target_2": 61804.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63554.46875,
+        "entry_ideal": 63397.58984375,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60783.63476562,
-        "target_2": 58012.80078125,
+        "target_1": 60391.4375,
+        "target_2": 57385.28515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
