@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T12:04:47.567138+00:00",
+    "generated_at_utc": "2026-08-13T13:37:24.334293+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.908,
+        "price": 99.88,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.682,
-        "trend": "alcista"
+        "price": 4.641,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 26m",
+    "U.S. markets close in 6h 24m",
     "News from the Yahoo Finance Network",
-    "Google Parent Alphabet Just Revealed How Many SpaceX Shares It Owns... and the Figure Is a Doozy",
     "All It Takes Is $17,000 Invested in This High-Yield Dividend King Stock to Generate Over $500 in Yearly Dividends",
+    "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
+    "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
+    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
     "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
-    "If a Stock Market Crash Comes in August, You'll Still Rest Easy Knowing You Bought This Dividend Stock",
-    "SpaceX Just Reported Earnings for the First Time as a Public Company. Here's the Most Shocking Piece of Guidance Issued by CEO Elon Musk",
-    "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?"
+    "If a Stock Market Crash Comes in August, You'll Still Rest Easy Knowing You Bought This Dividend Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63391.1015625,
-        "perp_last_price": 63391.1015625,
-        "mark_price": 63391.1015625,
-        "index_price": 63391.1015625,
+        "spot_price": 63680.62890625,
+        "perp_last_price": 63680.62890625,
+        "mark_price": 63680.62890625,
+        "index_price": 63680.62890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63391.1015625,
-        "stop_loss_technical": 63947.6015625,
-        "target_1": 62556.3515625,
-        "target_2": 61721.6015625,
+        "entry_ideal": 63680.62890625,
+        "stop_loss_technical": 63241.171875,
+        "target_1": 64339.81445312,
+        "target_2": 64999.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63391.1015625,
-        "stop_loss_technical": 65401.69140625,
-        "target_1": 60375.21679688,
-        "target_2": 57359.33203125,
+        "entry_ideal": 63680.62890625,
+        "stop_loss_technical": 63185.47265625,
+        "target_1": 64423.36328125,
+        "target_2": 65166.09765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
