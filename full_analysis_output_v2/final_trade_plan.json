@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T20:06:51.147692+00:00",
+    "generated_at_utc": "2026-08-13T20:56:27.301762+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.962,
+        "price": 99.964,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,50 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Applied Materials (NASDAQ:AMAT) Surprises With Q2 Sales But Stock Drops",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
     "Trump Says Giving Away Free Rent, Food and Housing Sounds Good at First — It ‘Leads to Death, Destruction and Squalor 100% of the Time’",
-    "Planning a Roth Conversion? Here's the One Thing You Need to Know.",
     "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
-    "Saga Communications Q2 Earnings Call Highlights",
-    "Millions of Americans Own Vanguard’s VFIAX and Have No Idea What They Actually Bought",
-    "I’m 62 and worth millions: how can I give more to my kids without getting slammed on taxes?"
+    "Atmos Energy (ATO) Posts Solid Growth and Reaffirms Guidance",
+    "Fidelity Parks Your Uninvested Cash in SPAXX by Default, and Most Investors Never Look",
+    "Berkshire Bought Alphabet Stock in Q2—and Maybe Microsoft Too"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63365.0703125,
-        "perp_last_price": 63365.0703125,
-        "mark_price": 63365.0703125,
-        "index_price": 63365.0703125,
+        "spot_price": 63333.1015625,
+        "perp_last_price": 63333.1015625,
+        "mark_price": 63333.1015625,
+        "index_price": 63333.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63365.0703125,
-        "stop_loss_technical": 62782.21875,
-        "target_1": 64239.34765625,
-        "target_2": 65113.625,
+        "entry_ideal": 63333.1015625,
+        "stop_loss_technical": 63941.46875,
+        "target_1": 62420.55078125,
+        "target_2": 61508.0,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63365.0703125,
+        "entry_ideal": 63333.1015625,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 60310.13867188,
-        "target_2": 57255.20703125,
+        "target_1": 60230.21679688,
+        "target_2": 57127.33203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
