@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T17:27:34.897139+00:00",
+    "generated_at_utc": "2026-08-13T18:24:25.125533+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.959,
+        "price": 99.939,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.647,
+        "price": 4.641,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 33m",
+    "U.S. markets close in 1h 37m",
     "News from the Yahoo Finance Network",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
-    "The SEC’s Proposed Semi-Annual Reports Could Hide Negative Earnings",
-    "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
     "Trump Says Giving Away Free Rent, Food and Housing Sounds Good at First — It ‘Leads to Death, Destruction and Squalor 100% of the Time’",
+    "Marriott Vacations (VAC) Q2 2026 Earnings Call Transcript",
     "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
-    "Hertz Global Stock Falls Sharply After Ackman’s Pershing Square Exits Its Position"
+    "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
+    "Wells Fargo resets Microsoft stock price target for 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63094.5,
-        "perp_last_price": 63094.5,
-        "mark_price": 63094.5,
-        "index_price": 63094.5,
+        "spot_price": 63107.0703125,
+        "perp_last_price": 63107.0703125,
+        "mark_price": 63107.0703125,
+        "index_price": 63107.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63094.5,
+        "entry_ideal": 63106.78125,
         "stop_loss_technical": 63941.46875,
-        "target_1": 61824.046875,
-        "target_2": 60553.59375,
+        "target_1": 61854.75,
+        "target_2": 60602.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63094.5,
+        "entry_ideal": 63107.0703125,
         "stop_loss_technical": 65401.69140625,
-        "target_1": 59633.71289062,
-        "target_2": 56172.92578125,
+        "target_1": 59665.13867188,
+        "target_2": 56223.20703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
