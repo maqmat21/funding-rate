@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-13T08:05:24.058997+00:00",
+    "generated_at_utc": "2026-08-13T09:20:35.878429+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.961,
+        "price": 99.98,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,54 +21,53 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 25m",
+    "U.S. markets open in 4h 10m",
     "News from the Yahoo Finance Network",
     "Rand Paul Inspects Fort Knox Gold, Says Dollar’s 97% Collapse Since 1913 Is Behind America’s 'Affordability' Crisis: 'The Real Point Is...'",
     "If a Stock Market Crash Comes in August, You'll Still Rest Easy Knowing You Bought This Dividend Stock",
+    "All It Takes Is $17,000 Invested in This High-Yield Dividend King Stock to Generate Over $500 in Yearly Dividends",
     "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
-    "SpaceX Is Back Above Its IPO Price. Is It too Late to Buy the Stock?",
     "Social Security to see $2,400 ‘Bernie Bump’ under proposed plan: ‘It’s what the American people want.’ Do you qualify?",
-    "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever"
+    "Elon Musk's Tesla Weighs $10.1 Billion Solar Plant, Chamath Palihapitiya Calls It a Bet on Nuclear: Here's Why"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63837.26953125,
-        "perp_last_price": 63837.26953125,
-        "mark_price": 63837.26953125,
-        "index_price": 63837.26953125,
+        "spot_price": 63606.328125,
+        "perp_last_price": 63606.328125,
+        "mark_price": 63606.328125,
+        "index_price": 63606.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63833.5390625,
-        "stop_loss_technical": 62876.03597656,
-        "target_1": 65269.79369141,
-        "target_2": 66706.04832031,
+        "entry_ideal": 63606.328125,
+        "stop_loss_technical": 63947.6015625,
+        "target_1": 63094.41796875,
+        "target_2": 62582.5078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63837.26953125,
-        "stop_loss_technical": 62879.71048828,
-        "target_1": 65273.6080957,
-        "target_2": 66709.94666016,
+        "entry_ideal": 63606.328125,
+        "stop_loss_technical": 65401.69140625,
+        "target_1": 60913.28320312,
+        "target_2": 58220.23828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
