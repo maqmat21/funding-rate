@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T18:06:34.348499+00:00",
+    "generated_at_utc": "2026-08-14T19:07:40.813631+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.674,
+        "price": 99.658,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 54m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "Income Investors Have Small Window To Collect These Dividend Payments",
-    "Trump Accounts just added another perk for working parents",
     "See how much renters pay for a 2-bedroom home in 50 U.S. cities",
     "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
-    "Broadcom is Down Over 3 Months: One Wall Street Pro Sees 60%+ Gains Ahead"
+    "Trump Accounts just added another perk for working parents",
+    "Elon Musk Rumored to Unveil ‘Flying’ Car Soon as Tesla Stock Is Down 24% YTD",
+    "SCHD: The Biggest Mistake New Dividend Investors Make",
+    "Trump Orders Navy to Restore Older Tech on Aircraft Carriers, Costing Billions"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62985.26171875,
-        "perp_last_price": 62985.26171875,
-        "mark_price": 62985.26171875,
-        "index_price": 62985.26171875,
+        "spot_price": 62783.87890625,
+        "perp_last_price": 62783.87890625,
+        "mark_price": 62783.87890625,
+        "index_price": 62783.87890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62985.25,
-        "stop_loss_technical": 63555.0,
-        "target_1": 62130.625,
-        "target_2": 61276.0,
+        "entry_ideal": 62783.87890625,
+        "stop_loss_technical": 63555.73828125,
+        "target_1": 61626.08984375,
+        "target_2": 60468.30078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62985.26171875,
+        "entry_ideal": 62783.87890625,
         "stop_loss_technical": 65321.83984375,
-        "target_1": 59480.39453125,
-        "target_2": 55975.52734375,
+        "target_1": 58976.9375,
+        "target_2": 55169.99609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
