@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T14:33:34.422645+00:00",
+    "generated_at_utc": "2026-08-14T15:24:36.475448+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.52,
+        "price": 99.53,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.661,
+        "price": 4.676,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 27m",
+    "U.S. markets close in 4h 36m",
     "News from the Yahoo Finance Network",
+    "Mining Tycoon Gina Rinehart Reveals $1.4 Billion SpaceX Stake",
+    "Apple proposes to take a 15% cut of purchases made outside the App Store",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
-    "Elon Musk Says SpaceX Will Generate $1 Trillion in Revenue by 2030. Time to Buy the Stock?",
-    "SCHD: The Biggest Mistake New Dividend Investors Make",
-    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
-    "FuelCell Energy (FCEL) Stock May Trade At A Premium As Hydrogen Rivalry Heats Up"
+    "Sigma Lithium Q2 Earnings Call Highlights",
+    "Trump Accounts just added another perk for working parents",
+    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62611.6015625,
-        "perp_last_price": 62611.6015625,
-        "mark_price": 62611.6015625,
-        "index_price": 62611.6015625,
+        "spot_price": 62692.48046875,
+        "perp_last_price": 62692.48046875,
+        "mark_price": 62692.48046875,
+        "index_price": 62692.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62618.21875,
-        "stop_loss_technical": 62503.0,
-        "target_1": 62791.046875,
-        "target_2": 62963.875,
+        "entry_ideal": 62695.6796875,
+        "stop_loss_technical": 62483.640625,
+        "target_1": 63013.73828125,
+        "target_2": 63331.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62611.6015625,
+        "entry_ideal": 62692.48046875,
         "stop_loss_technical": 65321.83984375,
-        "target_1": 58546.24414062,
-        "target_2": 54480.88671875,
+        "target_1": 58748.44140625,
+        "target_2": 54804.40234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
