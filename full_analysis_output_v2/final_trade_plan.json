@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T12:07:06.360336+00:00",
+    "generated_at_utc": "2026-08-14T13:34:38.261481+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.634,
+        "price": 99.623,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.641,
-        "trend": "bajista"
+        "price": 4.661,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 24m",
+    "U.S. markets close in 6h 26m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "US sells 30-year bonds at highest borrowing costs since 2001",
-    "Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14",
+    "‘Nobody escaped’: Walmart, Bank of America, TransUnion raise major red flag over US consumers. Protect your nest egg now",
+    "CareTrust REIT (CTRE) Stock Looks Undervalued As Investment Pipeline Reloads",
+    "This Is the 1 Investing Move That History Says Has Never Once Failed Long-Term Investors",
     "How a Retired Couple Collects $11,500 a Month and Never Pays an IRMAA Surcharge",
-    "Millions of 401(k) Holders Could Be Forced to Buy Anthropic Stock. Forced Buying of SpaceX Has Already Cost Retirement Accounts $500 Million.",
-    "Cathie Wood picks up $44.7 million in shares of two highly watched tech stocks. Is it too late to follow along?"
+    "Comcast offering payouts in $117.5M settlement. Are you eligible?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62755.44140625,
-        "perp_last_price": 62755.44140625,
-        "mark_price": 62755.44140625,
-        "index_price": 62755.44140625,
+        "spot_price": 62630.671875,
+        "perp_last_price": 62630.671875,
+        "mark_price": 62630.671875,
+        "index_price": 62630.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62755.44140625,
-        "stop_loss_technical": 61814.10978516,
-        "target_1": 64167.43883789,
-        "target_2": 65579.43626953,
+        "entry_ideal": 62625.3515625,
+        "stop_loss_technical": 63581.37890625,
+        "target_1": 61191.31054688,
+        "target_2": 59757.26953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 62755.44140625,
-        "stop_loss_technical": 61814.10978516,
-        "target_1": 64167.43883789,
-        "target_2": 65579.43626953,
+        "entry_ideal": 62630.671875,
+        "stop_loss_technical": 65321.83984375,
+        "target_1": 58593.91992188,
+        "target_2": 54557.16796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
