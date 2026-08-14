@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T19:07:40.813631+00:00",
+    "generated_at_utc": "2026-08-14T19:52:11.872059+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.658,
+        "price": 99.654,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Tech CEOs have pivoted from doom to reassurance before",
+    "Joe Rogan Criticizes ‘Crazy’ Trump Plan to Sell Access to Social Posts",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
     "See how much renters pay for a 2-bedroom home in 50 U.S. cities",
-    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
     "Trump Accounts just added another perk for working parents",
-    "Elon Musk Rumored to Unveil ‘Flying’ Car Soon as Tesla Stock Is Down 24% YTD",
-    "SCHD: The Biggest Mistake New Dividend Investors Make",
-    "Trump Orders Navy to Restore Older Tech on Aircraft Carriers, Costing Billions"
+    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
+    "AbbVie vs. Bristol-Myers Squibb: Which Healthcare Stock Is a Better Buy in 2026?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62783.87890625,
-        "perp_last_price": 62783.87890625,
-        "mark_price": 62783.87890625,
-        "index_price": 62783.87890625,
+        "spot_price": 62892.69140625,
+        "perp_last_price": 62892.69140625,
+        "mark_price": 62892.69140625,
+        "index_price": 62892.69140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62783.87890625,
-        "stop_loss_technical": 63555.73828125,
-        "target_1": 61626.08984375,
-        "target_2": 60468.30078125,
+        "entry_ideal": 62892.69140625,
+        "stop_loss_technical": 62483.640625,
+        "target_1": 63506.26757812,
+        "target_2": 64119.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62783.87890625,
+        "entry_ideal": 62892.69140625,
         "stop_loss_technical": 65321.83984375,
-        "target_1": 58976.9375,
-        "target_2": 55169.99609375,
+        "target_1": 59248.96875,
+        "target_2": 55605.24609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
