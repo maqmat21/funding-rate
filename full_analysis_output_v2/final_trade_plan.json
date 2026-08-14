@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T10:45:56.117442+00:00",
+    "generated_at_utc": "2026-08-14T11:29:20.212316+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.725,
+        "price": 99.665,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 45m",
+    "U.S. markets open in 2h 2m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
+    "Resideo Technologies, Inc. Q2 2026 Earnings Call Summary",
+    "How a Retired Couple Collects $11,500 a Month and Never Pays an IRMAA Surcharge",
     "Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14",
-    "Is Bitcoin Headed for a Breakdown or a Breakout? The Historical Evidence Is Just Too Overwhelming to Ignore.",
-    "Hiltzik: Ordinary Americans struggle to fund their 401(k) plans while plutocrats fill theirs with tax-free millions",
     "SpaceX Stock Climbs Back Above Its $135 IPO Price -- Here's Where It Could Trade by August 2027",
-    "Think you're middle-class in America? Think again — 5 signs you've made it, and how to keep climbing while you can"
+    "Intuitive Machines (LUNR) Posted Record Revenue, Is The Stock Priced For Perfection?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62814.78125,
-        "perp_last_price": 62814.78125,
-        "mark_price": 62814.78125,
-        "index_price": 62814.78125,
+        "spot_price": 62818.12890625,
+        "perp_last_price": 62818.12890625,
+        "mark_price": 62818.12890625,
+        "index_price": 62818.12890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62814.78125,
+        "entry_ideal": 62818.140625,
         "stop_loss_technical": 62624.390625,
-        "target_1": 63100.3671875,
-        "target_2": 63385.953125,
+        "target_1": 63108.765625,
+        "target_2": 63399.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62814.78125,
-        "stop_loss_technical": 61872.55953125,
-        "target_1": 64228.11382813,
-        "target_2": 65641.44640625,
+        "entry_ideal": 62818.12890625,
+        "stop_loss_technical": 61875.85697266,
+        "target_1": 64231.53680664,
+        "target_2": 65644.94470703,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
