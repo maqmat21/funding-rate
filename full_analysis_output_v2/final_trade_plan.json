@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T17:11:40.639085+00:00",
+    "generated_at_utc": "2026-08-14T18:06:34.348499+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,60 +11,61 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.635,
+        "price": 99.674,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.692,
+        "price": 4.696,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 49m",
+    "U.S. markets close in 1h 54m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "Broadcom is Down Over 3 Months: One Wall Street Pro Sees 60%+ Gains Ahead",
-    "The secret history of Ray Dalio and the creation of Chicken McNuggets—how a 1980s hedge strategy unlocked a whole new menu",
+    "Income Investors Have Small Window To Collect These Dividend Payments",
     "Trump Accounts just added another perk for working parents",
     "See how much renters pay for a 2-bedroom home in 50 U.S. cities",
-    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy"
+    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
+    "Broadcom is Down Over 3 Months: One Wall Street Pro Sees 60%+ Gains Ahead"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63075.37890625,
-        "perp_last_price": 63075.37890625,
-        "mark_price": 63075.37890625,
-        "index_price": 63075.37890625,
+        "spot_price": 62985.26171875,
+        "perp_last_price": 62985.26171875,
+        "mark_price": 62985.26171875,
+        "index_price": 62985.26171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 62985.25,
+        "stop_loss_technical": 63555.0,
+        "target_1": 62130.625,
+        "target_2": 61276.0,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63067.359375,
-        "stop_loss_technical": 63581.390625,
-        "target_1": 62296.3125,
-        "target_2": 61525.265625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 63075.37890625,
-        "stop_loss_technical": 62479.69921875,
-        "target_1": 63968.8984375,
-        "target_2": 64862.41796875,
+        "entry_ideal": 62985.26171875,
+        "stop_loss_technical": 65321.83984375,
+        "target_1": 59480.39453125,
+        "target_2": 55975.52734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
