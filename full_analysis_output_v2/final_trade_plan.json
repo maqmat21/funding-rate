@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T21:06:29.412483+00:00",
+    "generated_at_utc": "2026-08-14T21:34:53.277286+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.635,
+        "price": 99.636,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "Daily ETF Flows: Money Pours Into IWD",
     "See how much renters pay for a 2-bedroom home in 50 U.S. cities",
+    "Humana Is Dropping Plans That Cover 600,000 Medicare Members in 2027. The Letters Arrive in September.",
     "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
     "Trump Accounts just added another perk for working parents",
     "Elon Musk’s $158 billion Tesla pay was 2.5 million times his workers’ salary last year—it’s ‘unlike anything we have seen before,’ exec pay watch says",
-    "Iran says the Strait of Hormuz is shut down. The Trump administration says 9 million barrels a day are still getting out"
+    "SCHD: The Biggest Mistake New Dividend Investors Make"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62855.3203125,
-        "perp_last_price": 62855.3203125,
-        "mark_price": 62855.3203125,
-        "index_price": 62855.3203125,
+        "spot_price": 62809.421875,
+        "perp_last_price": 62809.421875,
+        "mark_price": 62809.421875,
+        "index_price": 62809.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62855.3203125,
-        "stop_loss_technical": 62479.69921875,
-        "target_1": 63418.75195312,
-        "target_2": 63982.18359375,
+        "entry_ideal": 62809.421875,
+        "stop_loss_technical": 63555.73828125,
+        "target_1": 61689.94726562,
+        "target_2": 60570.47265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62855.3203125,
+        "entry_ideal": 62809.421875,
         "stop_loss_technical": 65321.83984375,
-        "target_1": 59155.54101562,
-        "target_2": 55455.76171875,
+        "target_1": 59040.79492188,
+        "target_2": 55272.16796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
