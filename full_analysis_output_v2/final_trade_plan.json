@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T07:55:38.569181+00:00",
+    "generated_at_utc": "2026-08-14T08:55:56.342683+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.771,
+        "price": 99.738,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 35m",
+    "U.S. markets open in 4h 35m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "Tenon Medical Inc (TNON) (Q2 2026) Earnings Call Highlights: Record Revenue Growth and FDA ...",
-    "Newsmax Q2 Earnings Call Highlights",
-    "Arrow Exploration buys into Canada with $8.9 million Alberta oil deal",
-    "Bridgeline Digital Inc (BLIN) (Q3 2026) Earnings Call Highlights: Core Product Growth Drives ...",
-    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State"
+    "Is Bitcoin Headed for a Breakdown or a Breakout? The Historical Evidence Is Just Too Overwhelming to Ignore.",
+    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
+    "'Big Short' Michael Burry takes aim at surging AI stock",
+    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
+    "SpaceX Stock Rises Overnight: Elon Musk’s Stake Tops $900B — But Billions In Shares Still Depend On ‘Extremely Crazy Good’ Outcomes"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62910.75,
-        "perp_last_price": 62910.75,
-        "mark_price": 62910.75,
-        "index_price": 62910.75,
+        "spot_price": 62842.7109375,
+        "perp_last_price": 62842.7109375,
+        "mark_price": 62842.7109375,
+        "index_price": 62842.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62910.75,
-        "stop_loss_technical": 61967.08875,
-        "target_1": 64326.241875,
-        "target_2": 65741.73375,
+        "entry_ideal": 62842.7109375,
+        "stop_loss_technical": 62624.390625,
+        "target_1": 63170.19140625,
+        "target_2": 63497.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62910.75,
-        "stop_loss_technical": 61967.08875,
-        "target_1": 64326.241875,
-        "target_2": 65741.73375,
+        "entry_ideal": 62842.7109375,
+        "stop_loss_technical": 61900.07027344,
+        "target_1": 64256.67193359,
+        "target_2": 65670.63292969,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
