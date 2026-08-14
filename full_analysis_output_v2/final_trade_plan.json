@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T13:34:38.261481+00:00",
+    "generated_at_utc": "2026-08-14T14:33:34.422645+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.623,
+        "price": 99.52,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 26m",
+    "U.S. markets close in 5h 27m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "‘Nobody escaped’: Walmart, Bank of America, TransUnion raise major red flag over US consumers. Protect your nest egg now",
-    "CareTrust REIT (CTRE) Stock Looks Undervalued As Investment Pipeline Reloads",
-    "This Is the 1 Investing Move That History Says Has Never Once Failed Long-Term Investors",
-    "How a Retired Couple Collects $11,500 a Month and Never Pays an IRMAA Surcharge",
-    "Comcast offering payouts in $117.5M settlement. Are you eligible?"
+    "Churches Fume at $40,000 Bills to Scrap Antennas After Dish’s Bankruptcy",
+    "Elon Musk Says SpaceX Will Generate $1 Trillion in Revenue by 2030. Time to Buy the Stock?",
+    "SCHD: The Biggest Mistake New Dividend Investors Make",
+    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
+    "FuelCell Energy (FCEL) Stock May Trade At A Premium As Hydrogen Rivalry Heats Up"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62630.671875,
-        "perp_last_price": 62630.671875,
-        "mark_price": 62630.671875,
-        "index_price": 62630.671875,
+        "spot_price": 62611.6015625,
+        "perp_last_price": 62611.6015625,
+        "mark_price": 62611.6015625,
+        "index_price": 62611.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62625.3515625,
-        "stop_loss_technical": 63581.37890625,
-        "target_1": 61191.31054688,
-        "target_2": 59757.26953125,
+        "entry_ideal": 62618.21875,
+        "stop_loss_technical": 62503.0,
+        "target_1": 62791.046875,
+        "target_2": 62963.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62630.671875,
+        "entry_ideal": 62611.6015625,
         "stop_loss_technical": 65321.83984375,
-        "target_1": 58593.91992188,
-        "target_2": 54557.16796875,
+        "target_1": 58546.24414062,
+        "target_2": 54480.88671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
