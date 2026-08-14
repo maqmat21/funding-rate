@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T11:29:20.212316+00:00",
+    "generated_at_utc": "2026-08-14T12:07:06.360336+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.665,
+        "price": 99.634,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 2m",
+    "U.S. markets open in 1h 24m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "Resideo Technologies, Inc. Q2 2026 Earnings Call Summary",
-    "How a Retired Couple Collects $11,500 a Month and Never Pays an IRMAA Surcharge",
+    "US sells 30-year bonds at highest borrowing costs since 2001",
     "Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14",
-    "SpaceX Stock Climbs Back Above Its $135 IPO Price -- Here's Where It Could Trade by August 2027",
-    "Intuitive Machines (LUNR) Posted Record Revenue, Is The Stock Priced For Perfection?"
+    "How a Retired Couple Collects $11,500 a Month and Never Pays an IRMAA Surcharge",
+    "Millions of 401(k) Holders Could Be Forced to Buy Anthropic Stock. Forced Buying of SpaceX Has Already Cost Retirement Accounts $500 Million.",
+    "Cathie Wood picks up $44.7 million in shares of two highly watched tech stocks. Is it too late to follow along?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62818.12890625,
-        "perp_last_price": 62818.12890625,
-        "mark_price": 62818.12890625,
-        "index_price": 62818.12890625,
+        "spot_price": 62755.44140625,
+        "perp_last_price": 62755.44140625,
+        "mark_price": 62755.44140625,
+        "index_price": 62755.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62818.140625,
-        "stop_loss_technical": 62624.390625,
-        "target_1": 63108.765625,
-        "target_2": 63399.390625,
+        "entry_ideal": 62755.44140625,
+        "stop_loss_technical": 61814.10978516,
+        "target_1": 64167.43883789,
+        "target_2": 65579.43626953,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 62818.12890625,
-        "stop_loss_technical": 61875.85697266,
-        "target_1": 64231.53680664,
-        "target_2": 65644.94470703,
+        "entry_ideal": 62755.44140625,
+        "stop_loss_technical": 61814.10978516,
+        "target_1": 64167.43883789,
+        "target_2": 65579.43626953,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
