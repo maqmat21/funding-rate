@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T06:59:30.422085+00:00",
+    "generated_at_utc": "2026-08-15T07:29:16.117190+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,32 @@
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
     "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
     "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 74% to Buy Right Now and Hold for a Decade",
-    "The Market Is Doing Something It's Only Done Once Before. Here's What History Says Happens Next.",
-    "NVDA Discloses $21B Stake In SpaceX — Elon Musk’s Rocket Firm Becomes Nvidia’s No. 2 Holding",
-    "Elon Musk’s $158 billion Tesla pay was 2.5 million times his workers’ salary last year—it’s ‘unlike anything we have seen before,’ exec pay watch says"
+    "Could $5,000 in This Nuclear Stock Turn Into a Life-Changing Sum?",
+    "Elon Musk’s $158 billion Tesla pay was 2.5 million times his workers’ salary last year—it’s ‘unlike anything we have seen before,’ exec pay watch says",
+    "NVDA Discloses $21B Stake In SpaceX — Elon Musk’s Rocket Firm Becomes Nvidia’s No. 2 Holding"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63045.5390625,
-        "perp_last_price": 63045.5390625,
-        "mark_price": 63045.5390625,
-        "index_price": 63045.5390625,
+        "spot_price": 63012.37109375,
+        "perp_last_price": 63012.37109375,
+        "mark_price": 63012.37109375,
+        "index_price": 63012.37109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63045.5390625,
-        "stop_loss_technical": 62479.69921875,
-        "target_1": 63894.29882812,
-        "target_2": 64743.05859375,
+        "entry_ideal": 63012.37890625,
+        "stop_loss_technical": 63183.0703125,
+        "target_1": 62756.34179688,
+        "target_2": 62500.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63045.5390625,
-        "stop_loss_technical": 62479.69921875,
-        "target_1": 63894.29882812,
-        "target_2": 64743.05859375,
+        "entry_ideal": 63012.37109375,
+        "stop_loss_technical": 62483.640625,
+        "target_1": 63805.46679688,
+        "target_2": 64598.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
