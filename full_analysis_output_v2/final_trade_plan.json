@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T09:02:35.429996+00:00",
+    "generated_at_utc": "2026-08-15T09:34:48.862145+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,50 +23,48 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
+    "What's your worth? 3 net worth milestones you must hit on your road to riches (where you fall can say a lot about you)",
     "Warren Buffett has a stark message for stock market investors",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
+    "Nvidia Stock Investors Just Got Good News From SpaceX. Wall Street Says It's Time to Buy.",
     "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
-    "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 74% to Buy Right Now and Hold for a Decade",
-    "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
-    "NVDA Discloses $21B Stake In SpaceX — Elon Musk’s Rocket Firm Becomes Nvidia’s No. 2 Holding"
+    "Sam Walton Gave His Kids 80% of Walmart in 1953, When It Was Worth Almost Nothing. That Single Early Move Is Why the Waltons Have Never Faced a Major Estate-Tax Bill on $250 Billion"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62855.6484375,
-        "perp_last_price": 62855.6484375,
-        "mark_price": 62855.6484375,
-        "index_price": 62855.6484375,
+        "spot_price": 62918.0703125,
+        "perp_last_price": 62918.0703125,
+        "mark_price": 62918.0703125,
+        "index_price": 62918.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62850.859375,
-        "stop_loss_technical": 63183.0703125,
-        "target_1": 62352.54296875,
-        "target_2": 61854.2265625,
+        "entry_ideal": 62918.0703125,
+        "stop_loss_technical": 62483.640625,
+        "target_1": 63569.71484375,
+        "target_2": 64221.359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62855.6484375,
+        "entry_ideal": 62918.0703125,
         "stop_loss_technical": 64433.6796875,
-        "target_1": 60488.6015625,
-        "target_2": 58121.5546875,
+        "target_1": 60644.65625,
+        "target_2": 58371.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
