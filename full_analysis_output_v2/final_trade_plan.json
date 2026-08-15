@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T22:58:38.733290+00:00",
+    "generated_at_utc": "2026-08-15T23:16:41.875255+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
+    "Owning a home is overrated. Renting is now often a much better money move.",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
-    "Warren Buffett has a stark message for stock market investors",
-    "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year."
+    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63061.6796875,
-        "perp_last_price": 63061.6796875,
-        "mark_price": 63061.6796875,
-        "index_price": 63061.6796875,
+        "spot_price": 63063.1484375,
+        "perp_last_price": 63063.1484375,
+        "mark_price": 63063.1484375,
+        "index_price": 63063.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63061.6796875,
-        "stop_loss_technical": 63121.48828125,
-        "target_1": 62971.96679688,
-        "target_2": 62882.25390625,
+        "entry_ideal": 63063.1484375,
+        "stop_loss_technical": 63107.33984375,
+        "target_1": 62996.86132812,
+        "target_2": 62930.57421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63061.6796875,
+        "entry_ideal": 63063.1484375,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63922.65039062,
-        "target_2": 64783.62109375,
+        "target_1": 63926.32226562,
+        "target_2": 64789.49609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
