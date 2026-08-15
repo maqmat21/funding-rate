@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T16:36:57.328997+00:00",
+    "generated_at_utc": "2026-08-15T16:54:57.004402+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,11 +22,11 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
+    "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
-    "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
+    "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
     "Warren Buffett named these 3 stocks as favorites for a reason",
     "CEO Elon Musk Just Announced Great News for SpaceX Stock Investors"
   ],
@@ -34,10 +34,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63027.55078125,
-        "perp_last_price": 63027.55078125,
-        "mark_price": 63027.55078125,
-        "index_price": 63027.55078125,
+        "spot_price": 63022.51171875,
+        "perp_last_price": 63022.51171875,
+        "mark_price": 63022.51171875,
+        "index_price": 63022.51171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63018.05078125,
-        "stop_loss_technical": 63120.7890625,
-        "target_1": 62863.94335938,
-        "target_2": 62709.8359375,
+        "entry_ideal": 63022.51171875,
+        "stop_loss_technical": 63121.48828125,
+        "target_1": 62874.046875,
+        "target_2": 62725.58203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63027.55078125,
+        "entry_ideal": 63022.51171875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63837.328125,
-        "target_2": 64647.10546875,
+        "target_1": 63824.73046875,
+        "target_2": 64626.94921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
