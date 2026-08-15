@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T08:45:29.075939+00:00",
+    "generated_at_utc": "2026-08-15T09:02:35.429996+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,16 +28,16 @@
     "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
     "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 74% to Buy Right Now and Hold for a Decade",
     "Should You Buy Micron Technology Stock Below $920 per Share? Wall Street Thinks It's Heading to $1,500.",
-    "SanDisk CEO reveals what's next after explosive 3,150% stock rally"
+    "NVDA Discloses $21B Stake In SpaceX — Elon Musk’s Rocket Firm Becomes Nvidia’s No. 2 Holding"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62957.03125,
-        "perp_last_price": 62957.03125,
-        "mark_price": 62957.03125,
-        "index_price": 62957.03125,
+        "spot_price": 62855.6484375,
+        "perp_last_price": 62855.6484375,
+        "mark_price": 62855.6484375,
+        "index_price": 62855.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62957.03125,
+        "entry_ideal": 62850.859375,
         "stop_loss_technical": 63183.0703125,
-        "target_1": 62617.97265625,
-        "target_2": 62278.9140625,
+        "target_1": 62352.54296875,
+        "target_2": 61854.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62957.03125,
+        "entry_ideal": 62855.6484375,
         "stop_loss_technical": 64433.6796875,
-        "target_1": 60742.05859375,
-        "target_2": 58527.0859375,
+        "target_1": 60488.6015625,
+        "target_2": 58121.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
