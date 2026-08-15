@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T07:29:16.117190+00:00",
+    "generated_at_utc": "2026-08-15T07:51:36.916699+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,9 +24,9 @@
     "News from the Yahoo Finance Network",
     "Warren Buffett has a stark message for stock market investors",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
+    "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today",
     "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
     "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 74% to Buy Right Now and Hold for a Decade",
-    "Could $5,000 in This Nuclear Stock Turn Into a Life-Changing Sum?",
     "Elon Musk’s $158 billion Tesla pay was 2.5 million times his workers’ salary last year—it’s ‘unlike anything we have seen before,’ exec pay watch says",
     "NVDA Discloses $21B Stake In SpaceX — Elon Musk’s Rocket Firm Becomes Nvidia’s No. 2 Holding"
   ],
@@ -34,24 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63012.37109375,
-        "perp_last_price": 63012.37109375,
-        "mark_price": 63012.37109375,
-        "index_price": 63012.37109375,
+        "spot_price": 63005.48828125,
+        "perp_last_price": 63005.48828125,
+        "mark_price": 63005.48828125,
+        "index_price": 63005.48828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63012.37890625,
+        "entry_ideal": 63005.5,
         "stop_loss_technical": 63183.0703125,
-        "target_1": 62756.34179688,
-        "target_2": 62500.3046875,
+        "target_1": 62739.14453125,
+        "target_2": 62472.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63012.37109375,
+        "entry_ideal": 63005.48828125,
         "stop_loss_technical": 62483.640625,
-        "target_1": 63805.46679688,
-        "target_2": 64598.5625,
+        "target_1": 63788.25976562,
+        "target_2": 64571.03125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
