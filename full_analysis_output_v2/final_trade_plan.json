@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T13:44:06.367790+00:00",
+    "generated_at_utc": "2026-08-15T13:59:29.090643+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,47 +24,48 @@
     "News from the Yahoo Finance Network",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
+    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
     "Why US boomers seriously need to prepare for a stock market crash before it’s too late — 3 red flags and what to do now",
     "This critical Social Security rule permanently changes in November — with less than 90 days to prepare. Are you ready?",
-    "Warren Buffett has a stark message for stock market investors",
-    "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move."
+    "Warren Buffett has a stark message for stock market investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62954.6015625,
-        "perp_last_price": 62954.6015625,
-        "mark_price": 62954.6015625,
-        "index_price": 62954.6015625,
+        "spot_price": 62983.28125,
+        "perp_last_price": 62983.28125,
+        "mark_price": 62983.28125,
+        "index_price": 62983.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62954.609375,
-        "stop_loss_technical": 63121.48828125,
-        "target_1": 62704.29101562,
-        "target_2": 62453.97265625,
+        "entry_ideal": 62983.28125,
+        "stop_loss_technical": 62727.30859375,
+        "target_1": 63367.24023438,
+        "target_2": 63751.19921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62954.6015625,
-        "stop_loss_technical": 64433.6796875,
-        "target_1": 60735.984375,
-        "target_2": 58517.3671875,
+        "entry_ideal": 62983.28125,
+        "stop_loss_technical": 62487.69921875,
+        "target_1": 63726.65429688,
+        "target_2": 64470.02734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
