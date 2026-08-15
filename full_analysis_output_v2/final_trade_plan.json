@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T10:10:57.083084+00:00",
+    "generated_at_utc": "2026-08-15T10:39:35.315898+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
+    "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
+    "Bitcoin Price Below $10,000? ChatGPT Issues Warning as ‘Crypto Is Dead’ Chatter Surges",
     "Sam Walton Gave His Kids 80% of Walmart in 1953, When It Was Worth Almost Nothing. That Single Early Move Is Why the Waltons Have Never Faced a Major Estate-Tax Bill on $250 Billion",
     "Warren Buffett has a stark message for stock market investors",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
-    "What's your worth? 3 net worth milestones you must hit on your road to riches (where you fall can say a lot about you)",
-    "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
     "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 74% to Buy Right Now and Hold for a Decade"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62946.33984375,
-        "perp_last_price": 62946.33984375,
-        "mark_price": 62946.33984375,
-        "index_price": 62946.33984375,
+        "spot_price": 62964.78125,
+        "perp_last_price": 62964.78125,
+        "mark_price": 62964.78125,
+        "index_price": 62964.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62946.33984375,
+        "entry_ideal": 62964.78125,
         "stop_loss_technical": 62541.640625,
-        "target_1": 63553.38867188,
-        "target_2": 64160.4375,
+        "target_1": 63599.4921875,
+        "target_2": 64234.203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 62946.33984375,
+        "entry_ideal": 62964.78125,
         "stop_loss_technical": 64433.6796875,
-        "target_1": 60715.33007812,
-        "target_2": 58484.3203125,
+        "target_1": 60761.43359375,
+        "target_2": 58558.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
