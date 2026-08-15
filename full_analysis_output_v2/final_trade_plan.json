@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-14T23:43:02.270079+00:00",
+    "generated_at_utc": "2026-08-14T23:59:53.879575+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
     "Warren Buffett has a stark message for stock market investors",
-    "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
+    "PSKY, WBD Merger Deal Satisfies Regulatory Conditions In 68 Countries — Paramount Says 12 State AGs Are Now The Final Hurdle",
+    "Baby Boomers Are Entering Retirement With Record Debt—Here’s the Impact on Their Finances",
     "See how much renters pay for a 2-bedroom home in 50 U.S. cities",
-    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State",
-    "Trump Accounts just added another perk for working parents",
-    "Elon Musk’s $158 billion Tesla pay was 2.5 million times his workers’ salary last year—it’s ‘unlike anything we have seen before,’ exec pay watch says"
+    "Thinking of Retiring Before 65? Here’s the Nest Egg You’ll Need in Each State"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62934.328125,
-        "perp_last_price": 62934.328125,
-        "mark_price": 62934.328125,
-        "index_price": 62934.328125,
+        "spot_price": 62971.140625,
+        "perp_last_price": 62971.140625,
+        "mark_price": 62971.140625,
+        "index_price": 62971.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62934.328125,
-        "stop_loss_technical": 62483.640625,
-        "target_1": 63610.359375,
-        "target_2": 64286.390625,
+        "entry_ideal": 62971.140625,
+        "stop_loss_technical": 62479.69921875,
+        "target_1": 63708.30273438,
+        "target_2": 64445.46484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62934.328125,
-        "stop_loss_technical": 65321.83984375,
-        "target_1": 59353.06054688,
-        "target_2": 55771.79296875,
+        "entry_ideal": 62971.140625,
+        "stop_loss_technical": 62479.69921875,
+        "target_1": 63708.30273438,
+        "target_2": 64445.46484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
