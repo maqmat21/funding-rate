@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T20:39:02.458115+00:00",
+    "generated_at_utc": "2026-08-15T20:54:48.970313+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,33 @@
     "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-    "Why Medicare Advantage providers are cutting plans — and what to do if your coverage is affected",
-    "Warren Buffett has a stark message for stock market investors",
-    "Warren Buffett named these 3 stocks as favorites for a reason"
+    "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why It Just Hit an All-Time High Under Greg Abel.",
+    "Tyson Foods beef plant closures come as severe drought makes U.S. cattle shortages worse",
+    "Warren Buffett has a stark message for stock market investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63007.51171875,
-        "perp_last_price": 63007.51171875,
-        "mark_price": 63007.51171875,
-        "index_price": 63007.51171875,
+        "spot_price": 63030.6796875,
+        "perp_last_price": 63030.6796875,
+        "mark_price": 63030.6796875,
+        "index_price": 63030.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63007.41015625,
-        "stop_loss_technical": 63120.7890625,
-        "target_1": 62837.34179688,
-        "target_2": 62667.2734375,
+        "entry_ideal": 63030.6796875,
+        "stop_loss_technical": 62847.078125,
+        "target_1": 63306.08203125,
+        "target_2": 63581.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63007.51171875,
+        "entry_ideal": 63030.6796875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63787.23046875,
-        "target_2": 64566.94921875,
+        "target_1": 63845.15039062,
+        "target_2": 64659.62109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
