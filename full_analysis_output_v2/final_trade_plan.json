@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T23:16:41.875255+00:00",
+    "generated_at_utc": "2026-08-15T23:35:40.294407+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
+    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
-    "Owning a home is overrated. Renting is now often a much better money move.",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock"
+    "Owning a home is overrated. Renting is now often a much better money move.",
+    "Is General Mills (GIS) Reasonable for Value Investors Today?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63063.1484375,
-        "perp_last_price": 63063.1484375,
-        "mark_price": 63063.1484375,
-        "index_price": 63063.1484375,
+        "spot_price": 63029.69921875,
+        "perp_last_price": 63029.69921875,
+        "mark_price": 63029.69921875,
+        "index_price": 63029.69921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63063.1484375,
+        "entry_ideal": 63033.12109375,
         "stop_loss_technical": 63107.33984375,
-        "target_1": 62996.86132812,
-        "target_2": 62930.57421875,
+        "target_1": 62921.79296875,
+        "target_2": 62810.46484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63063.1484375,
+        "entry_ideal": 63029.69921875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63926.32226562,
-        "target_2": 64789.49609375,
+        "target_1": 63842.69921875,
+        "target_2": 64655.69921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
