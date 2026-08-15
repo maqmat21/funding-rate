@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T11:30:34.749730+00:00",
+    "generated_at_utc": "2026-08-15T11:49:59.573488+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,7 +26,7 @@
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
     "This critical Social Security rule permanently changes in November — with less than 90 days to prepare. Are you ready?",
     "Sam Walton Gave His Kids 80% of Walmart in 1953, When It Was Worth Almost Nothing. That Single Early Move Is Why the Waltons Have Never Faced a Major Estate-Tax Bill on $250 Billion",
-    "Social Security Is in Dire Straits, Thanks in Part to President Donald Trump, but Taxing the Rich Won't Fix the Problem",
+    "Will SpaceX Be the First Company to Hit $1 Trillion in Revenue? Here's What the Math Says.",
     "Warren Buffett has a stark message for stock market investors",
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move."
   ],
@@ -34,38 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62970.8203125,
-        "perp_last_price": 62970.8203125,
-        "mark_price": 62970.8203125,
-        "index_price": 62970.8203125,
+        "spot_price": 62934.80078125,
+        "perp_last_price": 62934.80078125,
+        "mark_price": 62934.80078125,
+        "index_price": 62934.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62970.8203125,
-        "stop_loss_technical": 62727.30859375,
-        "target_1": 63336.08789062,
-        "target_2": 63701.35546875,
+        "entry_ideal": 62934.80078125,
+        "stop_loss_technical": 63183.0703125,
+        "target_1": 62562.39648438,
+        "target_2": 62189.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62970.8203125,
-        "stop_loss_technical": 62487.69921875,
-        "target_1": 63695.50195312,
-        "target_2": 64420.18359375,
+        "entry_ideal": 62934.80078125,
+        "stop_loss_technical": 64433.6796875,
+        "target_1": 60686.48242188,
+        "target_2": 58438.1640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
