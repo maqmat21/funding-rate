@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T05:04:01.673143+00:00",
+    "generated_at_utc": "2026-08-15T05:34:03.911032+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,33 @@
     "The Stock Market Just Made a Move That Warren Buffett Has Warned About. History Says Investors Should Make This 1 Move.",
     "Warren Buffett has a stark message for stock market investors",
     "A $920,000 Portfolio That Quietly Pays You $5,400 a Month Without Touching Principal",
+    "The Market Is Doing Something It's Only Done Once Before. Here's What History Says Happens Next.",
     "NVDA Discloses $21B Stake In SpaceX — Elon Musk’s Rocket Firm Becomes Nvidia’s No. 2 Holding",
     "A Once-in-a-Decade Opportunity: 1 Super Growth Stock Down 74% to Buy Right Now and Hold for a Decade",
-    "Baby Boomers Are Entering Retirement With Record Debt—Here’s the Impact on Their Finances",
     "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What Decades of Stock Market History Suggests."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63060.390625,
-        "perp_last_price": 63060.390625,
-        "mark_price": 63060.390625,
-        "index_price": 63060.390625,
+        "spot_price": 63058.0703125,
+        "perp_last_price": 63058.0703125,
+        "mark_price": 63058.0703125,
+        "index_price": 63058.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63060.390625,
-        "stop_loss_technical": 62483.640625,
-        "target_1": 63925.515625,
-        "target_2": 64790.640625,
+        "entry_ideal": 63058.0703125,
+        "stop_loss_technical": 63183.0703125,
+        "target_1": 62870.5703125,
+        "target_2": 62683.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63060.390625,
+        "entry_ideal": 63058.0703125,
         "stop_loss_technical": 62483.640625,
-        "target_1": 63925.515625,
-        "target_2": 64790.640625,
+        "target_1": 63919.71484375,
+        "target_2": 64781.359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
