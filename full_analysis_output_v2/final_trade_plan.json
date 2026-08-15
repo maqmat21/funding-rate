@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T14:42:30.087947+00:00",
+    "generated_at_utc": "2026-08-15T14:59:12.269567+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,49 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
     "Why US boomers seriously need to prepare for a stock market crash before it’s too late — 3 red flags and what to do now",
-    "This critical Social Security rule permanently changes in November — with less than 90 days to prepare. Are you ready?",
     "Warren Buffett named these 3 stocks as favorites for a reason",
-    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock"
+    "This critical Social Security rule permanently changes in November — with less than 90 days to prepare. Are you ready?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62969.55859375,
-        "perp_last_price": 62969.55859375,
-        "mark_price": 62969.55859375,
-        "index_price": 62969.55859375,
+        "spot_price": 62981.1015625,
+        "perp_last_price": 62981.1015625,
+        "mark_price": 62981.1015625,
+        "index_price": 62981.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 62981.1015625,
+        "stop_loss_technical": 62727.30859375,
+        "target_1": 63361.79101562,
+        "target_2": 63742.48046875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 62969.55859375,
-        "stop_loss_technical": 62727.30859375,
-        "target_1": 63332.93359375,
-        "target_2": 63696.30859375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio < EMA20"
-        ],
-        "entry_ideal": 62969.55859375,
-        "stop_loss_technical": 64433.6796875,
-        "target_1": 60773.37695312,
-        "target_2": 58577.1953125,
+        "entry_ideal": 62981.1015625,
+        "stop_loss_technical": 62487.69921875,
+        "target_1": 63721.20507812,
+        "target_2": 64461.30859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
