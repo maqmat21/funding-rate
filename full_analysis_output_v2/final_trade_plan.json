@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T15:52:26.800387+00:00",
+    "generated_at_utc": "2026-08-15T16:09:42.548622+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
+    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
     "CEO Elon Musk Just Announced Great News for SpaceX Stock Investors",
-    "Why US boomers seriously need to prepare for a stock market crash before it’s too late — 3 red flags and what to do now",
-    "Warren Buffett named these 3 stocks as favorites for a reason"
+    "Warren Buffett named these 3 stocks as favorites for a reason",
+    "Why US boomers seriously need to prepare for a stock market crash before it’s too late — 3 red flags and what to do now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63025.01171875,
-        "perp_last_price": 63025.01171875,
-        "mark_price": 63025.01171875,
-        "index_price": 63025.01171875,
+        "spot_price": 63012.7109375,
+        "perp_last_price": 63012.7109375,
+        "mark_price": 63012.7109375,
+        "index_price": 63012.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63025.01171875,
-        "stop_loss_technical": 62727.30859375,
-        "target_1": 63471.56640625,
-        "target_2": 63918.12109375,
+        "entry_ideal": 63012.7109375,
+        "stop_loss_technical": 63120.7890625,
+        "target_1": 62850.59375,
+        "target_2": 62688.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63025.01171875,
+        "entry_ideal": 63012.7109375,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63830.98046875,
-        "target_2": 64636.94921875,
+        "target_1": 63800.22851562,
+        "target_2": 64587.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
