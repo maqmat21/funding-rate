@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T17:10:23.076246+00:00",
+    "generated_at_utc": "2026-08-15T17:32:31.112007+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
-    "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
+    "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-    "CEO Elon Musk Just Announced Great News for SpaceX Stock Investors",
-    "Warren Buffett has a stark message for stock market investors"
+    "Is Bitcoin a Buy at $63,000? We Asked 3 AI Models",
+    "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
+    "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63025.0,
-        "perp_last_price": 63025.0,
-        "mark_price": 63025.0,
-        "index_price": 63025.0,
+        "spot_price": 62996.80078125,
+        "perp_last_price": 62996.80078125,
+        "mark_price": 62996.80078125,
+        "index_price": 62996.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63021.46875,
+        "entry_ideal": 62996.80078125,
         "stop_loss_technical": 63120.7890625,
-        "target_1": 62872.48828125,
-        "target_2": 62723.5078125,
+        "target_1": 62810.81835938,
+        "target_2": 62624.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63025.0,
+        "entry_ideal": 62996.80078125,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63830.95117188,
-        "target_2": 64636.90234375,
+        "target_1": 63760.453125,
+        "target_2": 64524.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
