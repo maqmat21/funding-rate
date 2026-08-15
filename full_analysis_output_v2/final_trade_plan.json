@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T22:20:42.454728+00:00",
+    "generated_at_utc": "2026-08-15T22:43:15.434726+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,46 +25,48 @@
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
+    "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
     "Warren Buffett has a stark message for stock market investors",
     "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
-    "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-    "Buying Bonds Could Be the Single Most Important Investing Decision You Make for 10 Years"
+    "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63072.19140625,
-        "perp_last_price": 63072.19140625,
-        "mark_price": 63072.19140625,
-        "index_price": 63072.19140625,
+        "spot_price": 63085.6796875,
+        "perp_last_price": 63085.6796875,
+        "mark_price": 63085.6796875,
+        "index_price": 63085.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63072.1796875,
-        "stop_loss_technical": 63121.48828125,
-        "target_1": 62998.21679688,
-        "target_2": 62924.25390625,
+        "entry_ideal": 63085.6796875,
+        "stop_loss_technical": 62847.078125,
+        "target_1": 63443.58203125,
+        "target_2": 63801.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63072.19140625,
+        "entry_ideal": 63085.6796875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63948.9296875,
-        "target_2": 64825.66796875,
+        "target_1": 63982.65039062,
+        "target_2": 64879.62109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
