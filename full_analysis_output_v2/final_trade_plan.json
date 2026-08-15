@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T17:51:32.961541+00:00",
+    "generated_at_utc": "2026-08-15T18:10:49.213338+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,34 @@
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
     "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
     "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
+    "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
     "President Donald Trump Claims the Stock Market Will Double by the End of His Term, but History Says Otherwise",
-    "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
     "Warren Buffett has a stark message for stock market investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62996.03125,
-        "perp_last_price": 62996.03125,
-        "mark_price": 62996.03125,
-        "index_price": 62996.03125,
+        "spot_price": 63021.12890625,
+        "perp_last_price": 63021.12890625,
+        "mark_price": 63021.12890625,
+        "index_price": 63021.12890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62995.6484375,
-        "stop_loss_technical": 63120.7890625,
-        "target_1": 62807.9375,
-        "target_2": 62620.2265625,
+        "entry_ideal": 63022.3984375,
+        "stop_loss_technical": 62796.859375,
+        "target_1": 63360.70703125,
+        "target_2": 63699.015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 62996.03125,
+        "entry_ideal": 63021.12890625,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63758.52929688,
-        "target_2": 64521.02734375,
+        "target_1": 63821.2734375,
+        "target_2": 64621.41796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
