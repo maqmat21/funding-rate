@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T14:55:38.869270+00:00",
+    "generated_at_utc": "2026-08-16T15:10:03.477102+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,17 +27,17 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "3 Magnificent High-Yield Dividend Stocks to Buy That Are Near 52-Week Lows",
     "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
-    "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023"
+    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
+    "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63032.8515625,
-        "perp_last_price": 63032.8515625,
-        "mark_price": 63032.8515625,
-        "index_price": 63032.8515625,
+        "spot_price": 63042.5,
+        "perp_last_price": 63042.5,
+        "mark_price": 63042.5,
+        "index_price": 63042.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63032.8515625,
+        "entry_ideal": 63043.19140625,
         "stop_loss_technical": 62891.0703125,
-        "target_1": 63245.5234375,
-        "target_2": 63458.1953125,
+        "target_1": 63271.37304688,
+        "target_2": 63499.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63032.8515625,
+        "entry_ideal": 63042.5,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63850.58007812,
-        "target_2": 64668.30859375,
+        "target_1": 63874.70117188,
+        "target_2": 64706.90234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
