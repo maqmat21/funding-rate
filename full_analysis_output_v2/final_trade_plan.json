@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T23:30:44.725139+00:00",
+    "generated_at_utc": "2026-08-16T23:50:05.985441+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.592,
+        "price": 99.588,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Warren Buffett's Successor, Greg Abel, Pared Down Bank of America, and Piled Into a Virtual Monopoly That's Now Berkshire's 3rd-Largest Holding",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk Can't Sell SpaceX Stock Until June 2027 -- But 6 Billion More Shares Could Flood the Market Before Then",
+    "Warren Buffett's Successor, Greg Abel, Pared Down Bank of America, and Piled Into a Virtual Monopoly That's Now Berkshire's 3rd-Largest Holding",
     "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
-    "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Amazon, Alphabet, and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures: 1 Clear Winner Emerges"
+    "20 reasons why Wendy's may be doomed",
+    "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62768.609375,
-        "perp_last_price": 62768.609375,
-        "mark_price": 62768.609375,
-        "index_price": 62768.609375,
+        "spot_price": 62853.0,
+        "perp_last_price": 62853.0,
+        "mark_price": 62853.0,
+        "index_price": 62853.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62768.609375,
-        "stop_loss_technical": 63312.76953125,
-        "target_1": 61952.36914062,
-        "target_2": 61136.12890625,
+        "entry_ideal": 62854.23046875,
+        "stop_loss_technical": 62640.87890625,
+        "target_1": 63174.2578125,
+        "target_2": 63494.28515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62768.609375,
+        "entry_ideal": 62853.0,
         "stop_loss_technical": 64381.078125,
-        "target_1": 60349.90625,
-        "target_2": 57931.203125,
+        "target_1": 60560.8828125,
+        "target_2": 58268.765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
