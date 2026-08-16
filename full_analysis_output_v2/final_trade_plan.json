@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T19:42:31.958518+00:00",
+    "generated_at_utc": "2026-08-16T19:55:22.204805+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,47 +26,46 @@
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "History Says This Is What Will Happen to Nvidia Stock After Aug. 26",
     "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
-    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
     "Elon Musk Can't Sell SpaceX Stock Until June 2027 -- But 6 Billion More Shares Could Flood the Market Before Then",
-    "Buying Bonds Could Be the Single Most Important Investing Decision You Make for 10 Years"
+    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
+    "3 Magnificent High-Yield Dividend Stocks to Buy That Are Near 52-Week Lows"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63153.12890625,
-        "perp_last_price": 63153.12890625,
-        "mark_price": 63153.12890625,
-        "index_price": 63153.12890625,
+        "spot_price": 63053.4296875,
+        "perp_last_price": 63053.4296875,
+        "mark_price": 63053.4296875,
+        "index_price": 63053.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63153.12890625,
-        "stop_loss_technical": 62891.0703125,
-        "target_1": 63546.21679688,
-        "target_2": 63939.3046875,
+        "entry_ideal": 63053.3203125,
+        "stop_loss_technical": 63313.0,
+        "target_1": 62663.80078125,
+        "target_2": 62274.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63153.12890625,
+        "entry_ideal": 63053.4296875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 64151.2734375,
-        "target_2": 65149.41796875,
+        "target_1": 63902.02539062,
+        "target_2": 64750.62109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
