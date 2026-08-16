@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T12:14:20.241670+00:00",
+    "generated_at_utc": "2026-08-16T13:01:06.583301+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "3 Magnificent High-Yield Dividend Stocks to Buy That Are Near 52-Week Lows",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
     "‘Running out of money’: Kraft, McDonald’s, Whirlpool CEOs all flag same concern over US consumers — protect your wealth",
-    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
-    "This Dividend King Has Raised Its Payout for 64 Straight Years -- And It's Outperforming the \"Magnificent Seven\" This Year",
-    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock"
+    "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
+    "The Stock Market Is About To Do Something It's Never Done This Century. History Says This Is What Happens Next (Hint: It's Bullish)",
+    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62954.98046875,
-        "perp_last_price": 62954.98046875,
-        "mark_price": 62954.98046875,
-        "index_price": 62954.98046875,
+        "spot_price": 62948.0,
+        "perp_last_price": 62948.0,
+        "mark_price": 62948.0,
+        "index_price": 62948.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62954.98046875,
+        "entry_ideal": 62948.0,
         "stop_loss_technical": 62891.0703125,
-        "target_1": 63050.84570312,
-        "target_2": 63146.7109375,
+        "target_1": 63033.39453125,
+        "target_2": 63118.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62954.98046875,
+        "entry_ideal": 62948.0,
         "stop_loss_technical": 64381.078125,
-        "target_1": 60815.83398438,
-        "target_2": 58676.6875,
+        "target_1": 60798.3828125,
+        "target_2": 58648.765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
