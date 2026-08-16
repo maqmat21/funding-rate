@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T10:56:18.441357+00:00",
+    "generated_at_utc": "2026-08-16T11:11:12.075637+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-    "The L.A. Lakers Delivered a 1-Year Return of 25%. These ETFs Have Done Even Better.",
     "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
-    "If You've Saved This Much for Retirement by Age 50, You're Ahead of the Game"
+    "Elon Musk Said Tesla Short Sellers Would Be ‘Obliterated’ Even Bill Gates — Yet They’ve Made $9 Billion This Year Shorting the Stock",
+    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62936.28125,
-        "perp_last_price": 62936.28125,
-        "mark_price": 62936.28125,
-        "index_price": 62936.28125,
+        "spot_price": 62931.94921875,
+        "perp_last_price": 62931.94921875,
+        "mark_price": 62931.94921875,
+        "index_price": 62931.94921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 62936.28125,
-        "stop_loss_technical": 62891.0703125,
-        "target_1": 63004.09765625,
-        "target_2": 63071.9140625,
+        "entry_ideal": 62931.94921875,
+        "stop_loss_technical": 63107.33984375,
+        "target_1": 62668.86328125,
+        "target_2": 62405.77734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62936.28125,
+        "entry_ideal": 62931.94921875,
         "stop_loss_technical": 64381.078125,
-        "target_1": 60769.0859375,
-        "target_2": 58601.890625,
+        "target_1": 60758.25585938,
+        "target_2": 58584.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
