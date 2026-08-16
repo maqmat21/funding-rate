@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T06:53:50.185131+00:00",
+    "generated_at_utc": "2026-08-16T07:21:40.230415+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,34 @@
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
     "Elon Musk Said Tesla Short Sellers Would Be ‘Obliterated’ Even Bill Gates — Yet They’ve Made $9 Billion This Year Shorting the Stock",
-    "If You've Saved This Much for Retirement by Age 50, You're Ahead of the Game",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
-    "Could Investing $5,000 in SpaceX Help Make You a Millionaire?"
+    "Could Investing $5,000 in SpaceX Help Make You a Millionaire?",
+    "If You've Saved This Much for Retirement by Age 50, You're Ahead of the Game",
+    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63001.87890625,
-        "perp_last_price": 63001.87890625,
-        "mark_price": 63001.87890625,
-        "index_price": 63001.87890625,
+        "spot_price": 62997.62890625,
+        "perp_last_price": 62997.62890625,
+        "mark_price": 62997.62890625,
+        "index_price": 62997.62890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63001.890625,
+        "entry_ideal": 62997.62890625,
         "stop_loss_technical": 62875.96875,
-        "target_1": 63190.7734375,
-        "target_2": 63379.65625,
+        "target_1": 63180.11914062,
+        "target_2": 63362.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 63001.87890625,
+        "entry_ideal": 62997.62890625,
         "stop_loss_technical": 64381.078125,
-        "target_1": 60933.08007812,
-        "target_2": 58864.28125,
+        "target_1": 60922.45507812,
+        "target_2": 58847.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
