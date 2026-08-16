@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T11:50:57.613272+00:00",
+    "generated_at_utc": "2026-08-16T12:14:20.241670+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,50 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "This Dividend King Has Raised Its Payout for 64 Straight Years -- And It's Outperforming the \"Magnificent Seven\" This Year",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
-    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030"
+    "‘Running out of money’: Kraft, McDonald’s, Whirlpool CEOs all flag same concern over US consumers — protect your wealth",
+    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
+    "This Dividend King Has Raised Its Payout for 64 Straight Years -- And It's Outperforming the \"Magnificent Seven\" This Year",
+    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62908.96875,
-        "perp_last_price": 62908.96875,
-        "mark_price": 62908.96875,
-        "index_price": 62908.96875,
+        "spot_price": 62954.98046875,
+        "perp_last_price": 62954.98046875,
+        "mark_price": 62954.98046875,
+        "index_price": 62954.98046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62910.21875,
-        "stop_loss_technical": 63107.33984375,
-        "target_1": 62614.53710938,
-        "target_2": 62318.85546875,
+        "entry_ideal": 62954.98046875,
+        "stop_loss_technical": 62891.0703125,
+        "target_1": 63050.84570312,
+        "target_2": 63146.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 62908.96875,
+        "entry_ideal": 62954.98046875,
         "stop_loss_technical": 64381.078125,
-        "target_1": 60700.8046875,
-        "target_2": 58492.640625,
+        "target_1": 60815.83398438,
+        "target_2": 58676.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
