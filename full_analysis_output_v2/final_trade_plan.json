@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T04:24:29.466225+00:00",
+    "generated_at_utc": "2026-08-16T04:56:22.867876+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,11 +22,11 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "If You've Saved This Much for Retirement by Age 50, You're Ahead of the Game",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
+    "If You've Saved This Much for Retirement by Age 50, You're Ahead of the Game",
     "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Buying Bonds Could Be the Single Most Important Investing Decision You Make for 10 Years",
+    "Elon Musk Said Tesla Short Sellers Would Be ‘Obliterated’ Even Bill Gates — Yet They’ve Made $9 Billion This Year Shorting the Stock",
     "Could Investing $5,000 in SpaceX Help Make You a Millionaire?",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030"
   ],
@@ -34,39 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63080.578125,
-        "perp_last_price": 63080.578125,
-        "mark_price": 63080.578125,
-        "index_price": 63080.578125,
+        "spot_price": 63051.76171875,
+        "perp_last_price": 63051.76171875,
+        "mark_price": 63051.76171875,
+        "index_price": 63051.76171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63080.5703125,
-        "stop_loss_technical": 62847.078125,
-        "target_1": 63430.80859375,
-        "target_2": 63781.046875,
+        "entry_ideal": 63051.76171875,
+        "stop_loss_technical": 63107.33984375,
+        "target_1": 62968.39453125,
+        "target_2": 62885.02734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63080.578125,
+        "entry_ideal": 63051.76171875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63969.89648438,
-        "target_2": 64859.21484375,
+        "target_1": 63897.85546875,
+        "target_2": 64743.94921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
