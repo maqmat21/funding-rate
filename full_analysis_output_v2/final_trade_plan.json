@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T17:00:21.860599+00:00",
+    "generated_at_utc": "2026-08-16T17:19:55.235661+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Investing $500 a Month Into These 3 ETFs Could Retire You a Millionaire",
     "History Says This Is What Will Happen to Nvidia Stock After Aug. 26",
-    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
     "If You're 50 and Have More Than This Number in Your 401(k), You're Ahead of the Average",
+    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
+    "Meet the High-Yield Dividend King Wall Street Is Sleeping on. Here's Why It's a Buy in August.",
     "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63196.23828125,
-        "perp_last_price": 63196.23828125,
-        "mark_price": 63196.23828125,
-        "index_price": 63196.23828125,
+        "spot_price": 63139.48828125,
+        "perp_last_price": 63139.48828125,
+        "mark_price": 63139.48828125,
+        "index_price": 63139.48828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63196.23828125,
+        "entry_ideal": 63139.48828125,
         "stop_loss_technical": 63313.0,
-        "target_1": 63021.09570312,
-        "target_2": 62845.953125,
+        "target_1": 62879.22070312,
+        "target_2": 62618.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63196.23828125,
+        "entry_ideal": 63139.48828125,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 64259.046875,
-        "target_2": 65321.85546875,
+        "target_1": 64117.171875,
+        "target_2": 65094.85546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
