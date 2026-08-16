@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T22:39:34.880761+00:00",
+    "generated_at_utc": "2026-08-16T22:54:12.278282+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.635,
+        "price": 99.617,
         "trend": "bajista"
       },
       "US10Y": {
@@ -26,33 +26,32 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk Can't Sell SpaceX Stock Until June 2027 -- But 6 Billion More Shares Could Flood the Market Before Then",
     "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
-    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
     "History Says This Is What Will Happen to Nvidia Stock After Aug. 26",
-    "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next."
+    "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
+    "20 reasons why Wendy's may be doomed"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62681.7890625,
-        "perp_last_price": 62681.7890625,
-        "mark_price": 62681.7890625,
-        "index_price": 62681.7890625,
+        "spot_price": 62753.44140625,
+        "perp_last_price": 62753.44140625,
+        "mark_price": 62753.44140625,
+        "index_price": 62753.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62675.01953125,
-        "stop_loss_technical": 63313.0,
-        "target_1": 61718.04882812,
-        "target_2": 60761.078125,
+        "entry_ideal": 62753.44140625,
+        "stop_loss_technical": 62640.87890625,
+        "target_1": 62922.28515625,
+        "target_2": 63091.12890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 62681.7890625,
+        "entry_ideal": 62753.44140625,
         "stop_loss_technical": 64381.078125,
-        "target_1": 60132.85546875,
-        "target_2": 57583.921875,
+        "target_1": 60311.98632812,
+        "target_2": 57870.53125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
