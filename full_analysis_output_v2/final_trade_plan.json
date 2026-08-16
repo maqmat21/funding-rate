@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T13:38:39.233342+00:00",
+    "generated_at_utc": "2026-08-16T13:56:20.872631+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "There's No Denying Altria Group Has a High Yield, But This Stock Could Be an Even Better Buy for Dividend Investors Looking for Reliable Passive Income",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "3 Magnificent High-Yield Dividend Stocks to Buy That Are Near 52-Week Lows",
+    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "‘Running out of money’: Kraft, McDonald’s, Whirlpool CEOs all flag same concern over US consumers — protect your wealth",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls",
-    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It."
+    "‘Running out of money’: Kraft, McDonald’s, Whirlpool CEOs all flag same concern over US consumers — protect your wealth"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62985.26953125,
-        "perp_last_price": 62985.26953125,
-        "mark_price": 62985.26953125,
-        "index_price": 62985.26953125,
+        "spot_price": 62998.359375,
+        "perp_last_price": 62998.359375,
+        "mark_price": 62998.359375,
+        "index_price": 62998.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 62985.26953125,
-        "stop_loss_technical": 62040.49048828,
-        "target_1": 64402.4380957,
-        "target_2": 65819.60666016,
+        "entry_ideal": 62998.359375,
+        "stop_loss_technical": 62891.0703125,
+        "target_1": 63159.29296875,
+        "target_2": 63320.2265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62985.26953125,
-        "stop_loss_technical": 64381.078125,
-        "target_1": 60891.55664062,
-        "target_2": 58797.84375,
+        "entry_ideal": 62998.359375,
+        "stop_loss_technical": 62487.69921875,
+        "target_1": 63764.34960938,
+        "target_2": 64530.33984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
