@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-15T23:50:47.466358+00:00",
+    "generated_at_utc": "2026-08-16T00:33:46.242821+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
-    "Elon Musk's 100M-sq-ft Terafab rises in Grimes County as neighbors struggle to sell their land",
     "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
-    "Owning a home is overrated. Renting is now often a much better money move.",
     "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-    "Elon Musk Says SpaceX Has a Massive Competitive Advantage in AI That Amazon, Google, and Microsoft Can't Touch"
+    "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
+    "Greg Abel Just Plowed $4.2 Billion Into Warren Buffett's All-Time Favorite Stock",
+    "SpaceX Stock Is Down 33% From Its High. Elon Musk Expects Revenue to Rise 53-Fold to $1 Trillion by 2030.",
+    "Buying Bonds Could Be the Single Most Important Investing Decision You Make for 10 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63029.578125,
-        "perp_last_price": 63029.578125,
-        "mark_price": 63029.578125,
-        "index_price": 63029.578125,
+        "spot_price": 62993.44140625,
+        "perp_last_price": 62993.44140625,
+        "mark_price": 62993.44140625,
+        "index_price": 62993.44140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63029.578125,
+        "entry_ideal": 62993.44140625,
         "stop_loss_technical": 63107.33984375,
-        "target_1": 62912.93554688,
-        "target_2": 62796.29296875,
+        "target_1": 62822.59375,
+        "target_2": 62651.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 63029.578125,
-        "stop_loss_technical": 62487.69921875,
-        "target_1": 63842.39648438,
-        "target_2": 64655.21484375,
+        "entry_ideal": 62993.44140625,
+        "stop_loss_technical": 64381.078125,
+        "target_1": 60911.98632812,
+        "target_2": 58830.53125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
