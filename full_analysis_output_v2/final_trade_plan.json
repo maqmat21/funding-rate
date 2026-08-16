@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T18:47:01.929528+00:00",
+    "generated_at_utc": "2026-08-16T19:04:05.820368+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,38 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63072.75,
-        "perp_last_price": 63072.75,
-        "mark_price": 63072.75,
-        "index_price": 63072.75,
+        "spot_price": 63083.6484375,
+        "perp_last_price": 63083.6484375,
+        "mark_price": 63083.6484375,
+        "index_price": 63083.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 63077.98828125,
-        "stop_loss_technical": 63312.76953125,
-        "target_1": 62725.81640625,
-        "target_2": 62373.64453125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 63072.75,
+        "entry_ideal": 63083.6484375,
+        "stop_loss_technical": 62891.0703125,
+        "target_1": 63372.515625,
+        "target_2": 63661.3828125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 63083.6484375,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 63950.32617188,
-        "target_2": 64827.90234375,
+        "target_1": 63977.57226562,
+        "target_2": 64871.49609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
