@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T16:12:57.789555+00:00",
+    "generated_at_utc": "2026-08-17T16:45:37.224466+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.5,
+        "price": 99.496,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.708,
+        "price": 4.706,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 48m",
+    "U.S. markets close in 3h 15m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Ice cream brand sold in stores nationwide files for bankruptcy",
-    "'We'll bomb the s*** out of them': Trump threatens Oman as it reportedly moves toward a deal with Iran",
-    "SpaceX's biggest investors are finally visible — just as millions more shares unlock: Chart of the Day",
+    "Elon Musk Is $142 Billion Short Of A $1 Trillion Net Worth",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Peter Schiff Warns US Debt Could Hit $40 Trillion by August End or 'Sooner:' 'Fed Will Crank Up the…'"
+    "Ice cream brand sold in stores nationwide files for bankruptcy",
+    "SpaceX's biggest investors are finally visible — just as millions more shares unlock: Chart of the Day",
+    "SpaceX stock volatility: What to do next if you own shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64049.58984375,
-        "perp_last_price": 64049.58984375,
-        "mark_price": 64049.58984375,
-        "index_price": 64049.58984375,
+        "spot_price": 64029.4609375,
+        "perp_last_price": 64029.4609375,
+        "mark_price": 64029.4609375,
+        "index_price": 64029.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64049.58984375,
-        "stop_loss_technical": 62642.609375,
-        "target_1": 66160.06054688,
-        "target_2": 68270.53125,
+        "entry_ideal": 64029.4609375,
+        "stop_loss_technical": 64174.30078125,
+        "target_1": 63812.20117188,
+        "target_2": 63594.94140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64049.58984375,
+        "entry_ideal": 64029.4609375,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 66392.42578125,
-        "target_2": 68735.26171875,
+        "target_1": 66342.10351562,
+        "target_2": 68654.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
