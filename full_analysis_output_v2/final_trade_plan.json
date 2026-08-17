@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T23:00:39.826832+00:00",
+    "generated_at_utc": "2026-08-17T23:31:24.313374+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "L3Harris ousts CEO Kubasik over conduct violation",
-    "Intel Costs 62 Times Next Year's Earnings. It Lost $11 Billion Over the Past Year.",
+    "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
+    "1 Cash-Producing Stock with Impressive Fundamentals and 2 We Turn Down",
     "The Lake Lot They Bought for $18,000 and Never Built On Sold in a Week. Medicare’s Bill Arrived Two Years Later.",
-    "Major retail meat company closes plants, lays off over 3,200",
-    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings"
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
+    "Silver price predictions: What can investors expect over the next 10 years?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64231.66015625,
-        "perp_last_price": 64231.66015625,
-        "mark_price": 64231.66015625,
-        "index_price": 64231.66015625,
+        "spot_price": 64441.7890625,
+        "perp_last_price": 64441.7890625,
+        "mark_price": 64441.7890625,
+        "index_price": 64441.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64231.66015625,
-        "stop_loss_technical": 64558.5,
-        "target_1": 63741.40039062,
-        "target_2": 63251.140625,
+        "entry_ideal": 64441.7890625,
+        "stop_loss_technical": 63475.16222656,
+        "target_1": 65891.72931641,
+        "target_2": 67341.66957031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64231.66015625,
-        "stop_loss_technical": 63268.18525391,
-        "target_1": 65676.87250977,
-        "target_2": 67122.08486328,
+        "entry_ideal": 64441.7890625,
+        "stop_loss_technical": 63475.16222656,
+        "target_1": 65891.72931641,
+        "target_2": 67341.66957031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
