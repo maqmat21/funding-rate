@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T16:45:37.224466+00:00",
+    "generated_at_utc": "2026-08-17T17:04:09.069216+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.496,
+        "price": 99.5,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.706,
+        "price": 4.71,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 15m",
+    "U.S. markets close in 2h 57m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Elon Musk Is $142 Billion Short Of A $1 Trillion Net Worth",
+    "Should You Buy Rocket Lab Stock While It's Under $90?",
+    "Carvana flourishes as used-car inventory grows",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Ice cream brand sold in stores nationwide files for bankruptcy",
-    "SpaceX's biggest investors are finally visible — just as millions more shares unlock: Chart of the Day",
-    "SpaceX stock volatility: What to do next if you own shares"
+    "GE Vernova's Wind Business Just Fell 40%. Nobody's Talking About It Because of the Gas Turbine Boom.",
+    "Billionaires Stanley Druckenmiller, Seth Klarman, and David Tepper All Are Loading into Alphabet Stock. Buffett’s Berkshire Is Also Buying."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64029.4609375,
-        "perp_last_price": 64029.4609375,
-        "mark_price": 64029.4609375,
-        "index_price": 64029.4609375,
+        "spot_price": 64053.94140625,
+        "perp_last_price": 64053.94140625,
+        "mark_price": 64053.94140625,
+        "index_price": 64053.94140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64029.4609375,
+        "entry_ideal": 64046.41015625,
         "stop_loss_technical": 64174.30078125,
-        "target_1": 63812.20117188,
-        "target_2": 63594.94140625,
+        "target_1": 63854.57421875,
+        "target_2": 63662.73828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64029.4609375,
+        "entry_ideal": 64053.94140625,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 66342.10351562,
-        "target_2": 68654.74609375,
+        "target_1": 66403.3046875,
+        "target_2": 68752.66796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
