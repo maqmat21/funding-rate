@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T09:32:15.173358+00:00",
+    "generated_at_utc": "2026-08-17T10:06:54.335602+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.41,
+        "price": 99.419,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 58m",
+    "U.S. markets open in 3h 24m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
     "Alphabet's Reported $112 Billion Profit Included a $94 Billion Paper Gain From SpaceX. Here's What the Company Actually Earned.",
-    "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
+    "Billionaire Stanley Druckenmiller Dumped Micron and Intel, and More Than 11X'd Duquesne Family Office's Stake in an AI Pioneer",
     "Michael Burry Says ‘You Could Have Heard It First’ — As Big Tech’s $3T AI Spending Risk Comes Into Focus",
-    "Wall Street Says the Stock Market's Return Will Crush the Long-Term Average in the Next Year"
+    "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63277.2890625,
-        "perp_last_price": 63277.2890625,
-        "mark_price": 63277.2890625,
-        "index_price": 63277.2890625,
+        "spot_price": 63254.05859375,
+        "perp_last_price": 63254.05859375,
+        "mark_price": 63254.05859375,
+        "index_price": 63254.05859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63277.2890625,
-        "stop_loss_technical": 63653.3515625,
-        "target_1": 62713.1953125,
-        "target_2": 62149.1015625,
+        "entry_ideal": 63254.05859375,
+        "stop_loss_technical": 63653.421875,
+        "target_1": 62655.01367188,
+        "target_2": 62055.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63277.2890625,
+        "entry_ideal": 63254.05859375,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 64461.67382812,
-        "target_2": 65646.05859375,
+        "target_1": 64403.59765625,
+        "target_2": 65553.13671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
