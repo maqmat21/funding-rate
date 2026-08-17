@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T08:56:54.189183+00:00",
+    "generated_at_utc": "2026-08-17T09:32:15.173358+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.365,
+        "price": 99.41,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 34m",
+    "U.S. markets open in 3h 58m",
     "News from the Yahoo Finance Network",
-    "Alphabet's Reported $112 Billion Profit Included a $94 Billion Paper Gain From SpaceX. Here's What the Company Actually Earned.",
-    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
+    "Alphabet's Reported $112 Billion Profit Included a $94 Billion Paper Gain From SpaceX. Here's What the Company Actually Earned.",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "Michael Burry Says ‘You Could Have Heard It First’ — As Big Tech’s $3T AI Spending Risk Comes Into Focus",
-    "Micron Stock Inches Closer to $1,000 Per Share, but Time Is Running Out for a Stock Split in 2026"
+    "Wall Street Says the Stock Market's Return Will Crush the Long-Term Average in the Next Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63335.0,
-        "perp_last_price": 63335.0,
-        "mark_price": 63335.0,
-        "index_price": 63335.0,
+        "spot_price": 63277.2890625,
+        "perp_last_price": 63277.2890625,
+        "mark_price": 63277.2890625,
+        "index_price": 63277.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63336.9296875,
-        "stop_loss_technical": 62640.87890625,
-        "target_1": 64381.00585938,
-        "target_2": 65425.08203125,
+        "entry_ideal": 63277.2890625,
+        "stop_loss_technical": 63653.3515625,
+        "target_1": 62713.1953125,
+        "target_2": 62149.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63335.0,
+        "entry_ideal": 63277.2890625,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 64605.95117188,
-        "target_2": 65876.90234375,
+        "target_1": 64461.67382812,
+        "target_2": 65646.05859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
