@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T19:09:12.067132+00:00",
+    "generated_at_utc": "2026-08-17T19:36:34.130620+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,11 +11,11 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.637,
+        "price": 99.585,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.726,
+        "price": 4.724,
         "trend": "alcista"
       }
     }
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Berkshire Hathaway Boosted Its Alphabet Stake 83%—Buffett Said the Investment Was His Idea",
-    "Trump Administration Moves to Restore Felons’ Gun Rights",
+    "Securities Lawsuits Over Revenue Disclosures Could Be A Game Changer For Photronics (PLAB)",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Nike's stock plunge is relentless",
-    "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-    "AXT Inc. (AXTI) Soars 19.8% on Looming Indium Phosphide Price Hike"
+    "Jefferies lifts Magnum price target but warns hot summer sets a trap for 2027",
+    "Silver price predictions: What can investors expect over the next 10 years?",
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
+    "SpaceX stock volatility: What to do next if you own shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64353.30859375,
-        "perp_last_price": 64353.30859375,
-        "mark_price": 64353.30859375,
-        "index_price": 64353.30859375,
+        "spot_price": 64297.921875,
+        "perp_last_price": 64297.921875,
+        "mark_price": 64297.921875,
+        "index_price": 64297.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64353.30859375,
-        "stop_loss_technical": 64558.5,
-        "target_1": 64045.52148438,
-        "target_2": 63737.734375,
+        "entry_ideal": 64297.921875,
+        "stop_loss_technical": 64562.1796875,
+        "target_1": 63901.53515625,
+        "target_2": 63505.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64353.30859375,
-        "stop_loss_technical": 63388.00896484,
-        "target_1": 65801.25803711,
-        "target_2": 67249.20748047,
+        "entry_ideal": 64297.921875,
+        "stop_loss_technical": 63333.45304688,
+        "target_1": 65744.62511719,
+        "target_2": 67191.32835937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
