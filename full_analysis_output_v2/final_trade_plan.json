@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-16T23:59:08.783036+00:00",
+    "generated_at_utc": "2026-08-17T01:07:19.788667+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.577,
+        "price": 99.533,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk Can't Sell SpaceX Stock Until June 2027 -- But 6 Billion More Shares Could Flood the Market Before Then",
-    "Warren Buffett's Successor, Greg Abel, Pared Down Bank of America, and Piled Into a Virtual Monopoly That's Now Berkshire's 3rd-Largest Holding",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
+    "These 2 Potential Stock Splits Look Like Screaming Deals Right Now",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "20 reasons why Wendy's may be doomed",
-    "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?"
+    "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
+    "Trump’s grand plan to put American workers first may be backfiring as U.S.-born unemployment rises and wage growth stalls"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 62816.55859375,
-        "perp_last_price": 62816.55859375,
-        "mark_price": 62816.55859375,
-        "index_price": 62816.55859375,
+        "spot_price": 63056.2109375,
+        "perp_last_price": 63056.2109375,
+        "mark_price": 63056.2109375,
+        "index_price": 63056.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 62816.55859375,
-        "stop_loss_technical": 63312.76953125,
-        "target_1": 62072.2421875,
-        "target_2": 61327.92578125,
+        "entry_ideal": 63056.2109375,
+        "stop_loss_technical": 62681.37890625,
+        "target_1": 63618.45898438,
+        "target_2": 64180.70703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 62816.55859375,
-        "stop_loss_technical": 64381.078125,
-        "target_1": 60469.77929688,
-        "target_2": 58123.0,
+        "entry_ideal": 63056.2109375,
+        "stop_loss_technical": 62487.69921875,
+        "target_1": 63908.97851562,
+        "target_2": 64761.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
