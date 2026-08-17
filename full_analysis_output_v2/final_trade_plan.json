@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T18:34:33.812781+00:00",
+    "generated_at_utc": "2026-08-17T19:09:12.067132+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.608,
+        "price": 99.637,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.728,
+        "price": 4.726,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 27m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Nike's stock plunge is relentless",
+    "Berkshire Hathaway Boosted Its Alphabet Stake 83%—Buffett Said the Investment Was His Idea",
+    "Trump Administration Moves to Restore Felons’ Gun Rights",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
+    "Nike's stock plunge is relentless",
     "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-    "Silver price predictions: What can investors expect over the next 10 years?",
-    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings"
+    "AXT Inc. (AXTI) Soars 19.8% on Looming Indium Phosphide Price Hike"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64360.8203125,
-        "perp_last_price": 64360.8203125,
-        "mark_price": 64360.8203125,
-        "index_price": 64360.8203125,
+        "spot_price": 64353.30859375,
+        "perp_last_price": 64353.30859375,
+        "mark_price": 64353.30859375,
+        "index_price": 64353.30859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64357.6015625,
-        "stop_loss_technical": 63392.23753906,
-        "target_1": 65805.64759766,
-        "target_2": 67253.69363281,
+        "entry_ideal": 64353.30859375,
+        "stop_loss_technical": 64558.5,
+        "target_1": 64045.52148438,
+        "target_2": 63737.734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64360.8203125,
-        "stop_loss_technical": 63395.40800781,
-        "target_1": 65808.93876953,
-        "target_2": 67257.05722656,
+        "entry_ideal": 64353.30859375,
+        "stop_loss_technical": 63388.00896484,
+        "target_1": 65801.25803711,
+        "target_2": 67249.20748047,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
