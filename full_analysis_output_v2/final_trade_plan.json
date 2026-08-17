@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T20:12:39.664240+00:00",
+    "generated_at_utc": "2026-08-17T20:44:18.322498+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.58,
+        "price": 99.591,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Howard Lutnick Says Trump's Auto Tariffs Are Bringing Thousands of Jobs Into the US: 'Ford Is Going To Rock…'",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Popular Ice Cream Brand Sold at Walmart Files for Bankruptcy",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Tupac Shakur’s Murder Trial: What to Know About the Man Charged in the Shooting",
-    "SanDisk’s Analyst Day Just Strengthened Micron’s $1,550 Bull Case",
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
+    "The Lake Lot They Bought for $18,000 and Never Built On Sold in a Week. Medicare’s Bill Arrived Two Years Later.",
     "Silver price predictions: What can investors expect over the next 10 years?",
-    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings"
+    "SpaceX stock volatility: What to do next if you own shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64252.73828125,
-        "perp_last_price": 64252.73828125,
-        "mark_price": 64252.73828125,
-        "index_price": 64252.73828125,
+        "spot_price": 64345.37890625,
+        "perp_last_price": 64345.37890625,
+        "mark_price": 64345.37890625,
+        "index_price": 64345.37890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64252.73828125,
-        "stop_loss_technical": 64558.5,
-        "target_1": 63794.09570312,
-        "target_2": 63335.453125,
+        "entry_ideal": 64345.37890625,
+        "stop_loss_technical": 63380.19822266,
+        "target_1": 65793.14993164,
+        "target_2": 67240.92095703,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64252.73828125,
-        "stop_loss_technical": 63288.94720703,
-        "target_1": 65698.42489258,
-        "target_2": 67144.11150391,
+        "entry_ideal": 64345.37890625,
+        "stop_loss_technical": 63380.19822266,
+        "target_1": 65793.14993164,
+        "target_2": 67240.92095703,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
