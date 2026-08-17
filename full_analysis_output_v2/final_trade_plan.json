@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T21:03:05.164325+00:00",
+    "generated_at_utc": "2026-08-17T21:34:35.363249+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.587,
+        "price": 99.576,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "U.S. strategic reserves are getting so low it threatens damaging the 60 underground salt caverns storing American oil",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Energy Dominance Requires Commitments That Last",
     "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
     "Silver price predictions: What can investors expect over the next 10 years?",
-    "SpaceX stock volatility: What to do next if you own shares"
+    "SpaceX stock volatility: What to do next if you own shares",
+    "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
+    "The Lake Lot They Bought for $18,000 and Never Built On Sold in a Week. Medicare’s Bill Arrived Two Years Later."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64357.640625,
-        "perp_last_price": 64357.640625,
-        "mark_price": 64357.640625,
-        "index_price": 64357.640625,
+        "spot_price": 64297.8203125,
+        "perp_last_price": 64297.8203125,
+        "mark_price": 64297.8203125,
+        "index_price": 64297.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64358.91015625,
-        "stop_loss_technical": 63393.52650391,
-        "target_1": 65806.98563477,
-        "target_2": 67255.06111328,
+        "entry_ideal": 64297.8203125,
+        "stop_loss_technical": 64562.1796875,
+        "target_1": 63901.28125,
+        "target_2": 63504.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64357.640625,
-        "stop_loss_technical": 63392.27601563,
-        "target_1": 65805.68753906,
-        "target_2": 67253.73445312,
+        "entry_ideal": 64297.8203125,
+        "stop_loss_technical": 63333.35300781,
+        "target_1": 65744.52126953,
+        "target_2": 67191.22222656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
