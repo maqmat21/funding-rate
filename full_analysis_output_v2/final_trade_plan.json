@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T11:53:37.964001+00:00",
+    "generated_at_utc": "2026-08-17T12:17:54.569364+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.485,
+        "price": 99.44,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,37 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 37m",
+    "U.S. markets open in 1h 13m",
     "News from the Yahoo Finance Network",
-    "68-Year-Old Discovers Roth Conversion Just Erased the New $6,000 Senior Deduction",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Health insurers are dropping Medicare Advantage plans — and nearly 3 million older Americans will be affected",
+    "I've More Than Tripled My Stake in This Historically Cheap, High-Octane Dividend Stock That's Yielding 13.2%",
+    "Elon Musk Just Uttered 3 Massively Bullish Words for Micron, Sandisk, and SK Hynix",
+    "The Lake Lot They Bought for $18,000 and Never Built On Sold in a Week. Medicare’s Bill Arrived Two Years Later.",
     "Billionaire founder agrees with Elon Musk, Sam Altman and Jeff Bezos: We will live and work in space—and could be commuting to the moon by 2030",
-    "Elon Musk’s SpaceX Holdings Revealed. (Hint: It’s A Lot.)",
-    "Hydrogen failed as car fuel. Now California's big dollar bet on it for green energy is fading, too"
+    "Faraday Future posts record Q2 revenue as debt falls by more than $100 million"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63593.96875,
-        "perp_last_price": 63593.96875,
-        "mark_price": 63593.96875,
-        "index_price": 63593.96875,
+        "spot_price": 63544.19140625,
+        "perp_last_price": 63544.19140625,
+        "mark_price": 63544.19140625,
+        "index_price": 63544.19140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63590.73828125,
-        "stop_loss_technical": 63713.2109375,
-        "target_1": 63407.02929688,
-        "target_2": 63223.3203125,
+        "entry_ideal": 63544.19140625,
+        "stop_loss_technical": 63715.8984375,
+        "target_1": 63286.63085938,
+        "target_2": 63029.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63593.96875,
+        "entry_ideal": 63544.19140625,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 65253.37304688,
-        "target_2": 66912.77734375,
+        "target_1": 65128.9296875,
+        "target_2": 66713.66796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
