@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T17:04:09.069216+00:00",
+    "generated_at_utc": "2026-08-17T17:36:51.507483+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.5,
-        "trend": "bajista"
+        "price": 99.543,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.71,
+        "price": 4.716,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 57m",
+    "U.S. markets close in 2h 24m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Should You Buy Rocket Lab Stock While It's Under $90?",
-    "Carvana flourishes as used-car inventory grows",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "GE Vernova's Wind Business Just Fell 40%. Nobody's Talking About It Because of the Gas Turbine Boom.",
-    "Billionaires Stanley Druckenmiller, Seth Klarman, and David Tepper All Are Loading into Alphabet Stock. Buffett’s Berkshire Is Also Buying."
+    "Ice cream brand sold in stores nationwide files for bankruptcy",
+    "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
+    "Silver price predictions: What can investors expect over the next 10 years?",
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64053.94140625,
-        "perp_last_price": 64053.94140625,
-        "mark_price": 64053.94140625,
-        "index_price": 64053.94140625,
+        "spot_price": 64074.19921875,
+        "perp_last_price": 64074.19921875,
+        "mark_price": 64074.19921875,
+        "index_price": 64074.19921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64046.41015625,
-        "stop_loss_technical": 64174.30078125,
-        "target_1": 63854.57421875,
-        "target_2": 63662.73828125,
+        "entry_ideal": 64077.5390625,
+        "stop_loss_technical": 64379.98828125,
+        "target_1": 63623.86523438,
+        "target_2": 63170.19140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64053.94140625,
-        "stop_loss_technical": 62487.69921875,
-        "target_1": 66403.3046875,
-        "target_2": 68752.66796875,
+        "entry_ideal": 64074.19921875,
+        "stop_loss_technical": 63113.08623047,
+        "target_1": 65515.86870117,
+        "target_2": 66957.53818359,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
