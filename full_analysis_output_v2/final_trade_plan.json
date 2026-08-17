@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T14:45:14.864388+00:00",
+    "generated_at_utc": "2026-08-17T15:01:57.721040+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.451,
+        "price": 99.471,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.698,
+        "price": 4.696,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 16m",
+    "U.S. markets close in 4h 59m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Corning’s Tariff Immunity Comes Down to One Strategic Choice, CEO Says",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Harvard reveals $2.2 billion SpaceX holding worth more than half its U.S. equity portfolio",
-    "Boeing Stock Falls After U.S. Army Grounds Apache Helicopters",
-    "Stellantis weighs closure of Brampton plant in Canada, says Unifor",
-    "SpaceX stock volatility: What to do next if you own shares"
+    "After Comparing Every Dividend Growth ETF, These 3 Give You a Raise Every Year Without Giving Up Growth",
+    "SpaceX stock volatility: What to do next if you own shares",
+    "Home Depot (HD) Stock Looks Fairly Valued After CEO Medical Leave"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63558.8515625,
-        "perp_last_price": 63558.8515625,
-        "mark_price": 63558.8515625,
-        "index_price": 63558.8515625,
+        "spot_price": 63854.6796875,
+        "perp_last_price": 63854.6796875,
+        "mark_price": 63854.6796875,
+        "index_price": 63854.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63558.8515625,
-        "stop_loss_technical": 63729.859375,
-        "target_1": 63302.33984375,
-        "target_2": 63045.828125,
+        "entry_ideal": 63854.6796875,
+        "stop_loss_technical": 62640.87890625,
+        "target_1": 65675.38085938,
+        "target_2": 67496.08203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63558.8515625,
+        "entry_ideal": 63854.6796875,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 65165.58007812,
-        "target_2": 66772.30859375,
+        "target_1": 65905.15039062,
+        "target_2": 67955.62109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
