@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T10:06:54.335602+00:00",
+    "generated_at_utc": "2026-08-17T10:43:56.540092+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.419,
+        "price": 99.442,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,51 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 24m",
+    "U.S. markets open in 2h 47m",
     "News from the Yahoo Finance Network",
+    "Americans could soon pay a lot more for strawberries",
+    "How Much Do You Really Need Invested to Replace a $75,000 Salary With Dividends?",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
-    "Alphabet's Reported $112 Billion Profit Included a $94 Billion Paper Gain From SpaceX. Here's What the Company Actually Earned.",
-    "Billionaire Stanley Druckenmiller Dumped Micron and Intel, and More Than 11X'd Duquesne Family Office's Stake in an AI Pioneer",
-    "Michael Burry Says ‘You Could Have Heard It First’ — As Big Tech’s $3T AI Spending Risk Comes Into Focus",
-    "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next."
+    "Billionaire founder agrees with Elon Musk, Sam Altman and Jeff Bezos: We will live and work in space—and could be commuting to the moon by 2030",
+    "Elon Musk Just Uttered 3 Massively Bullish Words for Micron, Sandisk, and SK Hynix",
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63254.05859375,
-        "perp_last_price": 63254.05859375,
-        "mark_price": 63254.05859375,
-        "index_price": 63254.05859375,
+        "spot_price": 63494.0,
+        "perp_last_price": 63494.0,
+        "mark_price": 63494.0,
+        "index_price": 63494.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63254.05859375,
-        "stop_loss_technical": 63653.421875,
-        "target_1": 62655.01367188,
-        "target_2": 62055.96875,
+        "entry_ideal": 63494.0,
+        "stop_loss_technical": 62640.87890625,
+        "target_1": 64773.68164062,
+        "target_2": 66053.36328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63254.05859375,
+        "entry_ideal": 63494.0,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 64403.59765625,
-        "target_2": 65553.13671875,
+        "target_1": 65003.45117188,
+        "target_2": 66512.90234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
