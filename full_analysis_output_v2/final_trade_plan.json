@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T13:08:35.933279+00:00",
+    "generated_at_utc": "2026-08-17T13:49:55.807012+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.44,
+        "price": 99.449,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.716,
+        "price": 4.708,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 6h 11m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Billionaire founder agrees with Elon Musk, Sam Altman and Jeff Bezos: We will live and work in space—and could be commuting to the moon by 2030",
+    "SpaceX bulls would be wise to remember one thing",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
     "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
-    "Social Security's Trump Bump-Driven 2027 COLA May Lead to a Silver Lining for the First Time Since 2023",
-    "Retirees Can Move $210,000 From an IRA Into a QLAC and Delay RMDs on That Money Until 85. Almost Nobody Has Heard of It.",
-    "Why the 'immaculate' stock market might not stay that way long"
+    "Trump Accounts just added another perk for working parents",
+    "Meet the High-Yield Dividend King Wall Street Is Sleeping on. Here's Why It's a Buy in August."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63468.3203125,
-        "perp_last_price": 63468.3203125,
-        "mark_price": 63468.3203125,
-        "index_price": 63468.3203125,
+        "spot_price": 63646.2890625,
+        "perp_last_price": 63646.2890625,
+        "mark_price": 63646.2890625,
+        "index_price": 63646.2890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63469.578125,
-        "stop_loss_technical": 63715.8984375,
-        "target_1": 63100.09765625,
-        "target_2": 62730.6171875,
+        "entry_ideal": 63646.28125,
+        "stop_loss_technical": 62640.87890625,
+        "target_1": 65154.38476562,
+        "target_2": 66662.48828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 63468.3203125,
+        "entry_ideal": 63646.2890625,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 64939.25195312,
-        "target_2": 66410.18359375,
+        "target_1": 65384.17382812,
+        "target_2": 67122.05859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
