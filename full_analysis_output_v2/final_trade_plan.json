@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T07:54:04.888595+00:00",
+    "generated_at_utc": "2026-08-18T08:20:52.065664+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.631,
+        "price": 99.666,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 37m",
+    "U.S. markets open in 5h 10m",
     "News from the Yahoo Finance Network",
     "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
     "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
-    "4 (More) Dividend ETFs Worth Holding for the Long Haul",
     "5-star analyst sets alarming SpaceX stock price target",
-    "Is L3Harris’ CEO Ouster And Governance Stance Altering The Investment Case For L3Harris Technologies (LHX)?",
-    "2 Dividend Stocks That Are No-Brainer Buys in August"
+    "4 (More) Dividend ETFs Worth Holding for the Long Haul",
+    "Ex-Tesla President Says Roadster Reveal Is A ‘Not-So-Hidden Attempt’ To Knit Tesla And SpaceX Together",
+    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64115.421875,
-        "perp_last_price": 64115.421875,
-        "mark_price": 64115.421875,
-        "index_price": 64115.421875,
+        "spot_price": 64175.33984375,
+        "perp_last_price": 64175.33984375,
+        "mark_price": 64175.33984375,
+        "index_price": 64175.33984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64115.421875,
-        "stop_loss_technical": 64558.5,
-        "target_1": 63450.8046875,
-        "target_2": 62786.1875,
+        "entry_ideal": 64175.33984375,
+        "stop_loss_technical": 63212.70974609,
+        "target_1": 65619.28499023,
+        "target_2": 67063.23013672,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64115.421875,
-        "stop_loss_technical": 63153.69054687,
-        "target_1": 65558.01886719,
-        "target_2": 67000.61585938,
+        "entry_ideal": 64175.33984375,
+        "stop_loss_technical": 63212.70974609,
+        "target_1": 65619.28499023,
+        "target_2": 67063.23013672,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
