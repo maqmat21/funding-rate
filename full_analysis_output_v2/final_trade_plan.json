@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-17T23:51:43.988768+00:00",
+    "generated_at_utc": "2026-08-18T00:31:25.784358+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.581,
+        "price": 99.551,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Billionaire Jeff Bezos Says He Didn’t Put All His Eggs in His ‘Space Basket’ and Still Is Very Involved in Amazon —‘I’ve Actually Never Worked Harder’",
     "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
-    "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "‘Hun, I Think We Have a Problem and It’s You’ — Dave Ramsey Tells Man, 72, With $0 in Retirement to Cut Off His Wife’s Money Access if She Overspends",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "Nursing Homes Run $9,000 a Month. A Federal Rule Called “Spousal Impoverishment Protection” Lets the At-Home Spouse Keep the House, the Car, and Six Figures of Savings",
-    "Silver price predictions: What can investors expect over the next 10 years?",
+    "Billionaire Masayoshi Son  Put 66% of His $18 Billion US Portfolio Into 1 Stock",
     "SpaceX stock volatility: What to do next if you own shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64452.30859375,
-        "perp_last_price": 64452.30859375,
-        "mark_price": 64452.30859375,
-        "index_price": 64452.30859375,
+        "spot_price": 64392.91015625,
+        "perp_last_price": 64392.91015625,
+        "mark_price": 64392.91015625,
+        "index_price": 64392.91015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64452.30859375,
-        "stop_loss_technical": 63485.52396484,
-        "target_1": 65902.48553711,
-        "target_2": 67352.66248047,
+        "entry_ideal": 64392.91015625,
+        "stop_loss_technical": 64562.1796875,
+        "target_1": 64139.00585938,
+        "target_2": 63885.1015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64452.30859375,
-        "stop_loss_technical": 63485.52396484,
-        "target_1": 65902.48553711,
-        "target_2": 67352.66248047,
+        "entry_ideal": 64392.91015625,
+        "stop_loss_technical": 63427.01650391,
+        "target_1": 65841.75063477,
+        "target_2": 67290.59111328,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
