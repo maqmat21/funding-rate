@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T10:00:33.299944+00:00",
+    "generated_at_utc": "2026-08-18T10:39:07.982663+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.618,
+        "price": 99.636,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 30m",
+    "U.S. markets open in 2h 52m",
     "News from the Yahoo Finance Network",
-    "A Brinker Insider Ended the Day Owning More Stock. Here's What Long-Term Investors Should Know",
+    "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
     "These 3 Dividend Stocks Are Money-Printing Machines",
-    "Billionaire Izzy Englander Bought SpaceX Before the Lockup Expiration. Does He Know Something Most Investors Don't?",
-    "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
     "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
+    "If I Were in My 20s, I'd Buy This Unstoppable Vanguard ETF and Hold It Forever",
+    "Billionaire Izzy Englander Bought SpaceX Before the Lockup Expiration. Does He Know Something Most Investors Don't?",
     "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64099.62109375,
-        "perp_last_price": 64099.62109375,
-        "mark_price": 64099.62109375,
-        "index_price": 64099.62109375,
+        "spot_price": 64154.171875,
+        "perp_last_price": 64154.171875,
+        "mark_price": 64154.171875,
+        "index_price": 64154.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64099.62109375,
-        "stop_loss_technical": 64558.5,
-        "target_1": 63411.30273438,
-        "target_2": 62722.984375,
+        "entry_ideal": 64154.171875,
+        "stop_loss_technical": 63191.85929688,
+        "target_1": 65597.64074219,
+        "target_2": 67041.10960937,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64099.62109375,
-        "stop_loss_technical": 63138.12677734,
-        "target_1": 65541.86256836,
-        "target_2": 66984.10404297,
+        "entry_ideal": 64154.171875,
+        "stop_loss_technical": 63191.85929688,
+        "target_1": 65597.64074219,
+        "target_2": 67041.10960937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
