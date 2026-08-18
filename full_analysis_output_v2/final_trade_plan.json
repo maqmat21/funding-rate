@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T16:12:18.722470+00:00",
+    "generated_at_utc": "2026-08-18T16:48:57.175288+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.614,
+        "price": 99.615,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.716,
+        "price": 4.714,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 48m",
+    "U.S. markets close in 3h 12m",
     "News from the Yahoo Finance Network",
-    "Hims & Hers CEO Tells the FTC That Regulators Just Don’t Understand",
-    "ORCL Stock: Why The Discount May Not Last",
-    "Epsilon Energy Ltd (EPSN) (Q2 2026) Earnings Call Highlights: Production Trough Marks Turning ...",
+    "Amazon’s $10B Houston Data Center Project Hits Snags",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
+    "Texas Apartment Distress Fuels Fraud at Industry Summit",
+    "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
     "‘Indefensible and ugly’: $20 burritos have Tucker Carlson, JD Vance, Ben Shapiro fighting over America’s inflation woes",
-    "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now"
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64726.87109375,
-        "perp_last_price": 64726.87109375,
-        "mark_price": 64726.87109375,
-        "index_price": 64726.87109375,
+        "spot_price": 64791.0,
+        "perp_last_price": 64791.0,
+        "mark_price": 64791.0,
+        "index_price": 64791.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64718.37109375,
-        "stop_loss_technical": 65008.4296875,
-        "target_1": 64283.28320312,
-        "target_2": 63848.1953125,
+        "entry_ideal": 64791.0,
+        "stop_loss_technical": 63819.135,
+        "target_1": 66248.7975,
+        "target_2": 67706.595,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64726.87109375,
-        "stop_loss_technical": 63755.96802734,
-        "target_1": 66183.22569336,
-        "target_2": 67639.58029297,
+        "entry_ideal": 64791.0,
+        "stop_loss_technical": 63819.135,
+        "target_1": 66248.7975,
+        "target_2": 67706.595,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
