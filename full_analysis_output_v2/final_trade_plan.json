@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T04:58:33.235393+00:00",
+    "generated_at_utc": "2026-08-18T05:24:40.959842+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.639,
+        "price": 99.67,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 32m",
+    "U.S. markets open in 8h 6m",
     "News from the Yahoo Finance Network",
-    "4 (More) Dividend ETFs Worth Holding for the Long Haul",
     "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
     "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
-    "Trump Wanted Advanced Tech Made in America, Tim Cook Brought Mac Mini Production to Texas: 'Thank You' for the $600 Billion Commitment, Says Howard Lutnick",
-    "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "5-star analyst sets alarming SpaceX stock price target"
+    "2 Dividend Stocks That Are No-Brainer Buys in August",
+    "5-star analyst sets alarming SpaceX stock price target",
+    "Pan American Silver (TSX:PAAS) Stock Looks Like A Bargain Despite Full Valuation Questions",
+    "4 (More) Dividend ETFs Worth Holding for the Long Haul"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64146.66015625,
-        "perp_last_price": 64146.66015625,
-        "mark_price": 64146.66015625,
-        "index_price": 64146.66015625,
+        "spot_price": 64148.25,
+        "perp_last_price": 64148.25,
+        "mark_price": 64148.25,
+        "index_price": 64148.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64146.66015625,
-        "stop_loss_technical": 63184.46025391,
-        "target_1": 65589.96000977,
-        "target_2": 67033.25986328,
+        "entry_ideal": 64149.5390625,
+        "stop_loss_technical": 64558.5,
+        "target_1": 63536.09765625,
+        "target_2": 62922.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64146.66015625,
-        "stop_loss_technical": 63184.46025391,
-        "target_1": 65589.96000977,
-        "target_2": 67033.25986328,
+        "entry_ideal": 64148.25,
+        "stop_loss_technical": 63186.02625,
+        "target_1": 65591.585625,
+        "target_2": 67034.92125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
