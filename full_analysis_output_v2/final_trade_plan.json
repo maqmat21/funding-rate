@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T04:23:17.645458+00:00",
+    "generated_at_utc": "2026-08-18T04:58:33.235393+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.662,
+        "price": 99.639,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 7m",
+    "U.S. markets open in 8h 32m",
     "News from the Yahoo Finance Network",
+    "4 (More) Dividend ETFs Worth Holding for the Long Haul",
     "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
     "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
-    "Mark Cuban Says 61% of Americans Are ‘Part Of The Healthcare Problem’ — If You Own Stocks in Insurance Companies You’re Putting Profit Over People",
+    "Trump Wanted Advanced Tech Made in America, Tim Cook Brought Mac Mini Production to Texas: 'Thank You' for the $600 Billion Commitment, Says Howard Lutnick",
     "The Stock Market Just Triggered 1 of its Rarest Signals on Record. Here's What History Says Will Happen Next.",
-    "5-star analyst sets alarming SpaceX stock price target",
-    "Elon Musk to Merge SpaceX and Tesla? Prediction Markets Are Betting on This Date"
+    "5-star analyst sets alarming SpaceX stock price target"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64062.91015625,
-        "perp_last_price": 64062.91015625,
-        "mark_price": 64062.91015625,
-        "index_price": 64062.91015625,
+        "spot_price": 64146.66015625,
+        "perp_last_price": 64146.66015625,
+        "mark_price": 64146.66015625,
+        "index_price": 64146.66015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64062.91015625,
-        "stop_loss_technical": 64558.5,
-        "target_1": 63319.52539062,
-        "target_2": 62576.140625,
+        "entry_ideal": 64146.66015625,
+        "stop_loss_technical": 63184.46025391,
+        "target_1": 65589.96000977,
+        "target_2": 67033.25986328,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64062.91015625,
-        "stop_loss_technical": 63101.96650391,
-        "target_1": 65504.32563477,
-        "target_2": 66945.74111328,
+        "entry_ideal": 64146.66015625,
+        "stop_loss_technical": 63184.46025391,
+        "target_1": 65589.96000977,
+        "target_2": 67033.25986328,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
