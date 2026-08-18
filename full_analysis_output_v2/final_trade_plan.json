@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T21:32:38.285905+00:00",
+    "generated_at_utc": "2026-08-18T21:51:41.587802+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.637,
+        "price": 99.635,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Ethereum Price Prediction 2026: Glamsterdam Upgrade Could Kickstart ETH’s Next Bull Market",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
     "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
     "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
-    "Will Micron Stock Jump Another 200% By 2027? History Has a Clear Answer",
-    "Prediction: SpaceX Stock Will Be Worth This Much in 1 Year",
-    "EML Payments Ltd (EMCHF) (FY 2026) Earnings Call Highlights: Restructuring Gains Traction, but ..."
+    "With the national debt nearing $40 trillion, Bank of America has a warning for bond investors",
+    "Wells Fargo makes aggressive JPMorgan prediction"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64568.66015625,
-        "perp_last_price": 64568.66015625,
-        "mark_price": 64568.66015625,
-        "index_price": 64568.66015625,
+        "spot_price": 64569.6484375,
+        "perp_last_price": 64569.6484375,
+        "mark_price": 64569.6484375,
+        "index_price": 64569.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64568.66015625,
-        "stop_loss_technical": 65008.4296875,
-        "target_1": 63909.00585938,
-        "target_2": 63249.3515625,
+        "entry_ideal": 64569.6484375,
+        "stop_loss_technical": 63601.10371094,
+        "target_1": 66022.46552734,
+        "target_2": 67475.28261719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64568.66015625,
-        "stop_loss_technical": 63600.13025391,
-        "target_1": 66021.45500977,
-        "target_2": 67474.24986328,
+        "entry_ideal": 64569.6484375,
+        "stop_loss_technical": 63601.10371094,
+        "target_1": 66022.46552734,
+        "target_2": 67475.28261719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
