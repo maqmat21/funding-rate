@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T22:56:07.291192+00:00",
+    "generated_at_utc": "2026-08-18T23:11:45.474632+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Uncomfortable Math: A $1.5 Million Nest Egg at 64 Buys Only $37,000 a Year",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "With the national debt nearing $40 trillion, Bank of America has a warning for bond investors",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
     "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
     "Warren Buffett's Successor, Greg Abel, Has 34.7% of Berkshire Hathaway's Portfolio Invested in These 2 Artificial Intelligence (AI) Stocks",
-    "Rocket Lab Wins One of Its Biggest Contracts Ever"
+    "Uncomfortable Math: A $1.5 Million Nest Egg at 64 Buys Only $37,000 a Year",
+    "Top economists warn of wealth inequality in U.S. surpassing Gilded Age"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64560.921875,
-        "perp_last_price": 64560.921875,
-        "mark_price": 64560.921875,
-        "index_price": 64560.921875,
+        "spot_price": 64637.171875,
+        "perp_last_price": 64637.171875,
+        "mark_price": 64637.171875,
+        "index_price": 64637.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64583.69140625,
-        "stop_loss_technical": 63614.93603516,
-        "target_1": 66036.82446289,
-        "target_2": 67489.95751953,
+        "entry_ideal": 64637.1796875,
+        "stop_loss_technical": 63667.62199219,
+        "target_1": 66091.51623047,
+        "target_2": 67545.85277344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64560.921875,
-        "stop_loss_technical": 63592.50804688,
-        "target_1": 66013.54261719,
-        "target_2": 67466.16335938,
+        "entry_ideal": 64637.171875,
+        "stop_loss_technical": 63667.61429687,
+        "target_1": 66091.50824219,
+        "target_2": 67545.84460937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
