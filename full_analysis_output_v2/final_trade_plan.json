@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T11:46:18.242180+00:00",
+    "generated_at_utc": "2026-08-18T12:01:42.022125+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.66,
+        "price": 99.666,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 44m",
+    "U.S. markets open in 1h 29m",
     "News from the Yahoo Finance Network",
+    "Voyager CEO Dylan Taylor Says Humans Will Live and Work on Moon in 2030s: ‘We’ll Have a Moon Base…’",
     "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
-    "Next Jeep Cherokee to debut Stellantis STLA One platform in US",
+    "‘Indefensible and ugly’: $20 burritos have Tucker Carlson, JD Vance, Ben Shapiro fighting over America’s inflation woes",
+    "‘Crying Wolf’: Norway’s Sovereign Wealth Fund CEO Issues Dire Warning After Record Profit",
     "If I Could Tell Every Investor 1 Thing About Preparing for a Recession, It's This",
-    "Bitcoin Prediction 2026: What Kalshi’s Betting Markets Say",
-    "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
-    "A dropout living in a trailer, he got $1 million from Peter Thiel at 19—now he’s a billionaire who says the American Dream isn’t dead"
+    "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64339.73046875,
-        "perp_last_price": 64339.73046875,
-        "mark_price": 64339.73046875,
-        "index_price": 64339.73046875,
+        "spot_price": 64274.0390625,
+        "perp_last_price": 64274.0390625,
+        "mark_price": 64274.0390625,
+        "index_price": 64274.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64339.73046875,
-        "stop_loss_technical": 63374.63451172,
-        "target_1": 65787.3744043,
-        "target_2": 67235.01833984,
+        "entry_ideal": 64274.0390625,
+        "stop_loss_technical": 64562.1796875,
+        "target_1": 63841.828125,
+        "target_2": 63409.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64339.73046875,
-        "stop_loss_technical": 63374.63451172,
-        "target_1": 65787.3744043,
-        "target_2": 67235.01833984,
+        "entry_ideal": 64274.0390625,
+        "stop_loss_technical": 63309.92847656,
+        "target_1": 65720.20494141,
+        "target_2": 67166.37082031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
