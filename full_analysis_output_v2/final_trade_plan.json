@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T12:01:42.022125+00:00",
+    "generated_at_utc": "2026-08-18T13:02:11.765911+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.666,
+        "price": 99.623,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.724,
+        "price": 4.74,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 29m",
     "News from the Yahoo Finance Network",
-    "Voyager CEO Dylan Taylor Says Humans Will Live and Work on Moon in 2030s: ‘We’ll Have a Moon Base…’",
     "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
     "‘Indefensible and ugly’: $20 burritos have Tucker Carlson, JD Vance, Ben Shapiro fighting over America’s inflation woes",
-    "‘Crying Wolf’: Norway’s Sovereign Wealth Fund CEO Issues Dire Warning After Record Profit",
-    "If I Could Tell Every Investor 1 Thing About Preparing for a Recession, It's This",
-    "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again"
+    "September Is Historically the Worst Month for Stocks and These 3 ETFs Pay Up to 9 Percent While You Wait It Out",
+    "Billionaire David Tepper Is Short Apple And Even Bet Against Buffett’s Berkshire Hathaway. What Does He See?",
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
+    "Bitcoin Price Is Heading to $10,000, Says Bloomberg Analyst Again — Here's Why"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64274.0390625,
-        "perp_last_price": 64274.0390625,
-        "mark_price": 64274.0390625,
-        "index_price": 64274.0390625,
+        "spot_price": 64110.87109375,
+        "perp_last_price": 64110.87109375,
+        "mark_price": 64110.87109375,
+        "index_price": 64110.87109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64274.0390625,
-        "stop_loss_technical": 64562.1796875,
-        "target_1": 63841.828125,
-        "target_2": 63409.6171875,
+        "entry_ideal": 64111.41015625,
+        "stop_loss_technical": 64558.5,
+        "target_1": 63440.77539062,
+        "target_2": 62770.140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64274.0390625,
-        "stop_loss_technical": 63309.92847656,
-        "target_1": 65720.20494141,
-        "target_2": 67166.37082031,
+        "entry_ideal": 64110.87109375,
+        "stop_loss_technical": 63149.20802734,
+        "target_1": 65553.36569336,
+        "target_2": 66995.86029297,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
