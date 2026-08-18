@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T07:11:25.912045+00:00",
+    "generated_at_utc": "2026-08-18T07:54:04.888595+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.645,
+        "price": 99.631,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 19m",
+    "U.S. markets open in 5h 37m",
     "News from the Yahoo Finance Network",
     "Berkshire Is Chasing GOOG Stock Big Time, But It Might Not Help Reverse Warren Buffett’s Historical Mistake",
     "Bankrupt Italian chain shuts 50 restaurants, exits state entirely",
     "4 (More) Dividend ETFs Worth Holding for the Long Haul",
-    "2 Dividend Stocks That Are No-Brainer Buys in August",
     "5-star analyst sets alarming SpaceX stock price target",
-    "Why Investors Should Consider Buying Apple Stock Ahead of Its September iPhone Event"
+    "Is L3Harris’ CEO Ouster And Governance Stance Altering The Investment Case For L3Harris Technologies (LHX)?",
+    "2 Dividend Stocks That Are No-Brainer Buys in August"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64282.62109375,
-        "perp_last_price": 64282.62109375,
-        "mark_price": 64282.62109375,
-        "index_price": 64282.62109375,
+        "spot_price": 64115.421875,
+        "perp_last_price": 64115.421875,
+        "mark_price": 64115.421875,
+        "index_price": 64115.421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64282.609375,
-        "stop_loss_technical": 63318.37023437,
-        "target_1": 65728.96808594,
-        "target_2": 67175.32679688,
+        "entry_ideal": 64115.421875,
+        "stop_loss_technical": 64558.5,
+        "target_1": 63450.8046875,
+        "target_2": 62786.1875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64282.62109375,
-        "stop_loss_technical": 63318.38177734,
-        "target_1": 65728.98006836,
-        "target_2": 67175.33904297,
+        "entry_ideal": 64115.421875,
+        "stop_loss_technical": 63153.69054687,
+        "target_1": 65558.01886719,
+        "target_2": 67000.61585938,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
