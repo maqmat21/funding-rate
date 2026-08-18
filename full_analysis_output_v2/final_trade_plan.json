@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T16:48:57.175288+00:00",
+    "generated_at_utc": "2026-08-18T17:12:03.402209+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.615,
+        "price": 99.628,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.714,
+        "price": 4.71,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 12m",
+    "U.S. markets close in 2h 49m",
     "News from the Yahoo Finance Network",
-    "Amazon’s $10B Houston Data Center Project Hits Snags",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
-    "Texas Apartment Distress Fuels Fraud at Industry Summit",
     "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
     "‘Indefensible and ugly’: $20 burritos have Tucker Carlson, JD Vance, Ben Shapiro fighting over America’s inflation woes",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get"
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "Will Micron Stock Jump Another 200% By 2027? History Has a Clear Answer",
+    "Italian chain closes 50 restaurants after Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64791.0,
-        "perp_last_price": 64791.0,
-        "mark_price": 64791.0,
-        "index_price": 64791.0,
+        "spot_price": 64731.16015625,
+        "perp_last_price": 64731.16015625,
+        "mark_price": 64731.16015625,
+        "index_price": 64731.16015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64791.0,
-        "stop_loss_technical": 63819.135,
-        "target_1": 66248.7975,
-        "target_2": 67706.595,
+        "entry_ideal": 64731.16015625,
+        "stop_loss_technical": 65007.2890625,
+        "target_1": 64316.96679688,
+        "target_2": 63902.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64791.0,
-        "stop_loss_technical": 63819.135,
-        "target_1": 66248.7975,
-        "target_2": 67706.595,
+        "entry_ideal": 64731.16015625,
+        "stop_loss_technical": 63760.19275391,
+        "target_1": 66187.61125977,
+        "target_2": 67644.06236328,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
