@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T14:53:54.604685+00:00",
+    "generated_at_utc": "2026-08-18T15:19:04.646668+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.567,
+        "price": 99.594,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.714,
+        "price": 4.712,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 7m",
+    "U.S. markets close in 4h 41m",
     "News from the Yahoo Finance Network",
-    "MaxLinear (MXL) Stock Looks Pricey After Its 450% One Year Run",
     "Will Micron Stock Jump Another 200% By 2027? History Has a Clear Answer",
+    "Amylyx Pharmaceuticals Phase 3 LUCIDITY Trial Meets Primary Endpoint for Avexitide",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
     "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
     "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
-    "5 Dependable Dividend Stocks to Buy in August"
+    "Carney and Trump speak ahead of 50% US tariff deadline"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64644.91015625,
-        "perp_last_price": 64644.91015625,
-        "mark_price": 64644.91015625,
-        "index_price": 64644.91015625,
+        "spot_price": 64728.390625,
+        "perp_last_price": 64728.390625,
+        "mark_price": 64728.390625,
+        "index_price": 64728.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 64652.2890625,
+        "entry_ideal": 64730.94140625,
         "stop_loss_technical": 63979.37109375,
-        "target_1": 65661.66601562,
-        "target_2": 66671.04296875,
+        "target_1": 65858.296875,
+        "target_2": 66985.65234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64644.91015625,
+        "entry_ideal": 64728.390625,
         "stop_loss_technical": 62487.69921875,
-        "target_1": 67880.7265625,
-        "target_2": 71116.54296875,
+        "target_1": 68089.42773438,
+        "target_2": 71450.46484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
