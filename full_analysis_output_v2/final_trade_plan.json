@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T18:02:26.093413+00:00",
+    "generated_at_utc": "2026-08-18T18:51:05.003278+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.653,
+        "price": 99.662,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.708,
+        "price": 4.704,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 59m",
+    "U.S. markets close in 1h 10m",
     "News from the Yahoo Finance Network",
-    "Lightning Sparks Fire at Massive US Fuel Depot on Key Pipeline System",
-    "REITs Are Finally Winning and the QQQI Family Runs a Real Estate Fund Paying 11%",
+    "My Brother Is Furious I Won’t Co-Sign My Niece’s $200K Student Loans. I’m 54 on a Fixed Income — He Says I Only Love Myself and My Pets",
+    "American Financial Group (AFG) Earnings Put Fair Value Back In Focus",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
     "There’s a hidden Roth conversion window that shuts completely in 2028 — most US retirees don’t know it exists. Act now",
-    "SanDisk sends strong signal to Micron investors, BofA says",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get"
+    "SanDisk sends strong signal to Micron investors, BofA says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64630.2890625,
-        "perp_last_price": 64630.2890625,
-        "mark_price": 64630.2890625,
-        "index_price": 64630.2890625,
+        "spot_price": 64748.19921875,
+        "perp_last_price": 64748.19921875,
+        "mark_price": 64748.19921875,
+        "index_price": 64748.19921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64630.2890625,
-        "stop_loss_technical": 65008.4296875,
-        "target_1": 64063.078125,
-        "target_2": 63495.8671875,
+        "entry_ideal": 64747.28125,
+        "stop_loss_technical": 63776.07203125,
+        "target_1": 66204.09507812,
+        "target_2": 67660.90890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64630.2890625,
-        "stop_loss_technical": 63660.83472656,
-        "target_1": 66084.47056641,
-        "target_2": 67538.65207031,
+        "entry_ideal": 64748.19921875,
+        "stop_loss_technical": 63776.97623047,
+        "target_1": 66205.03370117,
+        "target_2": 67661.86818359,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
