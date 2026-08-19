@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T16:47:52.198631+00:00",
+    "generated_at_utc": "2026-08-19T17:10:23.548975+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.86,
+        "price": 98.858,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.664,
+        "price": 4.66,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 13m",
+    "U.S. markets close in 2h 50m",
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
-    "Why Intuitive Machines (LUNR) Is Up 17.2% After Winning US$600 Million-Plus Satellite Deal",
+    "Moderna Stock Doubles on Cancer Breakthrough: Here’s What It Means",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
-    "Gold prices today, Wednesday, August 19, 2026: Gold strengthens ahead of FOMC minutes release"
+    "How Moderna’s Cancer Breakthrough Reversed Its Fortunes and Revived the Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68630.6171875,
-        "perp_last_price": 68630.6171875,
-        "mark_price": 68630.6171875,
-        "index_price": 68630.6171875,
+        "spot_price": 68318.7734375,
+        "perp_last_price": 68318.7734375,
+        "mark_price": 68318.7734375,
+        "index_price": 68318.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68630.6171875,
-        "stop_loss_technical": 67601.15792969,
-        "target_1": 70174.80607422,
-        "target_2": 71718.99496094,
+        "entry_ideal": 68318.7734375,
+        "stop_loss_technical": 67293.99183594,
+        "target_1": 69855.94583984,
+        "target_2": 71393.11824219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68630.6171875,
+        "entry_ideal": 68318.7734375,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 77603.68164062,
-        "target_2": 86576.74609375,
+        "target_1": 76824.07226562,
+        "target_2": 85329.37109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
