@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-18T23:53:14.589519+00:00",
+    "generated_at_utc": "2026-08-19T00:31:59.259439+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.644,
-        "trend": "alcista"
+        "price": 99.606,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.706,
@@ -23,52 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
-    "Jim Cramer doubles down on Tim Cook and Apple verdict",
+    "Back In The ‘90s Elon Musk Turned His Dorm Room Into A Club And Charged A $5 Cover To Pay Rent — Now He's The Richest Man Alive And Still Rents",
+    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
     "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
-    "Rocket Lab Joins US Space Force Consortium and Secures $12M Satellite Contracts",
-    "Warren Buffett's Successor, Greg Abel, Has 34.7% of Berkshire Hathaway's Portfolio Invested in These 2 Artificial Intelligence (AI) Stocks",
-    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink"
+    "Costco keeps discontinuing popular products",
+    "With the national debt nearing $40 trillion, Bank of America has a warning for bond investors"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64704.6015625,
-        "perp_last_price": 64704.6015625,
-        "mark_price": 64704.6015625,
-        "index_price": 64704.6015625,
+        "spot_price": 64590.921875,
+        "perp_last_price": 64590.921875,
+        "mark_price": 64590.921875,
+        "index_price": 64590.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64704.6015625,
-        "stop_loss_technical": 63734.03253906,
-        "target_1": 66160.45509766,
-        "target_2": 67616.30863281,
+        "entry_ideal": 64590.921875,
+        "stop_loss_technical": 65007.2890625,
+        "target_1": 63966.37109375,
+        "target_2": 63341.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 64704.6015625,
-        "stop_loss_technical": 63734.03253906,
-        "target_1": 66160.45509766,
-        "target_2": 67616.30863281,
+        "entry_ideal": 64590.921875,
+        "stop_loss_technical": 62648.57421875,
+        "target_1": 67504.44335938,
+        "target_2": 70417.96484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
