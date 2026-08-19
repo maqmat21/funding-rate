@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T10:38:44.214731+00:00",
+    "generated_at_utc": "2026-08-19T10:58:41.110033+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.368,
+        "price": 99.356,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,12 +21,12 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 52m",
+    "U.S. markets open in 2h 32m",
     "News from the Yahoo Finance Network",
     "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next.",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
     "Warren Buffett's and Greg Abel's $175 Billion Warning Echoes Loudly Through Wall Street",
-    "3 High-Yield Dividend Stocks I'd Buy With $5,000 Right Now",
+    "SpaceX Is Back Trading Near Its Opening-Day Price. History Says Shares Will Be Worth This Much in 1 Year.",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "Warren Buffett's Successor, Greg Abel, Just Sold Over 50% of Berkshire Hathaway's Stake in Nucor and Piled Into an Artificial Intelligence (AI) Stock That Billionaire Investor Bill Ackman Just Exited"
   ],
@@ -34,10 +34,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64355.69921875,
-        "perp_last_price": 64355.69921875,
-        "mark_price": 64355.69921875,
-        "index_price": 64355.69921875,
+        "spot_price": 64373.41015625,
+        "perp_last_price": 64373.41015625,
+        "mark_price": 64373.41015625,
+        "index_price": 64373.41015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 64355.69140625,
+        "entry_ideal": 64373.3984375,
         "stop_loss_technical": 64112.0390625,
-        "target_1": 64721.16992188,
-        "target_2": 65086.6484375,
+        "target_1": 64765.4375,
+        "target_2": 65157.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 64355.69921875,
-        "stop_loss_technical": 64987.7109375,
-        "target_1": 63407.68164062,
-        "target_2": 62459.6640625,
+        "entry_ideal": 64373.41015625,
+        "stop_loss_technical": 62648.57421875,
+        "target_1": 66960.6640625,
+        "target_2": 69547.91796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
