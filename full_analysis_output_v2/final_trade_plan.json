@@ -1,70 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T12:01:11.365963+00:00",
+    "generated_at_utc": "2026-08-19T13:03:04.791872+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.414,
+        "price": 99.124,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.706,
-        "trend": "alcista"
+        "price": 4.647,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 29m",
     "News from the Yahoo Finance Network",
+    "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
     "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next.",
-    "Warren Buffett's and Greg Abel's $175 Billion Warning Echoes Loudly Through Wall Street",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
-    "Warren Buffett's Successor, Greg Abel, Just Sold Over 50% of Berkshire Hathaway's Stake in Nucor and Piled Into an Artificial Intelligence (AI) Stock That Billionaire Investor Bill Ackman Just Exited",
-    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink"
+    "Most Investors Have Never Heard of the Bond ETFs That Lock In 5 Percent Yields Through 2030",
+    "Americans have more money. They’re done eating and shopping at places that suck",
+    "SpaceX Is Back Trading Near Its Opening-Day Price. History Says Shares Will Be Worth This Much in 1 Year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64435.8515625,
-        "perp_last_price": 64435.8515625,
-        "mark_price": 64435.8515625,
-        "index_price": 64435.8515625,
+        "spot_price": 64735.9296875,
+        "perp_last_price": 64735.9296875,
+        "mark_price": 64735.9296875,
+        "index_price": 64735.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64435.859375,
-        "stop_loss_technical": 64798.19921875,
-        "target_1": 63892.34960938,
-        "target_2": 63348.83984375,
+        "entry_ideal": 64735.921875,
+        "stop_loss_technical": 64112.0390625,
+        "target_1": 65671.74609375,
+        "target_2": 66607.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64435.8515625,
+        "entry_ideal": 64735.9296875,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 67116.76757812,
-        "target_2": 69797.68359375,
+        "target_1": 67866.96289062,
+        "target_2": 70997.99609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -92,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
