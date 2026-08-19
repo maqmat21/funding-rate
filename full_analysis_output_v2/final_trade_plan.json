@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T11:21:13.663997+00:00",
+    "generated_at_utc": "2026-08-19T11:46:06.254335+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.425,
+        "price": 99.41,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 10m",
+    "U.S. markets open in 1h 44m",
     "News from the Yahoo Finance Network",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
     "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next.",
     "Warren Buffett's and Greg Abel's $175 Billion Warning Echoes Loudly Through Wall Street",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "Warren Buffett's Successor, Greg Abel, Just Sold Over 50% of Berkshire Hathaway's Stake in Nucor and Piled Into an Artificial Intelligence (AI) Stock That Billionaire Investor Bill Ackman Just Exited",
-    "3 Energy Dividend Stocks to Buy for Big Yields in August"
+    "SpaceX Is Back Trading Near Its Opening-Day Price. History Says Shares Will Be Worth This Much in 1 Year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64441.859375,
-        "perp_last_price": 64441.859375,
-        "mark_price": 64441.859375,
-        "index_price": 64441.859375,
+        "spot_price": 64438.48046875,
+        "perp_last_price": 64438.48046875,
+        "mark_price": 64438.48046875,
+        "index_price": 64438.48046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64441.87109375,
-        "stop_loss_technical": 64112.0390625,
-        "target_1": 64936.61914062,
-        "target_2": 65431.3671875,
+        "entry_ideal": 64438.48046875,
+        "stop_loss_technical": 64851.23828125,
+        "target_1": 63819.34375,
+        "target_2": 63200.20703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 64441.859375,
+        "entry_ideal": 64438.48046875,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 67131.78710938,
-        "target_2": 69821.71484375,
+        "target_1": 67123.33984375,
+        "target_2": 69808.19921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
