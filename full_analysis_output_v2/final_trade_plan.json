@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T17:37:25.350744+00:00",
+    "generated_at_utc": "2026-08-19T17:54:52.367706+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.926,
+        "price": 98.94,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.672,
+        "price": 4.674,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 23m",
+    "U.S. markets close in 2h 7m",
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
+    "3 Reasons I'd Trust This 5.8%-Yielding Dividend Right Now",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
-    "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
-    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
-    "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
-    "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next."
+    "The Treasury Department just pushed down long-term US bond yields. That could make Kevin Warsh's job harder.",
+    "HONA Stock Jumps 9% — Honeywell Aerospace Selloff Went Too Far, Morgan Stanley Says",
+    "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 67983.3671875,
-        "perp_last_price": 67983.3671875,
-        "mark_price": 67983.3671875,
-        "index_price": 67983.3671875,
+        "spot_price": 68170.6328125,
+        "perp_last_price": 68170.6328125,
+        "mark_price": 68170.6328125,
+        "index_price": 68170.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67983.3671875,
-        "stop_loss_technical": 66963.61667969,
-        "target_1": 69512.99294922,
-        "target_2": 71042.61871094,
+        "entry_ideal": 68170.6328125,
+        "stop_loss_technical": 64112.0390625,
+        "target_1": 74258.5234375,
+        "target_2": 80346.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 67983.3671875,
+        "entry_ideal": 68170.6328125,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 75985.55664062,
-        "target_2": 83987.74609375,
+        "target_1": 76453.72070312,
+        "target_2": 84736.80859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
