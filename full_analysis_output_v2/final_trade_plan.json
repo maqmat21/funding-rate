@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T16:16:58.689817+00:00",
+    "generated_at_utc": "2026-08-19T16:47:52.198631+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.91,
+        "price": 98.86,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.653,
+        "price": 4.664,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 44m",
+    "U.S. markets close in 3h 13m",
     "News from the Yahoo Finance Network",
-    "Elon Musk Says Tesla Is ‘Most Made in America’ Car Brand as Trump Tariffs Shake Up Auto Industry",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
-    "Kohl’s navigates choppy back-to-school season with another round of deals",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
-    "Trump to Host Crypto Executives at White House as SEC Proposes New Rules",
-    "3 Monthly Paying Mortgage REITs Income Investors Keep Coming Back To"
+    "Why Intuitive Machines (LUNR) Is Up 17.2% After Winning US$600 Million-Plus Satellite Deal",
+    "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
+    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
+    "Gold prices today, Wednesday, August 19, 2026: Gold strengthens ahead of FOMC minutes release"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68671.2109375,
-        "perp_last_price": 68671.2109375,
-        "mark_price": 68671.2109375,
-        "index_price": 68671.2109375,
+        "spot_price": 68630.6171875,
+        "perp_last_price": 68630.6171875,
+        "mark_price": 68630.6171875,
+        "index_price": 68630.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68675.953125,
-        "stop_loss_technical": 64112.0390625,
-        "target_1": 75521.82421875,
-        "target_2": 82367.6953125,
+        "entry_ideal": 68630.6171875,
+        "stop_loss_technical": 67601.15792969,
+        "target_1": 70174.80607422,
+        "target_2": 71718.99496094,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68671.2109375,
+        "entry_ideal": 68630.6171875,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 77705.16601562,
-        "target_2": 86739.12109375,
+        "target_1": 77603.68164062,
+        "target_2": 86576.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
