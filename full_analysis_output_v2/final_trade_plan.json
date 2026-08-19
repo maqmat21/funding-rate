@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T18:53:46.671676+00:00",
+    "generated_at_utc": "2026-08-19T19:16:31.500175+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.832,
+        "price": 98.853,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.654,
+        "price": 4.653,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 7m",
     "News from the Yahoo Finance Network",
+    "At 88, He Still Climbs Ladders at His Shoe Store. His Age Ended the Earnings Test, but Not the Social Security Tax.",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
-    "IBD Elite 2026: The 15 largest independent brokerages in wealth management",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
-    "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor"
+    "How a DIY Adobe Illustrator design landed Rebel Creamery in a $23.8 million fight with Van Leeuwen",
+    "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68345.203125,
-        "perp_last_price": 68345.203125,
-        "mark_price": 68345.203125,
-        "index_price": 68345.203125,
+        "spot_price": 68178.90625,
+        "perp_last_price": 68178.90625,
+        "mark_price": 68178.90625,
+        "index_price": 68178.90625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68345.203125,
-        "stop_loss_technical": 64112.0390625,
-        "target_1": 74694.94921875,
-        "target_2": 81044.6953125,
+        "entry_ideal": 68172.8671875,
+        "stop_loss_technical": 67150.27417969,
+        "target_1": 69706.75669922,
+        "target_2": 71240.64621094,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 68345.203125,
+        "entry_ideal": 68178.90625,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 76890.14648438,
-        "target_2": 85435.08984375,
+        "target_1": 76474.40429688,
+        "target_2": 84769.90234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
