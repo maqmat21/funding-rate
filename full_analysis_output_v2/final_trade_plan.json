@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-19T03:06:17.677069+00:00",
+    "generated_at_utc": "2026-08-19T03:54:01.973194+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.582,
+        "price": 99.581,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Billionaire Michael Saylor Warns Against Buying a House Because ‘Every 36 Years You Actually Pay the Cost of the House in Tax to the Government’",
-    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
+    "Barron Trump, 20, Now Worth $150 Million — More Than Mom, Melania — From Crypto And $39 Energy Drink",
     "I’m 63 With a $4 Million Net Worth and My Advisor Half My Age Still Had the Nerve to Tell Me I Need to Diversify Like I’m Some Average Investor",
-    "Bank of America doubles down on Nvidia stock despite big risk",
-    "With the national debt nearing $40 trillion, Bank of America has a warning for bond investors",
-    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get"
+    "Social Security now poised for big ‘Trump Bump’ in the months ahead — here’s how much extra cash you’ll likely get",
+    "Costco keeps discontinuing popular products",
+    "Sandisk Is Up More Than 35-Fold in a Year and Sits Nearly a Third Below Its Peak. History Says What Comes Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64258.05078125,
-        "perp_last_price": 64258.05078125,
-        "mark_price": 64258.05078125,
-        "index_price": 64258.05078125,
+        "spot_price": 64295.05078125,
+        "perp_last_price": 64295.05078125,
+        "mark_price": 64295.05078125,
+        "index_price": 64295.05078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 64250.0,
-        "stop_loss_technical": 65008.4296875,
-        "target_1": 63112.35546875,
-        "target_2": 61974.7109375,
+        "entry_ideal": 64293.03125,
+        "stop_loss_technical": 65007.2890625,
+        "target_1": 63221.64453125,
+        "target_2": 62150.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 64258.05078125,
-        "stop_loss_technical": 65008.4296875,
-        "target_1": 63132.48242188,
-        "target_2": 62006.9140625,
+        "entry_ideal": 64295.05078125,
+        "stop_loss_technical": 65007.2890625,
+        "target_1": 63226.69335938,
+        "target_2": 62158.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
