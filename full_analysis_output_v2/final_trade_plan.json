@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T12:02:17.432439+00:00",
+    "generated_at_utc": "2026-08-20T13:05:05.451178+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.794,
+        "price": 98.781,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.653,
-        "trend": "bajista"
+        "price": 4.692,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 28m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
-    "Billionaire Stanley Druckenmiller May Have Just Repeated His \"Big Mistake\" With Nvidia -- This Time With a Chip Stock That Rose 300% in the First Half of 2026",
-    "Bitcoin Jumps to $71,500 on Trump’s ‘Sizeable’ Buy Plan. Why MSTR Is Still the Wrong Bet",
     "US homeowners to get major tax break under Trump’s reported new plan: ‘Make America Wealthy Again.’ Could you benefit?",
+    "Billionaire Stanley Druckenmiller May Have Just Repeated His \"Big Mistake\" With Nvidia -- This Time With a Chip Stock That Rose 300% in the First Half of 2026",
+    "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
+    "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
+    "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
     "Meta faces a $1.4 trillion threat that could mean ‘turning in the keys and walking away’—but the stakes of the case reach across tech"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71904.5625,
-        "perp_last_price": 71904.5625,
-        "mark_price": 71904.5625,
-        "index_price": 71904.5625,
+        "spot_price": 71945.5078125,
+        "perp_last_price": 71945.5078125,
+        "mark_price": 71945.5078125,
+        "index_price": 71945.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71904.5625,
-        "stop_loss_technical": 70825.9940625,
-        "target_1": 73522.41515625,
-        "target_2": 75140.2678125,
+        "entry_ideal": 71945.4609375,
+        "stop_loss_technical": 68013.4921875,
+        "target_1": 77843.4140625,
+        "target_2": 83741.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 71904.5625,
+        "entry_ideal": 71945.5078125,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 85788.54492188,
-        "target_2": 99672.52734375,
+        "target_1": 85890.90820312,
+        "target_2": 99836.30859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
