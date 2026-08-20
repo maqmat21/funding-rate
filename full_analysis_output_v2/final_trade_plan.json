@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T10:18:32.874236+00:00",
+    "generated_at_utc": "2026-08-20T10:49:45.352215+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.602,
+        "price": 98.606,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 13m",
+    "U.S. markets open in 2h 41m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Billionaire Stanley Druckenmiller May Have Just Repeated His \"Big Mistake\" With Nvidia -- This Time With a Chip Stock That Rose 300% in the First Half of 2026",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
-    "Bitcoin surges above $71,000 as Trump backs crypto bill and Treasury yields fall",
-    "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
-    "Scott Bessent just cried uncle on the bond market: Chart of the Day"
+    "Scott Bessent just cried uncle on the bond market: Chart of the Day",
+    "Meta faces a $1.4 trillion threat that could mean ‘turning in the keys and walking away’—but the stakes of the case reach across tech",
+    "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72351.5,
-        "perp_last_price": 72351.5,
-        "mark_price": 72351.5,
-        "index_price": 72351.5,
+        "spot_price": 71845.09375,
+        "perp_last_price": 71845.09375,
+        "mark_price": 71845.09375,
+        "index_price": 71845.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72342.2421875,
-        "stop_loss_technical": 65859.0078125,
-        "target_1": 82067.09375,
-        "target_2": 91791.9453125,
+        "entry_ideal": 71845.09375,
+        "stop_loss_technical": 70767.41734375,
+        "target_1": 73461.60835937,
+        "target_2": 75078.12296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 72351.5,
+        "entry_ideal": 71845.09375,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 86905.88867188,
-        "target_2": 101460.27734375,
+        "target_1": 85639.87304688,
+        "target_2": 99434.65234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
