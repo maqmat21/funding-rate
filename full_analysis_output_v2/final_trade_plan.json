@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T00:31:50.565108+00:00",
+    "generated_at_utc": "2026-08-20T02:03:35.198892+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.836,
+        "price": 98.85,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
-    "Trump Says US Starting ‘Economic Warfare’ Operation Against Iran",
-    "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
+    "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
+    "Trump Says US Starting ‘Economic Warfare’ Operation Against Iran",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
-    "Morgan Stanley Just Upgraded Honeywell Aerospace Stock. Here's Why.",
-    "National debt crosses $40 trillion and think tank warns: ‘The level of fiscal mismanagement is tragic"
+    "Google Is Betting a Whopping $94 Billion on SpaceX Stock",
+    "Nvidia Guided to $91 Billion. Wall Street Penciled In $92 Billion."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69532.6875,
-        "perp_last_price": 69532.6875,
-        "mark_price": 69532.6875,
-        "index_price": 69532.6875,
+        "spot_price": 69787.1171875,
+        "perp_last_price": 69787.1171875,
+        "mark_price": 69787.1171875,
+        "index_price": 69787.1171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69536.140625,
-        "stop_loss_technical": 68493.09851562,
-        "target_1": 71100.70378906,
-        "target_2": 72665.26695312,
+        "entry_ideal": 69787.1171875,
+        "stop_loss_technical": 64112.0390625,
+        "target_1": 78299.734375,
+        "target_2": 86812.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69532.6875,
+        "entry_ideal": 69787.1171875,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 79858.85742188,
-        "target_2": 90185.02734375,
+        "target_1": 80494.93164062,
+        "target_2": 91202.74609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
