@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T06:33:02.517685+00:00",
+    "generated_at_utc": "2026-08-20T07:25:07.194006+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.814,
+        "price": 98.781,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 58m",
+    "U.S. markets open in 6h 6m",
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
+    "Evergrande founder Hui Ka Yan, from property tycoon to life in jail",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
     "Jeff Bezos Admitted He Was 'Nerdy' After Showing Off His Watch That Updated 36 Times a Day — Now He's Helping Build a 10,000-Year Clock That Ticks Just Once a Year",
-    "Google Is Betting a Whopping $94 Billion on SpaceX Stock",
-    "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next."
+    "Google Is Betting a Whopping $94 Billion on SpaceX Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69666.0,
-        "perp_last_price": 69666.0,
-        "mark_price": 69666.0,
-        "index_price": 69666.0,
+        "spot_price": 69597.0703125,
+        "perp_last_price": 69597.0703125,
+        "mark_price": 69597.0703125,
+        "index_price": 69597.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69666.0,
-        "stop_loss_technical": 64386.7890625,
-        "target_1": 77584.81640625,
-        "target_2": 85503.6328125,
+        "entry_ideal": 69597.0703125,
+        "stop_loss_technical": 68553.11425781,
+        "target_1": 71163.00439453,
+        "target_2": 72728.93847656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69666.0,
+        "entry_ideal": 69597.0703125,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 80192.13867188,
-        "target_2": 90718.27734375,
+        "target_1": 80019.81445312,
+        "target_2": 90442.55859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
