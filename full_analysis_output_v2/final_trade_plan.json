@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T14:23:48.400033+00:00",
+    "generated_at_utc": "2026-08-20T15:00:59.855775+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.857,
-        "trend": "alcista"
+        "price": 98.802,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.7,
+        "price": 4.688,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 37m",
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
-    "SpaceX Stock Is Down 38% From Its High. Here's Where It Will Be by 2028.",
-    "SMCI Clears Senior Management In Export Control Investigation, Finds No Evidence Of Wrongdoing",
+    "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
-    "MU Stock Gains On Micron's $10B AI Memory Bet – Nvidia's Jensen Huang, Apple's Tim Cook Back Research Push",
-    "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?"
+    "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
+    "BND Is Flat While Stocks Soar, but Selling Now Locks in the Real Loss",
+    "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
+    "SpaceX Stock Is Down 38% From Its High. Here's Where It Will Be by 2028."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 71566.203125,
-        "perp_last_price": 71566.203125,
-        "mark_price": 71566.203125,
-        "index_price": 71566.203125,
+        "spot_price": 71812.6484375,
+        "perp_last_price": 71812.6484375,
+        "mark_price": 71812.6484375,
+        "index_price": 71812.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 71566.203125,
-        "stop_loss_technical": 72407.171875,
-        "target_1": 70304.75,
-        "target_2": 69043.296875,
+        "entry_ideal": 71830.6796875,
+        "stop_loss_technical": 68373.4765625,
+        "target_1": 77016.484375,
+        "target_2": 82202.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 71566.203125,
-        "stop_loss_technical": 70492.71007813,
-        "target_1": 73176.44269531,
-        "target_2": 74786.68226563,
+        "entry_ideal": 71812.6484375,
+        "stop_loss_technical": 62648.57421875,
+        "target_1": 85558.75976562,
+        "target_2": 99304.87109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
