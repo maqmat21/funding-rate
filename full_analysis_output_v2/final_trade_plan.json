@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T23:41:07.409623+00:00",
+    "generated_at_utc": "2026-08-20T23:59:45.939051+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.841,
+        "price": 98.791,
         "trend": "bajista"
       },
       "US10Y": {
@@ -25,34 +25,33 @@
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
     "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
-    "Anthropic Expects to Match SpaceX’s Record IPO Size or Top It",
+    "The U.S. Just Hit $40 Trillion in Debt — 2 Years Ahead of Schedule. Here's What Investors Need to Know.",
     "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
-    "Does Coca-Cola pay dividends? Its yield & payout explained",
-    "Warren Buffett’s Empire Just Made a Massive AI Bet Nobody Saw Coming"
+    "Warren Buffett’s Empire Just Made a Massive AI Bet Nobody Saw Coming",
+    "Anthropic Expects to Match SpaceX’s Record IPO Size or Top It"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73104.2890625,
-        "perp_last_price": 73104.2890625,
-        "mark_price": 73104.2890625,
-        "index_price": 73104.2890625,
+        "spot_price": 73032.8984375,
+        "perp_last_price": 73032.8984375,
+        "mark_price": 73032.8984375,
+        "index_price": 73032.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 73104.2890625,
-        "stop_loss_technical": 69104.4296875,
-        "target_1": 79104.078125,
-        "target_2": 85103.8671875,
+        "entry_ideal": 73032.8984375,
+        "stop_loss_technical": 73377.8203125,
+        "target_1": 72515.515625,
+        "target_2": 71998.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 73104.2890625,
+        "entry_ideal": 73032.8984375,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 88787.86132812,
-        "target_2": 104471.43359375,
+        "target_1": 88609.38476562,
+        "target_2": 104185.87109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
