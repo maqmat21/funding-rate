@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T20:46:50.816407+00:00",
+    "generated_at_utc": "2026-08-20T21:10:09.177448+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.879,
+        "price": 98.871,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,34 +25,35 @@
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
     "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
+    "Elon Musk points to one country as AI's biggest threat",
+    "Billionaire Stanley Druckenmiller Sold Broadcom and Bought the Same Artificial Intelligence (AI) Stock Berkshire Piled $17 Billion Into",
     "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
-    "Should you buy a Medicare Advantage plan from Costco? What you'll want to know.",
-    "Baxter hires new CFO with visa contingency",
-    "US Debt Just Hit $40 Trillion and the 30-Year Yield Is Still Above 5%: Why Buffett’s Berkshire Owns Businesses, Not Bonds"
+    "Should you buy a Medicare Advantage plan from Costco? What you'll want to know."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72730.953125,
-        "perp_last_price": 72730.953125,
-        "mark_price": 72730.953125,
-        "index_price": 72730.953125,
+        "spot_price": 72620.6328125,
+        "perp_last_price": 72620.6328125,
+        "mark_price": 72620.6328125,
+        "index_price": 72620.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 72730.953125,
-        "stop_loss_technical": 73066.8984375,
-        "target_1": 72227.03515625,
-        "target_2": 71723.1171875,
+        "entry_ideal": 72620.6328125,
+        "stop_loss_technical": 73002.6796875,
+        "target_1": 72047.5625,
+        "target_2": 71474.4921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 72730.953125,
-        "stop_loss_technical": 71639.98882813,
-        "target_1": 74367.39957031,
-        "target_2": 76003.84601562,
+        "entry_ideal": 72620.6328125,
+        "stop_loss_technical": 71531.32332031,
+        "target_1": 74254.59705078,
+        "target_2": 75888.56128906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
