@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T02:03:35.198892+00:00",
+    "generated_at_utc": "2026-08-20T03:05:34.946731+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.85,
+        "price": 98.848,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,36 +24,36 @@
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
+    "Longtime fast-food chain quietly exits an entire state after 50 years",
     "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
-    "Trump Says US Starting ‘Economic Warfare’ Operation Against Iran",
     "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August.",
-    "Google Is Betting a Whopping $94 Billion on SpaceX Stock",
-    "Nvidia Guided to $91 Billion. Wall Street Penciled In $92 Billion."
+    "Sociedad Quimica Y Minera De Chile SA (SQM) (Q2 2026) Earnings Call Highlights: Record Lithium ...",
+    "Trump Says US Starting ‘Economic Warfare’ Operation Against Iran"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 69787.1171875,
-        "perp_last_price": 69787.1171875,
-        "mark_price": 69787.1171875,
-        "index_price": 69787.1171875,
+        "spot_price": 69127.6875,
+        "perp_last_price": 69127.6875,
+        "mark_price": 69127.6875,
+        "index_price": 69127.6875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69787.1171875,
-        "stop_loss_technical": 64112.0390625,
-        "target_1": 78299.734375,
-        "target_2": 86812.3515625,
+        "entry_ideal": 69127.6875,
+        "stop_loss_technical": 68090.7721875,
+        "target_1": 70683.06046875,
+        "target_2": 72238.4334375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 69787.1171875,
+        "entry_ideal": 69127.6875,
         "stop_loss_technical": 62648.57421875,
-        "target_1": 80494.93164062,
-        "target_2": 91202.74609375,
+        "target_1": 78846.35742188,
+        "target_2": 88565.02734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
