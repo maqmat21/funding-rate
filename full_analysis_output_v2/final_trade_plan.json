@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T16:46:08.595998+00:00",
+    "generated_at_utc": "2026-08-20T17:11:53.534025+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.899,
+        "price": 98.887,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 14m",
+    "U.S. markets close in 2h 49m",
     "News from the Yahoo Finance Network",
     "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make",
-    "Bitcoin surges to $72,000 after Trump’s major announcement",
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
     "The IRS just sent a $43 billion ‘Trump Bump’ to millions of Americans — did you get your check?",
-    "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?"
+    "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
+    "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 72627.59375,
-        "perp_last_price": 72627.59375,
-        "mark_price": 72627.59375,
-        "index_price": 72627.59375,
+        "spot_price": 72602.21875,
+        "perp_last_price": 72602.21875,
+        "mark_price": 72602.21875,
+        "index_price": 72602.21875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 72627.59375,
-        "stop_loss_technical": 71538.17984375,
-        "target_1": 74261.71460938,
-        "target_2": 75895.83546875,
+        "entry_ideal": 72600.1328125,
+        "stop_loss_technical": 72861.0625,
+        "target_1": 72208.73828125,
+        "target_2": 71817.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 72627.59375,
-        "stop_loss_technical": 71538.17984375,
-        "target_1": 74261.71460938,
-        "target_2": 75895.83546875,
+        "entry_ideal": 72602.21875,
+        "stop_loss_technical": 71513.18546875,
+        "target_1": 74235.76867188,
+        "target_2": 75869.31859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
