@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T15:15:26.075514+00:00",
+    "generated_at_utc": "2026-08-21T15:48:37.167462+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.87,
+        "price": 98.848,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.732,
+        "price": 4.734,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 46m",
+    "U.S. markets close in 4h 12m",
     "News from the Yahoo Finance Network",
+    "Why Bloom Energy Stock Crashed This Week",
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
-    "Tom Lee Spots ‘Good Sign’ as Ethereum ETFs Buy $189M in Biggest Day for 10 Months",
+    "All It Takes Is $5,000 Invested in Each of These 3 High-Yield Dividend Stocks to Generate Over $800 in Yearly Dividends",
     "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
-    "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
-    "Marvell’s $12.2 Billion Google Deal Changes the Bull Case for MRVL Stock"
+    "Tesla Is Ready to Launch Its EV Semi Truck—and the Stock Is Rising"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77823.90625,
-        "perp_last_price": 77823.90625,
-        "mark_price": 77823.90625,
-        "index_price": 77823.90625,
+        "spot_price": 77357.6171875,
+        "perp_last_price": 77357.6171875,
+        "mark_price": 77357.6171875,
+        "index_price": 77357.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77843.2734375,
-        "stop_loss_technical": 76675.62433594,
-        "target_1": 79594.74708984,
-        "target_2": 81346.22074219,
+        "entry_ideal": 77373.3203125,
+        "stop_loss_technical": 79479.0,
+        "target_1": 74214.80078125,
+        "target_2": 71056.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77823.90625,
-        "stop_loss_technical": 76656.54765625,
-        "target_1": 79574.94414062,
-        "target_2": 81325.98203125,
+        "entry_ideal": 77357.6171875,
+        "stop_loss_technical": 76197.25292969,
+        "target_1": 79098.16357422,
+        "target_2": 80838.70996094,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
