@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T22:42:10.067802+00:00",
+    "generated_at_utc": "2026-08-21T23:00:54.611002+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "China's New Five-Year Plan Preps the Nation for Peak Oil",
     "Phoebe Gates took a secret Stanford class on how to ‘rule the world’—and reportedly recruited employees for her startup accused of wire fraud",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
+    "Everyone’s Arguing About Taxing the Rich. Almost Nobody Noticed the $1 Trillion Already Slipping Past the IRS",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
-    "Elon Musk's SpaceX and Tesla Are Building a $16.8 Billion Chip Factory 5 Times Bigger Than Earth's Largest Building. What Does That Mean for Both Stocks?",
     "Morgan Stanley resets Nvidia stock forecast ahead of earnings",
-    "The Battery Boom Is Becoming Impossible to Ignore",
-    "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It"
+    "The Battery Boom Is Becoming Impossible to Ignore"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78470.1484375,
-        "perp_last_price": 78470.1484375,
-        "mark_price": 78470.1484375,
-        "index_price": 78470.1484375,
+        "spot_price": 78360.6796875,
+        "perp_last_price": 78360.6796875,
+        "mark_price": 78360.6796875,
+        "index_price": 78360.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78447.5234375,
-        "stop_loss_technical": 77270.81058594,
-        "target_1": 80212.59271484,
-        "target_2": 81977.66199219,
+        "entry_ideal": 78360.9375,
+        "stop_loss_technical": 79479.0,
+        "target_1": 76683.84375,
+        "target_2": 75006.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78470.1484375,
-        "stop_loss_technical": 77293.09621094,
-        "target_1": 80235.72677734,
-        "target_2": 82001.30511719,
+        "entry_ideal": 78360.6796875,
+        "stop_loss_technical": 77185.26949219,
+        "target_1": 80123.79498047,
+        "target_2": 81886.91027344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
