@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T08:31:03.932615+00:00",
+    "generated_at_utc": "2026-08-21T09:10:15.733882+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.749,
+        "price": 98.62,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 20m",
     "News from the Yahoo Finance Network",
     "If a Bear Market Is Coming, This Is the Single Best Investing Decision You Can Make",
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
+    "Trump bans children from ethical investing",
     "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
-    "3 AI Chip Stocks Down 15% or More to Buy Right Now",
-    "Bitcoin News Today: Reserve Rules Set Scope for Government Demand",
-    "TSLA Stock Eyes Another Winning Week: Nevada Clears Up To 5,000 Robotaxis, Musk Sees ‘Crazy’ Tesla Growth"
+    "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77200.0625,
-        "perp_last_price": 77200.0625,
-        "mark_price": 77200.0625,
-        "index_price": 77200.0625,
+        "spot_price": 77973.0,
+        "perp_last_price": 77973.0,
+        "mark_price": 77973.0,
+        "index_price": 77973.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77178.5625,
-        "stop_loss_technical": 71143.1328125,
-        "target_1": 86231.70703125,
-        "target_2": 95284.8515625,
+        "entry_ideal": 77973.0,
+        "stop_loss_technical": 71364.3515625,
+        "target_1": 87885.97265625,
+        "target_2": 97798.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77200.0625,
+        "entry_ideal": 77973.0,
         "stop_loss_technical": 62687.1015625,
-        "target_1": 98969.50390625,
-        "target_2": 120738.9453125,
+        "target_1": 100901.84765625,
+        "target_2": 123830.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
