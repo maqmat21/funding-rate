@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-20T23:59:45.939051+00:00",
+    "generated_at_utc": "2026-08-21T01:15:05.530740+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.791,
+        "price": 98.827,
         "trend": "bajista"
       },
       "US10Y": {
@@ -25,33 +25,34 @@
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
     "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
-    "The U.S. Just Hit $40 Trillion in Debt — 2 Years Ahead of Schedule. Here's What Investors Need to Know.",
     "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
-    "Warren Buffett’s Empire Just Made a Massive AI Bet Nobody Saw Coming",
-    "Anthropic Expects to Match SpaceX’s Record IPO Size or Top It"
+    "Alphabet and Nvidia Own More SpaceX Than BlackRock and Vanguard Combined. Here's Why That's About to Change.",
+    "Billionaire Investor David Tepper Recently Dumped Appaloosa Management's Stake in Sandisk and Initiated a New Position In a Stock That Some Wall Street Experts Think Could Eventually Be Worth $10 Trillion",
+    "The Biggest Players in a $500 Billion Market Are Exiting. Here’s Why Costco Just Entered."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73032.8984375,
-        "perp_last_price": 73032.8984375,
-        "mark_price": 73032.8984375,
-        "index_price": 73032.8984375,
+        "spot_price": 73953.546875,
+        "perp_last_price": 73953.546875,
+        "mark_price": 73953.546875,
+        "index_price": 73953.546875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 73032.8984375,
-        "stop_loss_technical": 73377.8203125,
-        "target_1": 72515.515625,
-        "target_2": 71998.1328125,
+        "entry_ideal": 73967.4296875,
+        "stop_loss_technical": 69313.96875,
+        "target_1": 80947.62109375,
+        "target_2": 87927.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 73032.8984375,
-        "stop_loss_technical": 62648.57421875,
-        "target_1": 88609.38476562,
-        "target_2": 104185.87109375,
+        "entry_ideal": 73953.546875,
+        "stop_loss_technical": 62687.1015625,
+        "target_1": 90853.21484375,
+        "target_2": 107752.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
