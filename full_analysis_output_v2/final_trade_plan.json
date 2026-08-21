@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T19:19:10.438340+00:00",
+    "generated_at_utc": "2026-08-21T19:40:49.805383+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,22 +11,22 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.818,
+        "price": 98.831,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.736,
+        "price": 4.738,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "$1 Million in Retirement Savings Spends Like $40,000 a Year. Here’s Why That’s Not Enough.",
-    "Medicare Part A Can Cover 100 Nursing Home Days. Her $9,000 Bill Started on Day 24.",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May",
+    "What Does the QuantumScape CEO's Sale of Nearly 82,000 Shares Mean for Investors?",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
+    "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May",
+    "Infleqtion Stands to Gain $300,000 After Backer’s Trades Trigger SEC Rule",
     "The Battery Boom Is Becoming Impossible to Ignore",
     "Suze Orman Told You to Buy SpaceX at $200, So Who Is Telling You to Sell at $136?"
   ],
@@ -34,25 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77044.078125,
-        "perp_last_price": 77044.078125,
-        "mark_price": 77044.078125,
-        "index_price": 77044.078125,
+        "spot_price": 77101.703125,
+        "perp_last_price": 77101.703125,
+        "mark_price": 77101.703125,
+        "index_price": 77101.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77044.078125,
-        "stop_loss_technical": 75888.41695312,
-        "target_1": 78777.56988281,
-        "target_2": 80511.06164063,
+        "entry_ideal": 77097.640625,
+        "stop_loss_technical": 79442.859375,
+        "target_1": 73579.8125,
+        "target_2": 70061.984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77044.078125,
-        "stop_loss_technical": 75888.41695312,
-        "target_1": 78777.56988281,
-        "target_2": 80511.06164063,
+        "entry_ideal": 77101.703125,
+        "stop_loss_technical": 75945.17757813,
+        "target_1": 78836.49144531,
+        "target_2": 80571.27976563,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
