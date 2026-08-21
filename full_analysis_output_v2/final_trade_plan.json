@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T16:51:35.346306+00:00",
+    "generated_at_utc": "2026-08-21T17:17:50.879397+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.802,
+        "price": 98.837,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.732,
+        "price": 4.736,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 10m",
+    "U.S. markets close in 2h 43m",
     "News from the Yahoo Finance Network",
+    "He Put After-Tax Money Into His 401(k) for Nine Years and Converted It Every January. He Retired at 62 With $610,000 the IRS Will Never Tax Again.",
+    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
+    "A 62-Year-Old Who Inherited a $1.2 Million IRA Is About to Hand the IRS $320,000",
     "Warren Buffett Just Gave Investors a 10-Word Warning About the Stock Market. History Shows That He's Probably Right.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
-    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "The Battery Boom Is Becoming Impossible to Ignore",
-    "Dave Ramsey exposes the one group of Americans who score big by filing Social Security at 62 — is this you?",
-    "Prediction: Apple Is Quietly Setting Up for a Huge 2026"
+    "The Battery Boom Is Becoming Impossible to Ignore"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77469.40625,
-        "perp_last_price": 77469.40625,
-        "mark_price": 77469.40625,
-        "index_price": 77469.40625,
+        "spot_price": 77380.5078125,
+        "perp_last_price": 77380.5078125,
+        "mark_price": 77380.5078125,
+        "index_price": 77380.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77472.671875,
-        "stop_loss_technical": 76310.58179688,
-        "target_1": 79215.80699219,
-        "target_2": 80958.94210937,
+        "entry_ideal": 77377.09375,
+        "stop_loss_technical": 79442.859375,
+        "target_1": 74278.4453125,
+        "target_2": 71179.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77469.40625,
-        "stop_loss_technical": 76307.36515625,
-        "target_1": 79212.46789063,
-        "target_2": 80955.52953125,
+        "entry_ideal": 77380.5078125,
+        "stop_loss_technical": 76219.80019531,
+        "target_1": 79121.56923828,
+        "target_2": 80862.63066406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
