@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T17:51:54.525831+00:00",
+    "generated_at_utc": "2026-08-22T18:11:54.324034+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,51 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
+    "1 Quantum Computing Stock That Looks Like a Screaming Buy Right Now",
     "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive",
-    "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-    "If You Have $10,000: 3 Dividend ETFs Worth Buying Before September"
+    "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
+    "Forget JEPI: BlackRock’s Answer Pays 7.6%, Charges the Same 0.35%, and Beat It by 10 Points This Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77361.421875,
-        "perp_last_price": 77361.421875,
-        "mark_price": 77361.421875,
-        "index_price": 77361.421875,
+        "spot_price": 77209.8515625,
+        "perp_last_price": 77209.8515625,
+        "mark_price": 77209.8515625,
+        "index_price": 77209.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77343.546875,
-        "stop_loss_technical": 76183.39367188,
-        "target_1": 79083.77667969,
-        "target_2": 80824.00648438,
+        "entry_ideal": 77209.8515625,
+        "stop_loss_technical": 78814.4921875,
+        "target_1": 74802.890625,
+        "target_2": 72395.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77361.421875,
-        "stop_loss_technical": 76201.00054688,
-        "target_1": 79102.05386719,
-        "target_2": 80842.68585937,
+        "entry_ideal": 77209.8515625,
+        "stop_loss_technical": 79463.7109375,
+        "target_1": 73829.0625,
+        "target_2": 70448.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
