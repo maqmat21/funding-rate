@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-21T23:52:55.635607+00:00",
+    "generated_at_utc": "2026-08-22T00:31:34.144117+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Elon Musk Said Bitcoin Has No Throat to Choke: Why Does That Matter?",
-    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
     "Phoebe Gates took a secret Stanford class on how to ‘rule the world’—and reportedly recruited employees for her startup accused of wire fraud",
+    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
-    "Elon Musk's SpaceX and Tesla Are Building a $16.8 Billion Chip Factory 5 Times Bigger Than Earth's Largest Building. What Does That Mean for Both Stocks?",
-    "Micron Fell 7% on Tuesday. Is This an Opportunity to Buy?",
-    "The Battery Boom Is Becoming Impossible to Ignore"
+    "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
+    "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May",
+    "Morgan Stanley resets Nvidia stock forecast ahead of earnings",
+    "Elon Musk's SpaceX and Tesla Are Building a $16.8 Billion Chip Factory 5 Times Bigger Than Earth's Largest Building. What Does That Mean for Both Stocks?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78291.1875,
-        "perp_last_price": 78291.1875,
-        "mark_price": 78291.1875,
-        "index_price": 78291.1875,
+        "spot_price": 78011.2734375,
+        "perp_last_price": 78011.2734375,
+        "mark_price": 78011.2734375,
+        "index_price": 78011.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78294.71875,
-        "stop_loss_technical": 79442.859375,
-        "target_1": 76572.5078125,
-        "target_2": 74850.296875,
+        "entry_ideal": 78011.2734375,
+        "stop_loss_technical": 79479.0,
+        "target_1": 75809.68359375,
+        "target_2": 73608.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78291.1875,
-        "stop_loss_technical": 77116.8196875,
-        "target_1": 80052.73921875,
-        "target_2": 81814.2909375,
+        "entry_ideal": 78011.2734375,
+        "stop_loss_technical": 76841.10433594,
+        "target_1": 79766.52708984,
+        "target_2": 81521.78074219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
