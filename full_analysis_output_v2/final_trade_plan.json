@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T23:09:11.616659+00:00",
+    "generated_at_utc": "2026-08-22T23:31:53.179451+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+    "91-year-old supermarket chain closes stores, lays off employees",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "The 30-Year Treasury Now Out-Yields Dividend Stocks by 2.2 Points. History Says What Followed the Last Time.",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "If You're 60 Years Old and Have This 401(k) Balance, You're Ahead of Your Peers",
-    "The 30-Year Treasury Now Out-Yields Dividend Stocks by 2.2 Points. History Says What Followed the Last Time."
+    "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77066.8515625,
-        "perp_last_price": 77066.8515625,
-        "mark_price": 77066.8515625,
-        "index_price": 77066.8515625,
+        "spot_price": 76963.8125,
+        "perp_last_price": 76963.8125,
+        "mark_price": 76963.8125,
+        "index_price": 76963.8125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77066.8515625,
-        "stop_loss_technical": 75910.84878906,
-        "target_1": 78800.85572266,
-        "target_2": 80534.85988281,
+        "entry_ideal": 76963.8125,
+        "stop_loss_technical": 78795.140625,
+        "target_1": 74216.8203125,
+        "target_2": 71469.828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77066.8515625,
+        "entry_ideal": 76963.8125,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73471.5625,
-        "target_2": 69876.2734375,
+        "target_1": 73213.96484375,
+        "target_2": 69464.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
