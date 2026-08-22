@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T19:09:39.860195+00:00",
+    "generated_at_utc": "2026-08-22T19:31:31.191830+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,47 +26,47 @@
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
     "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive",
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
-    "Here's How Many Shares of Target You'd Need for $10,000 in Yearly Dividends"
+    "My 3 Favorite High-Yield Dividend Stocks to Buy Right Now",
+    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77236.59375,
-        "perp_last_price": 77236.59375,
-        "mark_price": 77236.59375,
-        "index_price": 77236.59375,
+        "spot_price": 77288.703125,
+        "perp_last_price": 77288.703125,
+        "mark_price": 77288.703125,
+        "index_price": 77288.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77236.59375,
-        "stop_loss_technical": 78818.5,
-        "target_1": 74863.734375,
-        "target_2": 72490.875,
+        "entry_ideal": 77288.703125,
+        "stop_loss_technical": 76129.37257812,
+        "target_1": 79027.69894531,
+        "target_2": 80766.69476562,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77236.59375,
-        "stop_loss_technical": 79463.7109375,
-        "target_1": 73895.91796875,
-        "target_2": 70555.2421875,
+        "entry_ideal": 77288.703125,
+        "stop_loss_technical": 76129.37257812,
+        "target_1": 79027.69894531,
+        "target_2": 80766.69476562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
