@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T13:55:31.164250+00:00",
+    "generated_at_utc": "2026-08-22T14:10:02.873098+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,34 +26,34 @@
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-    "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It"
+    "Why I Think the Best Dividend Stock Isn't a Tech Name: It's Realty Income",
+    "BlackRock CEO Larry Fink says a bank account is 'one of the worst financial decisions' — and urges Americans to invest",
+    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77278.53125,
-        "perp_last_price": 77278.53125,
-        "mark_price": 77278.53125,
-        "index_price": 77278.53125,
+        "spot_price": 77072.328125,
+        "perp_last_price": 77072.328125,
+        "mark_price": 77072.328125,
+        "index_price": 77072.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77278.53125,
-        "stop_loss_technical": 76119.35328125,
-        "target_1": 79017.29820312,
-        "target_2": 80756.06515625,
+        "entry_ideal": 77072.328125,
+        "stop_loss_technical": 78814.4921875,
+        "target_1": 74459.08203125,
+        "target_2": 71845.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77278.53125,
+        "entry_ideal": 77072.328125,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 74000.76171875,
-        "target_2": 70722.9921875,
+        "target_1": 73485.25390625,
+        "target_2": 69898.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
