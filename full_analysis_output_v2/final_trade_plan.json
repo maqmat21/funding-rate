@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T07:21:34.026902+00:00",
+    "generated_at_utc": "2026-08-22T07:51:31.125598+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,50 +24,50 @@
     "News from the Yahoo Finance Network",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "UPS Fired Amazon. Was It The Smart Move?",
     "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
     "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It",
     "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-    "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year."
+    "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May",
+    "Scott Bessent is ‘playing with fire’ as the Treasury’s debt buyback risks putting the dollar in a devaluation spiral like the yen, economist warns"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77449.640625,
-        "perp_last_price": 77449.640625,
-        "mark_price": 77449.640625,
-        "index_price": 77449.640625,
+        "spot_price": 77301.53125,
+        "perp_last_price": 77301.53125,
+        "mark_price": 77301.53125,
+        "index_price": 77301.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77416.1328125,
-        "stop_loss_technical": 76254.89082031,
-        "target_1": 79157.99580078,
-        "target_2": 80899.85878906,
+        "entry_ideal": 77301.53125,
+        "stop_loss_technical": 78814.4921875,
+        "target_1": 75032.08984375,
+        "target_2": 72762.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77449.640625,
-        "stop_loss_technical": 76287.89601562,
-        "target_1": 79192.25753906,
-        "target_2": 80934.87445312,
+        "entry_ideal": 77301.53125,
+        "stop_loss_technical": 79463.7109375,
+        "target_1": 74058.26171875,
+        "target_2": 70814.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
