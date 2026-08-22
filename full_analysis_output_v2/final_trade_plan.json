@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T10:59:55.415394+00:00",
+    "generated_at_utc": "2026-08-22T11:20:13.818533+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,34 @@
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "If a Stock Market Crash Is Coming, Warren Buffett's Playbook Says Do This 1 Thing Right Now",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "Warren Buffett's Last Warning About the Stock Market Could Haunt Wall Street for Years. History Says This Will Happen Next.",
-    "Elon Musk Owns 48.4% of SpaceX, a New Filing Shows. Here's Why That Matters for Everyone Else Holding the Stock.",
-    "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling."
+    "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It",
+    "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
+    "Warren Buffett's Last Warning About the Stock Market Could Haunt Wall Street for Years. History Says This Will Happen Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76967.1015625,
-        "perp_last_price": 76967.1015625,
-        "mark_price": 76967.1015625,
-        "index_price": 76967.1015625,
+        "spot_price": 76835.4765625,
+        "perp_last_price": 76835.4765625,
+        "mark_price": 76835.4765625,
+        "index_price": 76835.4765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76964.8828125,
-        "stop_loss_technical": 78814.4921875,
-        "target_1": 74190.46875,
-        "target_2": 71416.0546875,
+        "entry_ideal": 76830.671875,
+        "stop_loss_technical": 78818.5,
+        "target_1": 73848.9296875,
+        "target_2": 70867.1875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76967.1015625,
+        "entry_ideal": 76835.4765625,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73222.1875,
-        "target_2": 69477.2734375,
+        "target_1": 72893.125,
+        "target_2": 68950.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
