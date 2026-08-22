@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T20:53:27.755833+00:00",
+    "generated_at_utc": "2026-08-22T21:10:17.472159+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,14 +34,29 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77323.2265625,
-        "perp_last_price": 77323.2265625,
-        "mark_price": 77323.2265625,
-        "index_price": 77323.2265625,
+        "spot_price": 77136.96875,
+        "perp_last_price": 77136.96875,
+        "mark_price": 77136.96875,
+        "index_price": 77136.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 77136.96875,
+        "stop_loss_technical": 78814.4921875,
+        "target_1": 74620.68359375,
+        "target_2": 72104.3984375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,24 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77322.7578125,
-        "stop_loss_technical": 78818.5,
-        "target_1": 75079.14453125,
-        "target_2": 72835.53125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 77323.2265625,
-        "stop_loss_technical": 76163.37816406,
-        "target_1": 79062.99916016,
-        "target_2": 80802.77175781,
+        "entry_ideal": 77136.96875,
+        "stop_loss_technical": 79463.7109375,
+        "target_1": 73646.85546875,
+        "target_2": 70156.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
