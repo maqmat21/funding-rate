@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T09:10:47.117364+00:00",
+    "generated_at_utc": "2026-08-22T09:43:10.194856+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
+    "Warren Buffett's Last Warning About the Stock Market Could Haunt Wall Street for Years. History Says This Will Happen Next.",
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
     "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
     "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It",
-    "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-    "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May"
+    "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77201.5390625,
-        "perp_last_price": 77201.5390625,
-        "mark_price": 77201.5390625,
-        "index_price": 77201.5390625,
+        "spot_price": 77164.2734375,
+        "perp_last_price": 77164.2734375,
+        "mark_price": 77164.2734375,
+        "index_price": 77164.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77201.5390625,
-        "stop_loss_technical": 76043.51597656,
-        "target_1": 78938.57369141,
-        "target_2": 80675.60832031,
+        "entry_ideal": 77164.2734375,
+        "stop_loss_technical": 78818.5,
+        "target_1": 74682.93359375,
+        "target_2": 72201.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77201.5390625,
+        "entry_ideal": 77164.2734375,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73808.28125,
-        "target_2": 70415.0234375,
+        "target_1": 73715.1171875,
+        "target_2": 70265.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
