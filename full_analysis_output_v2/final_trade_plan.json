@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T21:51:28.136577+00:00",
+    "generated_at_utc": "2026-08-22T22:09:17.710435+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses",
+    "Social Security’s $184,500 Wage Cap Is Under Fire. Here’s Exactly Who Would Pay More",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us."
+    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive",
+    "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76940.2578125,
-        "perp_last_price": 76940.2578125,
-        "mark_price": 76940.2578125,
-        "index_price": 76940.2578125,
+        "spot_price": 77125.8125,
+        "perp_last_price": 77125.8125,
+        "mark_price": 77125.8125,
+        "index_price": 77125.8125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76940.2578125,
-        "stop_loss_technical": 78814.4921875,
-        "target_1": 74128.90625,
-        "target_2": 71317.5546875,
+        "entry_ideal": 77125.8125,
+        "stop_loss_technical": 75968.9253125,
+        "target_1": 78861.14328125,
+        "target_2": 80596.4740625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76940.2578125,
+        "entry_ideal": 77125.8125,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73155.078125,
-        "target_2": 69369.8984375,
+        "target_1": 73618.96484375,
+        "target_2": 70112.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
