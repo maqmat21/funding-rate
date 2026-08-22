@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T15:08:56.753011+00:00",
+    "generated_at_utc": "2026-08-22T15:32:26.602204+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,32 +27,32 @@
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
     "Prediction: This Is Where Pfizer Stock Will Be in 2030",
-    "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
-    "Meta Platform's Legal Issues Could Become Much More Than A Q2 Earnings Headache"
+    "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
+    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76979.0390625,
-        "perp_last_price": 76979.0390625,
-        "mark_price": 76979.0390625,
-        "index_price": 76979.0390625,
+        "spot_price": 77030.296875,
+        "perp_last_price": 77030.296875,
+        "mark_price": 77030.296875,
+        "index_price": 77030.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76986.5234375,
-        "stop_loss_technical": 78814.4921875,
-        "target_1": 74244.5703125,
-        "target_2": 71502.6171875,
+        "entry_ideal": 77031.0390625,
+        "stop_loss_technical": 75875.57347656,
+        "target_1": 78764.23744141,
+        "target_2": 80497.43582031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76979.0390625,
+        "entry_ideal": 77030.296875,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73252.03125,
-        "target_2": 69525.0234375,
+        "target_1": 73380.17578125,
+        "target_2": 69730.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
