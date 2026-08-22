@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T13:38:53.870210+00:00",
+    "generated_at_utc": "2026-08-22T13:55:31.164250+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,34 @@
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC",
+    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
     "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form."
+    "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77159.09375,
-        "perp_last_price": 77159.09375,
-        "mark_price": 77159.09375,
-        "index_price": 77159.09375,
+        "spot_price": 77278.53125,
+        "perp_last_price": 77278.53125,
+        "mark_price": 77278.53125,
+        "index_price": 77278.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77159.09375,
-        "stop_loss_technical": 78818.5,
-        "target_1": 74669.984375,
-        "target_2": 72180.875,
+        "entry_ideal": 77278.53125,
+        "stop_loss_technical": 76119.35328125,
+        "target_1": 79017.29820312,
+        "target_2": 80756.06515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77159.09375,
+        "entry_ideal": 77278.53125,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73702.16796875,
-        "target_2": 70245.2421875,
+        "target_1": 74000.76171875,
+        "target_2": 70722.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
