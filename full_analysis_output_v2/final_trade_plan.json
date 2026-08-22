@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T08:47:49.735701+00:00",
+    "generated_at_utc": "2026-08-22T09:10:47.117364+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,33 +27,32 @@
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
     "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
     "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It",
-    "Nike Now Yields More Than Coca-Cola. Is the Turnaround Finally Priced In?",
-    "Warren Buffett's Berkshire makes $1.6 billion move on major bank"
+    "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
+    "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77146.359375,
-        "perp_last_price": 77146.359375,
-        "mark_price": 77146.359375,
-        "index_price": 77146.359375,
+        "spot_price": 77201.5390625,
+        "perp_last_price": 77201.5390625,
+        "mark_price": 77201.5390625,
+        "index_price": 77201.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77146.3515625,
-        "stop_loss_technical": 78814.4921875,
-        "target_1": 74644.140625,
-        "target_2": 72141.9296875,
+        "entry_ideal": 77201.5390625,
+        "stop_loss_technical": 76043.51597656,
+        "target_1": 78938.57369141,
+        "target_2": 80675.60832031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77146.359375,
+        "entry_ideal": 77201.5390625,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73670.33203125,
-        "target_2": 70194.3046875,
+        "target_1": 73808.28125,
+        "target_2": 70415.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
