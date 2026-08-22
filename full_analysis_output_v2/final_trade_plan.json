@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T22:09:17.710435+00:00",
+    "generated_at_utc": "2026-08-22T22:34:51.718861+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "Social Security’s $184,500 Wage Cap Is Under Fire. Here’s Exactly Who Would Pay More",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive",
-    "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses"
+    "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses",
+    "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77125.8125,
-        "perp_last_price": 77125.8125,
-        "mark_price": 77125.8125,
-        "index_price": 77125.8125,
+        "spot_price": 76928.8515625,
+        "perp_last_price": 76928.8515625,
+        "mark_price": 76928.8515625,
+        "index_price": 76928.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77125.8125,
-        "stop_loss_technical": 75968.9253125,
-        "target_1": 78861.14328125,
-        "target_2": 80596.4740625,
+        "entry_ideal": 76928.8515625,
+        "stop_loss_technical": 78814.4921875,
+        "target_1": 74100.390625,
+        "target_2": 71271.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77125.8125,
+        "entry_ideal": 76928.8515625,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73618.96484375,
-        "target_2": 70112.1171875,
+        "target_1": 73126.5625,
+        "target_2": 69324.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
