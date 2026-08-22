@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T15:50:54.158123+00:00",
+    "generated_at_utc": "2026-08-22T16:09:26.376342+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses",
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
+    "Millions of US seniors could lose full Social Security COLAs. New proposal may preserve program, but here’s who loses",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
+    "How a 53-Year-Old Can Turn $465,000 Into a Monthly Paycheck Machine by 63",
     "Prediction: This Is Where Pfizer Stock Will Be in 2030",
-    "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form."
+    "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76975.7421875,
-        "perp_last_price": 76975.7421875,
-        "mark_price": 76975.7421875,
-        "index_price": 76975.7421875,
+        "spot_price": 77036.671875,
+        "perp_last_price": 77036.671875,
+        "mark_price": 77036.671875,
+        "index_price": 77036.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76975.7421875,
-        "stop_loss_technical": 78818.5,
-        "target_1": 74211.60546875,
-        "target_2": 71447.46875,
+        "entry_ideal": 77036.671875,
+        "stop_loss_technical": 75881.12179687,
+        "target_1": 78769.99699219,
+        "target_2": 80503.32210938,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76975.7421875,
+        "entry_ideal": 77036.671875,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73243.7890625,
-        "target_2": 69511.8359375,
+        "target_1": 73396.11328125,
+        "target_2": 69755.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
