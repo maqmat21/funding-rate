@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T14:35:05.862538+00:00",
+    "generated_at_utc": "2026-08-22T14:52:58.600715+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,33 +26,34 @@
     "How Likely Is It That the Stock Market Crashes Under President Donald Trump in the Second Half of 2026? Here's What History Tells Us.",
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
     "Forget High-Yield Traps: Coca-Cola Is the Best Dividend Stock",
-    "Billionaire David Tepper Sold His Fund's Sandisk Stake in Favor of This Trillion-Dollar Artificial Intelligence (AI) Chip Stock",
+    "Prediction: This Is Where Pfizer Stock Will Be in 2030",
     "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-    "Scholar Rock (SRRK) Stock Looks Stretched On Book Value But Strong On Returns"
+    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77148.8125,
-        "perp_last_price": 77148.8125,
-        "mark_price": 77148.8125,
-        "index_price": 77148.8125,
+        "spot_price": 76942.078125,
+        "perp_last_price": 76942.078125,
+        "mark_price": 76942.078125,
+        "index_price": 76942.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77148.8125,
-        "stop_loss_technical": 75991.5803125,
-        "target_1": 78884.66078125,
-        "target_2": 80620.5090625,
+        "entry_ideal": 76937.2578125,
+        "stop_loss_technical": 78814.4921875,
+        "target_1": 74121.40625,
+        "target_2": 71305.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77148.8125,
+        "entry_ideal": 76942.078125,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73676.46484375,
-        "target_2": 70204.1171875,
+        "target_1": 73159.62890625,
+        "target_2": 69377.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
