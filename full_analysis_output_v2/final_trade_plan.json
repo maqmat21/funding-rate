@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-22T03:49:35.612193+00:00",
+    "generated_at_utc": "2026-08-22T04:17:34.031836+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,35 @@
     "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
     "Phoebe Gates took a secret Stanford class on how to ‘rule the world’—and reportedly recruited employees for her startup accused of wire fraud",
     "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
     "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
     "Costco Just Upped Its Dividend by 13.1%. Here's How Much $10,000 Invested Pays Each Year.",
+    "This Energy Stock Pays an 8% Dividend, and Nobody's Talking About It",
     "‘Damage from the chaotic tariff regime cannot be refunded’: The $100 billion in refunds have wiped out revenue the import taxes brought in since May"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78541.1796875,
-        "perp_last_price": 78541.1796875,
-        "mark_price": 78541.1796875,
-        "index_price": 78541.1796875,
+        "spot_price": 78275.3984375,
+        "perp_last_price": 78275.3984375,
+        "mark_price": 78275.3984375,
+        "index_price": 78275.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78541.1796875,
-        "stop_loss_technical": 79442.859375,
-        "target_1": 77188.66015625,
-        "target_2": 75836.140625,
+        "entry_ideal": 78275.3984375,
+        "stop_loss_technical": 79326.21875,
+        "target_1": 76699.16796875,
+        "target_2": 75122.9375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78541.1796875,
-        "stop_loss_technical": 77363.06199219,
-        "target_1": 80308.35623047,
-        "target_2": 82075.53277344,
+        "entry_ideal": 78275.3984375,
+        "stop_loss_technical": 77101.26746094,
+        "target_1": 80036.59490234,
+        "target_2": 81797.79136719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
