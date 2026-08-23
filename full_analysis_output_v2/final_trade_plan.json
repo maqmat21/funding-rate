@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T08:48:59.861870+00:00",
+    "generated_at_utc": "2026-08-23T09:11:51.841043+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+    "The S&P 500 Just Did Something Seen Only 1 Other Time Since 1871 — and It's Not Good News for Wall Street",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
-    "They Gave Each Grandchild $19,000 a Year for Twelve Years. Nearly $1.4 Million Left the Estate and the IRS Never Received a Single Gift-Tax Form.",
-    "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it"
+    "The Ultimate Growth Stock to Buy With $1,000 Right Now -- It's Been My Best Stock Performer by Far",
+    "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76491.671875,
-        "perp_last_price": 76491.671875,
-        "mark_price": 76491.671875,
-        "index_price": 76491.671875,
+        "spot_price": 76556.6328125,
+        "perp_last_price": 76556.6328125,
+        "mark_price": 76556.6328125,
+        "index_price": 76556.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76491.3984375,
-        "stop_loss_technical": 75344.02746094,
-        "target_1": 78212.45490234,
-        "target_2": 79933.51136719,
+        "entry_ideal": 76552.8125,
+        "stop_loss_technical": 75404.5203125,
+        "target_1": 78275.25078125,
+        "target_2": 79997.6890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76491.671875,
+        "entry_ideal": 76556.6328125,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 72033.61328125,
-        "target_2": 67575.5546875,
+        "target_1": 72196.015625,
+        "target_2": 67835.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
