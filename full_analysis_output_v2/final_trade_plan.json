@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T22:34:22.857215+00:00",
+    "generated_at_utc": "2026-08-23T22:52:23.807362+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.845,
+        "price": 98.857,
         "trend": "alcista"
       },
       "US10Y": {
@@ -34,26 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77633.8671875,
-        "perp_last_price": 77633.8671875,
-        "mark_price": 77633.8671875,
-        "index_price": 77633.8671875,
+        "spot_price": 77670.1796875,
+        "perp_last_price": 77670.1796875,
+        "mark_price": 77670.1796875,
+        "index_price": 77670.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77625.0078125,
-        "stop_loss_technical": 78025.8984375,
-        "target_1": 77023.671875,
-        "target_2": 76422.3359375,
+        "entry_ideal": 77670.1796875,
+        "stop_loss_technical": 78025.0703125,
+        "target_1": 77137.84375,
+        "target_2": 76605.5078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77633.8671875,
-        "stop_loss_technical": 76469.35917969,
-        "target_1": 79380.62919922,
-        "target_2": 81127.39121094,
+        "entry_ideal": 77670.1796875,
+        "stop_loss_technical": 76505.12699219,
+        "target_1": 79417.75873047,
+        "target_2": 81165.33777344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
