@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T17:56:59.036466+00:00",
+    "generated_at_utc": "2026-08-23T18:17:19.987499+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,33 +27,33 @@
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now",
-    "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says"
+    "Germany’s Far Right Has a New Enemy: The 100-Year-Old Bauhaus",
+    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77202.21875,
-        "perp_last_price": 77202.21875,
-        "mark_price": 77202.21875,
-        "index_price": 77202.21875,
+        "spot_price": 77341.2578125,
+        "perp_last_price": 77341.2578125,
+        "mark_price": 77341.2578125,
+        "index_price": 77341.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77204.1328125,
-        "stop_loss_technical": 77715.546875,
-        "target_1": 76437.01171875,
-        "target_2": 75669.890625,
+        "entry_ideal": 77348.6796875,
+        "stop_loss_technical": 76188.44949219,
+        "target_1": 79089.02498047,
+        "target_2": 80829.37027344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77202.21875,
-        "stop_loss_technical": 76044.18546875,
-        "target_1": 78939.26867188,
-        "target_2": 80676.31859375,
+        "entry_ideal": 77341.2578125,
+        "stop_loss_technical": 76181.13894531,
+        "target_1": 79081.43611328,
+        "target_2": 80821.61441406,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
