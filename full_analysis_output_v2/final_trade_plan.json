@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T17:01:37.294701+00:00",
+    "generated_at_utc": "2026-08-23T17:29:00.657175+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,33 +27,33 @@
     "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says",
-    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now"
+    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now",
+    "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77397.03125,
-        "perp_last_price": 77397.03125,
-        "mark_price": 77397.03125,
-        "index_price": 77397.03125,
+        "spot_price": 77216.171875,
+        "perp_last_price": 77216.171875,
+        "mark_price": 77216.171875,
+        "index_price": 77216.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77397.03125,
-        "stop_loss_technical": 76236.07578125,
-        "target_1": 79138.46445312,
-        "target_2": 80879.89765625,
+        "entry_ideal": 77222.453125,
+        "stop_loss_technical": 77715.546875,
+        "target_1": 76482.8125,
+        "target_2": 75743.171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77397.03125,
-        "stop_loss_technical": 76236.07578125,
-        "target_1": 79138.46445312,
-        "target_2": 80879.89765625,
+        "entry_ideal": 77216.171875,
+        "stop_loss_technical": 76057.92929687,
+        "target_1": 78953.53574219,
+        "target_2": 80690.89960938,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
