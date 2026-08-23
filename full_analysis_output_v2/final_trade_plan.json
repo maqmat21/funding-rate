@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T21:53:30.481650+00:00",
+    "generated_at_utc": "2026-08-23T22:09:03.564700+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "You're An 'Upper Class' Baby Boomer If Your Net Worth Is Above This Number",
+    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
+    "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77804.7109375,
-        "perp_last_price": 77804.7109375,
-        "mark_price": 77804.7109375,
-        "index_price": 77804.7109375,
+        "spot_price": 77706.4375,
+        "perp_last_price": 77706.4375,
+        "mark_price": 77706.4375,
+        "index_price": 77706.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77813.390625,
-        "stop_loss_technical": 76646.18976562,
-        "target_1": 79564.19191406,
-        "target_2": 81314.99320313,
+        "entry_ideal": 77706.4375,
+        "stop_loss_technical": 78025.0703125,
+        "target_1": 77228.48828125,
+        "target_2": 76750.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77804.7109375,
-        "stop_loss_technical": 76637.64027344,
-        "target_1": 79555.31693359,
-        "target_2": 81305.92292969,
+        "entry_ideal": 77706.4375,
+        "stop_loss_technical": 76540.8409375,
+        "target_1": 79454.83234375,
+        "target_2": 81203.2271875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
