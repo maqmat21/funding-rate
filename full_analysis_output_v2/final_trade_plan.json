@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T17:29:00.657175+00:00",
+    "generated_at_utc": "2026-08-23T17:44:45.056462+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,26 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77216.171875,
-        "perp_last_price": 77216.171875,
-        "mark_price": 77216.171875,
-        "index_price": 77216.171875,
+        "spot_price": 77232.40625,
+        "perp_last_price": 77232.40625,
+        "mark_price": 77232.40625,
+        "index_price": 77232.40625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77222.453125,
+        "entry_ideal": 77232.40625,
         "stop_loss_technical": 77715.546875,
-        "target_1": 76482.8125,
-        "target_2": 75743.171875,
+        "target_1": 76507.6953125,
+        "target_2": 75782.984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77216.171875,
-        "stop_loss_technical": 76057.92929687,
-        "target_1": 78953.53574219,
-        "target_2": 80690.89960938,
+        "entry_ideal": 77232.40625,
+        "stop_loss_technical": 76073.92015625,
+        "target_1": 78970.13539063,
+        "target_2": 80707.86453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
