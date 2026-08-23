@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T23:09:40.855608+00:00",
+    "generated_at_utc": "2026-08-23T23:32:46.289579+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.867,
+        "price": 98.862,
         "trend": "alcista"
       },
       "US10Y": {
@@ -34,26 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77499.5390625,
-        "perp_last_price": 77499.5390625,
-        "mark_price": 77499.5390625,
-        "index_price": 77499.5390625,
+        "spot_price": 77742.8515625,
+        "perp_last_price": 77742.8515625,
+        "mark_price": 77742.8515625,
+        "index_price": 77742.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77488.7109375,
-        "stop_loss_technical": 78025.8984375,
-        "target_1": 76682.9296875,
-        "target_2": 75877.1484375,
+        "entry_ideal": 77742.8515625,
+        "stop_loss_technical": 76576.70878906,
+        "target_1": 79492.06572266,
+        "target_2": 81241.27988281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77499.5390625,
-        "stop_loss_technical": 76337.04597656,
-        "target_1": 79243.27869141,
-        "target_2": 80987.01832031,
+        "entry_ideal": 77742.8515625,
+        "stop_loss_technical": 76576.70878906,
+        "target_1": 79492.06572266,
+        "target_2": 81241.27988281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
