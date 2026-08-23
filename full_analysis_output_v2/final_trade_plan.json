@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T14:00:09.395515+00:00",
+    "generated_at_utc": "2026-08-23T14:24:12.952972+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,34 @@
     "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "How to Build $11,800 a Month in Dividend Income Without Selling a Single Share",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "I Get Paid By 3 Different Dividend Stocks Every Single Month. Here's Who's on My List.",
-    "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says",
-    "Women want ‘dads,’ not ‘duds’: A Nobel-winning historian has a theory for falling birthrates, but the economics aren’t so straightforward"
+    "History Says You Should Know These 3 Things Before Buying the Vanguard S&P 500 ETF (VOO)",
+    "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77479.8515625,
-        "perp_last_price": 77479.8515625,
-        "mark_price": 77479.8515625,
-        "index_price": 77479.8515625,
+        "spot_price": 77440.8984375,
+        "perp_last_price": 77440.8984375,
+        "mark_price": 77440.8984375,
+        "index_price": 77440.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77479.8515625,
-        "stop_loss_technical": 76317.65378906,
-        "target_1": 79223.14822266,
-        "target_2": 80966.44488281,
+        "entry_ideal": 77438.796875,
+        "stop_loss_technical": 77715.546875,
+        "target_1": 77023.671875,
+        "target_2": 76608.546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77479.8515625,
-        "stop_loss_technical": 76317.65378906,
-        "target_1": 79223.14822266,
-        "target_2": 80966.44488281,
+        "entry_ideal": 77440.8984375,
+        "stop_loss_technical": 76279.28496094,
+        "target_1": 79183.31865234,
+        "target_2": 80925.73886719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
