@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T21:18:17.855052+00:00",
+    "generated_at_utc": "2026-08-23T21:38:24.417039+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
-    "You're An 'Upper Class' Baby Boomer If Your Net Worth Is Above This Number",
     "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
-    "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
+    "You're An 'Upper Class' Baby Boomer If Your Net Worth Is Above This Number",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77947.8125,
-        "perp_last_price": 77947.8125,
-        "mark_price": 77947.8125,
-        "index_price": 77947.8125,
+        "spot_price": 77740.8203125,
+        "perp_last_price": 77740.8203125,
+        "mark_price": 77740.8203125,
+        "index_price": 77740.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77947.8125,
-        "stop_loss_technical": 76778.5953125,
-        "target_1": 79701.63828125,
-        "target_2": 81455.4640625,
+        "entry_ideal": 77740.8203125,
+        "stop_loss_technical": 78025.0703125,
+        "target_1": 77314.4453125,
+        "target_2": 76888.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77947.8125,
-        "stop_loss_technical": 76778.5953125,
-        "target_1": 79701.63828125,
-        "target_2": 81455.4640625,
+        "entry_ideal": 77740.8203125,
+        "stop_loss_technical": 76574.70800781,
+        "target_1": 79489.98876953,
+        "target_2": 81239.15722656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
