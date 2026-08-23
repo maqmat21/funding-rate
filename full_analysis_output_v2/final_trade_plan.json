@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T15:52:01.614755+00:00",
+    "generated_at_utc": "2026-08-23T16:10:53.492715+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
-    "How to Build $6,600 a Month in Dividend Income From Three Income Buckets",
-    "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+    "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "How to Build $11,800 a Month in Dividend Income Without Selling a Single Share",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
+    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now",
+    "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77186.9296875,
-        "perp_last_price": 77186.9296875,
-        "mark_price": 77186.9296875,
-        "index_price": 77186.9296875,
+        "spot_price": 77227.859375,
+        "perp_last_price": 77227.859375,
+        "mark_price": 77227.859375,
+        "index_price": 77227.859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77171.640625,
-        "stop_loss_technical": 77715.546875,
-        "target_1": 76355.78125,
-        "target_2": 75539.921875,
+        "entry_ideal": 77225.953125,
+        "stop_loss_technical": 76067.56382812,
+        "target_1": 78963.53707031,
+        "target_2": 80701.12101563,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77186.9296875,
-        "stop_loss_technical": 76029.12574219,
-        "target_1": 78923.63560547,
-        "target_2": 80660.34152344,
+        "entry_ideal": 77227.859375,
+        "stop_loss_technical": 76069.44148437,
+        "target_1": 78965.48621094,
+        "target_2": 80703.11304688,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
