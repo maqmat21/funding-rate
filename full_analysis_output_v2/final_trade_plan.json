@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T19:09:48.461709+00:00",
+    "generated_at_utc": "2026-08-23T19:31:20.919722+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,8 +23,8 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
-    "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+    "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "You're An 'Upper Class' Baby Boomer If Your Net Worth Is Above This Number",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
@@ -34,25 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77318.9375,
-        "perp_last_price": 77318.9375,
-        "mark_price": 77318.9375,
-        "index_price": 77318.9375,
+        "spot_price": 77331.4296875,
+        "perp_last_price": 77331.4296875,
+        "mark_price": 77331.4296875,
+        "index_price": 77331.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77316.8125,
-        "stop_loss_technical": 76157.0603125,
-        "target_1": 79056.44078125,
-        "target_2": 80796.0690625,
+        "entry_ideal": 77331.4296875,
+        "stop_loss_technical": 77729.359375,
+        "target_1": 76734.53515625,
+        "target_2": 76137.640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77318.9375,
-        "stop_loss_technical": 76159.1534375,
-        "target_1": 79058.61359375,
-        "target_2": 80798.2896875,
+        "entry_ideal": 77331.4296875,
+        "stop_loss_technical": 76171.45824219,
+        "target_1": 79071.38685547,
+        "target_2": 80811.34402344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
