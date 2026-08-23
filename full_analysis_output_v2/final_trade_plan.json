@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-23T15:00:37.952176+00:00",
+    "generated_at_utc": "2026-08-23T15:31:56.851777+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,9 +24,9 @@
     "News from the Yahoo Finance Network",
     "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings.",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+    "The Stock Market Is Repeating a Pattern Not Seen in Decades. Here's What History Says Comes Next.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now",
     "How to Build $11,800 a Month in Dividend Income Without Selling a Single Share",
     "Venezuela abandoning the bolivar and adopting the U.S. dollar would be the biggest currency switch since the advent of the euro, Hanke says"
   ],
@@ -34,26 +34,25 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77110.5390625,
-        "perp_last_price": 77110.5390625,
-        "mark_price": 77110.5390625,
-        "index_price": 77110.5390625,
+        "spot_price": 77250.1328125,
+        "perp_last_price": 77250.1328125,
+        "mark_price": 77250.1328125,
+        "index_price": 77250.1328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77110.5390625,
-        "stop_loss_technical": 77715.546875,
-        "target_1": 76203.02734375,
-        "target_2": 75295.515625,
+        "entry_ideal": 77250.1328125,
+        "stop_loss_technical": 76091.38082031,
+        "target_1": 78988.26080078,
+        "target_2": 80726.38878906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +61,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77110.5390625,
-        "stop_loss_technical": 75953.88097656,
-        "target_1": 78845.52619141,
-        "target_2": 80580.51332031,
+        "entry_ideal": 77250.1328125,
+        "stop_loss_technical": 76091.38082031,
+        "target_1": 78988.26080078,
+        "target_2": 80726.38878906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
