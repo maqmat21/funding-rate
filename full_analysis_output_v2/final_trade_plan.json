@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T11:49:26.987929+00:00",
+    "generated_at_utc": "2026-08-24T12:15:32.911622+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.947,
+        "price": 98.993,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 42m",
+    "U.S. markets open in 1h 15m",
     "News from the Yahoo Finance Network",
     "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Put Wall Street on Notice With This $863 Million Warning",
-    "If a Bear Market Is Coming, History Says Investors Who Do This 1 Thing Always Win Out",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "If an AI Bubble Burst Is Coming, Warren Buffett's 1999 Warning to Investors Is More Crucial Than Ever",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
+    "If a Bear Market Is Coming, History Says Investors Who Do This 1 Thing Always Win Out",
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
+    "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78159.2109375,
-        "perp_last_price": 78159.2109375,
-        "mark_price": 78159.2109375,
-        "index_price": 78159.2109375,
+        "spot_price": 78154.4375,
+        "perp_last_price": 78154.4375,
+        "mark_price": 78154.4375,
+        "index_price": 78154.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78172.203125,
-        "stop_loss_technical": 76999.62007812,
-        "target_1": 79931.07769531,
-        "target_2": 81689.95226563,
+        "entry_ideal": 78154.4375,
+        "stop_loss_technical": 78589.0,
+        "target_1": 77502.59375,
+        "target_2": 76850.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78159.2109375,
-        "stop_loss_technical": 76986.82277344,
-        "target_1": 79917.79318359,
-        "target_2": 81676.37542969,
+        "entry_ideal": 78154.4375,
+        "stop_loss_technical": 76982.1209375,
+        "target_1": 79912.91234375,
+        "target_2": 81671.3871875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
