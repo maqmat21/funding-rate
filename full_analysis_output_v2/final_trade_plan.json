@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T08:04:08.008079+00:00",
+    "generated_at_utc": "2026-08-24T08:58:28.618579+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.964,
+        "price": 98.978,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 27m",
+    "U.S. markets open in 4h 32m",
     "News from the Yahoo Finance Network",
-    "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
+    "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027",
+    "Will Nvidia Stock Soar After Aug. 26? Here's What History Shows.",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "A New SEC Filing Reveals Exactly How Many Shares of SpaceX Elon Musk Owns. Here's Why It Matters."
+    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77249.9765625,
-        "perp_last_price": 77249.9765625,
-        "mark_price": 77249.9765625,
-        "index_price": 77249.9765625,
+        "spot_price": 77011.828125,
+        "perp_last_price": 77011.828125,
+        "mark_price": 77011.828125,
+        "index_price": 77011.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77236.75,
+        "entry_ideal": 77011.828125,
         "stop_loss_technical": 78025.8984375,
-        "target_1": 76053.02734375,
-        "target_2": 74869.3046875,
+        "target_1": 75490.72265625,
+        "target_2": 73969.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77249.9765625,
-        "stop_loss_technical": 76091.22691406,
-        "target_1": 78988.10103516,
-        "target_2": 80726.22550781,
+        "entry_ideal": 77011.828125,
+        "stop_loss_technical": 79463.7109375,
+        "target_1": 73334.00390625,
+        "target_2": 69656.1796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
