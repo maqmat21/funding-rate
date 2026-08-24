@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T23:35:49.696744+00:00",
+    "generated_at_utc": "2026-08-24T23:52:08.899784+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "2 Monster Stocks to Buy and Hold for the Next 20 Years",
-    "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Tesla stops selling solar roofs a decade after launch"
+    "Walmart Has Gone Down While Target Is Up 62%. But Only 1 of These Dividend Kings Is a Buy in August.",
+    "Nancy Pelosi Invested $3 Million in This AI Energy Play"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78882.7109375,
-        "perp_last_price": 78882.7109375,
-        "mark_price": 78882.7109375,
-        "index_price": 78882.7109375,
+        "spot_price": 78873.9375,
+        "perp_last_price": 78873.9375,
+        "mark_price": 78873.9375,
+        "index_price": 78873.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78882.7109375,
-        "stop_loss_technical": 76678.859375,
-        "target_1": 82188.48828125,
-        "target_2": 85494.265625,
+        "entry_ideal": 78873.9375,
+        "stop_loss_technical": 79987.03125,
+        "target_1": 77204.296875,
+        "target_2": 75534.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78882.7109375,
+        "entry_ideal": 78873.9375,
         "stop_loss_technical": 68867.53125,
-        "target_1": 93905.48046875,
-        "target_2": 108928.25,
+        "target_1": 93883.546875,
+        "target_2": 108893.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
