@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T14:53:14.890892+00:00",
+    "generated_at_utc": "2026-08-24T15:27:29.454283+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.966,
+        "price": 98.962,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.698,
+        "price": 4.7,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 7m",
+    "U.S. markets close in 4h 33m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
-    "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Mark Cuban wants to solve wealth inequality by making employers choose between paying higher taxes or giving every member of staff company stock"
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
+    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
+    "They Moved to Florida for a $200,000 Roth Conversion. Spending 184 Days Back in New York Could Undo the Tax Savings."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79294.1328125,
-        "perp_last_price": 79294.1328125,
-        "mark_price": 79294.1328125,
-        "index_price": 79294.1328125,
+        "spot_price": 79933.671875,
+        "perp_last_price": 79933.671875,
+        "mark_price": 79933.671875,
+        "index_price": 79933.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 79270.2890625,
-        "stop_loss_technical": 79798.1171875,
-        "target_1": 78478.546875,
-        "target_2": 77686.8046875,
+        "entry_ideal": 79933.671875,
+        "stop_loss_technical": 76668.4296875,
+        "target_1": 84831.53515625,
+        "target_2": 89729.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 79294.1328125,
+        "entry_ideal": 79933.671875,
         "stop_loss_technical": 68867.53125,
-        "target_1": 94934.03515625,
-        "target_2": 110573.9375,
+        "target_1": 96532.8828125,
+        "target_2": 113132.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
