@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T18:59:29.061374+00:00",
+    "generated_at_utc": "2026-08-24T19:28:00.633800+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.019,
+        "price": 99.022,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.698,
+        "price": 4.7,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 1m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Trump tariffs evoke Smoot-Hawley scene from 'Ferris Bueller'",
+    "Endeavour Silver (TSX:EDR) Stock May Be Fairly Valued On Terronera Restart",
+    "The best credit cards for groceries (2026)",
+    "Amphenol (APH) Stock Looks Above Fair Value On Cash Flow But Near Fair Value On Earnings",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Tesla Just Took a Blow to Its AI Chip Plans"
+    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78920.7890625,
-        "perp_last_price": 78920.7890625,
-        "mark_price": 78920.7890625,
-        "index_price": 78920.7890625,
+        "spot_price": 78868.5234375,
+        "perp_last_price": 78868.5234375,
+        "mark_price": 78868.5234375,
+        "index_price": 78868.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78920.7890625,
+        "entry_ideal": 78870.4609375,
         "stop_loss_technical": 79987.03125,
-        "target_1": 77321.42578125,
-        "target_2": 75722.0625,
+        "target_1": 77195.60546875,
+        "target_2": 75520.75,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78920.7890625,
+        "entry_ideal": 78868.5234375,
         "stop_loss_technical": 68867.53125,
-        "target_1": 94000.67578125,
-        "target_2": 109080.5625,
+        "target_1": 93870.01171875,
+        "target_2": 108871.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
