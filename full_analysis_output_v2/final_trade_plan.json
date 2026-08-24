@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T22:37:17.836858+00:00",
+    "generated_at_utc": "2026-08-24T22:56:53.211333+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Parents cough up thousands decorating their kids’ dorms even as total college costs hit six figures a year",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
     "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Put Wall Street on Notice With This $863 Million Warning",
-    "Coca-Cola's stock buybacks: What its latest program means for investors",
-    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now"
+    "Trump bought SpaceX shares two weeks after blockbuster IPO"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78903.21875,
-        "perp_last_price": 78903.21875,
-        "mark_price": 78903.21875,
-        "index_price": 78903.21875,
+        "spot_price": 78718.09375,
+        "perp_last_price": 78718.09375,
+        "mark_price": 78718.09375,
+        "index_price": 78718.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78903.21875,
-        "stop_loss_technical": 77719.67046875,
-        "target_1": 80678.54117187,
-        "target_2": 82453.86359375,
-        "note": "Operativa adaptativa basada en contexto macro"
+        "entry_ideal": 78725.6328125,
+        "stop_loss_technical": 79987.03125,
+        "target_1": 76833.53515625,
+        "target_2": 74941.4375,
+        "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78903.21875,
+        "entry_ideal": 78718.09375,
         "stop_loss_technical": 68867.53125,
-        "target_1": 93956.75,
-        "target_2": 109010.28125,
+        "target_1": 93493.9375,
+        "target_2": 108269.78125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
