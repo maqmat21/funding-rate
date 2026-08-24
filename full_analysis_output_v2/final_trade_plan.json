@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T03:13:23.408317+00:00",
+    "generated_at_utc": "2026-08-24T04:05:58.075030+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.82,
+        "price": 98.836,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 25m",
     "News from the Yahoo Finance Network",
-    "Russia is suffering from a slow-motion bank run as the Kremlin scavenges for war funding—and it may start seizing recruits for the military too",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
+    "Russia is suffering from a slow-motion bank run as the Kremlin scavenges for war funding—and it may start seizing recruits for the military too",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "Here's the Smartest S&P 500 Dividend Stock to Buy With $1,000 Right Now -- and It's Sporting a 6.8% Dividend Yield",
     "Meet the 18-year-old junk remover who vibe-coded his own pricing calculator and makes up to $15,000 a month"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77261.9921875,
-        "perp_last_price": 77261.9921875,
-        "mark_price": 77261.9921875,
-        "index_price": 77261.9921875,
+        "spot_price": 77064.6875,
+        "perp_last_price": 77064.6875,
+        "mark_price": 77064.6875,
+        "index_price": 77064.6875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77253.3203125,
-        "stop_loss_technical": 78025.8984375,
-        "target_1": 76094.453125,
-        "target_2": 74935.5859375,
+        "entry_ideal": 77064.6015625,
+        "stop_loss_technical": 75908.63253906,
+        "target_1": 78798.55509766,
+        "target_2": 80532.50863281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77261.9921875,
+        "entry_ideal": 77064.6875,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73959.4140625,
-        "target_2": 70656.8359375,
+        "target_1": 73466.15234375,
+        "target_2": 69867.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
