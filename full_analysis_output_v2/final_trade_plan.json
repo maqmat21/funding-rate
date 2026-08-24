@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T19:53:05.567121+00:00",
+    "generated_at_utc": "2026-08-24T20:16:07.148811+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.019,
+        "price": 99.011,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "He Bought a Boomer's 50-Year-Old Business and Found Out the Numbers Were Wrong. They Were Much Better Than the Seller Had Advertised",
-    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
-    "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows"
+    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
+    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
+    "Elon Musk Says SpaceX Needs More Power Than New York City in a Heatwave. These 2 Nuclear Stocks Should Benefit.",
+    "Tesla stops selling solar roofs a decade after launch",
+    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78612.5,
-        "perp_last_price": 78612.5,
-        "mark_price": 78612.5,
-        "index_price": 78612.5,
+        "spot_price": 78654.2421875,
+        "perp_last_price": 78654.2421875,
+        "mark_price": 78654.2421875,
+        "index_price": 78654.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,10 +49,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 78612.5,
-        "stop_loss_technical": 79987.03125,
-        "target_1": 76550.703125,
-        "target_2": 74488.90625,
+        "entry_ideal": 78654.2421875,
+        "stop_loss_technical": 79993.6015625,
+        "target_1": 76645.203125,
+        "target_2": 74636.1640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78612.5,
+        "entry_ideal": 78654.2421875,
         "stop_loss_technical": 68867.53125,
-        "target_1": 93229.953125,
-        "target_2": 107847.40625,
+        "target_1": 93334.30859375,
+        "target_2": 108014.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
