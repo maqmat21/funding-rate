@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T19:28:00.633800+00:00",
+    "generated_at_utc": "2026-08-24T19:53:05.567121+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,11 +11,11 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.022,
+        "price": 99.019,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.7,
+        "price": 4.704,
         "trend": "bajista"
       }
     }
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Endeavour Silver (TSX:EDR) Stock May Be Fairly Valued On Terronera Restart",
-    "The best credit cards for groceries (2026)",
-    "Amphenol (APH) Stock Looks Above Fair Value On Cash Flow But Near Fair Value On Earnings",
-    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
+    "He Bought a Boomer's 50-Year-Old Business and Found Out the Numbers Were Wrong. They Were Much Better Than the Seller Had Advertised",
+    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
+    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
+    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+    "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78868.5234375,
-        "perp_last_price": 78868.5234375,
-        "mark_price": 78868.5234375,
-        "index_price": 78868.5234375,
+        "spot_price": 78612.5,
+        "perp_last_price": 78612.5,
+        "mark_price": 78612.5,
+        "index_price": 78612.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78870.4609375,
+        "entry_ideal": 78612.5,
         "stop_loss_technical": 79987.03125,
-        "target_1": 77195.60546875,
-        "target_2": 75520.75,
+        "target_1": 76550.703125,
+        "target_2": 74488.90625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78868.5234375,
+        "entry_ideal": 78612.5,
         "stop_loss_technical": 68867.53125,
-        "target_1": 93870.01171875,
-        "target_2": 108871.5,
+        "target_1": 93229.953125,
+        "target_2": 107847.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
