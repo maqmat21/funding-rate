@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T21:44:25.244007+00:00",
+    "generated_at_utc": "2026-08-24T22:01:31.483414+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.985,
+        "price": 98.986,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Virtu Financial (VIRT) Stock Could Trade Below Fair Value Even Now",
+    "Which Account Do You Empty First in Retirement? Get It Wrong and It Costs You Years. These 4 ETFs Make It Simpler",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Tesla stops selling solar roofs a decade after launch",
-    "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Put Wall Street on Notice With This $863 Million Warning",
-    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now"
+    "VIG vs DGRO: After Comparing the Two Biggest Dividend Growth ETFs, One Gives You a Bigger Raise Every Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78970.2890625,
-        "perp_last_price": 78970.2890625,
-        "mark_price": 78970.2890625,
-        "index_price": 78970.2890625,
+        "spot_price": 78854.1796875,
+        "perp_last_price": 78854.1796875,
+        "mark_price": 78854.1796875,
+        "index_price": 78854.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78970.2890625,
-        "stop_loss_technical": 76678.859375,
-        "target_1": 82407.43359375,
-        "target_2": 85844.578125,
+        "entry_ideal": 78860.8828125,
+        "stop_loss_technical": 79987.03125,
+        "target_1": 77171.66015625,
+        "target_2": 75482.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78970.2890625,
+        "entry_ideal": 78854.1796875,
         "stop_loss_technical": 68867.53125,
-        "target_1": 94124.42578125,
-        "target_2": 109278.5625,
+        "target_1": 93834.15234375,
+        "target_2": 108814.125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
