@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T04:05:58.075030+00:00",
+    "generated_at_utc": "2026-08-24T04:55:59.758373+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.836,
+        "price": 98.828,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 25m",
+    "U.S. markets open in 8h 35m",
     "News from the Yahoo Finance Network",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
     "Russia is suffering from a slow-motion bank run as the Kremlin scavenges for war funding—and it may start seizing recruits for the military too",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "Meet the 18-year-old junk remover who vibe-coded his own pricing calculator and makes up to $15,000 a month"
+    "Trump Team Pulls Millions From TRUMP Memecoin Liquidity Pools During Price Rally",
+    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77064.6875,
-        "perp_last_price": 77064.6875,
-        "mark_price": 77064.6875,
-        "index_price": 77064.6875,
+        "spot_price": 76812.5625,
+        "perp_last_price": 76812.5625,
+        "mark_price": 76812.5625,
+        "index_price": 76812.5625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77064.6015625,
-        "stop_loss_technical": 75908.63253906,
-        "target_1": 78798.55509766,
-        "target_2": 80532.50863281,
+        "entry_ideal": 76812.5625,
+        "stop_loss_technical": 78025.8984375,
+        "target_1": 74992.55859375,
+        "target_2": 73172.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77064.6875,
+        "entry_ideal": 76812.5625,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73466.15234375,
-        "target_2": 69867.6171875,
+        "target_1": 72835.83984375,
+        "target_2": 68859.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
