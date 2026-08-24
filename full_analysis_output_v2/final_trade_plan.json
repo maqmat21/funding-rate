@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T07:14:21.378843+00:00",
+    "generated_at_utc": "2026-08-24T08:04:08.008079+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.864,
+        "price": 98.964,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 17m",
+    "U.S. markets open in 5h 27m",
     "News from the Yahoo Finance Network",
     "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
@@ -34,26 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77721.4296875,
-        "perp_last_price": 77721.4296875,
-        "mark_price": 77721.4296875,
-        "index_price": 77721.4296875,
+        "spot_price": 77249.9765625,
+        "perp_last_price": 77249.9765625,
+        "mark_price": 77249.9765625,
+        "index_price": 77249.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77721.4296875,
-        "stop_loss_technical": 76555.60824219,
-        "target_1": 79470.16185547,
-        "target_2": 81218.89402344,
+        "entry_ideal": 77236.75,
+        "stop_loss_technical": 78025.8984375,
+        "target_1": 76053.02734375,
+        "target_2": 74869.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77721.4296875,
-        "stop_loss_technical": 76555.60824219,
-        "target_1": 79470.16185547,
-        "target_2": 81218.89402344,
+        "entry_ideal": 77249.9765625,
+        "stop_loss_technical": 76091.22691406,
+        "target_1": 78988.10103516,
+        "target_2": 80726.22550781,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
