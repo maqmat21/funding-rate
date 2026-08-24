@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T02:09:23.191944+00:00",
+    "generated_at_utc": "2026-08-24T03:13:23.408317+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.814,
+        "price": 98.82,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Russia is suffering from a slow-motion bank run as the Kremlin scavenges for war funding—and it may start seizing recruits for the military too",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
     "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "A New SEC Filing Reveals Exactly How Many Shares of SpaceX Elon Musk Owns. Here's Why It Matters.",
-    "You're An 'Upper Class' Baby Boomer If Your Net Worth Is Above This Number",
-    "Here's the Smartest S&P 500 Dividend Stock to Buy With $1,000 Right Now -- and It's Sporting a 6.8% Dividend Yield"
+    "Here's the Smartest S&P 500 Dividend Stock to Buy With $1,000 Right Now -- and It's Sporting a 6.8% Dividend Yield",
+    "Meet the 18-year-old junk remover who vibe-coded his own pricing calculator and makes up to $15,000 a month"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77120.34375,
-        "perp_last_price": 77120.34375,
-        "mark_price": 77120.34375,
-        "index_price": 77120.34375,
+        "spot_price": 77261.9921875,
+        "perp_last_price": 77261.9921875,
+        "mark_price": 77261.9921875,
+        "index_price": 77261.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77120.34375,
-        "stop_loss_technical": 78025.0703125,
-        "target_1": 75763.25390625,
-        "target_2": 74406.1640625,
+        "entry_ideal": 77253.3203125,
+        "stop_loss_technical": 78025.8984375,
+        "target_1": 76094.453125,
+        "target_2": 74935.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77120.34375,
+        "entry_ideal": 77261.9921875,
         "stop_loss_technical": 79463.7109375,
-        "target_1": 73605.29296875,
-        "target_2": 70090.2421875,
+        "target_1": 73959.4140625,
+        "target_2": 70656.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
