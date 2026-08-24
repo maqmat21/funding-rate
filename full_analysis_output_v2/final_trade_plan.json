@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T12:15:32.911622+00:00",
+    "generated_at_utc": "2026-08-24T13:13:17.454326+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.993,
+        "price": 98.931,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.738,
+        "price": 4.712,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 15m",
     "News from the Yahoo Finance Network",
-    "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Put Wall Street on Notice With This $863 Million Warning",
+    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "If a Bear Market Is Coming, History Says Investors Who Do This 1 Thing Always Win Out",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027"
+    "Trump says last minute deal reached with Canada to delay 50% US tariffs on imports from Ottawa",
+    "Direct Truths About Money Everyone Needs to Hear",
+    "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Put Wall Street on Notice With This $863 Million Warning",
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78154.4375,
-        "perp_last_price": 78154.4375,
-        "mark_price": 78154.4375,
-        "index_price": 78154.4375,
+        "spot_price": 79192.0234375,
+        "perp_last_price": 79192.0234375,
+        "mark_price": 79192.0234375,
+        "index_price": 79192.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78154.4375,
-        "stop_loss_technical": 78589.0,
-        "target_1": 77502.59375,
-        "target_2": 76850.75,
+        "entry_ideal": 79205.6015625,
+        "stop_loss_technical": 78017.51753906,
+        "target_1": 80987.72759766,
+        "target_2": 82769.85363281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78154.4375,
-        "stop_loss_technical": 76982.1209375,
-        "target_1": 79912.91234375,
-        "target_2": 81671.3871875,
+        "entry_ideal": 79192.0234375,
+        "stop_loss_technical": 78004.14308594,
+        "target_1": 80973.84396484,
+        "target_2": 82755.66449219,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
