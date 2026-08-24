@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T10:58:56.355309+00:00",
+    "generated_at_utc": "2026-08-24T11:24:55.857447+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.012,
+        "price": 99.01,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 32m",
+    "U.S. markets open in 2h 6m",
     "News from the Yahoo Finance Network",
     "If a Bear Market Is Coming, History Says Investors Who Do This 1 Thing Always Win Out",
-    "If an AI Bubble Burst Is Coming, Warren Buffett's 1999 Warning to Investors Is More Crucial Than Ever",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "If an AI Bubble Burst Is Coming, Warren Buffett's 1999 Warning to Investors Is More Crucial Than Ever",
+    "5 Monthly Dividend Payers That Belong in Your Roth IRA",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "This Nvidia earnings fact will frustrate you"
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77566.0,
-        "perp_last_price": 77566.0,
-        "mark_price": 77566.0,
-        "index_price": 77566.0,
+        "spot_price": 77801.65625,
+        "perp_last_price": 77801.65625,
+        "mark_price": 77801.65625,
+        "index_price": 77801.65625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77571.8671875,
-        "stop_loss_technical": 78025.0703125,
-        "target_1": 76892.0625,
-        "target_2": 76212.2578125,
+        "entry_ideal": 77801.65625,
+        "stop_loss_technical": 76634.63140625,
+        "target_1": 79552.19351562,
+        "target_2": 81302.73078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77566.0,
-        "stop_loss_technical": 76402.51,
-        "target_1": 79311.235,
-        "target_2": 81056.47,
+        "entry_ideal": 77801.65625,
+        "stop_loss_technical": 76634.63140625,
+        "target_1": 79552.19351562,
+        "target_2": 81302.73078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
