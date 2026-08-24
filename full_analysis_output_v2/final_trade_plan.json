@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T20:16:07.148811+00:00",
+    "generated_at_utc": "2026-08-24T20:49:07.539702+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.011,
+        "price": 99.0,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "33 Stocks That Could Rally 33% or More",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Elon Musk Says SpaceX Needs More Power Than New York City in a Heatwave. These 2 Nuclear Stocks Should Benefit.",
-    "Tesla stops selling solar roofs a decade after launch",
-    "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders."
+    "Quantum Computing Stocks IonQ, Rigetti Computing, and D-Wave Quantum Have Put Wall Street on Notice With This $863 Million Warning",
+    "‘The village idiot could have made it’: Warren Buffett’s dead-simple playbook to supercharge your retirement now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78654.2421875,
-        "perp_last_price": 78654.2421875,
-        "mark_price": 78654.2421875,
-        "index_price": 78654.2421875,
+        "spot_price": 78897.71875,
+        "perp_last_price": 78897.71875,
+        "mark_price": 78897.71875,
+        "index_price": 78897.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78654.2421875,
-        "stop_loss_technical": 79993.6015625,
-        "target_1": 76645.203125,
-        "target_2": 74636.1640625,
+        "entry_ideal": 78899.2734375,
+        "stop_loss_technical": 76678.859375,
+        "target_1": 82229.89453125,
+        "target_2": 85560.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78654.2421875,
+        "entry_ideal": 78897.71875,
         "stop_loss_technical": 68867.53125,
-        "target_1": 93334.30859375,
-        "target_2": 108014.375,
+        "target_1": 93943.0,
+        "target_2": 108988.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
