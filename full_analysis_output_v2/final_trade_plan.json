@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T06:03:07.465607+00:00",
+    "generated_at_utc": "2026-08-24T07:14:21.378843+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.851,
+        "price": 98.864,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 28m",
+    "U.S. markets open in 6h 17m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
+    "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
     "When he dies, Warren Buffett wants 90% of wife’s inheritance put into 1 investment. Here’s what it is, and how to get it",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-    "Russia is suffering from a slow-motion bank run as the Kremlin scavenges for war funding—and it may start seizing recruits for the military too",
     "A New SEC Filing Reveals Exactly How Many Shares of SpaceX Elon Musk Owns. Here's Why It Matters."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77110.53125,
-        "perp_last_price": 77110.53125,
-        "mark_price": 77110.53125,
-        "index_price": 77110.53125,
+        "spot_price": 77721.4296875,
+        "perp_last_price": 77721.4296875,
+        "mark_price": 77721.4296875,
+        "index_price": 77721.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,26 +47,28 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77110.53125,
-        "stop_loss_technical": 75953.87328125,
-        "target_1": 78845.51820313,
-        "target_2": 80580.50515625,
+        "entry_ideal": 77721.4296875,
+        "stop_loss_technical": 76555.60824219,
+        "target_1": 79470.16185547,
+        "target_2": 81218.89402344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77110.53125,
-        "stop_loss_technical": 79463.7109375,
-        "target_1": 73580.76171875,
-        "target_2": 70050.9921875,
+        "entry_ideal": 77721.4296875,
+        "stop_loss_technical": 76555.60824219,
+        "target_1": 79470.16185547,
+        "target_2": 81218.89402344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
