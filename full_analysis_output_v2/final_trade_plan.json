@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T17:17:41.406928+00:00",
+    "generated_at_utc": "2026-08-24T17:48:36.329050+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.001,
+        "price": 99.033,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.692,
+        "price": 4.704,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 43m",
+    "U.S. markets close in 2h 12m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Warren Buffett's Favorite 'Forever' Stock Hits A High After Big Rally",
+    "Tom Lee Says BitMine Has No Reason To Sell ETH With Staking Rewards Over $300M",
     "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
     "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
-    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-    "You're An 'Upper Class' Baby Boomer If Your Net Worth Is Above This Number"
+    "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79065.2109375,
-        "perp_last_price": 79065.2109375,
-        "mark_price": 79065.2109375,
-        "index_price": 79065.2109375,
+        "spot_price": 78711.3671875,
+        "perp_last_price": 78711.3671875,
+        "mark_price": 78711.3671875,
+        "index_price": 78711.3671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 79058.828125,
-        "stop_loss_technical": 79987.03125,
-        "target_1": 77666.5234375,
-        "target_2": 76274.21875,
+        "entry_ideal": 78725.6796875,
+        "stop_loss_technical": 79993.6015625,
+        "target_1": 76823.796875,
+        "target_2": 74921.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 79065.2109375,
+        "entry_ideal": 78711.3671875,
         "stop_loss_technical": 68867.53125,
-        "target_1": 94361.73046875,
-        "target_2": 109658.25,
+        "target_1": 93477.12109375,
+        "target_2": 108242.875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
