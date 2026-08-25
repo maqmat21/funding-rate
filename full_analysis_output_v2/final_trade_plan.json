@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T04:27:02.682857+00:00",
+    "generated_at_utc": "2026-08-25T05:02:14.221130+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.067,
+        "price": 99.074,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 4m",
+    "U.S. markets open in 8h 29m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Jensen Huang Told Investors to \"Buy at a Discount\" on June 8. History Says This Is How Often CEOs Who Publicly Call the Bottom Are Actually Right.",
     "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-    "Jensen Huang Told Investors to \"Buy at a Discount\" on June 8. History Says This Is How Often CEOs Who Publicly Call the Bottom Are Actually Right.",
-    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "He Retired From Ford, Then Eyed Its $30,000 Electric Pickup. His Retiree Discount Suddenly Looked Uncomfortably Like Pay."
+    "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
+    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80263.1328125,
-        "perp_last_price": 80263.1328125,
-        "mark_price": 80263.1328125,
-        "index_price": 80263.1328125,
+        "spot_price": 80417.6796875,
+        "perp_last_price": 80417.6796875,
+        "mark_price": 80417.6796875,
+        "index_price": 80417.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80253.609375,
-        "stop_loss_technical": 81245.53125,
-        "target_1": 78765.7265625,
-        "target_2": 77277.84375,
+        "entry_ideal": 80405.8671875,
+        "stop_loss_technical": 77449.96875,
+        "target_1": 84839.71484375,
+        "target_2": 89273.5625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 80263.1328125,
+        "entry_ideal": 80417.6796875,
         "stop_loss_technical": 73011.4140625,
-        "target_1": 91140.7109375,
-        "target_2": 102018.2890625,
+        "target_1": 91527.078125,
+        "target_2": 102636.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
