@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T14:37:07.657441+00:00",
+    "generated_at_utc": "2026-08-25T15:24:47.018159+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.965,
+        "price": 98.961,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.66,
+        "price": 4.653,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 24m",
+    "U.S. markets close in 4h 36m",
     "News from the Yahoo Finance Network",
-    "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
+    "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "UK’s SPP backs DB surplus rules, urges key tweaks",
-    "Trump plans to grow his way out of $40 trillion debt crisis—it’s a ‘fantastic story’ but virtually impossible, says top budget economist"
+    "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
+    "2 Big Reasons Not to Claim Social Security at 65"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79272.4921875,
-        "perp_last_price": 79272.4921875,
-        "mark_price": 79272.4921875,
-        "index_price": 79272.4921875,
+        "spot_price": 79199.9921875,
+        "perp_last_price": 79199.9921875,
+        "mark_price": 79199.9921875,
+        "index_price": 79199.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79296.4609375,
+        "entry_ideal": 79199.9921875,
         "stop_loss_technical": 78114.640625,
-        "target_1": 81069.19140625,
-        "target_2": 82841.921875,
+        "target_1": 80828.01953125,
+        "target_2": 82456.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79272.4921875,
-        "stop_loss_technical": 78083.40480469,
-        "target_1": 81056.12326172,
-        "target_2": 82839.75433594,
+        "entry_ideal": 79199.9921875,
+        "stop_loss_technical": 78011.99230469,
+        "target_1": 80981.99201172,
+        "target_2": 82763.99183594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
