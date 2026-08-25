@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T21:04:13.750021+00:00",
+    "generated_at_utc": "2026-08-25T21:37:15.351989+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.898,
+        "price": 98.912,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,11 +22,11 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Rich Families Can Afford to Live Apart but Often Choose to Stay Together. So, Why Do Middle-Class Families Equate Moving Out With Success?",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
+    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
+    "Roth Conversions Between 60 and 65: The $450,000 Window That Closes the Day Medicare Starts",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "Targa grants new CFO hefty long-term incentive",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
   ],
@@ -34,26 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78167.03125,
-        "perp_last_price": 78167.03125,
-        "mark_price": 78167.03125,
-        "index_price": 78167.03125,
+        "spot_price": 78558.4921875,
+        "perp_last_price": 78558.4921875,
+        "mark_price": 78558.4921875,
+        "index_price": 78558.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78166.2109375,
-        "stop_loss_technical": 76993.71777344,
-        "target_1": 79924.95068359,
-        "target_2": 81683.69042969,
+        "entry_ideal": 78558.4921875,
+        "stop_loss_technical": 77871.7421875,
+        "target_1": 79588.6171875,
+        "target_2": 80618.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78167.03125,
-        "stop_loss_technical": 76994.52578125,
-        "target_1": 79925.78945313,
-        "target_2": 81684.54765625,
+        "entry_ideal": 78558.4921875,
+        "stop_loss_technical": 77380.11480469,
+        "target_1": 80326.05826172,
+        "target_2": 82093.62433594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
