@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T07:02:12.747451+00:00",
+    "generated_at_utc": "2026-08-25T07:52:20.039974+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.106,
+        "price": 99.074,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 29m",
+    "U.S. markets open in 5h 39m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
@@ -34,38 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80605.84375,
-        "perp_last_price": 80605.84375,
-        "mark_price": 80605.84375,
-        "index_price": 80605.84375,
+        "spot_price": 79507.671875,
+        "perp_last_price": 79507.671875,
+        "mark_price": 79507.671875,
+        "index_price": 79507.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 79507.671875,
+        "stop_loss_technical": 81245.53125,
+        "target_1": 76900.8828125,
+        "target_2": 74294.09375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 80605.7578125,
-        "stop_loss_technical": 77873.2578125,
-        "target_1": 84704.5078125,
-        "target_2": 88803.2578125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 80605.84375,
+        "entry_ideal": 79507.671875,
         "stop_loss_technical": 73011.4140625,
-        "target_1": 91997.48828125,
-        "target_2": 103389.1328125,
+        "target_1": 89252.05859375,
+        "target_2": 98996.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
