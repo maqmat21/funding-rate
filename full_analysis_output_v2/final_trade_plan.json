@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T18:51:42.147866+00:00",
+    "generated_at_utc": "2026-08-25T19:21:31.287792+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.924,
+        "price": 98.895,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.643,
+        "price": 4.641,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 9m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "California AG says no settlement talks scheduled with Paramount",
-    "Her House Was in a Trust, So the Court Never Saw It. Her Neighbor’s Family Spent Fourteen Months and $22,000 Getting Permission to Sell the Same Kind of House.",
-    "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
+    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
+    "MrBeast claims he has 'negative money' despite $2.6B net worth —  Mark Cuban says that's more common than you'd expect",
+    "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
+    "SpaceX unveils Starbase launch site in Louisiana, moves up orbital data center launch timeline"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79187.8828125,
-        "perp_last_price": 79187.8828125,
-        "mark_price": 79187.8828125,
-        "index_price": 79187.8828125,
+        "spot_price": 79187.4921875,
+        "perp_last_price": 79187.4921875,
+        "mark_price": 79187.4921875,
+        "index_price": 79187.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79187.8828125,
-        "stop_loss_technical": 78000.06457031,
-        "target_1": 80969.61017578,
-        "target_2": 82751.33753906,
+        "entry_ideal": 79187.4921875,
+        "stop_loss_technical": 78114.640625,
+        "target_1": 80796.76953125,
+        "target_2": 82406.046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79187.8828125,
-        "stop_loss_technical": 78000.06457031,
-        "target_1": 80969.61017578,
-        "target_2": 82751.33753906,
+        "entry_ideal": 79187.4921875,
+        "stop_loss_technical": 77999.67980469,
+        "target_1": 80969.21076172,
+        "target_2": 82750.92933594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
