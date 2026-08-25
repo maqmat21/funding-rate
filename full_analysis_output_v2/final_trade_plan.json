@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T16:49:17.919201+00:00",
+    "generated_at_utc": "2026-08-25T17:17:04.281233+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.946,
+        "price": 98.947,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.645,
+        "price": 4.643,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 12m",
+    "U.S. markets close in 2h 44m",
     "News from the Yahoo Finance Network",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "‘No downside’: Warren Buffett trusts 2 key assets for his grandkids — and says the income will likely jump for decades",
     "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally"
+    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
+    "One Reason to Be Bullish on SanDisk Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79311.046875,
-        "perp_last_price": 79311.046875,
-        "mark_price": 79311.046875,
-        "index_price": 79311.046875,
+        "spot_price": 78980.359375,
+        "perp_last_price": 78980.359375,
+        "mark_price": 78980.359375,
+        "index_price": 78980.359375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79322.9765625,
-        "stop_loss_technical": 78114.640625,
-        "target_1": 81135.48046875,
-        "target_2": 82947.984375,
+        "entry_ideal": 78980.359375,
+        "stop_loss_technical": 77795.65398438,
+        "target_1": 80757.41746094,
+        "target_2": 82534.47554687,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79311.046875,
-        "stop_loss_technical": 78121.38117187,
-        "target_1": 81095.54542969,
-        "target_2": 82880.04398438,
+        "entry_ideal": 78980.359375,
+        "stop_loss_technical": 77795.65398438,
+        "target_1": 80757.41746094,
+        "target_2": 82534.47554687,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
