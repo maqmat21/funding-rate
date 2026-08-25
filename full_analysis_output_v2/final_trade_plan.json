@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T23:03:26.760269+00:00",
+    "generated_at_utc": "2026-08-25T23:33:00.249392+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,32 +28,32 @@
     "Can We Really ‘Grow Our Way Out Of’ $40 Trillion in National Debt? Why One Economist Says ‘The US Has No Chance.’",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-    "Finance giant sets aggressive Micron stock target after earnings"
+    "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78962.4609375,
-        "perp_last_price": 78962.4609375,
-        "mark_price": 78962.4609375,
-        "index_price": 78962.4609375,
+        "spot_price": 78684.6796875,
+        "perp_last_price": 78684.6796875,
+        "mark_price": 78684.6796875,
+        "index_price": 78684.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78962.2265625,
-        "stop_loss_technical": 77871.7421875,
-        "target_1": 80597.953125,
-        "target_2": 82233.6796875,
+        "entry_ideal": 78684.6796875,
+        "stop_loss_technical": 77504.40949219,
+        "target_1": 80455.08498047,
+        "target_2": 82225.49027344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78962.4609375,
-        "stop_loss_technical": 77778.02402344,
-        "target_1": 80739.11630859,
-        "target_2": 82515.77167969,
+        "entry_ideal": 78684.6796875,
+        "stop_loss_technical": 77504.40949219,
+        "target_1": 80455.08498047,
+        "target_2": 82225.49027344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
