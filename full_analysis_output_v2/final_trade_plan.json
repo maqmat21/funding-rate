@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T18:05:30.157772+00:00",
+    "generated_at_utc": "2026-08-25T18:51:42.147866+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.927,
+        "price": 98.924,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 56m",
+    "U.S. markets close in 1h 9m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "SpaceX announces $100 billion Starbase Louisiana spaceport",
-    "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally"
+    "California AG says no settlement talks scheduled with Paramount",
+    "Her House Was in a Trust, So the Court Never Saw It. Her Neighbor’s Family Spent Fourteen Months and $22,000 Getting Permission to Sell the Same Kind of House.",
+    "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79231.8984375,
-        "perp_last_price": 79231.8984375,
-        "mark_price": 79231.8984375,
-        "index_price": 79231.8984375,
+        "spot_price": 79187.8828125,
+        "perp_last_price": 79187.8828125,
+        "mark_price": 79187.8828125,
+        "index_price": 79187.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79218.546875,
-        "stop_loss_technical": 78114.640625,
-        "target_1": 80874.40625,
-        "target_2": 82530.265625,
+        "entry_ideal": 79187.8828125,
+        "stop_loss_technical": 78000.06457031,
+        "target_1": 80969.61017578,
+        "target_2": 82751.33753906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79231.8984375,
-        "stop_loss_technical": 78043.41996094,
-        "target_1": 81014.61615234,
-        "target_2": 82797.33386719,
+        "entry_ideal": 79187.8828125,
+        "stop_loss_technical": 78000.06457031,
+        "target_1": 80969.61017578,
+        "target_2": 82751.33753906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
