@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-24T23:52:08.899784+00:00",
+    "generated_at_utc": "2026-08-25T00:33:02.677046+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.984,
+        "price": 98.967,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
+    "$2.5 Billion In Payouts, A Lagging Stock: The CLF Trade-Off",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Oklo's CEO Says Used Nuclear Fuel in the U.S. Is Worth More Than Saudi Arabia's Oil Reserves. Here's His Case.",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-    "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
     "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "Walmart Has Gone Down While Target Is Up 62%. But Only 1 of These Dividend Kings Is a Buy in August.",
-    "Nancy Pelosi Invested $3 Million in This AI Energy Play"
+    "Meet the 18-year-old junk remover who vibe-coded his own pricing calculator and makes up to $15,000 a month"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78873.9375,
-        "perp_last_price": 78873.9375,
-        "mark_price": 78873.9375,
-        "index_price": 78873.9375,
+        "spot_price": 78739.9296875,
+        "perp_last_price": 78739.9296875,
+        "mark_price": 78739.9296875,
+        "index_price": 78739.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78873.9375,
+        "entry_ideal": 78733.0703125,
         "stop_loss_technical": 79987.03125,
-        "target_1": 77204.296875,
-        "target_2": 75534.65625,
+        "target_1": 76852.12890625,
+        "target_2": 74971.1875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78873.9375,
-        "stop_loss_technical": 68867.53125,
-        "target_1": 93883.546875,
-        "target_2": 108893.15625,
+        "entry_ideal": 78739.9296875,
+        "stop_loss_technical": 73011.4140625,
+        "target_1": 87332.703125,
+        "target_2": 95925.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
