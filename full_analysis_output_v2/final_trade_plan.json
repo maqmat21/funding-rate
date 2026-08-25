@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T05:40:15.458140+00:00",
+    "generated_at_utc": "2026-08-25T06:02:10.316107+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.069,
+        "price": 99.087,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 51m",
+    "U.S. markets open in 7h 29m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Elizabeth Warren Says if Jensen Huang Has Time for $1 Million Mar-a-Lago Dinner, He Can 'Find Time to Testify' and Explain Nvidia Tech in Russian Drones",
     "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
+    "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here’s How Income Investors Can Adapt.",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-    "Jensen Huang Told Investors to \"Buy at a Discount\" on June 8. History Says This Is How Often CEOs Who Publicly Call the Bottom Are Actually Right.",
-    "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap"
+    "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap",
+    "Jensen Huang Told Investors to \"Buy at a Discount\" on June 8. History Says This Is How Often CEOs Who Publicly Call the Bottom Are Actually Right."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80758.171875,
-        "perp_last_price": 80758.171875,
-        "mark_price": 80758.171875,
-        "index_price": 80758.171875,
+        "spot_price": 80672.46875,
+        "perp_last_price": 80672.46875,
+        "mark_price": 80672.46875,
+        "index_price": 80672.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 80758.171875,
+        "entry_ideal": 80677.21875,
         "stop_loss_technical": 77449.96875,
-        "target_1": 85720.4765625,
-        "target_2": 90682.78125,
+        "target_1": 85518.09375,
+        "target_2": 90358.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 80758.171875,
+        "entry_ideal": 80672.46875,
         "stop_loss_technical": 73011.4140625,
-        "target_1": 92378.30859375,
-        "target_2": 103998.4453125,
+        "target_1": 92164.05078125,
+        "target_2": 103655.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
