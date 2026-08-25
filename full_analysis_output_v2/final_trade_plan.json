@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T19:21:31.287792+00:00",
+    "generated_at_utc": "2026-08-25T19:51:41.287519+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,11 +11,11 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.895,
+        "price": 98.932,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.641,
+        "price": 4.639,
         "trend": "bajista"
       }
     }
@@ -28,31 +28,32 @@
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
     "MrBeast claims he has 'negative money' despite $2.6B net worth —  Mark Cuban says that's more common than you'd expect",
     "The Rockefellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
-    "SpaceX unveils Starbase launch site in Louisiana, moves up orbital data center launch timeline"
+    "‘No downside’: Warren Buffett trusts 2 key assets for his grandkids — and says the income will likely jump for decades"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79187.4921875,
-        "perp_last_price": 79187.4921875,
-        "mark_price": 79187.4921875,
-        "index_price": 79187.4921875,
+        "spot_price": 78841.9921875,
+        "perp_last_price": 78841.9921875,
+        "mark_price": 78841.9921875,
+        "index_price": 78841.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79187.4921875,
-        "stop_loss_technical": 78114.640625,
-        "target_1": 80796.76953125,
-        "target_2": 82406.046875,
+        "entry_ideal": 78841.9921875,
+        "stop_loss_technical": 77659.36230469,
+        "target_1": 80615.93701172,
+        "target_2": 82389.88183594,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79187.4921875,
-        "stop_loss_technical": 77999.67980469,
-        "target_1": 80969.21076172,
-        "target_2": 82750.92933594,
+        "entry_ideal": 78841.9921875,
+        "stop_loss_technical": 77659.36230469,
+        "target_1": 80615.93701172,
+        "target_2": 82389.88183594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
