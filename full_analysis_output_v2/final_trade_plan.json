@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T07:52:20.039974+00:00",
+    "generated_at_utc": "2026-08-25T08:28:00.532295+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.074,
+        "price": 99.064,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 39m",
+    "U.S. markets open in 5h 3m",
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
@@ -34,38 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79507.671875,
-        "perp_last_price": 79507.671875,
-        "mark_price": 79507.671875,
-        "index_price": 79507.671875,
+        "spot_price": 80162.90625,
+        "perp_last_price": 80162.90625,
+        "mark_price": 80162.90625,
+        "index_price": 80162.90625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 79507.671875,
-        "stop_loss_technical": 81245.53125,
-        "target_1": 76900.8828125,
-        "target_2": 74294.09375,
+        "entry_ideal": 80171.046875,
+        "stop_loss_technical": 77873.2578125,
+        "target_1": 83617.73046875,
+        "target_2": 87064.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 79507.671875,
+        "entry_ideal": 80162.90625,
         "stop_loss_technical": 73011.4140625,
-        "target_1": 89252.05859375,
-        "target_2": 98996.4453125,
+        "target_1": 90890.14453125,
+        "target_2": 101617.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
