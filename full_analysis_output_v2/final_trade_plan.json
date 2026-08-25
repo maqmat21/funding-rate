@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-25T13:04:46.561124+00:00",
+    "generated_at_utc": "2026-08-25T13:57:23.296471+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.014,
-        "trend": "alcista"
+        "price": 98.966,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.662,
+        "price": 4.66,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 6h 3m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
-    "He Paid Himself $10,000 and Took $90,000 From His Body Shop as a Distribution. Then the IRS Looked Under the Hood and Social Security Followed.",
-    "160-year-old Devon ‘war metal’ mine to reopen",
-    "1911 Gold reports high-grade intercepts at True North’s SAM W target",
-    "How Much Do You Really Need Invested to Replace a $120,000 Salary With Dividends?",
     "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
-    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale."
+    "He Paid Himself $10,000 and Took $90,000 From His Body Shop as a Distribution. Then the IRS Looked Under the Hood and Social Security Followed.",
+    "The Rockerfellers Have Moved the Same Fortune Through Six Generations Without a Single Estate-Tax Bill. The 1934 Trusts They Used Are Still Legal, and Still for Sale.",
+    "Trump plans to grow his way out of $40 trillion debt crisis—it’s a ‘fantastic story’ but virtually impossible, says top budget economist",
+    "How to Build $7,800 a Month in Dividend Income Without Owning a Single Yield Trap"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79053.4765625,
-        "perp_last_price": 79053.4765625,
-        "mark_price": 79053.4765625,
-        "index_price": 79053.4765625,
+        "spot_price": 78488.328125,
+        "perp_last_price": 78488.328125,
+        "mark_price": 78488.328125,
+        "index_price": 78488.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79056.328125,
-        "stop_loss_technical": 78550.1328125,
-        "target_1": 79815.62109375,
-        "target_2": 80574.9140625,
+        "entry_ideal": 78488.328125,
+        "stop_loss_technical": 77311.00320313,
+        "target_1": 80254.31550781,
+        "target_2": 82020.30289062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 79053.4765625,
-        "stop_loss_technical": 81245.53125,
-        "target_1": 75765.39453125,
-        "target_2": 72477.3125,
+        "entry_ideal": 78488.328125,
+        "stop_loss_technical": 77311.00320313,
+        "target_1": 80254.31550781,
+        "target_2": 82020.30289062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
