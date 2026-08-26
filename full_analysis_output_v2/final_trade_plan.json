@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T16:07:43.689168+00:00",
+    "generated_at_utc": "2026-08-26T16:55:18.469680+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.161,
+        "price": 99.171,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.66,
+        "price": 4.668,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 53m",
+    "U.S. markets close in 3h 6m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "Coca-Cola’s stock splits: history (& prospects) explained",
-    "If You Invest $1,000 in VOO Right Now and Never Touch It, Here's What History Says You Could Have in 25 Years",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
+    "McDonald's discontinues fan favorite after 13 years",
     "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78123.1015625,
-        "perp_last_price": 78123.1015625,
-        "mark_price": 78123.1015625,
-        "index_price": 78123.1015625,
+        "spot_price": 78034.5,
+        "perp_last_price": 78034.5,
+        "mark_price": 78034.5,
+        "index_price": 78034.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78123.1015625,
+        "entry_ideal": 78040.0234375,
         "stop_loss_technical": 77632.0390625,
-        "target_1": 78859.6953125,
-        "target_2": 79596.2890625,
+        "target_1": 78652.0,
+        "target_2": 79263.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 78123.1015625,
+        "entry_ideal": 78034.5,
         "stop_loss_technical": 81235.03125,
-        "target_1": 73455.20703125,
-        "target_2": 68787.3125,
+        "target_1": 73233.703125,
+        "target_2": 68432.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
