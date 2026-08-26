@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T10:45:52.088703+00:00",
+    "generated_at_utc": "2026-08-26T11:12:18.133079+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.02,
+        "price": 99.022,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 45m",
+    "U.S. markets open in 2h 18m",
     "News from the Yahoo Finance Network",
-    "The Stock Market Is Repeating a Dangerous Pattern Not Seen in 60 Years. History Says Investors Should Buckle Up.",
+    "How HF Sinclair’s (DINO) Lubes Spinoff and Mississauga Closure Will Impact Investors",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
-    "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
-    "Elon Musk to build $100bn Louisiana rocket base"
+    "Nike brought back a 32-year veteran to save the $60B brand. Two years later, its turnaround is still a ‘long, hard slog’",
+    "The Stock Market Is Repeating a Dangerous Pattern Not Seen in 60 Years. History Says Investors Should Buckle Up.",
+    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78720.1484375,
-        "perp_last_price": 78720.1484375,
-        "mark_price": 78720.1484375,
-        "index_price": 78720.1484375,
+        "spot_price": 78688.6484375,
+        "perp_last_price": 78688.6484375,
+        "mark_price": 78688.6484375,
+        "index_price": 78688.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78726.046875,
+        "entry_ideal": 78688.5078125,
         "stop_loss_technical": 77871.7421875,
-        "target_1": 80007.50390625,
-        "target_2": 81288.9609375,
+        "target_1": 79913.65625,
+        "target_2": 81138.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78720.1484375,
+        "entry_ideal": 78688.6484375,
         "stop_loss_technical": 81235.03125,
-        "target_1": 74947.82421875,
-        "target_2": 71175.5,
+        "target_1": 74869.07421875,
+        "target_2": 71049.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
