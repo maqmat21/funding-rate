@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T00:33:51.044493+00:00",
+    "generated_at_utc": "2026-08-26T02:11:00.872233+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 98.921,
+        "price": 98.925,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,37 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
-    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
-    "Can We Really ‘Grow Our Way Out Of’ $40 Trillion in National Debt? Why One Economist Says ‘The US Has No Chance.’",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
+    "2 Monster Stocks to Hold for the Next 10 Years",
+    "Can We Really ‘Grow Our Way Out Of’ $40 Trillion in National Debt? Why One Economist Says ‘The US Has No Chance.’",
+    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "The U.S. Power Play in Iraq That Moscow and Beijing Didn’t See Coming",
-    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally"
+    "The U.S. Power Play in Iraq That Moscow and Beijing Didn’t See Coming"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78638.4296875,
-        "perp_last_price": 78638.4296875,
-        "mark_price": 78638.4296875,
-        "index_price": 78638.4296875,
+        "spot_price": 78752.15625,
+        "perp_last_price": 78752.15625,
+        "mark_price": 78752.15625,
+        "index_price": 78752.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78638.4296875,
-        "stop_loss_technical": 77871.7421875,
-        "target_1": 79788.4609375,
-        "target_2": 80938.4921875,
+        "entry_ideal": 78752.15625,
+        "stop_loss_technical": 77570.87390625,
+        "target_1": 80524.07976563,
+        "target_2": 82296.00328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78638.4296875,
-        "stop_loss_technical": 77458.85324219,
-        "target_1": 80407.79435547,
-        "target_2": 82177.15902344,
+        "entry_ideal": 78752.15625,
+        "stop_loss_technical": 77570.87390625,
+        "target_1": 80524.07976563,
+        "target_2": 82296.00328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
