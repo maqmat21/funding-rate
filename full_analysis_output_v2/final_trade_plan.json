@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T10:05:02.198584+00:00",
+    "generated_at_utc": "2026-08-26T10:45:52.088703+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.98,
+        "price": 99.02,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 26m",
+    "U.S. markets open in 2h 45m",
     "News from the Yahoo Finance Network",
-    "Investigation into Dodgers owner is a reminder that 'zombie insurers' walk among us — critics warn 'they will blow up'",
+    "The Stock Market Is Repeating a Dangerous Pattern Not Seen in 60 Years. History Says Investors Should Buckle Up.",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
     "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
-    "Gen Z wants to be ‘tradwives.’ New data reveals the exact salary your spouse needs to earn—and in most states it’s under $100K"
+    "Elon Musk to build $100bn Louisiana rocket base"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78304.0703125,
-        "perp_last_price": 78304.0703125,
-        "mark_price": 78304.0703125,
-        "index_price": 78304.0703125,
+        "spot_price": 78720.1484375,
+        "perp_last_price": 78720.1484375,
+        "mark_price": 78720.1484375,
+        "index_price": 78720.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78319.53125,
-        "stop_loss_technical": 79574.9921875,
-        "target_1": 76436.33984375,
-        "target_2": 74553.1484375,
+        "entry_ideal": 78726.046875,
+        "stop_loss_technical": 77871.7421875,
+        "target_1": 80007.50390625,
+        "target_2": 81288.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78304.0703125,
+        "entry_ideal": 78720.1484375,
         "stop_loss_technical": 81235.03125,
-        "target_1": 73907.62890625,
-        "target_2": 69511.1875,
+        "target_1": 74947.82421875,
+        "target_2": 71175.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
