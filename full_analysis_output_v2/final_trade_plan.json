@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T07:22:21.747448+00:00",
+    "generated_at_utc": "2026-08-26T08:05:18.633244+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.946,
-        "trend": "bajista"
+        "price": 98.97,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.639,
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 9m",
+    "U.S. markets open in 5h 25m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
@@ -34,39 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78982.0078125,
-        "perp_last_price": 78982.0078125,
-        "mark_price": 78982.0078125,
-        "index_price": 78982.0078125,
+        "spot_price": 78859.5078125,
+        "perp_last_price": 78859.5078125,
+        "mark_price": 78859.5078125,
+        "index_price": 78859.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78982.0078125,
-        "stop_loss_technical": 77871.7421875,
-        "target_1": 80647.40625,
-        "target_2": 82312.8046875,
+        "entry_ideal": 78861.0703125,
+        "stop_loss_technical": 79574.9921875,
+        "target_1": 77790.1875,
+        "target_2": 76719.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78982.0078125,
-        "stop_loss_technical": 75624.9453125,
-        "target_1": 84017.6015625,
-        "target_2": 89053.1953125,
+        "entry_ideal": 78859.5078125,
+        "stop_loss_technical": 81235.03125,
+        "target_1": 75296.22265625,
+        "target_2": 71732.9375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
