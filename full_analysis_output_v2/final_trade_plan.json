@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T04:50:24.104471+00:00",
+    "generated_at_utc": "2026-08-26T05:18:35.717210+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.992,
+        "price": 99.01,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 41m",
+    "U.S. markets open in 8h 12m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
     "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
     "The U.S. Power Play in Iraq That Moscow and Beijing Didn’t See Coming",
-    "Whatever Happens on Wednesday, Nvidia Stock Will Almost Certainly Be Cheaper After Earnings"
+    "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78868.9375,
-        "perp_last_price": 78868.9375,
-        "mark_price": 78868.9375,
-        "index_price": 78868.9375,
+        "spot_price": 78811.9296875,
+        "perp_last_price": 78811.9296875,
+        "mark_price": 78811.9296875,
+        "index_price": 78811.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78868.9375,
-        "stop_loss_technical": 79930.7265625,
-        "target_1": 77276.25390625,
-        "target_2": 75683.5703125,
+        "entry_ideal": 78811.9296875,
+        "stop_loss_technical": 79574.9921875,
+        "target_1": 77667.3359375,
+        "target_2": 76522.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78868.9375,
+        "entry_ideal": 78811.9296875,
         "stop_loss_technical": 79970.109375,
-        "target_1": 77217.1796875,
-        "target_2": 75565.421875,
+        "target_1": 77074.66015625,
+        "target_2": 75337.390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
