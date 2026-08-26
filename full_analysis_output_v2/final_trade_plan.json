@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T05:18:35.717210+00:00",
+    "generated_at_utc": "2026-08-26T05:51:58.843900+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.01,
+        "price": 98.959,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,7 +21,7 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 12m",
+    "U.S. markets open in 7h 39m",
     "News from the Yahoo Finance Network",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
@@ -34,37 +34,37 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78811.9296875,
-        "perp_last_price": 78811.9296875,
-        "mark_price": 78811.9296875,
-        "index_price": 78811.9296875,
+        "spot_price": 79008.75,
+        "perp_last_price": 79008.75,
+        "mark_price": 79008.75,
+        "index_price": 79008.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78811.9296875,
-        "stop_loss_technical": 79574.9921875,
-        "target_1": 77667.3359375,
-        "target_2": 76522.7421875,
+        "entry_ideal": 79008.75,
+        "stop_loss_technical": 77871.7421875,
+        "target_1": 80714.26171875,
+        "target_2": 82419.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78811.9296875,
-        "stop_loss_technical": 79970.109375,
-        "target_1": 77074.66015625,
-        "target_2": 75337.390625,
+        "entry_ideal": 79008.75,
+        "stop_loss_technical": 75624.9453125,
+        "target_1": 84084.45703125,
+        "target_2": 89160.1640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
