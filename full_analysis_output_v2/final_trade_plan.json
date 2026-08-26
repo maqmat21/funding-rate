@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T11:12:18.133079+00:00",
+    "generated_at_utc": "2026-08-26T11:45:41.204353+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.022,
+        "price": 99.015,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,50 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 18m",
+    "U.S. markets open in 1h 45m",
     "News from the Yahoo Finance Network",
-    "How HF Sinclair’s (DINO) Lubes Spinoff and Mississauga Closure Will Impact Investors",
+    "If Donald Trump's Trade War Triggers a Stock Market Crash, History Says This Is the First Thing Investors Should Do",
+    "Gen Z wants to be ‘tradwives.’ New data reveals the exact salary your spouse needs to earn—and in most states it’s under $100K",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
+    "Trump's Canada auto tariffs could end up denting US GDP: Oxford Economics",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
-    "Nike brought back a 32-year veteran to save the $60B brand. Two years later, its turnaround is still a ‘long, hard slog’",
-    "The Stock Market Is Repeating a Dangerous Pattern Not Seen in 60 Years. History Says Investors Should Buckle Up.",
-    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)"
+    "Dycom’s (NYSE:DY) Q2 CY2026: Beats On Revenue, but Q3 Guidance Disappoints"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78688.6484375,
-        "perp_last_price": 78688.6484375,
-        "mark_price": 78688.6484375,
-        "index_price": 78688.6484375,
+        "spot_price": 78443.15625,
+        "perp_last_price": 78443.15625,
+        "mark_price": 78443.15625,
+        "index_price": 78443.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78688.5078125,
-        "stop_loss_technical": 77871.7421875,
-        "target_1": 79913.65625,
-        "target_2": 81138.8046875,
+        "entry_ideal": 78443.15625,
+        "stop_loss_technical": 79574.9921875,
+        "target_1": 76745.40234375,
+        "target_2": 75047.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78688.6484375,
+        "entry_ideal": 78443.15625,
         "stop_loss_technical": 81235.03125,
-        "target_1": 74869.07421875,
-        "target_2": 71049.5,
+        "target_1": 74255.34375,
+        "target_2": 70067.53125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
