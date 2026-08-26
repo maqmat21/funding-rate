@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T18:45:30.866310+00:00",
+    "generated_at_utc": "2026-08-26T21:15:08.513619+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.164,
+        "price": 99.16,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 15m",
     "News from the Yahoo Finance Network",
-    "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
-    "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy Before the End of August.",
-    "Lithia Motors (LAD) Stock Looks Below Fair Value While Earnings Stay Cheap",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
+    "Elon Musk Says We’re ‘1000% Going to Go Bankrupt’ Without Al and Robots — ‘We’re Totally Screwed’ as Interest on National Debt Tops $1 Trillion",
+    "If You Invest $1,000 in VOO Right Now and Never Touch It, Here's What History Says You Could Have in 25 Years",
+    "Coca-Cola’s stock splits: history (& prospects) explained",
     "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "Coca-Cola’s stock splits: history (& prospects) explained"
+    "Michael Burry Buys NVDA Calls As A ‘Hedge,’ Adds To ORCL, PLTR, NBIS Shorts — Why He Thinks ‘Nvidia Will Not Distribute Enough To Shareholders’",
+    "Apple Is One of the Most Profitable Businesses in the World. Here's Why the Stock Will Be Worth $366 a Share in 1 Year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78308.1171875,
-        "perp_last_price": 78308.1171875,
-        "mark_price": 78308.1171875,
-        "index_price": 78308.1171875,
+        "spot_price": 78754.921875,
+        "perp_last_price": 78754.921875,
+        "mark_price": 78754.921875,
+        "index_price": 78754.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78318.0234375,
-        "stop_loss_technical": 79239.09375,
-        "target_1": 76936.41796875,
-        "target_2": 75554.8125,
+        "entry_ideal": 78763.640625,
+        "stop_loss_technical": 77632.0390625,
+        "target_1": 80461.04296875,
+        "target_2": 82158.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78308.1171875,
-        "stop_loss_technical": 81235.03125,
-        "target_1": 73917.74609375,
-        "target_2": 69527.375,
+        "entry_ideal": 78754.921875,
+        "stop_loss_technical": 75624.9453125,
+        "target_1": 83449.88671875,
+        "target_2": 88144.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
