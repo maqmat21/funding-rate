@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T13:09:55.173080+00:00",
+    "generated_at_utc": "2026-08-26T14:00:56.185422+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.104,
+        "price": 99.107,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.656,
+        "price": 4.66,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "3 Dividend Stocks I'd Actually Bet My Own Portfolio On",
     "‘Don’t be a loser’: Robert Kiyosaki sounds alarm on $40T US debtload — warns owners of this ‘fake asset’ will get poorer",
-    "Youngest Boomers Just Hit 62: Claim Social Security Now and Grab These 5 Dividend Giants Yielding 6%",
-    "The 30-Year U.S. Treasury Bond Now Has a Higher Yield Than Ford and Coca-Cola. Is It Now the Best Asset for Passive Income?",
-    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
     "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
-    "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1"
+    "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
+    "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
+    "Elon Musk Could Help Oklo's Stock Price Soar. Here's Why.",
+    "Elon Musk warns on taxing billionaires amid $40T debt",
+    "More millennials are breaking their way into the 401(k) millionaire club than ever. How you can steal their strategy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78094.40625,
-        "perp_last_price": 78094.40625,
-        "mark_price": 78094.40625,
-        "index_price": 78094.40625,
+        "spot_price": 78405.6328125,
+        "perp_last_price": 78405.6328125,
+        "mark_price": 78405.6328125,
+        "index_price": 78405.6328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78109.21875,
-        "stop_loss_technical": 79343.203125,
-        "target_1": 76258.2421875,
-        "target_2": 74407.265625,
+        "entry_ideal": 78405.640625,
+        "stop_loss_technical": 77871.7421875,
+        "target_1": 79206.48828125,
+        "target_2": 80007.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 78094.40625,
+        "entry_ideal": 78405.6328125,
         "stop_loss_technical": 81235.03125,
-        "target_1": 73383.46875,
-        "target_2": 68672.53125,
+        "target_1": 74161.53515625,
+        "target_2": 69917.4375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
