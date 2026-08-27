@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-26T21:15:08.513619+00:00",
+    "generated_at_utc": "2026-08-27T00:48:20.688446+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.16,
+        "price": 99.107,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
+    "Dolly Parton’s net worth: How the ‘Queen of Country Music’ built her wealth",
+    "Tesla quietly kills a product homeowners once paid a premium for",
+    "Two states axed $10 million for Dolly Parton's books-for-kids program in the months before she died",
     "Elon Musk Says We’re ‘1000% Going to Go Bankrupt’ Without Al and Robots — ‘We’re Totally Screwed’ as Interest on National Debt Tops $1 Trillion",
-    "If You Invest $1,000 in VOO Right Now and Never Touch It, Here's What History Says You Could Have in 25 Years",
-    "Coca-Cola’s stock splits: history (& prospects) explained",
-    "Biden Added $8 Trillion To The National Debt Making Him The 3rd Biggest Spending President. You Can Probably Guess Who Is #1",
-    "Michael Burry Buys NVDA Calls As A ‘Hedge,’ Adds To ORCL, PLTR, NBIS Shorts — Why He Thinks ‘Nvidia Will Not Distribute Enough To Shareholders’",
+    "Oracle (ORCL) Stock Still Trades Like A Bargain Despite VA Deal Expansion",
+    "‘Please don’t do this’: Dave Ramsey says to ditch this one household expense keeping Americans from becoming wealthy",
     "Apple Is One of the Most Profitable Businesses in the World. Here's Why the Stock Will Be Worth $366 a Share in 1 Year."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78754.921875,
-        "perp_last_price": 78754.921875,
-        "mark_price": 78754.921875,
-        "index_price": 78754.921875,
+        "spot_price": 78774.8828125,
+        "perp_last_price": 78774.8828125,
+        "mark_price": 78774.8828125,
+        "index_price": 78774.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78763.640625,
-        "stop_loss_technical": 77632.0390625,
-        "target_1": 80461.04296875,
-        "target_2": 82158.4453125,
+        "entry_ideal": 78755.890625,
+        "stop_loss_technical": 79194.90625,
+        "target_1": 78097.3671875,
+        "target_2": 77438.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 78754.921875,
+        "entry_ideal": 78774.8828125,
         "stop_loss_technical": 75624.9453125,
-        "target_1": 83449.88671875,
-        "target_2": 88144.8515625,
+        "target_1": 83499.7890625,
+        "target_2": 88224.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
