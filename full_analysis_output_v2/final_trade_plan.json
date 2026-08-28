@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-28T04:30:05.045516+00:00",
+    "generated_at_utc": "2026-08-28T16:50:04.202526+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,63 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.172,
+        "price": 99.655,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.672,
+        "price": 4.726,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 9h 1m",
+    "U.S. markets close in 3h 11m",
     "News from the Yahoo Finance Network",
+    "Eli Lilly Scores Major FDA Win for Weight Loss Drug",
     "The $40 trillion national debt is growing while Social Security goes broke—because wealthy Boomers are collecting over $100k in benefits per year",
-    "‘Rich Dad, Poor Dad’ Author Robert Kiyosaki Warns 401(k) and IRA Investors ‘We May Be on the Brink of Another 1929 Crash’ — Wishes You ‘Good Luck’",
-    "Dolly Parton’s net worth: How the ‘Queen of Country Music’ built her wealth",
+    "'I'm a billionaire. A real one': Lawyer claims only about 20 people actually have $1B in the bank and he's one of them",
     "You’re in the top 1% US boomers if you can shout ‘no’ to these 3 questions — how bulletproof is your nest egg?",
-    "My boomer parents ran out of money 5 years ago and didn’t tell me they have nothing for retirement until the last minute",
-    "Elon Musk is about to launch an Nvidia data center into orbit — and he's betting everything on its chips"
+    "Step Aside, Coca-Cola and Bank of America: There's a New Apple of Berkshire Hathaway's Eye, and It's a Virtual Monopoly",
+    "Bloom Energy vs. Eos Energy Enterprises: Which Energy Storage Stock Is a Better Buy in 2026?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79823.9609375,
-        "perp_last_price": 79823.9609375,
-        "mark_price": 79823.9609375,
-        "index_price": 79823.9609375,
+        "spot_price": 77965.4921875,
+        "perp_last_price": 77965.4921875,
+        "mark_price": 77965.4921875,
+        "index_price": 77965.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79826.21875,
-        "stop_loss_technical": 81435.09375,
-        "target_1": 77412.90625,
-        "target_2": 74999.59375,
+        "entry_ideal": 77965.4921875,
+        "stop_loss_technical": 76796.00980469,
+        "target_1": 79719.71576172,
+        "target_2": 81473.93933594,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79823.9609375,
-        "stop_loss_technical": 81435.09375,
-        "target_1": 77407.26171875,
-        "target_2": 74990.5625,
+        "entry_ideal": 77965.4921875,
+        "stop_loss_technical": 81381.9375,
+        "target_1": 72840.82421875,
+        "target_2": 67716.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
