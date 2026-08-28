@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-27T20:43:23.317760+00:00",
+    "generated_at_utc": "2026-08-28T04:30:05.045516+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.142,
-        "trend": "bajista"
+        "price": 99.172,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.672,
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 1m",
     "News from the Yahoo Finance Network",
-    "AGNC Investment (AGNC) Could Be 72% Undervalued Following Its 13% Yield Focus",
+    "The $40 trillion national debt is growing while Social Security goes broke—because wealthy Boomers are collecting over $100k in benefits per year",
+    "‘Rich Dad, Poor Dad’ Author Robert Kiyosaki Warns 401(k) and IRA Investors ‘We May Be on the Brink of Another 1929 Crash’ — Wishes You ‘Good Luck’",
     "Dolly Parton’s net worth: How the ‘Queen of Country Music’ built her wealth",
     "You’re in the top 1% US boomers if you can shout ‘no’ to these 3 questions — how bulletproof is your nest egg?",
-    "Marvell Q2 FY2027 earnings: record revenue, raised guidance",
-    "Coca-Cola’s stock splits: history (& prospects) explained",
-    "reAlpha (AIRE) Closed the InstaMortgage Deal with Two State Approvals Outstanding. Is Early Integration Worth the Risk?",
-    "The 80 Acres His Father Farmed Sold for $600,000. Two Years Later, Medicare Decided He Was Rich."
+    "My boomer parents ran out of money 5 years ago and didn’t tell me they have nothing for retirement until the last minute",
+    "Elon Musk is about to launch an Nvidia data center into orbit — and he's betting everything on its chips"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80060.75,
-        "perp_last_price": 80060.75,
-        "mark_price": 80060.75,
-        "index_price": 80060.75,
+        "spot_price": 79823.9609375,
+        "perp_last_price": 79823.9609375,
+        "mark_price": 79823.9609375,
+        "index_price": 79823.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80060.75,
-        "stop_loss_technical": 78584.1796875,
-        "target_1": 82275.60546875,
-        "target_2": 84490.4609375,
+        "entry_ideal": 79826.21875,
+        "stop_loss_technical": 81435.09375,
+        "target_1": 77412.90625,
+        "target_2": 74999.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 80060.75,
-        "stop_loss_technical": 75624.9453125,
-        "target_1": 86714.45703125,
-        "target_2": 93368.1640625,
+        "entry_ideal": 79823.9609375,
+        "stop_loss_technical": 81435.09375,
+        "target_1": 77407.26171875,
+        "target_2": 74990.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
