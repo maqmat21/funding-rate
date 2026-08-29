@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-29T13:14:14.122587+00:00",
+    "generated_at_utc": "2026-08-29T17:08:33.324110+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Prediction: This Pipeline Stock's Payout Will Grow Faster Than Chevron's [or Exxon's] Over the Next 5 Years",
-    "If a Bear Market Is Coming, History Says the Smartest Investors Are All Making This 1 Move Right Now",
-    "SpaceX Stock Is Down 30% From Its Post-IPO High. History Says This Will Happen Next.",
-    "Starting Out With $5,000? 3 Stocks That Could Pay You Income for Life.",
+    "Opinion: The Trump Administration's Bond Market Intervention Will Be a Spectacular Failure",
+    "I’m 38 and My Dad Promised Me Our $600K Family House Great-Grandpa Built — Then He Left It to His New Wife. ‘You’re My Kid. Buy Your Own House’",
+    "My father died and left me a $1 million house that I want to sell — but its two tenants won’t leave. What are my rights?",
+    "I'd Rather Bet on AI's Electric Bill Than Its Chips. Here's Why.",
     "They Put the House in a Trust in 2019 and Forgot About It. When He Went Into a Nursing Home in 2025, the $9,000-a-Month Bill Never Touched It.",
-    "How a 66-Year-Old’s $600,000 in QQQI Pays Her Monthly With Almost No Tax Bill, Until the Day She Sells",
-    "Intel Sold Its NAND Memory Business for About $9 Billion. Micron Is Now Worth More Than Twice What Intel Is."
+    "Mark Zuckerberg sends shocking message to Meta employees",
+    "Trump’s New Oil Deal With Venezuela Is Insane — U.S. Now Controls 7.1% of Proven Global Reserves"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77660.0,
-        "perp_last_price": 77660.0,
-        "mark_price": 77660.0,
-        "index_price": 77660.0,
+        "spot_price": 78043.1484375,
+        "perp_last_price": 78043.1484375,
+        "mark_price": 78043.1484375,
+        "index_price": 78043.1484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77660.0,
-        "stop_loss_technical": 76495.1,
-        "target_1": 79407.35,
-        "target_2": 81154.7,
+        "entry_ideal": 78043.1484375,
+        "stop_loss_technical": 76872.50121094,
+        "target_1": 79799.11927734,
+        "target_2": 81555.09011719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77660.0,
-        "stop_loss_technical": 81235.03125,
-        "target_1": 72297.453125,
-        "target_2": 66934.90625,
+        "entry_ideal": 78043.1484375,
+        "stop_loss_technical": 76872.50121094,
+        "target_1": 79799.11927734,
+        "target_2": 81555.09011719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
