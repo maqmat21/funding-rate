@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-29T19:42:18.579751+00:00",
+    "generated_at_utc": "2026-08-29T21:58:08.618083+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "If You'd Invested $1,000 in McDonald's 25 Years Ago, Here's How Much You'd Have Today",
-    "Opinion: The Trump Administration's Bond Market Intervention Will Be a Spectacular Failure",
-    "Trump found an unusual solution to his Venezuela problem",
-    "If a Stock Market Crash Is on the Way, History Says This Is the Smartest Thing Investors Can Do",
     "Dave Ramsey: 2 Rules I Learned by Working With Wealthy People",
-    "They Put the House in a Trust in 2019 and Forgot About It. When He Went Into a Nursing Home in 2025, the $9,000-a-Month Bill Never Touched It.",
-    "SpaceX Stock Is Down 30% From Its Post-IPO High. History Says This Will Happen Next."
+    "Opinion: The Trump Administration's Bond Market Intervention Will Be a Spectacular Failure",
+    "I’m 38 and My Dad Promised Me Our $600K Family House Great-Grandpa Built — Then He Left It to His New Wife. ‘You’re My Kid. Buy Your Own House’",
+    "Trump found an unusual solution to his Venezuela problem",
+    "SpaceX Stock Is Down 30% From Its Post-IPO High. History Says This Will Happen Next.",
+    "They Put the House in a Trust in 2019 and Forgot About It. When He Went Into a Nursing Home in 2025, the $9,000-a-Month Bill Never Touched It."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78231.6875,
-        "perp_last_price": 78231.6875,
-        "mark_price": 78231.6875,
-        "index_price": 78231.6875,
+        "spot_price": 78159.328125,
+        "perp_last_price": 78159.328125,
+        "mark_price": 78159.328125,
+        "index_price": 78159.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78230.578125,
-        "stop_loss_technical": 77057.11945312,
-        "target_1": 79990.76613281,
-        "target_2": 81750.95414063,
+        "entry_ideal": 78159.328125,
+        "stop_loss_technical": 76986.93820312,
+        "target_1": 79917.91300781,
+        "target_2": 81676.49789063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78231.6875,
-        "stop_loss_technical": 77058.2121875,
-        "target_1": 79991.90046875,
-        "target_2": 81752.1134375,
+        "entry_ideal": 78159.328125,
+        "stop_loss_technical": 76986.93820312,
+        "target_1": 79917.91300781,
+        "target_2": 81676.49789063,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
