@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-30T13:48:44.563777+00:00",
+    "generated_at_utc": "2026-08-30T17:47:24.239061+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026",
+    "The Stock Market Is Repeating a Pattern Not Seen Since 2000. Here's What History Says Comes Next.",
     "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-    "Almost as many retirees left Florida as moved there last year — here are the 3 states they're choosing instead",
-    "The Stock Market Is Doing Something That's Been Witnessed Just 3 Times Over Nearly 156 Years -- and This Signal Has Proven Disastrous for Wall Street",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Where Will the Vanguard S&P 500 ETF (VOO) Be in 20 Years? Here's What History Suggests.",
-    "If You'd Invested $1,000 in McDonald's 25 Years Ago, Here's How Much You'd Have Today",
-    "Walmart Is Down 24%. Is It Finally the Ultimate Dividend King Stock to Buy and Never Sell?"
+    "Almost as many retirees left Florida as moved there last year — here are the 3 states they're choosing instead",
+    "'More than I expected to pay': Rents are rising at the fastest rate in over a year",
+    "Prediction: Micron Stock Will Go Parabolic After Sept. 30"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78917.921875,
-        "perp_last_price": 78917.921875,
-        "mark_price": 78917.921875,
-        "index_price": 78917.921875,
+        "spot_price": 79012.9375,
+        "perp_last_price": 79012.9375,
+        "mark_price": 79012.9375,
+        "index_price": 79012.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78917.921875,
-        "stop_loss_technical": 77734.15304687,
-        "target_1": 80693.57511719,
-        "target_2": 82469.22835938,
+        "entry_ideal": 79009.9375,
+        "stop_loss_technical": 79387.859375,
+        "target_1": 78443.0546875,
+        "target_2": 77876.171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78917.921875,
-        "stop_loss_technical": 77734.15304687,
-        "target_1": 80693.57511719,
-        "target_2": 82469.22835938,
+        "entry_ideal": 79012.9375,
+        "stop_loss_technical": 77827.7434375,
+        "target_1": 80790.72859375,
+        "target_2": 82568.5196875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
