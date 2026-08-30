@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-30T20:04:50.077089+00:00",
+    "generated_at_utc": "2026-08-30T22:40:29.781294+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.677,
+        "price": 99.689,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026",
-    "The Stock Market Is Repeating a Pattern Not Seen Since 2000. Here's What History Says Comes Next.",
-    "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Almost as many retirees left Florida as moved there last year — here are the 3 states they're choosing instead",
-    "The Stock Market Is Doing Something That's Been Witnessed Just 3 Times Over Nearly 156 Years -- and This Signal Has Proven Disastrous for Wall Street",
-    "Prediction: Micron Stock Will Go Parabolic After Sept. 30"
+    "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why Greg Abel Is Still Holding.",
+    "The Stock Market Is Repeating a Pattern Not Seen Since 2000. Here's What History Says Comes Next.",
+    "Dave Ramsey: 2 Rules I Learned by Working With Wealthy People",
+    "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+    "If You'd Invested $1,000 in McDonald's 25 Years Ago, Here's How Much You'd Have Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78856.140625,
-        "perp_last_price": 78856.140625,
-        "mark_price": 78856.140625,
-        "index_price": 78856.140625,
+        "spot_price": 78463.96875,
+        "perp_last_price": 78463.96875,
+        "mark_price": 78463.96875,
+        "index_price": 78463.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,25 +49,24 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78856.1484375,
-        "stop_loss_technical": 79380.34375,
-        "target_1": 78069.85546875,
-        "target_2": 77283.5625,
+        "entry_ideal": 78460.8984375,
+        "stop_loss_technical": 79387.859375,
+        "target_1": 77070.45703125,
+        "target_2": 75680.015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78856.140625,
-        "stop_loss_technical": 77673.29851563,
-        "target_1": 80630.40378906,
-        "target_2": 82404.66695312,
+        "entry_ideal": 78463.96875,
+        "stop_loss_technical": 81346.953125,
+        "target_1": 74139.4921875,
+        "target_2": 69815.015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
