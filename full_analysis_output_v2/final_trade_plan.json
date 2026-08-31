@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-31T00:51:49.812263+00:00",
+    "generated_at_utc": "2026-08-31T06:21:10.162604+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.612,
+        "price": 99.626,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 10m",
     "News from the Yahoo Finance Network",
+    "Tesla Just Killed Its Solar Roof After Years of Struggling to Scale. What It Means for TSLA Stock.",
     "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Stock Market Is Repeating a Pattern Not Seen Since 2000. Here's What History Says Comes Next.",
-    "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
     "Prediction: Micron Stock Will Go Parabolic After Sept. 30",
-    "Where Will Nvidia Stock Be 6 Months After the Latest Explosive Earnings Report? Here’s What History Says.",
-    "This \"Boring\" Pipeline Stock Has Never Cut Its Dividend. Here's the 1 Number I'd Watch."
+    "1 Top Warren Buffett Stock for Dividend Investors",
+    "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77975.953125,
-        "perp_last_price": 77975.953125,
-        "mark_price": 77975.953125,
-        "index_price": 77975.953125,
+        "spot_price": 78024.8515625,
+        "perp_last_price": 78024.8515625,
+        "mark_price": 78024.8515625,
+        "index_price": 78024.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,28 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77972.9296875,
-        "stop_loss_technical": 76803.33574219,
-        "target_1": 79727.32060547,
-        "target_2": 81481.71152344,
+        "entry_ideal": 78024.84375,
+        "stop_loss_technical": 76854.47109375,
+        "target_1": 79780.40273438,
+        "target_2": 81535.96171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77975.953125,
+        "entry_ideal": 78024.8515625,
         "stop_loss_technical": 81346.953125,
-        "target_1": 72919.453125,
-        "target_2": 67862.953125,
+        "target_1": 73041.69921875,
+        "target_2": 68058.546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
