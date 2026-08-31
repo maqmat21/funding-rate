@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-31T20:05:50.189030+00:00",
+    "generated_at_utc": "2026-08-31T23:45:40.443070+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.414,
+        "price": 99.413,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,50 +23,48 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The end of the driver’s license: Uber exec calls car ownership ‘the most inefficient asset’ and says no one will need one in 15 to 20 years",
     "He Gave His Grandson the Apple Shares Instead of the Cash. The Grandson Sold Them at 0% and the $40,000 Gain Simply Disappeared.",
-    "Man becomes overnight millionaire after finding Bitcoin lost for 12 years",
+    "Billionaire Stanley Druckenmiller Just Issued a Blunt Warning to Social Security Retirees",
+    "The end of the driver’s license: Uber exec calls car ownership ‘the most inefficient asset’ and says no one will need one in 15 to 20 years",
     "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026",
-    "Why Tesla Stock Stepped on the Gas Monday Morning",
-    "Micron Technology Stock Finally Looks Like a Contrarian Opportunity"
+    "Elon Musk Is Spending $119 Billion on A Single Building Outside Houston. Here’s Who Actually Profits.",
+    "Why Tesla (TSLA) Stock Is Up Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78871.5390625,
-        "perp_last_price": 78871.5390625,
-        "mark_price": 78871.5390625,
-        "index_price": 78871.5390625,
+        "spot_price": 78540.9296875,
+        "perp_last_price": 78540.9296875,
+        "mark_price": 78540.9296875,
+        "index_price": 78540.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78870.546875,
-        "stop_loss_technical": 79253.8984375,
-        "target_1": 78295.51953125,
-        "target_2": 77720.4921875,
+        "entry_ideal": 78535.3828125,
+        "stop_loss_technical": 79253.578125,
+        "target_1": 77458.08984375,
+        "target_2": 76380.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78871.5390625,
+        "entry_ideal": 78540.9296875,
         "stop_loss_technical": 76909.3515625,
-        "target_1": 81814.8203125,
-        "target_2": 84758.1015625,
+        "target_1": 80988.296875,
+        "target_2": 83435.6640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
