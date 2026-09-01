@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-01T07:42:15.991117+00:00",
+    "generated_at_utc": "2026-09-01T12:45:34.476487+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,51 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.571,
+        "price": 99.625,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.758,
+        "price": 4.788,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 49m",
     "News from the Yahoo Finance Network",
-    "Prediction: This Will Be Nvidia's Stock Price by the End of 2027, Based on Its Latest Forecast",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "The Stock Market Is Flashing a Major Red Flag Seen Only Once Before. Here's What's Different This Time.",
-    "If You'd Invested $5,000 in the Vanguard S&P 500 ETF (VOO) a Decade Ago, Here's What You'd Have Today",
-    "Billionaire Stanley Druckenmiller Just Issued a Blunt Warning to Social Security Retirees",
-    "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026"
+    "Remember Elon Musk’s warning that America will ‘1,000%’ go bankrupt? Well, US debt just soared through $40T",
+    "Is AT&T's Dividend Finally Safe Again? Here's My Verdict.",
+    "Trump’s ‘biggest oil deal in world history’ in Venezuela reeks of ‘colonial cronyism’ and could easily fall apart, experts say",
+    "Two Oil Supertankers Hit by Projectiles in Hormuz, Marisks Says",
+    "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026",
+    "The U.S. Army Will Spend $2.2 Billion on Micro Nuclear Reactors. These 2 Stocks Should Benefit.",
+    "How to tell if you’re a poor, middle-class, or rich US boomer — and the big thing to do now if you’re way behind"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78541.1015625,
-        "perp_last_price": 78541.1015625,
-        "mark_price": 78541.1015625,
-        "index_price": 78541.1015625,
+        "spot_price": 77909.328125,
+        "perp_last_price": 77909.328125,
+        "mark_price": 77909.328125,
+        "index_price": 77909.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 77909.2890625,
+        "stop_loss_technical": 79253.8984375,
+        "target_1": 75892.375,
+        "target_2": 73875.4609375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78566.1796875,
-        "stop_loss_technical": 79253.8984375,
-        "target_1": 77534.6015625,
-        "target_2": 76503.0234375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 78541.1015625,
+        "entry_ideal": 77909.328125,
         "stop_loss_technical": 81346.953125,
-        "target_1": 74332.32421875,
-        "target_2": 70123.546875,
+        "target_1": 72752.890625,
+        "target_2": 67596.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
