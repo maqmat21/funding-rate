@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-08-31T23:45:40.443070+00:00",
+    "generated_at_utc": "2026-09-01T02:03:39.693326+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.413,
-        "trend": "bajista"
+        "price": 99.483,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.758,
@@ -22,49 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "He Gave His Grandson the Apple Shares Instead of the Cash. The Grandson Sold Them at 0% and the $40,000 Gain Simply Disappeared.",
     "Billionaire Stanley Druckenmiller Just Issued a Blunt Warning to Social Security Retirees",
-    "The end of the driver’s license: Uber exec calls car ownership ‘the most inefficient asset’ and says no one will need one in 15 to 20 years",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "You’re Not 'Middle Class' Unless You Can Afford These 4 Things in 2026",
-    "Elon Musk Is Spending $119 Billion on A Single Building Outside Houston. Here’s Who Actually Profits.",
+    "Vanguard's VOO faces something it never has before",
+    "He Gave His Grandson the Apple Shares Instead of the Cash. The Grandson Sold Them at 0% and the $40,000 Gain Simply Disappeared.",
+    "GoPro Soars 22% as YouTuber Markiplier Becomes Its Largest Shareholder",
     "Why Tesla (TSLA) Stock Is Up Today"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78540.9296875,
-        "perp_last_price": 78540.9296875,
-        "mark_price": 78540.9296875,
-        "index_price": 78540.9296875,
+        "spot_price": 78277.8671875,
+        "perp_last_price": 78277.8671875,
+        "mark_price": 78277.8671875,
+        "index_price": 78277.8671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78535.3828125,
-        "stop_loss_technical": 79253.578125,
-        "target_1": 77458.08984375,
-        "target_2": 76380.796875,
+        "entry_ideal": 78277.8671875,
+        "stop_loss_technical": 79253.8984375,
+        "target_1": 76813.8203125,
+        "target_2": 75349.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78540.9296875,
-        "stop_loss_technical": 76909.3515625,
-        "target_1": 80988.296875,
-        "target_2": 83435.6640625,
+        "entry_ideal": 78277.8671875,
+        "stop_loss_technical": 81346.953125,
+        "target_1": 73674.23828125,
+        "target_2": 69070.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -79,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
