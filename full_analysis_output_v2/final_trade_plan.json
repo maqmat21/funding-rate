@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-02T00:00:33.503536+00:00",
+    "generated_at_utc": "2026-09-02T04:19:00.945820+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.659,
+        "price": 99.785,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 9h 12m",
     "News from the Yahoo Finance Network",
+    "Costco shuts down a key service with no notice",
     "Mitt Romney’s $100 Million IRA Could Trigger Massive RMDs. Here’s How the Ultra-Wealthy Legally Shrink the Tax Bill.",
     "Billionaire Stanley Druckenmiller Just Issued a Blunt Warning to Social Security Retirees",
+    "If a Bear Market Starts Tomorrow, Here's the 1 Move That History Says Always Wins Out",
     "William Randolph Hearst Died in 1951. The Trust Holding His Fortune Is Still Running, Still Private, and Legally Can’t Dissolve Until the Last Family Member Alive That Day Is Gone",
-    "Denny’s rival dining chain files for Chapter 11 bankruptcy",
-    "Kevin O’Leary Reveals 5 Investing Rules to Protect Your Money and Build Wealth: ‘Never Own an Investment That Doesn’t…’",
-    "He Gave His Grandson the Apple Shares Instead of the Cash. The Grandson Sold Them at 0% and the $40,000 Gain Simply Disappeared.",
-    "Treasury Bonds Yielding More Than 5% May be Tempting—Here’s Why Experts Are Wary"
+    "Kevin O’Leary Reveals 5 Investing Rules to Protect Your Money and Build Wealth: ‘Never Own an Investment That Doesn’t…’"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77447.5078125,
-        "perp_last_price": 77447.5078125,
-        "mark_price": 77447.5078125,
-        "index_price": 77447.5078125,
+        "spot_price": 77342.6875,
+        "perp_last_price": 77342.6875,
+        "mark_price": 77342.6875,
+        "index_price": 77342.6875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77447.5078125,
-        "stop_loss_technical": 76285.79519531,
-        "target_1": 79190.07673828,
-        "target_2": 80932.64566406,
+        "entry_ideal": 77342.6875,
+        "stop_loss_technical": 78397.0234375,
+        "target_1": 75761.18359375,
+        "target_2": 74179.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77447.5078125,
+        "entry_ideal": 77342.6875,
         "stop_loss_technical": 79373.1796875,
-        "target_1": 74559.0,
-        "target_2": 71670.4921875,
+        "target_1": 74296.94921875,
+        "target_2": 71251.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
