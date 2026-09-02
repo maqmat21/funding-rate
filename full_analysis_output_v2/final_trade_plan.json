@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-02T21:58:00.276940+00:00",
+    "generated_at_utc": "2026-09-02T23:47:22.135285+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.56,
+        "price": 99.596,
         "trend": "bajista"
       },
       "US10Y": {
@@ -34,37 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77294.25,
-        "perp_last_price": 77294.25,
-        "mark_price": 77294.25,
-        "index_price": 77294.25,
+        "spot_price": 77159.09375,
+        "perp_last_price": 77159.09375,
+        "mark_price": 77159.09375,
+        "index_price": 77159.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 77159.09375,
+        "stop_loss_technical": 76232.53125,
+        "target_1": 78548.9375,
+        "target_2": 79938.78125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 77294.25,
-        "stop_loss_technical": 77750.0,
-        "target_1": 76610.625,
-        "target_2": 75927.0,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 77294.25,
-        "stop_loss_technical": 76232.53125,
-        "target_1": 78886.828125,
-        "target_2": 80479.40625,
+        "entry_ideal": 77159.09375,
+        "stop_loss_technical": 79373.1796875,
+        "target_1": 73837.96484375,
+        "target_2": 70516.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
