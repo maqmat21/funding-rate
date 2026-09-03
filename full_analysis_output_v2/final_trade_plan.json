@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-03T11:15:58.253184+00:00",
+    "generated_at_utc": "2026-09-03T15:00:57.322581+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.21,
+        "price": 99.04,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.796,
-        "trend": "alcista"
+        "price": 4.76,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 15m",
     "News from the Yahoo Finance Network",
     "Rich Dad Poor Dad author shocks fans with $1.2 billion debt",
-    "The bond market is back in the danger zone — here's what could make it worse: Chart of the Day",
-    "Michael Burry Called Nvidia’s $95 Billion in Purchase Obligations ‘Troubling’ in February. Six Months Later, the Filings Show That Number Ballooned to $279 Billion.",
+    "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+    "No ‘sympathy’: Joe Rogan stunned after Caleb Hammer says each American boomer should have $2M-$5M nest egg. Is he right?",
     "Florida’s housing market goes into meltdown",
-    "Costco shuts down key service without notice",
-    "Fidelity: 769,000 savers have $1 million or more in their 401(k)"
+    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
+    "Despite being a multimillionaire, Suze Orman still cooks at home whenever possible—and says eating out is one of the biggest wastes of money",
+    "In the Divorce She Took the $500,000 House and He Took the $500,000 401(k). Only One of Them Actually Walked Away With $500,000"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77829.203125,
-        "perp_last_price": 77829.203125,
-        "mark_price": 77829.203125,
-        "index_price": 77829.203125,
+        "spot_price": 80576.9921875,
+        "perp_last_price": 80576.9921875,
+        "mark_price": 80576.9921875,
+        "index_price": 80576.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77829.203125,
-        "stop_loss_technical": 76922.046875,
-        "target_1": 79189.9375,
-        "target_2": 80550.671875,
+        "entry_ideal": 80587.46875,
+        "stop_loss_technical": 76945.890625,
+        "target_1": 86049.8359375,
+        "target_2": 91512.203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 77829.203125,
+        "entry_ideal": 80576.9921875,
         "stop_loss_technical": 76248.3046875,
-        "target_1": 80200.55078125,
-        "target_2": 82571.8984375,
+        "target_1": 87070.0234375,
+        "target_2": 93563.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
