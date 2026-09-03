@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-03T15:00:57.322581+00:00",
+    "generated_at_utc": "2026-09-03T18:32:58.294473+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,21 +11,21 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.04,
+        "price": 98.902,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.76,
+        "price": 4.752,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 1h 28m",
     "News from the Yahoo Finance Network",
     "Rich Dad Poor Dad author shocks fans with $1.2 billion debt",
     "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
-    "No ‘sympathy’: Joe Rogan stunned after Caleb Hammer says each American boomer should have $2M-$5M nest egg. Is he right?",
-    "Florida’s housing market goes into meltdown",
+    "Social Security: See what's really changing in 2027",
     "How Many Americans Have Banked a Cool $5 Million for Retirement?",
     "Despite being a multimillionaire, Suze Orman still cooks at home whenever possible—and says eating out is one of the biggest wastes of money",
     "In the Divorce She Took the $500,000 House and He Took the $500,000 401(k). Only One of Them Actually Walked Away With $500,000"
@@ -34,26 +34,26 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80576.9921875,
-        "perp_last_price": 80576.9921875,
-        "mark_price": 80576.9921875,
-        "index_price": 80576.9921875,
+        "spot_price": 80980.6171875,
+        "perp_last_price": 80980.6171875,
+        "mark_price": 80980.6171875,
+        "index_price": 80980.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80587.46875,
-        "stop_loss_technical": 76945.890625,
-        "target_1": 86049.8359375,
-        "target_2": 91512.203125,
+        "entry_ideal": 80977.9296875,
+        "stop_loss_technical": 79763.26074219,
+        "target_1": 82799.93310547,
+        "target_2": 84621.93652344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80576.9921875,
+        "entry_ideal": 80980.6171875,
         "stop_loss_technical": 76248.3046875,
-        "target_1": 87070.0234375,
-        "target_2": 93563.0546875,
+        "target_1": 88079.0859375,
+        "target_2": 95177.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
