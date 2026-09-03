@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-02T23:47:22.135285+00:00",
+    "generated_at_utc": "2026-09-03T01:29:34.372705+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.596,
+        "price": 99.531,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Mitt Romney’s $100 Million IRA Could Trigger Massive RMDs. Here’s How the Ultra-Wealthy Legally Shrink the Tax Bill.",
     "Rich Dad Poor Dad author shocks fans with $1.2 billion debt",
     "Despite being a multimillionaire, Suze Orman still cooks at home whenever possible—and says eating out is one of the biggest wastes of money",
     "In the Divorce She Took the $500,000 House and He Took the $500,000 401(k). Only One of Them Actually Walked Away With $500,000",
+    "Costco shuts down key service without notice",
     "Florida’s housing market goes into meltdown",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
-    "Costco shuts down key service without notice"
+    "Kevin O’Leary Reveals 5 Investing Rules to Protect Your Money and Build Wealth: ‘Never Own an Investment That Doesn’t…’",
+    "How Many Americans Have Banked a Cool $5 Million for Retirement?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77159.09375,
-        "perp_last_price": 77159.09375,
-        "mark_price": 77159.09375,
-        "index_price": 77159.09375,
+        "spot_price": 77357.2421875,
+        "perp_last_price": 77357.2421875,
+        "mark_price": 77357.2421875,
+        "index_price": 77357.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77159.09375,
-        "stop_loss_technical": 76232.53125,
-        "target_1": 78548.9375,
-        "target_2": 79938.78125,
+        "entry_ideal": 77357.25,
+        "stop_loss_technical": 76244.7421875,
+        "target_1": 79026.01171875,
+        "target_2": 80694.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77159.09375,
-        "stop_loss_technical": 79373.1796875,
-        "target_1": 73837.96484375,
-        "target_2": 70516.8359375,
+        "entry_ideal": 77357.2421875,
+        "stop_loss_technical": 76232.53125,
+        "target_1": 79044.30859375,
+        "target_2": 80731.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
