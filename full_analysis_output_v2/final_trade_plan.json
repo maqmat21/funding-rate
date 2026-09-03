@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-03T01:29:34.372705+00:00",
+    "generated_at_utc": "2026-09-03T06:11:13.863883+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.531,
+        "price": 99.369,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 20m",
     "News from the Yahoo Finance Network",
     "Rich Dad Poor Dad author shocks fans with $1.2 billion debt",
-    "Despite being a multimillionaire, Suze Orman still cooks at home whenever possible—and says eating out is one of the biggest wastes of money",
-    "In the Divorce She Took the $500,000 House and He Took the $500,000 401(k). Only One of Them Actually Walked Away With $500,000",
+    "Michael Burry Called Nvidia’s $95 Billion in Purchase Obligations ‘Troubling’ in February. Six Months Later, the Filings Show That Number Ballooned to $279 Billion.",
     "Costco shuts down key service without notice",
     "Florida’s housing market goes into meltdown",
-    "Kevin O’Leary Reveals 5 Investing Rules to Protect Your Money and Build Wealth: ‘Never Own an Investment That Doesn’t…’",
+    "In the Divorce She Took the $500,000 House and He Took the $500,000 401(k). Only One of Them Actually Walked Away With $500,000",
     "How Many Americans Have Banked a Cool $5 Million for Retirement?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77357.2421875,
-        "perp_last_price": 77357.2421875,
-        "mark_price": 77357.2421875,
-        "index_price": 77357.2421875,
+        "spot_price": 77724.0703125,
+        "perp_last_price": 77724.0703125,
+        "mark_price": 77724.0703125,
+        "index_price": 77724.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77357.25,
-        "stop_loss_technical": 76244.7421875,
-        "target_1": 79026.01171875,
-        "target_2": 80694.7734375,
+        "entry_ideal": 77724.0703125,
+        "stop_loss_technical": 76310.1171875,
+        "target_1": 79845.0,
+        "target_2": 81965.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77357.2421875,
-        "stop_loss_technical": 76232.53125,
-        "target_1": 79044.30859375,
-        "target_2": 80731.375,
+        "entry_ideal": 77724.0703125,
+        "stop_loss_technical": 76310.1171875,
+        "target_1": 79845.0,
+        "target_2": 81965.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
