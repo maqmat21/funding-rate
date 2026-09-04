@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-04T19:36:14.861957+00:00",
+    "generated_at_utc": "2026-09-04T21:45:23.220678+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.151,
+        "price": 99.157,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Trump Issues Stark Threat To Federal Reserve: “Lower The Rate Or I’ll Stop Trading With Countries With Which We Have A Deficit”",
-    "Here's how 6 Americans became 401(k) millionaires",
-    "Social Security: See what's really changing in 2027",
-    "Retiring with $1 million? Don’t tell a single soul (other than your spouse) — here’s why",
-    "‘Please don’t let this happen to you’: My best friend died without a will — her neglectful family gets everything",
+    "FBI busts 3 India-based call centers posing as Social Security staff, tied to $50M ripped from Americans. How it worked",
     "This 75-Year-Old Millionaire Says She Would ‘Drop Dead’ Before She Bought a Morning Coffee. Here’s Why.",
-    "We're 65 With $1.5 Million in an IRA and $4,200 Monthly From Social Security. How Much Can We Spend in Retirement?"
+    "Here's how 6 Americans became 401(k) millionaires",
+    "‘Please don’t let this happen to you’: My best friend died without a will — her neglectful family gets everything",
+    "Social Security: See what's really changing in 2027",
+    "Retiring with $1 million? Don’t tell a single soul (other than your spouse) — here’s why"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79726.4765625,
-        "perp_last_price": 79726.4765625,
-        "mark_price": 79726.4765625,
-        "index_price": 79726.4765625,
+        "spot_price": 79802.171875,
+        "perp_last_price": 79802.171875,
+        "mark_price": 79802.171875,
+        "index_price": 79802.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79726.4765625,
-        "stop_loss_technical": 81438.0,
-        "target_1": 77159.19140625,
-        "target_2": 74591.90625,
+        "entry_ideal": 79807.4765625,
+        "stop_loss_technical": 78610.36441406,
+        "target_1": 81603.14478516,
+        "target_2": 83398.81300781,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79726.4765625,
+        "entry_ideal": 79802.171875,
         "stop_loss_technical": 82262.2109375,
-        "target_1": 75922.875,
-        "target_2": 72119.2734375,
+        "target_1": 76112.11328125,
+        "target_2": 72422.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
