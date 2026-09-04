@@ -1,74 +1,70 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-04T13:54:07.531444+00:00",
+    "generated_at_utc": "2026-09-04T17:13:17.654578+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.116,
+        "price": 99.132,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.77,
-        "trend": "alcista"
+        "price": 4.764,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 7m",
+    "U.S. markets close in 2h 48m",
     "News from the Yahoo Finance Network",
+    "Trump Issues Stark Threat To Federal Reserve: “Lower The Rate Or I’ll Stop Trading With Countries With Which We Have A Deficit”",
+    "Here's how 6 Americans became 401(k) millionaires",
     "Retiring with $1 million? Don’t tell a single soul (other than your spouse) — here’s why",
-    "He Rolled His 401(k) Into an IRA at 56 Because the Advisor Said To. It Erased the Penalty-Free Withdrawals He Already Had.",
-    "US added 162,000 jobs in August, smashing expectations: jobs report",
-    "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
-    "No ‘sympathy’: Joe Rogan stunned after Caleb Hammer says each American boomer should have $2M-$5M nest egg. Is he right?",
-    "Social Security: See what's really changing in 2027"
+    "Social Security: See what's really changing in 2027",
+    "We're 65 With $1.5 Million in an IRA and $4,200 Monthly From Social Security. How Much Can We Spend in Retirement?",
+    "‘Please don’t let this happen to you’: My best friend died without a will — her neglectful family gets everything"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79296.7265625,
-        "perp_last_price": 79296.7265625,
-        "mark_price": 79296.7265625,
-        "index_price": 79296.7265625,
+        "spot_price": 79703.9921875,
+        "perp_last_price": 79703.9921875,
+        "mark_price": 79703.9921875,
+        "index_price": 79703.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 79325.3984375,
-        "stop_loss_technical": 82272.0,
-        "target_1": 74905.49609375,
-        "target_2": 70485.59375,
+        "entry_ideal": 79703.9921875,
+        "stop_loss_technical": 78626.53125,
+        "target_1": 81320.18359375,
+        "target_2": 82936.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 79296.7265625,
-        "stop_loss_technical": 82272.0,
-        "target_1": 74833.81640625,
-        "target_2": 70370.90625,
+        "entry_ideal": 79703.9921875,
+        "stop_loss_technical": 82262.2109375,
+        "target_1": 75866.6640625,
+        "target_2": 72029.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +79,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
