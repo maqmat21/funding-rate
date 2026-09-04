@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-03T23:18:12.195663+00:00",
+    "generated_at_utc": "2026-09-04T01:01:51.797887+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 99.003,
+        "price": 98.962,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,36 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Rich Dad Poor Dad author shocks fans with $1.2 billion debt",
-    "Social Security: See what's really changing in 2027",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
+    "Nvidia Just Delivered a Massive Warning to AMD and Intel Stock Investors",
+    "Nvidia Made a 57-Year-Old Oregon Couple Rich. Now One Stock Is the Biggest Risk to Their Retirement",
     "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
-    "Billionaire wives are about to inherit a huge slice of the $6.6 trillion great wealth transfer—and 1,235 women stand to cash in by 2035",
-    "He Rolled His 401(k) Into an IRA at 56 Because the Advisor Said To. It Erased the Penalty-Free Withdrawals He Already Had.",
-    "Mortgage rates hit highest level in over a year: Mortgage and refinance interest rates today, Thursday, September 3, 2026"
+    "Fed Chairman Kevin Warsh just changed the rules for trading the jobs report: One Big Investment Idea",
+    "Sam's Club makes members an offer Costco won't even consider",
+    "He Rolled His 401(k) Into an IRA at 56 Because the Advisor Said To. It Erased the Penalty-Free Withdrawals He Already Had."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81248.4609375,
-        "perp_last_price": 81248.4609375,
-        "mark_price": 81248.4609375,
-        "index_price": 81248.4609375,
+        "spot_price": 81041.0078125,
+        "perp_last_price": 81041.0078125,
+        "mark_price": 81041.0078125,
+        "index_price": 81041.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81248.4609375,
-        "stop_loss_technical": 77056.84375,
-        "target_1": 87535.88671875,
-        "target_2": 93823.3125,
+        "entry_ideal": 81033.59375,
+        "stop_loss_technical": 79818.08984375,
+        "target_1": 82856.84960938,
+        "target_2": 84680.10546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81248.4609375,
+        "entry_ideal": 81041.0078125,
         "stop_loss_technical": 76248.3046875,
-        "target_1": 88748.6953125,
-        "target_2": 96248.9296875,
+        "target_1": 88230.0625,
+        "target_2": 95419.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
