@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-05T09:19:23.923253+00:00",
+    "generated_at_utc": "2026-09-05T12:46:29.426042+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
+    "Still sending checks in the mail? It's time to stop.",
+    "If a Market Crash Is Coming, Here's the 1 Thing You Should Do, According to Warren Buffett",
+    "The biggest August jobs beat in nearly 30 years may be less impressive than it looks: Chart of the Day",
     "Here's How Many Shares of Coca-Cola You'd Need for $40,000 in Yearly Dividends",
-    "This 75-Year-Old Millionaire Says She Would ‘Drop Dead’ Before She Bought a Morning Coffee. Here’s Why.",
-    "Here's how 6 Americans became 401(k) millionaires",
-    "‘Please don’t let this happen to you’: My best friend died without a will — her neglectful family gets everything",
-    "Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.",
-    "Trump Issues Stark Threat To Federal Reserve: “Lower The Rate Or I’ll Stop Trading With Countries With Which We Have A Deficit”"
+    "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
+    "This 75-Year-Old Millionaire Says She Would ‘Drop Dead’ Before She Bought a Morning Coffee. Here’s Why."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79697.2421875,
-        "perp_last_price": 79697.2421875,
-        "mark_price": 79697.2421875,
-        "index_price": 79697.2421875,
+        "spot_price": 79762.3203125,
+        "perp_last_price": 79762.3203125,
+        "mark_price": 79762.3203125,
+        "index_price": 79762.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79697.2421875,
-        "stop_loss_technical": 78501.78355469,
-        "target_1": 81490.43013672,
-        "target_2": 83283.61808594,
+        "entry_ideal": 79762.3203125,
+        "stop_loss_technical": 78565.88550781,
+        "target_1": 81556.97251953,
+        "target_2": 83351.62472656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79697.2421875,
-        "stop_loss_technical": 82262.2109375,
-        "target_1": 75849.7890625,
-        "target_2": 72002.3359375,
+        "entry_ideal": 79762.3203125,
+        "stop_loss_technical": 78565.88550781,
+        "target_1": 81556.97251953,
+        "target_2": 83351.62472656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
