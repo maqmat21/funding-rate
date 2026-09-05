@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-05T15:35:17.326532+00:00",
+    "generated_at_utc": "2026-09-05T17:32:45.500225+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
     "Still sending checks in the mail? It's time to stop.",
-    "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario.",
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
+    "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario.",
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
-    "The biggest August jobs beat in nearly 30 years may be less impressive than it looks: Chart of the Day",
-    "If a Market Crash Is Coming, Here's the 1 Thing You Should Do, According to Warren Buffett",
-    "This 75-Year-Old Millionaire Says She Would ‘Drop Dead’ Before She Bought a Morning Coffee. Here’s Why."
+    "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
+    "The biggest August jobs beat in nearly 30 years may be less impressive than it looks: Chart of the Day"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79705.6796875,
-        "perp_last_price": 79705.6796875,
-        "mark_price": 79705.6796875,
-        "index_price": 79705.6796875,
+        "spot_price": 80071.953125,
+        "perp_last_price": 80071.953125,
+        "mark_price": 80071.953125,
+        "index_price": 80071.953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79705.6796875,
-        "stop_loss_technical": 79884.78125,
-        "target_1": 79437.02734375,
-        "target_2": 79168.375,
+        "entry_ideal": 80090.921875,
+        "stop_loss_technical": 78889.55804687,
+        "target_1": 81892.96761719,
+        "target_2": 83695.01335938,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79705.6796875,
-        "stop_loss_technical": 78510.09449219,
-        "target_1": 81499.05748047,
-        "target_2": 83292.43527344,
+        "entry_ideal": 80071.953125,
+        "stop_loss_technical": 78870.87382812,
+        "target_1": 81873.57207031,
+        "target_2": 83675.19101562,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
