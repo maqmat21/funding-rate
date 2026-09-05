@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-05T01:08:26.572263+00:00",
+    "generated_at_utc": "2026-09-05T05:40:07.008968+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,19 +25,19 @@
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
     "This 75-Year-Old Millionaire Says She Would ‘Drop Dead’ Before She Bought a Morning Coffee. Here’s Why.",
     "Here's how 6 Americans became 401(k) millionaires",
+    "Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.",
     "‘Please don’t let this happen to you’: My best friend died without a will — her neglectful family gets everything",
     "Trump Issues Stark Threat To Federal Reserve: “Lower The Rate Or I’ll Stop Trading With Countries With Which We Have A Deficit”",
-    "Retiring with $1 million? Don’t tell a single soul (other than your spouse) — here’s why",
     "Social Security: See what's really changing in 2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79661.546875,
-        "perp_last_price": 79661.546875,
-        "mark_price": 79661.546875,
-        "index_price": 79661.546875,
+        "spot_price": 79586.328125,
+        "perp_last_price": 79586.328125,
+        "mark_price": 79586.328125,
+        "index_price": 79586.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79661.96875,
-        "stop_loss_technical": 78467.03921875,
-        "target_1": 81454.36304688,
-        "target_2": 83246.75734375,
+        "entry_ideal": 79586.328125,
+        "stop_loss_technical": 78392.53320312,
+        "target_1": 81377.02050781,
+        "target_2": 83167.71289062,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79661.546875,
+        "entry_ideal": 79586.328125,
         "stop_loss_technical": 82262.2109375,
-        "target_1": 75760.55078125,
-        "target_2": 71859.5546875,
+        "target_1": 75572.50390625,
+        "target_2": 71558.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
