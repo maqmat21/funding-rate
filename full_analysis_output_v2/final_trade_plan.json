@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-05T19:24:18.396197+00:00",
+    "generated_at_utc": "2026-09-05T21:24:52.488527+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,40 +22,26 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
+    "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
     "Still sending checks in the mail? It's time to stop.",
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
-    "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario.",
     "The biggest August jobs beat in nearly 30 years may be less impressive than it looks: Chart of the Day",
+    "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario.",
     "If a Market Crash Is Coming, Here's the 1 Thing You Should Do, According to Warren Buffett"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79951.6015625,
-        "perp_last_price": 79951.6015625,
-        "mark_price": 79951.6015625,
-        "index_price": 79951.6015625,
+        "spot_price": 79857.75,
+        "perp_last_price": 79857.75,
+        "mark_price": 79857.75,
+        "index_price": 79857.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 79951.609375,
-        "stop_loss_technical": 80199.9921875,
-        "target_1": 79579.03515625,
-        "target_2": 79206.4609375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
@@ -64,10 +50,24 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79951.6015625,
-        "stop_loss_technical": 78752.32753906,
-        "target_1": 81750.51259766,
-        "target_2": 83549.42363281,
+        "entry_ideal": 79857.75,
+        "stop_loss_technical": 78659.88375,
+        "target_1": 81654.549375,
+        "target_2": 83451.34875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 79857.75,
+        "stop_loss_technical": 78659.88375,
+        "target_1": 81654.549375,
+        "target_2": 83451.34875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
