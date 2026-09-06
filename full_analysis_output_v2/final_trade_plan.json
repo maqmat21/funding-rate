@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-06T21:44:25.640257+00:00",
+    "generated_at_utc": "2026-09-06T23:11:14.856723+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.157,
+        "price": 99.149,
         "trend": "alcista"
       },
       "US10Y": {
@@ -28,32 +28,32 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "I’m 62 and worth millions: how can I give more to my kids without getting slammed on taxes?",
     "Tax brackets and rates for 2025-2026",
-    "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response"
+    "Meet the Dirt Cheap 6.4%-Yielding Dividend Stock That's Beating the Market in 2026"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79880.4296875,
-        "perp_last_price": 79880.4296875,
-        "mark_price": 79880.4296875,
-        "index_price": 79880.4296875,
+        "spot_price": 80191.109375,
+        "perp_last_price": 80191.109375,
+        "mark_price": 80191.109375,
+        "index_price": 80191.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79880.53125,
-        "stop_loss_technical": 80113.4921875,
-        "target_1": 79531.08984375,
-        "target_2": 79181.6484375,
+        "entry_ideal": 80193.1875,
+        "stop_loss_technical": 78990.2896875,
+        "target_1": 81997.53421875,
+        "target_2": 83801.8809375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79880.4296875,
-        "stop_loss_technical": 78682.22324219,
-        "target_1": 81677.73935547,
-        "target_2": 83475.04902344,
+        "entry_ideal": 80191.109375,
+        "stop_loss_technical": 78988.24273438,
+        "target_1": 81995.40933594,
+        "target_2": 83799.70929687,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
