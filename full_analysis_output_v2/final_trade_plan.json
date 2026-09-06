@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-06T19:41:16.048273+00:00",
+    "generated_at_utc": "2026-09-06T21:44:25.640257+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,18 +26,18 @@
     "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead",
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Still sending checks in the mail? It's time to stop.",
     "I’m 62 and worth millions: how can I give more to my kids without getting slammed on taxes?",
+    "Tax brackets and rates for 2025-2026",
     "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79803.953125,
-        "perp_last_price": 79803.953125,
-        "mark_price": 79803.953125,
-        "index_price": 79803.953125,
+        "spot_price": 79880.4296875,
+        "perp_last_price": 79880.4296875,
+        "mark_price": 79880.4296875,
+        "index_price": 79880.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79803.953125,
-        "stop_loss_technical": 80113.4765625,
-        "target_1": 79339.66796875,
-        "target_2": 78875.3828125,
+        "entry_ideal": 79880.53125,
+        "stop_loss_technical": 80113.4921875,
+        "target_1": 79531.08984375,
+        "target_2": 79181.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79803.953125,
-        "stop_loss_technical": 82262.2109375,
-        "target_1": 76116.56640625,
-        "target_2": 72429.1796875,
+        "entry_ideal": 79880.4296875,
+        "stop_loss_technical": 78682.22324219,
+        "target_1": 81677.73935547,
+        "target_2": 83475.04902344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
