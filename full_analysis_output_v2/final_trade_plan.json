@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-06T00:50:13.820821+00:00",
+    "generated_at_utc": "2026-09-06T05:08:54.468831+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,36 @@
     "News from the Yahoo Finance Network",
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Still sending checks in the mail? It's time to stop.",
     "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
-    "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario.",
     "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
-    "The biggest August jobs beat in nearly 30 years may be less impressive than it looks: Chart of the Day"
+    "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump? Here's What History Says About Stock Market Returns in This Scenario."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79874.03125,
-        "perp_last_price": 79874.03125,
-        "mark_price": 79874.03125,
-        "index_price": 79874.03125,
+        "spot_price": 79872.7421875,
+        "perp_last_price": 79872.7421875,
+        "mark_price": 79872.7421875,
+        "index_price": 79872.7421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79872.453125,
+        "entry_ideal": 79872.7421875,
         "stop_loss_technical": 80199.9921875,
-        "target_1": 79381.14453125,
-        "target_2": 78889.8359375,
+        "target_1": 79381.8671875,
+        "target_2": 78890.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79874.03125,
-        "stop_loss_technical": 78675.92078125,
-        "target_1": 81671.19695313,
-        "target_2": 83468.36265625,
+        "entry_ideal": 79872.7421875,
+        "stop_loss_technical": 78674.65105469,
+        "target_1": 81669.87888672,
+        "target_2": 83467.01558594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
