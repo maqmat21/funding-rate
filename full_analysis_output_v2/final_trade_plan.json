@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-06T09:22:03.946391+00:00",
+    "generated_at_utc": "2026-09-06T12:57:45.061926+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors.",
-    "If a Stock Market Crash Is Coming, History Says Investors Who Make This Simple Move Will Win",
+    "Elon Musk Fires Back at Bernie Sanders Over His $900 Billion Fortune",
+    "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead",
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
-    "Stock Market Investors Just Got a Warning From the Federal Reserve. History Says This Will Happen Next.",
-    "The Stock Market Has Done This Only 2 Times Since 1871 — and Both Times Ended Badly. Could Trump’s Policies Raise the Risk of Another Market Meltdown?",
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
-    "President Donald Trump Claims the U.S. \"Should Have the Lowest Interest Rates Anywhere in the World,\" but Trumpflation and the AI Revolution Make That Impossible"
+    "‘Listen up’: Suze Orman says Americans are miscalculating 1 critical retirement cost — are you? 5 ways to get ahead now",
+    "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors.",
+    "Millionaires in America: How common is it to have a 7-figure net worth?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79958.9921875,
-        "perp_last_price": 79958.9921875,
-        "mark_price": 79958.9921875,
-        "index_price": 79958.9921875,
+        "spot_price": 79934.3671875,
+        "perp_last_price": 79934.3671875,
+        "mark_price": 79934.3671875,
+        "index_price": 79934.3671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79970.9765625,
-        "stop_loss_technical": 78771.41191406,
-        "target_1": 81770.32353516,
-        "target_2": 83569.67050781,
+        "entry_ideal": 79934.3671875,
+        "stop_loss_technical": 80162.8828125,
+        "target_1": 79591.59375,
+        "target_2": 79248.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79958.9921875,
-        "stop_loss_technical": 78759.60730469,
-        "target_1": 81758.06951172,
-        "target_2": 83557.14683594,
+        "entry_ideal": 79934.3671875,
+        "stop_loss_technical": 78735.35167969,
+        "target_1": 81732.89044922,
+        "target_2": 83531.41371094,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
