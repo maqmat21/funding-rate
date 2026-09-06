@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-06T12:57:45.061926+00:00",
+    "generated_at_utc": "2026-09-06T15:56:30.931198+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,19 +25,19 @@
     "Elon Musk Fires Back at Bernie Sanders Over His $900 Billion Fortune",
     "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead",
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Kevin O’Leary Says Tariff Chaos Has Created a ‘Ridiculously Fantastic’ Investment Opportunity in Canada — ‘Never Been A Better Time’ to Invest",
-    "‘Listen up’: Suze Orman says Americans are miscalculating 1 critical retirement cost — are you? 5 ways to get ahead now",
-    "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors.",
-    "Millionaires in America: How common is it to have a 7-figure net worth?"
+    "Still sending checks in the mail? It's time to stop.",
+    "As the Stock Market Flashes a Warning Signal Only Witnessed 2 Times in 155 Years, Warren Buffett Delivers a Blunt Message to Investors."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79934.3671875,
-        "perp_last_price": 79934.3671875,
-        "mark_price": 79934.3671875,
-        "index_price": 79934.3671875,
+        "spot_price": 79657.4296875,
+        "perp_last_price": 79657.4296875,
+        "mark_price": 79657.4296875,
+        "index_price": 79657.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,25 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79934.3671875,
-        "stop_loss_technical": 80162.8828125,
-        "target_1": 79591.59375,
-        "target_2": 79248.8203125,
+        "entry_ideal": 79657.109375,
+        "stop_loss_technical": 80113.4765625,
+        "target_1": 78972.55859375,
+        "target_2": 78288.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79934.3671875,
-        "stop_loss_technical": 78735.35167969,
-        "target_1": 81732.89044922,
-        "target_2": 83531.41371094,
+        "entry_ideal": 79657.4296875,
+        "stop_loss_technical": 82262.2109375,
+        "target_1": 75750.2578125,
+        "target_2": 71843.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
