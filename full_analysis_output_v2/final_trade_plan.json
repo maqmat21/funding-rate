@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-06T23:11:14.856723+00:00",
+    "generated_at_utc": "2026-09-07T01:01:37.622314+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.149,
-        "trend": "alcista"
+        "price": 99.08,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.784,
@@ -27,48 +27,45 @@
     "How Much You Need To Retire Comfortably in All 50 States Based on Social Security Income",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "I’m 62 and worth millions: how can I give more to my kids without getting slammed on taxes?",
-    "Tax brackets and rates for 2025-2026",
-    "Meet the Dirt Cheap 6.4%-Yielding Dividend Stock That's Beating the Market in 2026"
+    "What a $10,000 Investment in the Vanguard S&P 500 ETF (VOO) a Decade Ago Is Worth Today",
+    "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80191.109375,
-        "perp_last_price": 80191.109375,
-        "mark_price": 80191.109375,
-        "index_price": 80191.109375,
+        "spot_price": 80115.53125,
+        "perp_last_price": 80115.53125,
+        "mark_price": 80115.53125,
+        "index_price": 80115.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 80193.1875,
-        "stop_loss_technical": 78990.2896875,
-        "target_1": 81997.53421875,
-        "target_2": 83801.8809375,
+        "entry_ideal": 80132.9765625,
+        "stop_loss_technical": 80442.9609375,
+        "target_1": 79668.0,
+        "target_2": 79203.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 80191.109375,
-        "stop_loss_technical": 78988.24273438,
-        "target_1": 81995.40933594,
-        "target_2": 83799.70929687,
+        "entry_ideal": 80115.53125,
+        "stop_loss_technical": 76940.8828125,
+        "target_1": 84877.50390625,
+        "target_2": 89639.4765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
