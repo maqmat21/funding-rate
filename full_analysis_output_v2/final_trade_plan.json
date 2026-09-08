@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-08T20:13:11.211745+00:00",
+    "generated_at_utc": "2026-09-08T22:41:35.831017+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.85,
+        "price": 98.836,
         "trend": "bajista"
       },
       "US10Y": {
@@ -25,34 +25,33 @@
     "Trump’s new Social Security tax rules favor high-income seniors — how Americans over 65 can maximize savings",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
-    "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
+    "His 'Guy' Has His Investments Earning 6% in Bonds. Dave Ramsey Says, 'You're Getting Destroyed. This Guy Doesn't Know What He's Doing'",
+    "49-year-old beloved pizza dining chain quietly closes locations",
     "Fidelity data breach: Deadline looms for up to $5,000 per customer settlement payouts",
-    "Will Social Security go broke in 2032? Here is what's happening.",
-    "Most millionaires don't consider themselves wealthy. So what does it really mean to be rich?"
+    "Property taxes increased by nearly 25% in recent years. Here are the states feeling it the most."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78592.578125,
-        "perp_last_price": 78592.578125,
-        "mark_price": 78592.578125,
-        "index_price": 78592.578125,
+        "spot_price": 78491.4375,
+        "perp_last_price": 78491.4375,
+        "mark_price": 78491.4375,
+        "index_price": 78491.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78598.0390625,
-        "stop_loss_technical": 77629.546875,
-        "target_1": 80050.77734375,
-        "target_2": 81503.515625,
+        "entry_ideal": 78487.3125,
+        "stop_loss_technical": 78986.9765625,
+        "target_1": 77737.81640625,
+        "target_2": 76988.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78592.578125,
+        "entry_ideal": 78491.4375,
         "stop_loss_technical": 81433.1484375,
-        "target_1": 74331.72265625,
-        "target_2": 70070.8671875,
+        "target_1": 74078.87109375,
+        "target_2": 69666.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
