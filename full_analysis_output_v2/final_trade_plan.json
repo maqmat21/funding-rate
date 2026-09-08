@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-08T17:37:52.148976+00:00",
+    "generated_at_utc": "2026-09-08T20:13:11.211745+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.875,
+        "price": 98.85,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.79,
+        "price": 4.806,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 23m",
     "News from the Yahoo Finance Network",
     "Trump’s new Social Security tax rules favor high-income seniors — how Americans over 65 can maximize savings",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
-    "Do banks report deposits to the IRS​?",
-    "Trump says Canada's Bombardier cannot sell in US unless it builds there",
-    "Property taxes increased by nearly 25% in recent years. Here are the states feeling it the most."
+    "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
+    "Fidelity data breach: Deadline looms for up to $5,000 per customer settlement payouts",
+    "Will Social Security go broke in 2032? Here is what's happening.",
+    "Most millionaires don't consider themselves wealthy. So what does it really mean to be rich?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78629.5,
-        "perp_last_price": 78629.5,
-        "mark_price": 78629.5,
-        "index_price": 78629.5,
+        "spot_price": 78592.578125,
+        "perp_last_price": 78592.578125,
+        "mark_price": 78592.578125,
+        "index_price": 78592.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78629.5078125,
-        "stop_loss_technical": 79472.3203125,
-        "target_1": 77365.2890625,
-        "target_2": 76101.0703125,
+        "entry_ideal": 78598.0390625,
+        "stop_loss_technical": 77629.546875,
+        "target_1": 80050.77734375,
+        "target_2": 81503.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 78629.5,
+        "entry_ideal": 78592.578125,
         "stop_loss_technical": 81433.1484375,
-        "target_1": 74424.02734375,
-        "target_2": 70218.5546875,
+        "target_1": 74331.72265625,
+        "target_2": 70070.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
