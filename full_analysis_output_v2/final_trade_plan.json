@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-08T09:44:57.235088+00:00",
+    "generated_at_utc": "2026-09-08T13:53:30.433679+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.972,
+        "price": 98.856,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.784,
+        "price": 4.786,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 46m",
+    "U.S. markets close in 6h 7m",
     "News from the Yahoo Finance Network",
     "Trump’s new Social Security tax rules favor high-income seniors — how Americans over 65 can maximize savings",
-    "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
     "This billionaire founder made his first million at 27—years before Warren Buffett. His advice to Gen Z: Don’t ask for a raise, ask for equity",
-    "Over 200 US seniors hand over fortunes in $250M gold scheme — 40+ indicted after bullion melted down in Florida",
-    "Elon Musk Fires Back at Bernie Sanders Over His $900 Billion Fortune"
+    "If a Stock Market Crash Is Coming, History Says You'll Survive If You Make This Move (Hint: It Does Not Mean Going to Cash)",
+    "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78738.953125,
-        "perp_last_price": 78738.953125,
-        "mark_price": 78738.953125,
-        "index_price": 78738.953125,
+        "spot_price": 77639.5,
+        "perp_last_price": 77639.5,
+        "mark_price": 77639.5,
+        "index_price": 77639.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 78738.953125,
-        "stop_loss_technical": 78162.71875,
-        "target_1": 79603.3046875,
-        "target_2": 80467.65625,
+        "entry_ideal": 77669.703125,
+        "stop_loss_technical": 79468.3671875,
+        "target_1": 74971.70703125,
+        "target_2": 72273.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 78738.953125,
+        "entry_ideal": 77639.5,
         "stop_loss_technical": 81433.1484375,
-        "target_1": 74697.66015625,
-        "target_2": 70656.3671875,
+        "target_1": 71949.02734375,
+        "target_2": 66258.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
