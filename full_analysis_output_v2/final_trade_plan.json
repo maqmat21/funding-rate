@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-09T00:39:25.166638+00:00",
+    "generated_at_utc": "2026-09-09T05:11:59.499012+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.752,
+        "price": 98.749,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 19m",
     "News from the Yahoo Finance Network",
+    "If I Were in My 20s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
     "Trump’s new Social Security tax rules favor high-income seniors — how Americans over 65 can maximize savings",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Bill Ackman's surprising $934 million bet after dumping Alphabet",
     "His 'Guy' Has His Investments Earning 6% in Bonds. Dave Ramsey Says, 'You're Getting Destroyed. This Guy Doesn't Know What He's Doing'",
-    "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
     "49-year-old beloved pizza dining chain quietly closes locations",
-    "Prediction: Sept. 10 Will Be a Big Day for Nvidia Shareholders. Here’s What to Watch.",
-    "Britain’s richest woman cuts 300 jobs after Labour tax raid"
+    "Cramer Warns Costco May Have Lost Its Edge, Days Before Clark Howard Sends Retirees Straight Back"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78648.78125,
-        "perp_last_price": 78648.78125,
-        "mark_price": 78648.78125,
-        "index_price": 78648.78125,
+        "spot_price": 79120.8203125,
+        "perp_last_price": 79120.8203125,
+        "mark_price": 79120.8203125,
+        "index_price": 79120.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78648.7734375,
+        "entry_ideal": 79111.53125,
         "stop_loss_technical": 77629.546875,
-        "target_1": 80177.61328125,
-        "target_2": 81706.453125,
+        "target_1": 81334.5078125,
+        "target_2": 83557.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78648.78125,
-        "stop_loss_technical": 77626.6015625,
-        "target_1": 80182.05078125,
-        "target_2": 81715.3203125,
+        "entry_ideal": 79120.8203125,
+        "stop_loss_technical": 77629.546875,
+        "target_1": 81357.73046875,
+        "target_2": 83594.640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
