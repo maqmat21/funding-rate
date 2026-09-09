@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-09T13:56:46.365843+00:00",
+    "generated_at_utc": "2026-09-09T17:26:38.826268+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,61 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.651,
+        "price": 98.745,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.802,
+        "price": 4.837,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 4m",
+    "U.S. markets close in 2h 34m",
     "News from the Yahoo Finance Network",
+    "If You Had Bought $10,000 of Apple Stock When Tim Cook Became CEO, Here's What You'd Have Today",
     "If I Were in My 20s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
-    "She Pays Grandma $8,000 a Year to Watch the Kids. Off the Books Is Illegal, but On the Books Is Magic: No Payroll Tax, and Every Dollar Can Land in a Roth",
     "49-year-old beloved pizza dining chain quietly closes locations",
-    "His 'Guy' Has His Investments Earning 6% in Bonds. Dave Ramsey Says, 'You're Getting Destroyed. This Guy Doesn't Know What He's Doing'",
-    "Napa winery that rose from wildfire now faces bankruptcy, and up to $50 million in debt",
-    "How to create a ‘forever paycheck’ without paying for an annuity"
+    "She Pays Grandma $8,000 a Year to Watch the Kids. Off the Books Is Illegal, but On the Books Is Magic: No Payroll Tax, and Every Dollar Can Land in a Roth",
+    "Do you need to be a millionaire to retire? Experts weigh in on the 15% rule.",
+    "He Retired at 63 With $520,000 in a 401(k) and Lived on Savings for Ten Years. By 73 It Was $850,000, and His First RMD Was $32,000, Every Dollar Taxable"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79165.1875,
-        "perp_last_price": 79165.1875,
-        "mark_price": 79165.1875,
-        "index_price": 79165.1875,
+        "spot_price": 78867.2421875,
+        "perp_last_price": 78867.2421875,
+        "mark_price": 78867.2421875,
+        "index_price": 78867.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 79188.75,
-        "stop_loss_technical": 79729.15625,
-        "target_1": 78378.140625,
-        "target_2": 77567.53125,
+        "entry_ideal": 78857.859375,
+        "stop_loss_technical": 78036.5703125,
+        "target_1": 80089.79296875,
+        "target_2": 81321.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 79165.1875,
-        "stop_loss_technical": 77635.6875,
-        "target_1": 81459.4375,
-        "target_2": 83753.6875,
+        "entry_ideal": 78867.2421875,
+        "stop_loss_technical": 80530.6484375,
+        "target_1": 76372.1328125,
+        "target_2": 73877.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
