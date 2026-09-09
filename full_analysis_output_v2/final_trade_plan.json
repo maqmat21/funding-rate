@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-08T22:41:35.831017+00:00",
+    "generated_at_utc": "2026-09-09T00:39:25.166638+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.836,
+        "price": 98.752,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,47 +24,48 @@
     "News from the Yahoo Finance Network",
     "Trump’s new Social Security tax rules favor high-income seniors — how Americans over 65 can maximize savings",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
     "His 'Guy' Has His Investments Earning 6% in Bonds. Dave Ramsey Says, 'You're Getting Destroyed. This Guy Doesn't Know What He's Doing'",
+    "My mom inherited $5 million and went wild overnight — now my husband wants to ‘bide our time’ until her fortune’s ours",
     "49-year-old beloved pizza dining chain quietly closes locations",
-    "Fidelity data breach: Deadline looms for up to $5,000 per customer settlement payouts",
-    "Property taxes increased by nearly 25% in recent years. Here are the states feeling it the most."
+    "Prediction: Sept. 10 Will Be a Big Day for Nvidia Shareholders. Here’s What to Watch.",
+    "Britain’s richest woman cuts 300 jobs after Labour tax raid"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78491.4375,
-        "perp_last_price": 78491.4375,
-        "mark_price": 78491.4375,
-        "index_price": 78491.4375,
+        "spot_price": 78648.78125,
+        "perp_last_price": 78648.78125,
+        "mark_price": 78648.78125,
+        "index_price": 78648.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 78487.3125,
-        "stop_loss_technical": 78986.9765625,
-        "target_1": 77737.81640625,
-        "target_2": 76988.3203125,
+        "entry_ideal": 78648.7734375,
+        "stop_loss_technical": 77629.546875,
+        "target_1": 80177.61328125,
+        "target_2": 81706.453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78491.4375,
-        "stop_loss_technical": 81433.1484375,
-        "target_1": 74078.87109375,
-        "target_2": 69666.3046875,
+        "entry_ideal": 78648.78125,
+        "stop_loss_technical": 77626.6015625,
+        "target_1": 80182.05078125,
+        "target_2": 81715.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
