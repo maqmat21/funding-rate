@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-09T05:11:59.499012+00:00",
+    "generated_at_utc": "2026-09-09T09:47:13.933885+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 98.749,
+        "price": 98.774,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 19m",
+    "U.S. markets open in 3h 44m",
     "News from the Yahoo Finance Network",
     "If I Were in My 20s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
+    "'Flat-rate' COLA cuts Social Security for most Americans, critics say",
+    "A Bear Market Is Coming Eventually. History Says This Is a Key Warning Sign to Look For.",
     "Trump’s new Social Security tax rules favor high-income seniors — how Americans over 65 can maximize savings",
-    "Bill Ackman's surprising $934 million bet after dumping Alphabet",
     "His 'Guy' Has His Investments Earning 6% in Bonds. Dave Ramsey Says, 'You're Getting Destroyed. This Guy Doesn't Know What He's Doing'",
-    "49-year-old beloved pizza dining chain quietly closes locations",
-    "Cramer Warns Costco May Have Lost Its Edge, Days Before Clark Howard Sends Retirees Straight Back"
+    "49-year-old beloved pizza dining chain quietly closes locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79120.8203125,
-        "perp_last_price": 79120.8203125,
-        "mark_price": 79120.8203125,
-        "index_price": 79120.8203125,
+        "spot_price": 79040.953125,
+        "perp_last_price": 79040.953125,
+        "mark_price": 79040.953125,
+        "index_price": 79040.953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 79111.53125,
-        "stop_loss_technical": 77629.546875,
-        "target_1": 81334.5078125,
-        "target_2": 83557.484375,
+        "entry_ideal": 79042.890625,
+        "stop_loss_technical": 79739.3984375,
+        "target_1": 77998.12890625,
+        "target_2": 76953.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 79120.8203125,
-        "stop_loss_technical": 77629.546875,
-        "target_1": 81357.73046875,
-        "target_2": 83594.640625,
+        "entry_ideal": 79040.953125,
+        "stop_loss_technical": 77635.6875,
+        "target_1": 81148.8515625,
+        "target_2": 83256.75,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
