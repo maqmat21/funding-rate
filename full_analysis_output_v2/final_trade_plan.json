@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-09T17:26:38.826268+00:00",
+    "generated_at_utc": "2026-09-09T19:54:42.135400+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.745,
-        "trend": "bajista"
+        "price": 98.819,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.837,
@@ -21,51 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 34m",
     "News from the Yahoo Finance Network",
-    "If You Had Bought $10,000 of Apple Stock When Tim Cook Became CEO, Here's What You'd Have Today",
     "If I Were in My 20s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever",
     "49-year-old beloved pizza dining chain quietly closes locations",
-    "She Pays Grandma $8,000 a Year to Watch the Kids. Off the Books Is Illegal, but On the Books Is Magic: No Payroll Tax, and Every Dollar Can Land in a Roth",
+    "He Retired at 63 With $520,000 in a 401(k) and Lived on Savings for Ten Years. By 73 It Was $850,000, and His First RMD Was $32,000, Every Dollar Taxable",
     "Do you need to be a millionaire to retire? Experts weigh in on the 15% rule.",
-    "He Retired at 63 With $520,000 in a 401(k) and Lived on Savings for Ten Years. By 73 It Was $850,000, and His First RMD Was $32,000, Every Dollar Taxable"
+    "Apple debuts the iPhone Duo, its first foldable, priced at $1,999",
+    "She Pays Grandma $8,000 a Year to Watch the Kids. Off the Books Is Illegal, but On the Books Is Magic: No Payroll Tax, and Every Dollar Can Land in a Roth",
+    "His 'Guy' Has His Investments Earning 6% in Bonds. Dave Ramsey Says, 'You're Getting Destroyed. This Guy Doesn't Know What He's Doing'"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78867.2421875,
-        "perp_last_price": 78867.2421875,
-        "mark_price": 78867.2421875,
-        "index_price": 78867.2421875,
+        "spot_price": 78208.15625,
+        "perp_last_price": 78208.15625,
+        "mark_price": 78208.15625,
+        "index_price": 78208.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78857.859375,
-        "stop_loss_technical": 78036.5703125,
-        "target_1": 80089.79296875,
-        "target_2": 81321.7265625,
+        "entry_ideal": 78203.71875,
+        "stop_loss_technical": 79729.15625,
+        "target_1": 75915.5625,
+        "target_2": 73627.40625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78867.2421875,
+        "entry_ideal": 78208.15625,
         "stop_loss_technical": 80530.6484375,
-        "target_1": 76372.1328125,
-        "target_2": 73877.0234375,
+        "target_1": 74724.41796875,
+        "target_2": 71240.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
