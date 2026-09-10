@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-10T09:04:41.863833+00:00",
+    "generated_at_utc": "2026-09-10T13:30:54.435332+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 98.783,
+        "price": 99.117,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.837,
+        "price": 4.918,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 26m",
+    "U.S. markets close in 6h 30m",
     "News from the Yahoo Finance Network",
+    "Trump Promises $5,000 Payment to US Adults if GOP Wins Midterms",
     "He Retired at 63 With $520,000 in a 401(k) and Lived on Savings for Ten Years. By 73 It Was $850,000, and His First RMD Was $32,000, Every Dollar Taxable",
-    "Trump Calls for New $5,000 Dividend to All Adult U.S. Citizens if GOP Wins",
-    "Home prices are falling fastest in these cities. See the list",
-    "49-year-old beloved pizza dining chain quietly closes locations",
     "Costco to open 10 locations in 9 states. See where",
-    "If I Were in My 20s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever"
+    "Dennis Hof's Bunny Ranch empire hits market for $33.9 million",
+    "FBI issues warning to US homeowners with 100% paid-off mortgages — new update reveals major risk. Is your house exposed?",
+    "49-year-old beloved pizza dining chain quietly closes locations"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78150.5625,
-        "perp_last_price": 78150.5625,
-        "mark_price": 78150.5625,
-        "index_price": 78150.5625,
+        "spot_price": 76801.15625,
+        "perp_last_price": 76801.15625,
+        "mark_price": 76801.15625,
+        "index_price": 76801.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78150.5625,
-        "stop_loss_technical": 76978.3040625,
-        "target_1": 79908.95015625,
-        "target_2": 81667.3378125,
+        "entry_ideal": 76784.671875,
+        "stop_loss_technical": 78773.4296875,
+        "target_1": 73801.53515625,
+        "target_2": 70818.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78150.5625,
+        "entry_ideal": 76801.15625,
         "stop_loss_technical": 80530.6484375,
-        "target_1": 74580.43359375,
-        "target_2": 71010.3046875,
+        "target_1": 71206.91796875,
+        "target_2": 65612.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
