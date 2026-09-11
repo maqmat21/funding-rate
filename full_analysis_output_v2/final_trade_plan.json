@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-11T18:08:25.786428+00:00",
+    "generated_at_utc": "2026-09-11T20:54:26.170661+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.104,
+        "price": 99.135,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.955,
+        "price": 4.975,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 52m",
     "News from the Yahoo Finance Network",
     "Popular restaurant chain closes all locations after 55 years",
-    "Nicole Kidman’s net worth in 2026: A look inside the ‘Practical Magic 2’ star’s wealth",
-    "Olive Garden rival closes 18 locations after filing bankruptcy",
-    "The Nest Egg You Need to Retire Comfortably With a Paid-Off Home in Each State",
     "Let’s Be Real. Only One No Income Tax State Actually Works Once You Add Property and Sales Tax",
-    "Trump Promises $5,000 Payment to US Adults if GOP Wins Midterms"
+    "The Nest Egg You Need to Retire Comfortably With a Paid-Off Home in Each State",
+    "FBI issues warning to US homeowners with 100% paid-off mortgages — new update reveals major risk. Is your house exposed?",
+    "Hassett Says Trump $5,000 Checks Can Be Fiscally Responsible",
+    "Social Security recipients may see largest pay raise in 3 years in 2027",
+    "Trump administration proposes axing grace period for H-1B visa holders after job loss"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77083.34375,
-        "perp_last_price": 77083.34375,
-        "mark_price": 77083.34375,
-        "index_price": 77083.34375,
+        "spot_price": 77221.046875,
+        "perp_last_price": 77221.046875,
+        "mark_price": 77221.046875,
+        "index_price": 77221.046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77059.7578125,
-        "stop_loss_technical": 79812.109375,
-        "target_1": 72931.23046875,
-        "target_2": 68802.703125,
+        "entry_ideal": 77221.046875,
+        "stop_loss_technical": 79748.3828125,
+        "target_1": 73430.04296875,
+        "target_2": 69639.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77083.34375,
+        "entry_ideal": 77221.046875,
         "stop_loss_technical": 80432.3125,
-        "target_1": 72059.890625,
-        "target_2": 67036.4375,
+        "target_1": 72404.1484375,
+        "target_2": 67587.25,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
