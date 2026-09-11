@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-11T06:00:53.720974+00:00",
+    "generated_at_utc": "2026-09-11T11:09:12.404524+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.046,
+        "price": 99.166,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 30m",
+    "U.S. markets open in 2h 22m",
     "News from the Yahoo Finance Network",
     "Rich Dad Poor Dad’s Robert Kiyosaki Says He’s $1.2 Billion in Debt But Stays 1 Step Ahead Of Creditors — If It All Goes Bust, ‘You Can Talk To My Attorney’",
+    "The Stock Market Is Repeating a Pattern Not Seen Since the Dot-Com Bubble. History Says Investors Should Make This 1 Move Right Now.",
+    "The Nest Egg You Need to Retire Comfortably With a Paid-Off Home in Each State",
     "Popular restaurant chain closes all locations after 55 years",
-    "He Retired at 63 With $520,000 in a 401(k) and Lived on Savings for Ten Years. By 73 It Was $850,000, and His First RMD Was $32,000, Every Dollar Taxable",
-    "Scott Bessent dared the $32 trillion bond market with ‘I am the house now’ statement. It didn’t listen",
     "Olive Garden rival closes 18 locations after filing bankruptcy",
-    "Jim Cramer Says Forget Stocks, the 30-Year Treasury Is King Right Now"
+    "Trump Promises $5,000 Payment to US Adults if GOP Wins Midterms"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77198.9765625,
-        "perp_last_price": 77198.9765625,
-        "mark_price": 77198.9765625,
-        "index_price": 77198.9765625,
+        "spot_price": 76766.0078125,
+        "perp_last_price": 76766.0078125,
+        "mark_price": 76766.0078125,
+        "index_price": 76766.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77199.1875,
-        "stop_loss_technical": 76041.1996875,
-        "target_1": 78936.16921875,
-        "target_2": 80673.1509375,
+        "entry_ideal": 76766.0078125,
+        "stop_loss_technical": 77508.796875,
+        "target_1": 75651.82421875,
+        "target_2": 74537.640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77198.9765625,
+        "entry_ideal": 76766.0078125,
         "stop_loss_technical": 80432.3125,
-        "target_1": 72348.97265625,
-        "target_2": 67498.96875,
+        "target_1": 71266.55078125,
+        "target_2": 65767.09375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
