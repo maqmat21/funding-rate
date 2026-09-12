@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-12T17:56:46.079968+00:00",
+    "generated_at_utc": "2026-09-12T19:53:50.832131+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,23 +25,37 @@
     "She Inherited Her Mother’s $180,000 IRA at 58 and Was Told She Had 10 Years to Empty It. Nobody Told Her the IRS Also Wants a Withdrawal in Each One of Them",
     "Tim Cook warns of US crisis: ‘I’ve never seen anything like it’ and Musk agrees. Shockproof your hard cash today",
     "Popular restaurant chain closes all locations after 55 years",
-    "Jim Cramer Flips the Script: Why Older Investors Should Ditch Growth Stocks for 30-Year Treasuries",
     "He Kept a $40,000 Whole Life Policy for 30 Years So the Kids Wouldn’t Pay for the Funeral. The Nursing Home’s Medicaid Office Told Him to Cash It In First",
-    "If a Stock Market Crash Is Coming, History Says This 1 Move Protects Investors Every Single Time",
-    "Warren Buffett keeps turning to the same ETF for a reason"
+    "My husband died suddenly just a month ago — can I collect his Social Security and mine at the same time?",
+    "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
+    "If a Stock Market Crash Is Coming, History Says This 1 Move Protects Investors Every Single Time"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77198.5,
-        "perp_last_price": 77198.5,
-        "mark_price": 77198.5,
-        "index_price": 77198.5,
+        "spot_price": 77111.5390625,
+        "perp_last_price": 77111.5390625,
+        "mark_price": 77111.5390625,
+        "index_price": 77111.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 77111.3984375,
+        "stop_loss_technical": 75954.72746094,
+        "target_1": 78846.40490234,
+        "target_2": 80581.41136719,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77195.203125,
-        "stop_loss_technical": 77483.28125,
-        "target_1": 76763.0859375,
-        "target_2": 76330.96875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 77198.5,
+        "entry_ideal": 77111.5390625,
         "stop_loss_technical": 79818.3359375,
-        "target_1": 73268.74609375,
-        "target_2": 69338.9921875,
+        "target_1": 73051.34375,
+        "target_2": 68991.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
