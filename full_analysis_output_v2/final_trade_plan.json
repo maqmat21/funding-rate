@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-12T00:45:34.028976+00:00",
+    "generated_at_utc": "2026-09-12T05:06:54.686880+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,36 +24,36 @@
     "News from the Yahoo Finance Network",
     "Popular restaurant chain closes all locations after 55 years",
     "He Kept a $40,000 Whole Life Policy for 30 Years So the Kids Wouldn’t Pay for the Funeral. The Nursing Home’s Medicaid Office Told Him to Cash It In First",
+    "Morgan Stanley warns of possible stock market correction",
     "Let’s Be Real. Only One No Income Tax State Actually Works Once You Add Property and Sales Tax",
-    "New data shows the US government's $166 billion tariff refund process is quickly tapering off",
     "The Nest Egg You Need to Retire Comfortably With a Paid-Off Home in Each State",
-    "50 multimillionaire Gen Zers went on a two-week Goldman Sachs bootcamp—they learned how to read the news, invest in art, and communicate better",
-    "Social Security recipients may see largest pay raise in 3 years in 2027"
+    "New data shows the US government's $166 billion tariff refund process is quickly tapering off",
+    "See how your income tax bracket could change for 2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77269.6484375,
-        "perp_last_price": 77269.6484375,
-        "mark_price": 77269.6484375,
-        "index_price": 77269.6484375,
+        "spot_price": 77171.6796875,
+        "perp_last_price": 77171.6796875,
+        "mark_price": 77171.6796875,
+        "index_price": 77171.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77269.6484375,
-        "stop_loss_technical": 76110.60371094,
-        "target_1": 79008.21552734,
-        "target_2": 80746.78261719,
+        "entry_ideal": 77171.6796875,
+        "stop_loss_technical": 79748.3828125,
+        "target_1": 73306.625,
+        "target_2": 69441.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77269.6484375,
-        "stop_loss_technical": 79812.109375,
-        "target_1": 73455.95703125,
-        "target_2": 69642.265625,
+        "entry_ideal": 77171.6796875,
+        "stop_loss_technical": 79748.3828125,
+        "target_1": 73306.625,
+        "target_2": 69441.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
