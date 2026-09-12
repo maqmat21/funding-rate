@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-12T05:06:54.686880+00:00",
+    "generated_at_utc": "2026-09-12T09:13:18.874918+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,52 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Is a Stock Market Crash Looming Under President Donald Trump? Nearly 156 Years of History Offers Up an Unpleasant Truth for Wall Street.",
     "Popular restaurant chain closes all locations after 55 years",
     "He Kept a $40,000 Whole Life Policy for 30 Years So the Kids Wouldn’t Pay for the Funeral. The Nursing Home’s Medicaid Office Told Him to Cash It In First",
     "Morgan Stanley warns of possible stock market correction",
     "Let’s Be Real. Only One No Income Tax State Actually Works Once You Add Property and Sales Tax",
     "The Nest Egg You Need to Retire Comfortably With a Paid-Off Home in Each State",
-    "New data shows the US government's $166 billion tariff refund process is quickly tapering off",
     "See how your income tax bracket could change for 2027"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77171.6796875,
-        "perp_last_price": 77171.6796875,
-        "mark_price": 77171.6796875,
-        "index_price": 77171.6796875,
+        "spot_price": 77342.4296875,
+        "perp_last_price": 77342.4296875,
+        "mark_price": 77342.4296875,
+        "index_price": 77342.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77171.6796875,
-        "stop_loss_technical": 79748.3828125,
-        "target_1": 73306.625,
-        "target_2": 69441.5703125,
+        "entry_ideal": 77342.4296875,
+        "stop_loss_technical": 76182.29324219,
+        "target_1": 79082.63435547,
+        "target_2": 80822.83902344,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77171.6796875,
-        "stop_loss_technical": 79748.3828125,
-        "target_1": 73306.625,
-        "target_2": 69441.5703125,
+        "entry_ideal": 77342.4296875,
+        "stop_loss_technical": 76182.29324219,
+        "target_1": 79082.63435547,
+        "target_2": 80822.83902344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
