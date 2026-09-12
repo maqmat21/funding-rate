@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-12T19:53:50.832131+00:00",
+    "generated_at_utc": "2026-09-12T21:46:17.349559+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,7 +24,7 @@
     "News from the Yahoo Finance Network",
     "She Inherited Her Mother’s $180,000 IRA at 58 and Was Told She Had 10 Years to Empty It. Nobody Told Her the IRS Also Wants a Withdrawal in Each One of Them",
     "Tim Cook warns of US crisis: ‘I’ve never seen anything like it’ and Musk agrees. Shockproof your hard cash today",
-    "Popular restaurant chain closes all locations after 55 years",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "He Kept a $40,000 Whole Life Policy for 30 Years So the Kids Wouldn’t Pay for the Funeral. The Nursing Home’s Medicaid Office Told Him to Cash It In First",
     "My husband died suddenly just a month ago — can I collect his Social Security and mine at the same time?",
     "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
@@ -34,10 +34,10 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77111.5390625,
-        "perp_last_price": 77111.5390625,
-        "mark_price": 77111.5390625,
-        "index_price": 77111.5390625,
+        "spot_price": 77212.3671875,
+        "perp_last_price": 77212.3671875,
+        "mark_price": 77212.3671875,
+        "index_price": 77212.3671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,25 +49,24 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77111.3984375,
-        "stop_loss_technical": 75954.72746094,
-        "target_1": 78846.40490234,
-        "target_2": 80581.41136719,
+        "entry_ideal": 77212.3671875,
+        "stop_loss_technical": 76054.18167969,
+        "target_1": 78949.64544922,
+        "target_2": 80686.92371094,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77111.5390625,
+        "entry_ideal": 77212.3671875,
         "stop_loss_technical": 79818.3359375,
-        "target_1": 73051.34375,
-        "target_2": 68991.1484375,
+        "target_1": 73303.4140625,
+        "target_2": 69394.4609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
