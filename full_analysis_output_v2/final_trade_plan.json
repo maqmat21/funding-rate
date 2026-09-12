@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-12T12:51:57.464482+00:00",
+    "generated_at_utc": "2026-09-12T15:54:50.264486+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "If a Stock Market Crash Is Coming, History Says This 1 Move Protects Investors Every Single Time",
     "Tim Cook warns of US crisis: ‘I’ve never seen anything like it’ and Musk agrees. Shockproof your hard cash today",
-    "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
     "Popular restaurant chain closes all locations after 55 years",
     "He Kept a $40,000 Whole Life Policy for 30 Years So the Kids Wouldn’t Pay for the Funeral. The Nursing Home’s Medicaid Office Told Him to Cash It In First",
     "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
-    "Let’s Be Real. Only One No Income Tax State Actually Works Once You Add Property and Sales Tax",
-    "‘Money has no utility’: Warren Buffett prizes 1 personal asset above all else — here's how you can take advantage of it"
+    "Why stocks haven't tanked despite higher bond yields: Chart of the Day",
+    "My husband died suddenly just a month ago — can I collect his Social Security and mine at the same time?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77277.75,
-        "perp_last_price": 77277.75,
-        "mark_price": 77277.75,
-        "index_price": 77277.75,
+        "spot_price": 77370.7890625,
+        "perp_last_price": 77370.7890625,
+        "mark_price": 77370.7890625,
+        "index_price": 77370.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,24 +50,24 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77275.2109375,
-        "stop_loss_technical": 77946.9921875,
-        "target_1": 76267.5390625,
-        "target_2": 75259.8671875,
+        "entry_ideal": 77369.1015625,
+        "stop_loss_technical": 77483.2890625,
+        "target_1": 77197.8203125,
+        "target_2": 77026.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77277.75,
-        "stop_loss_technical": 79818.3359375,
-        "target_1": 73466.87109375,
-        "target_2": 69655.9921875,
+        "entry_ideal": 77370.7890625,
+        "stop_loss_technical": 76210.22722656,
+        "target_1": 79111.63181641,
+        "target_2": 80852.47457031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
