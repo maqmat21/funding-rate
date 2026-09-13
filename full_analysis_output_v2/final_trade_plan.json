@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-13T06:11:15.294396+00:00",
+    "generated_at_utc": "2026-09-13T11:54:08.450911+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,50 +23,52 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "She Inherited Her Mother’s $180,000 IRA at 58 and Was Told She Had 10 Years to Empty It. Nobody Told Her the IRS Also Wants a Withdrawal in Each One of Them",
+    "Wall Street's Biggest Bubble May Be Bursting Before Our Eyes, and the Consequences for the Stock Market Are Nothing Short of Disastrous",
     "Tim Cook warns of US crisis: ‘I’ve never seen anything like it’ and Musk agrees. Shockproof your hard cash today",
     "My husband died suddenly just a month ago — can I collect his Social Security and mine at the same time?",
-    "He Kept a $40,000 Whole Life Policy for 30 Years So the Kids Wouldn’t Pay for the Funeral. The Nursing Home’s Medicaid Office Told Him to Cash It In First",
+    "This 1 Costco item has skyrocketed 125% in price over just 2 years. And the retail behemoth is limiting member purchases",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "This investment is safe from both Trump and the Democrats — and it pays 4.7%",
-    "Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock"
+    "Retirees spent their lives saving. Now they're afraid to spend"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77284.59375,
-        "perp_last_price": 77284.59375,
-        "mark_price": 77284.59375,
-        "index_price": 77284.59375,
+        "spot_price": 76758.3203125,
+        "perp_last_price": 76758.3203125,
+        "mark_price": 76758.3203125,
+        "index_price": 76758.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 77281.1484375,
-        "stop_loss_technical": 77483.2890625,
-        "target_1": 76977.9375,
-        "target_2": 76674.7265625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77284.59375,
-        "stop_loss_technical": 76125.32484375,
-        "target_1": 79023.49710938,
-        "target_2": 80762.40046875,
+        "entry_ideal": 76758.328125,
+        "stop_loss_technical": 75606.95320312,
+        "target_1": 78485.39050781,
+        "target_2": 80212.45289063,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 76758.3203125,
+        "stop_loss_technical": 79818.3359375,
+        "target_1": 72168.296875,
+        "target_2": 67578.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
