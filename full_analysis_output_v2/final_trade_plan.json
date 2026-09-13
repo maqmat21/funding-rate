@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-13T20:51:12.269213+00:00",
+    "generated_at_utc": "2026-09-13T22:42:13.869380+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.095,
+        "price": 99.145,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,51 +24,51 @@
     "News from the Yahoo Finance Network",
     "Being a millionaire isn’t enough to join America’s top 10% — here’s the net worth it actually takes to be in the top",
     "She Inherited Her Mother’s $180,000 IRA at 58 and Was Told She Had 10 Years to Empty It. Nobody Told Her the IRS Also Wants a Withdrawal in Each One of Them",
-    "Want a $1 Million Investment Portfolio? This 1 ETF Could Be Your Ticket",
     "Wall Street's Biggest Bubble May Be Bursting Before Our Eyes, and the Consequences for the Stock Market Are Nothing Short of Disastrous",
-    "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts",
+    "Retirees spent their lives saving. Now they're afraid to spend",
     "My husband died suddenly just a month ago — can I collect his Social Security and mine at the same time?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77305.6875,
-        "perp_last_price": 77305.6875,
-        "mark_price": 77305.6875,
-        "index_price": 77305.6875,
+        "spot_price": 76716.0234375,
+        "perp_last_price": 76716.0234375,
+        "mark_price": 76716.0234375,
+        "index_price": 76716.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77305.6875,
-        "stop_loss_technical": 76146.1021875,
-        "target_1": 79045.06546875,
-        "target_2": 80784.4434375,
+        "entry_ideal": 76715.953125,
+        "stop_loss_technical": 77419.046875,
+        "target_1": 75661.3125,
+        "target_2": 74606.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77305.6875,
-        "stop_loss_technical": 76146.1021875,
-        "target_1": 79045.06546875,
-        "target_2": 80784.4434375,
+        "entry_ideal": 76716.0234375,
+        "stop_loss_technical": 79818.3359375,
+        "target_1": 72062.5546875,
+        "target_2": 67409.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
