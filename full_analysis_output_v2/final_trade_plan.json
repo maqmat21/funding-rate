@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-14T20:28:39.371004+00:00",
+    "generated_at_utc": "2026-09-14T23:17:19.136546+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.497,
+        "price": 99.467,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,35 +25,35 @@
     "Being a millionaire isn’t enough to join America’s top 10% — here’s the net worth it actually takes to be in the top",
     "Here’s the minimum net worth you need to be considered ‘upper class’ in your 60s — and the magic step to get you there",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "At 74 He Still Converts to a Roth Every Year. The Rule Nobody Tells Retirees: Take the RMD First, and Everything Above It Can Still Go In",
     "Tim Cook Could Have Purchased Any of 488 S&P 500 Companies With $879 Billion. Instead, He Bought Something That Changed Apple's Fortune Forever.",
     "Do banks report deposits to the IRS​?",
-    "Do you need to be a millionaire to retire? Experts weigh in on the 15% rule.",
-    "Bank of America CEO Sparks Bank Stock Selloff With One Small Word"
+    "Most millionaires don't consider themselves wealthy. So what does it really mean to be rich?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79404.703125,
-        "perp_last_price": 79404.703125,
-        "mark_price": 79404.703125,
-        "index_price": 79404.703125,
+        "spot_price": 78408.96875,
+        "perp_last_price": 78408.96875,
+        "mark_price": 78408.96875,
+        "index_price": 78408.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79404.703125,
-        "stop_loss_technical": 78213.63257813,
-        "target_1": 81191.30894531,
-        "target_2": 82977.91476562,
+        "entry_ideal": 78407.6171875,
+        "stop_loss_technical": 79568.0390625,
+        "target_1": 76666.984375,
+        "target_2": 74926.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,13 +62,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79404.703125,
-        "stop_loss_technical": 78213.63257813,
-        "target_1": 81191.30894531,
-        "target_2": 82977.91476562,
+        "entry_ideal": 78408.96875,
+        "stop_loss_technical": 77232.83421875,
+        "target_1": 80173.17054688,
+        "target_2": 81937.37234375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
