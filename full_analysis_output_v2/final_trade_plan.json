@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-14T00:28:13.722375+00:00",
+    "generated_at_utc": "2026-09-14T05:15:55.021891+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.127,
+        "price": 99.346,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,54 +21,53 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 15m",
     "News from the Yahoo Finance Network",
     "Being a millionaire isn’t enough to join America’s top 10% — here’s the net worth it actually takes to be in the top",
     "She Inherited Her Mother’s $180,000 IRA at 58 and Was Told She Had 10 Years to Empty It. Nobody Told Her the IRS Also Wants a Withdrawal in Each One of Them",
-    "Wall Street's Biggest Bubble May Be Bursting Before Our Eyes, and the Consequences for the Stock Market Are Nothing Short of Disastrous",
+    "Stocks are in a late-stage bubble and poised to crash 21% next year, while Treasury yields above 5% will signal a new era of tight money, analysts say",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts",
-    "This 1 Costco item has skyrocketed 125% in price over just 2 years. And the retail behemoth is limiting member purchases",
-    "My husband died suddenly just a month ago — can I collect his Social Security and mine at the same time?"
+    "Wall Street's Biggest Bubble May Be Bursting Before Our Eyes, and the Consequences for the Stock Market Are Nothing Short of Disastrous",
+    "She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76497.5,
-        "perp_last_price": 76497.5,
-        "mark_price": 76497.5,
-        "index_price": 76497.5,
+        "spot_price": 77598.0390625,
+        "perp_last_price": 77598.0390625,
+        "mark_price": 77598.0390625,
+        "index_price": 77598.0390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76497.5,
-        "stop_loss_technical": 77394.890625,
-        "target_1": 75151.4140625,
-        "target_2": 73805.328125,
+        "entry_ideal": 77589.1171875,
+        "stop_loss_technical": 76425.28042969,
+        "target_1": 79334.87232422,
+        "target_2": 81080.62746094,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76497.5,
-        "stop_loss_technical": 79818.3359375,
-        "target_1": 71516.24609375,
-        "target_2": 66534.9921875,
+        "entry_ideal": 77598.0390625,
+        "stop_loss_technical": 76434.06847656,
+        "target_1": 79343.99494141,
+        "target_2": 81089.95082031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
