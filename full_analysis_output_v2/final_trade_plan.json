@@ -1,74 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-16T10:00:09.177144+00:00",
+    "generated_at_utc": "2026-09-16T14:39:36.036613+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 99.658,
+        "price": 99.689,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.996,
-        "trend": "alcista"
+        "price": 4.967,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 31m",
+    "U.S. markets close in 5h 21m",
     "News from the Yahoo Finance Network",
     "Billionaire Charlie Munger, Who Died at 99, Skipped Insurance on His Mansion Since He Could Just Write a Check to Rebuild — ‘All Intelligent People Do It My Way’",
-    "Elon Musk, the world’s richest man, says he’s living in an Airstream trailer to oversee xAI’s biggest expansion yet",
-    "The Stock Market Is Sending a Rare Historical Warning. Warren Buffett Says Investors Should Make This 1 Move.",
-    "The Stock Market Is Repeating a Pattern Not Seen in Decades: History Says This Will Come Next",
-    "Prediction: Warren Buffett's Successor, Greg Abel, Will Dispose of One of Berkshire Hathaway's Largest Holdings",
-    "After $664 billion backlog, Oracle sends shocking message to staff"
+    "Seattle single-income mom homeschooling her kids discovers she owns $18M in one stock. What Dave Ramsey says to do next",
+    "Billionaires are flocking to these 3 Florida localities—here’s how much they save in taxes",
+    "Bessent says Treasury is seeking ways to deliver Trump's $5,000 dividend without adding to deficit",
+    "A Bear Market Is Coming. History Says the Smartest Investors Are Already Making This 1 Move",
+    "The Retirees Who Left The Villages for Good Say They Should Have Done It Years Sooner"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75924.0390625,
-        "perp_last_price": 75924.0390625,
-        "mark_price": 75924.0390625,
-        "index_price": 75924.0390625,
+        "spot_price": 75609.2578125,
+        "perp_last_price": 75609.2578125,
+        "mark_price": 75609.2578125,
+        "index_price": 75609.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 75924.0390625,
-        "stop_loss_technical": 74785.17847656,
-        "target_1": 77632.32994141,
-        "target_2": 79340.62082031,
+        "entry_ideal": 75604.6171875,
+        "stop_loss_technical": 76245.5234375,
+        "target_1": 74643.2578125,
+        "target_2": 73681.8984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 75924.0390625,
+        "entry_ideal": 75609.2578125,
         "stop_loss_technical": 79568.953125,
-        "target_1": 70456.66796875,
-        "target_2": 64989.296875,
+        "target_1": 69669.71484375,
+        "target_2": 63730.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
