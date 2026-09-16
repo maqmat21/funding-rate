@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-16T00:40:37.959831+00:00",
+    "generated_at_utc": "2026-09-16T05:18:52.548762+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.669,
+        "price": 99.638,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 12m",
     "News from the Yahoo Finance Network",
     "Billionaire Charlie Munger, Who Died at 99, Skipped Insurance on His Mansion Since He Could Just Write a Check to Rebuild — ‘All Intelligent People Do It My Way’",
-    "At 74 He Still Converts to a Roth Every Year. The Rule Nobody Tells Retirees: Take the RMD First, and Everything Above It Can Still Go In",
+    "Elon Musk, the world’s richest man, says he’s living in an Airstream trailer to oversee xAI’s biggest expansion yet",
     "After $664 billion backlog, Oracle sends shocking message to staff",
-    "Charlie Munger once revealed ‘the iron rule of life’ to survive anything — and it could make you rich. Do you use it?",
     "Bessent says Treasury is seeking ways to deliver Trump's $5,000 dividend without adding to deficit",
-    "JPMorgan CEO sends strong warning to all Americans",
-    "The 10 most overvalued housing markets in America"
+    "Charlie Munger once revealed ‘the iron rule of life’ to survive anything — and it could make you rich. Do you use it?",
+    "At 74 He Still Converts to a Roth Every Year. The Rule Nobody Tells Retirees: Take the RMD First, and Everything Above It Can Still Go In"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75814.046875,
-        "perp_last_price": 75814.046875,
-        "mark_price": 75814.046875,
-        "index_price": 75814.046875,
+        "spot_price": 75764.609375,
+        "perp_last_price": 75764.609375,
+        "mark_price": 75764.609375,
+        "index_price": 75764.609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75821.203125,
-        "stop_loss_technical": 74683.88507812,
-        "target_1": 77527.18019531,
-        "target_2": 79233.15726563,
+        "entry_ideal": 75788.9609375,
+        "stop_loss_technical": 74652.12652344,
+        "target_1": 77494.21255859,
+        "target_2": 79199.46417969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75814.046875,
+        "entry_ideal": 75764.609375,
         "stop_loss_technical": 79568.953125,
-        "target_1": 70181.6875,
-        "target_2": 64549.328125,
+        "target_1": 70058.09375,
+        "target_2": 64351.578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
