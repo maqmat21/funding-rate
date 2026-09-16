@@ -1,71 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-16T18:24:17.602556+00:00",
+    "generated_at_utc": "2026-09-16T21:28:34.400649+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 99.949,
+        "price": 100.325,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.951,
-        "trend": "bajista"
+        "price": 5.006,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 36m",
     "News from the Yahoo Finance Network",
     "Billionaire Charlie Munger, Who Died at 99, Skipped Insurance on His Mansion Since He Could Just Write a Check to Rebuild — ‘All Intelligent People Do It My Way’",
     "The Retirees Who Left The Villages for Good Say They Should Have Done It Years Sooner",
+    "'Interest Rates in the United States should be 1%': Trump reacts to Fed's rate hike",
     "Seattle single-income mom homeschooling her kids discovers she owns $18M in one stock. What Dave Ramsey says to do next",
     "After $664 billion backlog, Oracle sends shocking message to staff",
-    "Fed raises interest rates by a quarter point in unanimous decision, marking first hike in 3 years",
-    "Bessent says Treasury is seeking ways to deliver Trump's $5,000 dividend without adding to deficit"
+    "Retirees Who Ended Up Alone in The Villages Say Nobody Warned Them What It Would Cost",
+    "QQQI Holders Gave Up $19,700 on a $300,000 Position in One Year for the 14% Monthly Check"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75988.6875,
-        "perp_last_price": 75988.6875,
-        "mark_price": 75988.6875,
-        "index_price": 75988.6875,
+        "spot_price": 76023.6796875,
+        "perp_last_price": 76023.6796875,
+        "mark_price": 76023.6796875,
+        "index_price": 76023.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75988.6875,
-        "stop_loss_technical": 75278.6171875,
-        "target_1": 77053.79296875,
-        "target_2": 78118.8984375,
+        "entry_ideal": 76010.2421875,
+        "stop_loss_technical": 76463.3828125,
+        "target_1": 75330.53125,
+        "target_2": 74650.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 75988.6875,
-        "stop_loss_technical": 74944.59375,
-        "target_1": 77554.828125,
-        "target_2": 79120.96875,
+        "entry_ideal": 76023.6796875,
+        "stop_loss_technical": 74883.32449219,
+        "target_1": 77734.21248047,
+        "target_2": 79444.74527344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
