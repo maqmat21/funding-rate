@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-16T23:43:24.577080+00:00",
+    "generated_at_utc": "2026-09-17T01:43:37.117602+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.34,
+        "price": 100.29,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Billionaire Charlie Munger, Who Died at 99, Skipped Insurance on His Mansion Since He Could Just Write a Check to Rebuild — ‘All Intelligent People Do It My Way’",
     "The Retirees Who Left The Villages for Good Say They Should Have Done It Years Sooner",
+    "Man sentenced in $35 million Ponzi scheme that defrauded Travis Kelce: ‘He did this out of greed’",
     "Seattle single-income mom homeschooling her kids discovers she owns $18M in one stock. What Dave Ramsey says to do next",
+    "Billionaire says Bitcoin is 'worthless' after CLARITY Act failure",
+    "Trump slams the Fed rate hike, says he told Warsh 'you might as well vote with the board'",
     "After $664 billion backlog, Oracle sends shocking message to staff",
-    "Retirees Who Ended Up Alone in The Villages Say Nobody Warned Them What It Would Cost",
-    "Trump reacts to Fed rate hike, says he told Warsh 'you might as well vote with the board'",
-    "Billionaires are flocking to these 3 Florida localities—here’s how much they save in taxes"
+    "Retirees Who Ended Up Alone in The Villages Say Nobody Warned Them What It Would Cost"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76138.2421875,
-        "perp_last_price": 76138.2421875,
-        "mark_price": 76138.2421875,
-        "index_price": 76138.2421875,
+        "spot_price": 76533.6015625,
+        "perp_last_price": 76533.6015625,
+        "mark_price": 76533.6015625,
+        "index_price": 76533.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,10 +50,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76138.25,
-        "stop_loss_technical": 74996.17625,
-        "target_1": 77851.360625,
-        "target_2": 79564.47125,
+        "entry_ideal": 76564.3828125,
+        "stop_loss_technical": 75415.91707031,
+        "target_1": 78287.08142578,
+        "target_2": 80009.78003906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +62,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76138.2421875,
-        "stop_loss_technical": 74996.16855469,
-        "target_1": 77851.35263672,
-        "target_2": 79564.46308594,
+        "entry_ideal": 76533.6015625,
+        "stop_loss_technical": 75385.59753906,
+        "target_1": 78255.60759766,
+        "target_2": 79977.61363281,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
