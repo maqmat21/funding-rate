@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-17T16:53:09.962757+00:00",
+    "generated_at_utc": "2026-09-17T19:55:34.104216+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,60 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.233,
+        "price": 100.208,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.945,
+        "price": 4.947,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 8m",
     "News from the Yahoo Finance Network",
     "The Retirees Who Left The Villages for Good Say They Should Have Done It Years Sooner",
+    "Kroger no longer selling Red Bull at stores nationwide. What we know",
     "Seattle single-income mom homeschooling her kids discovers she owns $18M in one stock. What Dave Ramsey says to do next",
-    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes",
     "Man sentenced in $35 million Ponzi scheme that defrauded Travis Kelce: I ‘did this out of greed’",
-    "Millionaires are everywhere in the U.S., new book says",
+    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes",
+    "Retirees Who Ended Up Alone in The Villages Say Nobody Warned Them What It Would Cost",
     "Shaq moved his dad from a $60K Army salary to $500K a year — and gave his mom $750K. Here's how it's legal"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76568.7578125,
-        "perp_last_price": 76568.7578125,
-        "mark_price": 76568.7578125,
-        "index_price": 76568.7578125,
+        "spot_price": 76535.5234375,
+        "perp_last_price": 76535.5234375,
+        "mark_price": 76535.5234375,
+        "index_price": 76535.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76568.7578125,
-        "stop_loss_technical": 77076.8984375,
-        "target_1": 75806.546875,
-        "target_2": 75044.3359375,
+        "entry_ideal": 76536.3828125,
+        "stop_loss_technical": 75928.28125,
+        "target_1": 77448.53515625,
+        "target_2": 78360.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76568.7578125,
+        "entry_ideal": 76535.5234375,
         "stop_loss_technical": 74944.59375,
-        "target_1": 79005.00390625,
-        "target_2": 81441.25,
+        "target_1": 78921.91796875,
+        "target_2": 81308.3125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
