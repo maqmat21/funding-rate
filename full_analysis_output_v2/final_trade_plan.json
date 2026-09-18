@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-18T09:46:39.450811+00:00",
+    "generated_at_utc": "2026-09-18T13:52:51.072565+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.352,
+        "price": 100.495,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.947,
-        "trend": "bajista"
+        "price": 4.992,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 45m",
+    "U.S. markets close in 6h 8m",
     "News from the Yahoo Finance Network",
+    "Joe Kennedy Put the Family Money Into Trusts in 1926, Before Any of His Kids Could Vote. A Century and Five Generations Later, the Kennedys Still Live on Them, and the Trust He Used Is the One Any Estate Lawyer Drafts Today",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
+    "Warren Buffett is stepping down as Berkshire Hathaway chair, and his son Howard knows his life has just officially changed",
     "Kroger no longer selling Red Bull at stores nationwide. What we know",
-    "Sandisk Unveiled an $14 Billion Buyback and Warren Buffett Has Something to Say About It",
-    "Warren Buffett Just Issued a Blunt Message as This Stock Market Warning Rings for the Second Time in 155 Years",
-    "Warren Buffett Has More Than 50% of His Portfolio in These 3 Stocks. Which One Is the Best Buy Today?"
+    "The CLARITY Act Died on Tuesday. By Friday the SEC and CFTC Had Written Three Rules. What Changed for XRP, Bitcoin, and Solana?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78027.7109375,
-        "perp_last_price": 78027.7109375,
-        "mark_price": 78027.7109375,
-        "index_price": 78027.7109375,
+        "spot_price": 80356.65625,
+        "perp_last_price": 80356.65625,
+        "mark_price": 80356.65625,
+        "index_price": 80356.65625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78027.7109375,
-        "stop_loss_technical": 78403.84375,
-        "target_1": 77463.51171875,
-        "target_2": 76899.3125,
+        "entry_ideal": 80356.65625,
+        "stop_loss_technical": 79151.30640625,
+        "target_1": 82164.68101562,
+        "target_2": 83972.70578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 78027.7109375,
-        "stop_loss_technical": 74944.59375,
-        "target_1": 82652.38671875,
-        "target_2": 87277.0625,
+        "entry_ideal": 80356.65625,
+        "stop_loss_technical": 79151.30640625,
+        "target_1": 82164.68101562,
+        "target_2": 83972.70578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
