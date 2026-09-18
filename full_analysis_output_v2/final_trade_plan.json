@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-18T21:53:26.332917+00:00",
+    "generated_at_utc": "2026-09-18T23:42:48.158152+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,35 @@
     "News from the Yahoo Finance Network",
     "Joe Kennedy Put the Family Money Into Trusts in 1926, Before Any of His Kids Could Vote. A Century and Five Generations Later, the Kennedys Still Live on Them, and the Trust He Used Is the One Any Estate Lawyer Drafts Today",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
-    "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
-    "3 Unstoppable Dividend Stocks to Buy Now (1 Yields 5.5%)",
-    "Meritage Hospitality files for Chapter 11 bankruptcy",
     "Meet Warren Buffett’s son Howard, a former sheriff, war photographer, and now, Berkshire’s new chairman",
-    "Trump Says He’ll Ban CNN, MS NOW and Politico From White House"
+    "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
+    "Meritage Hospitality files for Chapter 11 bankruptcy",
+    "Trump Says He’ll Ban CNN, MS NOW and Politico From White House",
+    "Bitcoin Will Hit $1 Million, Says Kevin O’Leary—But There’s a Quantum Catch"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81183.0234375,
-        "perp_last_price": 81183.0234375,
-        "mark_price": 81183.0234375,
-        "index_price": 81183.0234375,
+        "spot_price": 80875.0078125,
+        "perp_last_price": 80875.0078125,
+        "mark_price": 80875.0078125,
+        "index_price": 80875.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81183.0234375,
+        "entry_ideal": 80873.40625,
         "stop_loss_technical": 81385.5,
-        "target_1": 80879.30859375,
-        "target_2": 80575.59375,
+        "target_1": 80105.265625,
+        "target_2": 79337.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81183.0234375,
+        "entry_ideal": 80875.0078125,
         "stop_loss_technical": 74944.59375,
-        "target_1": 90540.66796875,
-        "target_2": 99898.3125,
+        "target_1": 89770.62890625,
+        "target_2": 98666.25,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
