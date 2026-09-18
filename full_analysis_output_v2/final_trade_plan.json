@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-18T00:44:15.837356+00:00",
+    "generated_at_utc": "2026-09-18T05:14:23.424019+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.232,
+        "price": 100.257,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,50 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 16m",
     "News from the Yahoo Finance Network",
-    "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
+    "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
     "Kroger no longer selling Red Bull at stores nationwide. What we know",
+    "Sandisk Unveiled an $14 Billion Buyback and Warren Buffett Has Something to Say About It",
     "Warren Buffett Has More Than 50% of His Portfolio in These 3 Stocks. Which One Is the Best Buy Today?",
-    "Best Dividend Stocks to Buy for Dependable Dividend Growth",
-    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes",
-    "They Sold the Ohio House and Retired to a Florida Rental. When They Needed a Nursing Home, Medicaid Counted the $310,000 the House Had Once Sheltered"
+    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76354.1796875,
-        "perp_last_price": 76354.1796875,
-        "mark_price": 76354.1796875,
-        "index_price": 76354.1796875,
+        "spot_price": 77487.1171875,
+        "perp_last_price": 77487.1171875,
+        "mark_price": 77487.1171875,
+        "index_price": 77487.1171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76354.1875,
+        "entry_ideal": 77488.6796875,
         "stop_loss_technical": 75937.1015625,
-        "target_1": 76979.81640625,
-        "target_2": 77605.4453125,
+        "target_1": 79816.046875,
+        "target_2": 82143.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76354.1796875,
-        "stop_loss_technical": 79568.953125,
-        "target_1": 71532.01953125,
-        "target_2": 66709.859375,
+        "entry_ideal": 77487.1171875,
+        "stop_loss_technical": 74944.59375,
+        "target_1": 81300.90234375,
+        "target_2": 85114.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
