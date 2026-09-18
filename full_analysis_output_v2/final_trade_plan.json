@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-18T17:20:14.902411+00:00",
+    "generated_at_utc": "2026-09-18T19:42:30.209893+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.249,
+        "price": 100.188,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.0,
+        "price": 4.998,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 40m",
     "News from the Yahoo Finance Network",
     "Joe Kennedy Put the Family Money Into Trusts in 1926, Before Any of His Kids Could Vote. A Century and Five Generations Later, the Kennedys Still Live on Them, and the Trust He Used Is the One Any Estate Lawyer Drafts Today",
-    "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
+    "Wendy's franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
     "Warren Buffett is stepping down as Berkshire Hathaway chair, and his son Howard knows his life has just officially changed",
-    "Kroger no longer selling Red Bull at stores nationwide. What we know",
-    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes"
+    "He Put His Daughter’s Name on the $90,000 Savings Account So She Could Pay His Bills. The Medicaid Office Counted All of It as His",
+    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes",
+    "$10,000 in a high-yield savings account or $10,000 in a CD: Which one will earn more in one year?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80762.859375,
-        "perp_last_price": 80762.859375,
-        "mark_price": 80762.859375,
-        "index_price": 80762.859375,
+        "spot_price": 81211.84375,
+        "perp_last_price": 81211.84375,
+        "mark_price": 81211.84375,
+        "index_price": 81211.84375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80760.109375,
-        "stop_loss_technical": 81236.7265625,
-        "target_1": 80045.18359375,
-        "target_2": 79330.2578125,
+        "entry_ideal": 81211.84375,
+        "stop_loss_technical": 76217.1171875,
+        "target_1": 88703.93359375,
+        "target_2": 96196.0234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 80762.859375,
+        "entry_ideal": 81211.84375,
         "stop_loss_technical": 74944.59375,
-        "target_1": 89490.2578125,
-        "target_2": 98217.65625,
+        "target_1": 90612.71875,
+        "target_2": 100013.59375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
