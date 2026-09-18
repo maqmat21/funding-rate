@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-17T22:30:30.197944+00:00",
+    "generated_at_utc": "2026-09-18T00:44:15.837356+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.236,
+        "price": 100.232,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,50 +23,48 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
+    "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "Kroger no longer selling Red Bull at stores nationwide. What we know",
+    "Warren Buffett Has More Than 50% of His Portfolio in These 3 Stocks. Which One Is the Best Buy Today?",
+    "Best Dividend Stocks to Buy for Dependable Dividend Growth",
     "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes",
-    "Man sentenced in $35 million Ponzi scheme that defrauded Travis Kelce: I ‘did this out of greed’",
-    "Retirees Who Ended Up Alone in The Villages Say Nobody Warned Them What It Would Cost",
-    "Shaq moved his dad from a $60K Army salary to $500K a year — and gave his mom $750K. Here's how it's legal",
     "They Sold the Ohio House and Retired to a Florida Rental. When They Needed a Nursing Home, Medicaid Counted the $310,000 the House Had Once Sheltered"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76193.9921875,
-        "perp_last_price": 76193.9921875,
-        "mark_price": 76193.9921875,
-        "index_price": 76193.9921875,
+        "spot_price": 76354.1796875,
+        "perp_last_price": 76354.1796875,
+        "mark_price": 76354.1796875,
+        "index_price": 76354.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76197.90625,
-        "stop_loss_technical": 77076.8984375,
-        "target_1": 74879.41796875,
-        "target_2": 73560.9296875,
+        "entry_ideal": 76354.1875,
+        "stop_loss_technical": 75937.1015625,
+        "target_1": 76979.81640625,
+        "target_2": 77605.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76193.9921875,
+        "entry_ideal": 76354.1796875,
         "stop_loss_technical": 79568.953125,
-        "target_1": 71131.55078125,
-        "target_2": 66069.109375,
+        "target_1": 71532.01953125,
+        "target_2": 66709.859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
