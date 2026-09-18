@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-18T05:14:23.424019+00:00",
+    "generated_at_utc": "2026-09-18T09:46:39.450811+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.257,
+        "price": 100.352,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 16m",
+    "U.S. markets open in 3h 45m",
     "News from the Yahoo Finance Network",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "Bank of America Just Declared a ‘Generational Entry Point’ in U.S. Bonds. Why Investors Should Be Backing Up the Truck on Treasuries Here.",
     "Kroger no longer selling Red Bull at stores nationwide. What we know",
     "Sandisk Unveiled an $14 Billion Buyback and Warren Buffett Has Something to Say About It",
-    "Warren Buffett Has More Than 50% of His Portfolio in These 3 Stocks. Which One Is the Best Buy Today?",
-    "Mark Cuban says 'I've gotten beat' after investing $20M in 85 Shark Tank startups. What you can learn from his mistakes"
+    "Warren Buffett Just Issued a Blunt Message as This Stock Market Warning Rings for the Second Time in 155 Years",
+    "Warren Buffett Has More Than 50% of His Portfolio in These 3 Stocks. Which One Is the Best Buy Today?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77487.1171875,
-        "perp_last_price": 77487.1171875,
-        "mark_price": 77487.1171875,
-        "index_price": 77487.1171875,
+        "spot_price": 78027.7109375,
+        "perp_last_price": 78027.7109375,
+        "mark_price": 78027.7109375,
+        "index_price": 78027.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77488.6796875,
-        "stop_loss_technical": 75937.1015625,
-        "target_1": 79816.046875,
-        "target_2": 82143.4140625,
+        "entry_ideal": 78027.7109375,
+        "stop_loss_technical": 78403.84375,
+        "target_1": 77463.51171875,
+        "target_2": 76899.3125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77487.1171875,
+        "entry_ideal": 78027.7109375,
         "stop_loss_technical": 74944.59375,
-        "target_1": 81300.90234375,
-        "target_2": 85114.6875,
+        "target_1": 82652.38671875,
+        "target_2": 87277.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
