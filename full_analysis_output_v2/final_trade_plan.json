@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-19T19:24:49.550608+00:00",
+    "generated_at_utc": "2026-09-19T21:32:04.501699+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,8 +22,8 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Dave Ramsey Told 1 Caller, ‘Hold on to the Cash. We’re Not Gonna Pay Off the House,’ But 5 Months Later Told Another to Pay It Off That Night. Here’s Why.",
     "A Social Security tax rate hike may cost Americans up to $3,000 a year",
-    "Joe Kennedy Put the Family Money Into Trusts in 1926, Before Any of His Kids Could Vote. A Century and Five Generations Later, the Kennedys Still Live on Them, and the Trust He Used Is the One Any Estate Lawyer Drafts Today",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
     "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
@@ -34,38 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81395.9765625,
-        "perp_last_price": 81395.9765625,
-        "mark_price": 81395.9765625,
-        "index_price": 81395.9765625,
+        "spot_price": 81002.328125,
+        "perp_last_price": 81002.328125,
+        "mark_price": 81002.328125,
+        "index_price": 81002.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 81002.328125,
+        "stop_loss_technical": 81910.7890625,
+        "target_1": 79639.63671875,
+        "target_2": 78276.9453125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 81395.9765625,
+        "entry_ideal": 81002.328125,
         "stop_loss_technical": 81910.7890625,
-        "target_1": 80623.7578125,
-        "target_2": 79851.5390625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 81395.9765625,
-        "stop_loss_technical": 74944.59375,
-        "target_1": 91073.05078125,
-        "target_2": 100750.125,
+        "target_1": 79639.63671875,
+        "target_2": 78276.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
