@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-19T17:24:41.077807+00:00",
+    "generated_at_utc": "2026-09-19T19:24:49.550608+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,31 +28,30 @@
     "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
     "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
     "How Many Retirees Have Incomes of Less Than $2,000 a Month?",
-    "Meritage Hospitality files for Chapter 11 bankruptcy"
+    "Warren Buffett Watched Alphabet's Stock Price Climb 9,000% Before He Decided to Invest. Here's Why He and Greg Abel Are Making It One of Berkshire Hathaway's Biggest Investments Now."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81519.28125,
-        "perp_last_price": 81519.28125,
-        "mark_price": 81519.28125,
-        "index_price": 81519.28125,
+        "spot_price": 81395.9765625,
+        "perp_last_price": 81395.9765625,
+        "mark_price": 81395.9765625,
+        "index_price": 81395.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 81519.25,
+        "entry_ideal": 81395.9765625,
         "stop_loss_technical": 81910.7890625,
-        "target_1": 80931.94140625,
-        "target_2": 80344.6328125,
+        "target_1": 80623.7578125,
+        "target_2": 79851.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81519.28125,
+        "entry_ideal": 81395.9765625,
         "stop_loss_technical": 74944.59375,
-        "target_1": 91381.3125,
-        "target_2": 101243.34375,
+        "target_1": 91073.05078125,
+        "target_2": 100750.125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
