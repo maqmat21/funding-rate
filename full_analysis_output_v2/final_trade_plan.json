@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-19T14:34:46.644516+00:00",
+    "generated_at_utc": "2026-09-19T17:24:41.077807+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,34 +25,34 @@
     "A Social Security tax rate hike may cost Americans up to $3,000 a year",
     "Joe Kennedy Put the Family Money Into Trusts in 1926, Before Any of His Kids Could Vote. A Century and Five Generations Later, the Kennedys Still Live on Them, and the Trust He Used Is the One Any Estate Lawyer Drafts Today",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
-    "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
     "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
-    "Meritage Hospitality files for Chapter 11 bankruptcy",
-    "A 401(k) Millionaire’s First RMD Is About $37,700. Add a $40,000 Social Security Benefit and 85% of the Benefit Turns Taxable the Same Year"
+    "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
+    "How Many Retirees Have Incomes of Less Than $2,000 a Month?",
+    "Meritage Hospitality files for Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81507.890625,
-        "perp_last_price": 81507.890625,
-        "mark_price": 81507.890625,
-        "index_price": 81507.890625,
+        "spot_price": 81519.28125,
+        "perp_last_price": 81519.28125,
+        "mark_price": 81519.28125,
+        "index_price": 81519.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81507.890625,
-        "stop_loss_technical": 80827.5703125,
-        "target_1": 82528.37109375,
-        "target_2": 83548.8515625,
+        "entry_ideal": 81519.25,
+        "stop_loss_technical": 81910.7890625,
+        "target_1": 80931.94140625,
+        "target_2": 80344.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81507.890625,
+        "entry_ideal": 81519.28125,
         "stop_loss_technical": 74944.59375,
-        "target_1": 91352.8359375,
-        "target_2": 101197.78125,
+        "target_1": 91381.3125,
+        "target_2": 101243.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
