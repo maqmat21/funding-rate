@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-19T11:26:29.113048+00:00",
+    "generated_at_utc": "2026-09-19T14:34:46.644516+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "A Social Security tax rate hike may cost Americans up to $3,000 a year",
     "Joe Kennedy Put the Family Money Into Trusts in 1926, Before Any of His Kids Could Vote. A Century and Five Generations Later, the Kennedys Still Live on Them, and the Trust He Used Is the One Any Estate Lawyer Drafts Today",
     "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
-    "A Social Security tax rate hike may cost Americans up to $3,000 a year",
-    "If You'd Invested $1,000 in Nvidia's 1999 IPO, Here's How Much You'd Have Today",
-    "Jim Cramer sends strong warning to stock market investors",
-    "A $1,000 Monthly Investment in the Schwab U.S. Dividend Equity ETF (SCHD) Could Build Serious Passive Income Over 20 Years"
+    "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
+    "Meritage Hospitality files for Chapter 11 bankruptcy",
+    "A 401(k) Millionaire’s First RMD Is About $37,700. Add a $40,000 Social Security Benefit and 85% of the Benefit Turns Taxable the Same Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81274.921875,
-        "perp_last_price": 81274.921875,
-        "mark_price": 81274.921875,
-        "index_price": 81274.921875,
+        "spot_price": 81507.890625,
+        "perp_last_price": 81507.890625,
+        "mark_price": 81507.890625,
+        "index_price": 81507.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 81274.921875,
-        "stop_loss_technical": 81707.671875,
-        "target_1": 80625.796875,
-        "target_2": 79976.671875,
+        "entry_ideal": 81507.890625,
+        "stop_loss_technical": 80827.5703125,
+        "target_1": 82528.37109375,
+        "target_2": 83548.8515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81274.921875,
+        "entry_ideal": 81507.890625,
         "stop_loss_technical": 74944.59375,
-        "target_1": 90770.4140625,
-        "target_2": 100265.90625,
+        "target_1": 91352.8359375,
+        "target_2": 101197.78125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
