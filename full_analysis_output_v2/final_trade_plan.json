@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-20T14:52:37.576344+00:00",
+    "generated_at_utc": "2026-09-20T17:45:57.161608+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,19 +25,19 @@
     "‘High on Coke’: Elon Musk stunned by Berkshire’s dividend payout. Learn how to build your own passive income stream now",
     "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?",
     "Dave Ramsey Told 1 Caller, ‘Hold on to the Cash. We’re Not Gonna Pay Off the House,’ But 5 Months Later Told Another to Pay It Off That Night. Here’s Why.",
-    "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
-    "A Social Security tax rate hike may cost Americans up to $3,000 a year",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "A Social Security tax rate hike may cost Americans up to $3,000 a year",
+    "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
     "My first law firm billed clients $600 per hour for me to use my Harvard degree on data entry. Thank God AI is changing the industry"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80600.2421875,
-        "perp_last_price": 80600.2421875,
-        "mark_price": 80600.2421875,
-        "index_price": 80600.2421875,
+        "spot_price": 81382.09375,
+        "perp_last_price": 81382.09375,
+        "mark_price": 81382.09375,
+        "index_price": 81382.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 80600.2421875,
+        "entry_ideal": 81382.09375,
         "stop_loss_technical": 80091.03125,
-        "target_1": 81364.05859375,
-        "target_2": 82127.875,
+        "target_1": 83318.6875,
+        "target_2": 85255.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80600.2421875,
-        "stop_loss_technical": 81911.140625,
-        "target_1": 78633.89453125,
-        "target_2": 76667.546875,
+        "entry_ideal": 81382.09375,
+        "stop_loss_technical": 74995.5234375,
+        "target_1": 90961.94921875,
+        "target_2": 100541.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
