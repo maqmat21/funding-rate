@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-20T01:21:04.296711+00:00",
+    "generated_at_utc": "2026-09-20T06:29:46.709866+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,9 +24,9 @@
     "News from the Yahoo Finance Network",
     "Dave Ramsey Told 1 Caller, ‘Hold on to the Cash. We’re Not Gonna Pay Off the House,’ But 5 Months Later Told Another to Pay It Off That Night. Here’s Why.",
     "A Social Security tax rate hike may cost Americans up to $3,000 a year",
-    "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
-    "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
     "Warren Buffett Watched Alphabet's Stock Price Climb 9,000% Before He Decided to Invest. Here's Why He and Greg Abel Are Making It One of Berkshire Hathaway's Biggest Investments Now.",
+    "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
+    "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
     "How Many Retirees Have Incomes of Less Than $2,000 a Month?",
     "Meritage Hospitality files for Chapter 11 bankruptcy"
   ],
@@ -34,14 +34,27 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81156.8203125,
-        "perp_last_price": 81156.8203125,
-        "mark_price": 81156.8203125,
-        "index_price": 81156.8203125,
+        "spot_price": 80440.5,
+        "perp_last_price": 80440.5,
+        "mark_price": 80440.5,
+        "index_price": 80440.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 80430.0,
+        "stop_loss_technical": 81910.7890625,
+        "target_1": 78208.81640625,
+        "target_2": 75987.6328125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 74,
@@ -49,23 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 81156.8203125,
+        "entry_ideal": 80440.5,
         "stop_loss_technical": 81910.7890625,
-        "target_1": 80025.8671875,
-        "target_2": 78894.9140625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio < EMA20"
-        ],
-        "entry_ideal": 81156.8203125,
-        "stop_loss_technical": 81910.7890625,
-        "target_1": 80025.8671875,
-        "target_2": 78894.9140625,
+        "target_1": 78235.06640625,
+        "target_2": 76029.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
