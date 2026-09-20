@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-20T06:29:46.709866+00:00",
+    "generated_at_utc": "2026-09-20T11:43:01.585993+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?",
+    "Greg Abel Recently Plowed $4.2 Billion Into Warren Buffett's Favorite Stock, and It Wasn't Apple",
     "Dave Ramsey Told 1 Caller, ‘Hold on to the Cash. We’re Not Gonna Pay Off the House,’ But 5 Months Later Told Another to Pay It Off That Night. Here’s Why.",
     "A Social Security tax rate hike may cost Americans up to $3,000 a year",
-    "Warren Buffett Watched Alphabet's Stock Price Climb 9,000% Before He Decided to Invest. Here's Why He and Greg Abel Are Making It One of Berkshire Hathaway's Biggest Investments Now.",
-    "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
-    "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
-    "How Many Retirees Have Incomes of Less Than $2,000 a Month?",
-    "Meritage Hospitality files for Chapter 11 bankruptcy"
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Too old to hire? These Americans lost their jobs at 60",
+    "Warren Buffett Watched Alphabet's Stock Price Climb 9,000% Before He Decided to Invest. Here's Why He and Greg Abel Are Making It One of Berkshire Hathaway's Biggest Investments Now."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80440.5,
-        "perp_last_price": 80440.5,
-        "mark_price": 80440.5,
-        "index_price": 80440.5,
+        "spot_price": 80420.9609375,
+        "perp_last_price": 80420.9609375,
+        "mark_price": 80420.9609375,
+        "index_price": 80420.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80430.0,
-        "stop_loss_technical": 81910.7890625,
-        "target_1": 78208.81640625,
-        "target_2": 75987.6328125,
+        "entry_ideal": 80409.0,
+        "stop_loss_technical": 80091.03125,
+        "target_1": 80885.953125,
+        "target_2": 81362.90625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 80440.5,
-        "stop_loss_technical": 81910.7890625,
-        "target_1": 78235.06640625,
-        "target_2": 76029.6328125,
+        "entry_ideal": 80420.9609375,
+        "stop_loss_technical": 81911.140625,
+        "target_1": 78185.69140625,
+        "target_2": 75950.421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
