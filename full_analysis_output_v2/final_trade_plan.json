@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-19T23:27:51.962471+00:00",
+    "generated_at_utc": "2026-09-20T01:21:04.296711+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,49 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Dave Ramsey Told 1 Caller, ‘Hold on to the Cash. We’re Not Gonna Pay Off the House,’ But 5 Months Later Told Another to Pay It Off That Night. Here’s Why.",
-    "Burger franchisee closes 60 stores, files Chapter 11 bankruptcy",
     "A Social Security tax rate hike may cost Americans up to $3,000 a year",
     "It’s almost impossible to sell a condo unit these days: ‘I feel trapped’",
     "A Crisis Is Looming Large as Nearly 50% of Americans Are Entering Retirement With Nothing Saved",
+    "Warren Buffett Watched Alphabet's Stock Price Climb 9,000% Before He Decided to Invest. Here's Why He and Greg Abel Are Making It One of Berkshire Hathaway's Biggest Investments Now.",
     "How Many Retirees Have Incomes of Less Than $2,000 a Month?",
-    "Treasury yields are already blowing up the CBO’s long-term forecasts, and experts who previously downplayed U.S. debt fears are now starting to worry"
+    "Meritage Hospitality files for Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81193.2421875,
-        "perp_last_price": 81193.2421875,
-        "mark_price": 81193.2421875,
-        "index_price": 81193.2421875,
+        "spot_price": 81156.8203125,
+        "perp_last_price": 81156.8203125,
+        "mark_price": 81156.8203125,
+        "index_price": 81156.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 81156.8203125,
+        "stop_loss_technical": 81910.7890625,
+        "target_1": 80025.8671875,
+        "target_2": 78894.9140625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 81193.2421875,
+        "entry_ideal": 81156.8203125,
         "stop_loss_technical": 81910.7890625,
-        "target_1": 80116.921875,
-        "target_2": 79040.6015625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 81193.2421875,
-        "stop_loss_technical": 74944.59375,
-        "target_1": 90566.21484375,
-        "target_2": 99939.1875,
+        "target_1": 80025.8671875,
+        "target_2": 78894.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
