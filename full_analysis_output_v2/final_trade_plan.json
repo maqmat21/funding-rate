@@ -1,73 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-21T07:04:59.738307+00:00",
+    "generated_at_utc": "2026-09-21T13:57:03.691884+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.316,
+        "price": 100.332,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.998,
-        "trend": "alcista"
+        "price": 4.965,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 26m",
+    "U.S. markets close in 6h 4m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett Just Released a Farewell Letter. It Contains the Most Devastating 4-Word Piece of Investment Advice I've Ever Heard.",
     "‘High on Coke’: Elon Musk stunned by Berkshire’s dividend payout. Learn how to build your own passive income stream now",
-    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?",
-    "Retired Couple, Both 63, Just Learned They've Paid Their Advisor $31,000 A Year For 15 Years — Their Son Says 'You Never Even Asked What You Were Paying'",
+    "Jeff Bezos's parents sank $245,573 of their retirement savings into Amazon after he told them they'd probably lose it",
     "‘Even Though It’s Bad for Berkshire’ Billionaire Charlie Munger Said to Skip Insurance Because ‘You’re Paying for the Other Fellow’s Frauds’",
-    "Dave Ramsey Told 1 Caller, ‘Hold on to the Cash. We’re Not Gonna Pay Off the House,’ But 5 Months Later Told Another to Pay It Off That Night. Here’s Why.",
+    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?",
     "Millionaires in America: How common is it to have a 7-figure net worth?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81633.6171875,
-        "perp_last_price": 81633.6171875,
-        "mark_price": 81633.6171875,
-        "index_price": 81633.6171875,
+        "spot_price": 85576.71875,
+        "perp_last_price": 85576.71875,
+        "mark_price": 85576.71875,
+        "index_price": 85576.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 81633.6171875,
-        "stop_loss_technical": 82070.25,
-        "target_1": 80978.66796875,
-        "target_2": 80323.71875,
+        "entry_ideal": 85607.171875,
+        "stop_loss_technical": 80605.421875,
+        "target_1": 93109.796875,
+        "target_2": 100612.421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 81633.6171875,
-        "stop_loss_technical": 80409.11292969,
-        "target_1": 83470.37357422,
-        "target_2": 85307.12996094,
+        "entry_ideal": 85576.71875,
+        "stop_loss_technical": 75945.5546875,
+        "target_1": 100023.46484375,
+        "target_2": 114470.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
