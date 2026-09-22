@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-22T05:49:43.021468+00:00",
+    "generated_at_utc": "2026-09-22T10:22:24.494335+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.372,
+        "price": 100.369,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 41m",
+    "U.S. markets open in 3h 8m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Just Released a Farewell Letter. It Contains the Most Devastating 4-Word Piece of Investment Advice I've Ever Heard.",
-    "Operator of 314 Wendy's locations in the US files for bankruptcy protection",
     "‘High on Coke’: Elon Musk stunned by Berkshire’s dividend payout. Learn how to build your own passive income stream now",
-    "Want to make $200K? This fast-food chain pays managers that much",
+    "Operator of 314 Wendy's locations in the US files for bankruptcy protection",
+    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?",
     "Jamie Dimon Just Said 8 Words Warning the American Dream Is \"Slipping Out of Reach for Too Many People.\" Here's the Retirement Wave Behind His Warning and What It Means for the Economy JPMorgan Serves.",
-    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?"
+    "Jeff Bezos's parents sank $245,573 of their retirement savings into Amazon after he told them they'd probably lose it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85522.5,
-        "perp_last_price": 85522.5,
-        "mark_price": 85522.5,
-        "index_price": 85522.5,
+        "spot_price": 86002.4765625,
+        "perp_last_price": 86002.4765625,
+        "mark_price": 86002.4765625,
+        "index_price": 86002.4765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 85522.5,
-        "stop_loss_technical": 84113.609375,
-        "target_1": 87635.8359375,
-        "target_2": 89749.171875,
+        "entry_ideal": 86002.4765625,
+        "stop_loss_technical": 84712.43941406,
+        "target_1": 87937.53228516,
+        "target_2": 89872.58800781,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 85522.5,
+        "entry_ideal": 86002.4765625,
         "stop_loss_technical": 76228.328125,
-        "target_1": 99463.7578125,
-        "target_2": 113405.015625,
+        "target_1": 100663.69921875,
+        "target_2": 115324.921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
