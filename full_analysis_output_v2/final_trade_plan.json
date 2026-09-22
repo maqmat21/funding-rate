@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-22T15:03:30.289548+00:00",
+    "generated_at_utc": "2026-09-22T18:46:31.418387+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.575,
+        "price": 100.606,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.959,
+        "price": 4.961,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 57m",
+    "U.S. markets close in 1h 14m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Just Released a Farewell Letter. It Contains the Most Devastating 4-Word Piece of Investment Advice I've Ever Heard.",
     "Jeff Bezos's parents sank $245,573 of their retirement savings into Amazon after he told them they'd probably lose it",
+    "Another barbecue chain shuts restaurants as rivals hit bankruptcy",
     "Operator of 314 Wendy's locations in the US files for bankruptcy protection",
-    "‘I just want out’: Billionaire Jeffrey Gundlach says you should have ‘almost nothing’ in AI stocks — what to buy instead",
-    "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-    "I Have to Take RMDs but Don't Need the Money. What Should I Do With It?"
+    "Trump Administration to Remove 750,000 From Obamacare Rolls",
+    "Jamie Dimon Just Said 8 Words Warning the American Dream Is \"Slipping Out of Reach for Too Many People.\" Here's the Retirement Wave Behind His Warning and What It Means for the Economy JPMorgan Serves."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 86190.1171875,
-        "perp_last_price": 86190.1171875,
-        "mark_price": 86190.1171875,
-        "index_price": 86190.1171875,
+        "spot_price": 86465.78125,
+        "perp_last_price": 86465.78125,
+        "mark_price": 86465.78125,
+        "index_price": 86465.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 86198.8203125,
-        "stop_loss_technical": 85085.28125,
-        "target_1": 87869.12890625,
-        "target_2": 89539.4375,
+        "entry_ideal": 86487.8125,
+        "stop_loss_technical": 85086.21875,
+        "target_1": 88590.203125,
+        "target_2": 90692.59375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 86190.1171875,
+        "entry_ideal": 86465.78125,
         "stop_loss_technical": 76228.328125,
-        "target_1": 101132.80078125,
-        "target_2": 116075.484375,
+        "target_1": 101821.9609375,
+        "target_2": 117178.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
