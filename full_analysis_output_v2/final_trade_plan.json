@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-22T00:58:42.436579+00:00",
+    "generated_at_utc": "2026-09-22T05:49:43.021468+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 100.376,
-        "trend": "alcista"
+        "price": 100.372,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.963,
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 41m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Just Released a Farewell Letter. It Contains the Most Devastating 4-Word Piece of Investment Advice I've Ever Heard.",
     "Operator of 314 Wendy's locations in the US files for bankruptcy protection",
     "‘High on Coke’: Elon Musk stunned by Berkshire’s dividend payout. Learn how to build your own passive income stream now",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?",
-    "Jeff Bezos's parents sank $245,573 of their retirement savings into Amazon after he told them they'd probably lose it",
-    "Want to make $200K? This fast-food chain pays managers that much"
+    "Want to make $200K? This fast-food chain pays managers that much",
+    "Jamie Dimon Just Said 8 Words Warning the American Dream Is \"Slipping Out of Reach for Too Many People.\" Here's the Retirement Wave Behind His Warning and What It Means for the Economy JPMorgan Serves.",
+    "Trump said American seniors would pay ‘no tax’ on Social Security benefits, but not everyone got in. Are you covered?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85850.296875,
-        "perp_last_price": 85850.296875,
-        "mark_price": 85850.296875,
-        "index_price": 85850.296875,
+        "spot_price": 85522.5,
+        "perp_last_price": 85522.5,
+        "mark_price": 85522.5,
+        "index_price": 85522.5,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 85865.6171875,
-        "stop_loss_technical": 87373.78125,
-        "target_1": 83603.37109375,
-        "target_2": 81341.125,
+        "entry_ideal": 85522.5,
+        "stop_loss_technical": 84113.609375,
+        "target_1": 87635.8359375,
+        "target_2": 89749.171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 85850.296875,
+        "entry_ideal": 85522.5,
         "stop_loss_technical": 76228.328125,
-        "target_1": 100283.25,
-        "target_2": 114716.203125,
+        "target_1": 99463.7578125,
+        "target_2": 113405.015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
