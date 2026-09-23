@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-22T23:50:56.133066+00:00",
+    "generated_at_utc": "2026-09-23T02:08:23.647603+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.56,
+        "price": 100.636,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Another barbecue chain shuts restaurants as rivals hit bankruptcy",
-    "“For People Going Into Retirement, This Is a Gift.” A 65-Year-Old With $1.5 Million Can Now Generate $74,445 a Year Before Even Thinking About Social Security",
     "Woman, 62, Took A $700,000 Lump Sum Instead Of Her Pension — Her Coworkers Say She Made 'The Biggest Mistake Of Her Career'",
+    "Another barbecue chain shuts restaurants as rivals hit bankruptcy",
     "How Many Retirees Fully Own Their Homes? What Federal Reserve Data Reveals",
+    "“For People Going Into Retirement, This Is a Gift.” A 65-Year-Old With $1.5 Million Can Now Generate $74,445 a Year Before Even Thinking About Social Security",
+    "Microsoft is killing an Office app you've used for decades",
     "Operator of 314 Wendy's locations in the US files for bankruptcy protection",
-    "Jamie Dimon Just Said 8 Words Warning the American Dream Is \"Slipping Out of Reach for Too Many People.\" Here's the Retirement Wave Behind His Warning and What It Means for the Economy JPMorgan Serves.",
-    "She Did a Backdoor Roth. Her $300,000 Rollover IRA Made Almost All of It Taxable"
+    "Jamie Dimon Just Said 8 Words Warning the American Dream Is \"Slipping Out of Reach for Too Many People.\" Here's the Retirement Wave Behind His Warning and What It Means for the Economy JPMorgan Serves."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 86142.9296875,
-        "perp_last_price": 86142.9296875,
-        "mark_price": 86142.9296875,
-        "index_price": 86142.9296875,
+        "spot_price": 86323.8671875,
+        "perp_last_price": 86323.8671875,
+        "mark_price": 86323.8671875,
+        "index_price": 86323.8671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 86150.15625,
-        "stop_loss_technical": 86734.0,
-        "target_1": 85274.390625,
-        "target_2": 84398.625,
+        "entry_ideal": 86323.8671875,
+        "stop_loss_technical": 86829.390625,
+        "target_1": 85565.58203125,
+        "target_2": 84807.296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 86142.9296875,
-        "stop_loss_technical": 84850.78574219,
-        "target_1": 88081.14560547,
-        "target_2": 90019.36152344,
+        "entry_ideal": 86323.8671875,
+        "stop_loss_technical": 85029.00917969,
+        "target_1": 88266.15419922,
+        "target_2": 90208.44121094,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
