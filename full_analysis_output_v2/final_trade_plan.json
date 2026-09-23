@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-23T07:41:47.156851+00:00",
+    "generated_at_utc": "2026-09-23T13:01:18.037521+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,37 +11,51 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 100.756,
+        "price": 100.929,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.968,
+        "price": 4.988,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 49m",
     "News from the Yahoo Finance Network",
+    "Federal Reserve delivers warning to all Americans with a savings account: ‘There will be a reckoning.’ Are you ready?",
+    "Warren Buffett’s son worked on a farm instead of going to college—he’s now the chairman of $1 trillion Berkshire Hathaway",
     "Woman, 62, Took A $700,000 Lump Sum Instead Of Her Pension — Her Coworkers Say She Made 'The Biggest Mistake Of Her Career'",
     "How Many Retirees Fully Own Their Homes? What Federal Reserve Data Reveals",
     "Another barbecue chain shuts restaurants as rivals hit bankruptcy",
-    "Microsoft is killing an Office app you've used for decades",
-    "After 40 investors rejected Jeff Bezos’ Amazon pitch, his parents offered $245,573 of their retirement savings",
-    "Jamie Dimon Just Said 8 Words Warning the American Dream Is \"Slipping Out of Reach for Too Many People.\" Here's the Retirement Wave Behind His Warning and What It Means for the Economy JPMorgan Serves."
+    "‘Taxes aren’t really high enough for them to be sensitive’: the fears of the wealthy fleeing New York and California were just that",
+    "Microsoft is killing an Office app you've used for decades"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 86219.9921875,
-        "perp_last_price": 86219.9921875,
-        "mark_price": 86219.9921875,
-        "index_price": 86219.9921875,
+        "spot_price": 85456.7109375,
+        "perp_last_price": 85456.7109375,
+        "mark_price": 85456.7109375,
+        "index_price": 85456.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 85456.7109375,
+        "stop_loss_technical": 87280.828125,
+        "target_1": 82720.53515625,
+        "target_2": 79984.359375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 95,
@@ -50,24 +64,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 86223.9921875,
-        "stop_loss_technical": 87280.828125,
-        "target_1": 84638.73828125,
-        "target_2": 83053.484375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 86219.9921875,
+        "entry_ideal": 85456.7109375,
         "stop_loss_technical": 87363.7578125,
-        "target_1": 84504.34375,
-        "target_2": 82788.6953125,
+        "target_1": 82596.140625,
+        "target_2": 79735.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
