@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-24T11:53:52.512073+00:00",
+    "generated_at_utc": "2026-09-24T16:02:01.422633+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,62 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.269,
+        "price": 101.309,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.114,
+        "price": 5.156,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 37m",
+    "U.S. markets close in 3h 59m",
     "News from the Yahoo Finance Network",
-    "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since",
     "Federal Reserve delivers warning to all Americans with a savings account: ‘There will be a reckoning.’ Are you ready?",
+    "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since",
+    "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now",
     "Multimillionaire author Bill Perkins says parents should give kids their inheritance in their 20s when it can transform their lives—not when they die",
-    "Why so many Americans leave Social Security money on the table",
-    "Amazon laid off more than 30,000 workers — now it wants some of them back. Why ‘boomerang’ hiring is taking off",
-    "US 30-Year Yield Hits Highest Since 2004 as Bond Selloff Deepens"
+    "Federal Reserve Issues Grim Warning of a ‘Reckoning’ Ahead for Americans With Savings Accounts",
+    "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83390.046875,
-        "perp_last_price": 83390.046875,
-        "mark_price": 83390.046875,
-        "index_price": 83390.046875,
+        "spot_price": 84270.4765625,
+        "perp_last_price": 84270.4765625,
+        "mark_price": 84270.4765625,
+        "index_price": 84270.4765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83389.96875,
-        "stop_loss_technical": 84655.40625,
-        "target_1": 81491.8125,
-        "target_2": 79593.65625,
+        "entry_ideal": 84273.3828125,
+        "stop_loss_technical": 83009.28207031,
+        "target_1": 86169.53392578,
+        "target_2": 88065.68503906,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83390.046875,
-        "stop_loss_technical": 87363.7578125,
-        "target_1": 77429.48046875,
-        "target_2": 71468.9140625,
+        "entry_ideal": 84270.4765625,
+        "stop_loss_technical": 83006.41941406,
+        "target_1": 86166.56228516,
+        "target_2": 88062.64800781,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
