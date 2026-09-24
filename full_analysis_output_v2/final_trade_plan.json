@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-24T06:18:24.078480+00:00",
+    "generated_at_utc": "2026-09-24T11:53:52.512073+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.102,
+        "price": 101.269,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 12m",
+    "U.S. markets open in 1h 37m",
     "News from the Yahoo Finance Network",
+    "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since",
     "Federal Reserve delivers warning to all Americans with a savings account: ‘There will be a reckoning.’ Are you ready?",
     "Multimillionaire author Bill Perkins says parents should give kids their inheritance in their 20s when it can transform their lives—not when they die",
-    "Warren Buffett’s son worked on a farm instead of going to college—he’s now the chairman of $1 trillion Berkshire Hathaway",
-    "Woman, 62, Took A $700,000 Lump Sum Instead Of Her Pension — Her Coworkers Say She Made 'The Biggest Mistake Of Her Career'",
-    "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-    "$15.6 Billion in Bitcoin Options Expire Friday—Here's What It Means"
+    "Why so many Americans leave Social Security money on the table",
+    "Amazon laid off more than 30,000 workers — now it wants some of them back. Why ‘boomerang’ hiring is taking off",
+    "US 30-Year Yield Hits Highest Since 2004 as Bond Selloff Deepens"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84122.09375,
-        "perp_last_price": 84122.09375,
-        "mark_price": 84122.09375,
-        "index_price": 84122.09375,
+        "spot_price": 83390.046875,
+        "perp_last_price": 83390.046875,
+        "mark_price": 83390.046875,
+        "index_price": 83390.046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84124.75,
-        "stop_loss_technical": 82862.87875,
-        "target_1": 86017.556875,
-        "target_2": 87910.36375,
+        "entry_ideal": 83389.96875,
+        "stop_loss_technical": 84655.40625,
+        "target_1": 81491.8125,
+        "target_2": 79593.65625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84122.09375,
+        "entry_ideal": 83390.046875,
         "stop_loss_technical": 87363.7578125,
-        "target_1": 79259.59765625,
-        "target_2": 74397.1015625,
+        "target_1": 77429.48046875,
+        "target_2": 71468.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
