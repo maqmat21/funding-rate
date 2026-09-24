@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-24T16:02:01.422633+00:00",
+    "generated_at_utc": "2026-09-24T19:57:10.629573+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.309,
+        "price": 101.28,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.156,
+        "price": 5.162,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 59m",
     "News from the Yahoo Finance Network",
-    "Federal Reserve delivers warning to all Americans with a savings account: ‘There will be a reckoning.’ Are you ready?",
+    "Billionaire Charlie Munger, 99, Said His Life Worked Better Treating Elon Musk Like He Didn’t ‘Exist’ — ‘I Never Bet Against Him, But I Never Bet With Him’",
     "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since",
     "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now",
     "Multimillionaire author Bill Perkins says parents should give kids their inheritance in their 20s when it can transform their lives—not when they die",
-    "Federal Reserve Issues Grim Warning of a ‘Reckoning’ Ahead for Americans With Savings Accounts",
-    "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?"
+    "Every RMD Since 73 Has Gone Straight to His Three Kids, $19,000 Apiece. He Pays the Tax Once, They Never Pay It, and the Money Is Out of His Estate Before the Check Clears",
+    "Medicare just handed Eli Lilly a massive weight-loss win",
+    "Where do your retirement savings rank? Here are 5 wealth levels in America — from $0 to $2M-plus"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84270.4765625,
-        "perp_last_price": 84270.4765625,
-        "mark_price": 84270.4765625,
-        "index_price": 84270.4765625,
+        "spot_price": 84364.3828125,
+        "perp_last_price": 84364.3828125,
+        "mark_price": 84364.3828125,
+        "index_price": 84364.3828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84273.3828125,
-        "stop_loss_technical": 83009.28207031,
-        "target_1": 86169.53392578,
-        "target_2": 88065.68503906,
+        "entry_ideal": 84364.3828125,
+        "stop_loss_technical": 84897.0390625,
+        "target_1": 83565.3984375,
+        "target_2": 82766.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84270.4765625,
-        "stop_loss_technical": 83006.41941406,
-        "target_1": 86166.56228516,
-        "target_2": 88062.64800781,
+        "entry_ideal": 84364.3828125,
+        "stop_loss_technical": 83098.91707031,
+        "target_1": 86262.58142578,
+        "target_2": 88160.78003906,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
