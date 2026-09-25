@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-25T15:30:20.230335+00:00",
+    "generated_at_utc": "2026-09-25T19:26:28.516135+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.032,
+        "price": 100.959,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.215,
+        "price": 5.184,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 31m",
     "News from the Yahoo Finance Network",
     "Billionaire Charlie Munger, 99, Said His Life Worked Better Treating Elon Musk Like He Didn’t ‘Exist’ — ‘I Never Bet Against Him, But I Never Bet With Him’",
-    "Alice Walton got $33 billion richer last year without running a company. She’s building a tuition-free medical school instead",
     "‘We made a bad, bad decision’: I learned the hard way how to manage my aging father’s money",
+    "Alice Walton got $33 billion richer last year without running a company. She’s building a tuition-free medical school instead",
     "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now",
-    "California's oldest family-owned winery declares bankruptcy as wine industry struggles",
-    "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since"
+    "Sister, 41, Inherited $650,000 From Grandma Alone — Her Siblings Say She 'Owes Them A Cut' Since They 'Struggled More'",
+    "This Stock Pays a 6% Yield — and Has Raised Its Dividend for 28 Straight Years",
+    "California's oldest family-owned winery declares bankruptcy as wine industry struggles"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83802.859375,
-        "perp_last_price": 83802.859375,
-        "mark_price": 83802.859375,
-        "index_price": 83802.859375,
+        "spot_price": 83958.8125,
+        "perp_last_price": 83958.8125,
+        "mark_price": 83958.8125,
+        "index_price": 83958.8125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,24 +48,23 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 83802.859375,
+        "entry_ideal": 83958.8125,
         "stop_loss_technical": 85249.9921875,
-        "target_1": 81632.16015625,
-        "target_2": 79461.4609375,
+        "target_1": 82022.04296875,
+        "target_2": 80085.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 83802.859375,
+        "entry_ideal": 83958.8125,
         "stop_loss_technical": 87363.7578125,
-        "target_1": 78461.51171875,
-        "target_2": 73120.1640625,
+        "target_1": 78851.39453125,
+        "target_2": 73743.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
