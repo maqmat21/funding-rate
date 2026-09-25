@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-25T05:49:33.393002+00:00",
+    "generated_at_utc": "2026-09-25T10:35:45.850970+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.239,
-        "trend": "alcista"
+        "price": 101.043,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.162,
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 41m",
+    "U.S. markets open in 2h 55m",
     "News from the Yahoo Finance Network",
     "Billionaire Charlie Munger, 99, Said His Life Worked Better Treating Elon Musk Like He Didn’t ‘Exist’ — ‘I Never Bet Against Him, But I Never Bet With Him’",
+    "California's oldest family-owned winery declares bankruptcy as wine industry struggles",
+    "Warren Buffett Is Saying Farewell With a Sobering 4-Word Message for Investors",
     "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since",
     "Every RMD Since 73 Has Gone Straight to His Three Kids, $19,000 Apiece. He Pays the Tax Once, They Never Pay It, and the Money Is Out of His Estate Before the Check Clears",
-    "Elizabeth Warren Calls for Social Security Tax Changes: ‘We Can Protect Social Security if Everyone Paid Their Fair Share’",
-    "Tech Titans Join Trump to Fete China’s Xi at Lavish State Dinner",
     "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84262.46875,
-        "perp_last_price": 84262.46875,
-        "mark_price": 84262.46875,
-        "index_price": 84262.46875,
+        "spot_price": 84679.4921875,
+        "perp_last_price": 84679.4921875,
+        "mark_price": 84679.4921875,
+        "index_price": 84679.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 84252.0,
-        "stop_loss_technical": 82988.22,
-        "target_1": 86147.67,
-        "target_2": 88043.34,
+        "entry_ideal": 84679.4921875,
+        "stop_loss_technical": 83485.609375,
+        "target_1": 86470.31640625,
+        "target_2": 88261.140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 84262.46875,
-        "stop_loss_technical": 87363.7578125,
-        "target_1": 79610.53515625,
-        "target_2": 74958.6015625,
+        "entry_ideal": 84679.4921875,
+        "stop_loss_technical": 80867.0859375,
+        "target_1": 90398.1015625,
+        "target_2": 96116.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
