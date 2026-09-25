@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-25T00:59:11.475160+00:00",
+    "generated_at_utc": "2026-09-25T05:49:33.393002+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.301,
+        "price": 101.239,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,41 +21,27 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 41m",
     "News from the Yahoo Finance Network",
     "Billionaire Charlie Munger, 99, Said His Life Worked Better Treating Elon Musk Like He Didn’t ‘Exist’ — ‘I Never Bet Against Him, But I Never Bet With Him’",
     "Kentucky man won a whopping $167.3 million Powerball jackpot last year — and has been arrested 5 times since",
     "Every RMD Since 73 Has Gone Straight to His Three Kids, $19,000 Apiece. He Pays the Tax Once, They Never Pay It, and the Money Is Out of His Estate Before the Check Clears",
-    "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now",
-    "‘It’s so corrosive to democracy’: Over 50 federal prosecutors speak out against Trump’s $100,000 a month ‘insider trading’ scheme",
-    "Multimillionaire author Bill Perkins says parents should give kids their inheritance in their 20s when it can transform their lives—not when they die",
-    "SpaceX Stock-Split Watch: Here's When It Should Happen"
+    "Elizabeth Warren Calls for Social Security Tax Changes: ‘We Can Protect Social Security if Everyone Paid Their Fair Share’",
+    "Tech Titans Join Trump to Fete China’s Xi at Lavish State Dinner",
+    "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84556.75,
-        "perp_last_price": 84556.75,
-        "mark_price": 84556.75,
-        "index_price": 84556.75,
+        "spot_price": 84262.46875,
+        "perp_last_price": 84262.46875,
+        "mark_price": 84262.46875,
+        "index_price": 84262.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 84556.75,
-        "stop_loss_technical": 84897.0390625,
-        "target_1": 84046.31640625,
-        "target_2": 83535.8828125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
@@ -63,10 +49,24 @@
           "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84556.75,
-        "stop_loss_technical": 83288.39875,
-        "target_1": 86459.276875,
-        "target_2": 88361.80375,
+        "entry_ideal": 84252.0,
+        "stop_loss_technical": 82988.22,
+        "target_1": 86147.67,
+        "target_2": 88043.34,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 84262.46875,
+        "stop_loss_technical": 87363.7578125,
+        "target_1": 79610.53515625,
+        "target_2": 74958.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
