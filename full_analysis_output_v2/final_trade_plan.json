@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-25T19:26:28.516135+00:00",
+    "generated_at_utc": "2026-09-25T22:33:51.701127+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 100.959,
+        "price": 101.035,
         "trend": "bajista"
       },
       "US10Y": {
@@ -25,33 +25,34 @@
     "Billionaire Charlie Munger, 99, Said His Life Worked Better Treating Elon Musk Like He Didn’t ‘Exist’ — ‘I Never Bet Against Him, But I Never Bet With Him’",
     "‘We made a bad, bad decision’: I learned the hard way how to manage my aging father’s money",
     "Alice Walton got $33 billion richer last year without running a company. She’s building a tuition-free medical school instead",
-    "Warren Buffett’s final words of warning as Berkshire chairman: US dollar ‘going to hell.’ Shockproof your nest egg now",
+    "Social Security’s annual cost-of-living adjustment is coming soon. Here are the states where the biggest hike in years could have the most impact",
     "Sister, 41, Inherited $650,000 From Grandma Alone — Her Siblings Say She 'Owes Them A Cut' Since They 'Struggled More'",
-    "This Stock Pays a 6% Yield — and Has Raised Its Dividend for 28 Straight Years",
-    "California's oldest family-owned winery declares bankruptcy as wine industry struggles"
+    "California's oldest family-owned winery declares bankruptcy as wine industry struggles",
+    "This Stock Pays a 6% Yield — and Has Raised Its Dividend for 28 Straight Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83958.8125,
-        "perp_last_price": 83958.8125,
-        "mark_price": 83958.8125,
-        "index_price": 83958.8125,
+        "spot_price": 83994.2265625,
+        "perp_last_price": 83994.2265625,
+        "mark_price": 83994.2265625,
+        "index_price": 83994.2265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 83958.8125,
-        "stop_loss_technical": 85249.9921875,
-        "target_1": 82022.04296875,
-        "target_2": 80085.2734375,
+        "entry_ideal": 83995.5,
+        "stop_loss_technical": 83162.90625,
+        "target_1": 85244.390625,
+        "target_2": 86493.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 83958.8125,
+        "entry_ideal": 83994.2265625,
         "stop_loss_technical": 87363.7578125,
-        "target_1": 78851.39453125,
-        "target_2": 73743.9765625,
+        "target_1": 78939.9296875,
+        "target_2": 73885.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
