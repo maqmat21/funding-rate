@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-26T20:34:31.867601+00:00",
+    "generated_at_utc": "2026-09-26T23:06:55.276607+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
+    "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years",
     "He Paid $40,000 for His Granddaughter’s Wedding at 79. Eighteen Months Later, Medicaid Will Treat the Reception as a Gift and Refuse Four Months of Nursing Home Coverage",
+    "$6,750 at Birth: Billionaire Bill Ackman Says Everyone ‘Needs To Participate In Capitalism Otherwise You're Going To Prefer Socialism’",
+    "Florida boy spent $900 he earned selling squirrel tables on an electric dirt bike. Police fingerprinted him and towed it",
     "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-    "Warren Buffett's Top Advice for Investors Bracing for a Market Crash",
-    "‘We made a bad, bad decision’: I learned the hard way how to manage my aging father’s money",
-    "Alice Walton got $33 billion richer last year without running a company. She’s building a tuition-free medical school instead",
-    "How Many People Outlive Their Retirement Savings?",
-    "A ‘death cross’ is coming for the dollar. Why Trump will be happy."
+    "Warren Buffett's Top Advice for Investors Bracing for a Market Crash"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84078.7109375,
-        "perp_last_price": 84078.7109375,
-        "mark_price": 84078.7109375,
-        "index_price": 84078.7109375,
+        "spot_price": 84308.6484375,
+        "perp_last_price": 84308.6484375,
+        "mark_price": 84308.6484375,
+        "index_price": 84308.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 84078.7109375,
-        "stop_loss_technical": 83837.3828125,
-        "target_1": 84440.703125,
-        "target_2": 84802.6953125,
+        "entry_ideal": 84308.6484375,
+        "stop_loss_technical": 83814.0703125,
+        "target_1": 85050.515625,
+        "target_2": 85792.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 84078.7109375,
+        "entry_ideal": 84308.6484375,
         "stop_loss_technical": 82906.6171875,
-        "target_1": 85836.8515625,
-        "target_2": 87594.9921875,
+        "target_1": 86411.6953125,
+        "target_2": 88514.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
