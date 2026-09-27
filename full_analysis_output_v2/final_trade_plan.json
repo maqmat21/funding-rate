@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-27T17:08:03.307470+00:00",
+    "generated_at_utc": "2026-09-27T20:05:52.096483+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,44 +28,44 @@
     "Goldman Sachs says 80% of ultra-rich investors are fleeing stocks for alternative assets — and it's not bonds",
     "$6,750 at Birth: Billionaire Bill Ackman Says Everyone ‘Needs To Participate In Capitalism Otherwise You're Going To Prefer Socialism’",
     "My husband and I have $250K saved at 59. I thought our retirement plan was solid until I learned my coworker saved $700K",
-    "He Paid $40,000 for His Granddaughter’s Wedding at 79. Eighteen Months Later, Medicaid Will Treat the Reception as a Gift and Refuse Four Months of Nursing Home Coverage"
+    "With no heirs to leave it to, this billionaire is pouring his fortune into a Texas ghost town of about 25 people"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84384.9609375,
-        "perp_last_price": 84384.9609375,
-        "mark_price": 84384.9609375,
-        "index_price": 84384.9609375,
+        "spot_price": 84722.890625,
+        "perp_last_price": 84722.890625,
+        "mark_price": 84722.890625,
+        "index_price": 84722.890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 84384.9609375,
-        "stop_loss_technical": 85140.4921875,
-        "target_1": 83251.6640625,
-        "target_2": 82118.3671875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 84384.9609375,
-        "stop_loss_technical": 87265.4921875,
-        "target_1": 80064.1640625,
-        "target_2": 75743.3671875,
+        "entry_ideal": 84722.890625,
+        "stop_loss_technical": 85133.453125,
+        "target_1": 84107.046875,
+        "target_2": 83491.203125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 84722.890625,
+        "stop_loss_technical": 82906.6171875,
+        "target_1": 87447.30078125,
+        "target_2": 90171.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
