@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-27T01:21:05.165910+00:00",
+    "generated_at_utc": "2026-09-27T06:41:50.534241+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,34 +24,34 @@
     "News from the Yahoo Finance Network",
     "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
     "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
-    "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years",
-    "He Paid $40,000 for His Granddaughter’s Wedding at 79. Eighteen Months Later, Medicaid Will Treat the Reception as a Gift and Refuse Four Months of Nursing Home Coverage",
     "$6,750 at Birth: Billionaire Bill Ackman Says Everyone ‘Needs To Participate In Capitalism Otherwise You're Going To Prefer Socialism’",
-    "Florida boy spent $900 he earned selling squirrel tables on an electric dirt bike. Police fingerprinted him and towed it",
-    "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?"
+    "He Paid $40,000 for His Granddaughter’s Wedding at 79. Eighteen Months Later, Medicaid Will Treat the Reception as a Gift and Refuse Four Months of Nursing Home Coverage",
+    "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Florida boy spent $900 he earned selling squirrel tables on an electric dirt bike. Police fingerprinted him and towed it"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84339.1484375,
-        "perp_last_price": 84339.1484375,
-        "mark_price": 84339.1484375,
-        "index_price": 84339.1484375,
+        "spot_price": 84522.2265625,
+        "perp_last_price": 84522.2265625,
+        "mark_price": 84522.2265625,
+        "index_price": 84522.2265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 84339.1484375,
-        "stop_loss_technical": 83814.0703125,
-        "target_1": 85126.765625,
-        "target_2": 85914.3828125,
+        "entry_ideal": 84522.2265625,
+        "stop_loss_technical": 84626.828125,
+        "target_1": 84365.32421875,
+        "target_2": 84208.421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 84339.1484375,
+        "entry_ideal": 84522.2265625,
         "stop_loss_technical": 82906.6171875,
-        "target_1": 86487.9453125,
-        "target_2": 88636.7421875,
+        "target_1": 86945.640625,
+        "target_2": 89369.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
