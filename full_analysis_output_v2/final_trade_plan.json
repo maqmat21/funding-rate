@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-27T20:05:52.096483+00:00",
+    "generated_at_utc": "2026-09-27T22:58:19.634101+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,47 +25,48 @@
     "After 39 Years Working for the Same Company, He Had Accumulated 10.8 Million Shares of Stock. On September 15, 2008, Those Shares Were Worth Nothing. The Story of How Dick Fuld Lost Up to 80% of His Net Worth Holds an Important Lesson for Every Investor",
     "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
     "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
+    "With no heirs to leave it to, this billionaire is pouring his fortune into a Texas ghost town of about 25 people",
     "Goldman Sachs says 80% of ultra-rich investors are fleeing stocks for alternative assets — and it's not bonds",
-    "$6,750 at Birth: Billionaire Bill Ackman Says Everyone ‘Needs To Participate In Capitalism Otherwise You're Going To Prefer Socialism’",
-    "My husband and I have $250K saved at 59. I thought our retirement plan was solid until I learned my coworker saved $700K",
-    "With no heirs to leave it to, this billionaire is pouring his fortune into a Texas ghost town of about 25 people"
+    "Here's How Many Shares of Coca-Cola You'd Need for $10,000 in Yearly Dividends",
+    "My husband and I have $250K saved at 59. I thought our retirement plan was solid until I learned my coworker saved $700K"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84722.890625,
-        "perp_last_price": 84722.890625,
-        "mark_price": 84722.890625,
-        "index_price": 84722.890625,
+        "spot_price": 84206.078125,
+        "perp_last_price": 84206.078125,
+        "mark_price": 84206.078125,
+        "index_price": 84206.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 84722.890625,
+        "entry_ideal": 84216.0234375,
         "stop_loss_technical": 85133.453125,
-        "target_1": 84107.046875,
-        "target_2": 83491.203125,
+        "target_1": 82839.87890625,
+        "target_2": 81463.734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 84722.890625,
-        "stop_loss_technical": 82906.6171875,
-        "target_1": 87447.30078125,
-        "target_2": 90171.7109375,
+        "entry_ideal": 84206.078125,
+        "stop_loss_technical": 87265.4921875,
+        "target_1": 79616.95703125,
+        "target_2": 75027.8359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
