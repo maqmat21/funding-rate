@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-27T06:41:50.534241+00:00",
+    "generated_at_utc": "2026-09-27T12:29:11.830414+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
+    "My husband and I have $250K saved at 59. I thought our retirement plan was solid until I learned my coworker saved $700K",
     "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
     "$6,750 at Birth: Billionaire Bill Ackman Says Everyone ‘Needs To Participate In Capitalism Otherwise You're Going To Prefer Socialism’",
+    "Goldman Sachs says 80% of ultra-rich investors are fleeing stocks for alternative assets — and it's not bonds",
     "He Paid $40,000 for His Granddaughter’s Wedding at 79. Eighteen Months Later, Medicaid Will Treat the Reception as a Gift and Refuse Four Months of Nursing Home Coverage",
-    "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Florida boy spent $900 he earned selling squirrel tables on an electric dirt bike. Police fingerprinted him and towed it"
+    "I'd Put $10,000 Into These 3 Vanguard Funds and Not Touch It for 20 Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84522.2265625,
-        "perp_last_price": 84522.2265625,
-        "mark_price": 84522.2265625,
-        "index_price": 84522.2265625,
+        "spot_price": 84937.5234375,
+        "perp_last_price": 84937.5234375,
+        "mark_price": 84937.5234375,
+        "index_price": 84937.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 84522.2265625,
-        "stop_loss_technical": 84626.828125,
-        "target_1": 84365.32421875,
-        "target_2": 84208.421875,
+        "entry_ideal": 84937.5234375,
+        "stop_loss_technical": 85110.9921875,
+        "target_1": 84677.3203125,
+        "target_2": 84417.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 84522.2265625,
+        "entry_ideal": 84937.5234375,
         "stop_loss_technical": 82906.6171875,
-        "target_1": 86945.640625,
-        "target_2": 89369.0546875,
+        "target_1": 87983.8828125,
+        "target_2": 91030.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
