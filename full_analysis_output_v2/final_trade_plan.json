@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-28T15:20:21.047515+00:00",
+    "generated_at_utc": "2026-09-28T21:16:12.483383+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,62 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.231,
+        "price": 101.194,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.263,
+        "price": 5.24,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 40m",
     "News from the Yahoo Finance Network",
-    "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
     "After 39 Years Working for the Same Company, He Had Accumulated 10.8 Million Shares of Stock. On September 15, 2008, Those Shares Were Worth Nothing. The Story of How Dick Fuld Lost Up to 80% of His Net Worth Holds an Important Lesson for Every Investor",
-    "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
+    "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "If a Bear Market Is Coming, Warren Buffett Says This is the Best Move Investors Can Make",
-    "My husband and I have $250K saved at 59. I thought our retirement plan was solid until I learned my coworker saved $700K"
+    "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
+    "The Retirees Who Left Florida for Good Nearly All Landed in the Same Three States",
+    "With no heirs to leave it to, this billionaire is pouring his fortune into a Texas ghost town of about 25 people",
+    "If a Bear Market Is Coming, Warren Buffett Says This is the Best Move Investors Can Make"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82876.3125,
-        "perp_last_price": 82876.3125,
-        "mark_price": 82876.3125,
-        "index_price": 82876.3125,
+        "spot_price": 83523.3125,
+        "perp_last_price": 83523.3125,
+        "mark_price": 83523.3125,
+        "index_price": 83523.3125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 82912.6875,
-        "stop_loss_technical": 84983.0703125,
-        "target_1": 79807.11328125,
-        "target_2": 76701.5390625,
+        "entry_ideal": 83523.296875,
+        "stop_loss_technical": 82270.44742187,
+        "target_1": 85402.57105469,
+        "target_2": 87281.84523437,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 82876.3125,
+        "entry_ideal": 83523.3125,
         "stop_loss_technical": 85230.0546875,
-        "target_1": 79345.69921875,
-        "target_2": 75815.0859375,
+        "target_1": 80963.19921875,
+        "target_2": 78403.0859375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
