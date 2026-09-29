@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-29T18:40:11.014218+00:00",
+    "generated_at_utc": "2026-09-29T22:34:42.413185+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.403,
+        "price": 101.377,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.261,
+        "price": 5.255,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 21m",
     "News from the Yahoo Finance Network",
     "'It's not taxed at all': Warren Buffett once revealed a key investment most miss, and it holds the key to lasting wealth",
-    "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
     "The Retirees Who Left Florida for Good Nearly All Landed in the Same Three States",
+    "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
     "Dolly Parton planned for her estate. The fight with her nephew shows why that matters.",
-    "‘Bond King’ Jeff Gundlach warned rates could go ‘much, much higher.’ Days later, the 10-year yield hit a 19-year high",
-    "A 65-Year-Old With $900,000 in a 401(k) Discovers 85% of Her Social Security Will Be Taxed, and the Withdrawal Order That Fixes It"
+    "A 65-Year-Old With $900,000 in a 401(k) Discovers 85% of Her Social Security Will Be Taxed, and the Withdrawal Order That Fixes It",
+    "Warren Buffett Says America Is Doing Something ‘Unsustainable’ and Doesn’t Know If We Have 2 Years or 20 —‘This Can’t Go On Forever’",
+    "The 10-Year Yield Is Surging Toward 6%—and You Should Be Very Nervous"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83539.6796875,
-        "perp_last_price": 83539.6796875,
-        "mark_price": 83539.6796875,
-        "index_price": 83539.6796875,
+        "spot_price": 83543.3984375,
+        "perp_last_price": 83543.3984375,
+        "mark_price": 83543.3984375,
+        "index_price": 83543.3984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83539.6796875,
-        "stop_loss_technical": 82286.58449219,
-        "target_1": 85419.32248047,
-        "target_2": 87298.96527344,
+        "entry_ideal": 83543.3984375,
+        "stop_loss_technical": 84525.453125,
+        "target_1": 82070.31640625,
+        "target_2": 80597.234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83539.6796875,
+        "entry_ideal": 83543.3984375,
         "stop_loss_technical": 85230.0546875,
-        "target_1": 81004.1171875,
-        "target_2": 78468.5546875,
+        "target_1": 81013.4140625,
+        "target_2": 78483.4296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
