@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-28T21:16:12.483383+00:00",
+    "generated_at_utc": "2026-09-29T01:00:19.954483+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.194,
+        "price": 101.251,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,50 +23,52 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "After 39 Years Working for the Same Company, He Had Accumulated 10.8 Million Shares of Stock. On September 15, 2008, Those Shares Were Worth Nothing. The Story of How Dick Fuld Lost Up to 80% of His Net Worth Holds an Important Lesson for Every Investor",
-    "By 1932, The Dow Had Lost 90% Of Its Value. J. Paul Getty Called It ‘The Opportunity Of A Lifetime’ And Scooped Up Shares Of American Oil Companies. 25 Years Later, Fortune Named Him ‘The Wealthiest Living American.’",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "At Age 52, A Traveling Salesman Pitching Milkshake Machines Walked Into A Restaurant That Would Change His Life Forever. Three Decades Later, There Were Over 7,500 McDonald’s Locations Worldwide, And Ray Kroc Left His Heirs A $600 Million Fortune.",
     "The Retirees Who Left Florida for Good Nearly All Landed in the Same Three States",
+    "Dad, 79, Has Been Retired 14 Years And His Nest Egg Is Still Growing — His Son Wonders, ‘Why Are We All Stressing So Much About Retirement?’",
+    "If a Bear Market Is Coming, Warren Buffett Says This is the Best Move Investors Can Make",
     "With no heirs to leave it to, this billionaire is pouring his fortune into a Texas ghost town of about 25 people",
-    "If a Bear Market Is Coming, Warren Buffett Says This is the Best Move Investors Can Make"
+    "GOP Leader Thune Says Taxpayers Shouldn’t Pay for Trump TV Ads",
+    "My husband and I have $250K saved at 59. I thought our retirement plan was solid until I learned my coworker saved $700K"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83523.3125,
-        "perp_last_price": 83523.3125,
-        "mark_price": 83523.3125,
-        "index_price": 83523.3125,
+        "spot_price": 83097.71875,
+        "perp_last_price": 83097.71875,
+        "mark_price": 83097.71875,
+        "index_price": 83097.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83523.296875,
-        "stop_loss_technical": 82270.44742187,
-        "target_1": 85402.57105469,
-        "target_2": 87281.84523437,
+        "entry_ideal": 83097.71875,
+        "stop_loss_technical": 84327.296875,
+        "target_1": 81253.3515625,
+        "target_2": 79408.984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83523.3125,
+        "entry_ideal": 83097.71875,
         "stop_loss_technical": 85230.0546875,
-        "target_1": 80963.19921875,
-        "target_2": 78403.0859375,
+        "target_1": 79899.21484375,
+        "target_2": 76700.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
