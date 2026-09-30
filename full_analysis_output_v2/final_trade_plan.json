@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-29T22:34:42.413185+00:00",
+    "generated_at_utc": "2026-09-30T01:29:30.102030+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.377,
-        "trend": "alcista"
+        "price": 101.367,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.255,
@@ -22,51 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Warren Buffett Says Farmer Son Howard Who Dropped Out of 3 Colleges Is Happiest ‘Moving Dirt’ While He’s Happiest ‘Watching Football’",
     "'It's not taxed at all': Warren Buffett once revealed a key investment most miss, and it holds the key to lasting wealth",
-    "The Retirees Who Left Florida for Good Nearly All Landed in the Same Three States",
     "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
+    "The Retirees Who Left Florida for Good Nearly All Landed in the Same Three States",
     "Dolly Parton planned for her estate. The fight with her nephew shows why that matters.",
     "A 65-Year-Old With $900,000 in a 401(k) Discovers 85% of Her Social Security Will Be Taxed, and the Withdrawal Order That Fixes It",
-    "Warren Buffett Says America Is Doing Something ‘Unsustainable’ and Doesn’t Know If We Have 2 Years or 20 —‘This Can’t Go On Forever’",
-    "The 10-Year Yield Is Surging Toward 6%—and You Should Be Very Nervous"
+    "Costco confirms major food court change"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83543.3984375,
-        "perp_last_price": 83543.3984375,
-        "mark_price": 83543.3984375,
-        "index_price": 83543.3984375,
+        "spot_price": 83428.8828125,
+        "perp_last_price": 83428.8828125,
+        "mark_price": 83428.8828125,
+        "index_price": 83428.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 83543.3984375,
-        "stop_loss_technical": 84525.453125,
-        "target_1": 82070.31640625,
-        "target_2": 80597.234375,
+        "entry_ideal": 83428.8828125,
+        "stop_loss_technical": 82869.96875,
+        "target_1": 84267.25390625,
+        "target_2": 85105.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 83543.3984375,
-        "stop_loss_technical": 85230.0546875,
-        "target_1": 81013.4140625,
-        "target_2": 78483.4296875,
+        "entry_ideal": 83428.8828125,
+        "stop_loss_technical": 85126.109375,
+        "target_1": 80883.04296875,
+        "target_2": 78337.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,31 +79,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
