@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-30T18:32:36.057380+00:00",
+    "generated_at_utc": "2026-09-30T22:32:36.075375+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.436,
+        "price": 101.461,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.298,
+        "price": 5.293,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 28m",
     "News from the Yahoo Finance Network",
     "Mexican chain closes all remaining locations after 22 years",
-    "Trump to send $500 ACA refund checks to roughly 1 million Americans",
     "Warren Buffett Says Farmer Son Howard Who Dropped Out of 3 Colleges Is Happiest ‘Moving Dirt’ While He’s Happiest ‘Watching Football’",
+    "Trump to send $500 ACA refund checks to roughly 1 million Americans",
     "Why Affluent Investors Over 60 Are Emptying Their 401(k)s Into a Roth Before the IRS Sets the Withdrawal Schedule",
     "How Many Americans Have Banked a Cool $5 Million for Retirement?",
+    "Down to the Final 8: The States Still Taxing Social Security Benefits in 2026, Despite Fierce Senior Backlash",
     "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83849.9921875,
-        "perp_last_price": 83849.9921875,
-        "mark_price": 83849.9921875,
-        "index_price": 83849.9921875,
+        "spot_price": 83766.6484375,
+        "perp_last_price": 83766.6484375,
+        "mark_price": 83766.6484375,
+        "index_price": 83766.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 83836.90625,
-        "stop_loss_technical": 85604.4375,
-        "target_1": 81185.609375,
-        "target_2": 78534.3125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83849.9921875,
-        "stop_loss_technical": 82592.24230469,
-        "target_1": 85736.61701172,
-        "target_2": 87623.24183594,
+        "entry_ideal": 83766.6484375,
+        "stop_loss_technical": 82510.14871094,
+        "target_1": 85651.39802734,
+        "target_2": 87536.14761719,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 83766.6484375,
+        "stop_loss_technical": 85604.4375,
+        "target_1": 81009.96484375,
+        "target_2": 78253.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
