@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-30T07:05:50.706782+00:00",
+    "generated_at_utc": "2026-09-30T13:35:58.132014+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.251,
+        "price": 101.165,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.255,
+        "price": 5.236,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 25m",
+    "U.S. markets close in 6h 26m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Says Farmer Son Howard Who Dropped Out of 3 Colleges Is Happiest ‘Moving Dirt’ While He’s Happiest ‘Watching Football’",
     "Why Affluent Investors Over 60 Are Emptying Their 401(k)s Into a Roth Before the IRS Sets the Withdrawal Schedule",
     "'It's not taxed at all': Warren Buffett once revealed a key investment most miss, and it holds the key to lasting wealth",
+    "Palantir CEO Alex Karp quietly purchased 37,000 acres of forests in Sweden—and locals found out when hunters lost leases to use the property",
     "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-    "A 65-Year-Old With $900,000 in a 401(k) Discovers 85% of Her Social Security Will Be Taxed, and the Withdrawal Order That Fixes It",
-    "Dolly Parton planned for her estate. The fight with her nephew shows why that matters."
+    "'A strong report': US private sector added 90,000 jobs in September"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82993.5703125,
-        "perp_last_price": 82993.5703125,
-        "mark_price": 82993.5703125,
-        "index_price": 82993.5703125,
+        "spot_price": 84768.609375,
+        "perp_last_price": 84768.609375,
+        "mark_price": 84768.609375,
+        "index_price": 84768.609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 82993.5703125,
-        "stop_loss_technical": 84514.203125,
-        "target_1": 80712.62109375,
-        "target_2": 78431.671875,
+        "entry_ideal": 84768.609375,
+        "stop_loss_technical": 85604.4375,
+        "target_1": 83514.8671875,
+        "target_2": 82261.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 82993.5703125,
-        "stop_loss_technical": 85126.109375,
-        "target_1": 79794.76171875,
-        "target_2": 76595.953125,
+        "entry_ideal": 84768.609375,
+        "stop_loss_technical": 82570.71875,
+        "target_1": 88065.4453125,
+        "target_2": 91362.28125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
