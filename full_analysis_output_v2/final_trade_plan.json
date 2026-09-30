@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-09-30T01:29:30.102030+00:00",
+    "generated_at_utc": "2026-09-30T07:05:50.706782+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.367,
+        "price": 101.251,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,50 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 25m",
     "News from the Yahoo Finance Network",
     "Warren Buffett Says Farmer Son Howard Who Dropped Out of 3 Colleges Is Happiest ‘Moving Dirt’ While He’s Happiest ‘Watching Football’",
+    "Why Affluent Investors Over 60 Are Emptying Their 401(k)s Into a Roth Before the IRS Sets the Withdrawal Schedule",
     "'It's not taxed at all': Warren Buffett once revealed a key investment most miss, and it holds the key to lasting wealth",
     "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-    "The Retirees Who Left Florida for Good Nearly All Landed in the Same Three States",
-    "Dolly Parton planned for her estate. The fight with her nephew shows why that matters.",
     "A 65-Year-Old With $900,000 in a 401(k) Discovers 85% of Her Social Security Will Be Taxed, and the Withdrawal Order That Fixes It",
-    "Costco confirms major food court change"
+    "Dolly Parton planned for her estate. The fight with her nephew shows why that matters."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83428.8828125,
-        "perp_last_price": 83428.8828125,
-        "mark_price": 83428.8828125,
-        "index_price": 83428.8828125,
+        "spot_price": 82993.5703125,
+        "perp_last_price": 82993.5703125,
+        "mark_price": 82993.5703125,
+        "index_price": 82993.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 83428.8828125,
-        "stop_loss_technical": 82869.96875,
-        "target_1": 84267.25390625,
-        "target_2": 85105.625,
+        "entry_ideal": 82993.5703125,
+        "stop_loss_technical": 84514.203125,
+        "target_1": 80712.62109375,
+        "target_2": 78431.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 83428.8828125,
+        "entry_ideal": 82993.5703125,
         "stop_loss_technical": 85126.109375,
-        "target_1": 80883.04296875,
-        "target_2": 78337.203125,
+        "target_1": 79794.76171875,
+        "target_2": 76595.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
