@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-01T19:50:31.488945+00:00",
+    "generated_at_utc": "2026-10-01T23:27:42.986061+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.049,
+        "price": 102.043,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,33 +25,34 @@
     "Mexican chain closes all remaining locations after 22 years",
     "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
     "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
-    "Boeing Offered 17,000 Workers a 32% Raise. A Retired Engineer’s Union Strike Check Can Count as $0 Toward Social Security’s Earnings Test",
+    "43-year-old beloved Home Depot rival hardware chain store closes",
     "Down to the Final 8: The States Still Taxing Social Security Benefits in 2026, Despite Fierce Senior Backlash",
-    "Treasury says over 60 million children have been auto-enrolled in Trump Accounts",
-    "Trump to send $500 ACA refund checks to roughly 1 million Americans"
+    "Longstanding fashion retailer to close 120 stores by end of 2026",
+    "Thieves stole an Nvidia-branded truck filled with just 20,000 pounds of sand—and it points to Big Tech’s $150 million AI hardware theft headache"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84633.390625,
-        "perp_last_price": 84633.390625,
-        "mark_price": 84633.390625,
-        "index_price": 84633.390625,
+        "spot_price": 84726.78125,
+        "perp_last_price": 84726.78125,
+        "mark_price": 84726.78125,
+        "index_price": 84726.78125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 84633.390625,
-        "stop_loss_technical": 85233.9921875,
-        "target_1": 83732.48828125,
-        "target_2": 82831.5859375,
+        "entry_ideal": 84726.7890625,
+        "stop_loss_technical": 83107.03125,
+        "target_1": 87156.42578125,
+        "target_2": 89586.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 84633.390625,
+        "entry_ideal": 84726.78125,
         "stop_loss_technical": 82570.71875,
-        "target_1": 87727.3984375,
-        "target_2": 90821.40625,
+        "target_1": 87960.875,
+        "target_2": 91194.96875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
