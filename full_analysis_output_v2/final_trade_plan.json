@@ -1,72 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-01T14:43:51.090810+00:00",
+    "generated_at_utc": "2026-10-01T19:50:31.488945+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.732,
+        "price": 102.049,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.315,
-        "trend": "alcista"
+        "price": 5.237,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 17m",
     "News from the Yahoo Finance Network",
-    "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
     "Mexican chain closes all remaining locations after 22 years",
-    "If a Stock Market Crash Is Coming, History Says the Smartest Investors Are All Making the Same Move",
-    "Trump to send $500 ACA refund checks to roughly 1 million Americans",
+    "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
+    "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
+    "Boeing Offered 17,000 Workers a 32% Raise. A Retired Engineer’s Union Strike Check Can Count as $0 Toward Social Security’s Earnings Test",
     "Down to the Final 8: The States Still Taxing Social Security Benefits in 2026, Despite Fierce Senior Backlash",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?"
+    "Treasury says over 60 million children have been auto-enrolled in Trump Accounts",
+    "Trump to send $500 ACA refund checks to roughly 1 million Americans"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84030.7265625,
-        "perp_last_price": 84030.7265625,
-        "mark_price": 84030.7265625,
-        "index_price": 84030.7265625,
+        "spot_price": 84633.390625,
+        "perp_last_price": 84633.390625,
+        "mark_price": 84633.390625,
+        "index_price": 84633.390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 84033.5703125,
-        "stop_loss_technical": 82773.06675781,
-        "target_1": 85924.32564453,
-        "target_2": 87815.08097656,
+        "entry_ideal": 84633.390625,
+        "stop_loss_technical": 85233.9921875,
+        "target_1": 83732.48828125,
+        "target_2": 82831.5859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bull"
         ],
-        "entry_ideal": 84030.7265625,
-        "stop_loss_technical": 82770.26566406,
-        "target_1": 85921.41791016,
-        "target_2": 87812.10925781,
+        "entry_ideal": 84633.390625,
+        "stop_loss_technical": 82570.71875,
+        "target_1": 87727.3984375,
+        "target_2": 90821.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
