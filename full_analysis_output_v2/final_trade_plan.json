@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-01T01:29:16.220949+00:00",
+    "generated_at_utc": "2026-10-01T07:34:29.832755+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.485,
+        "price": 101.711,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 5h 56m",
     "News from the Yahoo Finance Network",
     "Mexican chain closes all remaining locations after 22 years",
+    "If a Stock Market Crash Is Coming, History Says the Smartest Investors Are All Making the Same Move",
     "Warren Buffett Says Farmer Son Howard Who Dropped Out of 3 Colleges Is Happiest ‘Moving Dirt’ While He’s Happiest ‘Watching Football’",
     "Trump to send $500 ACA refund checks to roughly 1 million Americans",
     "Why Affluent Investors Over 60 Are Emptying Their 401(k)s Into a Roth Before the IRS Sets the Withdrawal Schedule",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
-    "Down to the Final 8: The States Still Taxing Social Security Benefits in 2026, Despite Fierce Senior Backlash",
-    "The 10-Year Yield Is Surging Toward 6%—and You Should Be Very Nervous"
+    "Investors thought they were buying pre-IPO OpenAI and SpaceX shares. Their cash went to strip clubs, Bloomingdale’s, and shopping on Amazon, SEC alleges"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83578.9375,
-        "perp_last_price": 83578.9375,
-        "mark_price": 83578.9375,
-        "index_price": 83578.9375,
+        "spot_price": 83558.0234375,
+        "perp_last_price": 83558.0234375,
+        "mark_price": 83558.0234375,
+        "index_price": 83558.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83578.9375,
-        "stop_loss_technical": 82325.2534375,
-        "target_1": 85459.46359375,
-        "target_2": 87339.9896875,
+        "entry_ideal": 83566.59375,
+        "stop_loss_technical": 85599.921875,
+        "target_1": 80516.6015625,
+        "target_2": 77466.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83578.9375,
+        "entry_ideal": 83558.0234375,
         "stop_loss_technical": 85599.921875,
-        "target_1": 80547.4609375,
-        "target_2": 77515.984375,
+        "target_1": 80495.17578125,
+        "target_2": 77432.328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
