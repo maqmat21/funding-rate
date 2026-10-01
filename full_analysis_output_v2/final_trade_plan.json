@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-01T07:34:29.832755+00:00",
+    "generated_at_utc": "2026-10-01T14:43:51.090810+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,62 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.711,
+        "price": 101.732,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.293,
+        "price": 5.315,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 56m",
+    "U.S. markets close in 5h 17m",
     "News from the Yahoo Finance Network",
+    "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
     "Mexican chain closes all remaining locations after 22 years",
     "If a Stock Market Crash Is Coming, History Says the Smartest Investors Are All Making the Same Move",
-    "Warren Buffett Says Farmer Son Howard Who Dropped Out of 3 Colleges Is Happiest ‘Moving Dirt’ While He’s Happiest ‘Watching Football’",
     "Trump to send $500 ACA refund checks to roughly 1 million Americans",
-    "Why Affluent Investors Over 60 Are Emptying Their 401(k)s Into a Roth Before the IRS Sets the Withdrawal Schedule",
-    "Investors thought they were buying pre-IPO OpenAI and SpaceX shares. Their cash went to strip clubs, Bloomingdale’s, and shopping on Amazon, SEC alleges"
+    "Down to the Final 8: The States Still Taxing Social Security Benefits in 2026, Despite Fierce Senior Backlash",
+    "How Many Americans Have Banked a Cool $5 Million for Retirement?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83558.0234375,
-        "perp_last_price": 83558.0234375,
-        "mark_price": 83558.0234375,
-        "index_price": 83558.0234375,
+        "spot_price": 84030.7265625,
+        "perp_last_price": 84030.7265625,
+        "mark_price": 84030.7265625,
+        "index_price": 84030.7265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83566.59375,
-        "stop_loss_technical": 85599.921875,
-        "target_1": 80516.6015625,
-        "target_2": 77466.609375,
+        "entry_ideal": 84033.5703125,
+        "stop_loss_technical": 82773.06675781,
+        "target_1": 85924.32564453,
+        "target_2": 87815.08097656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83558.0234375,
-        "stop_loss_technical": 85599.921875,
-        "target_1": 80495.17578125,
-        "target_2": 77432.328125,
+        "entry_ideal": 84030.7265625,
+        "stop_loss_technical": 82770.26566406,
+        "target_1": 85921.41791016,
+        "target_2": 87812.10925781,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
