@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-02T15:01:54.361346+00:00",
+    "generated_at_utc": "2026-10-02T19:52:51.236588+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.76,
+        "price": 101.886,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.218,
-        "trend": "bajista"
+        "price": 5.277,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 59m",
     "News from the Yahoo Finance Network",
     "Ron Baron: Elon Musk’s ‘unbelievable’ new product that all Americans will want — and ‘now’ is the time to buy stock",
     "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
-    "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
     "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-    "43-year-old beloved Home Depot rival hardware chain store closes",
-    "September's jobs report misses: US added just 29,000 jobs, unemployment ticked up"
+    "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
+    "Convert $100,000 to a Roth at 62 and Let the Custodian Withhold 22% for the Tax, and the Roth Gets $78,000. Pay the Tax From Savings and the Whole $100,000 Goes In, for the Same Tax Bill",
+    "Why Billionaires Like Musk and Zuckerberg Still Take Out Mortgage Loans",
+    "2027’s Social Security COLA Raise Is Announced in October. Here’s What a $2,000 Check Could Become"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85683.3203125,
-        "perp_last_price": 85683.3203125,
-        "mark_price": 85683.3203125,
-        "index_price": 85683.3203125,
+        "spot_price": 84195.0625,
+        "perp_last_price": 84195.0625,
+        "mark_price": 84195.0625,
+        "index_price": 84195.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 85683.3125,
-        "stop_loss_technical": 84398.0628125,
-        "target_1": 87611.18703125,
-        "target_2": 89539.0615625,
+        "entry_ideal": 84194.7578125,
+        "stop_loss_technical": 83853.2265625,
+        "target_1": 84707.0546875,
+        "target_2": 85219.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 85683.3203125,
-        "stop_loss_technical": 84398.07050781,
-        "target_1": 87611.19501953,
-        "target_2": 89539.06972656,
+        "entry_ideal": 84195.0625,
+        "stop_loss_technical": 87177.9921875,
+        "target_1": 79720.66796875,
+        "target_2": 75246.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
