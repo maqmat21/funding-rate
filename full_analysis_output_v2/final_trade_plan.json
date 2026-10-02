@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-02T08:42:02.472154+00:00",
+    "generated_at_utc": "2026-10-02T15:01:54.361346+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,64 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.9,
+        "price": 101.76,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.237,
+        "price": 5.218,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 50m",
+    "U.S. markets close in 4h 59m",
     "News from the Yahoo Finance Network",
-    "Mexican chain closes all remaining locations after 22 years",
+    "Ron Baron: Elon Musk’s ‘unbelievable’ new product that all Americans will want — and ‘now’ is the time to buy stock",
     "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
     "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
-    "Palantir Billionaire Peter Thiel Has 42% of His Portfolio in These 2 Artificial Intelligence Stocks",
-    "Want To Retire Abroad? This South American Country Just Beat Portugal and Spain",
-    "43-year-old beloved Home Depot rival hardware chain store closes"
+    "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+    "43-year-old beloved Home Depot rival hardware chain store closes",
+    "September's jobs report misses: US added just 29,000 jobs, unemployment ticked up"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 86379.6796875,
-        "perp_last_price": 86379.6796875,
-        "mark_price": 86379.6796875,
-        "index_price": 86379.6796875,
+        "spot_price": 85683.3203125,
+        "perp_last_price": 85683.3203125,
+        "mark_price": 85683.3203125,
+        "index_price": 85683.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 86382.2265625,
-        "stop_loss_technical": 83430.640625,
-        "target_1": 90809.60546875,
-        "target_2": 95236.984375,
+        "entry_ideal": 85683.3125,
+        "stop_loss_technical": 84398.0628125,
+        "target_1": 87611.18703125,
+        "target_2": 89539.0615625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 86379.6796875,
-        "stop_loss_technical": 82570.71875,
-        "target_1": 92093.12109375,
-        "target_2": 97806.5625,
+        "entry_ideal": 85683.3203125,
+        "stop_loss_technical": 84398.07050781,
+        "target_1": 87611.19501953,
+        "target_2": 89539.06972656,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
