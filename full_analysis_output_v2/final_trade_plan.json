@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-02T19:52:51.236588+00:00",
+    "generated_at_utc": "2026-10-02T23:22:36.685920+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.886,
-        "trend": "bajista"
+        "price": 101.924,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.277,
@@ -22,50 +22,53 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Ron Baron: Elon Musk’s ‘unbelievable’ new product that all Americans will want — and ‘now’ is the time to buy stock",
     "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
+    "Ron Baron: Elon Musk’s ‘unbelievable’ new product that all Americans will want — and ‘now’ is the time to buy stock",
+    "Trump just soft-launched higher inflation as the new solution for rebalancing the $40 trillion U.S. national debt",
     "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-    "In 1935, An Illinois Secretary Bought 3 Shares Of Her Company’s Stock For $180. She Never Sold A Single Share And Always Reinvested Dividends. By The Time She Died In 2010 Her 3 Abbott Shares Had Turned Into $7.2 Million.",
+    "When should you claim Social Security? Here's how the math compares.",
     "Convert $100,000 to a Roth at 62 and Let the Custodian Withhold 22% for the Tax, and the Roth Gets $78,000. Pay the Tax From Savings and the Whole $100,000 Goes In, for the Same Tax Bill",
-    "Why Billionaires Like Musk and Zuckerberg Still Take Out Mortgage Loans",
-    "2027’s Social Security COLA Raise Is Announced in October. Here’s What a $2,000 Check Could Become"
+    "Why Billionaires Like Musk and Zuckerberg Still Take Out Mortgage Loans"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84195.0625,
-        "perp_last_price": 84195.0625,
-        "mark_price": 84195.0625,
-        "index_price": 84195.0625,
+        "spot_price": 84478.5390625,
+        "perp_last_price": 84478.5390625,
+        "mark_price": 84478.5390625,
+        "index_price": 84478.5390625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84194.7578125,
-        "stop_loss_technical": 83853.2265625,
-        "target_1": 84707.0546875,
-        "target_2": 85219.3515625,
+        "entry_ideal": 84478.5390625,
+        "stop_loss_technical": 87237.3984375,
+        "target_1": 80340.25,
+        "target_2": 76201.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84195.0625,
-        "stop_loss_technical": 87177.9921875,
-        "target_1": 79720.66796875,
-        "target_2": 75246.2734375,
+        "entry_ideal": 84478.5390625,
+        "stop_loss_technical": 87237.3984375,
+        "target_1": 80340.25,
+        "target_2": 76201.9609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
