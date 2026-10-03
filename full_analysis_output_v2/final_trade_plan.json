@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-03T08:00:11.653543+00:00",
+    "generated_at_utc": "2026-10-03T13:06:51.819001+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,52 +23,50 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "His Kids Begged Him Not to Remarry at 79. When His New Wife Needed a Nursing Home 18 Months Later, Medicaid Pooled His $340,000 With Hers and Let Him Keep Half",
+    "Elon Musk: America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — but he says 1 powerful force can save us",
     "Give Your Dying Father $500,000 of Nvidia Stock So You Can Inherit It Back With a Tax-Free Step-Up. If He Dies Within a Year, the IRS Pretends the Gift Never Happened",
+    "Mom Is 66 And Wants To Put 40% Of Her Retirement Into 10-Year Treasuries To Live Off The Interest With Yield Hitting 5.24%. Is It A Crazy Idea?",
     "Trump just soft-launched higher inflation as the new solution for rebalancing the $40 trillion U.S. national debt",
-    "If You've Saved This Much for Retirement by Age 70, You're Ahead of the Game",
     "My wife retired 2 years ago and I’m still working — is our $12 million net worth enough for me to join her in retirement?",
-    "Ron Baron: Elon Musk’s ‘unbelievable’ new product that all Americans will want — and ‘now’ is the time to buy stock",
-    "The Las Vegas Strip has a visitor problem"
+    "Vanguard Says the Typical 401(k) for Workers Over 65 Holds About $88,000. Taking It as a Lump Sum the Year You Retire Can Hand a Quarter of It to the IRS"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84574.7734375,
-        "perp_last_price": 84574.7734375,
-        "mark_price": 84574.7734375,
-        "index_price": 84574.7734375,
+        "spot_price": 84827.2421875,
+        "perp_last_price": 84827.2421875,
+        "mark_price": 84827.2421875,
+        "index_price": 84827.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84556.4921875,
-        "stop_loss_technical": 87177.9921875,
-        "target_1": 80624.2421875,
-        "target_2": 76691.9921875,
+        "entry_ideal": 84827.2421875,
+        "stop_loss_technical": 84915.453125,
+        "target_1": 84694.92578125,
+        "target_2": 84562.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84574.7734375,
-        "stop_loss_technical": 87177.9921875,
-        "target_1": 80669.9453125,
-        "target_2": 76765.1171875,
+        "entry_ideal": 84827.2421875,
+        "stop_loss_technical": 83554.83355469,
+        "target_1": 86735.85513672,
+        "target_2": 88644.46808594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
