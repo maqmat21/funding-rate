@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-03T19:51:18.700285+00:00",
+    "generated_at_utc": "2026-10-03T22:29:47.955017+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "In 1959, A Vermont Gas Station Attendant Spent $2,380 On His First 39 Shares Of Stock. Over The Next 5 Decades, He Built A 95+ Stock Portfolio Of Blue Chip Dividend Payers. By 2014, Ronald Read’s Portfolio Was Worth Nearly $8 Million",
     "His Kids Begged Him Not to Remarry at 79. When His New Wife Needed a Nursing Home 18 Months Later, Medicaid Pooled His $340,000 With Hers and Let Him Keep Half",
     "Elon Musk: America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — but he says 1 powerful force can save us",
-    "In 1959, A Vermont Gas Station Attendant Spent $2,380 On His First 39 Shares Of Stock. Over The Next 5 Decades, He Built A 95+ Stock Portfolio Of Blue Chip Dividend Payers. By 2014, Ronald Read’s Portfolio Was Worth Nearly $8 Million",
     "Give Your Dying Father $500,000 of Nvidia Stock So You Can Inherit It Back With a Tax-Free Step-Up. If He Dies Within a Year, the IRS Pretends the Gift Never Happened",
     "Trump Offering $90 Payments to 20 Million Medicare Recipients",
     "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-    "Mom Is 66 And Wants To Put 40% Of Her Retirement Into 10-Year Treasuries To Live Off The Interest With Yield Hitting 5.24%. Is It A Crazy Idea?"
+    "I Asked ChatGPT To Pick 5 Stocks To Hold for 10 Years — Here’s What It Chose"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84774.28125,
-        "perp_last_price": 84774.28125,
-        "mark_price": 84774.28125,
-        "index_price": 84774.28125,
+        "spot_price": 84763.4375,
+        "perp_last_price": 84763.4375,
+        "mark_price": 84763.4375,
+        "index_price": 84763.4375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84774.28125,
-        "stop_loss_technical": 85020.0,
-        "target_1": 84405.703125,
-        "target_2": 84037.125,
+        "entry_ideal": 84763.4375,
+        "stop_loss_technical": 83491.9859375,
+        "target_1": 86670.61484375,
+        "target_2": 88577.7921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84774.28125,
+        "entry_ideal": 84763.4375,
         "stop_loss_technical": 87146.3515625,
-        "target_1": 81216.17578125,
-        "target_2": 77658.0703125,
+        "target_1": 81189.06640625,
+        "target_2": 77614.6953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
