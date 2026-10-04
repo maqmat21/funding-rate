@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-04T07:28:06.404019+00:00",
+    "generated_at_utc": "2026-10-04T13:21:31.809404+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "In 1959, A Vermont Gas Station Attendant Spent $2,380 On His First 39 Shares Of Stock. Over The Next 5 Decades, He Built A 95+ Stock Portfolio Of Blue Chip Dividend Payers. By 2014, Ronald Read’s Portfolio Was Worth Nearly $8 Million",
+    "Warren Buffett's Farewell Letter Contains the Only 4 Words Investors Need to Build a $10 Million Portfolio",
     "His Kids Begged Him Not to Remarry at 79. When His New Wife Needed a Nursing Home 18 Months Later, Medicaid Pooled His $340,000 With Hers and Let Him Keep Half",
     "Elon Musk: America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — but he says 1 powerful force can save us",
     "Give Your Dying Father $500,000 of Nvidia Stock So You Can Inherit It Back With a Tax-Free Step-Up. If He Dies Within a Year, the IRS Pretends the Gift Never Happened",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-    "Trump Offering $90 Payments to 20 Million Medicare Recipients"
+    "In 1978, A Nevada Man Nicknamed ’40-Dollar Frank’ First Bought Shares Of Berkshire Hathaway. Three Decades Later Frank Fitzgerald Gathered His Family On The Deck Of His New Dream Home To Say “Thank you, Warren.”"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84961.140625,
-        "perp_last_price": 84961.140625,
-        "mark_price": 84961.140625,
-        "index_price": 84961.140625,
+        "spot_price": 85184.25,
+        "perp_last_price": 85184.25,
+        "mark_price": 85184.25,
+        "index_price": 85184.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84961.140625,
-        "stop_loss_technical": 85064.6875,
-        "target_1": 84805.8203125,
-        "target_2": 84650.5,
+        "entry_ideal": 85184.25,
+        "stop_loss_technical": 83906.48625,
+        "target_1": 87100.895625,
+        "target_2": 89017.54125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84961.140625,
-        "stop_loss_technical": 83686.72351562,
-        "target_1": 86872.76628906,
-        "target_2": 88784.39195312,
+        "entry_ideal": 85184.25,
+        "stop_loss_technical": 83906.48625,
+        "target_1": 87100.895625,
+        "target_2": 89017.54125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
