@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-04T20:28:29.915318+00:00",
+    "generated_at_utc": "2026-10-04T23:26:04.710863+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.924,
+        "price": 101.905,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,34 +25,35 @@
     "In 1959, A Vermont Gas Station Attendant Spent $2,380 On His First 39 Shares Of Stock. Over The Next 5 Decades, He Built A 95+ Stock Portfolio Of Blue Chip Dividend Payers. By 2014, Ronald Read’s Portfolio Was Worth Nearly $8 Million",
     "His Kids Begged Him Not to Remarry at 79. When His New Wife Needed a Nursing Home 18 Months Later, Medicaid Pooled His $340,000 With Hers and Let Him Keep Half",
     "Elon Musk: America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — but he says 1 powerful force can save us",
+    "If a Stock Market Crash Is Coming, History Says These Are the 3 Financial Stocks to Buy",
     "In 1978, A Nevada Man Nicknamed ’40-Dollar Frank’ First Bought Shares Of Berkshire Hathaway. Three Decades Later Frank Fitzgerald Gathered His Family On The Deck Of His New Dream Home To Say “Thank you, Warren.”",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Give Your Dying Father $500,000 of Nvidia Stock So You Can Inherit It Back With a Tax-Free Step-Up. If He Dies Within a Year, the IRS Pretends the Gift Never Happened",
-    "Warren Buffett's Farewell Letter Contains the Only 4 Words Investors Need to Build a $10 Million Portfolio"
+    "Give Your Dying Father $500,000 of Nvidia Stock So You Can Inherit It Back With a Tax-Free Step-Up. If He Dies Within a Year, the IRS Pretends the Gift Never Happened"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85430.0078125,
-        "perp_last_price": 85430.0078125,
-        "mark_price": 85430.0078125,
-        "index_price": 85430.0078125,
+        "spot_price": 86613.9375,
+        "perp_last_price": 86613.9375,
+        "mark_price": 86613.9375,
+        "index_price": 86613.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 85430.0078125,
-        "stop_loss_technical": 85552.2578125,
-        "target_1": 85246.6328125,
-        "target_2": 85063.2578125,
+        "entry_ideal": 86597.2734375,
+        "stop_loss_technical": 85298.31433594,
+        "target_1": 88545.71208984,
+        "target_2": 90494.15074219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 85430.0078125,
-        "stop_loss_technical": 84148.55769531,
-        "target_1": 87352.18298828,
-        "target_2": 89274.35816406,
+        "entry_ideal": 86613.9375,
+        "stop_loss_technical": 85314.7284375,
+        "target_1": 88562.75109375,
+        "target_2": 90511.5646875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
