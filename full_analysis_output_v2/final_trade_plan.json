@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-03T22:29:47.955017+00:00",
+    "generated_at_utc": "2026-10-04T01:50:17.998330+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,17 +27,17 @@
     "Elon Musk: America is ‘1,000% going to go bankrupt’ and ‘fail as a country’ — but he says 1 powerful force can save us",
     "Give Your Dying Father $500,000 of Nvidia Stock So You Can Inherit It Back With a Tax-Free Step-Up. If He Dies Within a Year, the IRS Pretends the Gift Never Happened",
     "Trump Offering $90 Payments to 20 Million Medicare Recipients",
-    "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?",
-    "I Asked ChatGPT To Pick 5 Stocks To Hold for 10 Years — Here’s What It Chose"
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84763.4375,
-        "perp_last_price": 84763.4375,
-        "mark_price": 84763.4375,
-        "index_price": 84763.4375,
+        "spot_price": 84765.4609375,
+        "perp_last_price": 84765.4609375,
+        "mark_price": 84765.4609375,
+        "index_price": 84765.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84763.4375,
-        "stop_loss_technical": 83491.9859375,
-        "target_1": 86670.61484375,
-        "target_2": 88577.7921875,
+        "entry_ideal": 84763.40625,
+        "stop_loss_technical": 83491.95515625,
+        "target_1": 86670.58289062,
+        "target_2": 88577.75953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +63,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84763.4375,
+        "entry_ideal": 84765.4609375,
         "stop_loss_technical": 87146.3515625,
-        "target_1": 81189.06640625,
-        "target_2": 77614.6953125,
+        "target_1": 81194.125,
+        "target_2": 77622.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
