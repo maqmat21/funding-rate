@@ -1,74 +1,70 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-05T17:31:32.526136+00:00",
+    "generated_at_utc": "2026-10-05T23:20:22.734575+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.255,
-        "trend": "alcista"
+        "price": 102.102,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.343,
+        "price": 5.311,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 30m",
     "News from the Yahoo Finance Network",
-    "In 1978, A Nevada Man Nicknamed ’40-Dollar Frank’ First Bought Shares Of Berkshire Hathaway. Three Decades Later Frank Fitzgerald Gathered His Family On The Deck Of His New Dream Home To Say “Thank you, Warren.”",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Gen X Is Going To Retire At 65, ‘You’ll Never Hear Or See Them Again' — 38-Year-Old Says They’ll ‘Do What We Wish Boomers Would Do Now’",
-    "US unemployment below 5% approaches historic record not seen since mid-1960s",
     "A Retiree Who Dies at 82 With $700,000 Still in an IRA, Never Having Converted a Dollar, Leaves a Daughter in Her Peak Earning Years Ten Years to Pay Tax on All of It",
-    "How Much You Need To Retire Comfortably in Each State Based on Social Security Income"
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "In 1978, A Nevada Man Nicknamed ’40-Dollar Frank’ First Bought Shares Of Berkshire Hathaway. Three Decades Later Frank Fitzgerald Gathered His Family On The Deck Of His New Dream Home To Say “Thank you, Warren.”",
+    "Gen X Is Going To Retire At 65, ‘You’ll Never Hear Or See Them Again' — 38-Year-Old Says They’ll ‘Do What We Wish Boomers Would Do Now’",
+    "She’ll Enter a Florida Nursing Home on Medicaid With $600,000 Still in Her IRA. Because the Account Pays Out Every Year, the State Won’t Count It as an Asset. The Income Is a Different Story",
+    "How Much You Need To Retire Comfortably in Each State Based on Social Security Income",
+    "Royal Caribbean acquires stake in major resort operator"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85350.0,
-        "perp_last_price": 85350.0,
-        "mark_price": 85350.0,
-        "index_price": 85350.0,
+        "spot_price": 85918.8984375,
+        "perp_last_price": 85918.8984375,
+        "mark_price": 85918.8984375,
+        "index_price": 85918.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 85350.0,
-        "stop_loss_technical": 84069.75,
-        "target_1": 87270.375,
-        "target_2": 89190.75,
+        "entry_ideal": 85918.8984375,
+        "stop_loss_technical": 86694.890625,
+        "target_1": 84754.91015625,
+        "target_2": 83590.921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 85350.0,
-        "stop_loss_technical": 87146.3515625,
-        "target_1": 82655.47265625,
-        "target_2": 79960.9453125,
+        "entry_ideal": 85918.8984375,
+        "stop_loss_technical": 83132.7578125,
+        "target_1": 90098.109375,
+        "target_2": 94277.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +79,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
