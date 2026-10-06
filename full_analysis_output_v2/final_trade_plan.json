@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-06T03:06:13.166206+00:00",
+    "generated_at_utc": "2026-10-06T10:06:58.838698+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.183,
-        "trend": "alcista"
+        "price": 102.026,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.311,
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 3h 24m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett Says Buy This Vanguard Index Fund -- It Could Turn $400 Per Month Into $820,000",
     "A Retiree Who Dies at 82 With $700,000 Still in an IRA, Never Having Converted a Dollar, Leaves a Daughter in Her Peak Earning Years Ten Years to Pay Tax on All of It",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Rising interest rates could trigger a harsh reality for America's ballooning debt pile, warns Goldman Sachs",
     "She’ll Enter a Florida Nursing Home on Medicaid With $600,000 Still in Her IRA. Because the Account Pays Out Every Year, the State Won’t Count It as an Asset. The Income Is a Different Story",
-    "In 1978, A Nevada Man Nicknamed ’40-Dollar Frank’ First Bought Shares Of Berkshire Hathaway. Three Decades Later Frank Fitzgerald Gathered His Family On The Deck Of His New Dream Home To Say “Thank you, Warren.”",
     "How Much You Need To Retire Comfortably in Each State Based on Social Security Income",
-    "Gen X Is Going To Retire At 65, ‘You’ll Never Hear Or See Them Again' — 38-Year-Old Says They’ll ‘Do What We Wish Boomers Would Do Now’",
-    "Bessent says Trump Accounts will complement Social Security"
+    "If I Were in My 40s, I'd Buy This Vanguard ETF Warren Buffett Recommended and Hold It Forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85558.8203125,
-        "perp_last_price": 85558.8203125,
-        "mark_price": 85558.8203125,
-        "index_price": 85558.8203125,
+        "spot_price": 85962.0703125,
+        "perp_last_price": 85962.0703125,
+        "mark_price": 85962.0703125,
+        "index_price": 85962.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 85558.8203125,
-        "stop_loss_technical": 86713.90625,
-        "target_1": 83826.19140625,
-        "target_2": 82093.5625,
+        "entry_ideal": 85962.0703125,
+        "stop_loss_technical": 86181.40625,
+        "target_1": 85633.06640625,
+        "target_2": 85304.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 85558.8203125,
-        "stop_loss_technical": 87146.3515625,
-        "target_1": 83177.5234375,
-        "target_2": 80796.2265625,
+        "entry_ideal": 85962.0703125,
+        "stop_loss_technical": 83852.6953125,
+        "target_1": 89126.1328125,
+        "target_2": 92290.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,31 +80,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
