@@ -1,74 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-07T13:49:16.488681+00:00",
+    "generated_at_utc": "2026-10-07T19:34:25.794738+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.411,
+        "price": 102.25,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.358,
-        "trend": "alcista"
+        "price": 5.277,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 6h 12m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
-    "'The biggest loser' in Washington: Nobel Prize-winning economist says Scott Bessent won't get interest rates down",
-    "Late Billionaire Charlie Munger Told Value Investors to ‘Get Used To Making Less’ Because They All Want ‘A Diminished Bunch Of Opportunities’ but Warren Buffett Disagrees",
+    "My Brother Bought 3 Rental Properties With Our Inheritance And I Used Mine To Pay Off Debt. He Says, ‘That's Why I'll Retire Rich And You Won't’",
     "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
+    "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
     "Texas Leads U.S. as Home Foreclosures Surge 42 Percent and Thousands Lose Their Homes",
-    "How Much Income Puts You in the Top 1% in Each State: See What It Takes to Qualify"
+    "'The biggest loser' in Washington: Nobel Prize-winning economist says Scott Bessent won't get interest rates down",
+    "45-year-old pizza chain closed more than 90 locations and filed bankruptcy 3 times",
+    "Late Billionaire Charlie Munger Told Value Investors to ‘Get Used To Making Less’ Because They All Want ‘A Diminished Bunch Of Opportunities’ but Warren Buffett Disagrees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82900.1015625,
-        "perp_last_price": 82900.1015625,
-        "mark_price": 82900.1015625,
-        "index_price": 82900.1015625,
+        "spot_price": 83424.4609375,
+        "perp_last_price": 83424.4609375,
+        "mark_price": 83424.4609375,
+        "index_price": 83424.4609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 82900.1015625,
-        "stop_loss_technical": 85800.0390625,
-        "target_1": 78550.1953125,
-        "target_2": 74200.2890625,
+        "entry_ideal": 83425.171875,
+        "stop_loss_technical": 82733.296875,
+        "target_1": 84462.984375,
+        "target_2": 85500.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "RSI Bear"
         ],
-        "entry_ideal": 82900.1015625,
+        "entry_ideal": 83424.4609375,
         "stop_loss_technical": 86971.78125,
-        "target_1": 76792.58203125,
-        "target_2": 70685.0625,
+        "target_1": 78103.48046875,
+        "target_2": 72782.5,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +81,29 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
