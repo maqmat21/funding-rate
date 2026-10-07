@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-07T06:31:07.731999+00:00",
+    "generated_at_utc": "2026-10-07T13:49:16.488681+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 102.108,
+        "price": 102.411,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.269,
-        "trend": "bajista"
+        "price": 5.358,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 6h 12m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
+    "'The biggest loser' in Washington: Nobel Prize-winning economist says Scott Bessent won't get interest rates down",
     "Late Billionaire Charlie Munger Told Value Investors to ‘Get Used To Making Less’ Because They All Want ‘A Diminished Bunch Of Opportunities’ but Warren Buffett Disagrees",
-    "In 1907 Henry Phipps Put His Carnegie Steel Fortune Into Trusts for His Five Children and Hired a Staff to Run Them. His Descendants Are Still Drawing on It, and the Structure He Used Is One an Estate Lawyer Can Still Build Today",
-    "Texas Leads U.S. as Home Foreclosures Surge 42 Percent and Thousands Lose Their Homes",
-    "Michael Burry warns the stock market is in the first stage of a crash — with just 6 to 9 months to go until Stage 2",
     "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
-    "Why a $900,000 401(k) Is Worth More to a Retiree at 62 Than a $1.2 Million 401(k) at 73",
-    "Dad, 66, Wants To Give Each Of His 3 Kids $19,000 A Year. His Wife Says Their $1.5M Retirement Nest Egg Comes First"
+    "Texas Leads U.S. as Home Foreclosures Surge 42 Percent and Thousands Lose Their Homes",
+    "How Much Income Puts You in the Top 1% in Each State: See What It Takes to Qualify"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84172.0234375,
-        "perp_last_price": 84172.0234375,
-        "mark_price": 84172.0234375,
-        "index_price": 84172.0234375,
+        "spot_price": 82900.1015625,
+        "perp_last_price": 82900.1015625,
+        "mark_price": 82900.1015625,
+        "index_price": 82900.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84172.0234375,
-        "stop_loss_technical": 86689.7421875,
-        "target_1": 80395.4453125,
-        "target_2": 76618.8671875,
+        "entry_ideal": 82900.1015625,
+        "stop_loss_technical": 85800.0390625,
+        "target_1": 78550.1953125,
+        "target_2": 74200.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84172.0234375,
+        "entry_ideal": 82900.1015625,
         "stop_loss_technical": 86971.78125,
-        "target_1": 79972.38671875,
-        "target_2": 75772.75,
+        "target_1": 76792.58203125,
+        "target_2": 70685.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
