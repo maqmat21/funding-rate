@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-06T21:15:00.133119+00:00",
+    "generated_at_utc": "2026-10-07T00:43:29.806807+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.852,
-        "trend": "bajista"
+        "price": 101.949,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.269,
@@ -23,51 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "A Retiree Who Dies at 82 With $700,000 Still in an IRA, Never Having Converted a Dollar, Leaves a Daughter in Her Peak Earning Years Ten Years to Pay Tax on All of It",
+    "In 1907 Henry Phipps Put His Carnegie Steel Fortune Into Trusts for His Five Children and Hired a Staff to Run Them. His Descendants Are Still Drawing on It, and the Structure He Used Is One an Estate Lawyer Can Still Build Today",
+    "Late Billionaire Charlie Munger Told Value Investors to ‘Get Used To Making Less’ Because They All Want ‘A Diminished Bunch Of Opportunities’ but Warren Buffett Disagrees",
     "Texas Leads U.S. as Home Foreclosures Surge 42 Percent and Thousands Lose Their Homes",
     "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
-    "45-year-old pizza chain closed more than 90 locations and filed bankruptcy 3 times",
-    "She’ll Enter a Florida Nursing Home on Medicaid With $600,000 Still in Her IRA. Because the Account Pays Out Every Year, the State Won’t Count It as an Asset. The Income Is a Different Story",
     "Warren Buffett Says Buy This Vanguard Index Fund -- It Could Turn $400 Per Month Into $820,000",
-    "How Much You Need To Retire Comfortably in Each State Based on Social Security Income"
+    "45-year-old pizza chain closed more than 90 locations and filed bankruptcy 3 times"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 85556.3828125,
-        "perp_last_price": 85556.3828125,
-        "mark_price": 85556.3828125,
-        "index_price": 85556.3828125,
+        "spot_price": 85486.7265625,
+        "perp_last_price": 85486.7265625,
+        "mark_price": 85486.7265625,
+        "index_price": 85486.7265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 85556.3828125,
-        "stop_loss_technical": 84273.03707031,
-        "target_1": 87481.40142578,
-        "target_2": 89406.42003906,
+        "entry_ideal": 85487.421875,
+        "stop_loss_technical": 86691.1875,
+        "target_1": 83681.7734375,
+        "target_2": 81876.125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 85556.3828125,
-        "stop_loss_technical": 84273.03707031,
-        "target_1": 87481.40142578,
-        "target_2": 89406.42003906,
+        "entry_ideal": 85486.7265625,
+        "stop_loss_technical": 86971.78125,
+        "target_1": 83259.14453125,
+        "target_2": 81031.5625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
