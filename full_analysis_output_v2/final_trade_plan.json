@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-08T09:51:26.189978+00:00",
+    "generated_at_utc": "2026-10-08T17:02:22.961214+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.349,
-        "trend": "alcista"
+        "price": 102.252,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.277,
+        "price": 5.263,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 39m",
+    "U.S. markets close in 2h 58m",
     "News from the Yahoo Finance Network",
-    "Warren Buffett's Biggest Mistake Has Now Cost Berkshire Hathaway Up to $112 Billion (but I Don't Blame Him)",
     "My Brother Bought 3 Rental Properties With Our Inheritance And I Used Mine To Pay Off Debt. He Says, ‘That's Why I'll Retire Rich And You Won't’",
-    "Fed Chair Kevin Warsh Fired Back at President Donald Trump's Interest Rate Critiques With a Blunt 9-Word Statement",
+    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
+    "Warren Buffett's Biggest Mistake Has Now Cost Berkshire Hathaway Up to $112 Billion (but I Don't Blame Him)",
     "This Couple Pulled $600,000 From The Stock Market When Things Got Scary. Now They're Fighting Over Who Made Them Miss The Rebound",
-    "Jamie Dimon Says AI Will Eliminate Jobs, 'It Is What It Is' — But Warns Cutting $150,000 Truck Driving Jobs To $25K A Year Would Bring 'Civil Unrest'",
-    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday"
+    "Rapid bond yield moves have preceded nearly every major financial blowup: Chart of the Day",
+    "Trump disclosed millions in new trades in SpaceX and Microsoft. Today, he's giving medals to their CEOs."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83005.9296875,
-        "perp_last_price": 83005.9296875,
-        "mark_price": 83005.9296875,
-        "index_price": 83005.9296875,
+        "spot_price": 80727.140625,
+        "perp_last_price": 80727.140625,
+        "mark_price": 80727.140625,
+        "index_price": 80727.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83005.921875,
-        "stop_loss_technical": 83644.84375,
-        "target_1": 82047.5390625,
-        "target_2": 81089.15625,
+        "entry_ideal": 80768.7109375,
+        "stop_loss_technical": 79557.18027344,
+        "target_1": 82586.00693359,
+        "target_2": 84403.30292969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83005.9296875,
-        "stop_loss_technical": 86971.78125,
-        "target_1": 77057.15234375,
-        "target_2": 71108.375,
+        "entry_ideal": 80727.140625,
+        "stop_loss_technical": 79516.23351563,
+        "target_1": 82543.50128906,
+        "target_2": 84359.86195313,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
