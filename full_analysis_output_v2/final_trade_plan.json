@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-08T02:58:01.932976+00:00",
+    "generated_at_utc": "2026-10-08T09:51:26.189978+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.211,
-        "trend": "bajista"
+        "price": 102.349,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.277,
@@ -21,53 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 3h 39m",
     "News from the Yahoo Finance Network",
+    "Warren Buffett's Biggest Mistake Has Now Cost Berkshire Hathaway Up to $112 Billion (but I Don't Blame Him)",
     "My Brother Bought 3 Rental Properties With Our Inheritance And I Used Mine To Pay Off Debt. He Says, ‘That's Why I'll Retire Rich And You Won't’",
-    "Jamie Dimon Says AI Will Eliminate Jobs, 'It Is What It Is' — But Warns Cutting $150,000 Truck Driving Jobs To $25K A Year Would Bring 'Civil Unrest'",
+    "Fed Chair Kevin Warsh Fired Back at President Donald Trump's Interest Rate Critiques With a Blunt 9-Word Statement",
     "This Couple Pulled $600,000 From The Stock Market When Things Got Scary. Now They're Fighting Over Who Made Them Miss The Rebound",
-    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
-    "The great boomer hoard: Americans 55 and over hold $140 trillion, roughly three-quarters of total net worth",
-    "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
-    "'The biggest loser' in Washington: Nobel Prize-winning economist says Scott Bessent won't get interest rates down"
+    "Jamie Dimon Says AI Will Eliminate Jobs, 'It Is What It Is' — But Warns Cutting $150,000 Truck Driving Jobs To $25K A Year Would Bring 'Civil Unrest'",
+    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83125.03125,
-        "perp_last_price": 83125.03125,
-        "mark_price": 83125.03125,
-        "index_price": 83125.03125,
+        "spot_price": 83005.9296875,
+        "perp_last_price": 83005.9296875,
+        "mark_price": 83005.9296875,
+        "index_price": 83005.9296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 83125.03125,
-        "stop_loss_technical": 81878.15578125,
-        "target_1": 84995.34445312,
-        "target_2": 86865.65765625,
+        "entry_ideal": 83005.921875,
+        "stop_loss_technical": 83644.84375,
+        "target_1": 82047.5390625,
+        "target_2": 81089.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 83125.03125,
-        "stop_loss_technical": 81878.15578125,
-        "target_1": 84995.34445312,
-        "target_2": 86865.65765625,
+        "entry_ideal": 83005.9296875,
+        "stop_loss_technical": 86971.78125,
+        "target_1": 77057.15234375,
+        "target_2": 71108.375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
