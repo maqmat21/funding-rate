@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-07T23:45:23.600654+00:00",
+    "generated_at_utc": "2026-10-08T02:58:01.932976+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.232,
-        "trend": "alcista"
+        "price": 102.211,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.277,
@@ -23,49 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "My Brother Bought 3 Rental Properties With Our Inheritance And I Used Mine To Pay Off Debt. He Says, ‘That's Why I'll Retire Rich And You Won't’",
-    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
+    "Jamie Dimon Says AI Will Eliminate Jobs, 'It Is What It Is' — But Warns Cutting $150,000 Truck Driving Jobs To $25K A Year Would Bring 'Civil Unrest'",
     "This Couple Pulled $600,000 From The Stock Market When Things Got Scary. Now They're Fighting Over Who Made Them Miss The Rebound",
+    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
+    "The great boomer hoard: Americans 55 and over hold $140 trillion, roughly three-quarters of total net worth",
     "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
-    "Texas Leads U.S. as Home Foreclosures Surge 42 Percent and Thousands Lose Their Homes",
-    "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
     "'The biggest loser' in Washington: Nobel Prize-winning economist says Scott Bessent won't get interest rates down"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83279.609375,
-        "perp_last_price": 83279.609375,
-        "mark_price": 83279.609375,
-        "index_price": 83279.609375,
+        "spot_price": 83125.03125,
+        "perp_last_price": 83125.03125,
+        "mark_price": 83125.03125,
+        "index_price": 83125.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83270.96875,
-        "stop_loss_technical": 84358.3828125,
-        "target_1": 81639.84765625,
-        "target_2": 80008.7265625,
+        "entry_ideal": 83125.03125,
+        "stop_loss_technical": 81878.15578125,
+        "target_1": 84995.34445312,
+        "target_2": 86865.65765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83279.609375,
-        "stop_loss_technical": 86971.78125,
-        "target_1": 77741.3515625,
-        "target_2": 72203.09375,
+        "entry_ideal": 83125.03125,
+        "stop_loss_technical": 81878.15578125,
+        "target_1": 84995.34445312,
+        "target_2": 86865.65765625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
