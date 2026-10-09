@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-09T01:45:45.696691+00:00",
+    "generated_at_utc": "2026-10-09T08:01:03.774608+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.991,
+        "price": 102.037,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 5h 30m",
     "News from the Yahoo Finance Network",
     "Who Is Susan Dell? Billionaire Tech CEO’s Wife Goes Viral Following Oval Office Appearance",
-    "My Brother Bought 3 Rental Properties With Our Inheritance And I Used Mine To Pay Off Debt. He Says, ‘That's Why I'll Retire Rich And You Won't’",
-    "Formerly bankrupt buffet chain comes back after 6-year shutdown",
     "‘I Got Slaughtered’: Kevin O’Leary Says Shorting Yahoo Cut His Net Worth ‘40, 50%’ After ‘Losing 3, 4 Million An Hour’ So He ‘Never Ever Ever Shorted A Stock Again’",
     "Warren Buffett Warns Investors Are Headed for a Cold, Hard Reality Check. History Says He's Right.",
-    "Elon Musk's SpaceX just made a huge play to challenge the phone industry and stocks like AT&T, T-Mobile and Verizon are getting crushed",
-    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday"
+    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
+    "AMD CEO delivers stark warning on chip market’s future",
+    "Woman, 55, Walked Away From Her Divorce With $1.1M After Her Ex Handled Every Dollar For 26 Years. Now His Financial Advisor Keeps Calling"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81893.109375,
-        "perp_last_price": 81893.109375,
-        "mark_price": 81893.109375,
-        "index_price": 81893.109375,
+        "spot_price": 82554.75,
+        "perp_last_price": 82554.75,
+        "mark_price": 82554.75,
+        "index_price": 82554.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81893.109375,
-        "stop_loss_technical": 80322.6328125,
-        "target_1": 84248.82421875,
-        "target_2": 86604.5390625,
+        "entry_ideal": 82554.75,
+        "stop_loss_technical": 80315.9296875,
+        "target_1": 85912.98046875,
+        "target_2": 89271.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81893.109375,
-        "stop_loss_technical": 80664.71273438,
-        "target_1": 83735.70433594,
-        "target_2": 85578.29929688,
+        "entry_ideal": 82554.75,
+        "stop_loss_technical": 80315.9296875,
+        "target_1": 85912.98046875,
+        "target_2": 89271.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
