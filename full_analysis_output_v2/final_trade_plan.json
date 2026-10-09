@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-09T15:13:50.718132+00:00",
+    "generated_at_utc": "2026-10-09T20:06:54.833269+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.297,
+        "price": 102.234,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.276,
+        "price": 5.244,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 47m",
     "News from the Yahoo Finance Network",
-    "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate",
     "Who Is Susan Dell? Billionaire Tech CEO’s Wife Goes Viral Following Oval Office Appearance",
-    "‘I Got Slaughtered’: Kevin O’Leary Says Shorting Yahoo Cut His Net Worth ‘40, 50%’ After ‘Losing 3, 4 Million An Hour’ So He ‘Never Ever Ever Shorted A Stock Again’",
-    "Warren Buffett Warns Investors Are Headed for a Cold, Hard Reality Check. History Says He's Right.",
-    "Wealthy Americans are ditching the 401(k) plans used by 70M workers — here’s where their money is going instead",
-    "Global cookie chain closes 57 locations in 2026, franchisee owners file Chapter 7 bankruptcy"
+    "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate",
+    "128-year-old iconic furniture chain closing down and liquidating all locations",
+    "Billy Joel's Social Security Check vs. the Average American's",
+    "‘She’s Broke Now. She Just Doesn’t Know It’: Grant Cardone Says a SpaceX Employee Who Just Became a Millionaire and Sold Stock Is Making a Mistake",
+    "Global cookie chain closes 57 locations in 2026, franchisee owners file Chapter 7 bankruptcy",
+    "Warren Buffett Warns Investors Are Headed for a Cold, Hard Reality Check. History Says He's Right."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82802.4765625,
-        "perp_last_price": 82802.4765625,
-        "mark_price": 82802.4765625,
-        "index_price": 82802.4765625,
+        "spot_price": 82254.921875,
+        "perp_last_price": 82254.921875,
+        "mark_price": 82254.921875,
+        "index_price": 82254.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 82799.1484375,
+        "entry_ideal": 82254.8203125,
         "stop_loss_technical": 83431.1015625,
-        "target_1": 81851.21875,
-        "target_2": 80903.2890625,
+        "target_1": 80490.3984375,
+        "target_2": 78725.9765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 82802.4765625,
-        "stop_loss_technical": 80336.90625,
-        "target_1": 86500.83203125,
-        "target_2": 90199.1875,
+        "entry_ideal": 82254.921875,
+        "stop_loss_technical": 86971.78125,
+        "target_1": 75179.6328125,
+        "target_2": 68104.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
