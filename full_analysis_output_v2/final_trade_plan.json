@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-09T08:01:03.774608+00:00",
+    "generated_at_utc": "2026-10-09T15:13:50.718132+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.037,
-        "trend": "bajista"
+        "price": 102.297,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.231,
+        "price": 5.276,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 30m",
+    "U.S. markets close in 4h 47m",
     "News from the Yahoo Finance Network",
+    "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate",
     "Who Is Susan Dell? Billionaire Tech CEO’s Wife Goes Viral Following Oval Office Appearance",
     "‘I Got Slaughtered’: Kevin O’Leary Says Shorting Yahoo Cut His Net Worth ‘40, 50%’ After ‘Losing 3, 4 Million An Hour’ So He ‘Never Ever Ever Shorted A Stock Again’",
     "Warren Buffett Warns Investors Are Headed for a Cold, Hard Reality Check. History Says He's Right.",
-    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
-    "AMD CEO delivers stark warning on chip market’s future",
-    "Woman, 55, Walked Away From Her Divorce With $1.1M After Her Ex Handled Every Dollar For 26 Years. Now His Financial Advisor Keeps Calling"
+    "Wealthy Americans are ditching the 401(k) plans used by 70M workers — here’s where their money is going instead",
+    "Global cookie chain closes 57 locations in 2026, franchisee owners file Chapter 7 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82554.75,
-        "perp_last_price": 82554.75,
-        "mark_price": 82554.75,
-        "index_price": 82554.75,
+        "spot_price": 82802.4765625,
+        "perp_last_price": 82802.4765625,
+        "mark_price": 82802.4765625,
+        "index_price": 82802.4765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 82554.75,
-        "stop_loss_technical": 80315.9296875,
-        "target_1": 85912.98046875,
-        "target_2": 89271.2109375,
+        "entry_ideal": 82799.1484375,
+        "stop_loss_technical": 83431.1015625,
+        "target_1": 81851.21875,
+        "target_2": 80903.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 82554.75,
-        "stop_loss_technical": 80315.9296875,
-        "target_1": 85912.98046875,
-        "target_2": 89271.2109375,
+        "entry_ideal": 82802.4765625,
+        "stop_loss_technical": 80336.90625,
+        "target_1": 86500.83203125,
+        "target_2": 90199.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
