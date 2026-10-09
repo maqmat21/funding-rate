@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-08T21:59:48.060057+00:00",
+    "generated_at_utc": "2026-10-09T01:45:45.696691+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.103,
+        "price": 101.991,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,35 +24,36 @@
     "News from the Yahoo Finance Network",
     "Who Is Susan Dell? Billionaire Tech CEO’s Wife Goes Viral Following Oval Office Appearance",
     "My Brother Bought 3 Rental Properties With Our Inheritance And I Used Mine To Pay Off Debt. He Says, ‘That's Why I'll Retire Rich And You Won't’",
-    "Warren Buffett Warns Investors Are Headed for a Cold, Hard Reality Check. History Says He's Right.",
+    "Formerly bankrupt buffet chain comes back after 6-year shutdown",
     "‘I Got Slaughtered’: Kevin O’Leary Says Shorting Yahoo Cut His Net Worth ‘40, 50%’ After ‘Losing 3, 4 Million An Hour’ So He ‘Never Ever Ever Shorted A Stock Again’",
-    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday",
-    "SpaceX Buys Wireless Spectrum For Starlink; Verizon, AT&T, T-Mobile Tumble",
-    "IRS issues notices for a $1,000 retirement match. Here's who qualifies."
+    "Warren Buffett Warns Investors Are Headed for a Cold, Hard Reality Check. History Says He's Right.",
+    "Elon Musk's SpaceX just made a huge play to challenge the phone industry and stocks like AT&T, T-Mobile and Verizon are getting crushed",
+    "After 41 Years of Marriage They’ll Divorce on Paper. He’ll Be on Medicaid in the Nursing Home, She’ll Keep the House and $900,000, and They’ll Still Eat Dinner Together Every Sunday"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81618.109375,
-        "perp_last_price": 81618.109375,
-        "mark_price": 81618.109375,
-        "index_price": 81618.109375,
+        "spot_price": 81893.109375,
+        "perp_last_price": 81893.109375,
+        "mark_price": 81893.109375,
+        "index_price": 81893.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81620.5390625,
-        "stop_loss_technical": 80396.23097656,
-        "target_1": 83457.00119141,
-        "target_2": 85293.46332031,
+        "entry_ideal": 81893.109375,
+        "stop_loss_technical": 80322.6328125,
+        "target_1": 84248.82421875,
+        "target_2": 86604.5390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81618.109375,
-        "stop_loss_technical": 80393.83773438,
-        "target_1": 83454.51683594,
-        "target_2": 85290.92429688,
+        "entry_ideal": 81893.109375,
+        "stop_loss_technical": 80664.71273438,
+        "target_1": 83735.70433594,
+        "target_2": 85578.29929688,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
