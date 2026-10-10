@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-10T04:18:58.153071+00:00",
+    "generated_at_utc": "2026-10-10T10:39:47.375997+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,8 +23,8 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "She’ll Inherit Her Father’s $500,000 IRA at 54 and Plans to Leave It Alone Until Year 10. Because He Was Already Taking RMDs, the IRS Will Want a Withdrawal Every Year, and the Year-10 Balance Will Be Taxed on Top of Her Salary",
-    "Who Is Susan Dell? Billionaire Tech CEO’s Wife Goes Viral Following Oval Office Appearance",
     "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate",
+    "Who Is Susan Dell? Billionaire Tech CEO’s Wife Goes Viral Following Oval Office Appearance",
     "‘She’s Broke Now. She Just Doesn’t Know It’: Grant Cardone Says a SpaceX Employee Who Just Became a Millionaire and Sold Stock Is Making a Mistake",
     "These 18 million households now rank as America's richest",
     "‘Trojan horse’: California’s top 1% pay nearly half the state’s income taxes. Prop 40 opponents warn the billionaire tax could reach everyone else",
@@ -34,25 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82611.7734375,
-        "perp_last_price": 82611.7734375,
-        "mark_price": 82611.7734375,
-        "index_price": 82611.7734375,
+        "spot_price": 82743.5078125,
+        "perp_last_price": 82743.5078125,
+        "mark_price": 82743.5078125,
+        "index_price": 82743.5078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 82611.859375,
-        "stop_loss_technical": 82198.46875,
-        "target_1": 83231.9453125,
-        "target_2": 83852.03125,
+        "entry_ideal": 82743.5078125,
+        "stop_loss_technical": 83003.796875,
+        "target_1": 82353.07421875,
+        "target_2": 81962.640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 82611.7734375,
+        "entry_ideal": 82743.5078125,
         "stop_loss_technical": 80336.90625,
-        "target_1": 86024.07421875,
-        "target_2": 89436.375,
+        "target_1": 86353.41015625,
+        "target_2": 89963.3125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
