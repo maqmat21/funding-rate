@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-10T22:54:50.420925+00:00",
+    "generated_at_utc": "2026-10-11T01:23:15.986606+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,8 +24,8 @@
     "News from the Yahoo Finance Network",
     "‘Absolutely crazy': Suze Orman skewers a caller's $1.6 million retirement rollover plan. Here's how to avoid the trap",
     "She’ll Inherit Her Father’s $500,000 IRA at 54 and Plans to Leave It Alone Until Year 10. Because He Was Already Taking RMDs, the IRS Will Want a Withdrawal Every Year, and the Year-10 Balance Will Be Taxed on Top of Her Salary",
-    "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
     "Charlie Munger Said Most People Should Own Nothing but Index Funds. $400 a Month in VOO Could Become $813,000",
+    "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
     "'This Is Your Money, Whether You Know It or Not': Suze Orman Says a Social Security Agent Was '100 Million Percent Wrong' About a Benefit for Divorced Americans",
     "These 18 million households now rank as America's richest",
     "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate"
@@ -34,25 +34,24 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83001.4375,
-        "perp_last_price": 83001.4375,
-        "mark_price": 83001.4375,
-        "index_price": 83001.4375,
+        "spot_price": 82921.9765625,
+        "perp_last_price": 82921.9765625,
+        "mark_price": 82921.9765625,
+        "index_price": 82921.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 83001.453125,
-        "stop_loss_technical": 82479.1015625,
-        "target_1": 83784.98046875,
-        "target_2": 84568.5078125,
+        "entry_ideal": 82921.9765625,
+        "stop_loss_technical": 82560.0390625,
+        "target_1": 83464.8828125,
+        "target_2": 84007.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 83001.4375,
+        "entry_ideal": 82921.9765625,
         "stop_loss_technical": 80336.90625,
-        "target_1": 86998.234375,
-        "target_2": 90995.03125,
+        "target_1": 86799.58203125,
+        "target_2": 90677.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
