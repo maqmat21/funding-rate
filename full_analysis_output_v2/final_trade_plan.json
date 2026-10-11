@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-11T01:23:15.986606+00:00",
+    "generated_at_utc": "2026-10-11T07:24:00.522070+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,32 +26,33 @@
     "She’ll Inherit Her Father’s $500,000 IRA at 54 and Plans to Leave It Alone Until Year 10. Because He Was Already Taking RMDs, the IRS Will Want a Withdrawal Every Year, and the Year-10 Balance Will Be Taxed on Top of Her Salary",
     "Charlie Munger Said Most People Should Own Nothing but Index Funds. $400 a Month in VOO Could Become $813,000",
     "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-    "'This Is Your Money, Whether You Know It or Not': Suze Orman Says a Social Security Agent Was '100 Million Percent Wrong' About a Benefit for Divorced Americans",
     "These 18 million households now rank as America's richest",
-    "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate"
+    "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate",
+    "'This Is Your Money, Whether You Know It or Not': Suze Orman Says a Social Security Agent Was '100 Million Percent Wrong' About a Benefit for Divorced Americans"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82921.9765625,
-        "perp_last_price": 82921.9765625,
-        "mark_price": 82921.9765625,
-        "index_price": 82921.9765625,
+        "spot_price": 83020.4921875,
+        "perp_last_price": 83020.4921875,
+        "mark_price": 83020.4921875,
+        "index_price": 83020.4921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 82921.9765625,
-        "stop_loss_technical": 82560.0390625,
-        "target_1": 83464.8828125,
-        "target_2": 84007.7890625,
+        "entry_ideal": 83009.3125,
+        "stop_loss_technical": 83137.03125,
+        "target_1": 82817.734375,
+        "target_2": 82626.15625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 82921.9765625,
+        "entry_ideal": 83020.4921875,
         "stop_loss_technical": 80336.90625,
-        "target_1": 86799.58203125,
-        "target_2": 90677.1875,
+        "target_1": 87045.87109375,
+        "target_2": 91071.25,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
