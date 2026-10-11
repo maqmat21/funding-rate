@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-11T18:55:50.604098+00:00",
+    "generated_at_utc": "2026-10-11T22:34:02.616047+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.231,
+        "price": 102.26,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "In 1961, A Chemical Engineer And His Wife Invested $25,000 Each With A Family Friend From Nebraska. The Friend’s Name Was Warren Buffett. When They Died In The 1990s, Their Combined Estates Were Worth More Than $750 Million",
+    "‘When You Say I Should Pay $100 Billion, Then I’m Starting To Do A Little Math’: Bill Gates Said He’d Happily Pay ‘Over $10 Billion In Taxes’ But Some Are Asking Too Much",
     "‘Absolutely crazy': Suze Orman skewers a caller's $1.6 million retirement rollover plan. Here's how to avoid the trap",
     "She’ll Inherit Her Father’s $500,000 IRA at 54 and Plans to Leave It Alone Until Year 10. Because He Was Already Taking RMDs, the IRS Will Want a Withdrawal Every Year, and the Year-10 Balance Will Be Taxed on Top of Her Salary",
     "Charlie Munger Said Most People Should Own Nothing but Index Funds. $400 a Month in VOO Could Become $813,000",
     "Why Only a Small Percentage of Retirees Receive Social Security’s Maximum Benefit Check",
-    "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-    "Millionaires in America: How common is it to have a 7-figure net worth?"
+    "Jeff Bezos has a blunt answer for why housing is so expensive"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83594.1484375,
-        "perp_last_price": 83594.1484375,
-        "mark_price": 83594.1484375,
-        "index_price": 83594.1484375,
+        "spot_price": 83543.96875,
+        "perp_last_price": 83543.96875,
+        "mark_price": 83543.96875,
+        "index_price": 83543.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 83587.078125,
-        "stop_loss_technical": 84110.5390625,
-        "target_1": 82801.88671875,
-        "target_2": 82016.6953125,
+        "entry_ideal": 83543.96875,
+        "stop_loss_technical": 82716.8125,
+        "target_1": 84784.703125,
+        "target_2": 86025.4375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 83594.1484375,
+        "entry_ideal": 83543.96875,
         "stop_loss_technical": 80336.90625,
-        "target_1": 88480.01171875,
-        "target_2": 93365.875,
+        "target_1": 88354.5625,
+        "target_2": 93165.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
