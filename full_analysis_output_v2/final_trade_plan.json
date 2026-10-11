@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-11T07:24:00.522070+00:00",
+    "generated_at_utc": "2026-10-11T14:14:13.981857+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,38 +24,24 @@
     "News from the Yahoo Finance Network",
     "‘Absolutely crazy': Suze Orman skewers a caller's $1.6 million retirement rollover plan. Here's how to avoid the trap",
     "She’ll Inherit Her Father’s $500,000 IRA at 54 and Plans to Leave It Alone Until Year 10. Because He Was Already Taking RMDs, the IRS Will Want a Withdrawal Every Year, and the Year-10 Balance Will Be Taxed on Top of Her Salary",
+    "Why Only a Small Percentage of Retirees Receive Social Security’s Maximum Benefit Check",
     "Charlie Munger Said Most People Should Own Nothing but Index Funds. $400 a Month in VOO Could Become $813,000",
     "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-    "These 18 million households now rank as America's richest",
-    "A Married Couple Will Be Able to Hand Each Child and Grandchild $38,000 in 2026 Without Filing a Single Gift-Tax Form. With Eleven Recipients, That’s $418,000 a Year Leaving the Estate",
-    "'This Is Your Money, Whether You Know It or Not': Suze Orman Says a Social Security Agent Was '100 Million Percent Wrong' About a Benefit for Divorced Americans"
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "In 2000, A 62-Year-Old Texas Man Retired After Working 33 Years With $1.3 Million In Company Stock. Twenty Months Later, He Said It Was Worth About $8,000. The Unlucky Story Of Charles Prestwood Holds An Important Lesson For Every Investor"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83020.4921875,
-        "perp_last_price": 83020.4921875,
-        "mark_price": 83020.4921875,
-        "index_price": 83020.4921875,
+        "spot_price": 83017.6015625,
+        "perp_last_price": 83017.6015625,
+        "mark_price": 83017.6015625,
+        "index_price": 83017.6015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 83009.3125,
-        "stop_loss_technical": 83137.03125,
-        "target_1": 82817.734375,
-        "target_2": 82626.15625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -63,10 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 83020.4921875,
+        "entry_ideal": 83017.6015625,
+        "stop_loss_technical": 82716.8125,
+        "target_1": 83468.78515625,
+        "target_2": 83919.96875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 83017.6015625,
         "stop_loss_technical": 80336.90625,
-        "target_1": 87045.87109375,
-        "target_2": 91071.25,
+        "target_1": 87038.64453125,
+        "target_2": 91059.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
