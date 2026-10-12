@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-11T22:34:02.616047+00:00",
+    "generated_at_utc": "2026-10-12T01:41:37.879697+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.26,
-        "trend": "alcista"
+        "price": 102.134,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.244,
@@ -24,49 +24,51 @@
     "News from the Yahoo Finance Network",
     "In 1961, A Chemical Engineer And His Wife Invested $25,000 Each With A Family Friend From Nebraska. The Friend’s Name Was Warren Buffett. When They Died In The 1990s, Their Combined Estates Were Worth More Than $750 Million",
     "‘When You Say I Should Pay $100 Billion, Then I’m Starting To Do A Little Math’: Bill Gates Said He’d Happily Pay ‘Over $10 Billion In Taxes’ But Some Are Asking Too Much",
-    "‘Absolutely crazy': Suze Orman skewers a caller's $1.6 million retirement rollover plan. Here's how to avoid the trap",
     "She’ll Inherit Her Father’s $500,000 IRA at 54 and Plans to Leave It Alone Until Year 10. Because He Was Already Taking RMDs, the IRS Will Want a Withdrawal Every Year, and the Year-10 Balance Will Be Taxed on Top of Her Salary",
+    "‘Absolutely crazy': Suze Orman skewers a caller's $1.6 million retirement rollover plan. Here's how to avoid the trap",
     "Charlie Munger Said Most People Should Own Nothing but Index Funds. $400 a Month in VOO Could Become $813,000",
     "Why Only a Small Percentage of Retirees Receive Social Security’s Maximum Benefit Check",
-    "Jeff Bezos has a blunt answer for why housing is so expensive"
+    "In 2000, A 62-Year-Old Texas Man Retired After Working 33 Years With $1.3 Million In Company Stock. Twenty Months Later, He Said It Was Worth About $8,000. The Unlucky Story Of Charles Prestwood Holds An Important Lesson For Every Investor"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83543.96875,
-        "perp_last_price": 83543.96875,
-        "mark_price": 83543.96875,
-        "index_price": 83543.96875,
+        "spot_price": 83634.96875,
+        "perp_last_price": 83634.96875,
+        "mark_price": 83634.96875,
+        "index_price": 83634.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83543.96875,
-        "stop_loss_technical": 82716.8125,
-        "target_1": 84784.703125,
-        "target_2": 86025.4375,
+        "entry_ideal": 83634.96875,
+        "stop_loss_technical": 82380.44421875,
+        "target_1": 85516.75554688,
+        "target_2": 87398.54234375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83543.96875,
+        "entry_ideal": 83634.96875,
         "stop_loss_technical": 80336.90625,
-        "target_1": 88354.5625,
-        "target_2": 93165.15625,
+        "target_1": 88582.0625,
+        "target_2": 93529.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
