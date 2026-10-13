@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-13T18:19:27.804677+00:00",
+    "generated_at_utc": "2026-10-13T22:52:16.569823+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,64 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.173,
+        "price": 102.215,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.221,
+        "price": 5.217,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 42m",
     "News from the Yahoo Finance Network",
     "A 63-Year-Old Will Load Trucks Four Hours a Night at UPS. The Paycheck Will Be About $1,800 a Month. The Union Health Plan Will Be Worth More",
-    "Prediction: A Bear Market Is Coming. Here's What History Says Investors Should Do Based on 100 Years of Data.",
+    "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income",
     "Dave Ramsey Says He’d ‘Rather Have $5,000 on a Credit Card Than a Mortgage You Can’t Afford,’ Warns to Sell If You’re Paying $2,090 a Month on $4,200 Income",
-    "It takes $3M to rank among America’s wealthiest retirees. Here’s where you stand — and 3 ways to build your fortune",
-    "5 things a US retiree should never (ever) disclose to anyone — how many have you revealed already?",
-    "Albertsons Seeks More Than $9 Billion Over Busted Kroger Deal"
+    "Prediction: A Bear Market Is Coming. Here's What History Says Investors Should Do Based on 100 Years of Data.",
+    "'The baby boomers have arrived': How Americans over 75 got richer than other age groups",
+    "I'm 62 With $800,000 and $2,600 a Month From Social Security. What Can I Spend in Retirement?",
+    "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83104.328125,
-        "perp_last_price": 83104.328125,
-        "mark_price": 83104.328125,
-        "index_price": 83104.328125,
+        "spot_price": 83461.5234375,
+        "perp_last_price": 83461.5234375,
+        "mark_price": 83461.5234375,
+        "index_price": 83461.5234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83104.328125,
-        "stop_loss_technical": 80959.671875,
-        "target_1": 86321.3125,
-        "target_2": 89538.296875,
+        "entry_ideal": 83461.5234375,
+        "stop_loss_technical": 82681.7265625,
+        "target_1": 84631.21875,
+        "target_2": 85800.9140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83104.328125,
-        "stop_loss_technical": 81857.76320312,
-        "target_1": 84974.17550781,
-        "target_2": 86844.02289062,
+        "entry_ideal": 83461.5234375,
+        "stop_loss_technical": 81197.9921875,
+        "target_1": 86856.8203125,
+        "target_2": 90252.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
