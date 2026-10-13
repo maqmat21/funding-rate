@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-13T11:14:31.898497+00:00",
+    "generated_at_utc": "2026-10-13T18:19:27.804677+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,52 +11,37 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.272,
+        "price": 102.173,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.24,
+        "price": 5.221,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 16m",
+    "U.S. markets close in 1h 42m",
     "News from the Yahoo Finance Network",
     "A 63-Year-Old Will Load Trucks Four Hours a Night at UPS. The Paycheck Will Be About $1,800 a Month. The Union Health Plan Will Be Worth More",
-    "In 1961, A Chemical Engineer And His Wife Invested $25,000 Each With A Family Friend From Nebraska. The Friend’s Name Was Warren Buffett. When They Died In The 1990s, Their Combined Estates Were Worth More Than $750 Million",
+    "Prediction: A Bear Market Is Coming. Here's What History Says Investors Should Do Based on 100 Years of Data.",
     "Dave Ramsey Says He’d ‘Rather Have $5,000 on a Credit Card Than a Mortgage You Can’t Afford,’ Warns to Sell If You’re Paying $2,090 a Month on $4,200 Income",
-    "‘When You Say I Should Pay $100 Billion, Then I’m Starting To Do A Little Math’: Bill Gates Said He’d Happily Pay ‘Over $10 Billion In Taxes’ But Some Are Asking Too Much",
-    "Broadcom CEO: Investors are ignoring a key lesson from Warren Buffett",
-    "JPMorgan profits rise as Jamie Dimon warns economic forces 'shift under the surface'"
+    "It takes $3M to rank among America’s wealthiest retirees. Here’s where you stand — and 3 ways to build your fortune",
+    "5 things a US retiree should never (ever) disclose to anyone — how many have you revealed already?",
+    "Albertsons Seeks More Than $9 Billion Over Busted Kroger Deal"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83121.1015625,
-        "perp_last_price": 83121.1015625,
-        "mark_price": 83121.1015625,
-        "index_price": 83121.1015625,
+        "spot_price": 83104.328125,
+        "perp_last_price": 83104.328125,
+        "mark_price": 83104.328125,
+        "index_price": 83104.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 83121.1015625,
-        "stop_loss_technical": 81874.28503906,
-        "target_1": 84991.32634766,
-        "target_2": 86861.55113281,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 82,
@@ -64,10 +49,24 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83121.1015625,
+        "entry_ideal": 83104.328125,
         "stop_loss_technical": 80959.671875,
-        "target_1": 86363.24609375,
-        "target_2": 89605.390625,
+        "target_1": 86321.3125,
+        "target_2": 89538.296875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 83104.328125,
+        "stop_loss_technical": 81857.76320312,
+        "target_1": 84974.17550781,
+        "target_2": 86844.02289062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
