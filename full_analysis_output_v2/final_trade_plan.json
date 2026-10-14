@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-14T12:09:52.364182+00:00",
+    "generated_at_utc": "2026-10-14T17:04:59.281198+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.236,
+        "price": 102.832,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.217,
+        "price": 5.236,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 22m",
+    "U.S. markets close in 2h 56m",
     "News from the Yahoo Finance Network",
+    "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+    "American Airlines exits entire market",
     "How Much You Need to Retire Comfortably With a Paid-Off Home in Every State",
-    "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income",
     "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
-    "A 63-Year-Old Will Load Trucks Four Hours a Night at UPS. The Paycheck Will Be About $1,800 a Month. The Union Health Plan Will Be Worth More",
-    "The average 50-something is now worth $1.5 million",
-    "Bank of America Q3 profit tumbles 17% as deals, trading revenue fall"
+    "Social Security announces 3.6% COLA for 2027, the highest in 4 years",
+    "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83643.9765625,
-        "perp_last_price": 83643.9765625,
-        "mark_price": 83643.9765625,
-        "index_price": 83643.9765625,
+        "spot_price": 81987.109375,
+        "perp_last_price": 81987.109375,
+        "mark_price": 81987.109375,
+        "index_price": 81987.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 83643.9765625,
-        "stop_loss_technical": 82876.9921875,
-        "target_1": 84794.453125,
-        "target_2": 85944.9296875,
+        "entry_ideal": 81987.109375,
+        "stop_loss_technical": 81503.0625,
+        "target_1": 82713.1796875,
+        "target_2": 83439.25,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 83643.9765625,
-        "stop_loss_technical": 80962.515625,
-        "target_1": 87666.16796875,
-        "target_2": 91688.359375,
+        "entry_ideal": 81987.109375,
+        "stop_loss_technical": 84249.21875,
+        "target_1": 78593.9453125,
+        "target_2": 75200.78125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
