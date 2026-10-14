@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-14T20:35:48.755130+00:00",
+    "generated_at_utc": "2026-10-14T23:23:57.141433+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.542,
+        "price": 102.528,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,36 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
     "American Airlines exits entire market",
     "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
     "How Much You Need to Retire Comfortably With a Paid-Off Home in Every State",
-    "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income",
-    "‘You’re Just Going to Have to Watch It Burn to the Ground’: Dave Ramsey to Woman Whose Retired Parents Own 3 Homes on $4,000 a Month",
-    "The average 50-something is worth $1.5 million. Most have far less"
+    "Tom Cruise’s ‘Digger’ could be one of Hollywood’s biggest flops ever, with a projected $245 million loss",
+    "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81790.203125,
-        "perp_last_price": 81790.203125,
-        "mark_price": 81790.203125,
-        "index_price": 81790.203125,
+        "spot_price": 81453.7734375,
+        "perp_last_price": 81453.7734375,
+        "mark_price": 81453.7734375,
+        "index_price": 81453.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81783.0703125,
-        "stop_loss_technical": 84049.9921875,
-        "target_1": 78382.6875,
-        "target_2": 74982.3046875,
+        "entry_ideal": 81446.5625,
+        "stop_loss_technical": 84054.8984375,
+        "target_1": 77534.05859375,
+        "target_2": 73621.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 81790.203125,
+        "entry_ideal": 81453.7734375,
         "stop_loss_technical": 84249.21875,
-        "target_1": 78101.6796875,
-        "target_2": 74413.15625,
+        "target_1": 77260.60546875,
+        "target_2": 73067.4375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
