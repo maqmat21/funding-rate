@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-14T06:24:52.728024+00:00",
+    "generated_at_utc": "2026-10-14T12:09:52.364182+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.136,
-        "trend": "bajista"
+        "price": 102.236,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.217,
@@ -21,52 +21,52 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 6m",
+    "U.S. markets open in 1h 22m",
     "News from the Yahoo Finance Network",
     "How Much You Need to Retire Comfortably With a Paid-Off Home in Every State",
-    "A 63-Year-Old Will Load Trucks Four Hours a Night at UPS. The Paycheck Will Be About $1,800 a Month. The Union Health Plan Will Be Worth More",
     "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income",
-    "Prediction: A Bear Market Is Coming. Here's What History Says Investors Should Do Based on 100 Years of Data.",
-    "'The baby boomers have arrived': How Americans over 75 got richer than other age groups",
-    "Dave Ramsey Says He’d ‘Rather Have $5,000 on a Credit Card Than a Mortgage You Can’t Afford,’ Warns to Sell If You’re Paying $2,090 a Month on $4,200 Income"
+    "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
+    "A 63-Year-Old Will Load Trucks Four Hours a Night at UPS. The Paycheck Will Be About $1,800 a Month. The Union Health Plan Will Be Worth More",
+    "The average 50-something is now worth $1.5 million",
+    "Bank of America Q3 profit tumbles 17% as deals, trading revenue fall"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83445.3125,
-        "perp_last_price": 83445.3125,
-        "mark_price": 83445.3125,
-        "index_price": 83445.3125,
+        "spot_price": 83643.9765625,
+        "perp_last_price": 83643.9765625,
+        "mark_price": 83643.9765625,
+        "index_price": 83643.9765625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 83445.3125,
-        "stop_loss_technical": 82875.296875,
-        "target_1": 84300.3359375,
-        "target_2": 85155.359375,
+        "entry_ideal": 83643.9765625,
+        "stop_loss_technical": 82876.9921875,
+        "target_1": 84794.453125,
+        "target_2": 85944.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 83445.3125,
-        "stop_loss_technical": 81681.6328125,
-        "target_1": 86090.83203125,
-        "target_2": 88736.3515625,
+        "entry_ideal": 83643.9765625,
+        "stop_loss_technical": 80962.515625,
+        "target_1": 87666.16796875,
+        "target_2": 91688.359375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
