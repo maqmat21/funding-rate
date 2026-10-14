@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-13T22:52:16.569823+00:00",
+    "generated_at_utc": "2026-10-14T01:27:43.828860+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.215,
+        "price": 102.185,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,53 +22,51 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "How Much You Need to Retire Comfortably With a Paid-Off Home in Every State",
     "A 63-Year-Old Will Load Trucks Four Hours a Night at UPS. The Paycheck Will Be About $1,800 a Month. The Union Health Plan Will Be Worth More",
     "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income",
-    "Dave Ramsey Says He’d ‘Rather Have $5,000 on a Credit Card Than a Mortgage You Can’t Afford,’ Warns to Sell If You’re Paying $2,090 a Month on $4,200 Income",
-    "Prediction: A Bear Market Is Coming. Here's What History Says Investors Should Do Based on 100 Years of Data.",
     "'The baby boomers have arrived': How Americans over 75 got richer than other age groups",
-    "I'm 62 With $800,000 and $2,600 a Month From Social Security. What Can I Spend in Retirement?",
+    "Prediction: A Bear Market Is Coming. Here's What History Says Investors Should Do Based on 100 Years of Data.",
+    "Dave Ramsey Says He’d ‘Rather Have $5,000 on a Credit Card Than a Mortgage You Can’t Afford,’ Warns to Sell If You’re Paying $2,090 a Month on $4,200 Income",
     "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83461.5234375,
-        "perp_last_price": 83461.5234375,
-        "mark_price": 83461.5234375,
-        "index_price": 83461.5234375,
+        "spot_price": 83300.171875,
+        "perp_last_price": 83300.171875,
+        "mark_price": 83300.171875,
+        "index_price": 83300.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83461.5234375,
-        "stop_loss_technical": 82681.7265625,
-        "target_1": 84631.21875,
-        "target_2": 85800.9140625,
+        "entry_ideal": 83300.171875,
+        "stop_loss_technical": 82050.66929687,
+        "target_1": 85174.42574219,
+        "target_2": 87048.67960938,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 83461.5234375,
-        "stop_loss_technical": 81197.9921875,
-        "target_1": 86856.8203125,
-        "target_2": 90252.1171875,
+        "entry_ideal": 83300.171875,
+        "stop_loss_technical": 81681.6328125,
+        "target_1": 85727.98046875,
+        "target_2": 88155.7890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
