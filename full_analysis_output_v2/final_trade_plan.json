@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-15T19:23:49.672267+00:00",
+    "generated_at_utc": "2026-10-15T22:31:03.196179+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,11 +11,11 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.076,
+        "price": 102.004,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.085,
+        "price": 5.089,
         "trend": "bajista"
       }
     }
@@ -24,36 +24,35 @@
     "News from the Yahoo Finance Network",
     "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+    "How much of your earnings are subject to Social Security tax in 2027?",
     "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
-    "Sylvester Stallone sold the 'Rocky' rights in 1976 — 50 years later, he's done fighting for them",
-    "White House Press Secretary Katie Zacharia Didn’t Pass Bar Exam",
-    "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-    "A Single Retiree With a $2 Million IRA Crosses Medicare’s $109,000 Surcharge Line on the First RMD Alone. The $75,000 Withdrawal Plus a $40,000 Social Security Check Lands $500 Over It, and Here’s What the Wealthy Do in Their 60s to Stay Under"
+    "9 Best Places to Retire in the Western US for Affordable Living, Healthcare Access, and Lifestyle",
+    "A Single Retiree With a $2 Million IRA Crosses Medicare’s $109,000 Surcharge Line on the First RMD Alone. The $75,000 Withdrawal Plus a $40,000 Social Security Check Lands $500 Over It, and Here’s What the Wealthy Do in Their 60s to Stay Under",
+    "Sylvester Stallone sold the 'Rocky' rights in 1976 — 50 years later, he's done fighting for them"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82462.6328125,
-        "perp_last_price": 82462.6328125,
-        "mark_price": 82462.6328125,
-        "index_price": 82462.6328125,
+        "spot_price": 82383.0703125,
+        "perp_last_price": 82383.0703125,
+        "mark_price": 82383.0703125,
+        "index_price": 82383.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82462.6328125,
+        "entry_ideal": 82383.0625,
         "stop_loss_technical": 79689.4921875,
-        "target_1": 86622.34375,
-        "target_2": 90782.0546875,
+        "target_1": 86423.41796875,
+        "target_2": 90463.7734375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82462.6328125,
+        "entry_ideal": 82383.0703125,
         "stop_loss_technical": 79689.4921875,
-        "target_1": 86622.34375,
-        "target_2": 90782.0546875,
+        "target_1": 86423.4375,
+        "target_2": 90463.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
