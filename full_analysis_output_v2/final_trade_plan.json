@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-15T06:21:40.347391+00:00",
+    "generated_at_utc": "2026-10-15T11:46:50.916225+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.089,
+        "price": 102.028,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,38 +21,38 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 9m",
+    "U.S. markets open in 1h 44m",
     "News from the Yahoo Finance Network",
     "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+    "A Staggering 84% of S&P 500 Stocks Are Now in Correction Territory, and History Says This Foreshadows Disaster for Wall Street",
     "American Airlines exits entire market",
-    "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
-    "Golden Corral says locations are closing. Here's what we know",
-    "‘You’re Just Going to Have to Watch It Burn to the Ground’: Dave Ramsey to Woman Whose Retired Parents Own 3 Homes on $4,000 a Month"
+    "A Single Retiree With a $2 Million IRA Crosses Medicare’s $109,000 Surcharge Line on the First RMD Alone. The $75,000 Withdrawal Plus a $40,000 Social Security Check Lands $500 Over It, and Here’s What the Wealthy Do in Their 60s to Stay Under",
+    "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80722.7421875,
-        "perp_last_price": 80722.7421875,
-        "mark_price": 80722.7421875,
-        "index_price": 80722.7421875,
+        "spot_price": 80991.9375,
+        "perp_last_price": 80991.9375,
+        "mark_price": 80991.9375,
+        "index_price": 80991.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80722.7421875,
-        "stop_loss_technical": 79511.90105469,
-        "target_1": 82539.00388672,
-        "target_2": 84355.26558594,
+        "entry_ideal": 81007.4375,
+        "stop_loss_technical": 80144.6484375,
+        "target_1": 82301.62109375,
+        "target_2": 83595.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80722.7421875,
-        "stop_loss_technical": 79511.90105469,
-        "target_1": 82539.00388672,
-        "target_2": 84355.26558594,
+        "entry_ideal": 80991.9375,
+        "stop_loss_technical": 79777.0584375,
+        "target_1": 82814.25609375,
+        "target_2": 84636.5746875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
