@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-14T23:23:57.141433+00:00",
+    "generated_at_utc": "2026-10-15T01:35:44.372571+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.528,
-        "trend": "alcista"
+        "price": 102.069,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.19,
@@ -25,48 +25,49 @@
     "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
     "American Airlines exits entire market",
-    "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
     "How Much You Need to Retire Comfortably With a Paid-Off Home in Every State",
-    "Tom Cruise’s ‘Digger’ could be one of Hollywood’s biggest flops ever, with a projected $245 million loss",
+    "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says",
+    "‘You’re Just Going to Have to Watch It Burn to the Ground’: Dave Ramsey to Woman Whose Retired Parents Own 3 Homes on $4,000 a Month",
     "At 71 She Took $80,000 Out of Her IRA to Close on the Condo Before Her House Sold. On Day 58 She Put It Back, and the IRS Never Counted a Dollar of It as Income"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81453.7734375,
-        "perp_last_price": 81453.7734375,
-        "mark_price": 81453.7734375,
-        "index_price": 81453.7734375,
+        "spot_price": 81656.2421875,
+        "perp_last_price": 81656.2421875,
+        "mark_price": 81656.2421875,
+        "index_price": 81656.2421875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81446.5625,
-        "stop_loss_technical": 84054.8984375,
-        "target_1": 77534.05859375,
-        "target_2": 73621.5546875,
+        "entry_ideal": 81656.2421875,
+        "stop_loss_technical": 81294.671875,
+        "target_1": 82198.59765625,
+        "target_2": 82740.953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81453.7734375,
-        "stop_loss_technical": 84249.21875,
-        "target_1": 77260.60546875,
-        "target_2": 73067.4375,
+        "entry_ideal": 81656.2421875,
+        "stop_loss_technical": 80431.39855469,
+        "target_1": 83493.50763672,
+        "target_2": 85330.77308594,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
