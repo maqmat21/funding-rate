@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-15T11:46:50.916225+00:00",
+    "generated_at_utc": "2026-10-15T15:45:00.887597+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,64 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.028,
+        "price": 102.105,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.19,
+        "price": 5.102,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 1h 44m",
+    "U.S. markets close in 4h 15m",
     "News from the Yahoo Finance Network",
     "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-    "A Staggering 84% of S&P 500 Stocks Are Now in Correction Territory, and History Says This Foreshadows Disaster for Wall Street",
     "American Airlines exits entire market",
-    "A Single Retiree With a $2 Million IRA Crosses Medicare’s $109,000 Surcharge Line on the First RMD Alone. The $75,000 Withdrawal Plus a $40,000 Social Security Check Lands $500 Over It, and Here’s What the Wealthy Do in Their 60s to Stay Under",
-    "Rolex and Gold Were for US and Not Trump, Swiss Trade Chief Says"
+    "Sylvester Stallone sold the 'Rocky' rights in 1976 — 50 years later, he's done fighting for them",
+    "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+    "9 Best Places to Retire in the Western US for Affordable Living, Healthcare Access, and Lifestyle"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80991.9375,
-        "perp_last_price": 80991.9375,
-        "mark_price": 80991.9375,
-        "index_price": 80991.9375,
+        "spot_price": 82307.7890625,
+        "perp_last_price": 82307.7890625,
+        "mark_price": 82307.7890625,
+        "index_price": 82307.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81007.4375,
-        "stop_loss_technical": 80144.6484375,
-        "target_1": 82301.62109375,
-        "target_2": 83595.8046875,
+        "entry_ideal": 82304.703125,
+        "stop_loss_technical": 79700.0,
+        "target_1": 86211.7578125,
+        "target_2": 90118.8125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80991.9375,
-        "stop_loss_technical": 79777.0584375,
-        "target_1": 82814.25609375,
-        "target_2": 84636.5746875,
+        "entry_ideal": 82307.7890625,
+        "stop_loss_technical": 79700.0,
+        "target_1": 86219.47265625,
+        "target_2": 90131.15625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
