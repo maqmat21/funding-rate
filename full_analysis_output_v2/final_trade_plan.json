@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-16T18:03:53.670342+00:00",
+    "generated_at_utc": "2026-10-16T20:57:31.805900+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.885,
-        "trend": "alcista"
+        "price": 101.786,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.104,
+        "price": 5.098,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 57m",
     "News from the Yahoo Finance Network",
+    "Her Son Will Spend $19,000 of Her Social Security Keeping Up Her Empty House While She’s in the Nursing Home. The Facility Will Sue Him for Every Dollar, Saying He Spent Money That Should Have Paid Her Bill",
+    "The US federal budget deficit for 2026 just came in. It's $1.992 trillion.",
     "Lose a Job at 55 With $400,000 in a 401(k) and the Plan Will Let You Withdraw Penalty-Free Starting Now. Roll It Into an IRA, as Most Advisors Suggest, and the Same Withdrawals Cost 10% for the Next Four and a Half Years",
-    "The Stock Market Has Seen This Happen Only 2 Other Times in Over 150 Years, and History Has an Ominous Warning for Investors",
     "How much of your earnings are subject to Social Security tax in 2027?",
     "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton Was Leading the Treasury",
-    "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
-    "Open enrollment is underway, but switching from Medicare Advantage to Medicare can be difficult"
+    "Open enrollment is underway, but switching from Medicare Advantage to Medicare can be difficult",
+    "I’m 67 With $850,000 Saved and $3,200 a Month in Social Security. Can I Safely Spend $6,000 a Month?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81105.8984375,
-        "perp_last_price": 81105.8984375,
-        "mark_price": 81105.8984375,
-        "index_price": 81105.8984375,
+        "spot_price": 81598.09375,
+        "perp_last_price": 81598.09375,
+        "mark_price": 81598.09375,
+        "index_price": 81598.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81113.1328125,
-        "stop_loss_technical": 82812.28125,
-        "target_1": 78564.41015625,
-        "target_2": 76015.6875,
+        "entry_ideal": 81588.390625,
+        "stop_loss_technical": 80706.046875,
+        "target_1": 82911.90625,
+        "target_2": 84235.421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81105.8984375,
-        "stop_loss_technical": 84249.21875,
-        "target_1": 76390.91796875,
-        "target_2": 71675.9375,
+        "entry_ideal": 81598.09375,
+        "stop_loss_technical": 80374.12234375,
+        "target_1": 83434.05085937,
+        "target_2": 85270.00796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
