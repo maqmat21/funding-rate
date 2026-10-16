@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-16T09:40:16.982999+00:00",
+    "generated_at_utc": "2026-10-16T14:13:44.849877+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,63 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.711,
+        "price": 101.63,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.089,
+        "price": 5.085,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 51m",
+    "U.S. markets close in 5h 47m",
     "News from the Yahoo Finance Network",
-    "PepsiCo just lost the KFC US business—here's how much it could sting financially",
-    "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
-    "Warren Buffett's Successor, Greg Abel, Has Over 45% of Berkshire Hathaway's $356 Billion Portfolio Invested in 3 Undeniable Winners",
-    "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+    "Lose a Job at 55 With $400,000 in a 401(k) and the Plan Will Let You Withdraw Penalty-Free Starting Now. Roll It Into an IRA, as Most Advisors Suggest, and the Same Withdrawals Cost 10% for the Next Four and a Half Years",
     "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
-    "How much of your earnings are subject to Social Security tax in 2027?"
+    "How much of your earnings are subject to Social Security tax in 2027?",
+    "A Single Retiree With a $2 Million IRA Crosses Medicare’s $109,000 Surcharge Line on the First RMD Alone. The $75,000 Withdrawal Plus a $40,000 Social Security Check Lands $500 Over It, and Here’s What the Wealthy Do in Their 60s to Stay Under",
+    "9 Best Places to Retire in the Western US for Affordable Living, Healthcare Access, and Lifestyle",
+    "What it takes to have a ‘high net worth’ in America in 2027 (being a millionaire isn’t enough). Are you in this group?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82047.9921875,
-        "perp_last_price": 82047.9921875,
-        "mark_price": 82047.9921875,
-        "index_price": 82047.9921875,
+        "spot_price": 82004.4296875,
+        "perp_last_price": 82004.4296875,
+        "mark_price": 82004.4296875,
+        "index_price": 82004.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 82004.4296875,
+        "stop_loss_technical": 81581.6328125,
+        "target_1": 82638.625,
+        "target_2": 83272.8203125,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82059.03125,
-        "stop_loss_technical": 80828.14578125,
-        "target_1": 83905.35945312,
-        "target_2": 85751.68765625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 82047.9921875,
-        "stop_loss_technical": 79735.859375,
-        "target_1": 85516.19140625,
-        "target_2": 88984.390625,
+        "entry_ideal": 82004.4296875,
+        "stop_loss_technical": 80774.36324219,
+        "target_1": 83849.52935547,
+        "target_2": 85694.62902344,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
