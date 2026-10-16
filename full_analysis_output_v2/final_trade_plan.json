@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-16T14:13:44.849877+00:00",
+    "generated_at_utc": "2026-10-16T18:03:53.670342+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.63,
-        "trend": "bajista"
+        "price": 101.885,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.085,
+        "price": 5.104,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 47m",
+    "U.S. markets close in 1h 57m",
     "News from the Yahoo Finance Network",
     "Lose a Job at 55 With $400,000 in a 401(k) and the Plan Will Let You Withdraw Penalty-Free Starting Now. Roll It Into an IRA, as Most Advisors Suggest, and the Same Withdrawals Cost 10% for the Next Four and a Half Years",
-    "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
+    "The Stock Market Has Seen This Happen Only 2 Other Times in Over 150 Years, and History Has an Ominous Warning for Investors",
     "How much of your earnings are subject to Social Security tax in 2027?",
-    "A Single Retiree With a $2 Million IRA Crosses Medicare’s $109,000 Surcharge Line on the First RMD Alone. The $75,000 Withdrawal Plus a $40,000 Social Security Check Lands $500 Over It, and Here’s What the Wealthy Do in Their 60s to Stay Under",
-    "9 Best Places to Retire in the Western US for Affordable Living, Healthcare Access, and Lifestyle",
-    "What it takes to have a ‘high net worth’ in America in 2027 (being a millionaire isn’t enough). Are you in this group?"
+    "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton Was Leading the Treasury",
+    "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
+    "Open enrollment is underway, but switching from Medicare Advantage to Medicare can be difficult"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82004.4296875,
-        "perp_last_price": 82004.4296875,
-        "mark_price": 82004.4296875,
-        "index_price": 82004.4296875,
+        "spot_price": 81105.8984375,
+        "perp_last_price": 81105.8984375,
+        "mark_price": 81105.8984375,
+        "index_price": 81105.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 82004.4296875,
-        "stop_loss_technical": 81581.6328125,
-        "target_1": 82638.625,
-        "target_2": 83272.8203125,
+        "entry_ideal": 81113.1328125,
+        "stop_loss_technical": 82812.28125,
+        "target_1": 78564.41015625,
+        "target_2": 76015.6875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 82004.4296875,
-        "stop_loss_technical": 80774.36324219,
-        "target_1": 83849.52935547,
-        "target_2": 85694.62902344,
+        "entry_ideal": 81105.8984375,
+        "stop_loss_technical": 84249.21875,
+        "target_1": 76390.91796875,
+        "target_2": 71675.9375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
