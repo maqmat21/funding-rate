@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-16T00:40:57.436792+00:00",
+    "generated_at_utc": "2026-10-16T05:04:05.586500+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 102.069,
+        "price": 101.888,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 27m",
     "News from the Yahoo Finance Network",
     "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
     "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
     "How much of your earnings are subject to Social Security tax in 2027?",
     "Michael Burry doubles down on his stock market bet",
-    "9 Best Places to Retire in the Western US for Affordable Living, Healthcare Access, and Lifestyle",
-    "Sylvester Stallone sold the 'Rocky' rights in 1976 — 50 years later, he's done fighting for them"
+    "Lose a Job at 55 With $400,000 in a 401(k) and the Plan Will Let You Withdraw Penalty-Free Starting Now. Roll It Into an IRA, as Most Advisors Suggest, and the Same Withdrawals Cost 10% for the Next Four and a Half Years"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82295.6796875,
-        "perp_last_price": 82295.6796875,
-        "mark_price": 82295.6796875,
-        "index_price": 82295.6796875,
+        "spot_price": 82219.796875,
+        "perp_last_price": 82219.796875,
+        "mark_price": 82219.796875,
+        "index_price": 82219.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -50,25 +50,24 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82315.203125,
+        "entry_ideal": 82219.796875,
         "stop_loss_technical": 79689.4921875,
-        "target_1": 86253.76953125,
-        "target_2": 90192.3359375,
+        "target_1": 86015.25390625,
+        "target_2": 89810.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82295.6796875,
+        "entry_ideal": 82219.796875,
         "stop_loss_technical": 79689.4921875,
-        "target_1": 86204.9609375,
-        "target_2": 90114.2421875,
+        "target_1": 86015.25390625,
+        "target_2": 89810.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
