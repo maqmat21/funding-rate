@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-16T05:04:05.586500+00:00",
+    "generated_at_utc": "2026-10-16T09:40:16.982999+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.888,
+        "price": 101.711,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,39 +21,39 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 27m",
+    "U.S. markets open in 3h 51m",
     "News from the Yahoo Finance Network",
+    "PepsiCo just lost the KFC US business—here's how much it could sting financially",
     "She Put Her Son’s Name on Her $400,000 Savings Account So He Could Pay Her Bills. The IRS Doesn’t Call That a Gift, Because Until He Takes a Dollar Out for Himself, Every Dollar Is Still Hers",
+    "Warren Buffett's Successor, Greg Abel, Has Over 45% of Berkshire Hathaway's $356 Billion Portfolio Invested in 3 Undeniable Winners",
     "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
     "At 97, Charlie Munger Borrowed $37 Million to Go All-In on Alibaba — 2 Years Later He Called It One of the ‘Worst Mistakes’ of His Life",
-    "How much of your earnings are subject to Social Security tax in 2027?",
-    "Michael Burry doubles down on his stock market bet",
-    "Lose a Job at 55 With $400,000 in a 401(k) and the Plan Will Let You Withdraw Penalty-Free Starting Now. Roll It Into an IRA, as Most Advisors Suggest, and the Same Withdrawals Cost 10% for the Next Four and a Half Years"
+    "How much of your earnings are subject to Social Security tax in 2027?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82219.796875,
-        "perp_last_price": 82219.796875,
-        "mark_price": 82219.796875,
-        "index_price": 82219.796875,
+        "spot_price": 82047.9921875,
+        "perp_last_price": 82047.9921875,
+        "mark_price": 82047.9921875,
+        "index_price": 82047.9921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82219.796875,
-        "stop_loss_technical": 79689.4921875,
-        "target_1": 86015.25390625,
-        "target_2": 89810.7109375,
+        "entry_ideal": 82059.03125,
+        "stop_loss_technical": 80828.14578125,
+        "target_1": 83905.35945312,
+        "target_2": 85751.68765625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82219.796875,
-        "stop_loss_technical": 79689.4921875,
-        "target_1": 86015.25390625,
-        "target_2": 89810.7109375,
+        "entry_ideal": 82047.9921875,
+        "stop_loss_technical": 79735.859375,
+        "target_1": 85516.19140625,
+        "target_2": 88984.390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
