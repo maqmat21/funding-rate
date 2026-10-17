@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-17T16:21:38.778367+00:00",
+    "generated_at_utc": "2026-10-17T18:36:53.740796+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,53 +22,52 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Peter Schiff warns a ‘perfect storm of financial destruction’ worse than 2008 is brewing. Build wealth beyond your home",
     "In 1918, Milton Hershey Quietly Put About $60 Million In Stock Into A Trust. Over 100 Years Later, That Trust Still Exists And Holds About $23.6 Billion In Assets. Wealthy Donors Still Use A Similar Strategy, And The Legal Work To Set One Up Starts At A Few Thousand Dollars",
+    "Peter Schiff warns a ‘perfect storm of financial destruction’ worse than 2008 is brewing. Build wealth beyond your home",
     "Her Son Will Spend $19,000 of Her Social Security Keeping Up Her Empty House While She’s in the Nursing Home. The Facility Will Sue Him for Every Dollar, Saying He Spent Money That Should Have Paid Her Bill",
     "‘He can’t run again’: MAGA merch sellers are closing shop and cutting prices. One sold $63 million but now she’s closed three stores",
-    "Former Fed Chair Jerome Powell's 6-Word Warning Echoes Louder Than Ever -- and It Should Rightly Terrify Wall Street",
     "The wealthy boomer problem is metastasizing—they got 38% richer over the last 3 years as Gen Z and millennials under 35 got wiped out",
+    "If a Stock Market Crash Is Coming, History Says This Strategy Can Cut Your Portfolio's Recovery Time in Half",
     "The US federal budget deficit for 2026 just came in. It's $1.992 trillion."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81231.5703125,
-        "perp_last_price": 81231.5703125,
-        "mark_price": 81231.5703125,
-        "index_price": 81231.5703125,
+        "spot_price": 81452.1875,
+        "perp_last_price": 81452.1875,
+        "mark_price": 81452.1875,
+        "index_price": 81452.1875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81231.578125,
-        "stop_loss_technical": 80013.10445312,
-        "target_1": 83059.28863281,
-        "target_2": 84886.99914063,
+        "entry_ideal": 81452.1875,
+        "stop_loss_technical": 81075.84375,
+        "target_1": 82016.703125,
+        "target_2": 82581.21875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81231.5703125,
-        "stop_loss_technical": 80013.09675781,
-        "target_1": 83059.28064453,
-        "target_2": 84886.99097656,
+        "entry_ideal": 81452.1875,
+        "stop_loss_technical": 79735.859375,
+        "target_1": 84026.6796875,
+        "target_2": 86601.171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
