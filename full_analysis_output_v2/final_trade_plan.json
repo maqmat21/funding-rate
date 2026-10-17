@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-16T23:12:06.598837+00:00",
+    "generated_at_utc": "2026-10-17T01:19:52.629070+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Her Son Will Spend $19,000 of Her Social Security Keeping Up Her Empty House While She’s in the Nursing Home. The Facility Will Sue Him for Every Dollar, Saying He Spent Money That Should Have Paid Her Bill",
     "The US federal budget deficit for 2026 just came in. It's $1.992 trillion.",
+    "‘He can’t run again’: MAGA merch sellers are closing shop and cutting prices. One sold $63 million but now she’s closed three stores",
     "Lose a Job at 55 With $400,000 in a 401(k) and the Plan Will Let You Withdraw Penalty-Free Starting Now. Roll It Into an IRA, as Most Advisors Suggest, and the Same Withdrawals Cost 10% for the Next Four and a Half Years",
     "The American Dream now costs $5.3 million—and even college grads will fall $1.2 million short",
     "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton Was Leading the Treasury",
-    "How much of your earnings are subject to Social Security tax in 2027?",
-    "Open enrollment is underway, but switching from Medicare Advantage to Medicare can be difficult"
+    "I’m 67 With $850,000 Saved and $3,200 a Month in Social Security. Can I Safely Spend $6,000 a Month?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81633.1328125,
-        "perp_last_price": 81633.1328125,
-        "mark_price": 81633.1328125,
-        "index_price": 81633.1328125,
+        "spot_price": 81429.59375,
+        "perp_last_price": 81429.59375,
+        "mark_price": 81429.59375,
+        "index_price": 81429.59375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,13 +47,12 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81633.1328125,
-        "stop_loss_technical": 80408.63582031,
-        "target_1": 83469.87830078,
-        "target_2": 85306.62378906,
+        "entry_ideal": 81429.59375,
+        "stop_loss_technical": 80208.14984375,
+        "target_1": 83261.75960938,
+        "target_2": 85093.92546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,12 +61,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81633.1328125,
-        "stop_loss_technical": 80408.63582031,
-        "target_1": 83469.87830078,
-        "target_2": 85306.62378906,
+        "entry_ideal": 81429.59375,
+        "stop_loss_technical": 80208.14984375,
+        "target_1": 83261.75960938,
+        "target_2": 85093.92546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
