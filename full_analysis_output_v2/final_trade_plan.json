@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-18T18:51:49.549840+00:00",
+    "generated_at_utc": "2026-10-18T21:07:53.324032+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
     "In 1966, His Wife Convinced Him To Invest About $67,000 With A Man They Played Bridge With. The Bridge Player’s Name Was Warren Buffett. By The Mid-1990s, The Couple’s Investment Was Worth More Than $25 Million",
     "A Retiree Who Dies at 80 With $600,000 in a 401(k) Leaves a Son Earning $150,000 Ten Years to Empty It, and About $60,000 a Year Lands in His 24% Bracket. Converting $40,000 a Year From 65 to 73 Would Have Moved Most of It Out at 12%",
-    "Michael Burry Warns of a Stock Market ‘Supervolcano’",
     "In 1918, Milton Hershey Quietly Put About $60 Million In Stock Into A Trust. Over 100 Years Later, That Trust Still Exists And Holds About $23.6 Billion In Assets. Wealthy Donors Still Use A Similar Strategy, And The Legal Work To Set One Up Starts At A Few Thousand Dollars",
+    "Michael Burry Warns of a Stock Market ‘Supervolcano’",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Her Son Will Spend $19,000 of Her Social Security Keeping Up Her Empty House While She’s in the Nursing Home. The Facility Will Sue Him for Every Dollar, Saying He Spent Money That Should Have Paid Her Bill",
     "Peter Schiff warns a ‘perfect storm of financial destruction’ worse than 2008 is brewing. Build wealth beyond your home"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81102.078125,
-        "perp_last_price": 81102.078125,
-        "mark_price": 81102.078125,
-        "index_price": 81102.078125,
+        "spot_price": 80834.078125,
+        "perp_last_price": 80834.078125,
+        "mark_price": 80834.078125,
+        "index_price": 80834.078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81102.078125,
-        "stop_loss_technical": 80889.046875,
-        "target_1": 81421.625,
-        "target_2": 81741.171875,
+        "entry_ideal": 80837.1328125,
+        "stop_loss_technical": 80598.2734375,
+        "target_1": 81195.421875,
+        "target_2": 81553.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81102.078125,
-        "stop_loss_technical": 79885.54695312,
-        "target_1": 82926.87488281,
-        "target_2": 84751.67164063,
+        "entry_ideal": 80834.078125,
+        "stop_loss_technical": 79621.56695313,
+        "target_1": 82652.84488281,
+        "target_2": 84471.61164062,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
