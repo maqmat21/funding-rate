@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-18T21:07:53.324032+00:00",
+    "generated_at_utc": "2026-10-18T23:03:38.894972+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.779,
-        "trend": "bajista"
+        "price": 101.909,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.098,
@@ -34,40 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80834.078125,
-        "perp_last_price": 80834.078125,
-        "mark_price": 80834.078125,
-        "index_price": 80834.078125,
+        "spot_price": 81707.0625,
+        "perp_last_price": 81707.0625,
+        "mark_price": 81707.0625,
+        "index_price": 81707.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 82,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 80837.1328125,
-        "stop_loss_technical": 80598.2734375,
-        "target_1": 81195.421875,
-        "target_2": 81553.7109375,
+        "entry_ideal": 81707.0625,
+        "stop_loss_technical": 80601.65625,
+        "target_1": 83365.171875,
+        "target_2": 85023.28125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80834.078125,
-        "stop_loss_technical": 79621.56695313,
-        "target_1": 82652.84488281,
-        "target_2": 84471.61164062,
+        "entry_ideal": 81707.0625,
+        "stop_loss_technical": 79735.859375,
+        "target_1": 84663.8671875,
+        "target_2": 87620.671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
