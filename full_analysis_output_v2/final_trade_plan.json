@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-18T00:22:52.555886+00:00",
+    "generated_at_utc": "2026-10-18T04:49:35.075068+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -27,47 +27,47 @@
     "Her Son Will Spend $19,000 of Her Social Security Keeping Up Her Empty House While She’s in the Nursing Home. The Facility Will Sue Him for Every Dollar, Saying He Spent Money That Should Have Paid Her Bill",
     "‘He can’t run again’: MAGA merch sellers are closing shop and cutting prices. One sold $63 million but now she’s closed three stores",
     "The wealthy boomer problem is metastasizing—they got 38% richer over the last 3 years as Gen Z and millennials under 35 got wiped out",
-    "If a Stock Market Crash Is Coming, History Says This Strategy Can Cut Your Portfolio's Recovery Time in Half",
-    "Social Security announces 4 major changes for 2027 — including a $483 to $967 tax hit for some Americans"
+    "Social Security announces 4 major changes for 2027 — including a $483 to $967 tax hit for some Americans",
+    "If a Stock Market Crash Is Coming, History Says This Strategy Can Cut Your Portfolio's Recovery Time in Half"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81387.0625,
-        "perp_last_price": 81387.0625,
-        "mark_price": 81387.0625,
-        "index_price": 81387.0625,
+        "spot_price": 81676.296875,
+        "perp_last_price": 81676.296875,
+        "mark_price": 81676.296875,
+        "index_price": 81676.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
-        ],
-        "entry_ideal": 81387.0625,
-        "stop_loss_technical": 81075.84375,
-        "target_1": 81853.890625,
-        "target_2": 82320.71875,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "rojo",
         "bias": "no_trade",
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81387.0625,
-        "stop_loss_technical": 80166.2565625,
-        "target_1": 83218.27140625,
-        "target_2": 85049.4803125,
+        "entry_ideal": 81676.296875,
+        "stop_loss_technical": 80451.15242187,
+        "target_1": 83514.01355469,
+        "target_2": 85351.73023438,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
+        ],
+        "entry_ideal": 81676.296875,
+        "stop_loss_technical": 79735.859375,
+        "target_1": 84586.953125,
+        "target_2": 87497.609375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
