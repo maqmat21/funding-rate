@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-18T13:12:46.069345+00:00",
+    "generated_at_utc": "2026-10-18T16:33:02.008614+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "In 1966, His Wife Convinced Him To Invest About $67,000 With A Man They Played Bridge With. The Bridge Player’s Name Was Warren Buffett. By The Mid-1990s, The Couple’s Investment Was Worth More Than $25 Million",
     "Michael Burry Warns of a Stock Market ‘Supervolcano’",
     "In 1918, Milton Hershey Quietly Put About $60 Million In Stock Into A Trust. Over 100 Years Later, That Trust Still Exists And Holds About $23.6 Billion In Assets. Wealthy Donors Still Use A Similar Strategy, And The Legal Work To Set One Up Starts At A Few Thousand Dollars",
-    "In 1966, His Wife Convinced Him To Invest About $67,000 With A Man They Played Bridge With. The Bridge Player’s Name Was Warren Buffett. By The Mid-1990s, The Couple’s Investment Was Worth More Than $25 Million",
     "Her Son Will Spend $19,000 of Her Social Security Keeping Up Her Empty House While She’s in the Nursing Home. The Facility Will Sue Him for Every Dollar, Saying He Spent Money That Should Have Paid Her Bill",
     "Peter Schiff warns a ‘perfect storm of financial destruction’ worse than 2008 is brewing. Build wealth beyond your home",
-    "‘He can’t run again’: MAGA merch sellers are closing shop and cutting prices. One sold $63 million but now she’s closed three stores",
-    "Inflation is retreating from most of the store — why your biggest bills are the holdouts: Chart of the Day"
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "‘He can’t run again’: MAGA merch sellers are closing shop and cutting prices. One sold $63 million but now she’s closed three stores"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81814.203125,
-        "perp_last_price": 81814.203125,
-        "mark_price": 81814.203125,
-        "index_price": 81814.203125,
+        "spot_price": 81000.0,
+        "perp_last_price": 81000.0,
+        "mark_price": 81000.0,
+        "index_price": 81000.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,28 +47,27 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81814.6328125,
-        "stop_loss_technical": 80587.41332031,
-        "target_1": 83655.46205078,
-        "target_2": 85496.29128906,
+        "entry_ideal": 81026.3984375,
+        "stop_loss_technical": 79811.00246094,
+        "target_1": 82849.49240234,
+        "target_2": 84672.58636719,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81814.203125,
-        "stop_loss_technical": 79735.859375,
-        "target_1": 84931.71875,
-        "target_2": 88049.234375,
+        "entry_ideal": 81000.0,
+        "stop_loss_technical": 79785.0,
+        "target_1": 82822.5,
+        "target_2": 84645.0,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
