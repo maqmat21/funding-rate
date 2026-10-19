@@ -1,71 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-19T18:54:37.778671+00:00",
+    "generated_at_utc": "2026-10-19T22:40:36.307042+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.988,
+        "price": 101.973,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.131,
-        "trend": "bajista"
+        "price": 5.136,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 6m",
     "News from the Yahoo Finance Network",
     "In 1966, His Wife Convinced Him To Invest About $67,000 With A Man They Played Bridge With. The Bridge Player’s Name Was Warren Buffett. By The Mid-1990s, The Couple’s Investment Was Worth More Than $25 Million",
     "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
     "A Retiree Who Dies at 80 With $600,000 in a 401(k) Leaves a Son Earning $150,000 Ten Years to Empty It, and About $60,000 a Year Lands in His 24% Bracket. Converting $40,000 a Year From 65 to 73 Would Have Moved Most of It Out at 12%",
-    "Want to live off dividends in retirement? Here’s how much you’d need to invest — and 5 strategies to generate income",
+    "United Airlines CEO says US should have an inheritance tax 'close to 100%' and he'd pay it",
     "After She Died on Medicaid, the State Sent Her Estate a $140,000 Bill and Named the House. Her Son Had Lived There With Her for Nine Years on $31,000 a Year, and Under the State’s Own Hardship Rule the Claim Was Waived",
+    "She Inherited 400 Comic Books and Sold Them on eBay Over Two Years. Then the 1099-K Arrived, and So Did the Letter From Medicare.",
     "Social Security benefits in 2027: See what's really changing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81884.8828125,
-        "perp_last_price": 81884.8828125,
-        "mark_price": 81884.8828125,
-        "index_price": 81884.8828125,
+        "spot_price": 81986.953125,
+        "perp_last_price": 81986.953125,
+        "mark_price": 81986.953125,
+        "index_price": 81986.953125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81891.4921875,
-        "stop_loss_technical": 81596.34375,
-        "target_1": 82334.21484375,
-        "target_2": 82776.9375,
+        "entry_ideal": 81986.953125,
+        "stop_loss_technical": 83069.2734375,
+        "target_1": 80363.47265625,
+        "target_2": 78739.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81884.8828125,
+        "entry_ideal": 81986.953125,
         "stop_loss_technical": 83069.2734375,
-        "target_1": 80108.296875,
-        "target_2": 78331.7109375,
+        "target_1": 80363.47265625,
+        "target_2": 78739.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +81,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
