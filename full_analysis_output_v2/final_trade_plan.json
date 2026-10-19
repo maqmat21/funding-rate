@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-19T12:56:31.568194+00:00",
+    "generated_at_utc": "2026-10-19T18:54:37.778671+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,50 +11,37 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.904,
+        "price": 101.988,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.102,
+        "price": 5.131,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 1h 6m",
     "News from the Yahoo Finance Network",
-    "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
     "In 1966, His Wife Convinced Him To Invest About $67,000 With A Man They Played Bridge With. The Bridge Player’s Name Was Warren Buffett. By The Mid-1990s, The Couple’s Investment Was Worth More Than $25 Million",
+    "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
     "A Retiree Who Dies at 80 With $600,000 in a 401(k) Leaves a Son Earning $150,000 Ten Years to Empty It, and About $60,000 a Year Lands in His 24% Bracket. Converting $40,000 a Year From 65 to 73 Would Have Moved Most of It Out at 12%",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Michael Burry Warns of a Stock Market ‘Supervolcano’",
-    "Homebuyers are canceling sales at near-record rates",
-    "Elon Musk says he is going to give SpaceX stock away to every kid in America"
+    "Want to live off dividends in retirement? Here’s how much you’d need to invest — and 5 strategies to generate income",
+    "After She Died on Medicaid, the State Sent Her Estate a $140,000 Bill and Named the House. Her Son Had Lived There With Her for Nine Years on $31,000 a Year, and Under the State’s Own Hardship Rule the Claim Was Waived",
+    "Social Security benefits in 2027: See what's really changing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82475.3203125,
-        "perp_last_price": 82475.3203125,
-        "mark_price": 82475.3203125,
-        "index_price": 82475.3203125,
+        "spot_price": 81884.8828125,
+        "perp_last_price": 81884.8828125,
+        "mark_price": 81884.8828125,
+        "index_price": 81884.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 82464.7265625,
-        "stop_loss_technical": 80598.2734375,
-        "target_1": 85264.40625,
-        "target_2": 88064.0859375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -62,10 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 82475.3203125,
-        "stop_loss_technical": 79735.859375,
-        "target_1": 86584.51171875,
-        "target_2": 90693.703125,
+        "entry_ideal": 81891.4921875,
+        "stop_loss_technical": 81596.34375,
+        "target_1": 82334.21484375,
+        "target_2": 82776.9375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 81884.8828125,
+        "stop_loss_technical": 83069.2734375,
+        "target_1": 80108.296875,
+        "target_2": 78331.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
