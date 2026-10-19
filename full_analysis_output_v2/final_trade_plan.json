@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-18T23:03:38.894972+00:00",
+    "generated_at_utc": "2026-10-19T01:05:52.829330+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.909,
-        "trend": "alcista"
+        "price": 101.842,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 5.098,
@@ -34,39 +34,41 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81707.0625,
-        "perp_last_price": 81707.0625,
-        "mark_price": 81707.0625,
-        "index_price": 81707.0625,
+        "spot_price": 82308.6484375,
+        "perp_last_price": 82308.6484375,
+        "mark_price": 82308.6484375,
+        "index_price": 82308.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81707.0625,
+        "entry_ideal": 82308.6484375,
         "stop_loss_technical": 80601.65625,
-        "target_1": 83365.171875,
-        "target_2": 85023.28125,
+        "target_1": 84869.13671875,
+        "target_2": 87429.625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81707.0625,
+        "entry_ideal": 82308.6484375,
         "stop_loss_technical": 79735.859375,
-        "target_1": 84663.8671875,
-        "target_2": 87620.671875,
+        "target_1": 86167.83203125,
+        "target_2": 90027.015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
