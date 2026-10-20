@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-20T19:36:46.438609+00:00",
+    "generated_at_utc": "2026-10-20T22:36:11.895319+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.715,
+        "price": 101.73,
         "trend": "bajista"
       },
       "US10Y": {
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Charlie Munger Said He Was Still Buying Apartment Complexes ‘To Give Me Something To Do’ but Ran Them the Opposite Way, ‘It’s All Deferred Gratification’",
     "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28",
-    "The Villages is betting $180M on more retirees moving to Florida — where home sales are stale",
-    "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
     "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%",
-    "Larry Page could dodge nearly $15 billion in taxes after leaving California and spending $173 million on a Miami compound",
-    "This Stock Pays Me Nearly 8% a Year, and I Can't Stop Buying It",
-    "A $140,000 Salary, Replaced by Dividends: Here’s the Portfolio Size"
+    "What's the new 'normal' net worth by age?",
+    "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
+    "The Villages is betting $180M on more retirees moving to Florida — where home sales are stale",
+    "A 67-Year-Old Swapped JEPQ for SCHD in a $1.32 Million Portfolio. Here’s What Happened to His $8,750 Monthly Paycheck"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82406.0703125,
-        "perp_last_price": 82406.0703125,
-        "mark_price": 82406.0703125,
-        "index_price": 82406.0703125,
+        "spot_price": 82939.2109375,
+        "perp_last_price": 82939.2109375,
+        "mark_price": 82939.2109375,
+        "index_price": 82939.2109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82406.0703125,
-        "stop_loss_technical": 81096.953125,
-        "target_1": 84369.74609375,
-        "target_2": 86333.421875,
+        "entry_ideal": 82938.890625,
+        "stop_loss_technical": 81694.80726563,
+        "target_1": 84805.01566406,
+        "target_2": 86671.14070312,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 82406.0703125,
+        "entry_ideal": 82939.2109375,
         "stop_loss_technical": 80615.3984375,
-        "target_1": 85092.078125,
-        "target_2": 87778.0859375,
+        "target_1": 86424.9296875,
+        "target_2": 89910.6484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
