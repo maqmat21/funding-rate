@@ -1,72 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-20T11:24:22.029360+00:00",
+    "generated_at_utc": "2026-10-20T15:42:08.286957+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.858,
+        "price": 101.723,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.136,
-        "trend": "alcista"
+        "price": 5.104,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 2h 7m",
+    "U.S. markets close in 4h 20m",
     "News from the Yahoo Finance Network",
-    "A Retiree Who Dies at 80 With $600,000 in a 401(k) Leaves a Son Earning $150,000 Ten Years to Empty It, and About $60,000 a Year Lands in His 24% Bracket. Converting $40,000 a Year From 65 to 73 Would Have Moved Most of It Out at 12%",
-    "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
+    "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28",
+    "If Eli Lilly Grows At 10% a Year, Here’s What $1,000 Becomes By 2030",
     "After She Died on Medicaid, the State Sent Her Estate a $140,000 Bill and Named the House. Her Son Had Lived There With Her for Nine Years on $31,000 a Year, and Under the State’s Own Hardship Rule the Claim Was Waived",
-    "Warren Buffett Is Issuing a Stark Warning About the Stock Market. Here's What History Says Comes Next.",
-    "Trump announces $8 billion for farmers to offset soaring diesel costs",
-    "Millionaire renters are growing. Why they're choosing to rent vs buy"
+    "Larry Page could dodge nearly $15 billion in taxes after leaving California and spending $173 million on a Miami compound",
+    "Fidelity warns Social Security retirees are facing a $10,560 year loss. Are you prepared for the fallout?",
+    "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81364.9609375,
-        "perp_last_price": 81364.9609375,
-        "mark_price": 81364.9609375,
-        "index_price": 81364.9609375,
+        "spot_price": 82596.96875,
+        "perp_last_price": 82596.96875,
+        "mark_price": 82596.96875,
+        "index_price": 82596.96875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81358.3671875,
-        "stop_loss_technical": 82169.203125,
-        "target_1": 80142.11328125,
-        "target_2": 78925.859375,
+        "entry_ideal": 82589.1171875,
+        "stop_loss_technical": 81096.953125,
+        "target_1": 84827.36328125,
+        "target_2": 87065.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81364.9609375,
-        "stop_loss_technical": 83072.46875,
-        "target_1": 78803.69921875,
-        "target_2": 76242.4375,
+        "entry_ideal": 82596.96875,
+        "stop_loss_technical": 80615.3984375,
+        "target_1": 85569.32421875,
+        "target_2": 88541.6796875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +82,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +96,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
