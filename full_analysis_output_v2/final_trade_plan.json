@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-19T22:40:36.307042+00:00",
+    "generated_at_utc": "2026-10-20T01:17:22.101802+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.973,
+        "price": 101.946,
         "trend": "alcista"
       },
       "US10Y": {
@@ -27,46 +27,48 @@
     "A Retiree Who Dies at 80 With $600,000 in a 401(k) Leaves a Son Earning $150,000 Ten Years to Empty It, and About $60,000 a Year Lands in His 24% Bracket. Converting $40,000 a Year From 65 to 73 Would Have Moved Most of It Out at 12%",
     "United Airlines CEO says US should have an inheritance tax 'close to 100%' and he'd pay it",
     "After She Died on Medicaid, the State Sent Her Estate a $140,000 Bill and Named the House. Her Son Had Lived There With Her for Nine Years on $31,000 a Year, and Under the State’s Own Hardship Rule the Claim Was Waived",
-    "She Inherited 400 Comic Books and Sold Them on eBay Over Two Years. Then the 1099-K Arrived, and So Did the Letter From Medicare.",
-    "Social Security benefits in 2027: See what's really changing"
+    "World’s Largest Retirement Community Set to Borrow $180 Million",
+    "Meet the Dividend King Stock That Yields More Than Quintuple the Nasdaq-100. Here's Why It's a Buy in October."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81986.953125,
-        "perp_last_price": 81986.953125,
-        "mark_price": 81986.953125,
-        "index_price": 81986.953125,
+        "spot_price": 81293.6171875,
+        "perp_last_price": 81293.6171875,
+        "mark_price": 81293.6171875,
+        "index_price": 81293.6171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81986.953125,
-        "stop_loss_technical": 83069.2734375,
-        "target_1": 80363.47265625,
-        "target_2": 78739.9921875,
+        "entry_ideal": 81293.6171875,
+        "stop_loss_technical": 83056.4921875,
+        "target_1": 78649.3046875,
+        "target_2": 76004.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 81986.953125,
-        "stop_loss_technical": 83069.2734375,
-        "target_1": 80363.47265625,
-        "target_2": 78739.9921875,
+        "entry_ideal": 81293.6171875,
+        "stop_loss_technical": 83056.4921875,
+        "target_1": 78649.3046875,
+        "target_2": 76004.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
