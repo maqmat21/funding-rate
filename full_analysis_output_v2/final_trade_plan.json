@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-21T00:51:09.069919+00:00",
+    "generated_at_utc": "2026-10-21T05:28:55.543449+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.777,
+        "price": 101.784,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 2m",
     "News from the Yahoo Finance Network",
     "Charlie Munger Said He Was Still Buying Apartment Complexes ‘To Give Me Something To Do’ but Ran Them the Opposite Way, ‘It’s All Deferred Gratification’",
     "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28",
-    "Michael Burry Points To Recent Court Ruling And 2027–28 Ownership Review As ‘Good News’ For Fannie And Freddie",
     "A 67-Year-Old Swapped JEPQ for SCHD in a $1.32 Million Portfolio. Here’s What Happened to His $8,750 Monthly Paycheck",
     "As billionaires fight a tax hike, Jensen Huang says paying $8 billion is a ‘privilege’: ‘I’m just afraid of being poor’",
-    "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
+    "Movie theater chain closes megaplex, files Chapter 11 bankruptcy",
     "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83079.578125,
-        "perp_last_price": 83079.578125,
-        "mark_price": 83079.578125,
-        "index_price": 83079.578125,
+        "spot_price": 82752.703125,
+        "perp_last_price": 82752.703125,
+        "mark_price": 82752.703125,
+        "index_price": 82752.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 83079.578125,
-        "stop_loss_technical": 81197.6484375,
-        "target_1": 85902.47265625,
-        "target_2": 88725.3671875,
+        "entry_ideal": 82752.703125,
+        "stop_loss_technical": 83323.3515625,
+        "target_1": 81896.73046875,
+        "target_2": 81040.7578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 83079.578125,
+        "entry_ideal": 82752.703125,
         "stop_loss_technical": 80615.3984375,
-        "target_1": 86775.84765625,
-        "target_2": 90472.1171875,
+        "target_1": 85958.66015625,
+        "target_2": 89164.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
