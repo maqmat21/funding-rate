@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-21T15:26:07.802180+00:00",
+    "generated_at_utc": "2026-10-21T19:25:23.807403+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,49 +11,48 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.794,
+        "price": 101.795,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.115,
+        "price": 5.148,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 35m",
     "News from the Yahoo Finance Network",
-    "Charlie Munger Said He Was Still Buying Apartment Complexes ‘To Give Me Something To Do’ but Ran Them the Opposite Way, ‘It’s All Deferred Gratification’",
-    "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28",
+    "Two Sisters Each Retire at 62 With $400,000 in an IRA and a $30,000 Pension. One Converts $35,000 a Year for 11 Years and Pays About $4,200 in Tax Each Year. The Other Pays Nothing Until 73, Then Owes Tax on a Balance Closer to $680,000 at Whatever Rate the IRS Sets",
     "‘Dumb! Really Dumb!’: Dave Ramsey names the 3 financial mistakes that drive him crazy on his show",
-    "Movie theater chain closes megaplex, files Chapter 11 bankruptcy",
     "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%",
-    "Two Sisters Each Retire at 62 With $400,000 in an IRA and a $30,000 Pension. One Converts $35,000 a Year for 11 Years and Pays About $4,200 in Tax Each Year. The Other Pays Nothing Until 73, Then Owes Tax on a Balance Closer to $680,000 at Whatever Rate the IRS Sets"
+    "Ken Griffin says Trump’s plan for America First was always doomed to fail: ‘Most people don’t want to live that dream’",
+    "Financial problems force cinema chain’s Chapter 11 bankruptcy",
+    "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+    "Elon Musk has a bold answer to America’s $40 trillion debt crisis"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84529.09375,
-        "perp_last_price": 84529.09375,
-        "mark_price": 84529.09375,
-        "index_price": 84529.09375,
+        "spot_price": 84330.75,
+        "perp_last_price": 84330.75,
+        "mark_price": 84330.75,
+        "index_price": 84330.75,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84539.796875,
-        "stop_loss_technical": 83271.69992187,
-        "target_1": 86441.94230469,
-        "target_2": 88344.08773438,
+        "entry_ideal": 84347.1171875,
+        "stop_loss_technical": 84849.640625,
+        "target_1": 83593.33203125,
+        "target_2": 82839.546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +64,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 84529.09375,
-        "stop_loss_technical": 83261.15734375,
-        "target_1": 86430.99835937,
-        "target_2": 88332.90296875,
+        "entry_ideal": 84330.75,
+        "stop_loss_technical": 83065.78875,
+        "target_1": 86228.191875,
+        "target_2": 88125.63375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
