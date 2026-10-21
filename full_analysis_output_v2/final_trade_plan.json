@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-20T22:36:11.895319+00:00",
+    "generated_at_utc": "2026-10-21T00:51:09.069919+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.73,
-        "trend": "bajista"
+        "price": 101.777,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.117,
@@ -24,50 +24,49 @@
     "News from the Yahoo Finance Network",
     "Charlie Munger Said He Was Still Buying Apartment Complexes ‘To Give Me Something To Do’ but Ran Them the Opposite Way, ‘It’s All Deferred Gratification’",
     "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28",
-    "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%",
-    "What's the new 'normal' net worth by age?",
+    "Michael Burry Points To Recent Court Ruling And 2027–28 Ownership Review As ‘Good News’ For Fannie And Freddie",
+    "A 67-Year-Old Swapped JEPQ for SCHD in a $1.32 Million Portfolio. Here’s What Happened to His $8,750 Monthly Paycheck",
+    "As billionaires fight a tax hike, Jensen Huang says paying $8 billion is a ‘privilege’: ‘I’m just afraid of being poor’",
     "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful",
-    "The Villages is betting $180M on more retirees moving to Florida — where home sales are stale",
-    "A 67-Year-Old Swapped JEPQ for SCHD in a $1.32 Million Portfolio. Here’s What Happened to His $8,750 Monthly Paycheck"
+    "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82939.2109375,
-        "perp_last_price": 82939.2109375,
-        "mark_price": 82939.2109375,
-        "index_price": 82939.2109375,
+        "spot_price": 83079.578125,
+        "perp_last_price": 83079.578125,
+        "mark_price": 83079.578125,
+        "index_price": 83079.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 82938.890625,
-        "stop_loss_technical": 81694.80726563,
-        "target_1": 84805.01566406,
-        "target_2": 86671.14070312,
+        "entry_ideal": 83079.578125,
+        "stop_loss_technical": 81197.6484375,
+        "target_1": 85902.47265625,
+        "target_2": 88725.3671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 82939.2109375,
+        "entry_ideal": 83079.578125,
         "stop_loss_technical": 80615.3984375,
-        "target_1": 86424.9296875,
-        "target_2": 89910.6484375,
+        "target_1": 86775.84765625,
+        "target_2": 90472.1171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
