@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-21T10:25:36.839314+00:00",
+    "generated_at_utc": "2026-10-21T15:26:07.802180+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.786,
+        "price": 101.794,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.117,
-        "trend": "bajista"
+        "price": 5.115,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 5m",
+    "U.S. markets close in 4h 35m",
     "News from the Yahoo Finance Network",
     "Charlie Munger Said He Was Still Buying Apartment Complexes ‘To Give Me Something To Do’ but Ran Them the Opposite Way, ‘It’s All Deferred Gratification’",
     "Federal Reserve issues chilling warning to 3.1M US homeowners and every American with a credit card — act before Oct. 28",
-    "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move Investors Can Make",
-    "A 67-Year-Old Swapped JEPQ for SCHD in a $1.32 Million Portfolio. Here’s What Happened to His $8,750 Monthly Paycheck",
-    "As billionaires fight a tax hike, Jensen Huang says paying $8 billion is a ‘privilege’: ‘I’m just afraid of being poor’",
-    "Where people make over $1 million a year but still choose to rent"
+    "‘Dumb! Really Dumb!’: Dave Ramsey names the 3 financial mistakes that drive him crazy on his show",
+    "Movie theater chain closes megaplex, files Chapter 11 bankruptcy",
+    "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%",
+    "Two Sisters Each Retire at 62 With $400,000 in an IRA and a $30,000 Pension. One Converts $35,000 a Year for 11 Years and Pays About $4,200 in Tax Each Year. The Other Pays Nothing Until 73, Then Owes Tax on a Balance Closer to $680,000 at Whatever Rate the IRS Sets"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 83242.421875,
-        "perp_last_price": 83242.421875,
-        "mark_price": 83242.421875,
-        "index_price": 83242.421875,
+        "spot_price": 84529.09375,
+        "perp_last_price": 84529.09375,
+        "mark_price": 84529.09375,
+        "index_price": 84529.09375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83242.421875,
-        "stop_loss_technical": 83603.8828125,
-        "target_1": 82700.23046875,
-        "target_2": 82158.0390625,
+        "entry_ideal": 84539.796875,
+        "stop_loss_technical": 83271.69992187,
+        "target_1": 86441.94230469,
+        "target_2": 88344.08773438,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 83242.421875,
-        "stop_loss_technical": 80615.3984375,
-        "target_1": 87182.95703125,
-        "target_2": 91123.4921875,
+        "entry_ideal": 84529.09375,
+        "stop_loss_technical": 83261.15734375,
+        "target_1": 86430.99835937,
+        "target_2": 88332.90296875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
