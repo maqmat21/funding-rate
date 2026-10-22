@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-22T05:32:58.855802+00:00",
+    "generated_at_utc": "2026-10-22T10:33:59.946972+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.587,
-        "trend": "bajista"
+        "price": 101.642,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.146,
@@ -21,51 +21,54 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 58m",
+    "U.S. markets open in 2h 56m",
     "News from the Yahoo Finance Network",
+    "Wall Street's Biggest Bubble (No, Not AI) Appears Ready to Burst",
     "Two Sisters Each Retire at 62 With $400,000 in an IRA and a $30,000 Pension. One Converts $35,000 a Year for 11 Years and Pays About $4,200 in Tax Each Year. The Other Pays Nothing Until 73, Then Owes Tax on a Balance Closer to $680,000 at Whatever Rate the IRS Sets",
+    "If a Market Correction Is Coming, History Says This Is the Smartest Investing Move You Can Make",
     "‘Dumb! Really Dumb!’: Dave Ramsey names the 3 financial mistakes that drive him crazy on his show",
     "Social Security says it's cleaning up millions of records. What that means for you.",
-    "‘No Question Tesla’s Going to Merge With SpaceX’ — Kevin O’Leary Says If You Own Tesla Stock, You’ll Own the New Company After Flying Roadster Demo",
-    "‘Stop Paying The Mortgage Payment Right Now’: Suze Orman Gives Shocking Advice to a Laid-Off Teacher Who Owed $400,000 on a $200,000 House",
-    "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn"
+    "‘Stop Paying The Mortgage Payment Right Now’: Suze Orman Gives Shocking Advice to a Laid-Off Teacher Who Owed $400,000 on a $200,000 House"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 82749.1796875,
-        "perp_last_price": 82749.1796875,
-        "mark_price": 82749.1796875,
-        "index_price": 82749.1796875,
+        "spot_price": 81986.0,
+        "perp_last_price": 81986.0,
+        "mark_price": 81986.0,
+        "index_price": 81986.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 82736.6796875,
-        "stop_loss_technical": 84850.9921875,
-        "target_1": 79565.2109375,
-        "target_2": 76393.7421875,
+        "entry_ideal": 81985.5390625,
+        "stop_loss_technical": 80755.75597656,
+        "target_1": 83830.21369141,
+        "target_2": 85674.88832031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 82749.1796875,
-        "stop_loss_technical": 84850.9921875,
-        "target_1": 79596.4609375,
-        "target_2": 76443.7421875,
+        "entry_ideal": 81986.0,
+        "stop_loss_technical": 84849.640625,
+        "target_1": 77690.5390625,
+        "target_2": 73395.078125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
