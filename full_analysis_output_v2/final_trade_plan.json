@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-22T00:51:18.605653+00:00",
+    "generated_at_utc": "2026-10-22T05:32:58.855802+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.7,
+        "price": 101.587,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 58m",
     "News from the Yahoo Finance Network",
     "Two Sisters Each Retire at 62 With $400,000 in an IRA and a $30,000 Pension. One Converts $35,000 a Year for 11 Years and Pays About $4,200 in Tax Each Year. The Other Pays Nothing Until 73, Then Owes Tax on a Balance Closer to $680,000 at Whatever Rate the IRS Sets",
     "‘Dumb! Really Dumb!’: Dave Ramsey names the 3 financial mistakes that drive him crazy on his show",
     "Social Security says it's cleaning up millions of records. What that means for you.",
+    "‘No Question Tesla’s Going to Merge With SpaceX’ — Kevin O’Leary Says If You Own Tesla Stock, You’ll Own the New Company After Flying Roadster Demo",
     "‘Stop Paying The Mortgage Payment Right Now’: Suze Orman Gives Shocking Advice to a Laid-Off Teacher Who Owed $400,000 on a $200,000 House",
-    "Name a Trust as Your IRA Beneficiary and Every Dollar It Holds Back Is Taxed at 37% Above $15,650. Name Your Kids Directly and the Same Dollar Is Taxed at Their Rate, Usually 22% or 24%",
-    "Ken Griffin says Trump’s plan for America First was always doomed to fail: ‘Most people don’t want to live that dream’",
-    "‘No Question Tesla’s Going to Merge With SpaceX’ — Kevin O’Leary Says If You Own Tesla Stock, You’ll Own the New Company After Flying Roadster Demo"
+    "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 84204.078125,
-        "perp_last_price": 84204.078125,
-        "mark_price": 84204.078125,
-        "index_price": 84204.078125,
+        "spot_price": 82749.1796875,
+        "perp_last_price": 82749.1796875,
+        "mark_price": 82749.1796875,
+        "index_price": 82749.1796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,24 +48,24 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 84200.0,
-        "stop_loss_technical": 84849.640625,
-        "target_1": 83225.5390625,
-        "target_2": 82251.078125,
+        "entry_ideal": 82736.6796875,
+        "stop_loss_technical": 84850.9921875,
+        "target_1": 79565.2109375,
+        "target_2": 76393.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 84204.078125,
-        "stop_loss_technical": 80615.3984375,
-        "target_1": 89587.09765625,
-        "target_2": 94970.1171875,
+        "entry_ideal": 82749.1796875,
+        "stop_loss_technical": 84850.9921875,
+        "target_1": 79596.4609375,
+        "target_2": 76443.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
