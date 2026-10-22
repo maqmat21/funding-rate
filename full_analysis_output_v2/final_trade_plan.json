@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-22T15:34:22.370374+00:00",
+    "generated_at_utc": "2026-10-22T19:25:10.449858+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.797,
-        "trend": "alcista"
+        "price": 101.608,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.011,
+        "price": 4.953,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 4h 26m",
     "News from the Yahoo Finance Network",
-    "If a Stock Market Crash Is Coming, History Says Investors Who Do This 1 Thing Always Win Out",
-    "Two Sisters Each Retire at 62 With $400,000 in an IRA and a $30,000 Pension. One Converts $35,000 a Year for 11 Years and Pays About $4,200 in Tax Each Year. The Other Pays Nothing Until 73, Then Owes Tax on a Balance Closer to $680,000 at Whatever Rate the IRS Sets",
-    "‘Stop Paying The Mortgage Payment Right Now’: Suze Orman Gives Shocking Advice to a Laid-Off Teacher Who Owed $400,000 on a $200,000 House",
     "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+    "A 60-Year-Old With $500,000 in a 401(k) and No Paycheck Can Convert About $66,000 a Year Without Leaving the 12% Bracket. Thirteen Years of That Moves Most of the Account Out at 12%. Wait for 73 and the IRS Picks the Amount, the Year, and the Rate",
+    "Mom Is 73 and Wants to Sell the $1.4 Million House, Rent an Apartment and Live on 5% Treasury Interest. Is It a Crazy Idea?",
     "Social Security says it's cleaning up millions of records. What that means for you.",
-    "Jeff Bezos reportedly added a $69.5 million beach house to his $237 million Miami compound. A broker says that’s how billionaires live now"
+    "Jeff Bezos reportedly added a $69.5 million beach house to his $237 million Miami compound. A broker says that’s how billionaires live now",
+    "Wall Street's Biggest Bubble (No, Not AI) Appears Ready to Burst",
+    "Gen Z expects to inherit $124 trillion—but retired boomers are ‘spending their kids’ inheritance’ to go on vacation instead. It’s called Ski-ing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81428.1484375,
-        "perp_last_price": 81428.1484375,
-        "mark_price": 81428.1484375,
-        "index_price": 81428.1484375,
+        "spot_price": 81345.828125,
+        "perp_last_price": 81345.828125,
+        "mark_price": 81345.828125,
+        "index_price": 81345.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81428.1484375,
-        "stop_loss_technical": 84779.7265625,
-        "target_1": 76400.78125,
-        "target_2": 71373.4140625,
+        "entry_ideal": 81345.828125,
+        "stop_loss_technical": 80819.3515625,
+        "target_1": 82135.54296875,
+        "target_2": 82925.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81428.1484375,
-        "stop_loss_technical": 84840.046875,
-        "target_1": 76310.30078125,
-        "target_2": 71192.453125,
+        "entry_ideal": 81345.828125,
+        "stop_loss_technical": 80125.64070312,
+        "target_1": 83176.10925781,
+        "target_2": 85006.39039063,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
