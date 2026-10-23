@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-22T22:31:26.751925+00:00",
+    "generated_at_utc": "2026-10-23T00:53:14.917374+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.617,
+        "price": 101.512,
         "trend": "bajista"
       },
       "US10Y": {
@@ -24,36 +24,36 @@
     "News from the Yahoo Finance Network",
     "He Will Lend His Daughter $90,000 the Month Before He Applies for Nursing Home Medicaid, With a Signed Note. Medicaid Won’t Automatically Treat It as a Gift, Because the Note Passes Three Tests Most Family Loans Fail",
     "The Stock Market Sounds an Alarm for the First Time in Nearly 27 Years. Here Is What History Says the S&P 500 Will Do Next.",
+    "Elon Musk’s $10.5B SpaceX gift to kids has a catch: Families can’t say no — and may need to wait 5 years to cash out",
     "A 60-Year-Old With $500,000 in a 401(k) and No Paycheck Can Convert About $66,000 a Year Without Leaving the 12% Bracket. Thirteen Years of That Moves Most of the Account Out at 12%. Wait for 73 and the IRS Picks the Amount, the Year, and the Rate",
-    "Social Security says it's cleaning up millions of records. What that means for you.",
-    "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-    "Mom Is 73 and Wants to Sell the $1.4 Million House, Rent an Apartment and Live on 5% Treasury Interest. Is It a Crazy Idea?",
-    "Jeff Bezos reportedly added a $69.5 million beach house to his $237 million Miami compound. A broker says that’s how billionaires live now"
+    "Ex–Google CEO Eric Schmidt worked 60-hour weeks: ‘I used to tell people my job is to sit in meetings 12 hours a day.’ He says AI will kill that burden",
+    "SpaceX in Talks to Access 80,000 Cell Sites for Wireless Network",
+    "Mom Is 73 and Wants to Sell the $1.4 Million House, Rent an Apartment and Live on 5% Treasury Interest. Is It a Crazy Idea?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81284.9296875,
-        "perp_last_price": 81284.9296875,
-        "mark_price": 81284.9296875,
-        "index_price": 81284.9296875,
+        "spot_price": 81402.71875,
+        "perp_last_price": 81402.71875,
+        "mark_price": 81402.71875,
+        "index_price": 81402.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81284.9296875,
-        "stop_loss_technical": 80065.65574219,
-        "target_1": 83113.84060547,
-        "target_2": 84942.75152344,
+        "entry_ideal": 81414.828125,
+        "stop_loss_technical": 80789.609375,
+        "target_1": 82352.65625,
+        "target_2": 83290.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 81284.9296875,
-        "stop_loss_technical": 80065.65574219,
-        "target_1": 83113.84060547,
-        "target_2": 84942.75152344,
+        "entry_ideal": 81402.71875,
+        "stop_loss_technical": 80181.67796875,
+        "target_1": 83234.27992188,
+        "target_2": 85065.84109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
