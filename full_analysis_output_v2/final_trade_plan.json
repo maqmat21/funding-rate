@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-23T00:53:14.917374+00:00",
+    "generated_at_utc": "2026-10-23T05:30:59.382230+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.512,
-        "trend": "bajista"
+        "price": 101.687,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.953,
@@ -23,52 +23,49 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "He Will Lend His Daughter $90,000 the Month Before He Applies for Nursing Home Medicaid, With a Signed Note. Medicaid Won’t Automatically Treat It as a Gift, Because the Note Passes Three Tests Most Family Loans Fail",
-    "The Stock Market Sounds an Alarm for the First Time in Nearly 27 Years. Here Is What History Says the S&P 500 Will Do Next.",
+    "Kevin O’Leary Warns Americans to Think Twice Before Buying a Home, Says ‘You’re Screwed’ If Rates Rise: ‘Don’t Fall in Love With Being in Debt’",
     "Elon Musk’s $10.5B SpaceX gift to kids has a catch: Families can’t say no — and may need to wait 5 years to cash out",
+    "Chick-fil-A hit $23.9 billion in sales while closed every Sunday. Its CEO explains why that won’t change, even if it costs the chain billions",
     "A 60-Year-Old With $500,000 in a 401(k) and No Paycheck Can Convert About $66,000 a Year Without Leaving the 12% Bracket. Thirteen Years of That Moves Most of the Account Out at 12%. Wait for 73 and the IRS Picks the Amount, the Year, and the Rate",
-    "Ex–Google CEO Eric Schmidt worked 60-hour weeks: ‘I used to tell people my job is to sit in meetings 12 hours a day.’ He says AI will kill that burden",
-    "SpaceX in Talks to Access 80,000 Cell Sites for Wireless Network",
-    "Mom Is 73 and Wants to Sell the $1.4 Million House, Rent an Apartment and Live on 5% Treasury Interest. Is It a Crazy Idea?"
+    "The Stock Market Sounds an Alarm for the First Time in Nearly 27 Years. Here Is What History Says the S&P 500 Will Do Next.",
+    "Ex–Google CEO Eric Schmidt worked 60-hour weeks: ‘I used to tell people my job is to sit in meetings 12 hours a day.’ He says AI will kill that burden"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81402.71875,
-        "perp_last_price": 81402.71875,
-        "mark_price": 81402.71875,
-        "index_price": 81402.71875,
+        "spot_price": 81552.46875,
+        "perp_last_price": 81552.46875,
+        "mark_price": 81552.46875,
+        "index_price": 81552.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 81414.828125,
-        "stop_loss_technical": 80789.609375,
-        "target_1": 82352.65625,
-        "target_2": 83290.484375,
+        "entry_ideal": 81586.25,
+        "stop_loss_technical": 82089.1484375,
+        "target_1": 80831.90234375,
+        "target_2": 80077.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 81402.71875,
-        "stop_loss_technical": 80181.67796875,
-        "target_1": 83234.27992188,
-        "target_2": 85065.84109375,
+        "entry_ideal": 81552.46875,
+        "stop_loss_technical": 84840.046875,
+        "target_1": 76621.1015625,
+        "target_2": 71689.734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
