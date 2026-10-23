@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-23T10:27:22.312484+00:00",
+    "generated_at_utc": "2026-10-23T15:18:15.856940+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,60 +11,62 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.708,
+        "price": 101.746,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.953,
+        "price": 4.995,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 4m",
+    "U.S. markets close in 4h 43m",
     "News from the Yahoo Finance Network",
     "He Will Lend His Daughter $90,000 the Month Before He Applies for Nursing Home Medicaid, With a Signed Note. Medicaid Won’t Automatically Treat It as a Gift, Because the Note Passes Three Tests Most Family Loans Fail",
+    "The Retirees Who Left The Villages for Good Say the Third Year Was When the Math Stopped Working",
     "Kevin O’Leary Warns Americans to Think Twice Before Buying a Home, Says ‘You’re Screwed’ If Rates Rise: ‘Don’t Fall in Love With Being in Debt’",
-    "A 60-Year-Old With $500,000 in a 401(k) and No Paycheck Can Convert About $66,000 a Year Without Leaving the 12% Bracket. Thirteen Years of That Moves Most of the Account Out at 12%. Wait for 73 and the IRS Picks the Amount, the Year, and the Rate",
-    "Elon Musk’s $10.5B SpaceX gift to kids has a catch: Families can’t say no — and may need to wait 5 years to cash out",
+    "Mom Is 73 and Wants to Sell the $1.4 Million House, Rent an Apartment and Live on 5% Treasury Interest. Is It a Crazy Idea?",
     "Ex–Google CEO Eric Schmidt worked 60-hour weeks: ‘I used to tell people my job is to sit in meetings 12 hours a day.’ He says AI will kill that burden",
-    "The Stock Market Sounds an Alarm for the First Time in Nearly 27 Years. Here Is What History Says the S&P 500 Will Do Next."
+    "I'm a Wealth Manager: 6 Tax Strategies My High-Net-Worth Clients Use Every Year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81653.828125,
-        "perp_last_price": 81653.828125,
-        "mark_price": 81653.828125,
-        "index_price": 81653.828125,
+        "spot_price": 81426.8828125,
+        "perp_last_price": 81426.8828125,
+        "mark_price": 81426.8828125,
+        "index_price": 81426.8828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81653.828125,
-        "stop_loss_technical": 80789.609375,
-        "target_1": 82950.15625,
-        "target_2": 84246.484375,
+        "entry_ideal": 81424.96875,
+        "stop_loss_technical": 81950.84375,
+        "target_1": 80636.15625,
+        "target_2": 79847.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81653.828125,
+        "entry_ideal": 81426.8828125,
         "stop_loss_technical": 84840.046875,
-        "target_1": 76874.5,
-        "target_2": 72095.171875,
+        "target_1": 76307.13671875,
+        "target_2": 71187.390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
