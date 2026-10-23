@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-23T19:18:50.798058+00:00",
+    "generated_at_utc": "2026-10-23T22:16:49.192668+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,11 +11,11 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.806,
+        "price": 101.752,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.992,
+        "price": 4.988,
         "trend": "bajista"
       }
     }
@@ -23,36 +23,35 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "He Will Lend His Daughter $90,000 the Month Before He Applies for Nursing Home Medicaid, With a Signed Note. Medicaid Won’t Automatically Treat It as a Gift, Because the Note Passes Three Tests Most Family Loans Fail",
-    "Michael Burry of the ‘Big Short’ was asked to give advice to Gen Z: Buy half the house you can afford, and if it ‘flies or floats, rent it’",
+    "Michael Burry of ‘The Big Short’ was asked to give advice to Gen Z: ‘Buy half the house you can afford,’ and ‘If it flies or floats, rent it’",
+    "Our Parents Want to Put All $1.6 Million Into 5% Treasuries and ‘Never Touch the Principal.’ At 3% Inflation, Their $83,000 a Year Will Buy $40,000 Worth by 2051",
     "Kevin O’Leary Warns Americans to Think Twice Before Buying a Home, Says ‘You’re Screwed’ If Rates Rise: ‘Don’t Fall in Love With Being in Debt’",
     "The Retirees Who Left The Villages for Good Say the Third Year Was When the Math Stopped Working",
-    "Chick-fil-A hit $23.9 billion in sales while closed every Sunday. Its CEO explains why that won’t change, even if it costs the chain billions",
-    "The Stock Market Sounds an Alarm for the First Time in Nearly 27 Years. Here Is What History Says the S&P 500 Will Do Next.",
-    "Kevin O’Leary says his golden money rule could make you a millionaire — even on a $68K salary. Are you missing out?"
+    "Kevin O’Leary says his golden money rule could make you a millionaire — even on a $68K salary. Are you missing out?",
+    "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81194.4765625,
-        "perp_last_price": 81194.4765625,
-        "mark_price": 81194.4765625,
-        "index_price": 81194.4765625,
+        "spot_price": 81279.28125,
+        "perp_last_price": 81279.28125,
+        "mark_price": 81279.28125,
+        "index_price": 81279.28125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 81195.7265625,
-        "stop_loss_technical": 81951.4296875,
-        "target_1": 80062.171875,
-        "target_2": 78928.6171875,
+        "entry_ideal": 81277.640625,
+        "stop_loss_technical": 80980.140625,
+        "target_1": 81723.890625,
+        "target_2": 82170.140625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 81194.4765625,
+        "entry_ideal": 81279.28125,
         "stop_loss_technical": 84840.046875,
-        "target_1": 75726.12109375,
-        "target_2": 70257.765625,
+        "target_1": 75938.1328125,
+        "target_2": 70596.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
