@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-24T09:26:05.021616+00:00",
+    "generated_at_utc": "2026-10-24T13:25:48.471441+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Stock Market Investors Just Got Bad News About President Trump's Economy. History Says This Could Happen Next.",
-    "Michael Burry of ‘The Big Short’ was asked to give advice to Gen Z: ‘Buy half the house you can afford,’ and ‘If it flies or floats, rent it’",
     "Warren Buffett Has 1 Piece of Advice for Investors Worried About a Crash, and History Proves It Works",
-    "President Donald Trump Just Threw Fed Chair Kevin Warsh Under the Bus, and Things Could Get Ugly for Wall Street",
-    "Our Parents Want to Put All $1.6 Million Into 5% Treasuries and ‘Never Touch the Principal.’ At 3% Inflation, Their $83,000 a Year Will Buy $40,000 Worth by 2051",
+    "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?",
     "Still sending checks in the mail? It's time to stop",
-    "America’s Second-Biggest Bank Says the Stock Market Is in the Midst of a Multibillion-Dollar Stampede"
+    "Michael Burry of ‘The Big Short’ was asked to give advice to Gen Z: ‘Buy half the house you can afford,’ and ‘If it flies or floats, rent it’",
+    "US Treasury just opened the door to a major gold comeback — now America’s fiscal fate could change forever",
+    "Amazon Just Walked Away From a $427 Million Data Center Plan After Neighbors Fought Back",
+    "Our Parents Want to Put All $1.6 Million Into 5% Treasuries and ‘Never Touch the Principal.’ At 3% Inflation, Their $83,000 a Year Will Buy $40,000 Worth by 2051"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80456.1484375,
-        "perp_last_price": 80456.1484375,
-        "mark_price": 80456.1484375,
-        "index_price": 80456.1484375,
+        "spot_price": 80668.8984375,
+        "perp_last_price": 80668.8984375,
+        "mark_price": 80668.8984375,
+        "index_price": 80668.8984375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 80456.1484375,
-        "stop_loss_technical": 81950.84375,
-        "target_1": 78214.10546875,
-        "target_2": 75972.0625,
+        "entry_ideal": 80668.8984375,
+        "stop_loss_technical": 80350.4765625,
+        "target_1": 81146.53125,
+        "target_2": 81624.1640625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 80456.1484375,
+        "entry_ideal": 80668.8984375,
         "stop_loss_technical": 84840.046875,
-        "target_1": 73880.30078125,
-        "target_2": 67304.453125,
+        "target_1": 74412.17578125,
+        "target_2": 68155.453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
