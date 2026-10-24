@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-23T22:16:49.192668+00:00",
+    "generated_at_utc": "2026-10-24T00:44:29.289864+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -26,32 +26,33 @@
     "Michael Burry of ‘The Big Short’ was asked to give advice to Gen Z: ‘Buy half the house you can afford,’ and ‘If it flies or floats, rent it’",
     "Our Parents Want to Put All $1.6 Million Into 5% Treasuries and ‘Never Touch the Principal.’ At 3% Inflation, Their $83,000 a Year Will Buy $40,000 Worth by 2051",
     "Kevin O’Leary Warns Americans to Think Twice Before Buying a Home, Says ‘You’re Screwed’ If Rates Rise: ‘Don’t Fall in Love With Being in Debt’",
-    "The Retirees Who Left The Villages for Good Say the Third Year Was When the Math Stopped Working",
     "Kevin O’Leary says his golden money rule could make you a millionaire — even on a $68K salary. Are you missing out?",
-    "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?"
+    "The Retirees Who Left The Villages for Good Say the Third Year Was When the Math Stopped Working",
+    "Americans are abandoning a weekly habit that’s been part of everyday life for decades"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81279.28125,
-        "perp_last_price": 81279.28125,
-        "mark_price": 81279.28125,
-        "index_price": 81279.28125,
+        "spot_price": 80540.0078125,
+        "perp_last_price": 80540.0078125,
+        "mark_price": 80540.0078125,
+        "index_price": 80540.0078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81277.640625,
-        "stop_loss_technical": 80980.140625,
-        "target_1": 81723.890625,
-        "target_2": 82170.140625,
+        "entry_ideal": 80540.0078125,
+        "stop_loss_technical": 81951.4296875,
+        "target_1": 78422.875,
+        "target_2": 76305.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 81279.28125,
+        "entry_ideal": 80540.0078125,
         "stop_loss_technical": 84840.046875,
-        "target_1": 75938.1328125,
-        "target_2": 70596.984375,
+        "target_1": 74089.94921875,
+        "target_2": 67639.890625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
