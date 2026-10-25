@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-24T23:37:45.802907+00:00",
+    "generated_at_utc": "2026-10-25T01:34:08.758971+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,37 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "‘I Don’t Want You to Contribute to a Trump Account for a Child. Period’: Suze Orman Says Take the Free $1,000 and Your Employer’s $2,500, Then Stop.",
     "Warren Buffett Has 1 Piece of Advice for Investors Worried About a Crash, and History Proves It Works",
     "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?",
     "Suze Orman Says Retirees Don’t Necessarily Need Bonds. Here’s What She Prefers",
     "Michael Burry of ‘The Big Short’ was asked to give advice to Gen Z: ‘Buy half the house you can afford,’ and ‘If it flies or floats, rent it’",
     "Still sending checks in the mail? It's time to stop",
-    "US Treasury just opened the door to a major gold comeback — now America’s fiscal fate could change forever",
-    "The end-of-year charitable giving season is underway. Here's what you need to know."
+    "US Treasury just opened the door to a major gold comeback — now America’s fiscal fate could change forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80807.03125,
-        "perp_last_price": 80807.03125,
-        "mark_price": 80807.03125,
-        "index_price": 80807.03125,
+        "spot_price": 80676.03125,
+        "perp_last_price": 80676.03125,
+        "mark_price": 80676.03125,
+        "index_price": 80676.03125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 80792.859375,
-        "stop_loss_technical": 79145.2890625,
-        "target_1": 83264.21484375,
-        "target_2": 85735.5703125,
+        "entry_ideal": 80676.03125,
+        "stop_loss_technical": 80817.71875,
+        "target_1": 80463.5,
+        "target_2": 80250.96875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 80807.03125,
+        "entry_ideal": 80676.03125,
         "stop_loss_technical": 79145.2890625,
-        "target_1": 83299.64453125,
-        "target_2": 85792.2578125,
+        "target_1": 82972.14453125,
+        "target_2": 85268.2578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
