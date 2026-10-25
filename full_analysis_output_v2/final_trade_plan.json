@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-25T16:01:25.864488+00:00",
+    "generated_at_utc": "2026-10-25T18:55:49.054957+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,34 @@
     "Convert $50,000 Inside a 401(k) and the Plan Can’t Withhold a Dollar of Tax From It. All $50,000 Lands in the Roth and the Bill Comes in April. Convert the Same $50,000 From an IRA and the Custodian Offers to Withhold, Which Is the Trap",
     "‘I Don’t Want You to Contribute to a Trump Account for a Child. Period’: Suze Orman Says Take the Free $1,000 and Your Employer’s $2,500, Then Stop.",
     "Warren Buffett Has 1 Piece of Advice for Investors Worried About a Crash, and History Proves It Works",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?",
     "Suze Orman Says Retirees Don’t Necessarily Need Bonds. Here’s What She Prefers",
-    "In 1985, He Was Forced Out of the Company He Founded. Months Later He Bet $10 Million On A Graphics Unit He Bought From George Lucas. By 2006, That Bet Was Worth Far More Than His Apple Stock",
-    "Warren Buffett bought this company in 1988 when ‘no one’ wanted it — now it pays Berkshire $848 million a year"
+    "In 1985, He Was Forced Out of the Company He Founded. Months Later He Bet $10 Million On A Graphics Unit He Bought From George Lucas. By 2006, That Bet Was Worth Far More Than His Apple Stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80503.421875,
-        "perp_last_price": 80503.421875,
-        "mark_price": 80503.421875,
-        "index_price": 80503.421875,
+        "spot_price": 80554.296875,
+        "perp_last_price": 80554.296875,
+        "mark_price": 80554.296875,
+        "index_price": 80554.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 80503.421875,
+        "entry_ideal": 80550.0078125,
         "stop_loss_technical": 80925.0,
-        "target_1": 79871.0546875,
-        "target_2": 79238.6875,
+        "target_1": 79987.51953125,
+        "target_2": 79425.03125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 80503.421875,
+        "entry_ideal": 80554.296875,
         "stop_loss_technical": 79145.5390625,
-        "target_1": 82540.24609375,
-        "target_2": 84577.0703125,
+        "target_1": 82667.43359375,
+        "target_2": 84780.5703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
