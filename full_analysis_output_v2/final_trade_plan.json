@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-25T06:43:56.558438+00:00",
+    "generated_at_utc": "2026-10-25T12:01:24.717611+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,39 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80443.7734375,
-        "perp_last_price": 80443.7734375,
-        "mark_price": 80443.7734375,
-        "index_price": 80443.7734375,
+        "spot_price": 80460.0703125,
+        "perp_last_price": 80460.0703125,
+        "mark_price": 80460.0703125,
+        "index_price": 80460.0703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80443.7734375,
-        "stop_loss_technical": 80925.0,
-        "target_1": 79721.93359375,
-        "target_2": 79000.09375,
+        "entry_ideal": 80460.0703125,
+        "stop_loss_technical": 79982.2265625,
+        "target_1": 81176.8359375,
+        "target_2": 81893.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 80443.7734375,
+        "entry_ideal": 80460.0703125,
         "stop_loss_technical": 84840.046875,
-        "target_1": 73849.36328125,
-        "target_2": 67254.953125,
+        "target_1": 73890.10546875,
+        "target_2": 67320.140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
