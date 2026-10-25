@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-25T21:18:07.201719+00:00",
+    "generated_at_utc": "2026-10-25T23:18:56.311259+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -34,37 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80372.3203125,
-        "perp_last_price": 80372.3203125,
-        "mark_price": 80372.3203125,
-        "index_price": 80372.3203125,
+        "spot_price": 80199.046875,
+        "perp_last_price": 80199.046875,
+        "mark_price": 80199.046875,
+        "index_price": 80199.046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 80372.3203125,
-        "stop_loss_technical": 80925.0,
-        "target_1": 79543.30078125,
-        "target_2": 78714.28125,
+        "entry_ideal": 80199.046875,
+        "stop_loss_technical": 80858.3984375,
+        "target_1": 79210.01953125,
+        "target_2": 78220.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 80372.3203125,
+        "entry_ideal": 80199.046875,
         "stop_loss_technical": 84840.046875,
-        "target_1": 73670.73046875,
-        "target_2": 66969.140625,
+        "target_1": 73237.546875,
+        "target_2": 66276.046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
