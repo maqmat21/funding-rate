@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-26T19:13:21.362670+00:00",
+    "generated_at_utc": "2026-10-26T23:08:09.726377+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.985,
+        "price": 102.03,
         "trend": "alcista"
       },
       "US10Y": {
@@ -24,20 +24,20 @@
     "News from the Yahoo Finance Network",
     "Convert $50,000 Inside a 401(k) and the Plan Can’t Withhold a Dollar of Tax From It. All $50,000 Lands in the Roth and the Bill Comes in April. Convert the Same $50,000 From an IRA and the Custodian Offers to Withhold, Which Is the Trap",
     "How Many Americans Have Banked a Cool $5 Million for Retirement?",
-    "Microsoft offers voluntary buyout to 60,000 employees",
+    "One of the world’s richest countries has taxed personal wealth for over a century—while also adding more millionaires",
     "What Income Qualifies Retirees as Middle Class in 2026? Census Bureau Data Explained",
+    "Adult Kids Are Talking Their Parents Out of Florida, and One Argument Works Every Time",
     "Warren Buffett bought this company in 1988 when ‘no one’ wanted it — now it pays Berkshire $848 million a year",
-    "Powerball jackpot climbs to $1 billion. What you'd pocket after taxes, and what to do with the rest.",
-    "Adult Kids Are Talking Their Parents Out of Florida, and One Argument Works Every Time"
+    "Microsoft offers voluntary buyout to 60,000 employees"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79941.5234375,
-        "perp_last_price": 79941.5234375,
-        "mark_price": 79941.5234375,
-        "index_price": 79941.5234375,
+        "spot_price": 79702.296875,
+        "perp_last_price": 79702.296875,
+        "mark_price": 79702.296875,
+        "index_price": 79702.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 79941.5234375,
-        "stop_loss_technical": 80705.296875,
-        "target_1": 78795.86328125,
-        "target_2": 77650.203125,
+        "entry_ideal": 79702.296875,
+        "stop_loss_technical": 80710.0390625,
+        "target_1": 78190.68359375,
+        "target_2": 76679.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 79941.5234375,
+        "entry_ideal": 79702.296875,
         "stop_loss_technical": 84301.28125,
-        "target_1": 73401.88671875,
-        "target_2": 66862.25,
+        "target_1": 72803.8203125,
+        "target_2": 65905.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
