@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-26T01:16:24.810730+00:00",
+    "generated_at_utc": "2026-10-26T06:17:01.155772+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.661,
-        "trend": "bajista"
+        "price": 101.707,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.988,
@@ -21,54 +21,50 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 7h 14m",
     "News from the Yahoo Finance Network",
     "Convert $50,000 Inside a 401(k) and the Plan Can’t Withhold a Dollar of Tax From It. All $50,000 Lands in the Roth and the Bill Comes in April. Convert the Same $50,000 From an IRA and the Custodian Offers to Withhold, Which Is the Trap",
     "‘I Don’t Want You to Contribute to a Trump Account for a Child. Period’: Suze Orman Says Take the Free $1,000 and Your Employer’s $2,500, Then Stop.",
-    "Warren Buffett Has 1 Piece of Advice for Investors Worried About a Crash, and History Proves It Works",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?",
+    "Warren Buffett Has 1 Piece of Advice for Investors Worried About a Crash, and History Proves It Works",
     "Suze Orman Says Retirees Don’t Necessarily Need Bonds. Here’s What She Prefers",
-    "US Treasury just opened the door to a major gold comeback — now America’s fiscal fate could change forever"
+    "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79891.9375,
-        "perp_last_price": 79891.9375,
-        "mark_price": 79891.9375,
-        "index_price": 79891.9375,
+        "spot_price": 80029.7265625,
+        "perp_last_price": 80029.7265625,
+        "mark_price": 80029.7265625,
+        "index_price": 80029.7265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 79888.0078125,
-        "stop_loss_technical": 78689.68769531,
-        "target_1": 81685.48798828,
-        "target_2": 83482.96816406,
+        "entry_ideal": 80019.2578125,
+        "stop_loss_technical": 80822.2109375,
+        "target_1": 78814.828125,
+        "target_2": 77610.3984375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 79891.9375,
-        "stop_loss_technical": 78693.5584375,
-        "target_1": 81689.50609375,
-        "target_2": 83487.0746875,
+        "entry_ideal": 80029.7265625,
+        "stop_loss_technical": 84301.28125,
+        "target_1": 73622.39453125,
+        "target_2": 67215.0625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +79,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +92,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
