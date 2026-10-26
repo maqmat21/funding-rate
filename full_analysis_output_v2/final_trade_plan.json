@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-25T23:18:56.311259+00:00",
+    "generated_at_utc": "2026-10-26T01:16:24.810730+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.752,
-        "trend": "alcista"
+        "price": 101.661,
+        "trend": "bajista"
       },
       "US10Y": {
         "price": 4.988,
@@ -28,45 +28,47 @@
     "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?",
     "Suze Orman Says Retirees Don’t Necessarily Need Bonds. Here’s What She Prefers",
-    "In 1985, He Was Forced Out of the Company He Founded. Months Later He Bet $10 Million On A Graphics Unit He Bought From George Lucas. By 2006, That Bet Was Worth Far More Than His Apple Stock"
+    "US Treasury just opened the door to a major gold comeback — now America’s fiscal fate could change forever"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80199.046875,
-        "perp_last_price": 80199.046875,
-        "mark_price": 80199.046875,
-        "index_price": 80199.046875,
+        "spot_price": 79891.9375,
+        "perp_last_price": 79891.9375,
+        "mark_price": 79891.9375,
+        "index_price": 79891.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80199.046875,
-        "stop_loss_technical": 80858.3984375,
-        "target_1": 79210.01953125,
-        "target_2": 78220.9921875,
+        "entry_ideal": 79888.0078125,
+        "stop_loss_technical": 78689.68769531,
+        "target_1": 81685.48798828,
+        "target_2": 83482.96816406,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80199.046875,
-        "stop_loss_technical": 84840.046875,
-        "target_1": 73237.546875,
-        "target_2": 66276.046875,
+        "entry_ideal": 79891.9375,
+        "stop_loss_technical": 78693.5584375,
+        "target_1": 81689.50609375,
+        "target_2": 83487.0746875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
