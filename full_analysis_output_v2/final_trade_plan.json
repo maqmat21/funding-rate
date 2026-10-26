@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-26T06:17:01.155772+00:00",
+    "generated_at_utc": "2026-10-26T13:08:51.083519+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.707,
+        "price": 101.903,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.988,
+        "price": 4.99,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 14m",
     "News from the Yahoo Finance Network",
     "Convert $50,000 Inside a 401(k) and the Plan Can’t Withhold a Dollar of Tax From It. All $50,000 Lands in the Roth and the Bill Comes in April. Convert the Same $50,000 From an IRA and the Custodian Offers to Withhold, Which Is the Trap",
     "‘I Don’t Want You to Contribute to a Trump Account for a Child. Period’: Suze Orman Says Take the Free $1,000 and Your Employer’s $2,500, Then Stop.",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett Has 1 Piece of Advice for Investors Worried About a Crash, and History Proves It Works",
+    "Michael Burry Says S&P 500 Looks ‘Uncannily Close’ To 2000 — And ‘Busted’ Stocks Could Be The Winners",
     "Suze Orman Says Retirees Don’t Necessarily Need Bonds. Here’s What She Prefers",
-    "Social Security kept paying a dead Florida woman for nearly 6 years — and her great-niece cashed in. Who's on the hook?"
+    "In 1985, He Was Forced Out of the Company He Founded. Months Later He Bet $10 Million On A Graphics Unit He Bought From George Lucas. By 2006, That Bet Was Worth Far More Than His Apple Stock",
+    "4 of the Highest Yields in the S&P 500 That Are Actually Covered"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80029.7265625,
-        "perp_last_price": 80029.7265625,
-        "mark_price": 80029.7265625,
-        "index_price": 80029.7265625,
+        "spot_price": 80101.9375,
+        "perp_last_price": 80101.9375,
+        "mark_price": 80101.9375,
+        "index_price": 80101.9375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 80019.2578125,
-        "stop_loss_technical": 80822.2109375,
-        "target_1": 78814.828125,
-        "target_2": 77610.3984375,
+        "entry_ideal": 80101.9375,
+        "stop_loss_technical": 80708.9375,
+        "target_1": 79191.4375,
+        "target_2": 78280.9375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -61,10 +62,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 80029.7265625,
+        "entry_ideal": 80101.9375,
         "stop_loss_technical": 84301.28125,
-        "target_1": 73622.39453125,
-        "target_2": 67215.0625,
+        "target_1": 73802.921875,
+        "target_2": 67503.90625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
