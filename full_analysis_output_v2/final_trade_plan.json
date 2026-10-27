@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-27T13:25:25.990968+00:00",
+    "generated_at_utc": "2026-10-27T18:46:52.329946+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,61 +11,62 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.202,
+        "price": 102.302,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.993,
+        "price": 4.99,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
+    "U.S. markets close in 1h 14m",
     "News from the Yahoo Finance Network",
     "One of the world’s richest countries has taxed personal wealth for over a century—while also adding more millionaires",
-    "What Happens When You Replace JEPI With JEPQ in an $820,000 Income Portfolio",
     "Charlie Munger Said ‘Filthy Rich’ Don’t Need to Take Risks for More Money — Warren Buffett Told Him He Didn’t Need an ‘Extra Zero On His Tombstone’",
-    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
     "How Does Your Net Worth Compare? New Fed Data Breaks It Down by Age",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
-    "Take a $400,000 Pension Lump Sum at 62 and Roll It Into an IRA, and It Turns Into a $26,000 RMD at 73. Take the $2,400 Monthly Pension Instead and Nothing Is Ever Required, but Nothing Is Left for the Kids Either"
+    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
+    "AT&T settlement payouts could reach $5,000 for eligible customers",
+    "If Your Monthly Social Security Check Is Larger Than This, You're Beating the Average Retiree"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80031.921875,
-        "perp_last_price": 80031.921875,
-        "mark_price": 80031.921875,
-        "index_price": 80031.921875,
+        "spot_price": 80588.2578125,
+        "perp_last_price": 80588.2578125,
+        "mark_price": 80588.2578125,
+        "index_price": 80588.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80047.1328125,
-        "stop_loss_technical": 80363.703125,
-        "target_1": 79572.27734375,
-        "target_2": 79097.421875,
+        "entry_ideal": 80584.1015625,
+        "stop_loss_technical": 79369.6875,
+        "target_1": 82405.72265625,
+        "target_2": 84227.34375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80031.921875,
+        "entry_ideal": 80588.2578125,
         "stop_loss_technical": 79145.5390625,
-        "target_1": 81361.49609375,
-        "target_2": 82691.0703125,
+        "target_1": 82752.3359375,
+        "target_2": 84916.4140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
