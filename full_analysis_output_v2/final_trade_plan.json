@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-27T02:00:27.193440+00:00",
+    "generated_at_utc": "2026-10-27T07:26:29.290237+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.073,
+        "price": 102.154,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,27 +21,40 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 5m",
     "News from the Yahoo Finance Network",
     "One of the world’s richest countries has taxed personal wealth for over a century—while also adding more millionaires",
     "Convert $50,000 Inside a 401(k) and the Plan Can’t Withhold a Dollar of Tax From It. All $50,000 Lands in the Roth and the Bill Comes in April. Convert the Same $50,000 From an IRA and the Custodian Offers to Withhold, Which Is the Trap",
-    "Adult Kids Are Talking Their Parents Out of Florida, and One Argument Works Every Time",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
-    "JPMorgan's CEO just sent a memo to anyone watching the U.S. economy",
     "Charlie Munger Said ‘Filthy Rich’ Don’t Need to Take Risks for More Money — Warren Buffett Told Him He Didn’t Need an ‘Extra Zero On His Tombstone’",
-    "What Income Qualifies Retirees as Middle Class in 2026? Census Bureau Data Explained"
+    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
+    "How Does Your Net Worth Compare? New Fed Data Breaks It Down by Age",
+    "JPMorgan's CEO just sent a memo to anyone watching the U.S. economy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79938.6875,
-        "perp_last_price": 79938.6875,
-        "mark_price": 79938.6875,
-        "index_price": 79938.6875,
+        "spot_price": 79573.0,
+        "perp_last_price": 79573.0,
+        "mark_price": 79573.0,
+        "index_price": 79573.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 79575.6171875,
+        "stop_loss_technical": 79338.359375,
+        "target_1": 79931.50390625,
+        "target_2": 80287.390625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 74,
@@ -49,23 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 79938.6875,
-        "stop_loss_technical": 80710.0390625,
-        "target_1": 78781.66015625,
-        "target_2": 77624.6328125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio < EMA20"
-        ],
-        "entry_ideal": 79938.6875,
+        "entry_ideal": 79573.0,
         "stop_loss_technical": 81956.34375,
-        "target_1": 76912.203125,
-        "target_2": 73885.71875,
+        "target_1": 75997.984375,
+        "target_2": 72422.96875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
