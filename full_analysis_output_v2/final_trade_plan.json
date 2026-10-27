@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-27T18:46:52.329946+00:00",
+    "generated_at_utc": "2026-10-27T22:38:46.812677+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.302,
+        "price": 102.365,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.99,
+        "price": 4.993,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 14m",
     "News from the Yahoo Finance Network",
-    "One of the world’s richest countries has taxed personal wealth for over a century—while also adding more millionaires",
-    "Charlie Munger Said ‘Filthy Rich’ Don’t Need to Take Risks for More Money — Warren Buffett Told Him He Didn’t Need an ‘Extra Zero On His Tombstone’",
+    "How Many US Families Have $1 Million in Retirement Accounts?",
     "How Does Your Net Worth Compare? New Fed Data Breaks It Down by Age",
+    "If Your Monthly Social Security Check Is Larger Than This, You're Beating the Average Retiree",
     "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
-    "AT&T settlement payouts could reach $5,000 for eligible customers",
-    "If Your Monthly Social Security Check Is Larger Than This, You're Beating the Average Retiree"
+    "How to pay zero taxes on Social Security without Trump’s promises — 5 strategies to protect your retirement income",
+    "Warren Buffett sends timeless advice to S&P 500 stock investors",
+    "What Is the Required Minimum Distribution (RMD) for a $500,000 Retirement Account?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80588.2578125,
-        "perp_last_price": 80588.2578125,
-        "mark_price": 80588.2578125,
-        "index_price": 80588.2578125,
+        "spot_price": 80740.703125,
+        "perp_last_price": 80740.703125,
+        "mark_price": 80740.703125,
+        "index_price": 80740.703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 80584.1015625,
-        "stop_loss_technical": 79369.6875,
-        "target_1": 82405.72265625,
-        "target_2": 84227.34375,
+        "entry_ideal": 80740.703125,
+        "stop_loss_technical": 81177.046875,
+        "target_1": 80086.1875,
+        "target_2": 79431.671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 80588.2578125,
+        "entry_ideal": 80740.703125,
         "stop_loss_technical": 79145.5390625,
-        "target_1": 82752.3359375,
-        "target_2": 84916.4140625,
+        "target_1": 83133.44921875,
+        "target_2": 85526.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
