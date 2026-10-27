@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-27T07:26:29.290237+00:00",
+    "generated_at_utc": "2026-10-27T13:25:25.990968+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,50 +11,37 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.154,
+        "price": 102.202,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.986,
+        "price": 4.993,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 5m",
     "News from the Yahoo Finance Network",
     "One of the world’s richest countries has taxed personal wealth for over a century—while also adding more millionaires",
-    "Convert $50,000 Inside a 401(k) and the Plan Can’t Withhold a Dollar of Tax From It. All $50,000 Lands in the Roth and the Bill Comes in April. Convert the Same $50,000 From an IRA and the Custodian Offers to Withhold, Which Is the Trap",
+    "What Happens When You Replace JEPI With JEPQ in an $820,000 Income Portfolio",
     "Charlie Munger Said ‘Filthy Rich’ Don’t Need to Take Risks for More Money — Warren Buffett Told Him He Didn’t Need an ‘Extra Zero On His Tombstone’",
-    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
+    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
     "How Does Your Net Worth Compare? New Fed Data Breaks It Down by Age",
-    "JPMorgan's CEO just sent a memo to anyone watching the U.S. economy"
+    "How Many Americans Have Banked a Cool $5 Million for Retirement?",
+    "Take a $400,000 Pension Lump Sum at 62 and Roll It Into an IRA, and It Turns Into a $26,000 RMD at 73. Take the $2,400 Monthly Pension Instead and Nothing Is Ever Required, but Nothing Is Left for the Kids Either"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79573.0,
-        "perp_last_price": 79573.0,
-        "mark_price": 79573.0,
-        "index_price": 79573.0,
+        "spot_price": 80031.921875,
+        "perp_last_price": 80031.921875,
+        "mark_price": 80031.921875,
+        "index_price": 80031.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 79575.6171875,
-        "stop_loss_technical": 79338.359375,
-        "target_1": 79931.50390625,
-        "target_2": 80287.390625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 74,
@@ -62,10 +49,23 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 79573.0,
-        "stop_loss_technical": 81956.34375,
-        "target_1": 75997.984375,
-        "target_2": 72422.96875,
+        "entry_ideal": 80047.1328125,
+        "stop_loss_technical": 80363.703125,
+        "target_1": 79572.27734375,
+        "target_2": 79097.421875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio > EMA20"
+        ],
+        "entry_ideal": 80031.921875,
+        "stop_loss_technical": 79145.5390625,
+        "target_1": 81361.49609375,
+        "target_2": 82691.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
