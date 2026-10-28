@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-28T14:10:39.780800+00:00",
+    "generated_at_utc": "2026-10-28T19:34:45.175154+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,60 +11,62 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.342,
+        "price": 102.1,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.001,
+        "price": 5.04,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 5h 50m",
     "News from the Yahoo Finance Network",
     "How Many US Families Have $1 Million in Retirement Accounts?",
     "Paul Pierce reveals he’s ‘drowning financially’ after $200M NBA career — only $300K left in bank. Stretch your nest egg",
+    "Oracle shares jump as long-term outlook targets $225 billion in revenue",
     "Obama mocked Trump’s gold White House as a Cheesecake Factory. The chain just posted a record quarter",
-    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
     "70-year-old roast beef dining chain closes, blames rising prices",
-    "Mark Cuban says AI data centers could become ‘pickleball courts’ and urges investors to have cash ready. Should you?"
+    "Generation X is freaking out about its impending retirement",
+    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80559.34375,
-        "perp_last_price": 80559.34375,
-        "mark_price": 80559.34375,
-        "index_price": 80559.34375,
+        "spot_price": 81231.6875,
+        "perp_last_price": 81231.6875,
+        "mark_price": 81231.6875,
+        "index_price": 81231.6875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80559.34375,
-        "stop_loss_technical": 81694.390625,
-        "target_1": 78856.7734375,
-        "target_2": 77154.203125,
+        "entry_ideal": 81246.3671875,
+        "stop_loss_technical": 80277.203125,
+        "target_1": 82700.11328125,
+        "target_2": 84153.859375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80559.34375,
-        "stop_loss_technical": 81694.390625,
-        "target_1": 78856.7734375,
-        "target_2": 77154.203125,
+        "entry_ideal": 81231.6875,
+        "stop_loss_technical": 79145.5390625,
+        "target_1": 84360.91015625,
+        "target_2": 87490.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
