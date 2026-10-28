@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-28T19:34:45.175154+00:00",
+    "generated_at_utc": "2026-10-28T23:28:39.594527+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.1,
+        "price": 102.155,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.04,
+        "price": 5.045,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "How Many US Families Have $1 Million in Retirement Accounts?",
-    "Paul Pierce reveals he’s ‘drowning financially’ after $200M NBA career — only $300K left in bank. Stretch your nest egg",
-    "Oracle shares jump as long-term outlook targets $225 billion in revenue",
+    "Costco faces major food court complaints",
+    "Elon Musk once backed Buffett’s 5-minute fix for national debt: ‘This is the way’",
     "Obama mocked Trump’s gold White House as a Cheesecake Factory. The chain just posted a record quarter",
-    "70-year-old roast beef dining chain closes, blames rising prices",
     "Generation X is freaking out about its impending retirement",
-    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?"
+    "Law firm that handled Lehman, Enron bankruptcies plans to wind down",
+    "Mark Cuban says AI data centers could become ‘pickleball courts’ and urges investors to have cash ready. Should you?",
+    "What Proposed Roth IRA Rollover Rules Could Mean for Retirement Savers"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81231.6875,
-        "perp_last_price": 81231.6875,
-        "mark_price": 81231.6875,
-        "index_price": 81231.6875,
+        "spot_price": 81241.25,
+        "perp_last_price": 81241.25,
+        "mark_price": 81241.25,
+        "index_price": 81241.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 81246.3671875,
+        "entry_ideal": 81241.25,
         "stop_loss_technical": 80277.203125,
-        "target_1": 82700.11328125,
-        "target_2": 84153.859375,
+        "target_1": 82687.3203125,
+        "target_2": 84133.390625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 81231.6875,
+        "entry_ideal": 81241.25,
         "stop_loss_technical": 79145.5390625,
-        "target_1": 84360.91015625,
-        "target_2": 87490.1328125,
+        "target_1": 84384.81640625,
+        "target_2": 87528.3828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
