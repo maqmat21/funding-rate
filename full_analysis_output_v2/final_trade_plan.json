@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-27T22:38:46.812677+00:00",
+    "generated_at_utc": "2026-10-28T01:39:55.127586+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.365,
+        "price": 102.381,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,36 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "How Many US Families Have $1 Million in Retirement Accounts?",
+    "Paul Pierce reveals he’s ‘drowning financially’ after $200M NBA career — only $300K left in bank. Stretch your nest egg",
+    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
     "How Does Your Net Worth Compare? New Fed Data Breaks It Down by Age",
     "If Your Monthly Social Security Check Is Larger Than This, You're Beating the Average Retiree",
-    "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
     "How to pay zero taxes on Social Security without Trump’s promises — 5 strategies to protect your retirement income",
-    "Warren Buffett sends timeless advice to S&P 500 stock investors",
-    "What Is the Required Minimum Distribution (RMD) for a $500,000 Retirement Account?"
+    "70-year-old roast beef dining chain closes, blames rising prices"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80740.703125,
-        "perp_last_price": 80740.703125,
-        "mark_price": 80740.703125,
-        "index_price": 80740.703125,
+        "spot_price": 80795.109375,
+        "perp_last_price": 80795.109375,
+        "mark_price": 80795.109375,
+        "index_price": 80795.109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 80740.703125,
-        "stop_loss_technical": 81177.046875,
-        "target_1": 80086.1875,
-        "target_2": 79431.671875,
+        "entry_ideal": 80795.109375,
+        "stop_loss_technical": 79369.6875,
+        "target_1": 82933.2421875,
+        "target_2": 85071.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 80740.703125,
+        "entry_ideal": 80795.109375,
         "stop_loss_technical": 79145.5390625,
-        "target_1": 83133.44921875,
-        "target_2": 85526.1953125,
+        "target_1": 83269.46484375,
+        "target_2": 85743.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
