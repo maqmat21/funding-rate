@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-28T23:28:39.594527+00:00",
+    "generated_at_utc": "2026-10-29T02:37:04.704099+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.155,
+        "price": 102.087,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,10 +23,10 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Costco faces major food court complaints",
+    "Anthony Scaramucci Says 3 ‘Catastrophic Decisions’ Fueled Trump’s Rise to Power: ‘He Understands...These People Have No Hope’",
     "Elon Musk once backed Buffett’s 5-minute fix for national debt: ‘This is the way’",
     "Obama mocked Trump’s gold White House as a Cheesecake Factory. The chain just posted a record quarter",
-    "Generation X is freaking out about its impending retirement",
-    "Law firm that handled Lehman, Enron bankruptcies plans to wind down",
+    "For the first time since 1992, a Fed governor and president dissented together, as Kevin Warsh says the ‘monetary medicine’ is starting to work",
     "Mark Cuban says AI data centers could become ‘pickleball courts’ and urges investors to have cash ready. Should you?",
     "What Proposed Roth IRA Rollover Rules Could Mean for Retirement Savers"
   ],
@@ -34,38 +34,39 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 81241.25,
-        "perp_last_price": 81241.25,
-        "mark_price": 81241.25,
-        "index_price": 81241.25,
+        "spot_price": 79679.71875,
+        "perp_last_price": 79679.71875,
+        "mark_price": 79679.71875,
+        "index_price": 79679.71875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81241.25,
-        "stop_loss_technical": 80277.203125,
-        "target_1": 82687.3203125,
-        "target_2": 84133.390625,
+        "entry_ideal": 79679.71875,
+        "stop_loss_technical": 81700.0,
+        "target_1": 76649.296875,
+        "target_2": 73618.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 81241.25,
-        "stop_loss_technical": 79145.5390625,
-        "target_1": 84384.81640625,
-        "target_2": 87528.3828125,
+        "entry_ideal": 79679.71875,
+        "stop_loss_technical": 81700.0,
+        "target_1": 76649.296875,
+        "target_2": 73618.875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
