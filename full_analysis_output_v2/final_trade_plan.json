@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-29T02:37:04.704099+00:00",
+    "generated_at_utc": "2026-10-29T08:52:13.440772+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 102.087,
-        "trend": "bajista"
+        "price": 102.253,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 5.045,
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 39m",
     "News from the Yahoo Finance Network",
+    "History Says This Recession Indicator Is Almost Never Wrong. Here's What It's Saying Right Now.",
     "Costco faces major food court complaints",
-    "Anthony Scaramucci Says 3 ‘Catastrophic Decisions’ Fueled Trump’s Rise to Power: ‘He Understands...These People Have No Hope’",
     "Elon Musk once backed Buffett’s 5-minute fix for national debt: ‘This is the way’",
-    "Obama mocked Trump’s gold White House as a Cheesecake Factory. The chain just posted a record quarter",
+    "Anthony Scaramucci Says 3 ‘Catastrophic Decisions’ Fueled Trump’s Rise to Power: ‘He Understands...These People Have No Hope’",
     "For the first time since 1992, a Fed governor and president dissented together, as Kevin Warsh says the ‘monetary medicine’ is starting to work",
-    "Mark Cuban says AI data centers could become ‘pickleball courts’ and urges investors to have cash ready. Should you?",
-    "What Proposed Roth IRA Rollover Rules Could Mean for Retirement Savers"
+    "GOOGL Tumbles Over 10% Premarket: Analyst Says Investors Underappreciate Alphabet’s AI Strength"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 79679.71875,
-        "perp_last_price": 79679.71875,
-        "mark_price": 79679.71875,
-        "index_price": 79679.71875,
+        "spot_price": 79780.296875,
+        "perp_last_price": 79780.296875,
+        "mark_price": 79780.296875,
+        "index_price": 79780.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79679.71875,
-        "stop_loss_technical": 81700.0,
-        "target_1": 76649.296875,
-        "target_2": 73618.875,
+        "entry_ideal": 79780.296875,
+        "stop_loss_technical": 81708.3984375,
+        "target_1": 76888.14453125,
+        "target_2": 73995.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 79679.71875,
-        "stop_loss_technical": 81700.0,
-        "target_1": 76649.296875,
-        "target_2": 73618.875,
+        "entry_ideal": 79780.296875,
+        "stop_loss_technical": 81708.3984375,
+        "target_1": 76888.14453125,
+        "target_2": 73995.9921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
