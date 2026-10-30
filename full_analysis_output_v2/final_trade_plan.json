@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-30T17:14:29.500709+00:00",
+    "generated_at_utc": "2026-10-30T21:31:11.819037+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.945,
+        "price": 101.964,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.954,
+        "price": 4.929,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 46m",
     "News from the Yahoo Finance Network",
-    "‘It Probably Costs You $700,000, Which Makes Me Want to Puke’: Dave Ramsey to 54 Year Old With $2.8 Million IRA",
     "US Pentagon prepares for America’s ‘doomsday’: Military now bracing for 90 days of isolation. Crisis-proof your nest egg",
+    "In-N-Out burger may be headed to these 3 states next",
+    "‘It Probably Costs You $700,000, Which Makes Me Want to Puke’: Dave Ramsey to 54 Year Old With $2.8 Million IRA",
     "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
-    "How Much Do Americans Have in the Bank? Median Balances by Age, Family Type, and Education",
-    "‘Fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend, spend, spend?",
-    "Think you’re a ‘rich retiree?’ You might just be upper middle class — how to tell if you’re actually in the top 10%"
+    "Who Holds $1 Million in Retirement Accounts? New Fed Data Shows the Demographic Breakdown",
+    "Think you’re a ‘rich retiree?’ You might just be upper middle class — how to tell if you’re actually in the top 10%",
+    "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77082.2421875,
-        "perp_last_price": 77082.2421875,
-        "mark_price": 77082.2421875,
-        "index_price": 77082.2421875,
+        "spot_price": 76686.7890625,
+        "perp_last_price": 76686.7890625,
+        "mark_price": 76686.7890625,
+        "index_price": 76686.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 77082.2421875,
-        "stop_loss_technical": 79132.1796875,
-        "target_1": 74007.3359375,
-        "target_2": 70932.4296875,
+        "entry_ideal": 76686.7890625,
+        "stop_loss_technical": 76147.4375,
+        "target_1": 77495.81640625,
+        "target_2": 78304.84375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 77082.2421875,
+        "entry_ideal": 76686.7890625,
         "stop_loss_technical": 81889.9453125,
-        "target_1": 69870.6875,
-        "target_2": 62659.1328125,
+        "target_1": 68882.0546875,
+        "target_2": 61077.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
