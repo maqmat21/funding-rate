@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-30T05:53:29.628329+00:00",
+    "generated_at_utc": "2026-10-30T11:46:25.367067+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.839,
+        "price": 101.674,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 7h 38m",
+    "U.S. markets open in 1h 44m",
     "News from the Yahoo Finance Network",
-    "How Much Do Americans Have in the Bank? Median Balances by Age, Family Type, and Education",
+    "‘It Probably Costs You $700,000, Which Makes Me Want to Puke’: Dave Ramsey to 54 Year Old With $2.8 Million IRA",
     "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
+    "How Much Do Americans Have in the Bank? Median Balances by Age, Family Type, and Education",
     "Popular fried chicken chain suddenly closes all stores",
-    "'You'll be my guest': Trump invites Americans to Mar-a-Lago but laughs that $5K will only get them a burger and dessert",
-    "The 2032 blind spot: Many Americans don't know a 22% Social Security cut is looming",
-    "Jim Cramer praises Broadcom and recommends buying another iconic stock"
+    "The Pentagon and Britain are bracing for the power to go out. The ultrawealthy got there first, with backup generators, escape homes, and stockpiles",
+    "The 2032 blind spot: Many Americans don't know a 22% Social Security cut is looming"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78444.09375,
-        "perp_last_price": 78444.09375,
-        "mark_price": 78444.09375,
-        "index_price": 78444.09375,
+        "spot_price": 77325.0,
+        "perp_last_price": 77325.0,
+        "mark_price": 77325.0,
+        "index_price": 77325.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,12 +47,13 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78444.09375,
-        "stop_loss_technical": 77267.43234375,
-        "target_1": 80209.08585938,
-        "target_2": 81974.07796875,
+        "entry_ideal": 77351.171875,
+        "stop_loss_technical": 76190.90429688,
+        "target_1": 79091.57324219,
+        "target_2": 80831.97460938,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 78444.09375,
-        "stop_loss_technical": 77267.43234375,
-        "target_1": 80209.08585938,
-        "target_2": 81974.07796875,
+        "entry_ideal": 77325.0,
+        "stop_loss_technical": 76165.125,
+        "target_1": 79064.8125,
+        "target_2": 80804.625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
