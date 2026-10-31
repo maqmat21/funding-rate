@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-31T20:39:00.677097+00:00",
+    "generated_at_utc": "2026-10-31T23:41:35.086242+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,8 +25,8 @@
     "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
     "Beloved seafood restaurant suddenly closes all locations after 98 years",
     "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor’s Name Was Warren Buffett. 14 Years Later Homer Dodge’s Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth More Than $2.7 Billion",
-    "'I Held Out Until It Got Back To Almost Where I Paid For It And Then I Sold It': Late Billionaire Charlie Munger Once Admitted He Made The Classic Amateur Mistake",
     "Who Holds $1 Million in Retirement Accounts? New Fed Data Shows the Demographic Breakdown",
+    "'I Held Out Until It Got Back To Almost Where I Paid For It And Then I Sold It': Late Billionaire Charlie Munger Once Admitted He Made The Classic Amateur Mistake",
     "In-N-Out burger may be headed to these 3 states next",
     "If a Bear Market Is Coming, History Says These Stocks Could Be the Smartest to Own"
   ],
@@ -34,37 +34,38 @@
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77440.46875,
-        "perp_last_price": 77440.46875,
-        "mark_price": 77440.46875,
-        "index_price": 77440.46875,
+        "spot_price": 77381.2578125,
+        "perp_last_price": 77381.2578125,
+        "mark_price": 77381.2578125,
+        "index_price": 77381.2578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio < EMA20",
+          "RSI Bear"
+        ],
+        "entry_ideal": 77381.2578125,
+        "stop_loss_technical": 77638.1171875,
+        "target_1": 76995.96875,
+        "target_2": 76610.6796875,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 77440.46875,
-        "stop_loss_technical": 77638.1171875,
-        "target_1": 77143.99609375,
-        "target_2": 76847.5234375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 77440.46875,
-        "stop_loss_technical": 76189.8828125,
-        "target_1": 79316.34765625,
-        "target_2": 81192.2265625,
+        "entry_ideal": 77381.2578125,
+        "stop_loss_technical": 81889.9453125,
+        "target_1": 70618.2265625,
+        "target_2": 63855.1953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
