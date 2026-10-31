@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-31T13:05:42.125907+00:00",
+    "generated_at_utc": "2026-10-31T17:38:50.702708+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
     "Beloved seafood restaurant suddenly closes all locations after 98 years",
-    "US Pentagon prepares for America’s ‘doomsday’: Military now bracing for 90 days of isolation. Crisis-proof your nest egg",
     "'I Held Out Until It Got Back To Almost Where I Paid For It And Then I Sold It': Late Billionaire Charlie Munger Once Admitted He Made The Classic Amateur Mistake",
-    "Jamie Dimon warns US savers about Washington’s ‘heroin’ effect — it could crush you. Here’s how his bank protects itself",
-    "In-N-Out burger may be headed to these 3 states next",
     "Who Holds $1 Million in Retirement Accounts? New Fed Data Shows the Demographic Breakdown",
+    "In-N-Out burger may be headed to these 3 states next",
+    "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor’s Name Was Warren Buffett. 14 Years Later Homer Dodge’s Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth More Than $2.7 Billion",
     "Jeff Bezos' father fled Cuba at 16 with three shirts — then invested $245,573 in life savings to help launch Amazon"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77343.90625,
-        "perp_last_price": 77343.90625,
-        "mark_price": 77343.90625,
-        "index_price": 77343.90625,
+        "spot_price": 77446.0,
+        "perp_last_price": 77446.0,
+        "mark_price": 77446.0,
+        "index_price": 77446.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 77343.90625,
-        "stop_loss_technical": 77575.0,
-        "target_1": 76997.265625,
-        "target_2": 76650.625,
+        "entry_ideal": 77446.0,
+        "stop_loss_technical": 77588.5703125,
+        "target_1": 77232.14453125,
+        "target_2": 77018.2890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +61,10 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 77343.90625,
-        "stop_loss_technical": 76147.4375,
-        "target_1": 79138.609375,
-        "target_2": 80933.3125,
+        "entry_ideal": 77446.0,
+        "stop_loss_technical": 76189.8828125,
+        "target_1": 79330.17578125,
+        "target_2": 81214.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
