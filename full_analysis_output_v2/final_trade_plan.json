@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-10-30T21:31:11.819037+00:00",
+    "generated_at_utc": "2026-10-31T00:59:55.643566+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Beloved seafood restaurant suddenly closes all locations after 98 years",
     "US Pentagon prepares for America’s ‘doomsday’: Military now bracing for 90 days of isolation. Crisis-proof your nest egg",
     "In-N-Out burger may be headed to these 3 states next",
     "‘It Probably Costs You $700,000, Which Makes Me Want to Puke’: Dave Ramsey to 54 Year Old With $2.8 Million IRA",
-    "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
     "Who Holds $1 Million in Retirement Accounts? New Fed Data Shows the Demographic Breakdown",
-    "Think you’re a ‘rich retiree?’ You might just be upper middle class — how to tell if you’re actually in the top 10%",
-    "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?"
+    "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make",
+    "Jim Cramer is ‘furious’ as Intel crashes nearly 30% — but Uncle Sam is the top shareholder. What it means for taxpayers"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76686.7890625,
-        "perp_last_price": 76686.7890625,
-        "mark_price": 76686.7890625,
-        "index_price": 76686.7890625,
+        "spot_price": 77400.0,
+        "perp_last_price": 77400.0,
+        "mark_price": 77400.0,
+        "index_price": 77400.0,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull"
+        ],
+        "entry_ideal": 77389.7890625,
+        "stop_loss_technical": 76147.4375,
+        "target_1": 79253.31640625,
+        "target_2": 81116.84375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76686.7890625,
+        "entry_ideal": 77400.0,
         "stop_loss_technical": 76147.4375,
-        "target_1": 77495.81640625,
-        "target_2": 78304.84375,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
-        ],
-        "entry_ideal": 76686.7890625,
-        "stop_loss_technical": 81889.9453125,
-        "target_1": 68882.0546875,
-        "target_2": 61077.3203125,
+        "target_1": 79278.84375,
+        "target_2": 81157.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
