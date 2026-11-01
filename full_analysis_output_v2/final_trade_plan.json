@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-01T16:19:41.665994+00:00",
+    "generated_at_utc": "2026-11-01T20:35:04.062221+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,37 +24,24 @@
     "News from the Yahoo Finance Network",
     "Beloved seafood restaurant suddenly closes all locations after 98 years",
     "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor’s Name Was Warren Buffett. 14 Years Later Homer Dodge’s Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth More Than $2.7 Billion",
-    "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
-    "If you really want to help your adult kids and grandkids, give them money while you’re still alive",
     "At 75, the IRS Will Set the Withdrawal Amount on a $900,000 401(k). Affluent Investors Over 60 Are Making Sure It’s Empty by Then",
     "Elon Musk’s new warning raises a big question for investors heading into 2027. Should you still bet on Trump’s America?",
-    "Who Holds $1 Million in Retirement Accounts? New Fed Data Shows the Demographic Breakdown"
+    "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
+    "If you really want to help your adult kids and grandkids, give them money while you’re still alive",
+    "Warren Buffett hasn’t had water in 48 years, says Ackman. His $1.3B bet on his favorite drink now pays $848M a year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77902.2890625,
-        "perp_last_price": 77902.2890625,
-        "mark_price": 77902.2890625,
-        "index_price": 77902.2890625,
+        "spot_price": 77712.2265625,
+        "perp_last_price": 77712.2265625,
+        "mark_price": 77712.2265625,
+        "index_price": 77712.2265625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
-        "technical_reasoning": [
-          "Precio > EMA20"
-        ],
-        "entry_ideal": 77902.2890625,
-        "stop_loss_technical": 77288.9765625,
-        "target_1": 78822.2578125,
-        "target_2": 79742.2265625,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "verde",
         "bias": "long",
         "probability_pct": 74,
@@ -62,10 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 77902.2890625,
-        "stop_loss_technical": 76189.8828125,
-        "target_1": 80470.8984375,
-        "target_2": 83039.5078125,
+        "entry_ideal": 77714.1796875,
+        "stop_loss_technical": 77503.9765625,
+        "target_1": 78029.484375,
+        "target_2": 78344.7890625,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 77712.2265625,
+        "stop_loss_technical": 81889.9453125,
+        "target_1": 71445.6484375,
+        "target_2": 65179.0703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
