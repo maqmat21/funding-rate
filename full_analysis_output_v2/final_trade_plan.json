@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-01T02:36:36.828766+00:00",
+    "generated_at_utc": "2026-11-01T09:39:33.107384+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
     "Beloved seafood restaurant suddenly closes all locations after 98 years",
+    "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
     "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor’s Name Was Warren Buffett. 14 Years Later Homer Dodge’s Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth More Than $2.7 Billion",
     "Who Holds $1 Million in Retirement Accounts? New Fed Data Shows the Demographic Breakdown",
     "In-N-Out burger may be headed to these 3 states next",
-    "Jamie Dimon warns US savers about Washington’s ‘heroin’ effect — it could crush you. Here’s how his bank protects itself",
-    "Jeff Bezos' father fled Cuba at 16 with three shirts — then invested $245,573 in life savings to help launch Amazon"
+    "Prediction: This Will Be Intel's Stock Price by Year-End 2027",
+    "Tulsa woman inherits hoarder dad's condo, finds brown recluse spiders and a box of teeth — now expects $100K in repairs"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77566.03125,
-        "perp_last_price": 77566.03125,
-        "mark_price": 77566.03125,
-        "index_price": 77566.03125,
+        "spot_price": 77921.2734375,
+        "perp_last_price": 77921.2734375,
+        "mark_price": 77921.2734375,
+        "index_price": 77921.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,24 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 77566.03125,
-        "stop_loss_technical": 77747.4765625,
-        "target_1": 77293.86328125,
-        "target_2": 77021.6953125,
+        "entry_ideal": 77921.2734375,
+        "stop_loss_technical": 78125.90625,
+        "target_1": 77614.32421875,
+        "target_2": 77307.375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 77566.03125,
+        "entry_ideal": 77921.2734375,
         "stop_loss_technical": 76189.8828125,
-        "target_1": 79630.25390625,
-        "target_2": 81694.4765625,
+        "target_1": 80518.359375,
+        "target_2": 83115.4453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
