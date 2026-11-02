@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-01T23:50:52.001706+00:00",
+    "generated_at_utc": "2026-11-02T03:01:31.109667+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.966,
+        "price": 101.985,
         "trend": "alcista"
       },
       "US10Y": {
@@ -22,37 +22,36 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Beloved seafood restaurant suddenly closes all locations after 98 years",
     "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor’s Name Was Warren Buffett. 14 Years Later Homer Dodge’s Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth More Than $2.7 Billion",
     "At 75, the IRS Will Set the Withdrawal Amount on a $900,000 401(k). Affluent Investors Over 60 Are Making Sure It’s Empty by Then",
     "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "Elon Musk’s new warning raises a big question for investors heading into 2027. Should you still bet on Trump’s America?",
-    "If you really want to help your adult kids and grandkids, give them money while you’re still alive"
+    "If you really want to help your adult kids and grandkids, give them money while you’re still alive",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "If I Could Only Buy and Hold 1 \"Magnificent Seven\" Stock Through 2030, It Would Be This One"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78237.328125,
-        "perp_last_price": 78237.328125,
-        "mark_price": 78237.328125,
-        "index_price": 78237.328125,
+        "spot_price": 78351.8125,
+        "perp_last_price": 78351.8125,
+        "mark_price": 78351.8125,
+        "index_price": 78351.8125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 78237.328125,
-        "stop_loss_technical": 77530.171875,
-        "target_1": 79298.0625,
-        "target_2": 80358.796875,
+        "entry_ideal": 78351.8125,
+        "stop_loss_technical": 77523.3125,
+        "target_1": 79594.5625,
+        "target_2": 80837.3125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78237.328125,
+        "entry_ideal": 78351.8125,
         "stop_loss_technical": 76189.8828125,
-        "target_1": 81308.49609375,
-        "target_2": 84379.6640625,
+        "target_1": 81594.70703125,
+        "target_2": 84837.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
