@@ -1,72 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-02T10:53:08.450800+00:00",
+    "generated_at_utc": "2026-11-02T20:33:07.456591+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.684,
-        "trend": "bajista"
+        "price": 101.769,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.929,
+        "price": 4.894,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 38m",
     "News from the Yahoo Finance Network",
-    "In 1956, A Physics Professor Drove To Nebraska To Hand A Young Investor $120,000. The Investor’s Name Was Warren Buffett. 14 Years Later Homer Dodge’s Stake Grew To About $2.1 Million. By 2013, The Berkshire Shares Alone Would Have Been Worth More Than $2.7 Billion",
     "At 75, the IRS Will Set the Withdrawal Amount on a $900,000 401(k). Affluent Investors Over 60 Are Making Sure It’s Empty by Then",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Prediction: A Bear Market Is Coming. Here's Warren Buffett's Best Advice to Prepare for Volatility",
-    "Elon Musk’s new warning raises a big question for investors heading into 2027. Should you still bet on Trump’s America?",
-    "Want to help your adult kids and grandkids? Give them money while you’re still alive."
+    "Clint Eastwood’s Social Security Check vs. the Average American’s",
+    "Powerball jackpot climbs to $1 billion. What you'd pocket after taxes, and what to do with the rest.",
+    "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
+    "Social Security benefits in 2027: See what's really changing",
+    "Social Security says it's cleaning up millions of records. What that means for you.",
+    "Warren Buffett hasn’t had water in 48 years, says Ackman. His $1.3B bet on his favorite drink now pays $848M a year"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77902.53125,
-        "perp_last_price": 77902.53125,
-        "mark_price": 77902.53125,
-        "index_price": 77902.53125,
+        "spot_price": 76755.4296875,
+        "perp_last_price": 76755.4296875,
+        "mark_price": 76755.4296875,
+        "index_price": 76755.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 77902.53125,
-        "stop_loss_technical": 77523.3125,
-        "target_1": 78471.359375,
-        "target_2": 79040.1875,
+        "entry_ideal": 76755.4296875,
+        "stop_loss_technical": 78734.6171875,
+        "target_1": 73786.6484375,
+        "target_2": 70817.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 77902.53125,
-        "stop_loss_technical": 76733.99328125,
-        "target_1": 79655.33820312,
-        "target_2": 81408.14515625,
+        "entry_ideal": 76755.4296875,
+        "stop_loss_technical": 81889.9453125,
+        "target_1": 69053.65625,
+        "target_2": 61351.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
