@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-03T17:29:01.599859+00:00",
+    "generated_at_utc": "2026-11-03T22:26:45.345251+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,49 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.826,
+        "price": 101.869,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.954,
+        "price": 4.952,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 32m",
     "News from the Yahoo Finance Network",
-    "Home Depot Executive Says Housing Market Is Frozen. A Retiree Who Pulls $50,000 From Her 401(k) for a Kitchen Remodel Could See Higher Medicare Premiums in Two Years",
+    "JD Vance takes credit for New York’s historic wins. Mamdani’s response was brutal. Who actually deserves the credit?",
     "A 68-Year-Old With $1.1 Million in a 401(k) Just Found Out Her RMDs Will Hand the IRS $290,000, and She Has Five Years to Shrink It",
-    "Ask an Advisor: Can a Nursing Home ‘Take Our IRA?' My Wife and I Are Elderly. We Have a $100K IRA and a Trust to Protect Our Assets",
     "How Retirees Use Three Accounts to Pull $110,000 a Year and Pay $0 in Federal Tax in 2026",
+    "Ask an Advisor: Can a Nursing Home ‘Take Our IRA?' My Wife and I Are Elderly. We Have a $100K IRA and a Trust to Protect Our Assets",
+    "Home Depot Executive Says Housing Market Is Frozen. A Retiree Who Pulls $50,000 From Her 401(k) for a Kitchen Remodel Could See Higher Medicare Premiums in Two Years",
     "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-    "Outback Steakhouse restaurant franchisee files for Chapter 11 bankruptcy"
+    "40-year-old fast-food franchisee files for Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 77572.0625,
-        "perp_last_price": 77572.0625,
-        "mark_price": 77572.0625,
-        "index_price": 77572.0625,
+        "spot_price": 77717.6484375,
+        "perp_last_price": 77717.6484375,
+        "mark_price": 77717.6484375,
+        "index_price": 77717.6484375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77586.0234375,
-        "stop_loss_technical": 76422.23308594,
-        "target_1": 79331.70896484,
-        "target_2": 81077.39449219,
+        "entry_ideal": 77718.6796875,
+        "stop_loss_technical": 77979.3125,
+        "target_1": 77327.73046875,
+        "target_2": 76936.78125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 77572.0625,
-        "stop_loss_technical": 76408.4815625,
-        "target_1": 79317.43390625,
-        "target_2": 81062.8053125,
+        "entry_ideal": 77717.6484375,
+        "stop_loss_technical": 76551.88371094,
+        "target_1": 79466.29552734,
+        "target_2": 81214.94261719,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
