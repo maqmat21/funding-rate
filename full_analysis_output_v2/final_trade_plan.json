@@ -1,71 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-03T09:58:21.930448+00:00",
+    "generated_at_utc": "2026-11-03T17:29:01.599859+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 101.767,
+        "price": 101.826,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.894,
-        "trend": "bajista"
+        "price": 4.954,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 32m",
+    "U.S. markets close in 3h 32m",
     "News from the Yahoo Finance Network",
-    "Here's How Many Shares of Coca-Cola You'd Need for $1,000 in Monthly Dividend Income",
+    "Home Depot Executive Says Housing Market Is Frozen. A Retiree Who Pulls $50,000 From Her 401(k) for a Kitchen Remodel Could See Higher Medicare Premiums in Two Years",
     "A 68-Year-Old With $1.1 Million in a 401(k) Just Found Out Her RMDs Will Hand the IRS $290,000, and She Has Five Years to Shrink It",
-    "Trump Warns of a ‘1929-Style Economic Depression’ Ahead of the Midterms. The S&P 500 Has Risen After All 19 Midterms Since 1950.",
-    "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words",
-    "Outback Steakhouse restaurant franchisee files for Chapter 11 bankruptcy",
-    "Leave Everything to Your Spouse and the Kids Get the IRA Ten Years Later at the Widow’s 35% Single Rate. Leave a Third to the Kids at the First Death and the Same Dollars Are Taxed at Their 22%, and Here’s Why Advisors Split Beneficiaries Before Anyone Is Sick"
+    "Ask an Advisor: Can a Nursing Home ‘Take Our IRA?' My Wife and I Are Elderly. We Have a $100K IRA and a Trust to Protect Our Assets",
+    "How Retirees Use Three Accounts to Pull $110,000 a Year and Pay $0 in Federal Tax in 2026",
+    "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+    "Outback Steakhouse restaurant franchisee files for Chapter 11 bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76925.3203125,
-        "perp_last_price": 76925.3203125,
-        "mark_price": 76925.3203125,
-        "index_price": 76925.3203125,
+        "spot_price": 77572.0625,
+        "perp_last_price": 77572.0625,
+        "mark_price": 77572.0625,
+        "index_price": 77572.0625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76925.3203125,
-        "stop_loss_technical": 76253.46875,
-        "target_1": 77933.09765625,
-        "target_2": 78940.875,
+        "entry_ideal": 77586.0234375,
+        "stop_loss_technical": 76422.23308594,
+        "target_1": 79331.70896484,
+        "target_2": 81077.39449219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 76925.3203125,
-        "stop_loss_technical": 78724.390625,
-        "target_1": 74226.71484375,
-        "target_2": 71528.109375,
+        "entry_ideal": 77572.0625,
+        "stop_loss_technical": 76408.4815625,
+        "target_1": 79317.43390625,
+        "target_2": 81062.8053125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
