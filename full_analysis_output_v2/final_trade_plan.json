@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-03T02:35:59.808825+00:00",
+    "generated_at_utc": "2026-11-03T09:58:21.930448+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.843,
+        "price": 101.767,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 32m",
     "News from the Yahoo Finance Network",
-    "My friend skipped my wedding after RSVPing 'yes'. I sent her a bill for $200. She says that's tacky — who's right?",
-    "At 75, the IRS Will Set the Withdrawal Amount on a $900,000 401(k). Affluent Investors Over 60 Are Making Sure It’s Empty by Then",
-    "Clint Eastwood’s Social Security Check vs. the Average American’s",
+    "Here's How Many Shares of Coca-Cola You'd Need for $1,000 in Monthly Dividend Income",
     "A 68-Year-Old With $1.1 Million in a 401(k) Just Found Out Her RMDs Will Hand the IRS $290,000, and She Has Five Years to Shrink It",
     "Trump Warns of a ‘1929-Style Economic Depression’ Ahead of the Midterms. The S&P 500 Has Risen After All 19 Midterms Since 1950.",
+    "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words",
     "Outback Steakhouse restaurant franchisee files for Chapter 11 bankruptcy",
-    "Apple could owe iPhone owners up to $95. Here's how to claim it."
+    "Leave Everything to Your Spouse and the Kids Get the IRA Ten Years Later at the Widow’s 35% Single Rate. Leave a Third to the Kids at the First Death and the Same Dollars Are Taxed at Their 22%, and Here’s Why Advisors Split Beneficiaries Before Anyone Is Sick"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76876.96875,
-        "perp_last_price": 76876.96875,
-        "mark_price": 76876.96875,
-        "index_price": 76876.96875,
+        "spot_price": 76925.3203125,
+        "perp_last_price": 76925.3203125,
+        "mark_price": 76925.3203125,
+        "index_price": 76925.3203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76850.7734375,
-        "stop_loss_technical": 78269.2421875,
-        "target_1": 74723.0703125,
-        "target_2": 72595.3671875,
+        "entry_ideal": 76925.3203125,
+        "stop_loss_technical": 76253.46875,
+        "target_1": 77933.09765625,
+        "target_2": 78940.875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76876.96875,
-        "stop_loss_technical": 78647.390625,
-        "target_1": 74221.3359375,
-        "target_2": 71565.703125,
+        "entry_ideal": 76925.3203125,
+        "stop_loss_technical": 78724.390625,
+        "target_1": 74226.71484375,
+        "target_2": 71528.109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
