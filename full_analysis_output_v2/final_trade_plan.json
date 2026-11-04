@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-04T17:30:02.793823+00:00",
+    "generated_at_utc": "2026-11-04T22:46:15.152257+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.507,
-        "trend": "alcista"
+        "price": 101.51,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.902,
+        "price": 4.894,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 31m",
     "News from the Yahoo Finance Network",
-    "JD Vance takes credit for New York’s historic wins. Mamdani’s response was brutal. Who actually deserves the credit?",
-    "‘Stop paying taxes’: Bill Clinton reveals what Trump privately told him on the golf course — warns you’ll feel it soon",
     "Here’s the income that puts you in America’s top 10%, 5% and 1% heading into 2027. Are you falling behind?",
+    "‘Stop paying taxes’: Bill Clinton reveals what Trump privately told him on the golf course — warns you’ll feel it soon",
+    "I’ve socked away $1 million for retirement – this might be an odd question, but is there such a thing as too much money in a 401k?",
+    "If the Democrats Want to Scare the GOP, This Presidential Candidate Could Be Just the Ticket",
+    "At 70 He’ll Get a Letter Saying His Company Is Handing His Pension to an Insurance Company. The Check Stays the Same, but the Federal Safety Net Behind It Doesn’t",
     "Democrats Have Retaken the House and Senate -- but There's an Even Bigger Winner Today",
-    "I'm 62 With $1.6 Million in My 401(k). Should I Convert $160,000 Per Year to a Roth to Avoid RMDs?",
     "There's a 99% Chance That Democrats Retake the House, and History Says This Shift Will Have a Huge Impact on Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80379.046875,
-        "perp_last_price": 80379.046875,
-        "mark_price": 80379.046875,
-        "index_price": 80379.046875,
+        "spot_price": 80786.15625,
+        "perp_last_price": 80786.15625,
+        "mark_price": 80786.15625,
+        "index_price": 80786.15625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80362.359375,
-        "stop_loss_technical": 81075.6015625,
-        "target_1": 79292.49609375,
-        "target_2": 78222.6328125,
+        "entry_ideal": 80771.578125,
+        "stop_loss_technical": 75607.4609375,
+        "target_1": 88517.75390625,
+        "target_2": 96263.9296875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80379.046875,
+        "entry_ideal": 80786.15625,
         "stop_loss_technical": 75607.4609375,
-        "target_1": 87536.42578125,
-        "target_2": 94693.8046875,
+        "target_1": 88554.19921875,
+        "target_2": 96322.2421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
