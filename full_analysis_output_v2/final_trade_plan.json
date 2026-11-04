@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-04T02:30:18.295463+00:00",
+    "generated_at_utc": "2026-11-04T09:40:29.913934+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.385,
+        "price": 101.348,
         "trend": "bajista"
       },
       "US10Y": {
@@ -21,52 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 50m",
     "News from the Yahoo Finance Network",
-    "President Donald Trump Claims He'll \"Veto Everything\" if Democrats Retake Congress, and It Has Big Implications for the Stock Market",
+    "Democrats Have Retaken the House and Senate -- but There's an Even Bigger Winner Today",
     "JD Vance takes credit for New York’s historic wins. Mamdani’s response was brutal. Who actually deserves the credit?",
-    "Trump vows to pardon Elon Musk if Democrats win midterms and target his $10 billion in government contracts",
-    "Ask an Advisor: Can a Nursing Home ‘Take Our IRA?' My Wife and I Are Elderly. We Have a $100K IRA and a Trust to Protect Our Assets",
-    "40-year-old fast-food franchisee files for Chapter 11 bankruptcy",
-    "How Much Have Americans Ages 65–74 Saved for Retirement? New Fed Data Reveals the Answer",
-    "Mark Cuban Says 'Be Patient' and Keep Your Cash Ready for the Market Turn — 'That's When the Real Magic Happens'"
+    "There's a 99% Chance That Democrats Retake the House, and History Says This Shift Will Have a Huge Impact on Stocks",
+    "Democrats won control of Congress. Their economic agenda is set to target healthcare, tariffs, and Trump's allies.",
+    "President Donald Trump Claims He'll \"Veto Everything\" if Democrats Retake Congress, and It Has Big Implications for the Stock Market",
+    "Trump vows to pardon Elon Musk if Democrats win midterms and target his $10 billion in government contracts"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76664.9609375,
-        "perp_last_price": 76664.9609375,
-        "mark_price": 76664.9609375,
-        "index_price": 76664.9609375,
+        "spot_price": 78329.296875,
+        "perp_last_price": 78329.296875,
+        "mark_price": 78329.296875,
+        "index_price": 78329.296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 76675.9765625,
-        "stop_loss_technical": 77979.3125,
-        "target_1": 74720.97265625,
-        "target_2": 72765.96875,
+        "entry_ideal": 78329.296875,
+        "stop_loss_technical": 75607.4609375,
+        "target_1": 82412.05078125,
+        "target_2": 86494.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 76664.9609375,
-        "stop_loss_technical": 78724.390625,
-        "target_1": 73575.81640625,
-        "target_2": 70486.671875,
+        "entry_ideal": 78329.296875,
+        "stop_loss_technical": 75607.4609375,
+        "target_1": 82412.05078125,
+        "target_2": 86494.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
