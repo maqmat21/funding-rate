@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-04T09:40:29.913934+00:00",
+    "generated_at_utc": "2026-11-04T17:30:02.793823+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.348,
-        "trend": "bajista"
+        "price": 101.507,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.952,
-        "trend": "alcista"
+        "price": 4.902,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 50m",
+    "U.S. markets close in 3h 31m",
     "News from the Yahoo Finance Network",
-    "Democrats Have Retaken the House and Senate -- but There's an Even Bigger Winner Today",
     "JD Vance takes credit for New York’s historic wins. Mamdani’s response was brutal. Who actually deserves the credit?",
-    "There's a 99% Chance That Democrats Retake the House, and History Says This Shift Will Have a Huge Impact on Stocks",
-    "Democrats won control of Congress. Their economic agenda is set to target healthcare, tariffs, and Trump's allies.",
-    "President Donald Trump Claims He'll \"Veto Everything\" if Democrats Retake Congress, and It Has Big Implications for the Stock Market",
-    "Trump vows to pardon Elon Musk if Democrats win midterms and target his $10 billion in government contracts"
+    "‘Stop paying taxes’: Bill Clinton reveals what Trump privately told him on the golf course — warns you’ll feel it soon",
+    "Here’s the income that puts you in America’s top 10%, 5% and 1% heading into 2027. Are you falling behind?",
+    "Democrats Have Retaken the House and Senate -- but There's an Even Bigger Winner Today",
+    "I'm 62 With $1.6 Million in My 401(k). Should I Convert $160,000 Per Year to a Roth to Avoid RMDs?",
+    "There's a 99% Chance That Democrats Retake the House, and History Says This Shift Will Have a Huge Impact on Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 78329.296875,
-        "perp_last_price": 78329.296875,
-        "mark_price": 78329.296875,
-        "index_price": 78329.296875,
+        "spot_price": 80379.046875,
+        "perp_last_price": 80379.046875,
+        "mark_price": 80379.046875,
+        "index_price": 80379.046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 78329.296875,
-        "stop_loss_technical": 75607.4609375,
-        "target_1": 82412.05078125,
-        "target_2": 86494.8046875,
+        "entry_ideal": 80362.359375,
+        "stop_loss_technical": 81075.6015625,
+        "target_1": 79292.49609375,
+        "target_2": 78222.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 78329.296875,
+        "entry_ideal": 80379.046875,
         "stop_loss_technical": 75607.4609375,
-        "target_1": 82412.05078125,
-        "target_2": 86494.8046875,
+        "target_1": 87536.42578125,
+        "target_2": 94693.8046875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
