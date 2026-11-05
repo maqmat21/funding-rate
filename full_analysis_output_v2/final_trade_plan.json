@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-05T09:54:28.149917+00:00",
+    "generated_at_utc": "2026-11-05T17:43:33.921549+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.477,
-        "trend": "alcista"
+        "price": 101.453,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.894,
+        "price": 4.833,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 37m",
+    "U.S. markets close in 3h 17m",
     "News from the Yahoo Finance Network",
+    "Bill Ackman Says Trump Could Do “The Greatest Real Estate Deal Of All Time” That Would Create “Half A Trillion” Dollars Of Value By Releasing Mortgage Giants From Conservatorship",
+    "Give Your Daughter $100,000 of Apple Stock Now and She Can Sell It at 0% in the Year She’s Between Jobs. Leave It to Her Instead and the Step-Up Erases the Gain Entirely, and the Crossover Comes Down to One Number",
     "Warren Buffett’s 90/10 Rule for a 65-Year-Old With $600,000 in an IRA and $2,800 a Month in Social Security. Here’s the Monthly Income and the Tax Bill.",
-    "Here’s the income that puts you in America’s top 10%, 5% and 1% heading into 2027. Are you falling behind?",
-    "5-star analyst resets Nvidia stock target after Intel crash",
-    "‘Stop paying taxes’: Bill Clinton reveals what Trump privately told him on the golf course — warns you’ll feel it soon",
+    "I Want to Give My Daughter and Her Husband $50,000 For a Down Payment. Do I Have to Pay Gift Tax?",
     "At 66, They Will Pay Cash for the $450,000 Condo They Retire To From His IRA to Skip a Mortgage. Medicare Will Count the $450,000 as Income and Raise Both Their Premiums in 2028",
-    "If the Democrats Want to Scare the GOP, This Presidential Candidate Could Be Just the Ticket"
+    "I'm 77 and Still Working. Do I Have to Take RMDs?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 80346.7734375,
-        "perp_last_price": 80346.7734375,
-        "mark_price": 80346.7734375,
-        "index_price": 80346.7734375,
+        "spot_price": 75781.578125,
+        "perp_last_price": 75781.578125,
+        "mark_price": 75781.578125,
+        "index_price": 75781.578125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80348.5234375,
-        "stop_loss_technical": 78102.453125,
-        "target_1": 83717.62890625,
-        "target_2": 87086.734375,
+        "entry_ideal": 75781.578125,
+        "stop_loss_technical": 74644.85445312,
+        "target_1": 77486.66363281,
+        "target_2": 79191.74914063,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 80346.7734375,
-        "stop_loss_technical": 75627.984375,
-        "target_1": 87424.95703125,
-        "target_2": 94503.140625,
+        "entry_ideal": 75781.578125,
+        "stop_loss_technical": 74644.85445312,
+        "target_1": 77486.66363281,
+        "target_2": 79191.74914063,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
