@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-06T02:56:09.562338+00:00",
+    "generated_at_utc": "2026-11-06T10:06:07.614611+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 101.68,
+        "price": 102.023,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,37 +21,37 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 25m",
     "News from the Yahoo Finance Network",
-    "Bill Ackman Says Trump Could Do “The Greatest Real Estate Deal Of All Time” That Would Create “Half A Trillion” Dollars Of Value By Releasing Mortgage Giants From Conservatorship",
+    "The Stock Market Just Had Its Worst Day in 19 Months. Here’s Warren Buffett’s Rule for a 65-Year-Old With $800,000 in Retirement Savings.",
     "IRS adjusts 2027 tax brackets. How your paycheck changes",
-    "Give Your Daughter $100,000 of Apple Stock Now and She Can Sell It at 0% in the Year She’s Between Jobs. Leave It to Her Instead and the Step-Up Erases the Gain Entirely, and the Crossover Comes Down to One Number",
     "I Want to Give My Daughter and Her Husband $50,000 For a Down Payment. Do I Have to Pay Gift Tax?",
     "Warren Buffett's 90/10 rule to invest for retirement: Does it still work?",
     "A 64-Year-Old Who Bought 10,000 Wendy’s Shares at $9 for the Dividend Just Watched the Board Turn Down $7.35 a Share. Here Is What the Rejection Costs Her, and How to Tell Whether Nelson Peltz Comes Back for Your Shares.",
-    "If you retire to these 8 states, there’s a real chance you could lose some of your Social Security benefits"
+    "New IRS Tax Brackets and Standard Deductions for 2027 Are Here"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76090.8671875,
-        "perp_last_price": 76090.8671875,
-        "mark_price": 76090.8671875,
-        "index_price": 76090.8671875,
+        "spot_price": 76033.4296875,
+        "perp_last_price": 76033.4296875,
+        "mark_price": 76033.4296875,
+        "index_price": 76033.4296875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 76100.953125,
-        "stop_loss_technical": 75448.2578125,
-        "target_1": 77079.99609375,
-        "target_2": 78059.0390625,
+        "entry_ideal": 76005.6171875,
+        "stop_loss_technical": 78175.0,
+        "target_1": 72751.54296875,
+        "target_2": 69497.46875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 76090.8671875,
+        "entry_ideal": 76033.4296875,
         "stop_loss_technical": 81079.7890625,
-        "target_1": 68607.484375,
-        "target_2": 61124.1015625,
+        "target_1": 68463.890625,
+        "target_2": 60894.3515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
