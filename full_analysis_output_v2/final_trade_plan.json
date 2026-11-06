@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-06T10:06:07.614611+00:00",
+    "generated_at_utc": "2026-11-06T17:25:04.947310+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.023,
+        "price": 102.158,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.837,
+        "price": 4.849,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 25m",
+    "U.S. markets close in 3h 35m",
     "News from the Yahoo Finance Network",
     "The Stock Market Just Had Its Worst Day in 19 Months. Here’s Warren Buffett’s Rule for a 65-Year-Old With $800,000 in Retirement Savings.",
+    "Suze Orman challenges Americans to 'dig deep' and make 2 massive money moves in 2027 — and the payoff could be enormous",
+    "Vanguard Says This Is the Median 401(k) at 65. Here’s Why Having Double It Still Isn’t Safe",
+    "Musk bids farewell to Cybertruck as Tesla bets on robots and self-driving",
     "IRS adjusts 2027 tax brackets. How your paycheck changes",
-    "I Want to Give My Daughter and Her Husband $50,000 For a Down Payment. Do I Have to Pay Gift Tax?",
-    "Warren Buffett's 90/10 rule to invest for retirement: Does it still work?",
-    "A 64-Year-Old Who Bought 10,000 Wendy’s Shares at $9 for the Dividend Just Watched the Board Turn Down $7.35 a Share. Here Is What the Rejection Costs Her, and How to Tell Whether Nelson Peltz Comes Back for Your Shares.",
-    "New IRS Tax Brackets and Standard Deductions for 2027 Are Here"
+    "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76033.4296875,
-        "perp_last_price": 76033.4296875,
-        "mark_price": 76033.4296875,
-        "index_price": 76033.4296875,
+        "spot_price": 75792.7734375,
+        "perp_last_price": 75792.7734375,
+        "mark_price": 75792.7734375,
+        "index_price": 75792.7734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,10 +48,10 @@
         "technical_reasoning": [
           "Precio < EMA20"
         ],
-        "entry_ideal": 76005.6171875,
-        "stop_loss_technical": 78175.0,
-        "target_1": 72751.54296875,
-        "target_2": 69497.46875,
+        "entry_ideal": 75792.78125,
+        "stop_loss_technical": 76278.0390625,
+        "target_1": 75064.89453125,
+        "target_2": 74337.0078125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 76033.4296875,
+        "entry_ideal": 75792.7734375,
         "stop_loss_technical": 81079.7890625,
-        "target_1": 68463.890625,
-        "target_2": 60894.3515625,
+        "target_1": 67862.25,
+        "target_2": 59931.7265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
