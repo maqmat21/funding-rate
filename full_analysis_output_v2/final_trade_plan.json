@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-07T08:00:16.201488+00:00",
+    "generated_at_utc": "2026-11-07T14:43:38.934448+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,49 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Billionaire Investor Bill Ackman Just Issued a Blunt Warning to Wall Street",
+    "Ted Cruz warns all Americans with a 401(k) after ‘bloodbath’ midterm: Hardship at 3X normal because Trump won’t listen",
     "55-year-old sandwich chain operator files Chapter 11 bankruptcy",
+    "‘I think I was in shock’: 28-year-old’s emotional moment when she sees how much she may have at retirement",
     "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch",
     "Are You in the Top 10%? Here’s How Much Income You Need at Your Age",
-    "Suze Orman challenges Americans to 'dig deep' and make 2 massive money moves in 2027 — and the payoff could be enormous",
-    "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
-    "Vanguard Says This Is the Median 401(k) at 65. Here’s Why Having Double It Still Isn’t Safe",
-    "Elizabeth Warren will take over the Senate Banking Committee next year. Expect hearings."
+    "Democrats Just Swept Congress. Here's What History Says the S&P 500 Does Next."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 76005.53125,
-        "perp_last_price": 76005.53125,
-        "mark_price": 76005.53125,
-        "index_price": 76005.53125,
+        "spot_price": 75851.3515625,
+        "perp_last_price": 75851.3515625,
+        "mark_price": 75851.3515625,
+        "index_price": 75851.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
-        ],
-        "entry_ideal": 76005.53125,
-        "stop_loss_technical": 74767.0,
-        "target_1": 77863.328125,
-        "target_2": 79721.125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
         "semaphore": "amarillo",
         "bias": "long",
         "probability_pct": 66,
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 76005.53125,
-        "stop_loss_technical": 74767.0,
-        "target_1": 77863.328125,
-        "target_2": 79721.125,
+        "entry_ideal": 75847.7265625,
+        "stop_loss_technical": 75563.7109375,
+        "target_1": 76273.75,
+        "target_2": 76699.7734375,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
+        "technical_reasoning": [
+          "Precio < EMA20"
+        ],
+        "entry_ideal": 75851.3515625,
+        "stop_loss_technical": 81079.7890625,
+        "target_1": 68008.6953125,
+        "target_2": 60166.0390625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
