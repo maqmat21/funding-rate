@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-06T22:12:23.613921+00:00",
+    "generated_at_utc": "2026-11-07T01:56:17.710697+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,21 +23,21 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "55-year-old sandwich chain operator files Chapter 11 bankruptcy",
+    "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch",
     "The Stock Market Just Had Its Worst Day in 19 Months. Here’s Warren Buffett’s Rule for a 65-Year-Old With $800,000 in Retirement Savings.",
+    "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
     "Suze Orman challenges Americans to 'dig deep' and make 2 massive money moves in 2027 — and the payoff could be enormous",
-    "Vanguard Says This Is the Median 401(k) at 65. Here’s Why Having Double It Still Isn’t Safe",
     "Elizabeth Warren will take over the Senate Banking Committee next year. Expect hearings.",
-    "Name Three Grandchildren in Their 20s Instead of Your Two Kids in Their 50s on a $1 Million IRA and the IRS Collects at 12% Instead of 35%. The 10-Year Clock Runs the Same Either Way",
-    "Musk bids farewell to Cybertruck as Tesla bets on robots and self-driving"
+    "A Retiree Who Bought 1,000 Oracle Shares at $39 Just Watched Microsoft Walk Away"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75917.1875,
-        "perp_last_price": 75917.1875,
-        "mark_price": 75917.1875,
-        "index_price": 75917.1875,
+        "spot_price": 75927.1015625,
+        "perp_last_price": 75927.1015625,
+        "mark_price": 75927.1015625,
+        "index_price": 75927.1015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,23 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 75918.1171875,
+        "entry_ideal": 75927.1015625,
         "stop_loss_technical": 74791.0,
-        "target_1": 77608.79296875,
-        "target_2": 79299.46875,
+        "target_1": 77631.25390625,
+        "target_2": 79335.40625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 75917.1875,
-        "stop_loss_technical": 81079.7890625,
-        "target_1": 68173.28515625,
-        "target_2": 60429.3828125,
+        "entry_ideal": 75927.1015625,
+        "stop_loss_technical": 74791.0,
+        "target_1": 77631.25390625,
+        "target_2": 79335.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
