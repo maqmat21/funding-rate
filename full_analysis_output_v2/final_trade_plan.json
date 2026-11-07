@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-07T14:43:38.934448+00:00",
+    "generated_at_utc": "2026-11-07T19:03:39.115983+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Billionaire Investor Bill Ackman Just Issued a Blunt Warning to Wall Street",
     "Ted Cruz warns all Americans with a 401(k) after ‘bloodbath’ midterm: Hardship at 3X normal because Trump won’t listen",
     "55-year-old sandwich chain operator files Chapter 11 bankruptcy",
     "‘I think I was in shock’: 28-year-old’s emotional moment when she sees how much she may have at retirement",
-    "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch",
+    "Billionaire Investor Bill Ackman Just Issued a Blunt Warning to Wall Street",
     "Are You in the Top 10%? Here’s How Much Income You Need at Your Age",
-    "Democrats Just Swept Congress. Here's What History Says the S&P 500 Does Next."
+    "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch",
+    "After World War I, He Took A Job With A Parcel Delivery Company. He Bought Company Stock Every Year. He Retired From UPS In 1952 And Said He Never Made More Than $14,000 A Year. 39 Years Later Theodore Johnson’s Fortune Was An Estimated $70 Million"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75851.3515625,
-        "perp_last_price": 75851.3515625,
-        "mark_price": 75851.3515625,
-        "index_price": 75851.3515625,
+        "spot_price": 75718.828125,
+        "perp_last_price": 75718.828125,
+        "mark_price": 75718.828125,
+        "index_price": 75718.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -48,23 +48,24 @@
         "technical_reasoning": [
           "Precio > EMA20"
         ],
-        "entry_ideal": 75847.7265625,
-        "stop_loss_technical": 75563.7109375,
-        "target_1": 76273.75,
-        "target_2": 76699.7734375,
+        "entry_ideal": 75718.828125,
+        "stop_loss_technical": 75519.59375,
+        "target_1": 76017.6796875,
+        "target_2": 76316.53125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 75851.3515625,
+        "entry_ideal": 75718.828125,
         "stop_loss_technical": 81079.7890625,
-        "target_1": 68008.6953125,
-        "target_2": 60166.0390625,
+        "target_1": 67677.38671875,
+        "target_2": 59635.9453125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
