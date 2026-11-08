@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-08T07:59:47.257782+00:00",
+    "generated_at_utc": "2026-11-08T14:47:52.736985+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,22 +22,22 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Fidelity, Vanguard issue the same sobering 10-year outlook — and US retirees stand to suffer most. Protect your nest egg",
     "Warren Buffett and Greg Abel Just Sent Shockwaves Through Wall Street With This $377 Billion Warning",
+    "Is a Market Crash Coming? Warren Buffett's Warning Is Ringing Loud and Clear.",
     "55-year-old sandwich chain operator files Chapter 11 bankruptcy",
     "Ted Cruz warns all Americans with a 401(k) after ‘bloodbath’ midterm: Hardship at 3X normal because Trump won’t listen",
     "‘I think I was in shock’: 28-year-old’s emotional moment when she sees how much she may have at retirement",
-    "After World War I, He Took A Job With A Parcel Delivery Company. He Bought Company Stock Every Year. He Retired From UPS In 1952 And Said He Never Made More Than $14,000 A Year. 39 Years Later Theodore Johnson’s Fortune Was An Estimated $70 Million",
-    "Trump's Recent Warning Is Sending Shockwaves Through Wall Street. Here's What It Could Mean for Your Retirement Savings.",
-    "Dave Ramsey Says You’ll “Never Touch” Your Retirement Principal If You Withdraw Less Than 12%. Here’s the Catch"
+    "Wall Street's Biggest Bubble Looks Ready to Burst, and I Don't Mean AI or Quantum Computing"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 75855.9609375,
-        "perp_last_price": 75855.9609375,
-        "mark_price": 75855.9609375,
-        "index_price": 75855.9609375,
+        "spot_price": 75915.7109375,
+        "perp_last_price": 75915.7109375,
+        "mark_price": 75915.7109375,
+        "index_price": 75915.7109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,23 +49,24 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 75855.9609375,
-        "stop_loss_technical": 75459.6171875,
-        "target_1": 76450.4765625,
-        "target_2": 77044.9921875,
+        "entry_ideal": 75915.7109375,
+        "stop_loss_technical": 75467.078125,
+        "target_1": 76588.66015625,
+        "target_2": 77261.609375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 75855.9609375,
+        "entry_ideal": 75915.7109375,
         "stop_loss_technical": 74795.109375,
-        "target_1": 77447.23828125,
-        "target_2": 79038.515625,
+        "target_1": 77596.61328125,
+        "target_2": 79277.515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
