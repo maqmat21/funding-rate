@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-09T09:41:12.177289+00:00",
+    "generated_at_utc": "2026-11-09T20:08:28.951585+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,63 +11,62 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.875,
+        "price": 101.651,
         "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.859,
+        "price": 4.864,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 49m",
     "News from the Yahoo Finance Network",
+    "In 1984 After He Bought Her Company, Warren Buffett Said He’d “Rather Wrestle Grizzlies Than Compete With Mrs. B And Her Progeny.” Five Years Later Rose Blumkin Opened A Rival Store Across The Street. In 1992 Buffett Bought It Too",
     "Crash Warnings Are Piling Up on Wall Street. Jack Bogle Had a 6-Word Rule for Exactly This.",
     "Fidelity, Vanguard issue the same sobering 10-year outlook — and US retirees stand to suffer most. Protect your nest egg",
-    "In 1984 After He Bought Her Company, Warren Buffett Said He’d “Rather Wrestle Grizzlies Than Compete With Mrs. B And Her Progeny.” Five Years Later Rose Blumkin Opened A Rival Store Across The Street. In 1992 Buffett Bought It Too",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett and Greg Abel Just Sent Shockwaves Through Wall Street With This $377 Billion Warning",
-    "President Donald Trump Just Called Nov. 5 One of the Stock Market's \"Worst Days in History\" Due to Election Results -- but Warning Signs Have Been Apparent for Months"
+    "‘Sugar Daddies Are Us’: Ramsey to 50-Year-Old With $600K Begging for a Dating App",
+    "Vanguard and Fidelity have a warning for retirement savers",
+    "If Your Social Security Checks Are Larger Than This, You're Doing Better Than Most Beneficiaries",
+    "‘No vote, no warning, just plain math’: Social Security is six years from an automatic 22% cut—and most Americans have no idea"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74182.1328125,
-        "perp_last_price": 74182.1328125,
-        "mark_price": 74182.1328125,
-        "index_price": 74182.1328125,
+        "spot_price": 74802.6796875,
+        "perp_last_price": 74802.6796875,
+        "mark_price": 74802.6796875,
+        "index_price": 74802.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74182.1328125,
-        "stop_loss_technical": 73069.40082031,
-        "target_1": 75851.23080078,
-        "target_2": 77520.32878906,
+        "entry_ideal": 74793.0703125,
+        "stop_loss_technical": 73644.921875,
+        "target_1": 76515.29296875,
+        "target_2": 78237.515625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74182.1328125,
-        "stop_loss_technical": 73069.40082031,
-        "target_1": 75851.23080078,
-        "target_2": 77520.32878906,
+        "entry_ideal": 74802.6796875,
+        "stop_loss_technical": 73644.921875,
+        "target_1": 76539.31640625,
+        "target_2": 78275.953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
