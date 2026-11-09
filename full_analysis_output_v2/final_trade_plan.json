@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-08T22:53:39.483514+00:00",
+    "generated_at_utc": "2026-11-09T02:10:08.095540+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 102.279,
+        "price": 102.15,
         "trend": "alcista"
       },
       "US10Y": {
@@ -25,33 +25,34 @@
     "Crash Warnings Are Piling Up on Wall Street. Jack Bogle Had a 6-Word Rule for Exactly This.",
     "Fidelity, Vanguard issue the same sobering 10-year outlook — and US retirees stand to suffer most. Protect your nest egg",
     "Warren Buffett and Greg Abel Just Sent Shockwaves Through Wall Street With This $377 Billion Warning",
-    "Mark Cuban Says Elon Musk Is Amazing and the ‘Best Entrepreneur of Our Lifetime,’ But He’s a Salesman — ‘He’s Gotta Sell What He’s Got to Sell’",
-    "‘I think I was in shock’: 28-year-old’s emotional moment when she sees how much she may have at retirement",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "After World War I, He Took A Job With A Parcel Delivery Company. He Bought Company Stock Every Year. He Retired From UPS In 1952 And Said He Never Made More Than $14,000 A Year. 39 Years Later Theodore Johnson’s Fortune Was An Estimated $70 Million",
     "Ted Cruz warns all Americans with a 401(k) after ‘bloodbath’ midterm: Hardship at 3X normal because Trump won’t listen",
-    "Warren Buffett Has 1 Simple Rule for Surviving a Stock Market Crash, and History Says It's Never Once Failed"
+    "‘I think I was in shock’: 28-year-old’s emotional moment when she sees how much she may have at retirement"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74407.546875,
-        "perp_last_price": 74407.546875,
-        "mark_price": 74407.546875,
-        "index_price": 74407.546875,
+        "spot_price": 75159.640625,
+        "perp_last_price": 75159.640625,
+        "mark_price": 75159.640625,
+        "index_price": 75159.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 74407.546875,
-        "stop_loss_technical": 73590.9296875,
-        "target_1": 75632.47265625,
-        "target_2": 76857.3984375,
+        "entry_ideal": 75155.65625,
+        "stop_loss_technical": 74393.84375,
+        "target_1": 76298.375,
+        "target_2": 77441.09375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 74407.546875,
-        "stop_loss_technical": 81079.7890625,
-        "target_1": 64399.18359375,
-        "target_2": 54390.8203125,
+        "entry_ideal": 75159.640625,
+        "stop_loss_technical": 80833.6171875,
+        "target_1": 66648.67578125,
+        "target_2": 58137.7109375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
