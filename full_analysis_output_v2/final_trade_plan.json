@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-09T20:08:28.951585+00:00",
+    "generated_at_utc": "2026-11-10T02:40:52.884064+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 101.651,
+        "price": 101.686,
         "trend": "bajista"
       },
       "US10Y": {
@@ -23,50 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "In 1984 After He Bought Her Company, Warren Buffett Said He’d “Rather Wrestle Grizzlies Than Compete With Mrs. B And Her Progeny.” Five Years Later Rose Blumkin Opened A Rival Store Across The Street. In 1992 Buffett Bought It Too",
-    "Crash Warnings Are Piling Up on Wall Street. Jack Bogle Had a 6-Word Rule for Exactly This.",
-    "Fidelity, Vanguard issue the same sobering 10-year outlook — and US retirees stand to suffer most. Protect your nest egg",
-    "‘Sugar Daddies Are Us’: Ramsey to 50-Year-Old With $600K Begging for a Dating App",
-    "Vanguard and Fidelity have a warning for retirement savers",
     "If Your Social Security Checks Are Larger Than This, You're Doing Better Than Most Beneficiaries",
-    "‘No vote, no warning, just plain math’: Social Security is six years from an automatic 22% cut—and most Americans have no idea"
+    "‘Sugar Daddies Are Us’: Ramsey to 50-Year-Old With $600K Begging for a Dating App",
+    "Musk says Tesla on the hook for Cybertruck deposits after cancellation",
+    "Jensen Huang’s wife is a co-trustee to more than 500M of his Nvidia shares. Here’s what his affair could cost him",
+    "Warren Buffett, 96, credits Coke and McDonald's for his long life",
+    "How a single move could slash your taxes in retirement — but just 18% of Americans are doing it. Are you missing out?"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74802.6796875,
-        "perp_last_price": 74802.6796875,
-        "mark_price": 74802.6796875,
-        "index_price": 74802.6796875,
+        "spot_price": 74702.7890625,
+        "perp_last_price": 74702.7890625,
+        "mark_price": 74702.7890625,
+        "index_price": 74702.7890625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74793.0703125,
-        "stop_loss_technical": 73644.921875,
-        "target_1": 76515.29296875,
-        "target_2": 78237.515625,
+        "entry_ideal": 74702.7890625,
+        "stop_loss_technical": 73582.24722656,
+        "target_1": 76383.60181641,
+        "target_2": 78064.41457031,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 74802.6796875,
-        "stop_loss_technical": 73644.921875,
-        "target_1": 76539.31640625,
-        "target_2": 78275.953125,
+        "entry_ideal": 74702.7890625,
+        "stop_loss_technical": 73582.24722656,
+        "target_1": 76383.60181641,
+        "target_2": 78064.41457031,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
