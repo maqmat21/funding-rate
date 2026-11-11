@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-10T23:09:48.797502+00:00",
+    "generated_at_utc": "2026-11-11T02:44:16.887468+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 102.235,
+        "price": 102.25,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,37 +23,37 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+    "Costco Just Sent Shareholders a $13 Billion Signal It Has More Cash Than It Can Use. Here’s What 200 Shares Collect",
     "This Cookie Chain Just Closed Every Store After Raising $17.5 Million",
+    "Social Security Cuts: Retirees in these 15 States will Lose More Than $500 a Month in Benefits",
+    "Michael Burry Sees Nvidia Becoming ‘A Heck Of A Trade’ — Reveals His 2 Biggest Bets And Where He’s Buying More",
     "The Dow Just Jumped 1,100 Points. Here’s What Warren Buffett’s 2008 Rule Says to a 66-Year-Old Retiree Who Almost Moved $600,000 to Cash on Friday",
-    "Buc-ee's is opening one more location in 2026. See where",
-    "Jensen Huang’s Affair With a Suspected Spy Could Put Half of His $150B Fortune at Risk",
-    "Pepsi sends a shocking memo to employees",
-    "Social Security benefits may see $2,400 ‘Bernie Bump’ under Democrat-controlled House and Senate. Do you qualify?"
+    "Buc-ee's is opening one more location in 2026. See where"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73503.8203125,
-        "perp_last_price": 73503.8203125,
-        "mark_price": 73503.8203125,
-        "index_price": 73503.8203125,
+        "spot_price": 73568.0234375,
+        "perp_last_price": 73568.0234375,
+        "mark_price": 73568.0234375,
+        "index_price": 73568.0234375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 73500.6015625,
-        "stop_loss_technical": 74902.40625,
-        "target_1": 71397.89453125,
-        "target_2": 69295.1875,
+        "entry_ideal": 73579.0234375,
+        "stop_loss_technical": 72475.33808594,
+        "target_1": 75234.55146484,
+        "target_2": 76890.07949219,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 73503.8203125,
-        "stop_loss_technical": 76291.0625,
-        "target_1": 69322.95703125,
-        "target_2": 65142.09375,
+        "entry_ideal": 73568.0234375,
+        "stop_loss_technical": 76138.6796875,
+        "target_1": 69712.0390625,
+        "target_2": 65856.0546875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
