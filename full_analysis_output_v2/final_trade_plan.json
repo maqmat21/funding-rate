@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-11T02:44:16.887468+00:00",
+    "generated_at_utc": "2026-11-11T09:51:42.162766+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 102.25,
+        "price": 102.496,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 39m",
     "News from the Yahoo Finance Network",
+    "In 1957, A Pediatrician Signed Up For An Investing Class In Omaha. She Decided To Invest Half Her Life Savings With The Teacher. His Name Was Warren Buffett. At 71 Years Old She Was Still Practicing Medicine And Carol Angle’s Family Fortune Was $300 Million.",
     "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
-    "Costco Just Sent Shareholders a $13 Billion Signal It Has More Cash Than It Can Use. Here’s What 200 Shares Collect",
     "This Cookie Chain Just Closed Every Store After Raising $17.5 Million",
-    "Social Security Cuts: Retirees in these 15 States will Lose More Than $500 a Month in Benefits",
     "Michael Burry Sees Nvidia Becoming ‘A Heck Of A Trade’ — Reveals His 2 Biggest Bets And Where He’s Buying More",
-    "The Dow Just Jumped 1,100 Points. Here’s What Warren Buffett’s 2008 Rule Says to a 66-Year-Old Retiree Who Almost Moved $600,000 to Cash on Friday",
-    "Buc-ee's is opening one more location in 2026. See where"
+    "Social Security Cuts: Retirees in these 15 States will Lose More Than $500 a Month in Benefits",
+    "Elon Musk Just Put a $1 Trillion Chip Bill on Tesla’s Table. That’s a Warning for Anyone Holding 1,000 Tesla Shares"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73568.0234375,
-        "perp_last_price": 73568.0234375,
-        "mark_price": 73568.0234375,
-        "index_price": 73568.0234375,
+        "spot_price": 73621.796875,
+        "perp_last_price": 73621.796875,
+        "mark_price": 73621.796875,
+        "index_price": 73621.796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,28 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 73579.0234375,
-        "stop_loss_technical": 72475.33808594,
-        "target_1": 75234.55146484,
-        "target_2": 76890.07949219,
+        "entry_ideal": 73621.796875,
+        "stop_loss_technical": 72517.46992188,
+        "target_1": 75278.28730469,
+        "target_2": 76934.77773438,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 95,
+        "probability_pct": 90,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 73568.0234375,
+        "entry_ideal": 73621.796875,
         "stop_loss_technical": 76138.6796875,
-        "target_1": 69712.0390625,
-        "target_2": 65856.0546875,
+        "target_1": 69846.47265625,
+        "target_2": 66071.1484375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
