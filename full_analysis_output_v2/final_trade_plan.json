@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-11T17:31:09.764910+00:00",
+    "generated_at_utc": "2026-11-11T23:40:14.302160+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 102.957,
+        "price": 102.843,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,23 +21,23 @@
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 30m",
     "News from the Yahoo Finance Network",
     "In 1957, A Pediatrician Signed Up For An Investing Class In Omaha. She Decided To Invest Half Her Life Savings With The Teacher. His Name Was Warren Buffett. At 71 Years Old She Was Still Practicing Medicine And Carol Angle’s Family Fortune Was $300 Million.",
     "Retirees Who Pay the Standard Medicare Premium Can Spend $200,000 a Year Without Ever Crossing the Surcharge Line. Roth Withdrawals, Reverse Mortgage Checks, Life Insurance Loans, and Home Sale Proceeds Under $500,000 Are All Invisible to IRMAA",
-    "Why You Should Think Twice About Keeping Cash Savings at Vanguard, Schwab, or Fidelity",
     "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+    "Why You Should Think Twice About Keeping Cash Savings at Vanguard, Schwab, or Fidelity",
     "Trump tells 60 Minutes undocumented workers like landscapers and hotel maids could be allowed to stay in bipartisan deal",
-    "This Cookie Chain Just Closed Every Store After Raising $17.5 Million"
+    "Dave Ramsey says nearly half of Americans make one costly Social Security mistake",
+    "Schwab and Fidelity Need a Death Certificate, a Court Letter, and an EIN Before an Heir Can Sell a Single Share. The Weeks In Between Belong to the Estate, Taxed at 37% Above $15,650, and a Transfer-on-Death Form Skips All of It"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 74435.4765625,
-        "perp_last_price": 74435.4765625,
-        "mark_price": 74435.4765625,
-        "index_price": 74435.4765625,
+        "spot_price": 73812.828125,
+        "perp_last_price": 73812.828125,
+        "mark_price": 73812.828125,
+        "index_price": 73812.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -47,28 +47,26 @@
         "probability_pct": 45,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74435.4765625,
-        "stop_loss_technical": 73318.94441406,
-        "target_1": 76110.27478516,
-        "target_2": 77785.07300781,
+        "entry_ideal": 73807.28125,
+        "stop_loss_technical": 72700.17203125,
+        "target_1": 75467.94507813,
+        "target_2": 77128.60890625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 74435.4765625,
-        "stop_loss_technical": 73318.94441406,
-        "target_1": 76110.27478516,
-        "target_2": 77785.07300781,
+        "entry_ideal": 73812.828125,
+        "stop_loss_technical": 76138.6796875,
+        "target_1": 70324.05078125,
+        "target_2": 66835.2734375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
