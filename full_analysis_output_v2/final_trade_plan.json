@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-12T04:11:27.607668+00:00",
+    "generated_at_utc": "2026-11-12T12:43:58.709173+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 103.011,
+        "price": 102.946,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,52 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 1h 47m",
     "News from the Yahoo Finance Network",
     "Pizza franchisee files Chapter 11 bankruptcy, chain cut 239 units",
-    "In 1957, A Pediatrician Signed Up For An Investing Class In Omaha. She Decided To Invest Half Her Life Savings With The Teacher. His Name Was Warren Buffett. At 71 Years Old She Was Still Practicing Medicine And Carol Angle’s Family Fortune Was $300 Million.",
-    "Michael Burry has a surprising new take on Nvidia stock",
-    "Costco’s $30-per-share special dividend means just 3 shares could cover your $65 membership. But there’s a catch",
-    "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
+    "Greg Abel Has Plowed $14.4 Billion Into Warren Buffett's Favorite Stock This Year, and It's Not Apple",
+    "Kevin O’Leary Says AI Data Centers Will Make ‘Hundreds of Millions of Americans Millionaires’ — ‘That Resistance Is Going to Disappear’",
     "Retirees Who Pay the Standard Medicare Premium Can Spend $200,000 a Year Without Ever Crossing the Surcharge Line. Roth Withdrawals, Reverse Mortgage Checks, Life Insurance Loans, and Home Sale Proceeds Under $500,000 Are All Invisible to IRMAA",
-    "Kevin O’Leary Says AI Data Centers Will Make ‘Hundreds of Millions of Americans Millionaires’ — ‘That Resistance Is Going to Disappear’"
+    "Breweries collapse in Chapter 11 bankruptcy, struggle to survive",
+    "Michael Burry has a surprising new take on Nvidia stock"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 73710.2734375,
-        "perp_last_price": 73710.2734375,
-        "mark_price": 73710.2734375,
-        "index_price": 73710.2734375,
+        "spot_price": 72789.2734375,
+        "perp_last_price": 72789.2734375,
+        "mark_price": 72789.2734375,
+        "index_price": 72789.2734375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 73710.2734375,
-        "stop_loss_technical": 72604.61933594,
-        "target_1": 75368.75458984,
-        "target_2": 77027.23574219,
+        "entry_ideal": 72789.2734375,
+        "stop_loss_technical": 74724.1171875,
+        "target_1": 69887.0078125,
+        "target_2": 66984.7421875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 73710.2734375,
+        "entry_ideal": 72789.2734375,
         "stop_loss_technical": 76096.6875,
-        "target_1": 70130.65234375,
-        "target_2": 66551.03125,
+        "target_1": 67828.15234375,
+        "target_2": 62867.03125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
