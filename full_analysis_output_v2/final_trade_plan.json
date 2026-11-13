@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-13T01:19:23.248460+00:00",
+    "generated_at_utc": "2026-11-13T08:07:18.000995+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 103.178,
+        "price": 103.167,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,38 +21,39 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 6h 24m",
     "News from the Yahoo Finance Network",
-    "Pizza franchisee files Chapter 11 bankruptcy, chain cut 239 units",
     "“The Don Has Fallen.” Michael Burry Says Nvidia Is Losing Its “Enforcer,” Warns “The Key-Man Risk at NVIDIA Always Was a Worry” and Cites Reports Jensen Huang Had as Many as 60 Direct Reports and Delegated Little",
-    "Breweries collapse in Chapter 11 bankruptcy, struggle to survive",
     "They Retired to Arizona for the 2.5% Flat Tax. Arizona Taxes Every Dollar of the $1 Million IRA They Brought With Them, and Illinois Would Have Charged Nothing",
     "He Bought $300,000 of Nvidia at Its October Peak. After a 32% Slide, He Sells at a $96,000 Loss. Medicare Will Still Count Nearly All of His $150,000 IRA Withdrawal",
+    "A 68-Year-Old Retiree Bought 1,000 Tesla Shares at $108 in January 2023. Now Musk Could Merge Tesla Into SpaceX by December, and a 15% Premium Would Turn Her Stake Into About 3,270 SpaceX Shares",
     "She Started as a Secretary at a Wall Street Law Firm in 1947 and Stayed 67 Years. Whenever Her Boss Bought a Stock, She Quietly Bought a Little of It for Herself. When Sylvia Bloom Died at 96, She Left More Than $9 Million.",
-    "Dave Ramsey says nearly half of Americans make one costly Social Security mistake"
+    "If a Stock Market Crash Is Coming, Warren Buffett’s 6-Word Advice Is the Smartest Move You Can Make"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 70883.2265625,
-        "perp_last_price": 70883.2265625,
-        "mark_price": 70883.2265625,
-        "index_price": 70883.2265625,
+        "spot_price": 68633.90625,
+        "perp_last_price": 68633.90625,
+        "mark_price": 68633.90625,
+        "index_price": 68633.90625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 70883.2265625,
-        "stop_loss_technical": 73640.921875,
-        "target_1": 66746.68359375,
-        "target_2": 62610.140625,
+        "entry_ideal": 68635.53125,
+        "stop_loss_technical": 72847.5234375,
+        "target_1": 62317.54296875,
+        "target_2": 55999.5546875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 70883.2265625,
+        "entry_ideal": 68633.90625,
         "stop_loss_technical": 75505.3359375,
-        "target_1": 63950.0625,
-        "target_2": 57016.8984375,
+        "target_1": 58326.76171875,
+        "target_2": 48019.6171875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
