@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-14T01:57:55.649467+00:00",
+    "generated_at_utc": "2026-11-14T08:28:55.708578+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -28,32 +28,32 @@
     "Add Your Daughter to the Deed With Survivorship Rights and She Still Gets the Full Step-Up When You Die. Sell the House While You’re Alive and Half the Gain Lands on Her Tax Return With No $250,000 Exclusion",
     "Jensen Huang Just Resigned From Nvidia. A Study of 187 Forced CEO Exits Shows What Could Happen Next",
     "‘I Cannot Think of a Worse Form of Child Abuse’: Dave Ramsey to Grad Who Paid Off $28K, Then Found $39K More in Her Name",
-    "Warren Buffett's Successor, Greg Abel, Has Over 35% of Berkshire Hathaway's $359 Billion Portfolio Invested in Just 2 Undeniable Winners"
+    "Vanguard warning: Retirees are making costly mistakes with their 401(k)s"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 68189.0703125,
-        "perp_last_price": 68189.0703125,
-        "mark_price": 68189.0703125,
-        "index_price": 68189.0703125,
+        "spot_price": 67217.328125,
+        "perp_last_price": 67217.328125,
+        "mark_price": 67217.328125,
+        "index_price": 67217.328125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 68178.578125,
-        "stop_loss_technical": 70119.203125,
-        "target_1": 65267.640625,
-        "target_2": 62356.703125,
+        "entry_ideal": 67222.4609375,
+        "stop_loss_technical": 66214.12402344,
+        "target_1": 68734.96630859,
+        "target_2": 70247.47167969,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 68189.0703125,
+        "entry_ideal": 67217.328125,
         "stop_loss_technical": 75320.90625,
-        "target_1": 57491.31640625,
-        "target_2": 46793.5625,
+        "target_1": 55061.9609375,
+        "target_2": 42906.59375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
