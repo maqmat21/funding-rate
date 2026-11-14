@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-14T15:15:36.097119+00:00",
+    "generated_at_utc": "2026-11-14T19:56:26.758136+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,38 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency",
     "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
-    "‘Everybody needs to prepare’: Market expert warns of December shock that puts Americans at high risk. Act by Dec. 8",
+    "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency",
+    "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
     "She Moves $500,000 Into Municipal Bonds amid ‘Rare Opportunity’, Expecting Every Dollar of Interest to Stay Tax-Free. The IRS Counts That Interest When It Taxes Her Social Security, Pushing $16,900 More of Her Benefits Into Taxable Income",
-    "Social Security cuts: 28 states could lose $500 or more per month",
-    "Think Nvidia Stock Is a Bargain? 6 Reasons the Face of the AI Build-Out Can Plunge Another 50% Following Jensen Huang's Resignation.",
-    "Jensen Huang reportedly gave up in final hours as Nvidia CEO — as his affair scandal wipes away more than $1T in value"
+    "Apple users are about to lose something they've had for 28 years",
+    "‘Everybody needs to prepare’: Market expert warns of December shock that puts Americans at high risk. Act by Dec. 8",
+    "Social Security cuts: 28 states could lose $500 or more per month"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65510.1484375,
-        "perp_last_price": 65510.1484375,
-        "mark_price": 65510.1484375,
-        "index_price": 65510.1484375,
+        "spot_price": 65665.3515625,
+        "perp_last_price": 65665.3515625,
+        "mark_price": 65665.3515625,
+        "index_price": 65665.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65563.9765625,
-        "stop_loss_technical": 69057.3828125,
-        "target_1": 60323.8671875,
-        "target_2": 55083.7578125,
+        "entry_ideal": 65665.3515625,
+        "stop_loss_technical": 64680.37128906,
+        "target_1": 67142.82197266,
+        "target_2": 68620.29238281,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -65,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65510.1484375,
+        "entry_ideal": 65665.3515625,
         "stop_loss_technical": 75320.90625,
-        "target_1": 50794.01171875,
-        "target_2": 36077.875,
+        "target_1": 51182.01953125,
+        "target_2": 36698.6875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
