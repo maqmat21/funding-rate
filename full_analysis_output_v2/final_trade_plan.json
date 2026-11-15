@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-14T23:30:41.037508+00:00",
+    "generated_at_utc": "2026-11-15T03:00:21.938418+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,37 +22,38 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
+    "Kevin O'Leary reveals the exact net worth where your life changes forever",
+    "Warren Buffett’s Berkshire Just Hit a Record High as Nvidia Sank. A 67-Year-Old Who Bought 1,000 Shares in 2016 Can Sell $106,000 of It This Year and Pay 0% on the Gain",
     "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
-    "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency",
     "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
-    "She Moves $500,000 Into Municipal Bonds amid ‘Rare Opportunity’, Expecting Every Dollar of Interest to Stay Tax-Free. The IRS Counts That Interest When It Taxes Her Social Security, Pushing $16,900 More of Her Benefits Into Taxable Income",
-    "‘Everybody needs to prepare’: Market expert warns of December shock that puts Americans at high risk. Act by Dec. 8",
-    "Social Security cuts: 28 states could lose $500 or more per month",
-    "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?"
+    "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency",
+    "How low does Nvidia’s stock need to go before it’s a screaming bargain?",
+    "She Moves $500,000 Into Municipal Bonds amid ‘Rare Opportunity’, Expecting Every Dollar of Interest to Stay Tax-Free. The IRS Counts That Interest When It Taxes Her Social Security, Pushing $16,900 More of Her Benefits Into Taxable Income"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63658.71875,
-        "perp_last_price": 63658.71875,
-        "mark_price": 63658.71875,
-        "index_price": 63658.71875,
+        "spot_price": 64900.5703125,
+        "perp_last_price": 64900.5703125,
+        "mark_price": 64900.5703125,
+        "index_price": 64900.5703125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
+          "RSI Bull",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63671.41015625,
-        "stop_loss_technical": 67452.28125,
-        "target_1": 58000.10351562,
-        "target_2": 52328.796875,
+        "entry_ideal": 64900.5703125,
+        "stop_loss_technical": 63927.06175781,
+        "target_1": 66360.83314453,
+        "target_2": 67821.09597656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -64,10 +65,10 @@
           "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 63658.71875,
-        "stop_loss_technical": 75320.90625,
-        "target_1": 46165.4375,
-        "target_2": 28672.15625,
+        "entry_ideal": 64900.5703125,
+        "stop_loss_technical": 74703.453125,
+        "target_1": 50196.24609375,
+        "target_2": 35491.921875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
