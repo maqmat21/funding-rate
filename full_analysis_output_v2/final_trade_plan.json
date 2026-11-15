@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-15T10:28:32.601935+00:00",
+    "generated_at_utc": "2026-11-15T17:19:37.782609+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,24 +24,39 @@
     "News from the Yahoo Finance Network",
     "Kevin O'Leary reveals the exact net worth where your life changes forever",
     "Warren Buffett’s Berkshire Just Hit a Record High as Nvidia Sank. A 67-Year-Old Who Bought 1,000 Shares in 2016 Can Sell $106,000 of It This Year and Pay 0% on the Gain",
-    "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
-    "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
     "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency",
-    "Bitcoin’s Fall to $62,000 Sparks Market Manipulation Claims",
-    "She Moves $500,000 Into Municipal Bonds amid ‘Rare Opportunity’, Expecting Every Dollar of Interest to Stay Tax-Free. The IRS Counts That Interest When It Taxes Her Social Security, Pushing $16,900 More of Her Benefits Into Taxable Income"
+    "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
+    "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "MacKenzie Scott gave Jeff Bezos 75% of their Amazon shares, Blue Origin, and the Washington Post in 2019 divorce"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65425.609375,
-        "perp_last_price": 65425.609375,
-        "mark_price": 65425.609375,
-        "index_price": 65425.609375,
+        "spot_price": 64792.640625,
+        "perp_last_price": 64792.640625,
+        "mark_price": 64792.640625,
+        "index_price": 64792.640625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
+        "technical_reasoning": [
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_OFF (Presión)"
+        ],
+        "entry_ideal": 64782.0390625,
+        "stop_loss_technical": 63810.30847656,
+        "target_1": 66239.63494141,
+        "target_2": 67697.23082031,
+        "note": "Operativa adaptativa basada en indicadores"
+      },
+      "final_macro": {
         "semaphore": "verde",
         "bias": "short",
         "probability_pct": 90,
@@ -49,24 +64,10 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65425.609375,
-        "stop_loss_technical": 66127.21875,
-        "target_1": 64373.1953125,
-        "target_2": 63320.78125,
-        "note": "Operativa adaptativa basada en indicadores"
-      },
-      "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
-        "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_OFF (Presión)"
-        ],
-        "entry_ideal": 65425.609375,
-        "stop_loss_technical": 64444.22523438,
-        "target_1": 66897.68558594,
-        "target_2": 68369.76179687,
+        "entry_ideal": 64792.640625,
+        "stop_loss_technical": 74703.453125,
+        "target_1": 49926.421875,
+        "target_2": 35060.203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
