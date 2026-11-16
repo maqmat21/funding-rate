@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-16T08:12:56.868534+00:00",
+    "generated_at_utc": "2026-11-16T18:33:11.743400+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,33 +11,33 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 103.456,
+        "price": 103.631,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.154,
+        "price": 5.135,
         "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 6h 18m",
+    "U.S. markets close in 2h 28m",
     "News from the Yahoo Finance Network",
     "Kevin O'Leary reveals the exact net worth where your life changes forever",
-    "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
-    "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "Warren Buffett’s Berkshire Just Hit a Record High as Nvidia Sank. A 67-Year-Old Who Bought 1,000 Shares in 2016 Can Sell $106,000 of It This Year and Pay 0% on the Gain",
-    "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency"
+    "Dave Ramsey’s 8% Rule for a 65-Year-Old With $750,000 in an IRA and $2,600 a Month in Social Security. Here’s the Monthly Income, the Tax Bill and the Year the Money Ran Out.",
+    "The Stock Market Is Doing Something for Only the 6th Time in 156 Years, and History Says It's Clear What Comes Next for Stocks",
+    "Social Security tax by state: Where your benefits are and aren't taxed",
+    "Nvidia Just Fell 32% From Its Record. Here’s Warren Buffett’s Rule for a 67-Year-Old With $1.6 Million in Nvidia Stock and $2,900 a Month in Social Security"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64702.05859375,
-        "perp_last_price": 64702.05859375,
-        "mark_price": 64702.05859375,
-        "index_price": 64702.05859375,
+        "spot_price": 64817.671875,
+        "perp_last_price": 64817.671875,
+        "mark_price": 64817.671875,
+        "index_price": 64817.671875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
@@ -49,24 +49,24 @@
           "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64719.3203125,
-        "stop_loss_technical": 65767.28125,
-        "target_1": 63147.37890625,
-        "target_2": 61575.4375,
+        "entry_ideal": 64809.9609375,
+        "stop_loss_technical": 65602.2109375,
+        "target_1": 63621.5859375,
+        "target_2": 62433.2109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 90,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio < EMA20",
+          "Precio > EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64702.05859375,
-        "stop_loss_technical": 74115.21875,
-        "target_1": 50582.31835938,
-        "target_2": 36462.578125,
+        "entry_ideal": 64817.671875,
+        "stop_loss_technical": 63845.40679688,
+        "target_1": 66276.06949219,
+        "target_2": 67734.46710937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
