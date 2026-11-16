@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-15T21:52:45.698042+00:00",
+    "generated_at_utc": "2026-11-16T01:27:22.262378+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 103.411,
+        "price": 103.42,
         "trend": "alcista"
       },
       "US10Y": {
@@ -23,51 +23,51 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "Kevin O'Leary reveals the exact net worth where your life changes forever",
-    "The Stock Market Is Sending a Rare Warning. Here's Warren Buffett's Best Bear Market Advice.",
     "Warren Buffett’s Berkshire Just Hit a Record High as Nvidia Sank. A 67-Year-Old Who Bought 1,000 Shares in 2016 Can Sell $106,000 of It This Year and Pay 0% on the Gain",
+    "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
     "Not Only Did President Donald Trump Fail to Keep His Social Security Promise, but He May Have Accelerated the Program's Path to Insolvency",
     "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
-    "America ‘will have a heart attack’: Ray Dalio issues fresh warning on US economy — with savers at highest risk",
-    "Millionaires in America: How common is it to have a 7-figure net worth?"
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "She Moves $500,000 Into Municipal Bonds amid ‘Rare Opportunity’, Expecting Every Dollar of Interest to Stay Tax-Free. The IRS Counts That Interest When It Taxes Her Social Security, Pushing $16,900 More of Her Benefits Into Taxable Income"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 65157.1796875,
-        "perp_last_price": 65157.1796875,
-        "mark_price": 65157.1796875,
-        "index_price": 65157.1796875,
+        "spot_price": 64738.41015625,
+        "perp_last_price": 64738.41015625,
+        "mark_price": 64738.41015625,
+        "index_price": 64738.41015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65157.1796875,
-        "stop_loss_technical": 64179.82199219,
-        "target_1": 66623.21623047,
-        "target_2": 68089.25277344,
+        "entry_ideal": 64721.87109375,
+        "stop_loss_technical": 66052.921875,
+        "target_1": 62725.29492188,
+        "target_2": 60728.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio > EMA20",
+          "Precio < EMA20",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 65157.1796875,
-        "stop_loss_technical": 64179.82199219,
-        "target_1": 66623.21623047,
-        "target_2": 68089.25277344,
+        "entry_ideal": 64738.41015625,
+        "stop_loss_technical": 74115.21875,
+        "target_1": 50673.19726562,
+        "target_2": 36607.984375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
