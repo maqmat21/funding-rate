@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-17T02:01:30.294001+00:00",
+    "generated_at_utc": "2026-11-17T10:32:39.417215+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 103.639,
+        "price": 103.582,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,53 +21,54 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 3h 58m",
     "News from the Yahoo Finance Network",
     "He Claimed Social Security at 67 Last Year, Then Watched the Dow Jump 1,104 Points in a Day and Decided His Portfolio Can Carry Him for Now. Suspending His Checks Until 70 Earns Him 8% a Year, Up to 16% More for Life",
-    "Silver Crashes 61% From All-Time High: One Wall Street Bull Sees A Buy Signal, Another Critic Says Wait",
-    "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
+    "Jensen Huang looks to have accepted his fate with Nvidia: He cleaned up his X profile",
     "‘I never took a dime of depreciation’: I’m 70 and want to sell the rental I’ve owned since 2004. My son says the IRS taxes it anyway and I should keep it for the kids. Is he right?",
+    "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
     "Dave Ramsey’s 8% Rule for a 65-Year-Old With $750,000 in an IRA and $2,600 a Month in Social Security. Here’s the Monthly Income, the Tax Bill and the Year the Money Ran Out.",
-    "Nvidia Just Fell 32% From Its Record. Here’s Warren Buffett’s Rule for a 67-Year-Old With $1.6 Million in Nvidia Stock and $2,900 a Month in Social Security",
-    "As Jensen Huang watches his $136 billion wealth tumble, the ex-Nvidia CEO is being praised as ‘the only billionaire willing to pay his share of taxes’"
+    "The Stock Market Is Doing Something for Only the 6th Time in 156 Years, and History Says It's Clear What Comes Next for Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64712.0,
-        "perp_last_price": 64712.0,
-        "mark_price": 64712.0,
-        "index_price": 64712.0,
+        "spot_price": 64172.25,
+        "perp_last_price": 64172.25,
+        "mark_price": 64172.25,
+        "index_price": 64172.25,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
+          "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64721.3984375,
-        "stop_loss_technical": 63750.57746094,
-        "target_1": 66177.62990234,
-        "target_2": 67633.86136719,
+        "entry_ideal": 64172.25,
+        "stop_loss_technical": 65467.2890625,
+        "target_1": 62229.69140625,
+        "target_2": 60287.1328125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 90,
+        "probability_pct": 95,
         "technical_reasoning": [
           "Precio < EMA20",
+          "RSI Bear",
           "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 64712.0,
+        "entry_ideal": 64172.25,
         "stop_loss_technical": 71428.53125,
-        "target_1": 54637.203125,
-        "target_2": 44562.40625,
+        "target_1": 53287.828125,
+        "target_2": 42403.40625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
