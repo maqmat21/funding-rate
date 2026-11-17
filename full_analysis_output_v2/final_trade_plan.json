@@ -1,74 +1,73 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-17T10:32:39.417215+00:00",
+    "generated_at_utc": "2026-11-17T19:19:01.327284+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_OFF",
-    "macro_score": 80,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 103.582,
-        "trend": "alcista"
+        "price": 103.451,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.121,
-        "trend": "alcista"
+        "price": 5.105,
+        "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 58m",
+    "U.S. markets close in 1h 42m",
     "News from the Yahoo Finance Network",
-    "He Claimed Social Security at 67 Last Year, Then Watched the Dow Jump 1,104 Points in a Day and Decided His Portfolio Can Carry Him for Now. Suspending His Checks Until 70 Earns Him 8% a Year, Up to 16% More for Life",
-    "Jensen Huang looks to have accepted his fate with Nvidia: He cleaned up his X profile",
-    "‘I never took a dime of depreciation’: I’m 70 and want to sell the rental I’ve owned since 2004. My son says the IRS taxes it anyway and I should keep it for the kids. Is he right?",
-    "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
-    "Dave Ramsey’s 8% Rule for a 65-Year-Old With $750,000 in an IRA and $2,600 a Month in Social Security. Here’s the Monthly Income, the Tax Bill and the Year the Money Ran Out.",
-    "The Stock Market Is Doing Something for Only the 6th Time in 156 Years, and History Says It's Clear What Comes Next for Stocks"
+    "Her Mother Left Her A $450,000 IRA. The Supreme Court Ruled 9-0 It Wasn’t ‘Retirement Funds,’ So It Wasn’t Shielded In Her Bankruptcy. Here’s How Parents Can Protect An IRA They Plan To Leave To Their Kids",
+    "Major fried chicken chain franchisee files Chapter 11 bankruptcy",
+    "Lawyer for Fed governor Lisa Cook says she will not participate in 'unfair' White House hearing",
+    "IRS issues critical 2027 retirement changes: New Roth rules, higher limits. What you must do before Dec. 31",
+    "He’s 62 and Told to Delay Social Security Until 70 While Living on His $700,000 401(k). Eight Years at $40,000 Drains $320,000 Before His First Check Arrives",
+    "He Claimed Social Security at 67 Last Year, Then Watched the Dow Jump 1,104 Points in a Day and Decided His Portfolio Can Carry Him for Now. Suspending His Checks Until 70 Earns Him 8% a Year, Up to 16% More for Life"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 64172.25,
-        "perp_last_price": 64172.25,
-        "mark_price": 64172.25,
-        "index_price": 64172.25,
+        "spot_price": 63746.171875,
+        "perp_last_price": 63746.171875,
+        "mark_price": 63746.171875,
+        "index_price": 63746.171875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "bias": "long",
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64172.25,
-        "stop_loss_technical": 65467.2890625,
-        "target_1": 62229.69140625,
-        "target_2": 60287.1328125,
+        "entry_ideal": 63746.171875,
+        "stop_loss_technical": 63299.83984375,
+        "target_1": 64415.66992188,
+        "target_2": 65085.16796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 95,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
           "RSI Bear",
-          "Macro RISK_OFF (Presión)"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 64172.25,
-        "stop_loss_technical": 71428.53125,
-        "target_1": 53287.828125,
-        "target_2": 42403.40625,
+        "entry_ideal": 63746.171875,
+        "stop_loss_technical": 62789.97929687,
+        "target_1": 65180.46074219,
+        "target_2": 66614.74960937,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,31 +82,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Macro RISK_OFF (Presión)",
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11368,
-        "target_1": 0.10948,
-        "target_2": 0.10696,
+        "stop_loss_technical": 0.11032,
+        "target_1": 0.11452,
+        "target_2": 0.11704,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
