@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-18T17:57:04.689472+00:00",
+    "generated_at_utc": "2026-11-18T23:45:05.356163+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,47 +11,48 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.81,
+        "price": 103.813,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.064,
+        "price": 5.066,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 3h 4m",
     "News from the Yahoo Finance Network",
-    "Major fried chicken chain franchisee files Chapter 11 bankruptcy",
-    "Charlie Munger Said He’d ‘Never Sell a Share’ of Costco. $10,000 From 1997 Is Now Worth $833,000 and Gets a $22,535 Check on Dec. 4",
+    "A 71-Year-Old Moved $885,000 Out of CDs and Into Dividend ETFs. Here’s What Happened to His $4,126 Monthly Paycheck",
+    "Gold Just Crashed 32% From Its Record in 10 Months, Shattering the Safe Haven Retirees Leaned On. Warren Buffett Spent Decades Warning About Exactly This, and His Reason Wasn’t the Price",
     "John Malkovich says Bernie Madoff took ‘pretty much everything I’d ever made.’ Victims got back 75 cents on the dollar",
     "Winn-Dixie closing all stores in major market as rival takes over",
+    "Charlie Munger Said He’d ‘Never Sell a Share’ of Costco. $10,000 From 1997 Is Now Worth $833,000 and Gets a $22,535 Check on Dec. 4",
     "Bill Gates Has Earned $2.6 Billion in Dividends From a Landfill Stock the EPA Keeps Citing for Methane Leaks, and a Filing Shows He Just Bought 3.7M More Shares",
-    "The seeds of the next recession are being sown in today’s booming economy, warns top economist: ‘Icarus is flying towards the sun’"
+    "Fed Data Uncovers How Many Retirees Truly Own Their Homes Outright"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63046.37109375,
-        "perp_last_price": 63046.37109375,
-        "mark_price": 63046.37109375,
-        "index_price": 63046.37109375,
+        "spot_price": 62976.37109375,
+        "perp_last_price": 62976.37109375,
+        "mark_price": 62976.37109375,
+        "index_price": 62976.37109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 63046.37109375,
-        "stop_loss_technical": 65188.08984375,
-        "target_1": 59833.79296875,
-        "target_2": 56621.21484375,
+        "entry_ideal": 62976.37109375,
+        "stop_loss_technical": 62004.0,
+        "target_1": 64434.92773438,
+        "target_2": 65893.484375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 63046.37109375,
+        "entry_ideal": 62976.37109375,
         "stop_loss_technical": 68377.5390625,
-        "target_1": 55049.61914062,
-        "target_2": 47052.8671875,
+        "target_1": 54874.61914062,
+        "target_2": 46772.8671875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
