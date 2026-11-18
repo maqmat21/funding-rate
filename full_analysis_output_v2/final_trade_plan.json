@@ -1,73 +1,71 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-17T19:19:01.327284+00:00",
+    "generated_at_utc": "2026-11-18T01:39:28.786202+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.451,
-        "trend": "bajista"
+        "price": 103.647,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.105,
+        "price": 5.103,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 1h 42m",
     "News from the Yahoo Finance Network",
     "Her Mother Left Her A $450,000 IRA. The Supreme Court Ruled 9-0 It Wasn’t ‘Retirement Funds,’ So It Wasn’t Shielded In Her Bankruptcy. Here’s How Parents Can Protect An IRA They Plan To Leave To Their Kids",
+    "John Malkovich says Bernie Madoff took ‘pretty much everything I’d ever made.’ Victims got back 75 cents on the dollar",
     "Major fried chicken chain franchisee files Chapter 11 bankruptcy",
-    "Lawyer for Fed governor Lisa Cook says she will not participate in 'unfair' White House hearing",
+    "Nvidia is abandoning China after Jensen Huang's ouster",
     "IRS issues critical 2027 retirement changes: New Roth rules, higher limits. What you must do before Dec. 31",
     "He’s 62 and Told to Delay Social Security Until 70 While Living on His $700,000 401(k). Eight Years at $40,000 Drains $320,000 Before His First Check Arrives",
-    "He Claimed Social Security at 67 Last Year, Then Watched the Dow Jump 1,104 Points in a Day and Decided His Portfolio Can Carry Him for Now. Suspending His Checks Until 70 Earns Him 8% a Year, Up to 16% More for Life"
+    "Major burger chain buying 163 franchisee units out of bankruptcy"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63746.171875,
-        "perp_last_price": 63746.171875,
-        "mark_price": 63746.171875,
-        "index_price": 63746.171875,
+        "spot_price": 64436.8203125,
+        "perp_last_price": 64436.8203125,
+        "mark_price": 64436.8203125,
+        "index_price": 64436.8203125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63746.171875,
-        "stop_loss_technical": 63299.83984375,
-        "target_1": 64415.66992188,
-        "target_2": 65085.16796875,
+        "entry_ideal": 64437.328125,
+        "stop_loss_technical": 65379.0,
+        "target_1": 63024.8203125,
+        "target_2": 61612.3125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear",
-          "Macro RISK_ON (Apoyo)"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 63746.171875,
-        "stop_loss_technical": 62789.97929687,
-        "target_1": 65180.46074219,
-        "target_2": 66614.74960937,
+        "entry_ideal": 64436.8203125,
+        "stop_loss_technical": 62017.8828125,
+        "target_1": 68065.2265625,
+        "target_2": 71693.6328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +80,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +93,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
