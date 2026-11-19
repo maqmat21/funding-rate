@@ -1,72 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-19T13:48:23.484184+00:00",
+    "generated_at_utc": "2026-11-19T21:51:12.184582+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.679,
-        "trend": "bajista"
+        "price": 103.94,
+        "trend": "alcista"
       },
       "US10Y": {
-        "price": 5.089,
+        "price": 5.052,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "‘Why are you the only one getting wealth?’ Kevin O’Leary confronted by Gen Z worker on employee equity. Here’s his reply",
+    "Inherit a $200,000 401(k) From a Parent and Have the Plan Cut You a Check, and the Whole $200,000 Is Taxable Income That Year. A Non-Spouse Heir Gets No 60 Days to Fix It, and No Rollover Into Their Own IRA, Ever",
+    "Give Your 88-Year-Old Mother $400,000 of Stock, and If She Lives a Year and a Day and Leaves It Back to You, 30 Years of Gains Are Erased. If She Dies Sooner, the IRS Ignores the Whole Thing",
+    "Prediction: Silver Will Be Worth This Much By the End of 2027",
     "He Worked as a Carpenter at the Same Iowa Business for 67 Years and Owned Two Pairs of Jeans, One for Work and One for Church. When He Died in 2005, He Left Nearly $3 Million to Send Strangers to College",
-    "$1.6 Billion Loss: Billionaire Bill Ackman Says He Was ‘A Little Bit Surprised’ by Berkshire’s $10 Billion Alphabet Bet, ‘They Got It at a 6% Discount, But So What?’",
-    "Gold Just Crashed 32% From Its Record in 10 Months, Shattering the Safe Haven Retirees Leaned On. Warren Buffett Spent Decades Warning About Exactly This, and His Reason Wasn’t the Price",
-    "Gold Just Sank to a One-Year Low. Costco Members Who Bought Bars in September Are Down About $700 Each, and Launch Buyers Are Still Up 88%",
-    "Dave Ramsey says this 1 indulgent purchase is how 'you know someone is going to stay middle class.' What to do instead",
-    "5 High-Yield Bank Stocks Retirees Should Own Inside a Roth IRA"
+    "Leave the Family Cabin to Three Kids in a Will and They Inherit It at Today’s $480,000 Value. Deed It to Them This Year and They Split the $40,000 You Paid in 1979",
+    "In 1983, a Florida Trailer Park Had Sold About 400 Homes in a Decade. The Owner Brought In His Son to Run It. That Park Became The Villages, One of the Largest Retirement Communities in the World",
+    "Mark Cuban says every billionaire has 'one thing' in common, and either you have it or you don't"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63705.62109375,
-        "perp_last_price": 63705.62109375,
-        "mark_price": 63705.62109375,
-        "index_price": 63705.62109375,
+        "spot_price": 61469.53125,
+        "perp_last_price": 61469.53125,
+        "mark_price": 61469.53125,
+        "index_price": 61469.53125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63705.62109375,
-        "stop_loss_technical": 62012.26953125,
-        "target_1": 66245.6484375,
-        "target_2": 68785.67578125,
+        "entry_ideal": 61469.53125,
+        "stop_loss_technical": 64011.1015625,
+        "target_1": 57657.17578125,
+        "target_2": 53844.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 82,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 63705.62109375,
-        "stop_loss_technical": 62012.26953125,
-        "target_1": 66245.6484375,
-        "target_2": 68785.67578125,
+        "entry_ideal": 61469.53125,
+        "stop_loss_technical": 66055.1015625,
+        "target_1": 54591.17578125,
+        "target_2": 47712.8203125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -95,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
