@@ -1,71 +1,72 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-19T04:31:36.849451+00:00",
+    "generated_at_utc": "2026-11-19T13:48:23.484184+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 103.927,
-        "trend": "alcista"
+        "price": 103.679,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 5.066,
+        "price": 5.089,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "Gold Just Sank to a One-Year Low. Costco Members Who Bought Bars in September Are Down About $700 Each, and Launch Buyers Are Still Up 88%",
+    "‘Why are you the only one getting wealth?’ Kevin O’Leary confronted by Gen Z worker on employee equity. Here’s his reply",
+    "He Worked as a Carpenter at the Same Iowa Business for 67 Years and Owned Two Pairs of Jeans, One for Work and One for Church. When He Died in 2005, He Left Nearly $3 Million to Send Strangers to College",
+    "$1.6 Billion Loss: Billionaire Bill Ackman Says He Was ‘A Little Bit Surprised’ by Berkshire’s $10 Billion Alphabet Bet, ‘They Got It at a 6% Discount, But So What?’",
     "Gold Just Crashed 32% From Its Record in 10 Months, Shattering the Safe Haven Retirees Leaned On. Warren Buffett Spent Decades Warning About Exactly This, and His Reason Wasn’t the Price",
-    "Peter Thiel’s $85 Million Nvidia Exit Was a Bet the Stock Had Run Far Enough. After Nvidia’s Beat, It Closed Below Every Price He Could Have Sold At",
-    "Mark Cuban says every billionaire has 'one thing' in common, and either you have it or you don't",
-    "A 71-Year-Old Moved $885,000 Out of CDs and Into Dividend ETFs. Here’s What Happened to His $4,126 Monthly Paycheck",
-    "Trump Says $465,000 in an IRA Makes You ‘Rich.’ Morningstar’s Safe Withdrawal Rate Says It Pays $18,135 a Year. Here’s the Math So You Can Decide Who’s Right",
-    "Winn-Dixie closing all stores in major market as rival takes over"
+    "Gold Just Sank to a One-Year Low. Costco Members Who Bought Bars in September Are Down About $700 Each, and Launch Buyers Are Still Up 88%",
+    "Dave Ramsey says this 1 indulgent purchase is how 'you know someone is going to stay middle class.' What to do instead",
+    "5 High-Yield Bank Stocks Retirees Should Own Inside a Roth IRA"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 63343.8515625,
-        "perp_last_price": 63343.8515625,
-        "mark_price": 63343.8515625,
-        "index_price": 63343.8515625,
+        "spot_price": 63705.62109375,
+        "perp_last_price": 63705.62109375,
+        "mark_price": 63705.62109375,
+        "index_price": 63705.62109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 74,
+        "probability_pct": 82,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull"
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63342.578125,
-        "stop_loss_technical": 62004.0,
-        "target_1": 65350.4453125,
-        "target_2": 67358.3125,
+        "entry_ideal": 63705.62109375,
+        "stop_loss_technical": 62012.26953125,
+        "target_1": 66245.6484375,
+        "target_2": 68785.67578125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 82,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 63343.8515625,
-        "stop_loss_technical": 62004.0,
-        "target_1": 65353.62890625,
-        "target_2": 67363.40625,
+        "entry_ideal": 63705.62109375,
+        "stop_loss_technical": 62012.26953125,
+        "target_1": 66245.6484375,
+        "target_2": 68785.67578125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,10 +81,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -93,10 +95,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
