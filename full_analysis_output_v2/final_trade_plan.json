@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-20T02:43:37.030057+00:00",
+    "generated_at_utc": "2026-11-20T10:32:08.816512+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.882,
+        "price": 103.86,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,51 +21,51 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 3h 59m",
     "News from the Yahoo Finance Network",
-    "The market could fall 10-12% — stocks to buy and sell now",
+    "In 1993, A 79-Year-Old Maine Shoemaker Sold His Company To Warren Buffett For Berkshire Shares Instead Of Cash. Buffett Called It His “Worst Deal” As The Shoe Company’s Value Went To Zero, While Harold Alfond’s Berkshire Shares Are Now Worth An Estimated $20 Billion",
     "Inherit a $200,000 401(k) From a Parent and Have the Plan Cut You a Check, and the Whole $200,000 Is Taxable Income That Year. A Non-Spouse Heir Gets No 60 Days to Fix It, and No Rollover Into Their Own IRA, Ever",
-    "Social Security has less than 6 years before a 22% cut. A Senate chairman’s fix is to borrow $190 trillion and call it the ‘Stop Scaring Seniors Act’",
     "Prediction: Silver Will Be Worth This Much By the End of 2027",
+    "Warren Buffett’s Successor Just Bought $10 Billion of This AI Stock, and It’s Not Apple",
     "Give Your 88-Year-Old Mother $400,000 of Stock, and If She Lives a Year and a Day and Leaves It Back to You, 30 Years of Gains Are Erased. If She Dies Sooner, the IRS Ignores the Whole Thing",
-    "He Worked as a Carpenter at the Same Iowa Business for 67 Years and Owned Two Pairs of Jeans, One for Work and One for Church. When He Died in 2005, He Left Nearly $3 Million to Send Strangers to College",
-    "Leave the Family Cabin to Three Kids in a Will and They Inherit It at Today’s $480,000 Value. Deed It to Them This Year and They Split the $40,000 You Paid in 1979"
+    "The market could fall 10-12% — stocks to buy and sell now"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61610.109375,
-        "perp_last_price": 61610.109375,
-        "mark_price": 61610.109375,
-        "index_price": 61610.109375,
+        "spot_price": 61984.8515625,
+        "perp_last_price": 61984.8515625,
+        "mark_price": 61984.8515625,
+        "index_price": 61984.8515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61610.109375,
-        "stop_loss_technical": 61230.421875,
-        "target_1": 62179.640625,
-        "target_2": 62749.171875,
+        "entry_ideal": 61989.6796875,
+        "stop_loss_technical": 61220.0,
+        "target_1": 63144.19921875,
+        "target_2": 64298.71875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61610.109375,
+        "entry_ideal": 61984.8515625,
         "stop_loss_technical": 65604.6015625,
-        "target_1": 55618.37109375,
-        "target_2": 49626.6328125,
+        "target_1": 56555.2265625,
+        "target_2": 51125.6015625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
