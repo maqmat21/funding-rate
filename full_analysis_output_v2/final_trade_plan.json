@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-20T18:46:02.622893+00:00",
+    "generated_at_utc": "2026-11-21T00:17:13.137193+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,48 +11,47 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.831,
+        "price": 103.84,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.94,
+        "price": 4.912,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets close in 2h 15m",
     "News from the Yahoo Finance Network",
+    "At 75 Or Older, You're Wealthier Than Most If Your Household Net Worth Tops This Number",
     "In 1993, A 79-Year-Old Maine Shoemaker Sold His Company To Warren Buffett For Berkshire Shares Instead Of Cash. Buffett Called It His “Worst Deal” As The Shoe Company’s Value Went To Zero, While Harold Alfond’s Berkshire Shares Are Now Worth An Estimated $20 Billion",
+    "Michael Burry warns AI stocks mirror 1929 and 2000 crashes — and singles out Nvidia's risky deals",
+    "The Stock Market Just Sent a Warning It Has Sent Only 8 Times Since 1999. My Husband Wants to Sell Everything Today. I’m 63 and We Had $900,000 in October",
     "'Generational theft': Harsh pushback follows a plan to fund Social Security with more government borrowing",
-    "Costco has a new member offer that's hard to pass up",
-    "Prediction: Silver Will Be Worth This Much By the End of 2027",
-    "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-    "Social Security has less than 6 years before a 22% cut. A Senate chairman’s fix is to borrow $190 trillion and call it the ‘Stop Scaring Seniors Act’"
+    "The Nasdaq Just Had Its 6th Correction in 4 Years. History Says This Is the Likelihood of a Full-Blown Bear Market",
+    "Costco has a new member offer that's hard to pass up"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58569.859375,
-        "perp_last_price": 58569.859375,
-        "mark_price": 58569.859375,
-        "index_price": 58569.859375,
+        "spot_price": 58851.80078125,
+        "perp_last_price": 58851.80078125,
+        "mark_price": 58851.80078125,
+        "index_price": 58851.80078125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20"
         ],
-        "entry_ideal": 58569.859375,
-        "stop_loss_technical": 62533.66015625,
-        "target_1": 52624.15820312,
-        "target_2": 46678.45703125,
+        "entry_ideal": 58851.80078125,
+        "stop_loss_technical": 57676.2890625,
+        "target_1": 60615.06835938,
+        "target_2": 62378.3359375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 58569.859375,
-        "stop_loss_technical": 65604.6015625,
-        "target_1": 48017.74609375,
-        "target_2": 37465.6328125,
+        "entry_ideal": 58851.80078125,
+        "stop_loss_technical": 65365.12890625,
+        "target_1": 49081.80859375,
+        "target_2": 39311.81640625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
