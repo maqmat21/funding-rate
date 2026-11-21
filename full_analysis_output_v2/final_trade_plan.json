@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-21T00:17:13.137193+00:00",
+    "generated_at_utc": "2026-11-21T07:14:53.828743+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -25,33 +25,34 @@
     "At 75 Or Older, You're Wealthier Than Most If Your Household Net Worth Tops This Number",
     "In 1993, A 79-Year-Old Maine Shoemaker Sold His Company To Warren Buffett For Berkshire Shares Instead Of Cash. Buffett Called It His “Worst Deal” As The Shoe Company’s Value Went To Zero, While Harold Alfond’s Berkshire Shares Are Now Worth An Estimated $20 Billion",
     "Michael Burry warns AI stocks mirror 1929 and 2000 crashes — and singles out Nvidia's risky deals",
-    "The Stock Market Just Sent a Warning It Has Sent Only 8 Times Since 1999. My Husband Wants to Sell Everything Today. I’m 63 and We Had $900,000 in October",
-    "'Generational theft': Harsh pushback follows a plan to fund Social Security with more government borrowing",
-    "The Nasdaq Just Had Its 6th Correction in 4 Years. History Says This Is the Likelihood of a Full-Blown Bear Market",
-    "Costco has a new member offer that's hard to pass up"
+    "He Handed His Daughter 50 Ounces of Gold in January, Worth $265,920 at the Record Close. It’s Down to About $177,000 Now, and if He Needs Medicaid, His Penalty Will Still Be Figured on $265,920",
+    "Peter Schiff Says Gold's $2,000 Pullback Could Be A Warning — 'Stocks Will Ultimately Fall Much Further'",
+    "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+    "The Stock Market Just Sent a Warning It Has Sent Only 8 Times Since 1999. My Husband Wants to Sell Everything Today. I’m 63 and We Had $900,000 in October"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 58851.80078125,
-        "perp_last_price": 58851.80078125,
-        "mark_price": 58851.80078125,
-        "index_price": 58851.80078125,
+        "spot_price": 58099.3515625,
+        "perp_last_price": 58099.3515625,
+        "mark_price": 58099.3515625,
+        "index_price": 58099.3515625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 58851.80078125,
-        "stop_loss_technical": 57676.2890625,
-        "target_1": 60615.06835938,
-        "target_2": 62378.3359375,
+        "entry_ideal": 58090.26953125,
+        "stop_loss_technical": 55180.671875,
+        "target_1": 62454.66601562,
+        "target_2": 66819.0625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio < EMA20",
           "RSI Bear"
         ],
-        "entry_ideal": 58851.80078125,
+        "entry_ideal": 58099.3515625,
         "stop_loss_technical": 65365.12890625,
-        "target_1": 49081.80859375,
-        "target_2": 39311.81640625,
+        "target_1": 47200.68554688,
+        "target_2": 36302.01953125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
