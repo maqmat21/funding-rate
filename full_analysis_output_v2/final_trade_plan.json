@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-22T07:31:39.486702+00:00",
+    "generated_at_utc": "2026-11-22T15:37:04.058322+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -22,50 +22,50 @@
   },
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
-    "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
+    "“If You’re A Millionaire You’re Broke.” Grant Cardone Says A Million Dollars Was A Lot Of Money In 1960, But Not Anymore. Here’s What It Really Takes To Be Rich",
+    "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks",
     "At 75 Or Older, You're Wealthier Than Most If Your Household Net Worth Tops This Number",
-    "Charlie Munger Had 1 Warning Every Investor Over 60 Should Hear",
-    "We May Be Witnessing Wall Street's Biggest Bubble Burst in Real Time (and I'm Not Talking About Artificial Intelligence)",
-    "At 74, a Machinist Planned to Pay for His Nursing Home With $150,000 in Bitcoin. After the Crash It’s Worth About $90,000, and the Loss Will Get Him Onto Medicaid About 5½ Months Sooner",
-    "A Couple Will Keep Their 3% Mortgage, Rent Out the Old House and Buy a New One. When Dad Needs a Nursing Home, Medicaid Will Exempt the Home Mom Lives In and Count the $250,000 of Equity in the Rental",
-    "Where Will Nvidia Stock Be in 20 Years? The Answer Might Surprise You."
+    "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
+    "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
+    "Walmart makes tough decision that may upset shoppers",
+    "It's Official! Social Security's Trump Bump-Driven 2027 COLA Will Provide a Unique \"Bonus\" for Up to 35 Million Retirees."
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59017.94140625,
-        "perp_last_price": 59017.94140625,
-        "mark_price": 59017.94140625,
-        "index_price": 59017.94140625,
+        "spot_price": 60787.23046875,
+        "perp_last_price": 60787.23046875,
+        "mark_price": 60787.23046875,
+        "index_price": 60787.23046875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "amarillo",
-        "bias": "long",
+        "bias": "short",
         "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 59017.94140625,
-        "stop_loss_technical": 58038.7890625,
-        "target_1": 60486.66992188,
-        "target_2": 61955.3984375,
+        "entry_ideal": 60772.87890625,
+        "stop_loss_technical": 61545.78125,
+        "target_1": 59613.52539062,
+        "target_2": 58454.171875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 59017.94140625,
-        "stop_loss_technical": 64928.80078125,
-        "target_1": 50151.65234375,
-        "target_2": 41285.36328125,
+        "entry_ideal": 60787.23046875,
+        "stop_loss_technical": 55149.56640625,
+        "target_1": 69243.7265625,
+        "target_2": 77700.22265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
