@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-22T15:37:04.058322+00:00",
+    "generated_at_utc": "2026-11-22T21:12:49.511536+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -23,35 +23,36 @@
   "events_considered_titles": [
     "News from the Yahoo Finance Network",
     "“If You’re A Millionaire You’re Broke.” Grant Cardone Says A Million Dollars Was A Lot Of Money In 1960, But Not Anymore. Here’s What It Really Takes To Be Rich",
-    "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks",
-    "At 75 Or Older, You're Wealthier Than Most If Your Household Net Worth Tops This Number",
+    "Jeff Bezos predicts Amazon will eventually 'go bankrupt' and shares 30-year rule behind it",
     "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
+    "Warren Buffett’s Successor, Greg Abel, Has Invested Nearly 47% of Berkshire Hathaway’s $360 Billion Stock Portfolio in Just 3 Stocks (and None Are AI Hyperscalers)",
+    "Millionaires in America: How common is it to have a 7-figure net worth?",
     "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
-    "Walmart makes tough decision that may upset shoppers",
-    "It's Official! Social Security's Trump Bump-Driven 2027 COLA Will Provide a Unique \"Bonus\" for Up to 35 Million Retirees."
+    "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60787.23046875,
-        "perp_last_price": 60787.23046875,
-        "mark_price": 60787.23046875,
-        "index_price": 60787.23046875,
+        "spot_price": 60839.828125,
+        "perp_last_price": 60839.828125,
+        "mark_price": 60839.828125,
+        "index_price": 60839.828125,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60772.87890625,
-        "stop_loss_technical": 61545.78125,
-        "target_1": 59613.52539062,
-        "target_2": 58454.171875,
+        "entry_ideal": 60831.23046875,
+        "stop_loss_technical": 58656.26171875,
+        "target_1": 64093.68359375,
+        "target_2": 67356.13671875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -62,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 60787.23046875,
+        "entry_ideal": 60839.828125,
         "stop_loss_technical": 55149.56640625,
-        "target_1": 69243.7265625,
-        "target_2": 77700.22265625,
+        "target_1": 69375.22070312,
+        "target_2": 77910.61328125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
