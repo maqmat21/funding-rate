@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-23T01:44:43.368247+00:00",
+    "generated_at_utc": "2026-11-23T09:49:31.950256+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.764,
-        "trend": "bajista"
+        "price": 103.768,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.912,
@@ -21,53 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 4h 42m",
     "News from the Yahoo Finance Network",
     "“If You’re A Millionaire You’re Broke.” Grant Cardone Says A Million Dollars Was A Lot Of Money In 1960, But Not Anymore. Here’s What It Really Takes To Be Rich",
-    "Nvidia Just Lost Nearly Half Its Value. A 62-Year-Old With $1 Million in an S&P 500 Index Fund Owns About $50,000 of It Without Buying a Share",
     "Millionaires in America: How common is it to have a 7-figure net worth?",
-    "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
     "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
-    "U.S. Treasury Secretary Scott Bessent Just Delivered Great News to Former Nvidia CEO Jensen Huang. Should You Buy Nvidia Stock Before Nov. 25?",
+    "Does Warren Buffett's Successor, Greg Abel, Know Something That Wall Street Doesn't? Berkshire Hathaway's New CEO Is Piling Into a Homebuilder Amid Rising Interest Rates",
+    "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
     "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60926.8203125,
-        "perp_last_price": 60926.8203125,
-        "mark_price": 60926.8203125,
-        "index_price": 60926.8203125,
+        "spot_price": 61356.16015625,
+        "perp_last_price": 61356.16015625,
+        "mark_price": 61356.16015625,
+        "index_price": 61356.16015625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio < EMA20",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bear"
         ],
-        "entry_ideal": 60926.8203125,
-        "stop_loss_technical": 60012.91800781,
-        "target_1": 62297.67376953,
-        "target_2": 63668.52722656,
+        "entry_ideal": 61355.0,
+        "stop_loss_technical": 61819.8984375,
+        "target_1": 60657.65234375,
+        "target_2": 59960.3046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 60926.8203125,
+        "entry_ideal": 61356.16015625,
         "stop_loss_technical": 55149.56640625,
-        "target_1": 69592.70117188,
-        "target_2": 78258.58203125,
+        "target_1": 70666.05078125,
+        "target_2": 79975.94140625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -82,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -96,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
