@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-23T09:49:31.950256+00:00",
+    "generated_at_utc": "2026-11-23T21:43:09.646326+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,62 +11,60 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.768,
+        "price": 104.322,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.912,
+        "price": 4.918,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 4h 42m",
     "News from the Yahoo Finance Network",
+    "She’s 71 and Gives $15,000 a Year to Her Church. Everyone Tells Her to Write a Check and Deduct It. Sent Straight From Her IRA, the Gift Never Shows Up as Income",
     "“If You’re A Millionaire You’re Broke.” Grant Cardone Says A Million Dollars Was A Lot Of Money In 1960, But Not Anymore. Here’s What It Really Takes To Be Rich",
-    "Millionaires in America: How common is it to have a 7-figure net worth?",
+    "Pizza franchisee files Chapter 11 bankruptcy, chain cut 381 units",
     "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
-    "Does Warren Buffett's Successor, Greg Abel, Know Something That Wall Street Doesn't? Berkshire Hathaway's New CEO Is Piling Into a Homebuilder Amid Rising Interest Rates",
-    "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
-    "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks"
+    "She Parks $450,000 in 4.5% Bank CDs at 68 as Bank Deposits Boom. The $20,250 in Interest Makes $8,113 of Her Social Security Taxable",
+    "Warren Buffett Bought a Farm in 1986 and Has Visited It Twice. Here’s His Rule for a 66-Year-Old With $700,000 in an IRA and $2,900 a Month in Social Security",
+    "Social Security cuts: 28 states could lose $500 or more per month"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61356.16015625,
-        "perp_last_price": 61356.16015625,
-        "mark_price": 61356.16015625,
-        "index_price": 61356.16015625,
+        "spot_price": 61262.921875,
+        "perp_last_price": 61262.921875,
+        "mark_price": 61262.921875,
+        "index_price": 61262.921875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
+        "semaphore": "amarillo",
         "bias": "short",
-        "probability_pct": 74,
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61355.0,
-        "stop_loss_technical": 61819.8984375,
-        "target_1": 60657.65234375,
-        "target_2": 59960.3046875,
+        "entry_ideal": 61245.28125,
+        "stop_loss_technical": 64451.6015625,
+        "target_1": 56435.80078125,
+        "target_2": 51626.3203125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61356.16015625,
-        "stop_loss_technical": 55149.56640625,
-        "target_1": 70666.05078125,
-        "target_2": 79975.94140625,
+        "entry_ideal": 61262.921875,
+        "stop_loss_technical": 64451.6015625,
+        "target_1": 56479.90234375,
+        "target_2": 51696.8828125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
