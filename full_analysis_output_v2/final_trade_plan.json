@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-23T21:43:09.646326+00:00",
+    "generated_at_utc": "2026-11-24T05:33:08.511473+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -11,7 +11,7 @@
     "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 104.322,
+        "price": 104.294,
         "trend": "alcista"
       },
       "US10Y": {
@@ -21,50 +21,52 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 8h 58m",
     "News from the Yahoo Finance Network",
+    "Elon Musk says he offered first wife about $80M to settle their divorce. She held out for his stock and got far less",
     "She’s 71 and Gives $15,000 a Year to Her Church. Everyone Tells Her to Write a Check and Deduct It. Sent Straight From Her IRA, the Gift Never Shows Up as Income",
-    "“If You’re A Millionaire You’re Broke.” Grant Cardone Says A Million Dollars Was A Lot Of Money In 1960, But Not Anymore. Here’s What It Really Takes To Be Rich",
-    "Pizza franchisee files Chapter 11 bankruptcy, chain cut 381 units",
-    "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
+    "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
     "She Parks $450,000 in 4.5% Bank CDs at 68 as Bank Deposits Boom. The $20,250 in Interest Makes $8,113 of Her Social Security Taxable",
-    "Warren Buffett Bought a Farm in 1986 and Has Visited It Twice. Here’s His Rule for a 66-Year-Old With $700,000 in an IRA and $2,900 a Month in Social Security",
-    "Social Security cuts: 28 states could lose $500 or more per month"
+    "Jensen Huang back at Nvidia after staff reported humiliating threats, insults — 'thinks he can get away with anything'",
+    "She Flips $100,000 of Anthropic IPO Shares at the $111.50 Open for a $34,300 Gain. The Quick Sale Could Bar Her From Future IPOs and Makes $22,700 More of Her Social Security Taxable"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61262.921875,
-        "perp_last_price": 61262.921875,
-        "mark_price": 61262.921875,
-        "index_price": 61262.921875,
+        "spot_price": 60649.9609375,
+        "perp_last_price": 60649.9609375,
+        "mark_price": 60649.9609375,
+        "index_price": 60649.9609375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "short",
-        "probability_pct": 66,
+        "semaphore": "verde",
+        "bias": "long",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 61245.28125,
-        "stop_loss_technical": 64451.6015625,
-        "target_1": 56435.80078125,
-        "target_2": 51626.3203125,
+        "entry_ideal": 60649.96875,
+        "stop_loss_technical": 59373.21875,
+        "target_1": 62565.09375,
+        "target_2": 64480.21875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 61262.921875,
-        "stop_loss_technical": 64451.6015625,
-        "target_1": 56479.90234375,
-        "target_2": 51696.8828125,
+        "entry_ideal": 60649.9609375,
+        "stop_loss_technical": 64469.83984375,
+        "target_1": 54920.14257812,
+        "target_2": 49190.32421875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
