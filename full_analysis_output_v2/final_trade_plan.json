@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-24T05:33:08.511473+00:00",
+    "generated_at_utc": "2026-11-24T16:16:49.414508+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 104.294,
-        "trend": "alcista"
+        "price": 103.849,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.918,
+        "price": 4.888,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 8h 58m",
+    "U.S. markets close in 4h 44m",
     "News from the Yahoo Finance Network",
-    "Elon Musk says he offered first wife about $80M to settle their divorce. She held out for his stock and got far less",
     "She’s 71 and Gives $15,000 a Year to Her Church. Everyone Tells Her to Write a Check and Deduct It. Sent Straight From Her IRA, the Gift Never Shows Up as Income",
-    "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
-    "She Parks $450,000 in 4.5% Bank CDs at 68 as Bank Deposits Boom. The $20,250 in Interest Makes $8,113 of Her Social Security Taxable",
-    "Jensen Huang back at Nvidia after staff reported humiliating threats, insults — 'thinks he can get away with anything'",
-    "She Flips $100,000 of Anthropic IPO Shares at the $111.50 Open for a $34,300 Gain. The Quick Sale Could Bar Her From Future IPOs and Makes $22,700 More of Her Social Security Taxable"
+    "Elon Musk says he offered first wife about $80M to settle their divorce. She held out for his stock and got far less",
+    "California raised minimum wages for fast-food workers – here’s how it played out 2 years later",
+    "At 73 She Sent $55,000 From Her IRA to Her Alma Mater and Got a Check for Life in Return. It Counted Toward Her RMD, and the IRS Allows It Exactly Once",
+    "Warren Buffett gave $1.3B to family foundations at 95 because his kids, 68 to 73, may not age as slowly as he has",
+    "Billionaire Carl Icahn Has 86% of His $9.4 Billion Stock Portfolio in Just Two Companies"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60649.9609375,
-        "perp_last_price": 60649.9609375,
-        "mark_price": 60649.9609375,
-        "index_price": 60649.9609375,
+        "spot_price": 59469.19140625,
+        "perp_last_price": 59469.19140625,
+        "mark_price": 59469.19140625,
+        "index_price": 59469.19140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60649.96875,
-        "stop_loss_technical": 59373.21875,
-        "target_1": 62565.09375,
-        "target_2": 64480.21875,
+        "entry_ideal": 59451.8203125,
+        "stop_loss_technical": 58560.04300781,
+        "target_1": 60789.48626953,
+        "target_2": 62127.15222656,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
-        "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
           "Precio < EMA20",
-          "RSI Bear"
+          "RSI Bear",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 60649.9609375,
-        "stop_loss_technical": 64469.83984375,
-        "target_1": 54920.14257812,
-        "target_2": 49190.32421875,
+        "entry_ideal": 59469.19140625,
+        "stop_loss_technical": 58577.15353516,
+        "target_1": 60807.24821289,
+        "target_2": 62145.30501953,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
