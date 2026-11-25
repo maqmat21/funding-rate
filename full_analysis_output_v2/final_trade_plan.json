@@ -1,72 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-25T09:14:06.281215+00:00",
+    "generated_at_utc": "2026-11-25T19:16:58.707640+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_ON",
+    "macro_score": 20,
     "assets": {
       "DXY": {
-        "price": 104.018,
-        "trend": "alcista"
+        "price": 103.633,
+        "trend": "bajista"
       },
       "US10Y": {
-        "price": 4.904,
+        "price": 4.836,
         "trend": "bajista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 5h 17m",
+    "U.S. markets close in 1h 44m",
     "News from the Yahoo Finance Network",
-    "He Lets His Tesla Drive at 93, Trusting the Brand. A $400,000 Crash Judgment Could Reach His Savings, While His $2,800 Social Security Check Stays Off-Limits to the Victim",
+    "Dave Ramsey calls a bride-to-be's plan to bankrupt $200K in debt while her fiancé sits on lottery winnings 'bull crap'",
     "After His Alzheimer’s Blood Test Comes Back Positive, He Moves $600,000 in Savings Into His Wife’s Name. Medicaid Counts It All Anyway, Letting Her Keep at Most $162,660",
-    "Charlie Munger Warned Years Ago That Investors Who Panic Over a 50% Drop ‘Deserve the Mediocre Result’ — This Selloff Is Testing His Rule",
+    "Here are the 4 levels of wealth for American retirees heading into 2027 — are you near the top or bottom of the pyramid?",
     "A Retired Couple Plans to Sell $135,300 of Stock Gains Tax-Free Under 2027’s 0% Capital Gains Bracket. Their $48,000 in Social Security Pushes Much of the Gain Into the 15% Bracket: a $6,120 Bill",
-    "Domino's Pizza franchisee files for Chapter 11 bankruptcy",
-    "Kiyosaki sounds alarm on US economic crash ‘bigger than 2008’ — warns Washington won’t save you from ‘Global Depression’"
+    "How Many Retirees Wait Until Age 70 to Claim the Maximum Social Security Benefit?",
+    "He Lets His Tesla Drive at 93, Trusting the Brand. A $400,000 Crash Judgment Could Reach His Savings, While His $2,800 Social Security Check Stays Off-Limits to the Victim"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 59002.26953125,
-        "perp_last_price": 59002.26953125,
-        "mark_price": 59002.26953125,
-        "index_price": 59002.26953125,
+        "spot_price": 60003.62109375,
+        "perp_last_price": 60003.62109375,
+        "mark_price": 60003.62109375,
+        "index_price": 60003.62109375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59002.26953125,
-        "stop_loss_technical": 60609.0,
-        "target_1": 56592.17382812,
-        "target_2": 54182.078125,
+        "entry_ideal": 60086.05078125,
+        "stop_loss_technical": 57214.46875,
+        "target_1": 64393.42382812,
+        "target_2": 68700.796875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "short",
-        "probability_pct": 74,
+        "bias": "long",
+        "probability_pct": 90,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull",
+          "Macro RISK_ON (Apoyo)"
         ],
-        "entry_ideal": 59002.26953125,
-        "stop_loss_technical": 64478.36328125,
-        "target_1": 50788.12890625,
-        "target_2": 42573.98828125,
+        "entry_ideal": 60003.62109375,
+        "stop_loss_technical": 55149.56640625,
+        "target_1": 67284.703125,
+        "target_2": 74565.78515625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -81,10 +83,11 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -94,10 +97,11 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "amarillo",
+        "bias": "long",
+        "probability_pct": 66,
         "technical_reasoning": [
+          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
