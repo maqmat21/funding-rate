@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-26T02:14:02.140315+00:00",
+    "generated_at_utc": "2026-11-26T10:55:01.129132+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "RISK_ON",
-    "macro_score": 20,
+    "macro_bias": "NEUTRAL",
+    "macro_score": 50,
     "assets": {
       "DXY": {
-        "price": 103.753,
-        "trend": "bajista"
+        "price": 103.81,
+        "trend": "alcista"
       },
       "US10Y": {
         "price": 4.848,
@@ -24,51 +24,49 @@
     "News from the Yahoo Finance Network",
     "How Many American Families Have a Net Worth of $1 Million or More?",
     "Feeling Safe After a Decade of Gains, He Keeps 80% of His $1.4 Million 401(k) in Stocks at 64. Like a Thanksgiving Turkey, He Won’t See It Coming: a 25% Drop Would Cost Him $280,000 Months Before He Retires",
+    "President Trump Just Hit Stock Market Investors With Bad News at a Bad Time",
+    "He Claimed Social Security at 62 to Pour Every $2,100 Check Into Bitcoin, Betting Growth Would Beat Waiting. Bitcoin’s November Plunge Wipes Out About a Quarter of His $50,400, and His Check Stays $900 a Month Smaller for Life",
+    "‘She’ll get over it,’ my husband says: I’m 69 and giving our son’s three children $150,000 for college. Our daughter, who has no kids, is skipping Thanksgiving. Who’s right?",
     "How Warren Buffett Makes Billions from Dividends: Top 5 Stocks",
-    "Dave Ramsey calls a bride-to-be's plan to bankrupt $200K in debt while her fiancé sits on lottery winnings 'bull crap'",
-    "She Will Collect $2,800 a Month From Social Security at 67 and Take $60,000 a Year From a $900,000 401(k). The IRS Will Count $28,560 of Her Annual Benefits as Taxable Income",
-    "After His Alzheimer’s Blood Test Comes Back Positive, He Moves $600,000 in Savings Into His Wife’s Name. Medicaid Counts It All Anyway, Letting Her Keep at Most $162,660",
-    "‘She’ll get over it,’ my husband says: I’m 69 and giving our son’s three children $150,000 for college. Our daughter, who has no kids, is skipping Thanksgiving. Who’s right?"
+    "Another healthy fast-food chain closes all its restaurants"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60806.6796875,
-        "perp_last_price": 60806.6796875,
-        "mark_price": 60806.6796875,
-        "index_price": 60806.6796875,
+        "spot_price": 60440.55859375,
+        "perp_last_price": 60440.55859375,
+        "mark_price": 60440.55859375,
+        "index_price": 60440.55859375,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 90,
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "Precio < EMA20",
+          "RSI Bear"
         ],
-        "entry_ideal": 60798.171875,
-        "stop_loss_technical": 57228.75,
-        "target_1": 66152.3046875,
-        "target_2": 71506.4375,
+        "entry_ideal": 60440.55859375,
+        "stop_loss_technical": 61476.37109375,
+        "target_1": 58886.83984375,
+        "target_2": 57333.12109375,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
         "bias": "long",
-        "probability_pct": 90,
+        "probability_pct": 74,
         "technical_reasoning": [
           "Precio > EMA20",
-          "RSI Bull",
-          "Macro RISK_ON (Apoyo)"
+          "RSI Bull"
         ],
-        "entry_ideal": 60806.6796875,
-        "stop_loss_technical": 57228.75,
-        "target_1": 66173.57421875,
-        "target_2": 71540.46875,
+        "entry_ideal": 60440.55859375,
+        "stop_loss_technical": 57241.84375,
+        "target_1": 65238.63085938,
+        "target_2": 70036.703125,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -83,11 +81,10 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
@@ -97,11 +94,10 @@
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "amarillo",
-        "bias": "long",
-        "probability_pct": 66,
+        "semaphore": "rojo",
+        "bias": "no_trade",
+        "probability_pct": 45,
         "technical_reasoning": [
-          "Macro RISK_ON (Apoyo)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
