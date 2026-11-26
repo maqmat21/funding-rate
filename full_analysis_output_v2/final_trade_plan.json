@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-26T10:55:01.129132+00:00",
+    "generated_at_utc": "2026-11-26T19:54:39.553112+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -24,35 +24,35 @@
     "News from the Yahoo Finance Network",
     "How Many American Families Have a Net Worth of $1 Million or More?",
     "Feeling Safe After a Decade of Gains, He Keeps 80% of His $1.4 Million 401(k) in Stocks at 64. Like a Thanksgiving Turkey, He Won’t See It Coming: a 25% Drop Would Cost Him $280,000 Months Before He Retires",
-    "President Trump Just Hit Stock Market Investors With Bad News at a Bad Time",
-    "He Claimed Social Security at 62 to Pour Every $2,100 Check Into Bitcoin, Betting Growth Would Beat Waiting. Bitcoin’s November Plunge Wipes Out About a Quarter of His $50,400, and His Check Stays $900 a Month Smaller for Life",
+    "As a Rookie, Joe Burrow Said He’d Live Off Endorsements and Bank Every NFL Paycheck. A Couple at 64 Lives on Her Social Security and Savings While He Waits Until 70, Giving the Survivor a Potential $3,720 a Month for Life",
+    "Trump Says Revised GDP Numbers ‘Fake,’ Calls for Investigation",
     "‘She’ll get over it,’ my husband says: I’m 69 and giving our son’s three children $150,000 for college. Our daughter, who has no kids, is skipping Thanksgiving. Who’s right?",
-    "How Warren Buffett Makes Billions from Dividends: Top 5 Stocks",
+    "She Will Collect $2,800 a Month From Social Security at 67 and Take $60,000 a Year From a $900,000 401(k). The IRS Will Count $28,560 of Her Annual Benefits as Taxable Income",
     "Another healthy fast-food chain closes all its restaurants"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 60440.55859375,
-        "perp_last_price": 60440.55859375,
-        "mark_price": 60440.55859375,
-        "index_price": 60440.55859375,
+        "spot_price": 60665.6796875,
+        "perp_last_price": 60665.6796875,
+        "mark_price": 60665.6796875,
+        "index_price": 60665.6796875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
         "semaphore": "verde",
-        "bias": "short",
+        "bias": "long",
         "probability_pct": 74,
         "technical_reasoning": [
-          "Precio < EMA20",
-          "RSI Bear"
+          "Precio > EMA20",
+          "RSI Bull"
         ],
-        "entry_ideal": 60440.55859375,
-        "stop_loss_technical": 61476.37109375,
-        "target_1": 58886.83984375,
-        "target_2": 57333.12109375,
+        "entry_ideal": 60672.2109375,
+        "stop_loss_technical": 59846.37109375,
+        "target_1": 61910.97070312,
+        "target_2": 63149.73046875,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +63,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 60440.55859375,
+        "entry_ideal": 60665.6796875,
         "stop_loss_technical": 57241.84375,
-        "target_1": 65238.63085938,
-        "target_2": 70036.703125,
+        "target_1": 65801.43359375,
+        "target_2": 70937.1875,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
