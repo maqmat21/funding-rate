@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-27T02:30:59.174352+00:00",
+    "generated_at_utc": "2026-11-27T11:20:21.621190+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
@@ -21,38 +21,37 @@
     }
   },
   "events_considered_titles": [
+    "U.S. markets open in 3h 11m",
     "News from the Yahoo Finance Network",
-    "‘I’m broke’: LeBron James says he only has a ‘couple thousand’ in the bank despite making $585M in the NBA",
     "‘I’d Be Having My Thanksgiving Dinner at McDonald’s’: Warren Buffett Credited ‘Uncle Sam’ for Saving His Holiday — And the U.S. Economy",
+    "The Stock Market Is Flashing a Signal Seen Only 6 Times in 156 Years. History Suggests These Stocks Could Take the Biggest Hit.",
     "How Many American Families Have a Net Worth of $1 Million or More?",
-    "Stocks Are Plunging Right Now. Here's What History Says Investors Should Do.",
-    "Weeks Before His Wife Needs a Nursing Home, He Buys a $75,000 SUV Online. Medicaid Ignores One Car Whatever It Costs, Taking $75,000 Off the Savings It Expects Them to Spend Down",
-    "Feeling Safe After a Decade of Gains, He Keeps 80% of His $1.4 Million 401(k) in Stocks at 64. Like a Thanksgiving Turkey, He Won’t See It Coming: a 25% Drop Would Cost Him $280,000 Months Before He Retires",
-    "As a Rookie, Joe Burrow Said He’d Live Off Endorsements and Bank Every NFL Paycheck. A Couple at 64 Lives on Her Social Security and Savings While He Waits Until 70, Giving the Survivor a Potential $3,720 a Month for Life"
+    "Charlie Munger Said BYD Was ‘So Much Ahead Of Tesla, It’s Almost Ridiculous’ in 2023. BYD Then Outsold Tesla, But Berkshire Sold Every Share.",
+    "As a Rookie, Joe Burrow Said He’d Live Off Endorsements and Bank Every NFL Paycheck. A Couple at 64 Lives on Her Social Security and Savings While He Waits Until 70, Giving the Survivor a Potential $3,720 a Month for Life",
+    "Feeling Safe After a Decade of Gains, He Keeps 80% of His $1.4 Million 401(k) in Stocks at 64. Like a Thanksgiving Turkey, He Won’t See It Coming: a 25% Drop Would Cost Him $280,000 Months Before He Retires"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61649.05078125,
-        "perp_last_price": 61649.05078125,
-        "mark_price": 61649.05078125,
-        "index_price": 61649.05078125,
+        "spot_price": 61540.46875,
+        "perp_last_price": 61540.46875,
+        "mark_price": 61540.46875,
+        "index_price": 61540.46875,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "semaphore": "amarillo",
+        "bias": "short",
+        "probability_pct": 66,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20"
         ],
-        "entry_ideal": 61618.87109375,
-        "stop_loss_technical": 59863.05078125,
-        "target_1": 64252.6015625,
-        "target_2": 66886.33203125,
+        "entry_ideal": 61540.46875,
+        "stop_loss_technical": 62099.98828125,
+        "target_1": 60701.18945312,
+        "target_2": 59861.91015625,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
@@ -63,10 +62,10 @@
           "Precio > EMA20",
           "RSI Bull"
         ],
-        "entry_ideal": 61649.05078125,
+        "entry_ideal": 61540.46875,
         "stop_loss_technical": 57241.84375,
-        "target_1": 68259.86132812,
-        "target_2": 74870.671875,
+        "target_1": 67988.40625,
+        "target_2": 74436.34375,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
