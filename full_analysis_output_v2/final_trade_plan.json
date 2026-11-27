@@ -1,71 +1,74 @@
 {
   "meta": {
-    "generated_at_utc": "2026-11-27T11:20:21.621190+00:00",
+    "generated_at_utc": "2026-11-27T20:02:03.936957+00:00",
     "notes": [
       "Zero Nulls v3.2",
       "Macro Fallback Analysis active"
     ]
   },
   "macro_context_auto": {
-    "macro_bias": "NEUTRAL",
-    "macro_score": 50,
+    "macro_bias": "RISK_OFF",
+    "macro_score": 80,
     "assets": {
       "DXY": {
-        "price": 103.81,
+        "price": 104.014,
         "trend": "alcista"
       },
       "US10Y": {
-        "price": 4.848,
-        "trend": "bajista"
+        "price": 4.936,
+        "trend": "alcista"
       }
     }
   },
   "events_considered_titles": [
-    "U.S. markets open in 3h 11m",
     "News from the Yahoo Finance Network",
-    "‘I’d Be Having My Thanksgiving Dinner at McDonald’s’: Warren Buffett Credited ‘Uncle Sam’ for Saving His Holiday — And the U.S. Economy",
-    "The Stock Market Is Flashing a Signal Seen Only 6 Times in 156 Years. History Suggests These Stocks Could Take the Biggest Hit.",
-    "How Many American Families Have a Net Worth of $1 Million or More?",
-    "Charlie Munger Said BYD Was ‘So Much Ahead Of Tesla, It’s Almost Ridiculous’ in 2023. BYD Then Outsold Tesla, But Berkshire Sold Every Share.",
     "As a Rookie, Joe Burrow Said He’d Live Off Endorsements and Bank Every NFL Paycheck. A Couple at 64 Lives on Her Social Security and Savings While He Waits Until 70, Giving the Survivor a Potential $3,720 a Month for Life",
-    "Feeling Safe After a Decade of Gains, He Keeps 80% of His $1.4 Million 401(k) in Stocks at 64. Like a Thanksgiving Turkey, He Won’t See It Coming: a 25% Drop Would Cost Him $280,000 Months Before He Retires"
+    "‘I’d Be Having My Thanksgiving Dinner at McDonald’s’: Warren Buffett Credited ‘Uncle Sam’ for Saving His Holiday — And the U.S. Economy",
+    "She Will Collect $2,800 a Month From Social Security at 67 and Take $60,000 a Year From a $900,000 401(k). The IRS Will Count $28,560 of Her Annual Benefits as Taxable Income",
+    "Burned Out After 40 Years of 60-Hour Weeks, He Retires at 62 and Claims a $2,380 Social Security Check. Sick Within Months, He Qualifies for Disability, Restoring Most of His Full $3,400 Check: About $300,000 Over 25 Years",
+    "‘She’ll get over it,’ my husband says: I’m 69 and giving our son’s three children $150,000 for college. Our daughter, who has no kids, is skipping Thanksgiving. Who’s right?",
+    "Another healthy fast-food chain closes all its restaurants",
+    "Democrats crushed the midterms: So, what happens to Social Security now? You’re probably not prepared for the answer"
   ],
   "assets": {
     "BTCUSDT": {
       "context": {
         "asset": "BTCUSDT",
-        "spot_price": 61540.46875,
-        "perp_last_price": 61540.46875,
-        "mark_price": 61540.46875,
-        "index_price": 61540.46875,
+        "spot_price": 59774.140625,
+        "perp_last_price": 59774.140625,
+        "mark_price": 59774.140625,
+        "index_price": 59774.140625,
         "funding_rate": 0.0001,
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "amarillo",
+        "semaphore": "verde",
         "bias": "short",
-        "probability_pct": 66,
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio < EMA20"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61540.46875,
+        "entry_ideal": 59774.05859375,
         "stop_loss_technical": 62099.98828125,
-        "target_1": 60701.18945312,
-        "target_2": 59861.91015625,
+        "target_1": 56285.1640625,
+        "target_2": 52796.26953125,
         "note": "Operativa adaptativa basada en indicadores"
       },
       "final_macro": {
         "semaphore": "verde",
-        "bias": "long",
-        "probability_pct": 74,
+        "bias": "short",
+        "probability_pct": 95,
         "technical_reasoning": [
-          "Precio > EMA20",
-          "RSI Bull"
+          "Precio < EMA20",
+          "RSI Bear",
+          "Macro RISK_OFF (Presión)"
         ],
-        "entry_ideal": 61540.46875,
-        "stop_loss_technical": 57241.84375,
-        "target_1": 67988.40625,
-        "target_2": 74436.34375,
+        "entry_ideal": 59774.140625,
+        "stop_loss_technical": 64478.36328125,
+        "target_1": 52717.80664062,
+        "target_2": 45661.47265625,
         "note": "Operativa adaptativa basada en indicadores"
       }
     },
@@ -80,29 +83,31 @@
         "basis_pct_perp_minus_spot": 0.0
       },
       "final_micro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       },
       "final_macro": {
-        "semaphore": "rojo",
-        "bias": "no_trade",
-        "probability_pct": 45,
+        "semaphore": "verde",
+        "bias": "short",
+        "probability_pct": 74,
         "technical_reasoning": [
+          "Macro RISK_OFF (Presión)",
           "Análisis de Sentimiento Macro (Sin Datos Técnicos)"
         ],
         "entry_ideal": 0.112,
-        "stop_loss_technical": 0.11032,
-        "target_1": 0.11452,
-        "target_2": 0.11704,
+        "stop_loss_technical": 0.11368,
+        "target_1": 0.10948,
+        "target_2": 0.10696,
         "note": "Operativa adaptativa basada en contexto macro"
       }
     }
